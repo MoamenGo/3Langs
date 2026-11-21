@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://3lang.app/schema/level.schema.json",
+  "title": "3Lang level file",
+  "description": "One CEFR level of course content. Learner data never lives here; progress points at these ids.",
+  "type": "object",
+  "required": ["schemaVersion", "contentVersion", "level", "units", "lessons", "vocab", "sentences", "grammar", "texts"],
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(\\.[a-z0-9_]+)+$"},
+    "cefr": {"enum": ["A1", "A2", "B1", "B2", "C1"]},
+    "l10n": {
+      "type": "object",
+      "required": ["en", "nl", "es"],
+      "properties": {"en": {"type": "string"}, "nl": {"type": "string"}, "es": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "l10nPartial": {
+      "type": "object",
+      "properties": {"en": {"type": "string"}, "nl": {"type": "string"}, "es": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "audio": {
+      "type": ["object", "null"],
+      "required": ["kind", "ref"],
+      "properties": {
+        "kind": {"enum": ["tatoeba", "commonvoice", "piper", "bundled"]},
+        "ref": {"type": "string"},
+        "license": {"type": "string"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source", "license"],
+      "properties": {"source": {"type": "string"}, "license": {"type": "string"}}
+    }
+  },
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "contentVersion": {"type": "string"},
+    "level": {
+      "type": "object",
+      "required": ["id", "title", "targetHours"],
+      "properties": {
+        "id": {"$ref": "#/$defs/cefr"},
+        "title": {"$ref": "#/$defs/l10n"},
+        "targetHours": {"type": "integer", "minimum": 1},
+        "canDo": {"type": "array", "items": {"$ref": "#/$defs/l10n"}}
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "level", "order", "theme", "lessonIds"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "level": {"$ref": "#/$defs/cefr"},
+          "order": {"type": "integer", "minimum": 1},
+          "theme": {"$ref": "#/$defs/l10n"},
+          "goals": {"type": "array", "items": {"$ref": "#/$defs/l10n"}},
+          "grammarIds": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+          "lessonIds": {"type": "array", "items": {"$ref": "#/$defs/id"}}
+        }
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "unitId", "order", "type", "title", "items"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "unitId": {"$ref": "#/$defs/id"},
+          "order": {"type": "integer", "minimum": 1},
+          "type": {"enum": ["vocab", "grammar", "listening", "reading", "review", "exam"]},
+          "title": {"$ref": "#/$defs/l10n"},
+          "items": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+          "grammarId": {"$ref": "#/$defs/id"},
+          "textId": {"$ref": "#/$defs/id"}
+        }
+      }
+    },
+    "vocab": {
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "#/$defs/provenance"}],
+        "type": "object",
+        "required": ["id", "lemma", "pos", "level", "translations"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "lemma": {"type": "string", "minLength": 1},
+          "article": {"enum": ["der", "die", "das", null]},
+          "plural": {"type": ["string", "null"]},
+          "pos": {"type": "string"},
+          "level": {"$ref": "#/$defs/cefr"},
+          "freqRank": {"type": ["integer", "null"]},
+          "ipa": {"type": ["string", "null"]},
+          "audio": {"$ref": "#/$defs/audio"},
+          "translations": {"$ref": "#/$defs/l10nPartial"},
+          "sentenceIds": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+          "needsReview": {"type": "boolean"}
+        }
+      }
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "#/$defs/provenance"}],
+        "type": "object",
+        "required": ["id", "de", "translations"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "de": {"type": "string", "minLength": 1},
+          "translations": {"$ref": "#/$defs/l10nPartial"},
+          "audio": {"$ref": "#/$defs/audio"},
+          "needsReview": {"type": "boolean"}
+        }
+      }
+    },
+    "grammar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "level", "title", "explanation", "exercises"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "level": {"$ref": "#/$defs/cefr"},
+          "title": {"$ref": "#/$defs/l10n"},
+          "explanation": {"$ref": "#/$defs/l10n"},
+          "table": {
+            "type": "object",
+            "required": ["headers", "rows"],
+            "properties": {
+              "headers": {"type": "array", "items": {"type": "string"}},
+              "rows": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}
+            }
+          },
+          "exampleSentenceIds": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+          "exercises": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type", "prompt", "answer"],
+              "properties": {
+                "type": {"enum": ["fill_blank", "choice", "order_words"]},
+                "prompt": {"type": "string"},
+                "answer": {"type": "string"},
+                "base": {"type": "string"},
+                "options": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          }
+        }
+      }
+    },
+    "texts": {
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "#/$defs/provenance"}],
+        "type": "object",
+        "required": ["id", "level", "kind", "title"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "level": {"$ref": "#/$defs/cefr"},
+          "kind": {"enum": ["reading", "listening", "external"]},
+          "title": {"type": "string"},
+          "body": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "translation": {"$ref": "#/$defs/l10nPartial"},
+          "glossary": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["question", "options", "answer"],
+              "properties": {
+                "question": {"type": "string"},
+                "options": {"type": "array", "items": {"type": "string"}, "minItems": 2},
+                "answer": {"type": "integer", "minimum": 0}
+              }
+            }
+          }
+        }
+      }
+    },
+    "writingPrompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "level", "prompt"],
+        "properties": {
+          "id": {"$ref": "#/$defs/id"},
+          "level": {"$ref": "#/$defs/cefr"},
+          "prompt": {"$ref": "#/$defs/l10n"},
+          "minWords": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "credits": {
+      "type": "array",
+      "items": {"type": "object", "required": ["name", "license"],
+                "properties": {"name": {"type": "string"}, "license": {"type": "string"}, "url": {"type": "string"}}}
+    }
+  }
+}

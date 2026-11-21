@@ -1,0 +1,1218 @@
+{
+ "description": "24-month A1 to C1 outline. Hours assume about 2 hours a day, 6 days a week (~52 h/month).",
+ "totalHours": 1250,
+ "levels": [
+  {
+   "id": "A1",
+   "title": {
+    "en": "A1 Beginner",
+    "nl": "A1 Beginner",
+    "es": "A1 Principiante"
+   },
+   "targetHours": 150,
+   "months": [
+    1,
+    3
+   ],
+   "units": [
+    {
+     "order": 1,
+     "theme": {
+      "en": "Greetings and introductions",
+      "nl": "Begroeten en voorstellen",
+      "es": "Saludos y presentaciones"
+     },
+     "keywords": [
+      "hello",
+      "name",
+      "come",
+      "live"
+     ],
+     "grammarTopics": [
+      "present tense: sein, heißen, regular verbs",
+      "du vs. Sie"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 2,
+     "theme": {
+      "en": "Family and numbers",
+      "nl": "Familie en getallen",
+      "es": "Familia y números"
+     },
+     "keywords": [
+      "family",
+      "mother",
+      "father",
+      "number"
+     ],
+     "grammarTopics": [
+      "haben",
+      "possessive articles mein/dein",
+      "numbers 1-100"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 3,
+     "theme": {
+      "en": "Home and living",
+      "nl": "Wonen",
+      "es": "La casa"
+     },
+     "keywords": [
+      "house",
+      "room",
+      "flat",
+      "kitchen"
+     ],
+     "grammarTopics": [
+      "definite and indefinite articles",
+      "noun gender and plural"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 4,
+     "theme": {
+      "en": "Food and drink",
+      "nl": "Eten en drinken",
+      "es": "Comida y bebida"
+     },
+     "keywords": [
+      "eat",
+      "drink",
+      "bread",
+      "water"
+     ],
+     "grammarTopics": [
+      "accusative case",
+      "möchten"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 5,
+     "theme": {
+      "en": "Shopping and prices",
+      "nl": "Winkelen en prijzen",
+      "es": "Compras y precios"
+     },
+     "keywords": [
+      "buy",
+      "shop",
+      "price",
+      "money"
+     ],
+     "grammarTopics": [
+      "kein vs. nicht",
+      "numbers and prices"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 6,
+     "theme": {
+      "en": "Daily routine and time",
+      "nl": "Dagelijkse routine en tijd",
+      "es": "Rutina diaria y la hora"
+     },
+     "keywords": [
+      "time",
+      "day",
+      "morning",
+      "clock"
+     ],
+     "grammarTopics": [
+      "separable verbs",
+      "telling the time",
+      "word order: verb second"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 7,
+     "theme": {
+      "en": "Free time and hobbies",
+      "nl": "Vrije tijd en hobby's",
+      "es": "Tiempo libre y aficiones"
+     },
+     "keywords": [
+      "play",
+      "music",
+      "sport",
+      "like"
+     ],
+     "grammarTopics": [
+      "gern",
+      "modal verbs können, wollen"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 8,
+     "theme": {
+      "en": "In the city",
+      "nl": "In de stad",
+      "es": "En la ciudad"
+     },
+     "keywords": [
+      "street",
+      "station",
+      "bank",
+      "way"
+     ],
+     "grammarTopics": [
+      "imperative",
+      "prepositions with dative: in, an, bei"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 9,
+     "theme": {
+      "en": "Travel and transport",
+      "nl": "Reizen en vervoer",
+      "es": "Viajes y transporte"
+     },
+     "keywords": [
+      "train",
+      "bus",
+      "ticket",
+      "travel"
+     ],
+     "grammarTopics": [
+      "modal verbs müssen, dürfen",
+      "dative case basics"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 10,
+     "theme": {
+      "en": "Health and body",
+      "nl": "Gezondheid en lichaam",
+      "es": "Salud y cuerpo"
+     },
+     "keywords": [
+      "body",
+      "doctor",
+      "head",
+      "sick"
+     ],
+     "grammarTopics": [
+      "sollen",
+      "personal pronouns in accusative"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 11,
+     "theme": {
+      "en": "Work and school",
+      "nl": "Werk en school",
+      "es": "Trabajo y escuela"
+     },
+     "keywords": [
+      "work",
+      "job",
+      "school",
+      "learn"
+     ],
+     "grammarTopics": [
+      "perfect tense with haben",
+      "question words"
+     ],
+     "newWords": 60
+    },
+    {
+     "order": 12,
+     "theme": {
+      "en": "A1 review and mock exam",
+      "nl": "A1 herhaling en proefexamen",
+      "es": "Repaso A1 y examen de prueba"
+     },
+     "keywords": [],
+     "grammarTopics": [],
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "title": {
+    "en": "A2 Elementary",
+    "nl": "A2 Elementair",
+    "es": "A2 Elemental"
+   },
+   "targetHours": 200,
+   "months": [
+    4,
+    7
+   ],
+   "units": [
+    {
+     "order": 1,
+     "theme": {
+      "en": "My life story",
+      "nl": "Mijn levensverhaal",
+      "es": "Mi historia"
+     },
+     "keywords": [
+      "born",
+      "childhood",
+      "year"
+     ],
+     "grammarTopics": [
+      "perfect tense with sein",
+      "Präteritum of sein and haben"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 2,
+     "theme": {
+      "en": "Friends and relationships",
+      "nl": "Vrienden en relaties",
+      "es": "Amigos y relaciones"
+     },
+     "keywords": [
+      "friend",
+      "love",
+      "party"
+     ],
+     "grammarTopics": [
+      "dative verbs",
+      "reflexive verbs"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 3,
+     "theme": {
+      "en": "Clothes and appearance",
+      "nl": "Kleding en uiterlijk",
+      "es": "Ropa y apariencia"
+     },
+     "keywords": [
+      "clothes",
+      "wear",
+      "colour"
+     ],
+     "grammarTopics": [
+      "adjective endings (nominative, accusative)",
+      "welch-/dies-"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 4,
+     "theme": {
+      "en": "Living and moving house",
+      "nl": "Wonen en verhuizen",
+      "es": "Vivir y mudarse"
+     },
+     "keywords": [
+      "move",
+      "rent",
+      "furniture"
+     ],
+     "grammarTopics": [
+      "two-way prepositions",
+      "stellen/stehen, legen/liegen"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 5,
+     "theme": {
+      "en": "Work life",
+      "nl": "Werkleven",
+      "es": "Vida laboral"
+     },
+     "keywords": [
+      "office",
+      "colleague",
+      "meeting"
+     ],
+     "grammarTopics": [
+      "subordinate clauses with weil, dass",
+      "Konjunktiv II: würde, hätte, wäre"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 6,
+     "theme": {
+      "en": "Media and technology",
+      "nl": "Media en technologie",
+      "es": "Medios y tecnología"
+     },
+     "keywords": [
+      "phone",
+      "computer",
+      "internet"
+     ],
+     "grammarTopics": [
+      "comparative and superlative",
+      "wenn clauses"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 7,
+     "theme": {
+      "en": "Health and fitness",
+      "nl": "Gezondheid en fitness",
+      "es": "Salud y forma física"
+     },
+     "keywords": [
+      "healthy",
+      "exercise",
+      "pain"
+     ],
+     "grammarTopics": [
+      "reflexive verbs with dative",
+      "sollte"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 8,
+     "theme": {
+      "en": "Travel and holidays",
+      "nl": "Reizen en vakantie",
+      "es": "Viajes y vacaciones"
+     },
+     "keywords": [
+      "holiday",
+      "hotel",
+      "weather"
+     ],
+     "grammarTopics": [
+      "genitive basics",
+      "prepositions of place"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 9,
+     "theme": {
+      "en": "Food culture",
+      "nl": "Eetcultuur",
+      "es": "Cultura gastronómica"
+     },
+     "keywords": [
+      "restaurant",
+      "recipe",
+      "cook"
+     ],
+     "grammarTopics": [
+      "adjective endings (dative)",
+      "indefinite pronouns"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 10,
+     "theme": {
+      "en": "Services and authorities",
+      "nl": "Diensten en instanties",
+      "es": "Servicios y trámites"
+     },
+     "keywords": [
+      "office",
+      "form",
+      "appointment"
+     ],
+     "grammarTopics": [
+      "indirect questions with ob, wo",
+      "passive present (intro)"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 11,
+     "theme": {
+      "en": "Celebrations and traditions",
+      "nl": "Feesten en tradities",
+      "es": "Fiestas y tradiciones"
+     },
+     "keywords": [
+      "festival",
+      "birthday",
+      "gift"
+     ],
+     "grammarTopics": [
+      "dates and ordinal numbers",
+      "als vs. wenn"
+     ],
+     "newWords": 80
+    },
+    {
+     "order": 12,
+     "theme": {
+      "en": "A2 review and mock exam",
+      "nl": "A2 herhaling en proefexamen",
+      "es": "Repaso A2 y examen de prueba"
+     },
+     "keywords": [],
+     "grammarTopics": [],
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "title": {
+    "en": "B1 Intermediate",
+    "nl": "B1 Gevorderd beginner",
+    "es": "B1 Intermedio"
+   },
+   "targetHours": 330,
+   "months": [
+    8,
+    13
+   ],
+   "units": [
+    {
+     "order": 1,
+     "theme": {
+      "en": "Education and learning",
+      "nl": "Onderwijs en leren",
+      "es": "Educación y aprendizaje"
+     },
+     "keywords": [
+      "study",
+      "university",
+      "course"
+     ],
+     "grammarTopics": [
+      "Präteritum of regular and irregular verbs"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 2,
+     "theme": {
+      "en": "Job search and applications",
+      "nl": "Werk zoeken en solliciteren",
+      "es": "Búsqueda de empleo"
+     },
+     "keywords": [
+      "application",
+      "interview",
+      "career"
+     ],
+     "grammarTopics": [
+      "relative clauses (nominative, accusative)"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 3,
+     "theme": {
+      "en": "Living together",
+      "nl": "Samenleven",
+      "es": "Convivencia"
+     },
+     "keywords": [
+      "neighbour",
+      "rule",
+      "share"
+     ],
+     "grammarTopics": [
+      "relative clauses with prepositions",
+      "lassen"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 4,
+     "theme": {
+      "en": "Consumption and money",
+      "nl": "Consumptie en geld",
+      "es": "Consumo y dinero"
+     },
+     "keywords": [
+      "bank",
+      "save",
+      "pay"
+     ],
+     "grammarTopics": [
+      "passive with modal verbs",
+      "n-declension"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 5,
+     "theme": {
+      "en": "Environment and nature",
+      "nl": "Milieu en natuur",
+      "es": "Medio ambiente y naturaleza"
+     },
+     "keywords": [
+      "environment",
+      "climate",
+      "nature"
+     ],
+     "grammarTopics": [
+      "passive (all tenses)",
+      "werden as main verb"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 6,
+     "theme": {
+      "en": "Media and news",
+      "nl": "Media en nieuws",
+      "es": "Medios y noticias"
+     },
+     "keywords": [
+      "news",
+      "newspaper",
+      "report"
+     ],
+     "grammarTopics": [
+      "indirect speech (intro)",
+      "obwohl, trotzdem"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 7,
+     "theme": {
+      "en": "Health system",
+      "nl": "Gezondheidszorg",
+      "es": "Sistema sanitario"
+     },
+     "keywords": [
+      "hospital",
+      "insurance",
+      "therapy"
+     ],
+     "grammarTopics": [
+      "infinitive with zu",
+      "um ... zu, damit"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 8,
+     "theme": {
+      "en": "Culture and art",
+      "nl": "Cultuur en kunst",
+      "es": "Cultura y arte"
+     },
+     "keywords": [
+      "museum",
+      "film",
+      "book"
+     ],
+     "grammarTopics": [
+      "Plusquamperfekt",
+      "nachdem, bevor"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 9,
+     "theme": {
+      "en": "Travel and mobility",
+      "nl": "Reizen en mobiliteit",
+      "es": "Viajes y movilidad"
+     },
+     "keywords": [
+      "traffic",
+      "car",
+      "delay"
+     ],
+     "grammarTopics": [
+      "genitive and genitive prepositions",
+      "während, wegen"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 10,
+     "theme": {
+      "en": "Politics and society",
+      "nl": "Politiek en samenleving",
+      "es": "Política y sociedad"
+     },
+     "keywords": [
+      "government",
+      "vote",
+      "law"
+     ],
+     "grammarTopics": [
+      "Konjunktiv II past",
+      "je ... desto"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 11,
+     "theme": {
+      "en": "Relationships and feelings",
+      "nl": "Relaties en gevoelens",
+      "es": "Relaciones y sentimientos"
+     },
+     "keywords": [
+      "feel",
+      "angry",
+      "happy"
+     ],
+     "grammarTopics": [
+      "verbs with prepositions",
+      "da-/wo- compounds"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 12,
+     "theme": {
+      "en": "Science and technology",
+      "nl": "Wetenschap en technologie",
+      "es": "Ciencia y tecnología"
+     },
+     "keywords": [
+      "research",
+      "invent",
+      "machine"
+     ],
+     "grammarTopics": [
+      "participles as adjectives"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 13,
+     "theme": {
+      "en": "Sport and leisure",
+      "nl": "Sport en vrije tijd",
+      "es": "Deporte y ocio"
+     },
+     "keywords": [
+      "team",
+      "match",
+      "competition"
+     ],
+     "grammarTopics": [
+      "two-part conjunctions: sowohl ... als auch, weder ... noch"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 14,
+     "theme": {
+      "en": "Living abroad",
+      "nl": "Wonen in het buitenland",
+      "es": "Vivir en el extranjero"
+     },
+     "keywords": [
+      "foreign",
+      "culture",
+      "integration"
+     ],
+     "grammarTopics": [
+      "future tense with werden"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 15,
+     "theme": {
+      "en": "Formal letters and emails",
+      "nl": "Formele brieven en e-mails",
+      "es": "Cartas y correos formales"
+     },
+     "keywords": [
+      "letter",
+      "request",
+      "complaint"
+     ],
+     "grammarTopics": [
+      "nominal style basics",
+      "formal register"
+     ],
+     "newWords": 90
+    },
+    {
+     "order": 16,
+     "theme": {
+      "en": "B1 review and mock exam",
+      "nl": "B1 herhaling en proefexamen",
+      "es": "Repaso B1 y examen de prueba"
+     },
+     "keywords": [],
+     "grammarTopics": [],
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "title": {
+    "en": "B2 Upper intermediate",
+    "nl": "B2 Hoger gevorderd",
+    "es": "B2 Intermedio alto"
+   },
+   "targetHours": 320,
+   "months": [
+    14,
+    19
+   ],
+   "units": [
+    {
+     "order": 1,
+     "theme": {
+      "en": "Work and careers",
+      "nl": "Werk en loopbaan",
+      "es": "Trabajo y carrera"
+     },
+     "keywords": [
+      "career",
+      "company",
+      "management"
+     ],
+     "grammarTopics": [
+      "nominalisation"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 2,
+     "theme": {
+      "en": "Economy and globalisation",
+      "nl": "Economie en globalisering",
+      "es": "Economía y globalización"
+     },
+     "keywords": [
+      "market",
+      "trade",
+      "economy"
+     ],
+     "grammarTopics": [
+      "extended participle attributes"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 3,
+     "theme": {
+      "en": "Science and research",
+      "nl": "Wetenschap en onderzoek",
+      "es": "Ciencia e investigación"
+     },
+     "keywords": [
+      "experiment",
+      "theory",
+      "result"
+     ],
+     "grammarTopics": [
+      "passive alternatives: sich lassen, -bar, sein + zu"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 4,
+     "theme": {
+      "en": "Media literacy",
+      "nl": "Mediawijsheid",
+      "es": "Alfabetización mediática"
+     },
+     "keywords": [
+      "opinion",
+      "source",
+      "fake"
+     ],
+     "grammarTopics": [
+      "indirect speech: Konjunktiv I"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 5,
+     "theme": {
+      "en": "Society and values",
+      "nl": "Samenleving en waarden",
+      "es": "Sociedad y valores"
+     },
+     "keywords": [
+      "value",
+      "equality",
+      "tradition"
+     ],
+     "grammarTopics": [
+      "modal particles: doch, mal, ja, eben"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 6,
+     "theme": {
+      "en": "Environment and the future",
+      "nl": "Milieu en toekomst",
+      "es": "Medio ambiente y futuro"
+     },
+     "keywords": [
+      "energy",
+      "sustainable",
+      "future"
+     ],
+     "grammarTopics": [
+      "future II and assumptions"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 7,
+     "theme": {
+      "en": "Health and psychology",
+      "nl": "Gezondheid en psychologie",
+      "es": "Salud y psicología"
+     },
+     "keywords": [
+      "stress",
+      "mind",
+      "behaviour"
+     ],
+     "grammarTopics": [
+      "subjective use of modal verbs"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 8,
+     "theme": {
+      "en": "History",
+      "nl": "Geschiedenis",
+      "es": "Historia"
+     },
+     "keywords": [
+      "war",
+      "century",
+      "history"
+     ],
+     "grammarTopics": [
+      "Präteritum in narrative texts"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 9,
+     "theme": {
+      "en": "Art and literature",
+      "nl": "Kunst en literatuur",
+      "es": "Arte y literatura"
+     },
+     "keywords": [
+      "novel",
+      "poem",
+      "author"
+     ],
+     "grammarTopics": [
+      "word formation: prefixes and suffixes"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 10,
+     "theme": {
+      "en": "Law and everyday life",
+      "nl": "Recht en dagelijks leven",
+      "es": "Derecho y vida cotidiana"
+     },
+     "keywords": [
+      "contract",
+      "right",
+      "court"
+     ],
+     "grammarTopics": [
+      "prepositions with genitive"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 11,
+     "theme": {
+      "en": "Digital world",
+      "nl": "Digitale wereld",
+      "es": "Mundo digital"
+     },
+     "keywords": [
+      "data",
+      "privacy",
+      "app"
+     ],
+     "grammarTopics": [
+      "connectors: folglich, dennoch, zumal"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 12,
+     "theme": {
+      "en": "Language and communication",
+      "nl": "Taal en communicatie",
+      "es": "Lengua y comunicación"
+     },
+     "keywords": [
+      "dialect",
+      "language",
+      "conversation"
+     ],
+     "grammarTopics": [
+      "register and politeness"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 13,
+     "theme": {
+      "en": "Arguing and discussing",
+      "nl": "Argumenteren en discussiëren",
+      "es": "Argumentar y debatir"
+     },
+     "keywords": [
+      "argument",
+      "agree",
+      "debate"
+     ],
+     "grammarTopics": [
+      "structuring an argument"
+     ],
+     "newWords": 110
+    },
+    {
+     "order": 14,
+     "theme": {
+      "en": "B2 review and mock exam",
+      "nl": "B2 herhaling en proefexamen",
+      "es": "Repaso B2 y examen de prueba"
+     },
+     "keywords": [],
+     "grammarTopics": [],
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "title": {
+    "en": "C1 Advanced",
+    "nl": "C1 Vergevorderd",
+    "es": "C1 Avanzado"
+   },
+   "targetHours": 250,
+   "months": [
+    20,
+    24
+   ],
+   "units": [
+    {
+     "order": 1,
+     "theme": {
+      "en": "Academic language",
+      "nl": "Academische taal",
+      "es": "Lenguaje académico"
+     },
+     "keywords": [
+      "thesis",
+      "analysis",
+      "lecture"
+     ],
+     "grammarTopics": [
+      "academic nominal style"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 2,
+     "theme": {
+      "en": "Philosophy and ethics",
+      "nl": "Filosofie en ethiek",
+      "es": "Filosofía y ética"
+     },
+     "keywords": [
+      "moral",
+      "freedom",
+      "responsibility"
+     ],
+     "grammarTopics": [
+      "complex subordinate clauses"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 3,
+     "theme": {
+      "en": "Business German",
+      "nl": "Zakelijk Duits",
+      "es": "Alemán de negocios"
+     },
+     "keywords": [
+      "negotiation",
+      "contract",
+      "client"
+     ],
+     "grammarTopics": [
+      "functional verb structures (Funktionsverbgefüge)"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 4,
+     "theme": {
+      "en": "Politics and the EU",
+      "nl": "Politiek en de EU",
+      "es": "Política y la UE"
+     },
+     "keywords": [
+      "parliament",
+      "policy",
+      "union"
+     ],
+     "grammarTopics": [
+      "Konjunktiv I in reporting"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 5,
+     "theme": {
+      "en": "Science communication",
+      "nl": "Wetenschapscommunicatie",
+      "es": "Divulgación científica"
+     },
+     "keywords": [
+      "study",
+      "evidence",
+      "method"
+     ],
+     "grammarTopics": [
+      "hedging and stance"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 6,
+     "theme": {
+      "en": "Literature and film",
+      "nl": "Literatuur en film",
+      "es": "Literatura y cine"
+     },
+     "keywords": [
+      "scene",
+      "character",
+      "plot"
+     ],
+     "grammarTopics": [
+      "stylistic devices"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 7,
+     "theme": {
+      "en": "Migration and identity",
+      "nl": "Migratie en identiteit",
+      "es": "Migración e identidad"
+     },
+     "keywords": [
+      "identity",
+      "home",
+      "belonging"
+     ],
+     "grammarTopics": [
+      "advanced connectors"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 8,
+     "theme": {
+      "en": "Humour and idioms",
+      "nl": "Humor en uitdrukkingen",
+      "es": "Humor y modismos"
+     },
+     "keywords": [
+      "joke",
+      "idiom",
+      "irony"
+     ],
+     "grammarTopics": [
+      "idiomatic expressions"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 9,
+     "theme": {
+      "en": "Technology and ethics",
+      "nl": "Technologie en ethiek",
+      "es": "Tecnología y ética"
+     },
+     "keywords": [
+      "artificial",
+      "robot",
+      "risk"
+     ],
+     "grammarTopics": [
+      "advanced passive and participle constructions"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 10,
+     "theme": {
+      "en": "Regional German",
+      "nl": "Regionaal Duits",
+      "es": "Alemán regional"
+     },
+     "keywords": [
+      "Austria",
+      "Switzerland",
+      "dialect"
+     ],
+     "grammarTopics": [
+      "regional variation"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 11,
+     "theme": {
+      "en": "Presenting and debating",
+      "nl": "Presenteren en debatteren",
+      "es": "Presentar y debatir"
+     },
+     "keywords": [
+      "presentation",
+      "audience",
+      "conclusion"
+     ],
+     "grammarTopics": [
+      "discourse markers"
+     ],
+     "newWords": 120
+    },
+    {
+     "order": 12,
+     "theme": {
+      "en": "C1 review and mock exam",
+      "nl": "C1 herhaling en proefexamen",
+      "es": "Repaso C1 y examen de prueba"
+     },
+     "keywords": [],
+     "grammarTopics": [],
+     "newWords": 0
+    }
+   ]
+  }
+ ]
+}

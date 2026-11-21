@@ -1,0 +1,226 @@
+{
+  "@@locale": "en",
+  "appTitle": "3Lang",
+  "navHome": "Home",
+  "navCourse": "Course",
+  "navPractice": "Practice",
+  "navProgress": "Progress",
+  "todayGoal": "Today: {minutes} of {goal} min",
+  "@todayGoal": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "streakDays": "{count, plural, =1{1-day streak} other{{count}-day streak}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "cardsDue": "{count, plural, =0{No cards due} =1{1 card due} other{{count} cards due}}",
+  "@cardsDue": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "startReview": "Review now",
+  "continueLearning": "Continue learning",
+  "allLessonsDone": "All available lessons are done. New units are on the way.",
+  "unitN": "Unit {n}",
+  "@unitN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "comingSoon": "Coming soon",
+  "monthsRange": "Months {from}–{to}",
+  "@monthsRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursShort": "{hours} h",
+  "@hoursShort": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonVocab": "New words",
+  "lessonGrammar": "Grammar",
+  "lessonListening": "Listening",
+  "lessonReading": "Reading",
+  "lessonReview": "Review",
+  "lessonExam": "Mock exam",
+  "lessonWriting": "Writing",
+  "lessonSpeaking": "Speaking",
+  "flashcards": "Flashcards",
+  "next": "Next",
+  "check": "Check",
+  "correct": "Correct!",
+  "wrongAnswer": "Not quite. Answer: {answer}",
+  "@wrongAnswer": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "lessonDone": "Lesson complete!",
+  "scoreLabel": "Score: {percent}%",
+  "@scoreLabel": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "wordsAddedToReview": "{count, plural, =0{No new words for your review cards} =1{1 word added to your review cards} other{{count} words added to your review cards}}",
+  "@wordsAddedToReview": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "backToCourse": "Back to course",
+  "whichMeans": "Which German word means “{word}”?",
+  "@whichMeans": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "example": "Example",
+  "plural": "Plural: {plural}",
+  "@plural": {
+    "placeholders": {
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "showAnswer": "Show answer",
+  "rateAgain": "Again",
+  "rateHard": "Hard",
+  "rateGood": "Good",
+  "rateEasy": "Easy",
+  "reviewDone": "All done for now! Come back later for more.",
+  "reviewEmpty": "No cards yet. Finish a lesson to add words.",
+  "listenAndType": "Listen and type what you hear",
+  "playAudio": "Play",
+  "playSlow": "Slow",
+  "typeHere": "Type in German",
+  "showTranslation": "Show translation",
+  "glossary": "Words",
+  "questions": "Questions",
+  "openLink": "Open in browser",
+  "externalHint": "This is a free external resource. Open it in your browser.",
+  "writingCheck": "Check my German",
+  "noIssues": "No problems found. Gut gemacht!",
+  "wordCount": "{count} words",
+  "@wordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "checkFailed": "Couldn't check right now. Are you online?",
+  "speakingIntro": "Listen, then say the sentence out loud. How did it go?",
+  "totalHours": "{hours} hours studied",
+  "@totalHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "wordsKnown": "{count} words known",
+  "@wordsKnown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonsCompleted": "{done} of {total} lessons",
+  "@lessonsCompleted": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "last7Days": "Last 7 days",
+  "courseTimeline": "Your 2-year path",
+  "settings": "Settings",
+  "appLanguage": "App language",
+  "explanationLanguage": "Explanation language",
+  "dailyGoal": "Daily goal",
+  "minutesShort": "{n} min",
+  "@minutesShort": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "newCardsPerDay": "New cards per day",
+  "account": "Account and sync",
+  "signIn": "Sign in to sync",
+  "signOut": "Sign out",
+  "signedInAs": "Signed in as {email}",
+  "@signedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNow": "Sync now",
+  "lastSynced": "Last synced {time}",
+  "@lastSynced": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "syncDisabled": "Sync is off: this build has no Supabase settings. Everything is saved on this device.",
+  "email": "Email",
+  "password": "Password",
+  "createAccount": "Create account",
+  "checkEmail": "Check your email to confirm your account.",
+  "about": "About and credits",
+  "aboutText": "3Lang uses only free and openly licensed content. Every word and sentence keeps its source and licence, listed below.",
+  "errorMessage": "Something went wrong: {message}",
+  "@errorMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  }
+}

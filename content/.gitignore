@@ -1,0 +1,4 @@
+data/raw/
+data/work/
+build/audio/
+__pycache__/

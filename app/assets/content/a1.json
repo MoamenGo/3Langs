@@ -1,0 +1,1507 @@
+{
+ "schemaVersion": 1,
+ "contentVersion": "2026.11.21-starter",
+ "level": {
+  "id": "A1",
+  "title": {
+   "en": "A1 Beginner",
+   "nl": "A1 Beginner",
+   "es": "A1 Principiante"
+  },
+  "targetHours": 150,
+  "canDo": [
+   {
+    "en": "Introduce yourself and others",
+    "nl": "Jezelf en anderen voorstellen",
+    "es": "Presentarte a ti y a otros"
+   },
+   {
+    "en": "Ask and answer simple personal questions",
+    "nl": "Eenvoudige persoonlijke vragen stellen en beantwoorden",
+    "es": "Hacer y responder preguntas personales sencillas"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "a1.u01",
+   "level": "A1",
+   "order": 1,
+   "theme": {
+    "en": "Hello! Greetings and introductions",
+    "nl": "Hallo! Begroeten en voorstellen",
+    "es": "¡Hola! Saludos y presentaciones"
+   },
+   "goals": [
+    {
+     "en": "Greet people and say goodbye",
+     "nl": "Mensen begroeten en afscheid nemen",
+     "es": "Saludar y despedirse"
+    },
+    {
+     "en": "Say your name, where you're from and where you live",
+     "nl": "Je naam zeggen, waar je vandaan komt en waar je woont",
+     "es": "Decir tu nombre, de dónde eres y dónde vives"
+    }
+   ],
+   "grammarIds": [
+    "a1.gram.present_sein_heissen"
+   ],
+   "lessonIds": [
+    "a1.u01.l01",
+    "a1.u01.l02",
+    "a1.u01.l03",
+    "a1.u01.l04",
+    "a1.u01.l05",
+    "a1.u01.l06"
+   ]
+  },
+  {
+   "id": "a1.u02",
+   "level": "A1",
+   "order": 2,
+   "theme": {
+    "en": "Family and numbers",
+    "nl": "Familie en getallen",
+    "es": "Familia y números"
+   },
+   "goals": [
+    {
+     "en": "Talk about your family",
+     "nl": "Over je familie praten",
+     "es": "Hablar de tu familia"
+    },
+    {
+     "en": "Count from 1 to 20",
+     "nl": "Tellen van 1 tot 20",
+     "es": "Contar del 1 al 20"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "a1.u02.l01"
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "id": "a1.u01.l01",
+   "unitId": "a1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Hello and goodbye",
+    "nl": "Hallo en tot ziens",
+    "es": "Hola y adiós"
+   },
+   "items": [
+    "a1.vocab.hallo",
+    "a1.vocab.tschuess",
+    "a1.vocab.guten_morgen",
+    "a1.vocab.guten_tag",
+    "a1.vocab.guten_abend",
+    "a1.vocab.auf_wiedersehen",
+    "a1.vocab.danke",
+    "a1.vocab.bitte",
+    "a1.vocab.ja",
+    "a1.vocab.nein",
+    "a1.vocab.entschuldigung",
+    "a1.vocab.gut"
+   ]
+  },
+  {
+   "id": "a1.u01.l02",
+   "unitId": "a1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Who are you?",
+    "nl": "Wie ben jij?",
+    "es": "¿Quién eres?"
+   },
+   "items": [
+    "a1.vocab.name",
+    "a1.vocab.heissen",
+    "a1.vocab.sein",
+    "a1.vocab.kommen",
+    "a1.vocab.aus",
+    "a1.vocab.wohnen",
+    "a1.vocab.in",
+    "a1.vocab.ich",
+    "a1.vocab.du",
+    "a1.vocab.sie",
+    "a1.vocab.wie",
+    "a1.vocab.woher",
+    "a1.vocab.land",
+    "a1.vocab.stadt"
+   ]
+  },
+  {
+   "id": "a1.u01.l03",
+   "unitId": "a1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "I am, you are",
+    "nl": "Ik ben, jij bent",
+    "es": "Yo soy, tú eres"
+   },
+   "grammarId": "a1.gram.present_sein_heissen",
+   "items": []
+  },
+  {
+   "id": "a1.u01.l04",
+   "unitId": "a1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: first conversations",
+    "nl": "Luisteren: eerste gesprekken",
+    "es": "Escuchar: primeras conversaciones"
+   },
+   "items": [
+    "a1.sent.s001",
+    "a1.sent.s002",
+    "a1.sent.s004",
+    "a1.sent.s005",
+    "a1.sent.s006",
+    "a1.sent.s008",
+    "a1.sent.s012",
+    "a1.sent.s014"
+   ]
+  },
+  {
+   "id": "a1.u01.l05",
+   "unitId": "a1.u01",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "en": "Read: Sara in Berlin",
+    "nl": "Lezen: Sara in Berlijn",
+    "es": "Leer: Sara en Berlín"
+   },
+   "textId": "a1.text.sara",
+   "items": []
+  },
+  {
+   "id": "a1.u01.l06",
+   "unitId": "a1.u01",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "nl": "Herhaling unit 1",
+    "es": "Repaso de la unidad 1"
+   },
+   "items": [
+    "a1.vocab.hallo",
+    "a1.vocab.tschuess",
+    "a1.vocab.guten_morgen",
+    "a1.vocab.guten_tag",
+    "a1.vocab.guten_abend",
+    "a1.vocab.auf_wiedersehen",
+    "a1.vocab.danke",
+    "a1.vocab.bitte",
+    "a1.vocab.ja",
+    "a1.vocab.nein",
+    "a1.vocab.entschuldigung",
+    "a1.vocab.gut",
+    "a1.vocab.name",
+    "a1.vocab.heissen",
+    "a1.vocab.sein",
+    "a1.vocab.kommen",
+    "a1.vocab.aus",
+    "a1.vocab.wohnen",
+    "a1.vocab.in",
+    "a1.vocab.ich",
+    "a1.vocab.du",
+    "a1.vocab.sie",
+    "a1.vocab.wie",
+    "a1.vocab.woher",
+    "a1.vocab.land",
+    "a1.vocab.stadt"
+   ]
+  },
+  {
+   "id": "a1.u02.l01",
+   "unitId": "a1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "My family",
+    "nl": "Mijn familie",
+    "es": "Mi familia"
+   },
+   "items": [
+    "a1.vocab.familie",
+    "a1.vocab.mutter",
+    "a1.vocab.vater",
+    "a1.vocab.bruder",
+    "a1.vocab.schwester",
+    "a1.vocab.kind",
+    "a1.vocab.haben",
+    "a1.vocab.eins",
+    "a1.vocab.zwei",
+    "a1.vocab.drei"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "a1.vocab.hallo",
+   "lemma": "hallo",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": 210,
+   "translations": {
+    "en": "hello",
+    "nl": "hallo",
+    "es": "hola"
+   },
+   "sentenceIds": [
+    "a1.sent.s001"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.tschuess",
+   "lemma": "tschüss",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": 1900,
+   "translations": {
+    "en": "bye",
+    "nl": "doei",
+    "es": "adiós, chao"
+   },
+   "sentenceIds": [
+    "a1.sent.s016"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.guten_morgen",
+   "lemma": "guten Morgen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "en": "good morning",
+    "nl": "goedemorgen",
+    "es": "buenos días"
+   },
+   "sentenceIds": [
+    "a1.sent.s009"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.guten_tag",
+   "lemma": "guten Tag",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "en": "hello, good day",
+    "nl": "goedendag",
+    "es": "buenos días, buenas tardes"
+   },
+   "sentenceIds": [
+    "a1.sent.s018"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.guten_abend",
+   "lemma": "guten Abend",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "en": "good evening",
+    "nl": "goedenavond",
+    "es": "buenas noches"
+   },
+   "sentenceIds": [
+    "a1.sent.s019"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.auf_wiedersehen",
+   "lemma": "auf Wiedersehen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "en": "goodbye",
+    "nl": "tot ziens",
+    "es": "adiós, hasta la vista"
+   },
+   "sentenceIds": [
+    "a1.sent.s010"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.danke",
+   "lemma": "danke",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": 180,
+   "translations": {
+    "en": "thank you",
+    "nl": "dank je, bedankt",
+    "es": "gracias"
+   },
+   "sentenceIds": [
+    "a1.sent.s008",
+    "a1.sent.s017"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.bitte",
+   "lemma": "bitte",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": 150,
+   "translations": {
+    "en": "please; you're welcome",
+    "nl": "alsjeblieft; graag gedaan",
+    "es": "por favor; de nada"
+   },
+   "sentenceIds": [
+    "a1.sent.s017"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.ja",
+   "lemma": "ja",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": 20,
+   "translations": {
+    "en": "yes",
+    "nl": "ja",
+    "es": "sí"
+   },
+   "sentenceIds": [
+    "a1.sent.s012"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.nein",
+   "lemma": "nein",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": 60,
+   "translations": {
+    "en": "no",
+    "nl": "nee",
+    "es": "no"
+   },
+   "sentenceIds": [
+    "a1.sent.s013"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.entschuldigung",
+   "lemma": "Entschuldigung",
+   "article": "die",
+   "plural": "Entschuldigungen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 1500,
+   "translations": {
+    "en": "excuse me; sorry",
+    "nl": "pardon; sorry",
+    "es": "perdón, disculpe"
+   },
+   "sentenceIds": [
+    "a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.gut",
+   "lemma": "gut",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": 45,
+   "translations": {
+    "en": "good, well",
+    "nl": "goed",
+    "es": "bueno, bien"
+   },
+   "sentenceIds": [
+    "a1.sent.s008"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.name",
+   "lemma": "Name",
+   "article": "der",
+   "plural": "Namen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 400,
+   "translations": {
+    "en": "name",
+    "nl": "de naam",
+    "es": "el nombre"
+   },
+   "sentenceIds": [
+    "a1.sent.s014"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.heissen",
+   "lemma": "heißen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": 300,
+   "translations": {
+    "en": "to be called",
+    "nl": "heten",
+    "es": "llamarse"
+   },
+   "sentenceIds": [
+    "a1.sent.s001",
+    "a1.sent.s002",
+    "a1.sent.s003",
+    "a1.sent.s023"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.sein",
+   "lemma": "sein",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": 5,
+   "translations": {
+    "en": "to be",
+    "nl": "zijn",
+    "es": "ser, estar"
+   },
+   "sentenceIds": [
+    "a1.sent.s011",
+    "a1.sent.s012",
+    "a1.sent.s013",
+    "a1.sent.s014",
+    "a1.sent.s015",
+    "a1.sent.s018"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.kommen",
+   "lemma": "kommen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": 90,
+   "translations": {
+    "en": "to come",
+    "nl": "komen",
+    "es": "venir"
+   },
+   "sentenceIds": [
+    "a1.sent.s004",
+    "a1.sent.s005",
+    "a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.aus",
+   "lemma": "aus",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": 40,
+   "translations": {
+    "en": "from, out of",
+    "nl": "uit",
+    "es": "de, desde"
+   },
+   "sentenceIds": [
+    "a1.sent.s004",
+    "a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.wohnen",
+   "lemma": "wohnen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": 1200,
+   "translations": {
+    "en": "to live (reside)",
+    "nl": "wonen",
+    "es": "vivir"
+   },
+   "sentenceIds": [
+    "a1.sent.s006"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.in",
+   "lemma": "in",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": 8,
+   "translations": {
+    "en": "in",
+    "nl": "in",
+    "es": "en"
+   },
+   "sentenceIds": [
+    "a1.sent.s006",
+    "a1.sent.s015",
+    "a1.sent.s020"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.ich",
+   "lemma": "ich",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": 2,
+   "translations": {
+    "en": "I",
+    "nl": "ik",
+    "es": "yo"
+   },
+   "sentenceIds": [
+    "a1.sent.s001",
+    "a1.sent.s013"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.du",
+   "lemma": "du",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": 4,
+   "translations": {
+    "en": "you (informal)",
+    "nl": "jij, je",
+    "es": "tú"
+   },
+   "sentenceIds": [
+    "a1.sent.s002",
+    "a1.sent.s005",
+    "a1.sent.s024"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.sie",
+   "lemma": "Sie",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": 12,
+   "translations": {
+    "en": "you (formal)",
+    "nl": "u",
+    "es": "usted"
+   },
+   "sentenceIds": [
+    "a1.sent.s003",
+    "a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.wie",
+   "lemma": "wie",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": 50,
+   "translations": {
+    "en": "how",
+    "nl": "hoe",
+    "es": "cómo"
+   },
+   "sentenceIds": [
+    "a1.sent.s002",
+    "a1.sent.s003",
+    "a1.sent.s007",
+    "a1.sent.s019"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.woher",
+   "lemma": "woher",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": 2500,
+   "translations": {
+    "en": "where from",
+    "nl": "waar vandaan",
+    "es": "de dónde"
+   },
+   "sentenceIds": [
+    "a1.sent.s005"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.land",
+   "lemma": "Land",
+   "article": "das",
+   "plural": "Länder",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 700,
+   "translations": {
+    "en": "country",
+    "nl": "het land",
+    "es": "el país"
+   },
+   "sentenceIds": [
+    "a1.sent.s020"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.stadt",
+   "lemma": "Stadt",
+   "article": "die",
+   "plural": "Städte",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 500,
+   "translations": {
+    "en": "city, town",
+    "nl": "de stad",
+    "es": "la ciudad"
+   },
+   "sentenceIds": [
+    "a1.sent.s015"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.familie",
+   "lemma": "Familie",
+   "article": "die",
+   "plural": "Familien",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 450,
+   "translations": {
+    "en": "family",
+    "nl": "de familie, het gezin",
+    "es": "la familia"
+   },
+   "sentenceIds": [
+    "a1.sent.s021"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.mutter",
+   "lemma": "Mutter",
+   "article": "die",
+   "plural": "Mütter",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 380,
+   "translations": {
+    "en": "mother",
+    "nl": "de moeder",
+    "es": "la madre"
+   },
+   "sentenceIds": [
+    "a1.sent.s023"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.vater",
+   "lemma": "Vater",
+   "article": "der",
+   "plural": "Väter",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 350,
+   "translations": {
+    "en": "father",
+    "nl": "de vader",
+    "es": "el padre"
+   },
+   "sentenceIds": [
+    "a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.bruder",
+   "lemma": "Bruder",
+   "article": "der",
+   "plural": "Brüder",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 600,
+   "translations": {
+    "en": "brother",
+    "nl": "de broer",
+    "es": "el hermano"
+   },
+   "sentenceIds": [
+    "a1.sent.s022"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.schwester",
+   "lemma": "Schwester",
+   "article": "die",
+   "plural": "Schwestern",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 800,
+   "translations": {
+    "en": "sister",
+    "nl": "de zus",
+    "es": "la hermana"
+   },
+   "sentenceIds": [
+    "a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.kind",
+   "lemma": "Kind",
+   "article": "das",
+   "plural": "Kinder",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": 300,
+   "translations": {
+    "en": "child",
+    "nl": "het kind",
+    "es": "el niño, la niña; el hijo, la hija"
+   },
+   "sentenceIds": [
+    "a1.sent.s024"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.haben",
+   "lemma": "haben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": 10,
+   "translations": {
+    "en": "to have",
+    "nl": "hebben",
+    "es": "tener"
+   },
+   "sentenceIds": [
+    "a1.sent.s022",
+    "a1.sent.s024",
+    "a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.eins",
+   "lemma": "eins",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": 900,
+   "translations": {
+    "en": "one",
+    "nl": "een",
+    "es": "uno"
+   },
+   "sentenceIds": [
+    "a1.sent.s027"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.zwei",
+   "lemma": "zwei",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": 120,
+   "translations": {
+    "en": "two",
+    "nl": "twee",
+    "es": "dos"
+   },
+   "sentenceIds": [
+    "a1.sent.s022",
+    "a1.sent.s027"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.vocab.drei",
+   "lemma": "drei",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": 250,
+   "translations": {
+    "en": "three",
+    "nl": "drie",
+    "es": "tres"
+   },
+   "sentenceIds": [
+    "a1.sent.s027"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "a1.sent.s001",
+   "de": "Hallo, ich heiße Anna.",
+   "translations": {
+    "en": "Hello, my name is Anna.",
+    "nl": "Hallo, ik heet Anna.",
+    "es": "Hola, me llamo Anna."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s002",
+   "de": "Wie heißt du?",
+   "translations": {
+    "en": "What's your name?",
+    "nl": "Hoe heet jij?",
+    "es": "¿Cómo te llamas?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s003",
+   "de": "Wie heißen Sie?",
+   "translations": {
+    "en": "What is your name? (formal)",
+    "nl": "Hoe heet u?",
+    "es": "¿Cómo se llama usted?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s004",
+   "de": "Ich komme aus Ägypten.",
+   "translations": {
+    "en": "I come from Egypt.",
+    "nl": "Ik kom uit Egypte.",
+    "es": "Soy de Egipto."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s005",
+   "de": "Woher kommst du?",
+   "translations": {
+    "en": "Where are you from?",
+    "nl": "Waar kom jij vandaan?",
+    "es": "¿De dónde eres?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s006",
+   "de": "Ich wohne in Berlin.",
+   "translations": {
+    "en": "I live in Berlin.",
+    "nl": "Ik woon in Berlijn.",
+    "es": "Vivo en Berlín."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s007",
+   "de": "Wie geht es Ihnen?",
+   "translations": {
+    "en": "How are you? (formal)",
+    "nl": "Hoe gaat het met u?",
+    "es": "¿Cómo está usted?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s008",
+   "de": "Danke, gut. Und dir?",
+   "translations": {
+    "en": "Fine, thanks. And you?",
+    "nl": "Goed, dank je. En met jou?",
+    "es": "Bien, gracias. ¿Y tú?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s009",
+   "de": "Guten Morgen, Herr Weber!",
+   "translations": {
+    "en": "Good morning, Mr Weber!",
+    "nl": "Goedemorgen, meneer Weber!",
+    "es": "¡Buenos días, señor Weber!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s010",
+   "de": "Auf Wiedersehen, Frau Klein!",
+   "translations": {
+    "en": "Goodbye, Ms Klein!",
+    "nl": "Tot ziens, mevrouw Klein!",
+    "es": "¡Adiós, señora Klein!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s011",
+   "de": "Entschuldigung, sind Sie Herr Weber?",
+   "translations": {
+    "en": "Excuse me, are you Mr Weber?",
+    "nl": "Pardon, bent u meneer Weber?",
+    "es": "Disculpe, ¿es usted el señor Weber?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s012",
+   "de": "Ja, das bin ich.",
+   "translations": {
+    "en": "Yes, that's me.",
+    "nl": "Ja, dat ben ik.",
+    "es": "Sí, soy yo."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s013",
+   "de": "Nein, ich bin Peter.",
+   "translations": {
+    "en": "No, I'm Peter.",
+    "nl": "Nee, ik ben Peter.",
+    "es": "No, soy Peter."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s014",
+   "de": "Mein Name ist Lukas.",
+   "translations": {
+    "en": "My name is Lukas.",
+    "nl": "Mijn naam is Lukas.",
+    "es": "Mi nombre es Lukas."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s015",
+   "de": "Berlin ist eine Stadt in Deutschland.",
+   "translations": {
+    "en": "Berlin is a city in Germany.",
+    "nl": "Berlijn is een stad in Duitsland.",
+    "es": "Berlín es una ciudad de Alemania."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s016",
+   "de": "Tschüss, bis morgen!",
+   "translations": {
+    "en": "Bye, see you tomorrow!",
+    "nl": "Doei, tot morgen!",
+    "es": "¡Adiós, hasta mañana!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s017",
+   "de": "Danke schön! – Bitte schön!",
+   "translations": {
+    "en": "Thank you very much! – You're welcome!",
+    "nl": "Dank je wel! – Graag gedaan!",
+    "es": "¡Muchas gracias! – ¡De nada!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s018",
+   "de": "Guten Tag! Ich bin Frau Schmidt.",
+   "translations": {
+    "en": "Hello! I'm Ms Schmidt.",
+    "nl": "Goedendag! Ik ben mevrouw Schmidt.",
+    "es": "¡Buenos días! Soy la señora Schmidt."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s019",
+   "de": "Guten Abend! Wie geht's?",
+   "translations": {
+    "en": "Good evening! How are you?",
+    "nl": "Goedenavond! Hoe gaat het?",
+    "es": "¡Buenas noches! ¿Qué tal?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s020",
+   "de": "Spanien ist ein Land in Europa.",
+   "translations": {
+    "en": "Spain is a country in Europe.",
+    "nl": "Spanje is een land in Europa.",
+    "es": "España es un país de Europa."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s021",
+   "de": "Das ist meine Familie.",
+   "translations": {
+    "en": "This is my family.",
+    "nl": "Dit is mijn familie.",
+    "es": "Esta es mi familia."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s022",
+   "de": "Ich habe zwei Brüder.",
+   "translations": {
+    "en": "I have two brothers.",
+    "nl": "Ik heb twee broers.",
+    "es": "Tengo dos hermanos."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s023",
+   "de": "Meine Mutter heißt Maria.",
+   "translations": {
+    "en": "My mother's name is Maria.",
+    "nl": "Mijn moeder heet Maria.",
+    "es": "Mi madre se llama María."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s024",
+   "de": "Hast du Kinder?",
+   "translations": {
+    "en": "Do you have children?",
+    "nl": "Heb jij kinderen?",
+    "es": "¿Tienes hijos?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s025",
+   "de": "Mein Vater kommt aus Spanien.",
+   "translations": {
+    "en": "My father comes from Spain.",
+    "nl": "Mijn vader komt uit Spanje.",
+    "es": "Mi padre es de España."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s026",
+   "de": "Ich habe eine Schwester.",
+   "translations": {
+    "en": "I have one sister.",
+    "nl": "Ik heb één zus.",
+    "es": "Tengo una hermana."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "a1.sent.s027",
+   "de": "Eins, zwei, drei – los!",
+   "translations": {
+    "en": "One, two, three – go!",
+    "nl": "Een, twee, drie – start!",
+    "es": "Uno, dos, tres, ¡ya!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "a1.gram.present_sein_heissen",
+   "level": "A1",
+   "title": {
+    "en": "Present tense: sein, heißen, kommen, wohnen",
+    "nl": "Tegenwoordige tijd: sein, heißen, kommen, wohnen",
+    "es": "Presente: sein, heißen, kommen, wohnen"
+   },
+   "explanation": {
+    "en": "Regular German verbs take an ending that matches the person: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. So: ich komme, du kommst, er kommt, wir kommen.\n\nheißen ends in ß, so the du-form is just du heißt (not heißst).\n\nsein (to be) is irregular and must be learned by heart: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\n\nUse du with friends, family and children. Use Sie (always with a capital S) with adults you don't know.",
+    "nl": "Regelmatige Duitse werkwoorden krijgen een uitgang die bij de persoon past: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Dus: ich komme, du kommst, er kommt, wir kommen.\n\nheißen eindigt op ß, daarom is de du-vorm gewoon du heißt (niet heißst).\n\nsein (zijn) is onregelmatig en moet je uit je hoofd leren: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\n\nGebruik du bij vrienden, familie en kinderen, net als jij. Gebruik Sie (altijd met hoofdletter) bij volwassenen die je niet kent, net als u.",
+    "es": "Los verbos regulares alemanes llevan una terminación según la persona: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Así: ich komme, du kommst, er kommt, wir kommen.\n\nheißen termina en ß, por eso la forma de du es simplemente du heißt (no heißst).\n\nsein (ser/estar) es irregular y hay que aprenderlo de memoria: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\n\nUsa du (tú) con amigos, familia y niños. Usa Sie (usted, siempre con mayúscula) con adultos que no conoces."
+   },
+   "table": {
+    "headers": [
+     "",
+     "sein",
+     "heißen",
+     "kommen",
+     "wohnen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "bin",
+      "heiße",
+      "komme",
+      "wohne"
+     ],
+     [
+      "du",
+      "bist",
+      "heißt",
+      "kommst",
+      "wohnst"
+     ],
+     [
+      "er/sie/es",
+      "ist",
+      "heißt",
+      "kommt",
+      "wohnt"
+     ],
+     [
+      "wir",
+      "sind",
+      "heißen",
+      "kommen",
+      "wohnen"
+     ],
+     [
+      "ihr",
+      "seid",
+      "heißt",
+      "kommt",
+      "wohnt"
+     ],
+     [
+      "sie/Sie",
+      "sind",
+      "heißen",
+      "kommen",
+      "wohnen"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "a1.sent.s001",
+    "a1.sent.s005",
+    "a1.sent.s013"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ Anna.",
+     "answer": "heiße",
+     "base": "heißen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wie ___ du?",
+     "answer": "heißt",
+     "base": "heißen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Woher ___ Sie?",
+     "answer": "kommen",
+     "base": "kommen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ aus Spanien.",
+     "answer": "komme",
+     "base": "kommen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Du ___ Peter.",
+     "answer": "bist",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ in Berlin.",
+     "answer": "wohnt",
+     "base": "wohnen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wir ___ aus Ägypten.",
+     "answer": "sind",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ Lukas.",
+     "answer": "bin",
+     "base": "sein"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "a1.text.sara",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Hallo, ich bin Sara!",
+   "body": "Hallo! Ich heiße Sara. Ich komme aus Spanien, aus Madrid. Jetzt wohne ich in Berlin. Berlin ist eine große Stadt. Ich lerne Deutsch. Das ist mein Freund Tom. Er kommt aus England und wohnt auch in Berlin.",
+   "translation": {
+    "en": "Hello! My name is Sara. I come from Spain, from Madrid. Now I live in Berlin. Berlin is a big city. I'm learning German. This is my friend Tom. He comes from England and also lives in Berlin.",
+    "nl": "Hallo! Ik heet Sara. Ik kom uit Spanje, uit Madrid. Nu woon ik in Berlijn. Berlijn is een grote stad. Ik leer Duits. Dit is mijn vriend Tom. Hij komt uit Engeland en woont ook in Berlijn.",
+    "es": "¡Hola! Me llamo Sara. Soy de España, de Madrid. Ahora vivo en Berlín. Berlín es una ciudad grande. Estoy aprendiendo alemán. Este es mi amigo Tom. Es de Inglaterra y también vive en Berlín."
+   },
+   "glossary": [
+    "a1.vocab.heissen",
+    "a1.vocab.kommen",
+    "a1.vocab.aus",
+    "a1.vocab.wohnen",
+    "a1.vocab.stadt"
+   ],
+   "questions": [
+    {
+     "question": "Woher kommt Sara?",
+     "options": [
+      "Aus England",
+      "Aus Spanien",
+      "Aus Berlin"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Wo wohnt Sara jetzt?",
+     "options": [
+      "In Madrid",
+      "In London",
+      "In Berlin"
+     ],
+     "answer": 2
+    },
+    {
+     "question": "Woher kommt Tom?",
+     "options": [
+      "Aus England",
+      "Aus Spanien",
+      "Aus Deutschland"
+     ],
+     "answer": 0
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "a1.text.dw_nicos_weg",
+   "level": "A1",
+   "kind": "external",
+   "title": "DW: Nicos Weg (A1)",
+   "url": "https://learngerman.dw.com/",
+   "translation": {
+    "en": "Free video course from Deutsche Welle. Watch the A1 episodes that match this unit.",
+    "nl": "Gratis videocursus van Deutsche Welle. Bekijk de A1-afleveringen die bij deze unit passen.",
+    "es": "Curso de vídeo gratuito de Deutsche Welle. Mira los episodios A1 de esta unidad."
+   },
+   "glossary": [],
+   "questions": [],
+   "source": "Deutsche Welle (linked, not copied)",
+   "license": "© DW, link only"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "a1.write.introduce",
+   "level": "A1",
+   "prompt": {
+    "en": "Introduce yourself in German: your name, where you come from and where you live. Write 3 to 5 sentences.",
+    "nl": "Stel jezelf voor in het Duits: je naam, waar je vandaan komt en waar je woont. Schrijf 3 tot 5 zinnen.",
+    "es": "Preséntate en alemán: tu nombre, de dónde eres y dónde vives. Escribe de 3 a 5 frases."
+   },
+   "minWords": 15
+  },
+  {
+   "id": "a1.write.family",
+   "level": "A1",
+   "prompt": {
+    "en": "Describe your family: who is in it and what are their names?",
+    "nl": "Beschrijf je familie: wie hoort erbij en hoe heten ze?",
+    "es": "Describe a tu familia: ¿quiénes son y cómo se llaman?"
+   },
+   "minWords": 15
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+# Content pipeline dependencies (Python 3.11+)
+requests>=2.32
+jsonschema>=4.23
+# Optional, only for stage 04 (offline machine translation drafts):
+# argostranslate>=1.9
+# Optional, only for stage 05 (generated audio): install the Piper binary,
+# see https://github.com/rhasspy/piper
