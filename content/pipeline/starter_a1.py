@@ -1,8 +1,9 @@
-"""Hand-written A1 starter content.
+"""Hand-written A1 starter content (units 1 to 4).
 
 The full pipeline (stages 01 to 08) builds level files from Tatoeba, Wiktionary
 and the other free sources. Until those dumps are downloaded and reviewed, this
-script writes a small, hand-checked A1 file (unit 1 complete, unit 2 started)
+script writes a hand-checked A1 file (units 1 to 4; unit 1 here, 2 to 4 in
+starter_a1_units.py)
 so the app has real content to run on.
 
 Run:  python content/pipeline/starter_a1.py
@@ -14,6 +15,7 @@ import json
 from pathlib import Path
 
 from common import APP_CONTENT_DIR, SCHEMA_VERSION, slug
+import starter_a1_units as more
 
 SRC = "3lang-original"
 LIC = "CC BY-SA 4.0"
@@ -56,19 +58,6 @@ VOCAB_U01_INTRO = [
     ("Stadt", "die", "Städte", "noun", "city, town", "de stad", "la ciudad", 500),
 ]
 
-VOCAB_U02_FAMILY = [
-    ("Familie", "die", "Familien", "noun", "family", "de familie, het gezin", "la familia", 450),
-    ("Mutter", "die", "Mütter", "noun", "mother", "de moeder", "la madre", 380),
-    ("Vater", "der", "Väter", "noun", "father", "de vader", "el padre", 350),
-    ("Bruder", "der", "Brüder", "noun", "brother", "de broer", "el hermano", 600),
-    ("Schwester", "die", "Schwestern", "noun", "sister", "de zus", "la hermana", 800),
-    ("Kind", "das", "Kinder", "noun", "child", "het kind", "el niño, la niña; el hijo, la hija", 300),
-    ("haben", None, None, "verb", "to have", "hebben", "tener", 10),
-    ("eins", None, None, "numeral", "one", "een", "uno", 900),
-    ("zwei", None, None, "numeral", "two", "twee", "dos", 120),
-    ("drei", None, None, "numeral", "three", "drie", "tres", 250),
-]
-
 # (key, German, en, nl, es, vocab lemmas it illustrates)
 SENTENCES = [
     ("s001", "Hallo, ich heiße Anna.", "Hello, my name is Anna.", "Hallo, ik heet Anna.", "Hola, me llamo Anna.", ["hallo", "ich", "heißen"]),
@@ -91,13 +80,6 @@ SENTENCES = [
     ("s018", "Guten Tag! Ich bin Frau Schmidt.", "Hello! I'm Ms Schmidt.", "Goedendag! Ik ben mevrouw Schmidt.", "¡Buenos días! Soy la señora Schmidt.", ["guten Tag", "sein"]),
     ("s019", "Guten Abend! Wie geht's?", "Good evening! How are you?", "Goedenavond! Hoe gaat het?", "¡Buenas noches! ¿Qué tal?", ["guten Abend", "wie"]),
     ("s020", "Spanien ist ein Land in Europa.", "Spain is a country in Europe.", "Spanje is een land in Europa.", "España es un país de Europa.", ["Land", "in"]),
-    ("s021", "Das ist meine Familie.", "This is my family.", "Dit is mijn familie.", "Esta es mi familia.", ["Familie"]),
-    ("s022", "Ich habe zwei Brüder.", "I have two brothers.", "Ik heb twee broers.", "Tengo dos hermanos.", ["haben", "zwei", "Bruder"]),
-    ("s023", "Meine Mutter heißt Maria.", "My mother's name is Maria.", "Mijn moeder heet Maria.", "Mi madre se llama María.", ["Mutter", "heißen"]),
-    ("s024", "Hast du Kinder?", "Do you have children?", "Heb jij kinderen?", "¿Tienes hijos?", ["haben", "Kind", "du"]),
-    ("s025", "Mein Vater kommt aus Spanien.", "My father comes from Spain.", "Mijn vader komt uit Spanje.", "Mi padre es de España.", ["Vater", "kommen", "aus"]),
-    ("s026", "Ich habe eine Schwester.", "I have one sister.", "Ik heb één zus.", "Tengo una hermana.", ["haben", "Schwester"]),
-    ("s027", "Eins, zwei, drei – los!", "One, two, three – go!", "Een, twee, drie – start!", "Uno, dos, tres, ¡ya!", ["eins", "zwei", "drei"]),
 ]
 
 GRAMMAR_PRESENT = {
@@ -228,7 +210,8 @@ def vocab_id(lemma: str) -> str:
 
 def build() -> dict:
     vocab, by_lemma = [], {}
-    for group in (VOCAB_U01_GREETINGS, VOCAB_U01_INTRO, VOCAB_U02_FAMILY):
+    extra_groups = [g for u in more.UNITS for _, g in u["vocabLessons"]]
+    for group in (VOCAB_U01_GREETINGS, VOCAB_U01_INTRO, *extra_groups):
         for lemma, art, plural, pos, en, nl, es, rank in group:
             item = {
                 "id": vocab_id(lemma),
@@ -247,7 +230,8 @@ def build() -> dict:
             by_lemma[lemma] = item
 
     sentences = []
-    for key, de, en, nl, es, lemmas in SENTENCES:
+    all_sentences = SENTENCES + [x for u in more.UNITS for x in u["sentences"]]
+    for key, de, en, nl, es, lemmas in all_sentences:
         sid = f"a1.sent.{key}"
         sentences.append({
             "id": sid, "de": de, "translations": t(en, nl, es),
@@ -278,10 +262,10 @@ def build() -> dict:
         {"id": "a1.u01.l06", "unitId": "a1.u01", "order": 6, "type": "review",
          "title": t("Unit 1 review", "Herhaling unit 1", "Repaso de la unidad 1"),
          "items": ids(VOCAB_U01_GREETINGS) + ids(VOCAB_U01_INTRO)},
-        {"id": "a1.u02.l01", "unitId": "a1.u02", "order": 1, "type": "vocab",
-         "title": t("My family", "Mijn familie", "Mi familia"),
-         "items": ids(VOCAB_U02_FAMILY)},
     ]
+
+    extra_lessons, extra_units, extra_grammar, extra_texts = build_extra_units()
+    lessons += extra_lessons
 
     units = [
         {"id": "a1.u01", "level": "A1", "order": 1,
@@ -292,12 +276,7 @@ def build() -> dict:
                      "Decir tu nombre, de dónde eres y dónde vives")],
          "grammarIds": [GRAMMAR_PRESENT["id"]],
          "lessonIds": [l["id"] for l in lessons if l["unitId"] == "a1.u01"]},
-        {"id": "a1.u02", "level": "A1", "order": 2,
-         "theme": t("Family and numbers", "Familie en getallen", "Familia y números"),
-         "goals": [t("Talk about your family", "Over je familie praten", "Hablar de tu familia"),
-                   t("Count from 1 to 20", "Tellen van 1 tot 20", "Contar del 1 al 20")],
-         "grammarIds": [],
-         "lessonIds": [l["id"] for l in lessons if l["unitId"] == "a1.u02"]},
+        *extra_units,
     ]
 
     return {
@@ -317,13 +296,51 @@ def build() -> dict:
         "lessons": lessons,
         "vocab": vocab,
         "sentences": sentences,
-        "grammar": [GRAMMAR_PRESENT],
-        "texts": [text, TEXT_DW],
-        "writingPrompts": WRITING_PROMPTS,
+        "grammar": [GRAMMAR_PRESENT, *extra_grammar],
+        "texts": [text, TEXT_DW, *extra_texts],
+        "writingPrompts": WRITING_PROMPTS + more.WRITING_PROMPTS,
         "credits": [
             {"name": "3Lang original content", "license": LIC},
         ],
     }
+
+
+def build_extra_units():
+    """Lessons, units, grammar and texts for the unit specs in starter_a1_units."""
+    lessons, units, grammar, texts = [], [], [], []
+    sid = lambda key: f"a1.sent.{key}"  # noqa: E731
+    for u in more.UNITS:
+        uid = f"a1.{u['key']}"
+        unit_lessons = []
+
+        def add(kind, title, **extra):
+            lid = f"{uid}.l{len(unit_lessons) + 1:02d}"
+            unit_lessons.append({"id": lid, "unitId": uid, "order": len(unit_lessons) + 1,
+                                 "type": kind, "title": title, "items": [], **extra})
+
+        unit_words = []
+        for title, group in u["vocabLessons"]:
+            words = [vocab_id(v[0]) for v in group]
+            unit_words += words
+            add("vocab", title, items=words)
+        g = u["grammar"]
+        grammar.append({
+            "id": g["id"], "level": "A1", "title": g["title"], "explanation": g["explanation"],
+            "table": g["table"], "exampleSentenceIds": [sid(k) for k in g["examples"]],
+            "exercises": g["exercises"], "source": SRC, "license": LIC,
+        })
+        add("grammar", u["grammarTitle"], grammarId=g["id"])
+        add("listening", u["listeningTitle"], items=[sid(k) for k in u["listening"]])
+        tx = u["text"]
+        texts.append({**tx, "level": "A1", "kind": "reading",
+                      "glossary": [vocab_id(x) for x in tx["glossary"]], "source": SRC, "license": LIC})
+        add("reading", u["readingTitle"], textId=tx["id"])
+        add("review", u["reviewTitle"], items=unit_words)
+        lessons += unit_lessons
+        units.append({"id": uid, "level": "A1", "order": int(u["key"][1:]), "theme": u["theme"],
+                      "goals": u["goals"], "grammarIds": [g["id"]],
+                      "lessonIds": [l["id"] for l in unit_lessons]})
+    return lessons, units, grammar, texts
 
 
 def main() -> None:

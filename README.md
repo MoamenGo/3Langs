@@ -45,9 +45,11 @@ docs/ARCHITECTURE.md how the pieces fit together
 
 ## What works today (A1 first slice)
 
-- A1 unit 1 "Greetings and introductions" end to end: two vocabulary lessons,
-  a grammar lesson (sein, heißen, kommen, wohnen), a listening dictation, a
-  reading text with questions, and a unit review. Unit 2 (family) has started.
+- A1 units 1 to 4 end to end: greetings and introductions, family and
+  numbers, home and living, food and drink. Each unit has two vocabulary
+  lessons, a grammar lesson, a listening dictation, a reading text with
+  questions and a unit review: 100 words and 72 example sentences, all with
+  English, Dutch and Spanish.
 - Finishing a lesson adds its words to your flashcards, scheduled by FSRS.
 - Listening, reading, writing (LanguageTool) and speaking practice screens.
 - Study time is tracked for the daily goal, streak and total hours.
@@ -113,8 +115,8 @@ only as a level checklist and Deutsche Welle is linked, never copied.
 
 ## Next steps
 
-1. Run the pipeline for A1 and replace the starter file with the full level
-   (about 650 words, 12 units).
+1. Write A1 units 5 to 12, or run the pipeline on your own computer (Tatoeba
+   and kaikki.org downloads are blocked in the cloud build environment).
 2. Add `speech_to_text` to the speaking screen for automatic pronunciation checks.
 3. Serve level files from Supabase Storage so new levels arrive without an app update.
 4. Re-fit FSRS weights from your own review history after a few months.

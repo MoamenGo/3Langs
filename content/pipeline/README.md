@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Other scripts:
 
 - `starter_a1.py` writes the hand-checked A1 starter file the app ships with
-  today (unit 1 complete, unit 2 started). Re-run it after editing it.
+  today (units 1 to 4; unit specs for 2 to 4 are in `starter_a1_units.py`). Re-run it after editing it.
 - `validate.py <file>` checks a level file against `content/schema/level.schema.json`
   plus cross-references (every lesson item exists, all three translations present).
 

@@ -15,7 +15,8 @@ void main() {
   test('A1 starter file parses', () {
     expect(a1.level.id, 'A1');
     expect(a1.units, isNotEmpty);
-    expect(a1.vocab.length, greaterThanOrEqualTo(30));
+    expect(a1.vocab.length, greaterThanOrEqualTo(100));
+    expect(a1.units.map((u) => u.order), [1, 2, 3, 4]);
   });
 
   test('every lesson points at existing content', () {
@@ -61,5 +62,22 @@ void main() {
         .toList();
     expect(levels.map((l) => l.id), ['A1', 'A2', 'B1', 'B2', 'C1']);
     expect(levels.last.months.last, 24);
+  });
+
+  test('every unit has vocab, grammar, listening, reading and review', () {
+    for (final unit in a1.units) {
+      final types = a1.lessonsOf(unit).map((l) => l.type).toSet();
+      expect(
+        types,
+        containsAll(LessonType.values.where((t) => t != LessonType.exam)),
+        reason: unit.id,
+      );
+    }
+  });
+
+  test('every word has an example sentence', () {
+    for (final v in a1.vocab.values) {
+      expect(v.sentenceIds, isNotEmpty, reason: v.id);
+    }
   });
 }
