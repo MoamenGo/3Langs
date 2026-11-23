@@ -1,0 +1,4119 @@
+{
+ "schemaVersion": 2,
+ "lang": "es",
+ "contentVersion": "2026.11.23-phase2",
+ "level": {
+  "id": "A1",
+  "title": {
+   "ar": "A1 مبتدئ",
+   "en": "A1 Beginner"
+  },
+  "targetHours": 150,
+  "canDo": [
+   {
+    "ar": "تعرّف بنفسك وبالآخرين",
+    "en": "Introduce yourself and others"
+   },
+   {
+    "ar": "تسأل وتجاوب أسئلة شخصية بسيطة",
+    "en": "Ask and answer simple personal questions"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "es.a1.u01",
+   "level": "A1",
+   "order": 1,
+   "theme": {
+    "ar": "أهلًا! التحية والتعارف",
+    "en": "Hello! Greetings and introductions"
+   },
+   "goals": [
+    {
+     "ar": "تحيّي الناس وتودّعهم",
+     "en": "Greet people and say goodbye"
+    },
+    {
+     "ar": "تقول اسمك ومنين وساكن فين",
+     "en": "Say your name, where you're from and where you live"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.ser_llamarse_vivir"
+   ],
+   "lessonIds": [
+    "es.a1.u01.l01",
+    "es.a1.u01.l02",
+    "es.a1.u01.l03",
+    "es.a1.u01.l04",
+    "es.a1.u01.l05",
+    "es.a1.u01.l06"
+   ],
+   "sharedUnitId": "u.a1.01"
+  },
+  {
+   "id": "es.a1.u02",
+   "level": "A1",
+   "order": 2,
+   "theme": {
+    "ar": "العائلة والأرقام",
+    "en": "Family and numbers"
+   },
+   "goals": [
+    {
+     "ar": "تتكلم عن عيلتك",
+     "en": "Talk about your family"
+    },
+    {
+     "ar": "تعدّ لحد 20 وتقول عمر حد",
+     "en": "Count to 20 and say how old someone is"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.tener_posesivos"
+   ],
+   "lessonIds": [
+    "es.a1.u02.l01",
+    "es.a1.u02.l02",
+    "es.a1.u02.l03",
+    "es.a1.u02.l04",
+    "es.a1.u02.l05",
+    "es.a1.u02.l06"
+   ],
+   "sharedUnitId": "u.a1.02"
+  },
+  {
+   "id": "es.a1.u03",
+   "level": "A1",
+   "order": 3,
+   "theme": {
+    "ar": "البيت والسكن",
+    "en": "Home and living"
+   },
+   "goals": [
+    {
+     "ar": "توصف شقتك أو بيتك",
+     "en": "Describe your flat or house"
+    },
+    {
+     "ar": "تسمّي الأوض والعفش بالأداة الصح",
+     "en": "Name rooms and furniture with the right article"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.articulos_genero"
+   ],
+   "lessonIds": [
+    "es.a1.u03.l01",
+    "es.a1.u03.l02",
+    "es.a1.u03.l03",
+    "es.a1.u03.l04",
+    "es.a1.u03.l05",
+    "es.a1.u03.l06"
+   ],
+   "sharedUnitId": "u.a1.03"
+  },
+  {
+   "id": "es.a1.u04",
+   "level": "A1",
+   "order": 4,
+   "theme": {
+    "ar": "الأكل والشرب",
+    "en": "Food and drink"
+   },
+   "goals": [
+    {
+     "ar": "تقول بتاكل وتشرب إيه",
+     "en": "Say what you eat and drink"
+    },
+    {
+     "ar": "تطلب في كافيه",
+     "en": "Order in a café"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.querer_negacion"
+   ],
+   "lessonIds": [
+    "es.a1.u04.l01",
+    "es.a1.u04.l02",
+    "es.a1.u04.l03",
+    "es.a1.u04.l04",
+    "es.a1.u04.l05",
+    "es.a1.u04.l06"
+   ],
+   "sharedUnitId": "u.a1.04"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "es.a1.u01.l01",
+   "unitId": "es.a1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "أهلًا ومع السلامة",
+    "en": "Hello and goodbye"
+   },
+   "items": [
+    "es.a1.vocab.hola",
+    "es.a1.vocab.chao",
+    "es.a1.vocab.buenos_dias",
+    "es.a1.vocab.buenas_tardes",
+    "es.a1.vocab.buenas_noches",
+    "es.a1.vocab.adios",
+    "es.a1.vocab.gracias",
+    "es.a1.vocab.por_favor",
+    "es.a1.vocab.si",
+    "es.a1.vocab.no",
+    "es.a1.vocab.perdon",
+    "es.a1.vocab.bien"
+   ]
+  },
+  {
+   "id": "es.a1.u01.l02",
+   "unitId": "es.a1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "إنت مين؟",
+    "en": "Who are you?"
+   },
+   "items": [
+    "es.a1.vocab.nombre",
+    "es.a1.vocab.llamarse",
+    "es.a1.vocab.ser",
+    "es.a1.vocab.venir",
+    "es.a1.vocab.de",
+    "es.a1.vocab.vivir",
+    "es.a1.vocab.en",
+    "es.a1.vocab.yo",
+    "es.a1.vocab.tu",
+    "es.a1.vocab.usted",
+    "es.a1.vocab.como",
+    "es.a1.vocab.de_donde",
+    "es.a1.vocab.pais",
+    "es.a1.vocab.ciudad"
+   ]
+  },
+  {
+   "id": "es.a1.u01.l03",
+   "unitId": "es.a1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "أنا أكون، اسمي، ساكن",
+    "en": "ser, llamarse, vivir"
+   },
+   "grammarId": "es.a1.gram.ser_llamarse_vivir",
+   "items": []
+  },
+  {
+   "id": "es.a1.u01.l04",
+   "unitId": "es.a1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: أول محادثات",
+    "en": "Listen: first conversations"
+   },
+   "items": [
+    "es.a1.sent.s001",
+    "es.a1.sent.s002",
+    "es.a1.sent.s004",
+    "es.a1.sent.s005",
+    "es.a1.sent.s006",
+    "es.a1.sent.s008",
+    "es.a1.sent.s012",
+    "es.a1.sent.s014"
+   ]
+  },
+  {
+   "id": "es.a1.u01.l05",
+   "unitId": "es.a1.u01",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: سارة في مدريد",
+    "en": "Read: Sara in Madrid"
+   },
+   "textId": "es.a1.text.sara",
+   "items": []
+  },
+  {
+   "id": "es.a1.u01.l06",
+   "unitId": "es.a1.u01",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 1",
+    "en": "Unit 1 review"
+   },
+   "items": [
+    "es.a1.vocab.hola",
+    "es.a1.vocab.chao",
+    "es.a1.vocab.buenos_dias",
+    "es.a1.vocab.buenas_tardes",
+    "es.a1.vocab.buenas_noches",
+    "es.a1.vocab.adios",
+    "es.a1.vocab.gracias",
+    "es.a1.vocab.por_favor",
+    "es.a1.vocab.si",
+    "es.a1.vocab.no",
+    "es.a1.vocab.perdon",
+    "es.a1.vocab.bien",
+    "es.a1.vocab.nombre",
+    "es.a1.vocab.llamarse",
+    "es.a1.vocab.ser",
+    "es.a1.vocab.venir",
+    "es.a1.vocab.de",
+    "es.a1.vocab.vivir",
+    "es.a1.vocab.en",
+    "es.a1.vocab.yo",
+    "es.a1.vocab.tu",
+    "es.a1.vocab.usted",
+    "es.a1.vocab.como",
+    "es.a1.vocab.de_donde",
+    "es.a1.vocab.pais",
+    "es.a1.vocab.ciudad"
+   ]
+  },
+  {
+   "id": "es.a1.u02.l01",
+   "unitId": "es.a1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "عيلتي",
+    "en": "My family"
+   },
+   "items": [
+    "es.a1.vocab.familia",
+    "es.a1.vocab.madre",
+    "es.a1.vocab.padre",
+    "es.a1.vocab.hermano",
+    "es.a1.vocab.hermana",
+    "es.a1.vocab.nino",
+    "es.a1.vocab.tener",
+    "es.a1.vocab.uno",
+    "es.a1.vocab.dos",
+    "es.a1.vocab.tres"
+   ]
+  },
+  {
+   "id": "es.a1.u02.l02",
+   "unitId": "es.a1.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "الأرقام والعمر",
+    "en": "Numbers and age"
+   },
+   "items": [
+    "es.a1.vocab.cuatro",
+    "es.a1.vocab.cinco",
+    "es.a1.vocab.seis",
+    "es.a1.vocab.siete",
+    "es.a1.vocab.ocho",
+    "es.a1.vocab.nueve",
+    "es.a1.vocab.diez",
+    "es.a1.vocab.veinte",
+    "es.a1.vocab.viejo",
+    "es.a1.vocab.ano",
+    "es.a1.vocab.hijo",
+    "es.a1.vocab.hija",
+    "es.a1.vocab.casado",
+    "es.a1.vocab.cuantos"
+   ]
+  },
+  {
+   "id": "es.a1.u02.l03",
+   "unitId": "es.a1.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "عندي، بتاعي وبتاعك",
+    "en": "tener, mi and tu"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.tener_posesivos"
+  },
+  {
+   "id": "es.a1.u02.l04",
+   "unitId": "es.a1.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: كلام عن العيلة",
+    "en": "Listen: family talk"
+   },
+   "items": [
+    "es.a1.sent.s022",
+    "es.a1.sent.s024",
+    "es.a1.sent.s028",
+    "es.a1.sent.s029",
+    "es.a1.sent.s031",
+    "es.a1.sent.s033",
+    "es.a1.sent.s035",
+    "es.a1.sent.s038"
+   ]
+  },
+  {
+   "id": "es.a1.u02.l05",
+   "unitId": "es.a1.u02",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: عيلة ميا",
+    "en": "Read: Mia's family"
+   },
+   "items": [],
+   "textId": "es.a1.text.familia_mia"
+  },
+  {
+   "id": "es.a1.u02.l06",
+   "unitId": "es.a1.u02",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 2",
+    "en": "Unit 2 review"
+   },
+   "items": [
+    "es.a1.vocab.familia",
+    "es.a1.vocab.madre",
+    "es.a1.vocab.padre",
+    "es.a1.vocab.hermano",
+    "es.a1.vocab.hermana",
+    "es.a1.vocab.nino",
+    "es.a1.vocab.tener",
+    "es.a1.vocab.uno",
+    "es.a1.vocab.dos",
+    "es.a1.vocab.tres",
+    "es.a1.vocab.cuatro",
+    "es.a1.vocab.cinco",
+    "es.a1.vocab.seis",
+    "es.a1.vocab.siete",
+    "es.a1.vocab.ocho",
+    "es.a1.vocab.nueve",
+    "es.a1.vocab.diez",
+    "es.a1.vocab.veinte",
+    "es.a1.vocab.viejo",
+    "es.a1.vocab.ano",
+    "es.a1.vocab.hijo",
+    "es.a1.vocab.hija",
+    "es.a1.vocab.casado",
+    "es.a1.vocab.cuantos"
+   ]
+  },
+  {
+   "id": "es.a1.u03.l01",
+   "unitId": "es.a1.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "الأوض",
+    "en": "Rooms"
+   },
+   "items": [
+    "es.a1.vocab.casa",
+    "es.a1.vocab.piso",
+    "es.a1.vocab.habitacion",
+    "es.a1.vocab.cocina",
+    "es.a1.vocab.bano",
+    "es.a1.vocab.dormitorio",
+    "es.a1.vocab.salon",
+    "es.a1.vocab.balcon",
+    "es.a1.vocab.jardin",
+    "es.a1.vocab.grande",
+    "es.a1.vocab.pequeno",
+    "es.a1.vocab.bonito"
+   ]
+  },
+  {
+   "id": "es.a1.u03.l02",
+   "unitId": "es.a1.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "العفش",
+    "en": "Furniture"
+   },
+   "items": [
+    "es.a1.vocab.mesa",
+    "es.a1.vocab.silla",
+    "es.a1.vocab.cama",
+    "es.a1.vocab.sofa",
+    "es.a1.vocab.armario",
+    "es.a1.vocab.lampara",
+    "es.a1.vocab.ventana",
+    "es.a1.vocab.puerta",
+    "es.a1.vocab.nuevo",
+    "es.a1.vocab.caro",
+    "es.a1.vocab.barato",
+    "es.a1.vocab.luminoso"
+   ]
+  },
+  {
+   "id": "es.a1.u03.l03",
+   "unitId": "es.a1.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "el ولا la؟ المذكر والمؤنث",
+    "en": "el or la? Gender"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.articulos_genero"
+  },
+  {
+   "id": "es.a1.u03.l04",
+   "unitId": "es.a1.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: في البيت",
+    "en": "Listen: at home"
+   },
+   "items": [
+    "es.a1.sent.s041",
+    "es.a1.sent.s042",
+    "es.a1.sent.s043",
+    "es.a1.sent.s046",
+    "es.a1.sent.s049",
+    "es.a1.sent.s050",
+    "es.a1.sent.s052",
+    "es.a1.sent.s054"
+   ]
+  },
+  {
+   "id": "es.a1.u03.l05",
+   "unitId": "es.a1.u03",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: شقة سارة الجديدة",
+    "en": "Read: Sara's new flat"
+   },
+   "items": [],
+   "textId": "es.a1.text.piso_nuevo"
+  },
+  {
+   "id": "es.a1.u03.l06",
+   "unitId": "es.a1.u03",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 3",
+    "en": "Unit 3 review"
+   },
+   "items": [
+    "es.a1.vocab.casa",
+    "es.a1.vocab.piso",
+    "es.a1.vocab.habitacion",
+    "es.a1.vocab.cocina",
+    "es.a1.vocab.bano",
+    "es.a1.vocab.dormitorio",
+    "es.a1.vocab.salon",
+    "es.a1.vocab.balcon",
+    "es.a1.vocab.jardin",
+    "es.a1.vocab.grande",
+    "es.a1.vocab.pequeno",
+    "es.a1.vocab.bonito",
+    "es.a1.vocab.mesa",
+    "es.a1.vocab.silla",
+    "es.a1.vocab.cama",
+    "es.a1.vocab.sofa",
+    "es.a1.vocab.armario",
+    "es.a1.vocab.lampara",
+    "es.a1.vocab.ventana",
+    "es.a1.vocab.puerta",
+    "es.a1.vocab.nuevo",
+    "es.a1.vocab.caro",
+    "es.a1.vocab.barato",
+    "es.a1.vocab.luminoso"
+   ]
+  },
+  {
+   "id": "es.a1.u04.l01",
+   "unitId": "es.a1.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "الأكل",
+    "en": "Food"
+   },
+   "items": [
+    "es.a1.vocab.pan",
+    "es.a1.vocab.panecillo",
+    "es.a1.vocab.queso",
+    "es.a1.vocab.salchicha",
+    "es.a1.vocab.huevo",
+    "es.a1.vocab.manzana",
+    "es.a1.vocab.carne",
+    "es.a1.vocab.pescado",
+    "es.a1.vocab.verdura",
+    "es.a1.vocab.fruta",
+    "es.a1.vocab.arroz",
+    "es.a1.vocab.patata"
+   ]
+  },
+  {
+   "id": "es.a1.u04.l02",
+   "unitId": "es.a1.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "المشروبات والوجبات",
+    "en": "Drinks and meals"
+   },
+   "items": [
+    "es.a1.vocab.agua",
+    "es.a1.vocab.cafe",
+    "es.a1.vocab.te",
+    "es.a1.vocab.leche",
+    "es.a1.vocab.zumo",
+    "es.a1.vocab.comer",
+    "es.a1.vocab.beber",
+    "es.a1.vocab.querer",
+    "es.a1.vocab.desayuno",
+    "es.a1.vocab.comida",
+    "es.a1.vocab.cena",
+    "es.a1.vocab.rico",
+    "es.a1.vocab.hambre",
+    "es.a1.vocab.sed"
+   ]
+  },
+  {
+   "id": "es.a1.u04.l03",
+   "unitId": "es.a1.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "عايز قهوة، ومش باكل لحمة",
+    "en": "querer and saying no"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.querer_negacion"
+  },
+  {
+   "id": "es.a1.u04.l04",
+   "unitId": "es.a1.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: طلب الأكل",
+    "en": "Listen: ordering food"
+   },
+   "items": [
+    "es.a1.sent.s057",
+    "es.a1.sent.s059",
+    "es.a1.sent.s060",
+    "es.a1.sent.s061",
+    "es.a1.sent.s062",
+    "es.a1.sent.s064",
+    "es.a1.sent.s067",
+    "es.a1.sent.s072"
+   ]
+  },
+  {
+   "id": "es.a1.u04.l05",
+   "unitId": "es.a1.u04",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: في الكافيه",
+    "en": "Read: in the café"
+   },
+   "items": [],
+   "textId": "es.a1.text.en_la_cafeteria"
+  },
+  {
+   "id": "es.a1.u04.l06",
+   "unitId": "es.a1.u04",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 4",
+    "en": "Unit 4 review"
+   },
+   "items": [
+    "es.a1.vocab.pan",
+    "es.a1.vocab.panecillo",
+    "es.a1.vocab.queso",
+    "es.a1.vocab.salchicha",
+    "es.a1.vocab.huevo",
+    "es.a1.vocab.manzana",
+    "es.a1.vocab.carne",
+    "es.a1.vocab.pescado",
+    "es.a1.vocab.verdura",
+    "es.a1.vocab.fruta",
+    "es.a1.vocab.arroz",
+    "es.a1.vocab.patata",
+    "es.a1.vocab.agua",
+    "es.a1.vocab.cafe",
+    "es.a1.vocab.te",
+    "es.a1.vocab.leche",
+    "es.a1.vocab.zumo",
+    "es.a1.vocab.comer",
+    "es.a1.vocab.beber",
+    "es.a1.vocab.querer",
+    "es.a1.vocab.desayuno",
+    "es.a1.vocab.comida",
+    "es.a1.vocab.cena",
+    "es.a1.vocab.rico",
+    "es.a1.vocab.hambre",
+    "es.a1.vocab.sed"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "es.a1.vocab.hola",
+   "lemma": "hola",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرحبًا",
+    "en": "hello"
+   },
+   "conceptId": "c.a1.hello",
+   "sentenceIds": [
+    "es.a1.sent.s001"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.chao",
+   "lemma": "chao",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باي، مع السلامة",
+    "en": "bye"
+   },
+   "conceptId": "c.a1.bye",
+   "sentenceIds": [
+    "es.a1.sent.s016"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.buenos_dias",
+   "lemma": "buenos días",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صباح الخير",
+    "en": "good morning"
+   },
+   "conceptId": "c.a1.good_morning",
+   "sentenceIds": [
+    "es.a1.sent.s009"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.buenas_tardes",
+   "lemma": "buenas tardes",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساء الخير (بعد الضهر)",
+    "en": "good afternoon"
+   },
+   "conceptId": "c.a1.good_day",
+   "sentenceIds": [
+    "es.a1.sent.s018"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.buenas_noches",
+   "lemma": "buenas noches",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساء الخير، تصبح على خير",
+    "en": "good evening; good night"
+   },
+   "conceptId": "c.a1.good_evening",
+   "sentenceIds": [
+    "es.a1.sent.s019"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.adios",
+   "lemma": "adiós",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إلى اللقاء",
+    "en": "goodbye"
+   },
+   "conceptId": "c.a1.goodbye",
+   "sentenceIds": [
+    "es.a1.sent.s010"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.gracias",
+   "lemma": "gracias",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شكرًا",
+    "en": "thank you"
+   },
+   "conceptId": "c.a1.thank_you",
+   "sentenceIds": [
+    "es.a1.sent.s008",
+    "es.a1.sent.s017"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.por_favor",
+   "lemma": "por favor",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من فضلك",
+    "en": "please"
+   },
+   "conceptId": "c.a1.please",
+   "sentenceIds": [
+    "es.a1.sent.s051",
+    "es.a1.sent.s057",
+    "es.a1.sent.s067"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.si",
+   "lemma": "sí",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نعم",
+    "en": "yes"
+   },
+   "conceptId": "c.a1.yes",
+   "sentenceIds": [
+    "es.a1.sent.s012",
+    "es.a1.sent.s034"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.no",
+   "lemma": "no",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لا، مش",
+    "en": "no; not"
+   },
+   "conceptId": "c.a1.no",
+   "sentenceIds": [
+    "es.a1.sent.s013",
+    "es.a1.sent.s036",
+    "es.a1.sent.s062"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.perdon",
+   "lemma": "perdón",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عفوًا، آسف",
+    "en": "sorry; excuse me"
+   },
+   "conceptId": "c.a1.excuse_me",
+   "sentenceIds": [
+    "es.a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.bien",
+   "lemma": "bien",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كويس، بخير",
+    "en": "well, fine"
+   },
+   "conceptId": "c.a1.good",
+   "sentenceIds": [
+    "es.a1.sent.s008"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.nombre",
+   "lemma": "nombre",
+   "article": "el",
+   "plural": "nombres",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اسم",
+    "en": "name"
+   },
+   "conceptId": "c.a1.name",
+   "sentenceIds": [
+    "es.a1.sent.s014"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.llamarse",
+   "lemma": "llamarse",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يُسمّى",
+    "en": "to be called"
+   },
+   "conceptId": "c.a1.be_called",
+   "sentenceIds": [
+    "es.a1.sent.s001",
+    "es.a1.sent.s002",
+    "es.a1.sent.s003"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.ser",
+   "lemma": "ser",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكون (صفة ثابتة)",
+    "en": "to be (who or what something is)"
+   },
+   "conceptId": "c.a1.be",
+   "sentenceIds": [
+    "es.a1.sent.s004",
+    "es.a1.sent.s005",
+    "es.a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.venir",
+   "lemma": "venir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأتي",
+    "en": "to come"
+   },
+   "conceptId": "c.a1.come",
+   "sentenceIds": [
+    "es.a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.de",
+   "lemma": "de",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من",
+    "en": "from; of"
+   },
+   "conceptId": "c.a1.from",
+   "sentenceIds": [
+    "es.a1.sent.s004",
+    "es.a1.sent.s005",
+    "es.a1.sent.s015"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.vivir",
+   "lemma": "vivir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعيش، يسكن",
+    "en": "to live"
+   },
+   "conceptId": "c.a1.live",
+   "sentenceIds": [
+    "es.a1.sent.s006",
+    "es.a1.sent.s037"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.en",
+   "lemma": "en",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "في",
+    "en": "in; at"
+   },
+   "conceptId": "c.a1.in",
+   "sentenceIds": [
+    "es.a1.sent.s006",
+    "es.a1.sent.s037",
+    "es.a1.sent.s048"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.yo",
+   "lemma": "yo",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أنا",
+    "en": "I"
+   },
+   "conceptId": "c.a1.i",
+   "sentenceIds": [
+    "es.a1.sent.s012"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tu",
+   "lemma": "tú",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أنت (غير رسمي)",
+    "en": "you (informal)"
+   },
+   "conceptId": "c.a1.you_informal",
+   "sentenceIds": [
+    "es.a1.sent.s008"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.usted",
+   "lemma": "usted",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حضرتك (رسمي)",
+    "en": "you (formal)"
+   },
+   "conceptId": "c.a1.you_formal",
+   "sentenceIds": [
+    "es.a1.sent.s003",
+    "es.a1.sent.s007",
+    "es.a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.como",
+   "lemma": "cómo",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كيف",
+    "en": "how"
+   },
+   "conceptId": "c.a1.how",
+   "sentenceIds": [
+    "es.a1.sent.s002",
+    "es.a1.sent.s003",
+    "es.a1.sent.s007"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.de_donde",
+   "lemma": "de dónde",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من أين",
+    "en": "where from"
+   },
+   "conceptId": "c.a1.where_from",
+   "sentenceIds": [
+    "es.a1.sent.s005"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pais",
+   "lemma": "país",
+   "article": "el",
+   "plural": "países",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بلد",
+    "en": "country"
+   },
+   "conceptId": "c.a1.country",
+   "sentenceIds": [
+    "es.a1.sent.s020"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.ciudad",
+   "lemma": "ciudad",
+   "article": "la",
+   "plural": "ciudades",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدينة",
+    "en": "city, town"
+   },
+   "conceptId": "c.a1.city",
+   "sentenceIds": [
+    "es.a1.sent.s015"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.familia",
+   "lemma": "familia",
+   "article": "la",
+   "plural": "familias",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عائلة",
+    "en": "family"
+   },
+   "conceptId": "c.a1.family",
+   "sentenceIds": [
+    "es.a1.sent.s021"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.madre",
+   "lemma": "madre",
+   "article": "la",
+   "plural": "madres",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أم",
+    "en": "mother"
+   },
+   "conceptId": "c.a1.mother",
+   "sentenceIds": [
+    "es.a1.sent.s023"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.padre",
+   "lemma": "padre",
+   "article": "el",
+   "plural": "padres",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أب؛ (الجمع) الأهل",
+    "en": "father; (plural) parents"
+   },
+   "conceptId": "c.a1.father",
+   "sentenceIds": [
+    "es.a1.sent.s025",
+    "es.a1.sent.s037"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hermano",
+   "lemma": "hermano",
+   "article": "el",
+   "plural": "hermanos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخ؛ (الجمع) إخوات",
+    "en": "brother; (plural) siblings"
+   },
+   "conceptId": "c.a1.brother",
+   "sentenceIds": [
+    "es.a1.sent.s022",
+    "es.a1.sent.s036",
+    "es.a1.sent.s040"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hermana",
+   "lemma": "hermana",
+   "article": "la",
+   "plural": "hermanas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخت",
+    "en": "sister"
+   },
+   "conceptId": "c.a1.sister",
+   "sentenceIds": [
+    "es.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.nino",
+   "lemma": "niño",
+   "article": "el",
+   "plural": "niños",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طفل، ولد",
+    "en": "child, boy"
+   },
+   "conceptId": "c.a1.child",
+   "sentenceIds": [
+    "es.a1.sent.s066"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tener",
+   "lemma": "tener",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يملك، عنده",
+    "en": "to have"
+   },
+   "conceptId": "c.a1.have",
+   "sentenceIds": [
+    "es.a1.sent.s022",
+    "es.a1.sent.s024",
+    "es.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.uno",
+   "lemma": "uno",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "واحد",
+    "en": "one"
+   },
+   "conceptId": "c.a1.one",
+   "sentenceIds": [
+    "es.a1.sent.s015",
+    "es.a1.sent.s020",
+    "es.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.dos",
+   "lemma": "dos",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اثنان",
+    "en": "two"
+   },
+   "conceptId": "c.a1.two",
+   "sentenceIds": [
+    "es.a1.sent.s022",
+    "es.a1.sent.s027",
+    "es.a1.sent.s034"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tres",
+   "lemma": "tres",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثلاثة",
+    "en": "three"
+   },
+   "conceptId": "c.a1.three",
+   "sentenceIds": [
+    "es.a1.sent.s027",
+    "es.a1.sent.s035",
+    "es.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cuatro",
+   "lemma": "cuatro",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أربعة",
+    "en": "four"
+   },
+   "conceptId": "c.a1.four",
+   "sentenceIds": [
+    "es.a1.sent.s039"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cinco",
+   "lemma": "cinco",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خمسة",
+    "en": "five"
+   },
+   "conceptId": "c.a1.five",
+   "sentenceIds": [
+    "es.a1.sent.s032"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.seis",
+   "lemma": "seis",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ستة",
+    "en": "six"
+   },
+   "conceptId": "c.a1.six",
+   "sentenceIds": [
+    "es.a1.sent.s040"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.siete",
+   "lemma": "siete",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سبعة",
+    "en": "seven"
+   },
+   "conceptId": "c.a1.seven",
+   "sentenceIds": [
+    "es.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.ocho",
+   "lemma": "ocho",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثمانية",
+    "en": "eight"
+   },
+   "conceptId": "c.a1.eight",
+   "sentenceIds": [
+    "es.a1.sent.s030",
+    "es.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.nueve",
+   "lemma": "nueve",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تسعة",
+    "en": "nine"
+   },
+   "conceptId": "c.a1.nine",
+   "sentenceIds": [
+    "es.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.diez",
+   "lemma": "diez",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشرة",
+    "en": "ten"
+   },
+   "conceptId": "c.a1.ten",
+   "sentenceIds": [
+    "es.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.veinte",
+   "lemma": "veinte",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشرون",
+    "en": "twenty"
+   },
+   "conceptId": "c.a1.twenty",
+   "sentenceIds": [
+    "es.a1.sent.s029"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.viejo",
+   "lemma": "viejo",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كبير في السن، قديم",
+    "en": "old"
+   },
+   "conceptId": "c.a1.old",
+   "sentenceIds": [
+    "es.a1.sent.s047"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.ano",
+   "lemma": "año",
+   "article": "el",
+   "plural": "años",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سنة",
+    "en": "year"
+   },
+   "conceptId": "c.a1.year",
+   "sentenceIds": [
+    "es.a1.sent.s028",
+    "es.a1.sent.s029",
+    "es.a1.sent.s030"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hijo",
+   "lemma": "hijo",
+   "article": "el",
+   "plural": "hijos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ابن؛ (الجمع) أولاد",
+    "en": "son; (plural) children"
+   },
+   "conceptId": "c.a1.son",
+   "sentenceIds": [
+    "es.a1.sent.s024",
+    "es.a1.sent.s030",
+    "es.a1.sent.s031"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hija",
+   "lemma": "hija",
+   "article": "la",
+   "plural": "hijas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بنت، ابنة",
+    "en": "daughter"
+   },
+   "conceptId": "c.a1.daughter",
+   "sentenceIds": [
+    "es.a1.sent.s032"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.casado",
+   "lemma": "casado",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متزوج",
+    "en": "married"
+   },
+   "conceptId": "c.a1.married",
+   "sentenceIds": [
+    "es.a1.sent.s033"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cuantos",
+   "lemma": "cuántos",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كم (عدد)",
+    "en": "how many"
+   },
+   "conceptId": "c.a1.how_many",
+   "sentenceIds": [
+    "es.a1.sent.s028",
+    "es.a1.sent.s031",
+    "es.a1.sent.s044"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.casa",
+   "lemma": "casa",
+   "article": "la",
+   "plural": "casas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيت",
+    "en": "house; home"
+   },
+   "conceptId": "c.a1.house",
+   "sentenceIds": [
+    "es.a1.sent.s042"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.piso",
+   "lemma": "piso",
+   "article": "el",
+   "plural": "pisos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شقة (وكمان: دور)",
+    "en": "flat, apartment (also: floor)"
+   },
+   "conceptId": "c.a1.flat",
+   "sentenceIds": [
+    "es.a1.sent.s041",
+    "es.a1.sent.s044",
+    "es.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.habitacion",
+   "lemma": "habitación",
+   "article": "la",
+   "plural": "habitaciones",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أوضة",
+    "en": "room; bedroom"
+   },
+   "conceptId": "c.a1.room",
+   "sentenceIds": [
+    "es.a1.sent.s044",
+    "es.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cocina",
+   "lemma": "cocina",
+   "article": "la",
+   "plural": "cocinas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مطبخ",
+    "en": "kitchen"
+   },
+   "conceptId": "c.a1.kitchen",
+   "sentenceIds": [
+    "es.a1.sent.s043"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.bano",
+   "lemma": "baño",
+   "article": "el",
+   "plural": "baños",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حمّام",
+    "en": "bathroom"
+   },
+   "conceptId": "c.a1.bathroom",
+   "sentenceIds": [
+    "es.a1.sent.s045",
+    "es.a1.sent.s054"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.dormitorio",
+   "lemma": "dormitorio",
+   "article": "el",
+   "plural": "dormitorios",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرفة نوم",
+    "en": "bedroom"
+   },
+   "conceptId": "c.a1.bedroom",
+   "sentenceIds": [
+    "es.a1.sent.s048"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.salon",
+   "lemma": "salón",
+   "article": "el",
+   "plural": "salones",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرفة معيشة",
+    "en": "living room"
+   },
+   "conceptId": "c.a1.living_room",
+   "sentenceIds": [
+    "es.a1.sent.s053"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.balcon",
+   "lemma": "balcón",
+   "article": "el",
+   "plural": "balcones",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بلكونة",
+    "en": "balcony"
+   },
+   "conceptId": "c.a1.balcony",
+   "sentenceIds": [
+    "es.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.jardin",
+   "lemma": "jardín",
+   "article": "el",
+   "plural": "jardines",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حديقة",
+    "en": "garden"
+   },
+   "conceptId": "c.a1.garden",
+   "sentenceIds": [
+    "es.a1.sent.s042",
+    "es.a1.sent.s055"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.grande",
+   "lemma": "grande",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كبير، طويل",
+    "en": "big, tall"
+   },
+   "conceptId": "c.a1.big",
+   "sentenceIds": [
+    "es.a1.sent.s043",
+    "es.a1.sent.s055",
+    "es.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pequeno",
+   "lemma": "pequeño",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صغير",
+    "en": "small, little"
+   },
+   "conceptId": "c.a1.small",
+   "sentenceIds": [
+    "es.a1.sent.s041",
+    "es.a1.sent.s054"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.bonito",
+   "lemma": "bonito",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حلو، جميل",
+    "en": "pretty, nice"
+   },
+   "conceptId": "c.a1.beautiful",
+   "sentenceIds": [
+    "es.a1.sent.s041",
+    "es.a1.sent.s047"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.mesa",
+   "lemma": "mesa",
+   "article": "la",
+   "plural": "mesas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طاولة، ترابيزة",
+    "en": "table"
+   },
+   "conceptId": "c.a1.table",
+   "sentenceIds": [
+    "es.a1.sent.s047"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.silla",
+   "lemma": "silla",
+   "article": "la",
+   "plural": "sillas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كرسي",
+    "en": "chair"
+   },
+   "conceptId": "c.a1.chair",
+   "sentenceIds": [
+    "es.a1.sent.s050"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cama",
+   "lemma": "cama",
+   "article": "la",
+   "plural": "camas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سرير",
+    "en": "bed"
+   },
+   "conceptId": "c.a1.bed",
+   "sentenceIds": [
+    "es.a1.sent.s048"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.sofa",
+   "lemma": "sofá",
+   "article": "el",
+   "plural": "sofás",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كنبة",
+    "en": "sofa"
+   },
+   "conceptId": "c.a1.sofa",
+   "sentenceIds": [
+    "es.a1.sent.s046"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.armario",
+   "lemma": "armario",
+   "article": "el",
+   "plural": "armarios",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دولاب",
+    "en": "cupboard, wardrobe"
+   },
+   "conceptId": "c.a1.wardrobe",
+   "sentenceIds": [
+    "es.a1.sent.s048",
+    "es.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.lampara",
+   "lemma": "lámpara",
+   "article": "la",
+   "plural": "lámparas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لمبة، مصباح",
+    "en": "lamp"
+   },
+   "conceptId": "c.a1.lamp",
+   "sentenceIds": [
+    "es.a1.sent.s049"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.ventana",
+   "lemma": "ventana",
+   "article": "la",
+   "plural": "ventanas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شباك",
+    "en": "window"
+   },
+   "conceptId": "c.a1.window",
+   "sentenceIds": [
+    "es.a1.sent.s051"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.puerta",
+   "lemma": "puerta",
+   "article": "la",
+   "plural": "puertas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باب",
+    "en": "door"
+   },
+   "conceptId": "c.a1.door",
+   "sentenceIds": [
+    "es.a1.sent.s052"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.nuevo",
+   "lemma": "nuevo",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جديد",
+    "en": "new"
+   },
+   "conceptId": "c.a1.new",
+   "sentenceIds": [
+    "es.a1.sent.s046",
+    "es.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.caro",
+   "lemma": "caro",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غالي",
+    "en": "expensive"
+   },
+   "conceptId": "c.a1.expensive",
+   "sentenceIds": [
+    "es.a1.sent.s049"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.barato",
+   "lemma": "barato",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رخيص",
+    "en": "cheap"
+   },
+   "conceptId": "c.a1.cheap",
+   "sentenceIds": [
+    "es.a1.sent.s050"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.luminoso",
+   "lemma": "luminoso",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منوّر، فاتح",
+    "en": "bright, light"
+   },
+   "conceptId": "c.a1.bright",
+   "sentenceIds": [
+    "es.a1.sent.s043"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pan",
+   "lemma": "pan",
+   "article": "el",
+   "plural": "panes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خبز، عيش",
+    "en": "bread"
+   },
+   "conceptId": "c.a1.bread",
+   "sentenceIds": [
+    "es.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.panecillo",
+   "lemma": "panecillo",
+   "article": "el",
+   "plural": "panecillos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خبز صغير (صمونة)",
+    "en": "bread roll"
+   },
+   "conceptId": "c.a1.bread_roll",
+   "sentenceIds": [
+    "es.a1.sent.s072"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.queso",
+   "lemma": "queso",
+   "article": "el",
+   "plural": "quesos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جبنة",
+    "en": "cheese"
+   },
+   "conceptId": "c.a1.cheese",
+   "sentenceIds": [
+    "es.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.salchicha",
+   "lemma": "salchicha",
+   "article": "la",
+   "plural": "salchichas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سجق",
+    "en": "sausage"
+   },
+   "conceptId": "c.a1.sausage",
+   "sentenceIds": [
+    "es.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.huevo",
+   "lemma": "huevo",
+   "article": "el",
+   "plural": "huevos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيضة",
+    "en": "egg"
+   },
+   "conceptId": "c.a1.egg",
+   "sentenceIds": [
+    "es.a1.sent.s071"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.manzana",
+   "lemma": "manzana",
+   "article": "la",
+   "plural": "manzanas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تفاحة",
+    "en": "apple"
+   },
+   "conceptId": "c.a1.apple",
+   "sentenceIds": [
+    "es.a1.sent.s064"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.carne",
+   "lemma": "carne",
+   "article": "la",
+   "plural": "carnes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لحمة",
+    "en": "meat"
+   },
+   "conceptId": "c.a1.meat",
+   "sentenceIds": [
+    "es.a1.sent.s062"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pescado",
+   "lemma": "pescado",
+   "article": "el",
+   "plural": "pescados",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سمك (أكل)",
+    "en": "fish (as food)"
+   },
+   "conceptId": "c.a1.fish",
+   "sentenceIds": [
+    "es.a1.sent.s063"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.verdura",
+   "lemma": "verdura",
+   "article": "la",
+   "plural": "verduras",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خضار",
+    "en": "vegetables"
+   },
+   "conceptId": "c.a1.vegetables",
+   "sentenceIds": [
+    "es.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.fruta",
+   "lemma": "fruta",
+   "article": "la",
+   "plural": "frutas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فاكهة",
+    "en": "fruit"
+   },
+   "conceptId": "c.a1.fruit",
+   "sentenceIds": [
+    "es.a1.sent.s070"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.arroz",
+   "lemma": "arroz",
+   "article": "el",
+   "plural": "arroces",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رز",
+    "en": "rice"
+   },
+   "conceptId": "c.a1.rice",
+   "sentenceIds": [
+    "es.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.patata",
+   "lemma": "patata",
+   "article": "la",
+   "plural": "patatas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطاطس",
+    "en": "potato"
+   },
+   "conceptId": "c.a1.potato",
+   "sentenceIds": [
+    "es.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.agua",
+   "lemma": "agua",
+   "article": "el",
+   "plural": "aguas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مياه (مؤنث، بس بنقول el agua)",
+    "en": "water (feminine, but el agua)"
+   },
+   "conceptId": "c.a1.water",
+   "sentenceIds": [
+    "es.a1.sent.s067"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cafe",
+   "lemma": "café",
+   "article": "el",
+   "plural": "cafés",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قهوة؛ كافيه",
+    "en": "coffee; café"
+   },
+   "conceptId": "c.a1.coffee",
+   "sentenceIds": [
+    "es.a1.sent.s057",
+    "es.a1.sent.s059"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.te",
+   "lemma": "té",
+   "article": "el",
+   "plural": "tés",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شاي",
+    "en": "tea"
+   },
+   "conceptId": "c.a1.tea",
+   "sentenceIds": [
+    "es.a1.sent.s059"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.leche",
+   "lemma": "leche",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لبن، حليب",
+    "en": "milk"
+   },
+   "conceptId": "c.a1.milk",
+   "sentenceIds": [
+    "es.a1.sent.s066"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.zumo",
+   "lemma": "zumo",
+   "article": "el",
+   "plural": "zumos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عصير",
+    "en": "juice"
+   },
+   "conceptId": "c.a1.juice",
+   "sentenceIds": [
+    "es.a1.sent.s067"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.comer",
+   "lemma": "comer",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياكل؛ يتغدى",
+    "en": "to eat; to have lunch"
+   },
+   "conceptId": "c.a1.eat",
+   "sentenceIds": [
+    "es.a1.sent.s058",
+    "es.a1.sent.s062",
+    "es.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.beber",
+   "lemma": "beber",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشرب",
+    "en": "to drink"
+   },
+   "conceptId": "c.a1.drink",
+   "sentenceIds": [
+    "es.a1.sent.s059",
+    "es.a1.sent.s066"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.querer",
+   "lemma": "querer",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يريد، عايز (querría = أحب لو سمحت)",
+    "en": "to want (querría = I'd like)"
+   },
+   "conceptId": "c.a1.want",
+   "sentenceIds": [
+    "es.a1.sent.s057",
+    "es.a1.sent.s064",
+    "es.a1.sent.s071"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.desayuno",
+   "lemma": "desayuno",
+   "article": "el",
+   "plural": "desayunos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فطار",
+    "en": "breakfast"
+   },
+   "conceptId": "c.a1.breakfast",
+   "sentenceIds": [
+    "es.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.comida",
+   "lemma": "comida",
+   "article": "la",
+   "plural": "comidas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غدا؛ أكل",
+    "en": "lunch; food"
+   },
+   "conceptId": "c.a1.lunch",
+   "sentenceIds": [
+    "es.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cena",
+   "lemma": "cena",
+   "article": "la",
+   "plural": "cenas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشاء",
+    "en": "dinner, supper"
+   },
+   "conceptId": "c.a1.dinner",
+   "sentenceIds": [
+    "es.a1.sent.s069"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.rico",
+   "lemma": "rico",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لذيذ (وكمان: غني)",
+    "en": "tasty (also: rich)"
+   },
+   "conceptId": "c.a1.tasty",
+   "sentenceIds": [
+    "es.a1.sent.s063"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hambre",
+   "lemma": "hambre",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جوع",
+    "en": "hunger (feminine, but el hambre)"
+   },
+   "conceptId": "c.a1.hunger",
+   "sentenceIds": [
+    "es.a1.sent.s060"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.sed",
+   "lemma": "sed",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عطش",
+    "en": "thirst"
+   },
+   "conceptId": "c.a1.thirst",
+   "sentenceIds": [
+    "es.a1.sent.s061"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "es.a1.sent.s001",
+   "text": "Hola, me llamo Anna.",
+   "translations": {
+    "ar": "أهلًا، اسمي آنا.",
+    "en": "Hello, my name is Anna."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s002",
+   "text": "¿Cómo te llamas?",
+   "translations": {
+    "ar": "اسمك إيه؟",
+    "en": "What's your name?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s003",
+   "text": "¿Cómo se llama usted?",
+   "translations": {
+    "ar": "اسم حضرتك إيه؟",
+    "en": "What is your name? (formal)"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s004",
+   "text": "Soy de Egipto.",
+   "translations": {
+    "ar": "أنا من مصر.",
+    "en": "I come from Egypt."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s005",
+   "text": "¿De dónde eres?",
+   "translations": {
+    "ar": "إنت منين؟",
+    "en": "Where are you from?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s006",
+   "text": "Vivo en Berlín.",
+   "translations": {
+    "ar": "أنا ساكن في برلين.",
+    "en": "I live in Berlin."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s007",
+   "text": "¿Cómo está usted?",
+   "translations": {
+    "ar": "إزي حضرتك؟",
+    "en": "How are you? (formal)"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s008",
+   "text": "Bien, gracias. ¿Y tú?",
+   "translations": {
+    "ar": "كويس، شكرًا. وإنت؟",
+    "en": "Fine, thanks. And you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s009",
+   "text": "¡Buenos días, señor Weber!",
+   "translations": {
+    "ar": "صباح الخير يا أستاذ فيبر!",
+    "en": "Good morning, Mr Weber!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s010",
+   "text": "¡Adiós, señora Klein!",
+   "translations": {
+    "ar": "مع السلامة يا مدام كلاين!",
+    "en": "Goodbye, Ms Klein!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s011",
+   "text": "Perdón, ¿es usted el señor Weber?",
+   "translations": {
+    "ar": "لو سمحت، حضرتك الأستاذ فيبر؟",
+    "en": "Excuse me, are you Mr Weber?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s012",
+   "text": "Sí, soy yo.",
+   "translations": {
+    "ar": "أيوه، أنا.",
+    "en": "Yes, that's me."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s013",
+   "text": "No, soy Peter.",
+   "translations": {
+    "ar": "لأ، أنا بيتر.",
+    "en": "No, I'm Peter."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s014",
+   "text": "Mi nombre es Lukas.",
+   "translations": {
+    "ar": "اسمي لوكاس.",
+    "en": "My name is Lukas."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s015",
+   "text": "Berlín es una ciudad de Alemania.",
+   "translations": {
+    "ar": "برلين مدينة في ألمانيا.",
+    "en": "Berlin is a city in Germany."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s016",
+   "text": "¡Chao, hasta mañana!",
+   "translations": {
+    "ar": "باي، أشوفك بكرة!",
+    "en": "Bye, see you tomorrow!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s017",
+   "text": "¡Muchas gracias! – ¡De nada!",
+   "translations": {
+    "ar": "شكرًا جزيلًا! – العفو!",
+    "en": "Thank you very much! – You're welcome!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s018",
+   "text": "¡Buenas tardes! Soy la señora Schmidt.",
+   "translations": {
+    "ar": "نهارك سعيد! أنا مدام شميت.",
+    "en": "Hello! I'm Ms Schmidt."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s019",
+   "text": "¡Buenas noches! ¿Qué tal?",
+   "translations": {
+    "ar": "مساء الخير! إزيك؟",
+    "en": "Good evening! How are you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s020",
+   "text": "España es un país de Europa.",
+   "translations": {
+    "ar": "إسبانيا بلد في أوروبا.",
+    "en": "Spain is a country in Europe."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s021",
+   "text": "Esta es mi familia.",
+   "translations": {
+    "ar": "دي عيلتي.",
+    "en": "This is my family."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s022",
+   "text": "Tengo dos hermanos.",
+   "translations": {
+    "ar": "عندي أخين.",
+    "en": "I have two brothers."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s023",
+   "text": "Mi madre se llama María.",
+   "translations": {
+    "ar": "مامتي اسمها ماريا.",
+    "en": "My mother's name is Maria."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s024",
+   "text": "¿Tienes hijos?",
+   "translations": {
+    "ar": "عندك أطفال؟",
+    "en": "Do you have children?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s025",
+   "text": "Mi padre viene de España.",
+   "translations": {
+    "ar": "بابا من إسبانيا.",
+    "en": "My father comes from Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s026",
+   "text": "Tengo una hermana.",
+   "translations": {
+    "ar": "عندي أخت واحدة.",
+    "en": "I have one sister."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s027",
+   "text": "Uno, dos, tres, ¡ya!",
+   "translations": {
+    "ar": "واحد، اتنين، تلاتة – يلا!",
+    "en": "One, two, three – go!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s028",
+   "text": "¿Cuántos años tienes?",
+   "translations": {
+    "ar": "عندك كام سنة؟",
+    "en": "How old are you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s029",
+   "text": "Tengo veinte años.",
+   "translations": {
+    "ar": "عندي عشرين سنة.",
+    "en": "I'm twenty years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s030",
+   "text": "Mi hijo tiene ocho años.",
+   "translations": {
+    "ar": "ابني عنده تمن سنين.",
+    "en": "My son is eight."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s031",
+   "text": "¿Cuántos hijos tienes?",
+   "translations": {
+    "ar": "عندك كام طفل؟",
+    "en": "How many children do you have?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s032",
+   "text": "Mi hija tiene cinco años.",
+   "translations": {
+    "ar": "بنتي عندها خمس سنين.",
+    "en": "My daughter is five years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s033",
+   "text": "¿Estás casado?",
+   "translations": {
+    "ar": "إنت متجوز؟",
+    "en": "Are you married?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s034",
+   "text": "Sí, y tenemos dos hijos.",
+   "translations": {
+    "ar": "أيوه، وعندنا طفلين.",
+    "en": "Yes, and we have two children."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s035",
+   "text": "Ella tiene tres hijos.",
+   "translations": {
+    "ar": "هي عندها تلات أطفال.",
+    "en": "She has three children."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s036",
+   "text": "Ese es tu hermano, ¿no?",
+   "translations": {
+    "ar": "ده أخوك، صح؟",
+    "en": "That's your brother, isn't it?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s037",
+   "text": "Mis padres viven en El Cairo.",
+   "translations": {
+    "ar": "أهلي ساكنين في القاهرة.",
+    "en": "My parents live in Cairo."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s038",
+   "text": "¡Siete, ocho, nueve, diez!",
+   "translations": {
+    "ar": "سبعة، تمانية، تسعة، عشرة!",
+    "en": "Seven, eight, nine, ten!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s039",
+   "text": "Nuestro gato tiene cuatro años.",
+   "translations": {
+    "ar": "قطتنا عندها أربع سنين.",
+    "en": "Our cat is four years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s040",
+   "text": "¡Mi hermano tiene seis hijos!",
+   "translations": {
+    "ar": "أخويا عنده ست أطفال!",
+    "en": "My brother has six children!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s041",
+   "text": "Mi piso es pequeño, pero bonito.",
+   "translations": {
+    "ar": "شقتي صغيرة بس حلوة.",
+    "en": "My flat is small but nice."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s042",
+   "text": "La casa tiene jardín.",
+   "translations": {
+    "ar": "البيت فيه جنينة.",
+    "en": "The house has a garden."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s043",
+   "text": "La cocina es grande y luminosa.",
+   "translations": {
+    "ar": "المطبخ كبير ومنوّر.",
+    "en": "The kitchen is big and bright."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s044",
+   "text": "¿Cuántas habitaciones tiene el piso?",
+   "translations": {
+    "ar": "الشقة فيها كام أوضة؟",
+    "en": "How many rooms does the flat have?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s045",
+   "text": "El piso tiene tres habitaciones, un baño y un balcón.",
+   "translations": {
+    "ar": "الشقة فيها تلات أوض وحمّام وبلكونة.",
+    "en": "The flat has three rooms, a bathroom and a balcony."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s046",
+   "text": "El sofá es nuevo. Es muy cómodo.",
+   "translations": {
+    "ar": "الكنبة جديدة. ومريحة جدًا.",
+    "en": "The sofa is new. It's very comfortable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s047",
+   "text": "La mesa es vieja, pero bonita.",
+   "translations": {
+    "ar": "الترابيزة قديمة بس حلوة.",
+    "en": "The table is old but beautiful."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s048",
+   "text": "En el dormitorio hay una cama y un armario.",
+   "translations": {
+    "ar": "في أوضة النوم فيه سرير ودولاب.",
+    "en": "In the bedroom there's a bed and a wardrobe."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s049",
+   "text": "La lámpara es cara.",
+   "translations": {
+    "ar": "اللمبة غالية.",
+    "en": "The lamp is expensive."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s050",
+   "text": "La silla es barata.",
+   "translations": {
+    "ar": "الكرسي رخيص.",
+    "en": "The chair is cheap."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s051",
+   "text": "¡Abre la ventana, por favor!",
+   "translations": {
+    "ar": "افتح الشباك لو سمحت!",
+    "en": "Please open the window!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s052",
+   "text": "La puerta está cerrada.",
+   "translations": {
+    "ar": "الباب مقفول.",
+    "en": "The door is closed."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s053",
+   "text": "Estamos sentados en el salón.",
+   "translations": {
+    "ar": "إحنا قاعدين في الصالة.",
+    "en": "We're sitting in the living room."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s054",
+   "text": "El baño es muy pequeño.",
+   "translations": {
+    "ar": "الحمّام صغير جدًا.",
+    "en": "The bathroom is very small."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s055",
+   "text": "¿Es grande el jardín?",
+   "translations": {
+    "ar": "الجنينة كبيرة؟",
+    "en": "Is the garden big?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s056",
+   "text": "El armario es nuevo. Es muy grande.",
+   "translations": {
+    "ar": "الدولاب جديد. وكبير جدًا.",
+    "en": "The wardrobe is new. It's very big."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s057",
+   "text": "Querría un café, por favor.",
+   "translations": {
+    "ar": "عايز قهوة، لو سمحت.",
+    "en": "I'd like a coffee, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s058",
+   "text": "En el desayuno como pan con queso.",
+   "translations": {
+    "ar": "على الفطار باكل عيش بجبنة.",
+    "en": "For breakfast I eat bread with cheese."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s059",
+   "text": "¿Bebes té o café?",
+   "translations": {
+    "ar": "بتشرب شاي ولا قهوة؟",
+    "en": "Do you drink tea or coffee?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s060",
+   "text": "¡Tengo hambre!",
+   "translations": {
+    "ar": "أنا جعان!",
+    "en": "I'm hungry!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s061",
+   "text": "¿Tienes sed?",
+   "translations": {
+    "ar": "إنت عطشان؟",
+    "en": "Are you thirsty?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s062",
+   "text": "No como carne.",
+   "translations": {
+    "ar": "أنا مش باكل لحمة.",
+    "en": "I don't eat meat."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s063",
+   "text": "El pescado está muy rico.",
+   "translations": {
+    "ar": "السمك طعمه حلو جدًا.",
+    "en": "The fish is very tasty."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s064",
+   "text": "¿Quieres una manzana?",
+   "translations": {
+    "ar": "تحب تاكل تفاحة؟",
+    "en": "Would you like an apple?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s065",
+   "text": "En la comida hay arroz con verdura.",
+   "translations": {
+    "ar": "على الغدا فيه رز بالخضار.",
+    "en": "For lunch there's rice with vegetables."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s066",
+   "text": "Los niños beben mucha leche.",
+   "translations": {
+    "ar": "الأطفال بيشربوا لبن كتير.",
+    "en": "Children drink a lot of milk."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s067",
+   "text": "Un agua y un zumo, por favor.",
+   "translations": {
+    "ar": "مية وعصير، لو سمحت.",
+    "en": "A water and a juice, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s068",
+   "text": "Comemos patatas con salchicha.",
+   "translations": {
+    "ar": "بناكل بطاطس بالسجق.",
+    "en": "We eat potatoes with sausage."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s069",
+   "text": "¿Qué hay de cena?",
+   "translations": {
+    "ar": "العشا إيه؟",
+    "en": "What's for dinner?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s070",
+   "text": "Como fruta todos los días.",
+   "translations": {
+    "ar": "باكل فاكهة كل يوم.",
+    "en": "I eat fruit every day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s071",
+   "text": "¿Quiere un huevo?",
+   "translations": {
+    "ar": "حضرتك تحب بيضة؟",
+    "en": "Would you like an egg?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.s072",
+   "text": "Dos panecillos, por favor.",
+   "translations": {
+    "ar": "اتنين عيش صغير، لو سمحت.",
+    "en": "Two bread rolls, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "es.a1.gram.ser_llamarse_vivir",
+   "level": "A1",
+   "title": {
+    "ar": "المضارع: ser و llamarse و vivir، و tú ولا usted",
+    "en": "Present tense: ser, llamarse, vivir; tú or usted"
+   },
+   "explanation": {
+    "en": "Spanish verbs end in -ar, -er or -ir, and the ending changes with the person. vivir (to live): vivo, vives, vive, vivimos, vivís, viven.\n\nYou can usually drop the pronoun, because the ending already says who: Vivo en Madrid = I live in Madrid.\n\nser (to be) is irregular: soy, eres, es, somos, sois, son. Use it for who you are and where you come from: Soy Anna. Soy de Egipto.\n\nllamarse (to be called) comes with a small pronoun in front: me llamo, te llamas, se llama.\n\nUse tú with friends and family. Use usted with adults you don't know; it takes the él/ella form of the verb: ¿Cómo se llama usted?",
+    "ar": "الأفعال الإسباني بتخلص بـ ‎-ar أو ‎-er أو ‎-ir، والنهاية بتتغير حسب الشخص. vivir (يسكن): vivo, vives, vive, vivimos, vivís, viven.\n\nغالبًا بنشيل الضمير، لأن نهاية الفعل بتقول مين: Vivo en Madrid = أنا ساكن في مدريد.\n\nser (يكون) شاذ ولازم يتحفظ: soy, eres, es, somos, sois, son. بنستخدمه لما نقول إحنا مين ومنين: Soy Anna. Soy de Egipto.\n\nllamarse (اسمه) بييجي قبله ضمير صغير: me llamo (اسمي)، te llamas (اسمك)، se llama (اسمه/اسمها).\n\ntú للأصحاب والعيلة. usted للكبار اللي متعرفهمش، وبياخد نفس تصريف él/ella: ¿Cómo se llama usted?"
+   },
+   "table": {
+    "headers": [
+     "",
+     "ser",
+     "llamarse",
+     "vivir"
+    ],
+    "rows": [
+     [
+      "yo",
+      "soy",
+      "me llamo",
+      "vivo"
+     ],
+     [
+      "tú",
+      "eres",
+      "te llamas",
+      "vives"
+     ],
+     [
+      "él / ella / usted",
+      "es",
+      "se llama",
+      "vive"
+     ],
+     [
+      "nosotros",
+      "somos",
+      "nos llamamos",
+      "vivimos"
+     ],
+     [
+      "vosotros",
+      "sois",
+      "os llamáis",
+      "vivís"
+     ],
+     [
+      "ellos / ustedes",
+      "son",
+      "se llaman",
+      "viven"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.s001",
+    "es.a1.sent.s004",
+    "es.a1.sent.s013"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "¿Cómo te ___?",
+     "answer": "llamas",
+     "base": "llamarse"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ de Egipto.",
+     "answer": "soy",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ella ___ en Madrid.",
+     "answer": "vive",
+     "base": "vivir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nosotros ___ de España.",
+     "answer": "somos",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿De dónde ___ tú?",
+     "answer": "eres",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ en Berlín.",
+     "answer": "vivo",
+     "base": "vivir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Es usted el señor Weber? – Sí, ___ yo.",
+     "answer": "soy",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Mis padres ___ en El Cairo.",
+     "answer": "viven",
+     "base": "vivir"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.tener_posesivos",
+   "level": "A1",
+   "title": {
+    "ar": "tener (عنده) و mi و tu",
+    "en": "tener (to have) and mi, tu"
+   },
+   "explanation": {
+    "en": "tener (to have) is irregular: tengo, tienes, tiene, tenemos, tenéis, tienen.\n\nSpanish uses tener for age: Tengo veinte años (literally: I have twenty years).\n\nPossessives agree with the noun in number: mi hermano, mis hermanos; tu madre, tus padres. su means his, her, its, their and your (usted). nuestro changes for gender too: nuestro gato, nuestra casa.\n\nThe masculine plural covers mixed groups: los padres = the parents, los hermanos = brothers and sisters, los hijos = sons and daughters, children.",
+    "ar": "tener (عنده/يملك) شاذ: tengo, tienes, tiene, tenemos, tenéis, tienen.\n\nالإسباني بيستخدم tener للعمر: Tengo veinte años (حرفيًا: عندي عشرين سنة)، زي العربي بالظبط.\n\nكلمات الملكية بتتغير مع العدد: mi hermano (أخويا)، mis hermanos (إخواتي)؛ tu madre، tus padres. وsu معناها بتاعه أو بتاعها أو بتاعهم أو بتاع حضرتك. وnuestro بتتغير مع المؤنث كمان: nuestro gato، nuestra casa.\n\nجمع المذكر بيشمل المجموعة المختلطة: los padres = الأب والأم، los hermanos = الإخوات (ولاد وبنات)، los hijos = الأولاد."
+   },
+   "table": {
+    "headers": [
+     "",
+     "tener",
+     "singular",
+     "plural"
+    ],
+    "rows": [
+     [
+      "yo",
+      "tengo",
+      "mi",
+      "mis"
+     ],
+     [
+      "tú",
+      "tienes",
+      "tu",
+      "tus"
+     ],
+     [
+      "él / ella / usted",
+      "tiene",
+      "su",
+      "sus"
+     ],
+     [
+      "nosotros",
+      "tenemos",
+      "nuestro / nuestra",
+      "nuestros / nuestras"
+     ],
+     [
+      "vosotros",
+      "tenéis",
+      "vuestro / vuestra",
+      "vuestros / vuestras"
+     ],
+     [
+      "ellos / ustedes",
+      "tienen",
+      "su",
+      "sus"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.s022",
+    "es.a1.sent.s029",
+    "es.a1.sent.s037"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ dos hermanos.",
+     "answer": "tengo",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ hijos? (tú)",
+     "answer": "Tienes",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ella ___ tres hijos.",
+     "answer": "tiene",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nosotros ___ dos hijos.",
+     "answer": "tenemos",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Esta es ___ madre. (my)",
+     "answer": "mi",
+     "base": "mi"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ padres viven en El Cairo. (my)",
+     "answer": "Mis",
+     "base": "mi"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Cuántos años ___ tú?",
+     "answer": "tienes",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ese es ___ hermano, ¿no? (your)",
+     "answer": "tu",
+     "base": "tu"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.articulos_genero",
+   "level": "A1",
+   "title": {
+    "ar": "el و la: أدوات التعريف والمذكر والمؤنث",
+    "en": "el, la: articles and gender"
+   },
+   "explanation": {
+    "en": "Every Spanish noun is masculine or feminine. Most words in -o are masculine (el armario) and most in -a are feminine (la mesa). Learn the exceptions with their article: el sofá, el día, el problema, la mano.\n\nArticles: el / la (the), los / las (the, plural), un / una (a).\n\nPlural: add -s after a vowel (mesa → mesas) and -es after a consonant (balcón → balcones; the accent disappears).\n\nAdjectives agree with the noun: el piso pequeño, la cocina pequeña, los pisos pequeños. Adjectives in -e only change for plural: grande, grandes.\n\nhay means there is / there are: En el dormitorio hay una cama.",
+    "ar": "كل اسم في الإسباني يا مذكر يا مؤنث. أغلب الكلمات اللي بتخلص بـ ‎-o مذكر (el armario) وأغلب اللي بتخلص بـ ‎-a مؤنث (la mesa). احفظ الاستثناءات مع أداتها: el sofá، el día، el problema، la mano.\n\nالأدوات: el / la (الـ)، los / las (الـ للجمع)، un / una (واحد/واحدة، زي a).\n\nالجمع: زوّد ‎-s بعد حرف متحرك (mesa ← mesas) و‎-es بعد حرف ساكن (balcón ← balcones، والشرطة بتختفي).\n\nالصفة بتمشي مع الاسم: el piso pequeño، la cocina pequeña، los pisos pequeños. الصفات اللي بتخلص بـ ‎-e بتتغير في الجمع بس: grande، grandes.\n\nhay معناها «فيه»: En el dormitorio hay una cama = في أوضة النوم فيه سرير."
+   },
+   "table": {
+    "headers": [
+     "",
+     "masculine",
+     "feminine",
+     "m. plural",
+     "f. plural"
+    ],
+    "rows": [
+     [
+      "the",
+      "el armario",
+      "la mesa",
+      "los armarios",
+      "las mesas"
+     ],
+     [
+      "a / some",
+      "un armario",
+      "una mesa",
+      "unos armarios",
+      "unas mesas"
+     ],
+     [
+      "adjective",
+      "nuevo",
+      "nueva",
+      "nuevos",
+      "nuevas"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.s043",
+    "es.a1.sent.s047",
+    "es.a1.sent.s048"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ cocina es grande.",
+     "answer": "La",
+     "base": "el / la"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ sofá es nuevo.",
+     "answer": "El",
+     "base": "el / la"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es ___ lámpara.",
+     "answer": "una",
+     "base": "un / una"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es ___ armario.",
+     "answer": "un",
+     "base": "un / una"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La mesa es ___. (bonito)",
+     "answer": "bonita",
+     "base": "bonito"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ sillas son baratas.",
+     "answer": "Las",
+     "base": "los / las"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La casa es ___. (nuevo)",
+     "answer": "nueva",
+     "base": "nuevo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "El piso tiene dos ___. (balcón)",
+     "answer": "balcones",
+     "base": "balcón"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.querer_negacion",
+   "level": "A1",
+   "title": {
+    "ar": "querer (عايز)، والنفي بـ no",
+    "en": "querer (to want) and saying no"
+   },
+   "explanation": {
+    "en": "querer (to want) changes e to ie in most forms: quiero, quieres, quiere, queremos, queréis, quieren. ¿Quieres una manzana? = Would you like an apple?\n\nTo order politely, use querría or quisiera (I'd like): Querría un café, por favor.\n\nTo say no, put no in front of the verb: No como carne. There is no extra word like German kein: No tengo hambre.\n\nHunger and thirst use tener: Tengo hambre (I'm hungry), ¿Tienes sed? (Are you thirsty?).",
+    "ar": "querer (عايز) الـ e بتبقى ie في أغلب التصريفات: quiero, quieres, quiere, queremos, queréis, quieren. ¿Quieres una manzana? = تحب تفاحة؟\n\nعشان تطلب بأدب قول querría أو quisiera (كنت عايز/أحب): Querría un café, por favor.\n\nالنفي سهل: حط no قبل الفعل: No como carne = مش باكل لحمة. مفيش كلمة زيادة زي kein في الألماني: No tengo hambre.\n\nالجوع والعطش بـ tener: Tengo hambre (أنا جعان)، ¿Tienes sed? (إنت عطشان؟)."
+   },
+   "table": {
+    "headers": [
+     "",
+     "querer",
+     "comer",
+     "beber"
+    ],
+    "rows": [
+     [
+      "yo",
+      "quiero",
+      "como",
+      "bebo"
+     ],
+     [
+      "tú",
+      "quieres",
+      "comes",
+      "bebes"
+     ],
+     [
+      "él / ella / usted",
+      "quiere",
+      "come",
+      "bebe"
+     ],
+     [
+      "nosotros",
+      "queremos",
+      "comemos",
+      "bebemos"
+     ],
+     [
+      "vosotros",
+      "queréis",
+      "coméis",
+      "bebéis"
+     ],
+     [
+      "ellos / ustedes",
+      "quieren",
+      "comen",
+      "beben"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.s057",
+    "es.a1.sent.s060",
+    "es.a1.sent.s062"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ un café, por favor.",
+     "answer": "quiero",
+     "base": "querer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ una manzana? (tú)",
+     "answer": "Quieres",
+     "base": "querer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ella ___ agua.",
+     "answer": "quiere",
+     "base": "querer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ como carne.",
+     "answer": "no",
+     "base": "no"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nosotros ___ hambre.",
+     "answer": "tenemos",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Tienes ___? (thirst)",
+     "answer": "sed",
+     "base": "sed"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Los niños ___ mucha leche.",
+     "answer": "beben",
+     "base": "beber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Para desayunar ___ pan con queso. (yo)",
+     "answer": "como",
+     "base": "comer"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "es.a1.text.sara",
+   "level": "A1",
+   "kind": "reading",
+   "title": "¡Hola, soy Sara!",
+   "body": "¡Hola! Me llamo Sara. Soy de Egipto, de Alejandría. Ahora vivo en Madrid. Madrid es una ciudad grande. Aprendo español. Este es mi amigo Tom. Es de Inglaterra y también vive en Madrid.",
+   "translation": {
+    "ar": "أهلًا! اسمي سارة. أنا من مصر، من إسكندرية. دلوقتي ساكنة في مدريد. مدريد مدينة كبيرة. بتعلّم إسباني. ده صاحبي توم. هو من إنجلترا وساكن في مدريد برضه.",
+    "en": "Hello! My name is Sara. I'm from Egypt, from Alexandria. Now I live in Madrid. Madrid is a big city. I'm learning Spanish. This is my friend Tom. He's from England and also lives in Madrid."
+   },
+   "glossary": [
+    "es.a1.vocab.llamarse",
+    "es.a1.vocab.de",
+    "es.a1.vocab.vivir",
+    "es.a1.vocab.ciudad",
+    "es.a1.vocab.grande"
+   ],
+   "questions": [
+    {
+     "question": "¿De dónde es Sara?",
+     "options": [
+      "De Inglaterra",
+      "De Egipto",
+      "De Madrid"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Dónde vive Sara ahora?",
+     "options": [
+      "En Alejandría",
+      "En Londres",
+      "En Madrid"
+     ],
+     "answer": 2
+    },
+    {
+     "question": "¿De dónde es Tom?",
+     "options": [
+      "De Inglaterra",
+      "De España",
+      "De Egipto"
+     ],
+     "answer": 0
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.text.familia_mia",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Mi familia",
+   "body": "¡Hola! Soy Mia y tengo diez años. Esta es mi familia. Mi madre se llama Ana y mi padre se llama Jorge. Tengo un hermano, se llama Pablo. Pablo tiene siete años. Vivimos en Sevilla. Mi abuela también vive en Sevilla.",
+   "translation": {
+    "ar": "أهلًا! أنا ميا وعندي عشر سنين. دي عيلتي. مامتي اسمها آنا وبابا اسمه خورخي. عندي أخ اسمه بابلو. بابلو عنده سبع سنين. إحنا ساكنين في إشبيلية. تيتة ساكنة في إشبيلية برضه.",
+    "en": "Hi! I'm Mia and I'm ten years old. This is my family. My mother's name is Ana and my father's name is Jorge. I have a brother, his name is Pablo. Pablo is seven. We live in Seville. My grandma lives in Seville too."
+   },
+   "glossary": [
+    "es.a1.vocab.familia",
+    "es.a1.vocab.madre",
+    "es.a1.vocab.padre",
+    "es.a1.vocab.hermano",
+    "es.a1.vocab.diez",
+    "es.a1.vocab.siete",
+    "es.a1.vocab.ano"
+   ],
+   "questions": [
+    {
+     "question": "¿Cuántos años tiene Mia?",
+     "options": [
+      "Siete",
+      "Diez",
+      "Veinte"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Cómo se llama el padre de Mia?",
+     "options": [
+      "Jorge",
+      "Pablo",
+      "Tom"
+     ],
+     "answer": 0
+    },
+    {
+     "question": "¿Dónde vive la familia?",
+     "options": [
+      "En Madrid",
+      "En Sevilla",
+      "En El Cairo"
+     ],
+     "answer": 1
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.text.piso_nuevo",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Mi piso nuevo",
+   "body": "Hola, Tom: ¡tengo un piso nuevo! No es grande, pero es muy bonito. El piso tiene dos habitaciones, una cocina y un baño. El salón es luminoso y tiene un balcón. La cocina es pequeña. En el dormitorio hay una cama y un armario. El sofá es nuevo, la cama es vieja. El piso no es caro. ¡Ven el sábado! Un abrazo, Sara",
+   "translation": {
+    "ar": "أهلًا يا توم، عندي شقة جديدة! مش كبيرة، بس حلوة جدًا. الشقة فيها أوضتين ومطبخ وحمّام. الصالة منوّرة وفيها بلكونة. المطبخ صغير. في أوضة النوم فيه سرير ودولاب. الكنبة جديدة والسرير قديم. الشقة مش غالية. تعالى يوم السبت! سلامات، سارة",
+    "en": "Hi Tom, I have a new flat! It isn't big, but it's very nice. The flat has two rooms, a kitchen and a bathroom. The living room is bright and has a balcony. The kitchen is small. In the bedroom there's a bed and a wardrobe. The sofa is new, the bed is old. The flat isn't expensive. Come on Saturday! Hugs, Sara"
+   },
+   "glossary": [
+    "es.a1.vocab.piso",
+    "es.a1.vocab.habitacion",
+    "es.a1.vocab.cocina",
+    "es.a1.vocab.bano",
+    "es.a1.vocab.salon",
+    "es.a1.vocab.balcon",
+    "es.a1.vocab.luminoso",
+    "es.a1.vocab.caro"
+   ],
+   "questions": [
+    {
+     "question": "¿Cuántas habitaciones tiene el piso?",
+     "options": [
+      "Una",
+      "Dos",
+      "Tres"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Cómo es la cocina?",
+     "options": [
+      "Grande",
+      "Pequeña",
+      "Cara"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Qué es nuevo?",
+     "options": [
+      "La cama",
+      "El armario",
+      "El sofá"
+     ],
+     "answer": 2
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.text.en_la_cafeteria",
+   "level": "A1",
+   "kind": "reading",
+   "title": "En la cafetería",
+   "body": "Camarero: ¡Buenas tardes! ¿Qué quieren?\nAna: Querría un café con leche, por favor.\nCamarero: ¿Y usted?\nPedro: Tengo sed. Un agua, por favor. Y también tengo hambre. ¿Tienen bocadillos?\nCamarero: Sí, de queso o de salchichón.\nPedro: No como carne. Un bocadillo de queso, por favor.\nCamarero: Muy bien. Entonces: un café, un agua y un bocadillo de queso.",
+   "translation": {
+    "ar": "الجرسون: مساء الخير! تحبوا تطلبوا إيه؟ / آنا: عايزة قهوة بلبن، لو سمحت. / الجرسون: وحضرتك؟ / بيدرو: أنا عطشان. مية، لو سمحت. وجعان كمان. عندكم سندوتشات؟ / الجرسون: أيوه، جبنة أو سلامي. / بيدرو: أنا مش باكل لحمة. سندوتش جبنة، لو سمحت. / الجرسون: تمام. يبقى: قهوة ومية وسندوتش جبنة.",
+    "en": "Waiter: Good afternoon! What would you like? / Ana: I'd like a coffee with milk, please. / Waiter: And you? / Pedro: I'm thirsty. A water, please. And I'm hungry too. Do you have sandwiches? / Waiter: Yes, cheese or salami. / Pedro: I don't eat meat. A cheese sandwich, please. / Waiter: Very good. So: a coffee, a water and a cheese sandwich."
+   },
+   "glossary": [
+    "es.a1.vocab.querer",
+    "es.a1.vocab.cafe",
+    "es.a1.vocab.leche",
+    "es.a1.vocab.sed",
+    "es.a1.vocab.hambre",
+    "es.a1.vocab.queso",
+    "es.a1.vocab.carne",
+    "es.a1.vocab.agua"
+   ],
+   "questions": [
+    {
+     "question": "¿Qué bebe Ana?",
+     "options": [
+      "Té",
+      "Café con leche",
+      "Agua"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Qué come Pedro?",
+     "options": [
+      "Un bocadillo de salchichón",
+      "Un bocadillo de queso",
+      "Una manzana"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Por qué no come salchichón Pedro?",
+     "options": [
+      "No come carne.",
+      "No tiene hambre.",
+      "Solo bebe agua."
+     ],
+     "answer": 0
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "es.a1.write.introduce",
+   "level": "A1",
+   "prompt": {
+    "ar": "عرّف نفسك بالإسباني: اسمك، إنت منين، وساكن فين. اكتب من 3 لـ 5 جمل.",
+    "en": "Introduce yourself in Spanish: your name, where you come from and where you live. Write 3 to 5 sentences."
+   },
+   "minWords": 15
+  },
+  {
+   "id": "es.a1.write.family",
+   "level": "A1",
+   "prompt": {
+    "ar": "اوصف عيلتك بالإسباني: مين فيها وأساميهم إيه؟",
+    "en": "Describe your family in Spanish: who is in it and what are their names?"
+   },
+   "minWords": 15
+  },
+  {
+   "id": "es.a1.write.home",
+   "level": "A1",
+   "prompt": {
+    "ar": "اوصف بيتك بالإسباني: فيه كام أوضة، وفيها إيه، وإيه الكبير والصغير والجديد والقديم؟",
+    "en": "Describe your home in Spanish: how many rooms, what is in them, what is big, small, new or old?"
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.breakfast",
+   "level": "A1",
+   "prompt": {
+    "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالإسباني.",
+    "en": "What do you eat and drink for breakfast, lunch and dinner? Write in Spanish."
+   },
+   "minWords": 20
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

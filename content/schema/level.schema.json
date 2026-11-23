@@ -24,6 +24,7 @@
     },
     "cefr": {
       "enum": [
+        "A0",
         "A1",
         "A2",
         "B1",
@@ -264,8 +265,13 @@
               "der",
               "die",
               "das",
+              "de",
+              "het",
+              "el",
+              "la",
               null
-            ]
+            ],
+            "description": "German der/die/das, Dutch de/het, Spanish el/la. null for words without one."
           },
           "plural": {
             "type": [
@@ -305,6 +311,11 @@
           },
           "needsReview": {
             "type": "boolean"
+          },
+          "conceptId": {
+            "type": "string",
+            "pattern": "^c\\.(a0|a1|a2|b1|b2|c1)\\.[a-z0-9_]+$",
+            "description": "Shared meaning id. The German, Dutch and Spanish word for the same meaning carry the same conceptId."
           }
         }
       }

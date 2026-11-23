@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../core/providers.dart';
+import '../../data/repositories/content_repository.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
@@ -90,9 +91,23 @@ class HomeScreen extends ConsumerWidget {
               if (c == null) return const NoContentYet();
               final next = _nextLesson(c, progress);
               if (next == null) {
-                return Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Text(l.allLessonsDone),
+                final up = ContentRepository.nextPackLevel(c.lang, c.level.id);
+                if (up == null) {
+                  return Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Text(l.allLessonsDone),
+                  );
+                }
+                return Card(
+                  child: ListTile(
+                    leading: const Icon(Icons.emoji_events),
+                    title: Text(l.levelDone(c.level.id)),
+                    trailing: FilledButton(
+                      key: const ValueKey('next-level'),
+                      onPressed: () => advanceLevel(ref),
+                      child: Text(l.startLevel(up)),
+                    ),
+                  ),
                 );
               }
               final unit = c.units.firstWhere((u) => u.id == next.unitId);

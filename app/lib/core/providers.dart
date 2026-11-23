@@ -7,6 +7,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../data/local/local_db.dart';
 import '../data/models/content.dart';
+import '../data/models/contrast.dart';
 import '../data/models/learner.dart';
 import '../data/repositories/content_repository.dart';
 import '../data/repositories/progress_repository.dart';
@@ -147,6 +148,42 @@ final outlineProvider = FutureProvider<List<OutlineLevel>>(
 final allContentProvider = FutureProvider<List<LevelContent>>(
   (ref) => ref.watch(contentRepositoryProvider).allAvailable(),
 );
+
+/// The contrast dictionary: false friends, near cognates, gender mismatches.
+final contrastProvider = FutureProvider<List<ContrastEntry>>(
+  (ref) => ref.watch(contentRepositoryProvider).contrast(),
+);
+
+/// Concept id -> the word for it in each language, across all bundled packs.
+final conceptIndexProvider = FutureProvider<Map<String, Map<Lang, VocabItem>>>((
+  ref,
+) async {
+  final packs = await ref.watch(allContentProvider.future);
+  final index = <String, Map<Lang, VocabItem>>{};
+  for (final pack in packs) {
+    for (final word in pack.vocab.values) {
+      final concept = word.conceptId;
+      final lang = word.lang;
+      if (concept == null || lang == null) continue;
+      index.putIfAbsent(concept, () => {})[lang] = word;
+    }
+  }
+  return index;
+});
+
+/// Moves the track on screen to its next bundled level (A0 -> A1).
+Future<void> advanceLevel(WidgetRef ref) async {
+  final track = ref.read(activeTrackProvider);
+  final current =
+      ContentRepository.packLevelFor(track.lang, track.currentLevel) ??
+      track.currentLevel;
+  final next = ContentRepository.nextPackLevel(track.lang, current);
+  if (next == null) return;
+  await ref
+      .read(trackRepositoryProvider)
+      .save(track.copyWith(currentLevel: next));
+  ref.read(syncServiceProvider).schedule();
+}
 
 // ---- Progress ------------------------------------------------------------
 

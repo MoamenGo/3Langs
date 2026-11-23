@@ -92,5 +92,14 @@
   "unitsCount": "{count, plural, =1{وحدة واحدة} =2{وحدتين} few{{count} وحدات} other{{count} وحدة}}",
   "sameForAllLanguages": "نفس الوحدات في الألماني والإسباني والهولندي. الساعات لكل لغة.",
   "explainArabic": "العربي",
-  "explainEnglish": "الإنجليزي"
+  "explainEnglish": "الإنجليزي",
+  "contrastDictionary": "قاموس المقارنة",
+  "contrastIntro": "كلمات شبه بعض بس معناها مختلف، وكلمات تقدر تحفظها مع بعض، وأسماء جنسها بيتغير من لغة للتانية.",
+  "inOtherLanguages": "في لغاتك التانية",
+  "contrastAll": "الكل",
+  "falseFriends": "أصدقاء مزيفين",
+  "nearCognates": "شبه بعض",
+  "genderMismatches": "الجنس بيتغير",
+  "levelDone": "خلصت مستوى {level}!",
+  "startLevel": "ابدأ مستوى {level}"
 }

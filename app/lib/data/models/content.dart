@@ -146,6 +146,7 @@ class VocabItem {
     this.freqRank,
     this.ipa,
     this.audio,
+    this.conceptId,
   });
   final String id;
   final String lemma;
@@ -160,6 +161,13 @@ class VocabItem {
   final List<String> sentenceIds;
   final String source;
   final String license;
+
+  /// Shared meaning id (`c.a1.house`): the German, Dutch and Spanish word
+  /// for the same meaning carry the same one.
+  final String? conceptId;
+
+  /// The language this word belongs to, from its id.
+  Lang? get lang => ContentId.parse(id)?.lang;
 
   /// "der Name" for nouns, the plain lemma otherwise.
   String get display => article == null ? lemma : '$article $lemma';
@@ -178,6 +186,7 @@ class VocabItem {
     sentenceIds: _strings(j['sentenceIds']),
     source: j['source'] as String? ?? '',
     license: j['license'] as String? ?? '',
+    conceptId: j['conceptId'] as String?,
   );
 }
 

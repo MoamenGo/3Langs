@@ -1,0 +1,2299 @@
+{
+ "schemaVersion": 2,
+ "lang": "nl",
+ "contentVersion": "2026.11.23-phase2",
+ "level": {
+  "id": "A0",
+  "title": {
+   "ar": "A0 البداية",
+   "en": "A0 First steps"
+  },
+  "targetHours": 30,
+  "canDo": [
+   {
+    "ar": "تقرا وتنطق حروف اللغة وأصواتها",
+    "en": "Read and pronounce the letters and sounds"
+   },
+   {
+    "ar": "تستخدم عبارات النجاة لما متفهمش",
+    "en": "Use survival phrases when you don't understand"
+   },
+   {
+    "ar": "تقول الأيام والأرقام والساعة",
+    "en": "Say days, numbers and the time"
+   },
+   {
+    "ar": "تسأل أسئلة بسيطة: مين، فين، إمتى، ليه",
+    "en": "Ask simple questions: who, where, when, why"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "nl.a0.u01",
+   "level": "A0",
+   "order": 1,
+   "theme": {
+    "ar": "الأصوات والحروف",
+    "en": "Sounds and letters"
+   },
+   "goals": [
+    {
+     "ar": "تعرف الأصوات اللي مش موجودة في العربي",
+     "en": "Know the sounds that differ from Arabic and English"
+    },
+    {
+     "ar": "تقرا كلمات دولية بالنطق الصح",
+     "en": "Read international words with the right sounds"
+    }
+   ],
+   "grammarIds": [
+    "nl.a0.gram.sounds"
+   ],
+   "lessonIds": [
+    "nl.a0.u01.l01",
+    "nl.a0.u01.l02",
+    "nl.a0.u01.l03",
+    "nl.a0.u01.l04"
+   ],
+   "sharedUnitId": "u.a0.01"
+  },
+  {
+   "id": "nl.a0.u02",
+   "level": "A0",
+   "order": 2,
+   "theme": {
+    "ar": "عبارات النجاة",
+    "en": "Survival phrases"
+   },
+   "goals": [
+    {
+     "ar": "تقول إنك مش فاهم وتطلب حد يعيد",
+     "en": "Say you don't understand and ask for a repeat"
+    },
+    {
+     "ar": "تسأل عن الحمّام والسعر",
+     "en": "Ask for the toilet and the price"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "nl.a0.u02.l01",
+    "nl.a0.u02.l02",
+    "nl.a0.u02.l03"
+   ],
+   "sharedUnitId": "u.a0.02"
+  },
+  {
+   "id": "nl.a0.u03",
+   "level": "A0",
+   "order": 3,
+   "theme": {
+    "ar": "الأرقام والأيام والوقت",
+    "en": "Numbers, days and time"
+   },
+   "goals": [
+    {
+     "ar": "تقول أيام الأسبوع",
+     "en": "Say the days of the week"
+    },
+    {
+     "ar": "تقول النهارده وبكرة وامبارح والساعة",
+     "en": "Say today, tomorrow, yesterday and the time"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "nl.a0.u03.l01",
+    "nl.a0.u03.l02",
+    "nl.a0.u03.l03",
+    "nl.a0.u03.l04"
+   ],
+   "sharedUnitId": "u.a0.03"
+  },
+  {
+   "id": "nl.a0.u04",
+   "level": "A0",
+   "order": 4,
+   "theme": {
+    "ar": "أول أسئلة",
+    "en": "First questions"
+   },
+   "goals": [
+    {
+     "ar": "تسأل بكلمات السؤال",
+     "en": "Ask with question words"
+    },
+    {
+     "ar": "تقول بتتكلم وبتتعلم لغات إيه",
+     "en": "Say which languages you speak and learn"
+    }
+   ],
+   "grammarIds": [
+    "nl.a0.gram.questions"
+   ],
+   "lessonIds": [
+    "nl.a0.u04.l01",
+    "nl.a0.u04.l02",
+    "nl.a0.u04.l03",
+    "nl.a0.u04.l04",
+    "nl.a0.u04.l05"
+   ],
+   "sharedUnitId": "u.a0.04"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "nl.a0.u01.l01",
+   "unitId": "nl.a0.u01",
+   "order": 1,
+   "type": "grammar",
+   "title": {
+    "ar": "أصوات اللغة",
+    "en": "The sounds"
+   },
+   "items": [],
+   "grammarId": "nl.a0.gram.sounds"
+  },
+  {
+   "id": "nl.a0.u01.l02",
+   "unitId": "nl.a0.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "كلمات دولية",
+    "en": "International words"
+   },
+   "items": [
+    "nl.a0.vocab.taxi",
+    "nl.a0.vocab.hotel",
+    "nl.a0.vocab.bus",
+    "nl.a0.vocab.telefoon",
+    "nl.a0.vocab.muziek",
+    "nl.a0.vocab.probleem",
+    "nl.a0.vocab.banaan",
+    "nl.a0.vocab.tomaat",
+    "nl.a0.vocab.school",
+    "nl.a0.vocab.auto",
+    "nl.a0.vocab.chocola",
+    "nl.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "nl.a0.u01.l03",
+   "unitId": "nl.a0.u01",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: كلمات وأصوات",
+    "en": "Listen: words and sounds"
+   },
+   "items": [
+    "nl.a0.sent.a01",
+    "nl.a0.sent.a02",
+    "nl.a0.sent.a03",
+    "nl.a0.sent.a04",
+    "nl.a0.sent.a05",
+    "nl.a0.sent.a06",
+    "nl.a0.sent.a07",
+    "nl.a0.sent.a08"
+   ]
+  },
+  {
+   "id": "nl.a0.u01.l04",
+   "unitId": "nl.a0.u01",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 1",
+    "en": "Unit 1 review"
+   },
+   "items": [
+    "nl.a0.vocab.taxi",
+    "nl.a0.vocab.hotel",
+    "nl.a0.vocab.bus",
+    "nl.a0.vocab.telefoon",
+    "nl.a0.vocab.muziek",
+    "nl.a0.vocab.probleem",
+    "nl.a0.vocab.banaan",
+    "nl.a0.vocab.tomaat",
+    "nl.a0.vocab.school",
+    "nl.a0.vocab.auto",
+    "nl.a0.vocab.chocola",
+    "nl.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "nl.a0.u02.l01",
+   "unitId": "nl.a0.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مش فاهم! عبارات النجاة",
+    "en": "I don't understand! Survival phrases"
+   },
+   "items": [
+    "nl.a0.vocab.ik_begrijp_het_niet",
+    "nl.a0.vocab.spreekt_u_engels",
+    "nl.a0.vocab.een_beetje",
+    "nl.a0.vocab.langzaam",
+    "nl.a0.vocab.nog_een_keer",
+    "nl.a0.vocab.wat_zegt_u",
+    "nl.a0.vocab.toilet",
+    "nl.a0.vocab.hulp",
+    "nl.a0.vocab.hoeveel_kost_het",
+    "nl.a0.vocab.ik_weet_het_niet",
+    "nl.a0.vocab.hier",
+    "nl.a0.vocab.daar"
+   ]
+  },
+  {
+   "id": "nl.a0.u02.l02",
+   "unitId": "nl.a0.u02",
+   "order": 2,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: لما تتوه",
+    "en": "Listen: when you're lost"
+   },
+   "items": [
+    "nl.a0.sent.a10",
+    "nl.a0.sent.a11",
+    "nl.a0.sent.a12",
+    "nl.a0.sent.a13",
+    "nl.a0.sent.a14",
+    "nl.a0.sent.a15",
+    "nl.a0.sent.a17",
+    "nl.a0.sent.a18"
+   ]
+  },
+  {
+   "id": "nl.a0.u02.l03",
+   "unitId": "nl.a0.u02",
+   "order": 3,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 2",
+    "en": "Unit 2 review"
+   },
+   "items": [
+    "nl.a0.vocab.ik_begrijp_het_niet",
+    "nl.a0.vocab.spreekt_u_engels",
+    "nl.a0.vocab.een_beetje",
+    "nl.a0.vocab.langzaam",
+    "nl.a0.vocab.nog_een_keer",
+    "nl.a0.vocab.wat_zegt_u",
+    "nl.a0.vocab.toilet",
+    "nl.a0.vocab.hulp",
+    "nl.a0.vocab.hoeveel_kost_het",
+    "nl.a0.vocab.ik_weet_het_niet",
+    "nl.a0.vocab.hier",
+    "nl.a0.vocab.daar"
+   ]
+  },
+  {
+   "id": "nl.a0.u03.l01",
+   "unitId": "nl.a0.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "أرقام ووقت",
+    "en": "Numbers and time"
+   },
+   "items": [
+    "nl.a0.vocab.nul",
+    "nl.a0.vocab.elf",
+    "nl.a0.vocab.twaalf",
+    "nl.a0.vocab.honderd",
+    "nl.a0.vocab.vandaag",
+    "nl.a0.vocab.morgen",
+    "nl.a0.vocab.gisteren",
+    "nl.a0.vocab.dag",
+    "nl.a0.vocab.week",
+    "nl.a0.vocab.uur"
+   ]
+  },
+  {
+   "id": "nl.a0.u03.l02",
+   "unitId": "nl.a0.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "أيام الأسبوع",
+    "en": "Days of the week"
+   },
+   "items": [
+    "nl.a0.vocab.maandag",
+    "nl.a0.vocab.dinsdag",
+    "nl.a0.vocab.woensdag",
+    "nl.a0.vocab.donderdag",
+    "nl.a0.vocab.vrijdag",
+    "nl.a0.vocab.zaterdag",
+    "nl.a0.vocab.zondag"
+   ]
+  },
+  {
+   "id": "nl.a0.u03.l03",
+   "unitId": "nl.a0.u03",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: النهارده إيه؟",
+    "en": "Listen: what day is it?"
+   },
+   "items": [
+    "nl.a0.sent.a21",
+    "nl.a0.sent.a22",
+    "nl.a0.sent.a23",
+    "nl.a0.sent.a24",
+    "nl.a0.sent.a25",
+    "nl.a0.sent.a27",
+    "nl.a0.sent.a28",
+    "nl.a0.sent.a29"
+   ]
+  },
+  {
+   "id": "nl.a0.u03.l04",
+   "unitId": "nl.a0.u03",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 3",
+    "en": "Unit 3 review"
+   },
+   "items": [
+    "nl.a0.vocab.nul",
+    "nl.a0.vocab.elf",
+    "nl.a0.vocab.twaalf",
+    "nl.a0.vocab.honderd",
+    "nl.a0.vocab.vandaag",
+    "nl.a0.vocab.morgen",
+    "nl.a0.vocab.gisteren",
+    "nl.a0.vocab.dag",
+    "nl.a0.vocab.week",
+    "nl.a0.vocab.uur",
+    "nl.a0.vocab.maandag",
+    "nl.a0.vocab.dinsdag",
+    "nl.a0.vocab.woensdag",
+    "nl.a0.vocab.donderdag",
+    "nl.a0.vocab.vrijdag",
+    "nl.a0.vocab.zaterdag",
+    "nl.a0.vocab.zondag"
+   ]
+  },
+  {
+   "id": "nl.a0.u04.l01",
+   "unitId": "nl.a0.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مين؟ فين؟ إمتى؟",
+    "en": "Who? Where? When?"
+   },
+   "items": [
+    "nl.a0.vocab.wat",
+    "nl.a0.vocab.wie",
+    "nl.a0.vocab.waar",
+    "nl.a0.vocab.wanneer",
+    "nl.a0.vocab.waarom",
+    "nl.a0.vocab.en",
+    "nl.a0.vocab.of",
+    "nl.a0.vocab.maar",
+    "nl.a0.vocab.ook",
+    "nl.a0.vocab.spreken",
+    "nl.a0.vocab.leren",
+    "nl.a0.vocab.taal"
+   ]
+  },
+  {
+   "id": "nl.a0.u04.l02",
+   "unitId": "nl.a0.u04",
+   "order": 2,
+   "type": "grammar",
+   "title": {
+    "ar": "إزاي تسأل سؤال",
+    "en": "How to ask a question"
+   },
+   "items": [],
+   "grammarId": "nl.a0.gram.questions"
+  },
+  {
+   "id": "nl.a0.u04.l03",
+   "unitId": "nl.a0.u04",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: أول أسئلة",
+    "en": "Listen: first questions"
+   },
+   "items": [
+    "nl.a0.sent.a31",
+    "nl.a0.sent.a32",
+    "nl.a0.sent.a33",
+    "nl.a0.sent.a34",
+    "nl.a0.sent.a35",
+    "nl.a0.sent.a36",
+    "nl.a0.sent.a37",
+    "nl.a0.sent.a39"
+   ]
+  },
+  {
+   "id": "nl.a0.u04.l04",
+   "unitId": "nl.a0.u04",
+   "order": 4,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: في الفندق",
+    "en": "Read: at the hotel"
+   },
+   "items": [],
+   "textId": "nl.a0.text.hotel"
+  },
+  {
+   "id": "nl.a0.u04.l05",
+   "unitId": "nl.a0.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 4",
+    "en": "Unit 4 review"
+   },
+   "items": [
+    "nl.a0.vocab.wat",
+    "nl.a0.vocab.wie",
+    "nl.a0.vocab.waar",
+    "nl.a0.vocab.wanneer",
+    "nl.a0.vocab.waarom",
+    "nl.a0.vocab.en",
+    "nl.a0.vocab.of",
+    "nl.a0.vocab.maar",
+    "nl.a0.vocab.ook",
+    "nl.a0.vocab.spreken",
+    "nl.a0.vocab.leren",
+    "nl.a0.vocab.taal"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "nl.a0.vocab.taxi",
+   "lemma": "taxi",
+   "article": "de",
+   "plural": "taxi's",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاكسي",
+    "en": "taxi"
+   },
+   "conceptId": "c.a0.taxi",
+   "sentenceIds": [
+    "nl.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.hotel",
+   "lemma": "hotel",
+   "article": "het",
+   "plural": "hotels",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فندق",
+    "en": "hotel"
+   },
+   "conceptId": "c.a0.hotel",
+   "sentenceIds": [
+    "nl.a0.sent.a02",
+    "nl.a0.sent.a33"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.bus",
+   "lemma": "bus",
+   "article": "de",
+   "plural": "bussen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أتوبيس",
+    "en": "bus"
+   },
+   "conceptId": "c.a0.bus",
+   "sentenceIds": [
+    "nl.a0.sent.a04",
+    "nl.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.telefoon",
+   "lemma": "telefoon",
+   "article": "de",
+   "plural": "telefoons",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تليفون",
+    "en": "telephone"
+   },
+   "conceptId": "c.a0.telephone",
+   "sentenceIds": [
+    "nl.a0.sent.a41"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.muziek",
+   "lemma": "muziek",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موسيقى",
+    "en": "music"
+   },
+   "conceptId": "c.a0.music",
+   "sentenceIds": [
+    "nl.a0.sent.a03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.probleem",
+   "lemma": "probleem",
+   "article": "het",
+   "plural": "problemen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشكلة",
+    "en": "problem"
+   },
+   "conceptId": "c.a0.problem",
+   "sentenceIds": [
+    "nl.a0.sent.a05",
+    "nl.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.banaan",
+   "lemma": "banaan",
+   "article": "de",
+   "plural": "bananen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موزة",
+    "en": "banana"
+   },
+   "conceptId": "c.a0.banana",
+   "sentenceIds": [
+    "nl.a0.sent.a06"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.tomaat",
+   "lemma": "tomaat",
+   "article": "de",
+   "plural": "tomaten",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "طماطم",
+    "en": "tomato"
+   },
+   "conceptId": "c.a0.tomato",
+   "sentenceIds": [
+    "nl.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.school",
+   "lemma": "school",
+   "article": "de",
+   "plural": "scholen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرسة",
+    "en": "school"
+   },
+   "conceptId": "c.a0.school",
+   "sentenceIds": [
+    "nl.a0.sent.a07"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.auto",
+   "lemma": "auto",
+   "article": "de",
+   "plural": "auto's",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "عربية",
+    "en": "car"
+   },
+   "conceptId": "c.a0.car",
+   "sentenceIds": [
+    "nl.a0.sent.a08"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.chocola",
+   "lemma": "chocola",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوكولاتة",
+    "en": "chocolate"
+   },
+   "conceptId": "c.a0.chocolate",
+   "sentenceIds": [
+    "nl.a0.sent.a09"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.pizza",
+   "lemma": "pizza",
+   "article": "de",
+   "plural": "pizza's",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيتزا",
+    "en": "pizza"
+   },
+   "conceptId": "c.a0.pizza",
+   "sentenceIds": [
+    "nl.a0.sent.a06",
+    "nl.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.ik_begrijp_het_niet",
+   "lemma": "ik begrijp het niet",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش فاهم",
+    "en": "I don't understand"
+   },
+   "conceptId": "c.a0.dont_understand",
+   "sentenceIds": [
+    "nl.a0.sent.a10",
+    "nl.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.spreekt_u_engels",
+   "lemma": "spreekt u Engels?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بتتكلم إنجليزي؟",
+    "en": "do you speak English?"
+   },
+   "conceptId": "c.a0.speak_english",
+   "sentenceIds": [
+    "nl.a0.sent.a11"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.een_beetje",
+   "lemma": "een beetje",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوية",
+    "en": "a little"
+   },
+   "conceptId": "c.a0.a_little",
+   "sentenceIds": [
+    "nl.a0.sent.a12"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.langzaam",
+   "lemma": "langzaam",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بالراحة، ببطء",
+    "en": "slowly"
+   },
+   "conceptId": "c.a0.slowly",
+   "sentenceIds": [
+    "nl.a0.sent.a13",
+    "nl.a0.sent.a37",
+    "nl.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.nog_een_keer",
+   "lemma": "nog een keer",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرة كمان",
+    "en": "once more, again"
+   },
+   "conceptId": "c.a0.once_more",
+   "sentenceIds": [
+    "nl.a0.sent.a14"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.wat_zegt_u",
+   "lemma": "wat zegt u?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "نعم؟ (قلت إيه؟)",
+    "en": "pardon? (what did you say?)"
+   },
+   "conceptId": "c.a0.pardon",
+   "sentenceIds": [
+    "nl.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.toilet",
+   "lemma": "toilet",
+   "article": "het",
+   "plural": "toiletten",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حمّام، تواليت",
+    "en": "toilet"
+   },
+   "conceptId": "c.a0.toilet",
+   "sentenceIds": [
+    "nl.a0.sent.a15",
+    "nl.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.hulp",
+   "lemma": "hulp",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساعدة",
+    "en": "help"
+   },
+   "conceptId": "c.a0.help",
+   "sentenceIds": [
+    "nl.a0.sent.a19"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.hoeveel_kost_het",
+   "lemma": "hoeveel kost het?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكام؟",
+    "en": "how much is it?"
+   },
+   "conceptId": "c.a0.how_much_cost",
+   "sentenceIds": [
+    "nl.a0.sent.a17"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.ik_weet_het_niet",
+   "lemma": "ik weet het niet",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش عارف",
+    "en": "I don't know"
+   },
+   "conceptId": "c.a0.dont_know",
+   "sentenceIds": [
+    "nl.a0.sent.a18"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.hier",
+   "lemma": "hier",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هنا",
+    "en": "here"
+   },
+   "conceptId": "c.a0.here",
+   "sentenceIds": [
+    "nl.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.daar",
+   "lemma": "daar",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هناك",
+    "en": "there"
+   },
+   "conceptId": "c.a0.there",
+   "sentenceIds": [
+    "nl.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.nul",
+   "lemma": "nul",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "صفر",
+    "en": "zero"
+   },
+   "conceptId": "c.a0.zero",
+   "sentenceIds": [
+    "nl.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.elf",
+   "lemma": "elf",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حداشر",
+    "en": "eleven"
+   },
+   "conceptId": "c.a0.eleven",
+   "sentenceIds": [
+    "nl.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.twaalf",
+   "lemma": "twaalf",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "اتناشر",
+    "en": "twelve"
+   },
+   "conceptId": "c.a0.twelve",
+   "sentenceIds": [
+    "nl.a0.sent.a25",
+    "nl.a0.sent.a29",
+    "nl.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.honderd",
+   "lemma": "honderd",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مية",
+    "en": "a hundred"
+   },
+   "conceptId": "c.a0.hundred",
+   "sentenceIds": [
+    "nl.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.vandaag",
+   "lemma": "vandaag",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "النهارده",
+    "en": "today"
+   },
+   "conceptId": "c.a0.today",
+   "sentenceIds": [
+    "nl.a0.sent.a21",
+    "nl.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.morgen",
+   "lemma": "morgen",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكرة",
+    "en": "tomorrow"
+   },
+   "conceptId": "c.a0.tomorrow",
+   "sentenceIds": [
+    "nl.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.gisteren",
+   "lemma": "gisteren",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "امبارح",
+    "en": "yesterday"
+   },
+   "conceptId": "c.a0.yesterday",
+   "sentenceIds": [
+    "nl.a0.sent.a23"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.dag",
+   "lemma": "dag",
+   "article": "de",
+   "plural": "dagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوم",
+    "en": "day"
+   },
+   "conceptId": "c.a0.day",
+   "sentenceIds": [
+    "nl.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.week",
+   "lemma": "week",
+   "article": "de",
+   "plural": "weken",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أسبوع",
+    "en": "week"
+   },
+   "conceptId": "c.a0.week",
+   "sentenceIds": [
+    "nl.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.uur",
+   "lemma": "uur",
+   "article": "het",
+   "plural": "uren",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الساعة (في الوقت)",
+    "en": "o'clock; hour"
+   },
+   "conceptId": "c.a0.oclock",
+   "sentenceIds": [
+    "nl.a0.sent.a25",
+    "nl.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.maandag",
+   "lemma": "maandag",
+   "article": "de",
+   "plural": "maandagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الاتنين",
+    "en": "Monday"
+   },
+   "conceptId": "c.a0.monday",
+   "sentenceIds": [
+    "nl.a0.sent.a21"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.dinsdag",
+   "lemma": "dinsdag",
+   "article": "de",
+   "plural": "dinsdagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "التلات",
+    "en": "Tuesday"
+   },
+   "conceptId": "c.a0.tuesday",
+   "sentenceIds": [
+    "nl.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.woensdag",
+   "lemma": "woensdag",
+   "article": "de",
+   "plural": "woensdagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الأربع",
+    "en": "Wednesday"
+   },
+   "conceptId": "c.a0.wednesday",
+   "sentenceIds": [
+    "nl.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.donderdag",
+   "lemma": "donderdag",
+   "article": "de",
+   "plural": "donderdagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الخميس",
+    "en": "Thursday"
+   },
+   "conceptId": "c.a0.thursday",
+   "sentenceIds": [
+    "nl.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.vrijdag",
+   "lemma": "vrijdag",
+   "article": "de",
+   "plural": "vrijdagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الجمعة",
+    "en": "Friday"
+   },
+   "conceptId": "c.a0.friday",
+   "sentenceIds": [
+    "nl.a0.sent.a27"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.zaterdag",
+   "lemma": "zaterdag",
+   "article": "de",
+   "plural": "zaterdagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "السبت",
+    "en": "Saturday"
+   },
+   "conceptId": "c.a0.saturday",
+   "sentenceIds": [
+    "nl.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.zondag",
+   "lemma": "zondag",
+   "article": "de",
+   "plural": "zondagen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الحد",
+    "en": "Sunday"
+   },
+   "conceptId": "c.a0.sunday",
+   "sentenceIds": [
+    "nl.a0.sent.a23",
+    "nl.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.wat",
+   "lemma": "wat",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيه",
+    "en": "what"
+   },
+   "conceptId": "c.a0.what",
+   "sentenceIds": [
+    "nl.a0.sent.a20",
+    "nl.a0.sent.a31"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.wie",
+   "lemma": "wie",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مين",
+    "en": "who"
+   },
+   "conceptId": "c.a0.who",
+   "sentenceIds": [
+    "nl.a0.sent.a32"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.waar",
+   "lemma": "waar",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فين",
+    "en": "where"
+   },
+   "conceptId": "c.a0.where",
+   "sentenceIds": [
+    "nl.a0.sent.a08",
+    "nl.a0.sent.a41",
+    "nl.a0.sent.a15"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.wanneer",
+   "lemma": "wanneer",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إمتى",
+    "en": "when"
+   },
+   "conceptId": "c.a0.when",
+   "sentenceIds": [
+    "nl.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.waarom",
+   "lemma": "waarom",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "ليه",
+    "en": "why"
+   },
+   "conceptId": "c.a0.why",
+   "sentenceIds": [
+    "nl.a0.sent.a35"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.en",
+   "lemma": "en",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "و",
+    "en": "and"
+   },
+   "conceptId": "c.a0.and",
+   "sentenceIds": [
+    "nl.a0.sent.a06",
+    "nl.a0.sent.a26",
+    "nl.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.of",
+   "lemma": "of",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أو، ولا",
+    "en": "or"
+   },
+   "conceptId": "c.a0.or",
+   "sentenceIds": [
+    "nl.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.maar",
+   "lemma": "maar",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بس، لكن",
+    "en": "but"
+   },
+   "conceptId": "c.a0.but",
+   "sentenceIds": [
+    "nl.a0.sent.a37",
+    "nl.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.ook",
+   "lemma": "ook",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "كمان، برضه",
+    "en": "also, too"
+   },
+   "conceptId": "c.a0.also",
+   "sentenceIds": [
+    "nl.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.spreken",
+   "lemma": "spreken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتكلم",
+    "en": "to speak"
+   },
+   "conceptId": "c.a0.speak",
+   "sentenceIds": [
+    "nl.a0.sent.a11",
+    "nl.a0.sent.a36",
+    "nl.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.leren",
+   "lemma": "leren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعلم",
+    "en": "to learn"
+   },
+   "conceptId": "c.a0.learn",
+   "sentenceIds": [
+    "nl.a0.sent.a35",
+    "nl.a0.sent.a37"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.vocab.taal",
+   "lemma": "taal",
+   "article": "de",
+   "plural": "talen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة",
+    "en": "language"
+   },
+   "conceptId": "c.a0.language",
+   "sentenceIds": [
+    "nl.a0.sent.a38"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "nl.a0.sent.a01",
+   "text": "De taxi is hier.",
+   "translations": {
+    "ar": "التاكسي هنا.",
+    "en": "The taxi is here."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a02",
+   "text": "Het hotel is groot.",
+   "translations": {
+    "ar": "الفندق كبير.",
+    "en": "The hotel is big."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a03",
+   "text": "Ik hou van muziek.",
+   "translations": {
+    "ar": "أنا بحب الموسيقى.",
+    "en": "I like music."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a04",
+   "text": "De bus komt.",
+   "translations": {
+    "ar": "الأتوبيس جاي.",
+    "en": "The bus is coming."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a05",
+   "text": "Geen probleem!",
+   "translations": {
+    "ar": "مفيش مشكلة!",
+    "en": "No problem!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a06",
+   "text": "Een pizza en een banaan, alstublieft.",
+   "translations": {
+    "ar": "بيتزا وموزة، من فضلك.",
+    "en": "A pizza and a banana, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a07",
+   "text": "De school is nieuw.",
+   "translations": {
+    "ar": "المدرسة جديدة.",
+    "en": "The school is new."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a08",
+   "text": "Waar is de auto?",
+   "translations": {
+    "ar": "العربية فين؟",
+    "en": "Where is the car?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a09",
+   "text": "Ik hou van chocola.",
+   "translations": {
+    "ar": "أنا بحب الشوكولاتة.",
+    "en": "I like chocolate."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a41",
+   "text": "Waar is de telefoon?",
+   "translations": {
+    "ar": "التليفون فين؟",
+    "en": "Where is the telephone?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a42",
+   "text": "Een pizza met tomaat.",
+   "translations": {
+    "ar": "بيتزا بالطماطم.",
+    "en": "A pizza with tomato."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a10",
+   "text": "Sorry, ik begrijp het niet.",
+   "translations": {
+    "ar": "آسف، مش فاهم.",
+    "en": "Sorry, I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a11",
+   "text": "Spreekt u Engels?",
+   "translations": {
+    "ar": "حضرتك بتتكلم إنجليزي؟",
+    "en": "Do you speak English?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a12",
+   "text": "Een beetje.",
+   "translations": {
+    "ar": "شوية.",
+    "en": "A little."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a13",
+   "text": "Langzaam, alstublieft!",
+   "translations": {
+    "ar": "بالراحة، من فضلك!",
+    "en": "Slowly, please!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a14",
+   "text": "Nog een keer, alstublieft.",
+   "translations": {
+    "ar": "مرة كمان، من فضلك.",
+    "en": "Once more, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a15",
+   "text": "Waar is het toilet?",
+   "translations": {
+    "ar": "الحمّام فين؟",
+    "en": "Where is the toilet?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a16",
+   "text": "Het toilet is daar.",
+   "translations": {
+    "ar": "الحمّام هناك.",
+    "en": "The toilet is there."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a17",
+   "text": "Hoeveel kost het? – Vijf euro.",
+   "translations": {
+    "ar": "بكام ده؟ – خمسة يورو.",
+    "en": "How much is it? – Five euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a18",
+   "text": "Ik weet het niet.",
+   "translations": {
+    "ar": "مش عارف.",
+    "en": "I don't know."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a19",
+   "text": "Ik heb hulp nodig.",
+   "translations": {
+    "ar": "محتاج مساعدة.",
+    "en": "I need help."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a20",
+   "text": "Wat zegt u? Ik begrijp het niet.",
+   "translations": {
+    "ar": "نعم؟ مش فاهم.",
+    "en": "Pardon? I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a21",
+   "text": "Vandaag is het maandag.",
+   "translations": {
+    "ar": "النهارده الاتنين.",
+    "en": "Today is Monday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a22",
+   "text": "Morgen is het dinsdag.",
+   "translations": {
+    "ar": "بكرة التلات.",
+    "en": "Tomorrow is Tuesday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a23",
+   "text": "Gisteren was het zondag.",
+   "translations": {
+    "ar": "امبارح كان الحد.",
+    "en": "Yesterday was Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a24",
+   "text": "De week heeft zeven dagen.",
+   "translations": {
+    "ar": "الأسبوع فيه سبع أيام.",
+    "en": "The week has seven days."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a25",
+   "text": "Het is twaalf uur.",
+   "translations": {
+    "ar": "الساعة اتناشر.",
+    "en": "It's twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a26",
+   "text": "Op zaterdag en zondag werk ik niet.",
+   "translations": {
+    "ar": "مش بشتغل يوم السبت والحد.",
+    "en": "I don't work on Saturday and Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a27",
+   "text": "Tot vrijdag!",
+   "translations": {
+    "ar": "أشوفك يوم الجمعة!",
+    "en": "See you on Friday!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a28",
+   "text": "De les is op woensdag en donderdag.",
+   "translations": {
+    "ar": "الدرس يوم الأربع والخميس.",
+    "en": "The class is on Wednesday and Thursday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a29",
+   "text": "Elf, twaalf … honderd!",
+   "translations": {
+    "ar": "حداشر، اتناشر … مية!",
+    "en": "Eleven, twelve … a hundred!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a30",
+   "text": "Vandaag nul problemen!",
+   "translations": {
+    "ar": "مفيش ولا مشكلة النهارده!",
+    "en": "Zero problems today!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a43",
+   "text": "Hoe laat is het? – Twaalf uur.",
+   "translations": {
+    "ar": "الساعة كام؟ – اتناشر.",
+    "en": "What time is it? – Twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a31",
+   "text": "Wat is dat?",
+   "translations": {
+    "ar": "إيه ده؟",
+    "en": "What is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a32",
+   "text": "Wie is dat?",
+   "translations": {
+    "ar": "مين ده؟",
+    "en": "Who is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a33",
+   "text": "Waar is het hotel?",
+   "translations": {
+    "ar": "الفندق فين؟",
+    "en": "Where is the hotel?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a34",
+   "text": "Wanneer komt de bus?",
+   "translations": {
+    "ar": "الأتوبيس جاي إمتى؟",
+    "en": "When is the bus coming?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a35",
+   "text": "Waarom leer je Nederlands?",
+   "translations": {
+    "ar": "ليه بتتعلم هولندي؟",
+    "en": "Why are you learning Dutch?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a36",
+   "text": "Ik spreek Arabisch en Engels.",
+   "translations": {
+    "ar": "أنا بتكلم عربي وإنجليزي.",
+    "en": "I speak Arabic and English."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a37",
+   "text": "Ik leer Nederlands, maar langzaam.",
+   "translations": {
+    "ar": "أنا بتعلم هولندي، بس بالراحة.",
+    "en": "I'm learning Dutch, but slowly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a38",
+   "text": "Nederlands is een mooie taal.",
+   "translations": {
+    "ar": "الهولندي لغة جميلة.",
+    "en": "Dutch is a beautiful language."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a39",
+   "text": "Spreek jij ook Nederlands?",
+   "translations": {
+    "ar": "إنت كمان بتتكلم هولندي؟",
+    "en": "Do you speak Dutch too?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a0.sent.a40",
+   "text": "Thee of koffie? – Koffie, maar langzaam!",
+   "translations": {
+    "ar": "شاي ولا قهوة؟ – قهوة، بس بالراحة!",
+    "en": "Tea or coffee? – Coffee, but slowly!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "nl.a0.gram.sounds",
+   "level": "A0",
+   "title": {
+    "ar": "أصوات الهولندي",
+    "en": "Dutch sounds"
+   },
+   "explanation": {
+    "en": "Dutch spelling is regular once you know a few rules:\n\ng and ch are throat sounds like Arabic خ (goed, acht). This is the most typical Dutch sound.\n\nij and ei sound the same, close to English 'eye' (mijn, klein). ui has no English match: start with 'a' and round your lips (huis, uit). ou and au sound like 'ow' (oud).\n\noe sounds like 'oo' (goed, moeder). eu is a rounded e (neus).\n\nA double vowel is a long vowel: aa, ee, oo, uu (jaar, twee). In an open syllable one letter is enough: ja-ren, ko-men.\n\nw is softer than English w, v is close to f (vader), j is y (ja). sch = s + خ (school). The -n at the end of -en is often not pronounced (eten sounds like 'ay-tuh').",
+    "ar": "الكتابة الهولندي منتظمة لما تعرف شوية قواعد:\n\ng وch بيتنطقوا من الزور زي الخاء (goed = خوت، acht = أخت). ده أشهر صوت في الهولندي.\n\nij وei نفس الصوت، قريب من «اي» (mijn = ماين، klein). ui مالهاش مقابل: ابدأ بـ «أ» ودوّر شفايفك (huis، uit). ou وau بيتنطقوا «او» (oud = اوت).\n\noe بتتنطق «uu» (goed، moeder = مودر). eu حرف e بشفايف مدوّرة (neus).\n\nالحرف المتحرك المتكرر صوته طويل: aa وee وoo وuu (jaar = يااار، twee = تفيي). وفي المقطع المفتوح حرف واحد كفاية: ja-ren، ko-men.\n\nw أخف من الإنجليزي، وv قريبة من ف (vader = فادر)، وj بتتنطق ي (ja = يا). sch = س + خ (school = سخول). والـ n في آخر ‎-en غالبًا مش بتتنطق (eten = ايتة)."
+   },
+   "table": {
+    "headers": [
+     "letters",
+     "sounds like",
+     "example"
+    ],
+    "rows": [
+     [
+      "g, ch",
+      "خ",
+      "goed, acht"
+     ],
+     [
+      "ij, ei",
+      "ai (eye) / اي",
+      "mijn, klein"
+     ],
+     [
+      "ui",
+      "rounded 'a-u'",
+      "huis, uit"
+     ],
+     [
+      "ou, au",
+      "ow / او",
+      "oud"
+     ],
+     [
+      "oe",
+      "oo / uu",
+      "goed, moeder"
+     ],
+     [
+      "eu",
+      "rounded e",
+      "neus"
+     ],
+     [
+      "aa, ee, oo, uu",
+      "long vowel",
+      "jaar, twee"
+     ],
+     [
+      "sch",
+      "s + خ",
+      "school"
+     ],
+     [
+      "v",
+      "close to f",
+      "vader"
+     ],
+     [
+      "w",
+      "soft v/w",
+      "water"
+     ],
+     [
+      "j",
+      "y / ي",
+      "ja"
+     ],
+     [
+      "-en",
+      "-uh",
+      "eten, komen"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a0.sent.a02",
+    "nl.a0.sent.a07",
+    "nl.a0.sent.a09"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "h___s (house, rounded 'a-u')",
+     "answer": "ui",
+     "base": "ui / ij"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "m___n (my, sounds 'mine')",
+     "answer": "ij",
+     "base": "ui / ij"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "g___d (good, sounds 'khoot')",
+     "answer": "oe",
+     "base": "oe"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "j___r (year, a long a)",
+     "answer": "aa",
+     "base": "a / aa"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ool (school, s + kh)",
+     "answer": "sch",
+     "base": "sch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "tw___ (two, a long e)",
+     "answer": "ee",
+     "base": "e / ee"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___d (old, sounds 'owt')",
+     "answer": "ou",
+     "base": "ou"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "kl___n (small, sounds 'kline')",
+     "answer": "ei",
+     "base": "ei"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a0.gram.questions",
+   "level": "A0",
+   "title": {
+    "ar": "الأسئلة: الفعل في الأول أو التاني",
+    "en": "Questions: the verb comes first or second"
+   },
+   "explanation": {
+    "en": "Dutch word order works like German. In a statement the verb is second: Jij leert Nederlands.\n\nFor a yes/no question, put the verb first: Leer jij Nederlands? Note that the -t disappears when jij or je follows the verb.\n\nWith a question word, the question word comes first and the verb second: Wat leer je? Waar is het hotel? Wanneer komt de bus?\n\nQuestion words: wat (what), wie (who), waar (where), wanneer (when), waarom (why), hoe (how).\n\nCareful if you also learn German: Dutch wie means who, but German wie means how.",
+    "ar": "ترتيب الكلام في الهولندي زي الألماني. في الجملة الخبرية الفعل التاني: Jij leert Nederlands.\n\nفي سؤال إجابته أيوه أو لأ الفعل بييجي الأول: Leer jij Nederlands? خد بالك إن الـ ‎-t بتختفي لما jij أو je ييجوا بعد الفعل.\n\nمع كلمة سؤال، كلمة السؤال الأول والفعل التاني: Wat leer je? Waar is het hotel? Wanneer komt de bus?\n\nكلمات السؤال: wat (إيه)، wie (مين)، waar (فين)، wanneer (إمتى)، waarom (ليه)، hoe (إزاي).\n\nخلي بالك لو بتتعلم ألماني كمان: wie في الهولندي معناها مين، لكن في الألماني معناها إزاي."
+   },
+   "table": {
+    "headers": [
+     "",
+     "1",
+     "2",
+     "3"
+    ],
+    "rows": [
+     [
+      "statement",
+      "Jij",
+      "leert",
+      "Nederlands."
+     ],
+     [
+      "yes/no question",
+      "Leer",
+      "jij",
+      "Nederlands?"
+     ],
+     [
+      "question word",
+      "Wat",
+      "leer",
+      "je?"
+     ],
+     [
+      "question word",
+      "Waar",
+      "is",
+      "het hotel?"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a0.sent.a31",
+    "nl.a0.sent.a34",
+    "nl.a0.sent.a39"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ is dat? (who)",
+     "answer": "Wie",
+     "base": "wie / waar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ is het toilet? (where)",
+     "answer": "Waar",
+     "base": "wie / waar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ komt de bus? (when)",
+     "answer": "Wanneer",
+     "base": "wanneer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ leer je Nederlands? (why)",
+     "answer": "Waarom",
+     "base": "waarom"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ is dat? (what)",
+     "answer": "Wat",
+     "base": "wat"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ jij Engels? (spreken)",
+     "answer": "Spreek",
+     "base": "spreken"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik leer Nederlands ___ Spaans. (and)",
+     "answer": "en",
+     "base": "en"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik leer Nederlands, ___ langzaam. (but)",
+     "answer": "maar",
+     "base": "maar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "nl.a0.text.hotel",
+   "level": "A0",
+   "kind": "reading",
+   "title": "In het hotel",
+   "body": "Omar: Hallo! Spreekt u Engels?\nReceptie: Een beetje. En Nederlands?\nOmar: Ik leer Nederlands, maar langzaam. Waar is het toilet?\nReceptie: Daar.\nOmar: Dank u! En wanneer komt de taxi?\nReceptie: Vandaag, om twaalf uur.",
+   "translation": {
+    "ar": "عمر: أهلًا! حضرتك بتتكلم إنجليزي؟ / موظفة الاستقبال: شوية. وهولندي؟ / عمر: بتعلّم هولندي، بس بالراحة. الحمّام فين؟ / الموظفة: هناك. / عمر: شكرًا! والتاكسي جاي إمتى؟ / الموظفة: النهارده، الساعة اتناشر.",
+    "en": "Omar: Hello! Do you speak English? / Receptionist: A little. And Dutch? / Omar: I'm learning Dutch, but slowly. Where is the toilet? / Receptionist: There. / Omar: Thanks! And when is the taxi coming? / Receptionist: Today, at twelve o'clock."
+   },
+   "glossary": [
+    "nl.a0.vocab.spreekt_u_engels",
+    "nl.a0.vocab.een_beetje",
+    "nl.a0.vocab.leren",
+    "nl.a0.vocab.langzaam",
+    "nl.a0.vocab.toilet",
+    "nl.a0.vocab.daar",
+    "nl.a0.vocab.wanneer",
+    "nl.a0.vocab.taxi",
+    "nl.a0.vocab.vandaag",
+    "nl.a0.vocab.uur"
+   ],
+   "questions": [
+    {
+     "question": "Wie leert Nederlands?",
+     "options": [
+      "Omar",
+      "De receptie",
+      "De taxi"
+     ],
+     "answer": 0
+    },
+    {
+     "question": "Waar is het toilet?",
+     "options": [
+      "Hier",
+      "Daar",
+      "In de taxi"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Wanneer komt de taxi?",
+     "options": [
+      "Morgen",
+      "Vandaag om twaalf uur",
+      "Op maandag"
+     ],
+     "answer": 1
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "nl.a0.write.languages",
+   "level": "A0",
+   "prompt": {
+    "ar": "اكتب جملتين أو تلاتة قصيرين بالهولندي: بتتكلم لغات إيه، وبتتعلم إيه؟",
+    "en": "Write 2 or 3 short sentences in Dutch: which languages do you speak, and which are you learning?"
+   },
+   "minWords": 8
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

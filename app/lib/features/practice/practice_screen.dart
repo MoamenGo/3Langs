@@ -16,6 +16,7 @@ class PracticeScreen extends StatelessWidget {
       (Icons.menu_book, l.lessonReading, '/practice/reading'),
       (Icons.edit_note, l.lessonWriting, '/practice/writing'),
       (Icons.record_voice_over, l.lessonSpeaking, '/practice/speaking'),
+      (Icons.compare_arrows, l.contrastDictionary, '/practice/contrast'),
     ];
     return Scaffold(
       appBar: AppBar(

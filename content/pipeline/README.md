@@ -23,10 +23,16 @@ pip install -r requirements.txt
 
 Other scripts:
 
-- `starter_a1.py` writes the hand-checked A1 starter file the app ships with
-  today (units 1 to 4; unit specs for 2 to 4 are in `starter_a1_units.py`). Re-run it after editing it.
+- `starter_v2.py` builds every pack the app ships with today: A0 and A1
+  (units 1 to 4) for German, Dutch and Spanish, plus `contrast.json`. The
+  hand-written data is in `content/data/starter/` (A0 concepts and sentences
+  in `a0.py`, A0 sounds and questions grammar in `a0_lang.py`, Dutch and
+  Spanish A1 in `a1_nl.py` / `a1_es.py`, Arabic for the shared sentences in
+  `a1_shared.py`, false friends in `contrast.py`). German A1 still comes from
+  `starter_a1.py` (+ `starter_a1_units.py`), which `starter_v2.py` runs first.
+  Re-run `python starter_v2.py` after editing any of them.
 - `validate.py <file>` checks a level file against `content/schema/level.schema.json`
-  plus cross-references (every lesson item exists, all three translations present).
+  plus cross-references (every lesson item exists, Arabic and English translations present).
 
 Licences: every record keeps `source` and `license`. The app's About screen
 lists them. Goethe lists and DW are copyrighted: use Goethe only as a level
@@ -38,4 +44,10 @@ The app now reads `app/assets/content/{lang}/{level}.json` with ids like
 `de.a1.vocab.haus` and explanations in `ar`/`en`. `to_v2.py` converts a v1
 file (what `starter_a1.py` and `08_publish.py` still write) into that layout,
 adding Arabic from `content/data/manual/ar_de_a1.json`. A `--lang` option for
-the whole pipeline comes with the Dutch and Spanish content (phase 4).
+the download pipeline (stages 01 to 08) comes in phase 4; until then the
+starter packs above are written by hand.
+
+Every vocab record has a `conceptId` (`c.a1.house`). The German, Dutch and
+Spanish words for one meaning share it, which is how the app links them and
+how `starter_v2.py` finds gender mismatches and look-alikes for
+`app/assets/content/contrast.json` (schema: `content/schema/contrast.schema.json`).

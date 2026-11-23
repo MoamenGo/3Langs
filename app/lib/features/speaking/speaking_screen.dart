@@ -45,6 +45,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
                   const Spacer(),
                   Text(
                     s.text,
+                    textDirection: TextDirection.ltr,
                     style: Theme.of(context).textTheme.headlineSmall,
                     textAlign: TextAlign.center,
                   ),

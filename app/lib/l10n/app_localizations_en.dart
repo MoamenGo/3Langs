@@ -361,4 +361,36 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get explainEnglish => 'English';
+
+  @override
+  String get contrastDictionary => 'Contrast dictionary';
+
+  @override
+  String get contrastIntro =>
+      'Words that look alike but mean different things, words you can learn together, and nouns whose gender changes between languages.';
+
+  @override
+  String get inOtherLanguages => 'In your other languages';
+
+  @override
+  String get contrastAll => 'All';
+
+  @override
+  String get falseFriends => 'False friends';
+
+  @override
+  String get nearCognates => 'Look alike';
+
+  @override
+  String get genderMismatches => 'Gender changes';
+
+  @override
+  String levelDone(String level) {
+    return 'You finished level $level!';
+  }
+
+  @override
+  String startLevel(String level) {
+    return 'Start level $level';
+  }
 }

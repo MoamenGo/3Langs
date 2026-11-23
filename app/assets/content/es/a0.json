@@ -1,0 +1,2288 @@
+{
+ "schemaVersion": 2,
+ "lang": "es",
+ "contentVersion": "2026.11.23-phase2",
+ "level": {
+  "id": "A0",
+  "title": {
+   "ar": "A0 البداية",
+   "en": "A0 First steps"
+  },
+  "targetHours": 30,
+  "canDo": [
+   {
+    "ar": "تقرا وتنطق حروف اللغة وأصواتها",
+    "en": "Read and pronounce the letters and sounds"
+   },
+   {
+    "ar": "تستخدم عبارات النجاة لما متفهمش",
+    "en": "Use survival phrases when you don't understand"
+   },
+   {
+    "ar": "تقول الأيام والأرقام والساعة",
+    "en": "Say days, numbers and the time"
+   },
+   {
+    "ar": "تسأل أسئلة بسيطة: مين، فين، إمتى، ليه",
+    "en": "Ask simple questions: who, where, when, why"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "es.a0.u01",
+   "level": "A0",
+   "order": 1,
+   "theme": {
+    "ar": "الأصوات والحروف",
+    "en": "Sounds and letters"
+   },
+   "goals": [
+    {
+     "ar": "تعرف الأصوات اللي مش موجودة في العربي",
+     "en": "Know the sounds that differ from Arabic and English"
+    },
+    {
+     "ar": "تقرا كلمات دولية بالنطق الصح",
+     "en": "Read international words with the right sounds"
+    }
+   ],
+   "grammarIds": [
+    "es.a0.gram.sounds"
+   ],
+   "lessonIds": [
+    "es.a0.u01.l01",
+    "es.a0.u01.l02",
+    "es.a0.u01.l03",
+    "es.a0.u01.l04"
+   ],
+   "sharedUnitId": "u.a0.01"
+  },
+  {
+   "id": "es.a0.u02",
+   "level": "A0",
+   "order": 2,
+   "theme": {
+    "ar": "عبارات النجاة",
+    "en": "Survival phrases"
+   },
+   "goals": [
+    {
+     "ar": "تقول إنك مش فاهم وتطلب حد يعيد",
+     "en": "Say you don't understand and ask for a repeat"
+    },
+    {
+     "ar": "تسأل عن الحمّام والسعر",
+     "en": "Ask for the toilet and the price"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "es.a0.u02.l01",
+    "es.a0.u02.l02",
+    "es.a0.u02.l03"
+   ],
+   "sharedUnitId": "u.a0.02"
+  },
+  {
+   "id": "es.a0.u03",
+   "level": "A0",
+   "order": 3,
+   "theme": {
+    "ar": "الأرقام والأيام والوقت",
+    "en": "Numbers, days and time"
+   },
+   "goals": [
+    {
+     "ar": "تقول أيام الأسبوع",
+     "en": "Say the days of the week"
+    },
+    {
+     "ar": "تقول النهارده وبكرة وامبارح والساعة",
+     "en": "Say today, tomorrow, yesterday and the time"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "es.a0.u03.l01",
+    "es.a0.u03.l02",
+    "es.a0.u03.l03",
+    "es.a0.u03.l04"
+   ],
+   "sharedUnitId": "u.a0.03"
+  },
+  {
+   "id": "es.a0.u04",
+   "level": "A0",
+   "order": 4,
+   "theme": {
+    "ar": "أول أسئلة",
+    "en": "First questions"
+   },
+   "goals": [
+    {
+     "ar": "تسأل بكلمات السؤال",
+     "en": "Ask with question words"
+    },
+    {
+     "ar": "تقول بتتكلم وبتتعلم لغات إيه",
+     "en": "Say which languages you speak and learn"
+    }
+   ],
+   "grammarIds": [
+    "es.a0.gram.questions"
+   ],
+   "lessonIds": [
+    "es.a0.u04.l01",
+    "es.a0.u04.l02",
+    "es.a0.u04.l03",
+    "es.a0.u04.l04",
+    "es.a0.u04.l05"
+   ],
+   "sharedUnitId": "u.a0.04"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "es.a0.u01.l01",
+   "unitId": "es.a0.u01",
+   "order": 1,
+   "type": "grammar",
+   "title": {
+    "ar": "أصوات اللغة",
+    "en": "The sounds"
+   },
+   "items": [],
+   "grammarId": "es.a0.gram.sounds"
+  },
+  {
+   "id": "es.a0.u01.l02",
+   "unitId": "es.a0.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "كلمات دولية",
+    "en": "International words"
+   },
+   "items": [
+    "es.a0.vocab.taxi",
+    "es.a0.vocab.hotel",
+    "es.a0.vocab.autobus",
+    "es.a0.vocab.telefono",
+    "es.a0.vocab.musica",
+    "es.a0.vocab.problema",
+    "es.a0.vocab.platano",
+    "es.a0.vocab.tomate",
+    "es.a0.vocab.escuela",
+    "es.a0.vocab.coche",
+    "es.a0.vocab.chocolate",
+    "es.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "es.a0.u01.l03",
+   "unitId": "es.a0.u01",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: كلمات وأصوات",
+    "en": "Listen: words and sounds"
+   },
+   "items": [
+    "es.a0.sent.a01",
+    "es.a0.sent.a02",
+    "es.a0.sent.a03",
+    "es.a0.sent.a04",
+    "es.a0.sent.a05",
+    "es.a0.sent.a06",
+    "es.a0.sent.a07",
+    "es.a0.sent.a08"
+   ]
+  },
+  {
+   "id": "es.a0.u01.l04",
+   "unitId": "es.a0.u01",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 1",
+    "en": "Unit 1 review"
+   },
+   "items": [
+    "es.a0.vocab.taxi",
+    "es.a0.vocab.hotel",
+    "es.a0.vocab.autobus",
+    "es.a0.vocab.telefono",
+    "es.a0.vocab.musica",
+    "es.a0.vocab.problema",
+    "es.a0.vocab.platano",
+    "es.a0.vocab.tomate",
+    "es.a0.vocab.escuela",
+    "es.a0.vocab.coche",
+    "es.a0.vocab.chocolate",
+    "es.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "es.a0.u02.l01",
+   "unitId": "es.a0.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مش فاهم! عبارات النجاة",
+    "en": "I don't understand! Survival phrases"
+   },
+   "items": [
+    "es.a0.vocab.no_entiendo",
+    "es.a0.vocab.habla_ingles",
+    "es.a0.vocab.un_poco",
+    "es.a0.vocab.despacio",
+    "es.a0.vocab.otra_vez",
+    "es.a0.vocab.como",
+    "es.a0.vocab.aseo",
+    "es.a0.vocab.ayuda",
+    "es.a0.vocab.cuanto_cuesta",
+    "es.a0.vocab.no_se",
+    "es.a0.vocab.aqui",
+    "es.a0.vocab.alli"
+   ]
+  },
+  {
+   "id": "es.a0.u02.l02",
+   "unitId": "es.a0.u02",
+   "order": 2,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: لما تتوه",
+    "en": "Listen: when you're lost"
+   },
+   "items": [
+    "es.a0.sent.a10",
+    "es.a0.sent.a11",
+    "es.a0.sent.a12",
+    "es.a0.sent.a13",
+    "es.a0.sent.a14",
+    "es.a0.sent.a15",
+    "es.a0.sent.a17",
+    "es.a0.sent.a18"
+   ]
+  },
+  {
+   "id": "es.a0.u02.l03",
+   "unitId": "es.a0.u02",
+   "order": 3,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 2",
+    "en": "Unit 2 review"
+   },
+   "items": [
+    "es.a0.vocab.no_entiendo",
+    "es.a0.vocab.habla_ingles",
+    "es.a0.vocab.un_poco",
+    "es.a0.vocab.despacio",
+    "es.a0.vocab.otra_vez",
+    "es.a0.vocab.como",
+    "es.a0.vocab.aseo",
+    "es.a0.vocab.ayuda",
+    "es.a0.vocab.cuanto_cuesta",
+    "es.a0.vocab.no_se",
+    "es.a0.vocab.aqui",
+    "es.a0.vocab.alli"
+   ]
+  },
+  {
+   "id": "es.a0.u03.l01",
+   "unitId": "es.a0.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "أرقام ووقت",
+    "en": "Numbers and time"
+   },
+   "items": [
+    "es.a0.vocab.cero",
+    "es.a0.vocab.once",
+    "es.a0.vocab.doce",
+    "es.a0.vocab.cien",
+    "es.a0.vocab.hoy",
+    "es.a0.vocab.manana",
+    "es.a0.vocab.ayer",
+    "es.a0.vocab.dia",
+    "es.a0.vocab.semana",
+    "es.a0.vocab.hora"
+   ]
+  },
+  {
+   "id": "es.a0.u03.l02",
+   "unitId": "es.a0.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "أيام الأسبوع",
+    "en": "Days of the week"
+   },
+   "items": [
+    "es.a0.vocab.lunes",
+    "es.a0.vocab.martes",
+    "es.a0.vocab.miercoles",
+    "es.a0.vocab.jueves",
+    "es.a0.vocab.viernes",
+    "es.a0.vocab.sabado",
+    "es.a0.vocab.domingo"
+   ]
+  },
+  {
+   "id": "es.a0.u03.l03",
+   "unitId": "es.a0.u03",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: النهارده إيه؟",
+    "en": "Listen: what day is it?"
+   },
+   "items": [
+    "es.a0.sent.a21",
+    "es.a0.sent.a22",
+    "es.a0.sent.a23",
+    "es.a0.sent.a24",
+    "es.a0.sent.a25",
+    "es.a0.sent.a27",
+    "es.a0.sent.a28",
+    "es.a0.sent.a29"
+   ]
+  },
+  {
+   "id": "es.a0.u03.l04",
+   "unitId": "es.a0.u03",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 3",
+    "en": "Unit 3 review"
+   },
+   "items": [
+    "es.a0.vocab.cero",
+    "es.a0.vocab.once",
+    "es.a0.vocab.doce",
+    "es.a0.vocab.cien",
+    "es.a0.vocab.hoy",
+    "es.a0.vocab.manana",
+    "es.a0.vocab.ayer",
+    "es.a0.vocab.dia",
+    "es.a0.vocab.semana",
+    "es.a0.vocab.hora",
+    "es.a0.vocab.lunes",
+    "es.a0.vocab.martes",
+    "es.a0.vocab.miercoles",
+    "es.a0.vocab.jueves",
+    "es.a0.vocab.viernes",
+    "es.a0.vocab.sabado",
+    "es.a0.vocab.domingo"
+   ]
+  },
+  {
+   "id": "es.a0.u04.l01",
+   "unitId": "es.a0.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مين؟ فين؟ إمتى؟",
+    "en": "Who? Where? When?"
+   },
+   "items": [
+    "es.a0.vocab.que",
+    "es.a0.vocab.quien",
+    "es.a0.vocab.donde",
+    "es.a0.vocab.cuando",
+    "es.a0.vocab.por_que",
+    "es.a0.vocab.y",
+    "es.a0.vocab.o",
+    "es.a0.vocab.pero",
+    "es.a0.vocab.tambien",
+    "es.a0.vocab.hablar",
+    "es.a0.vocab.aprender",
+    "es.a0.vocab.idioma"
+   ]
+  },
+  {
+   "id": "es.a0.u04.l02",
+   "unitId": "es.a0.u04",
+   "order": 2,
+   "type": "grammar",
+   "title": {
+    "ar": "إزاي تسأل سؤال",
+    "en": "How to ask a question"
+   },
+   "items": [],
+   "grammarId": "es.a0.gram.questions"
+  },
+  {
+   "id": "es.a0.u04.l03",
+   "unitId": "es.a0.u04",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: أول أسئلة",
+    "en": "Listen: first questions"
+   },
+   "items": [
+    "es.a0.sent.a31",
+    "es.a0.sent.a32",
+    "es.a0.sent.a33",
+    "es.a0.sent.a34",
+    "es.a0.sent.a35",
+    "es.a0.sent.a36",
+    "es.a0.sent.a37",
+    "es.a0.sent.a39"
+   ]
+  },
+  {
+   "id": "es.a0.u04.l04",
+   "unitId": "es.a0.u04",
+   "order": 4,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: في الفندق",
+    "en": "Read: at the hotel"
+   },
+   "items": [],
+   "textId": "es.a0.text.hotel"
+  },
+  {
+   "id": "es.a0.u04.l05",
+   "unitId": "es.a0.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 4",
+    "en": "Unit 4 review"
+   },
+   "items": [
+    "es.a0.vocab.que",
+    "es.a0.vocab.quien",
+    "es.a0.vocab.donde",
+    "es.a0.vocab.cuando",
+    "es.a0.vocab.por_que",
+    "es.a0.vocab.y",
+    "es.a0.vocab.o",
+    "es.a0.vocab.pero",
+    "es.a0.vocab.tambien",
+    "es.a0.vocab.hablar",
+    "es.a0.vocab.aprender",
+    "es.a0.vocab.idioma"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "es.a0.vocab.taxi",
+   "lemma": "taxi",
+   "article": "el",
+   "plural": "taxis",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاكسي",
+    "en": "taxi"
+   },
+   "conceptId": "c.a0.taxi",
+   "sentenceIds": [
+    "es.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.hotel",
+   "lemma": "hotel",
+   "article": "el",
+   "plural": "hoteles",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فندق",
+    "en": "hotel"
+   },
+   "conceptId": "c.a0.hotel",
+   "sentenceIds": [
+    "es.a0.sent.a02",
+    "es.a0.sent.a33"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.autobus",
+   "lemma": "autobús",
+   "article": "el",
+   "plural": "autobuses",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أتوبيس",
+    "en": "bus"
+   },
+   "conceptId": "c.a0.bus",
+   "sentenceIds": [
+    "es.a0.sent.a04",
+    "es.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.telefono",
+   "lemma": "teléfono",
+   "article": "el",
+   "plural": "teléfonos",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تليفون",
+    "en": "telephone"
+   },
+   "conceptId": "c.a0.telephone",
+   "sentenceIds": [
+    "es.a0.sent.a41"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.musica",
+   "lemma": "música",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موسيقى",
+    "en": "music"
+   },
+   "conceptId": "c.a0.music",
+   "sentenceIds": [
+    "es.a0.sent.a03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.problema",
+   "lemma": "problema",
+   "article": "el",
+   "plural": "problemas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشكلة",
+    "en": "problem"
+   },
+   "conceptId": "c.a0.problem",
+   "sentenceIds": [
+    "es.a0.sent.a05",
+    "es.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.platano",
+   "lemma": "plátano",
+   "article": "el",
+   "plural": "plátanos",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موزة",
+    "en": "banana"
+   },
+   "conceptId": "c.a0.banana",
+   "sentenceIds": [
+    "es.a0.sent.a06"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.tomate",
+   "lemma": "tomate",
+   "article": "el",
+   "plural": "tomates",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "طماطم",
+    "en": "tomato"
+   },
+   "conceptId": "c.a0.tomato",
+   "sentenceIds": [
+    "es.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.escuela",
+   "lemma": "escuela",
+   "article": "la",
+   "plural": "escuelas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرسة",
+    "en": "school"
+   },
+   "conceptId": "c.a0.school",
+   "sentenceIds": [
+    "es.a0.sent.a07"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.coche",
+   "lemma": "coche",
+   "article": "el",
+   "plural": "coches",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "عربية",
+    "en": "car"
+   },
+   "conceptId": "c.a0.car",
+   "sentenceIds": [
+    "es.a0.sent.a08"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.chocolate",
+   "lemma": "chocolate",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوكولاتة",
+    "en": "chocolate"
+   },
+   "conceptId": "c.a0.chocolate",
+   "sentenceIds": [
+    "es.a0.sent.a09"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.pizza",
+   "lemma": "pizza",
+   "article": "la",
+   "plural": "pizzas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيتزا",
+    "en": "pizza"
+   },
+   "conceptId": "c.a0.pizza",
+   "sentenceIds": [
+    "es.a0.sent.a06",
+    "es.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.no_entiendo",
+   "lemma": "no entiendo",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش فاهم",
+    "en": "I don't understand"
+   },
+   "conceptId": "c.a0.dont_understand",
+   "sentenceIds": [
+    "es.a0.sent.a10",
+    "es.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.habla_ingles",
+   "lemma": "¿habla inglés?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بتتكلم إنجليزي؟",
+    "en": "do you speak English?"
+   },
+   "conceptId": "c.a0.speak_english",
+   "sentenceIds": [
+    "es.a0.sent.a11"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.un_poco",
+   "lemma": "un poco",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوية",
+    "en": "a little"
+   },
+   "conceptId": "c.a0.a_little",
+   "sentenceIds": [
+    "es.a0.sent.a12"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.despacio",
+   "lemma": "despacio",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بالراحة، ببطء",
+    "en": "slowly"
+   },
+   "conceptId": "c.a0.slowly",
+   "sentenceIds": [
+    "es.a0.sent.a13",
+    "es.a0.sent.a37",
+    "es.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.otra_vez",
+   "lemma": "otra vez",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرة كمان",
+    "en": "once more, again"
+   },
+   "conceptId": "c.a0.once_more",
+   "sentenceIds": [
+    "es.a0.sent.a14"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.como",
+   "lemma": "¿cómo?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "نعم؟ (قلت إيه؟)",
+    "en": "pardon? (what did you say?)"
+   },
+   "conceptId": "c.a0.pardon",
+   "sentenceIds": [
+    "es.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.aseo",
+   "lemma": "aseo",
+   "article": "el",
+   "plural": "aseos",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حمّام، تواليت",
+    "en": "toilet"
+   },
+   "conceptId": "c.a0.toilet",
+   "sentenceIds": [
+    "es.a0.sent.a15",
+    "es.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.ayuda",
+   "lemma": "ayuda",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساعدة",
+    "en": "help"
+   },
+   "conceptId": "c.a0.help",
+   "sentenceIds": [
+    "es.a0.sent.a19"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.cuanto_cuesta",
+   "lemma": "¿cuánto cuesta?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكام؟",
+    "en": "how much is it?"
+   },
+   "conceptId": "c.a0.how_much_cost",
+   "sentenceIds": [
+    "es.a0.sent.a17"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.no_se",
+   "lemma": "no sé",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش عارف",
+    "en": "I don't know"
+   },
+   "conceptId": "c.a0.dont_know",
+   "sentenceIds": [
+    "es.a0.sent.a18"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.aqui",
+   "lemma": "aquí",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هنا",
+    "en": "here"
+   },
+   "conceptId": "c.a0.here",
+   "sentenceIds": [
+    "es.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.alli",
+   "lemma": "allí",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هناك",
+    "en": "there"
+   },
+   "conceptId": "c.a0.there",
+   "sentenceIds": [
+    "es.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.cero",
+   "lemma": "cero",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "صفر",
+    "en": "zero"
+   },
+   "conceptId": "c.a0.zero",
+   "sentenceIds": [
+    "es.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.once",
+   "lemma": "once",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حداشر",
+    "en": "eleven"
+   },
+   "conceptId": "c.a0.eleven",
+   "sentenceIds": [
+    "es.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.doce",
+   "lemma": "doce",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "اتناشر",
+    "en": "twelve"
+   },
+   "conceptId": "c.a0.twelve",
+   "sentenceIds": [
+    "es.a0.sent.a25",
+    "es.a0.sent.a29",
+    "es.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.cien",
+   "lemma": "cien",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مية",
+    "en": "a hundred"
+   },
+   "conceptId": "c.a0.hundred",
+   "sentenceIds": [
+    "es.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.hoy",
+   "lemma": "hoy",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "النهارده",
+    "en": "today"
+   },
+   "conceptId": "c.a0.today",
+   "sentenceIds": [
+    "es.a0.sent.a21",
+    "es.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.manana",
+   "lemma": "mañana",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكرة",
+    "en": "tomorrow"
+   },
+   "conceptId": "c.a0.tomorrow",
+   "sentenceIds": [
+    "es.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.ayer",
+   "lemma": "ayer",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "امبارح",
+    "en": "yesterday"
+   },
+   "conceptId": "c.a0.yesterday",
+   "sentenceIds": [
+    "es.a0.sent.a23"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.dia",
+   "lemma": "día",
+   "article": "el",
+   "plural": "días",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوم",
+    "en": "day"
+   },
+   "conceptId": "c.a0.day",
+   "sentenceIds": [
+    "es.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.semana",
+   "lemma": "semana",
+   "article": "la",
+   "plural": "semanas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أسبوع",
+    "en": "week"
+   },
+   "conceptId": "c.a0.week",
+   "sentenceIds": [
+    "es.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.hora",
+   "lemma": "hora",
+   "article": "la",
+   "plural": "horas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الساعة (في الوقت)",
+    "en": "o'clock; hour"
+   },
+   "conceptId": "c.a0.oclock",
+   "sentenceIds": [
+    "es.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.lunes",
+   "lemma": "lunes",
+   "article": "el",
+   "plural": "lunes",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الاتنين",
+    "en": "Monday"
+   },
+   "conceptId": "c.a0.monday",
+   "sentenceIds": [
+    "es.a0.sent.a21"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.martes",
+   "lemma": "martes",
+   "article": "el",
+   "plural": "martes",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "التلات",
+    "en": "Tuesday"
+   },
+   "conceptId": "c.a0.tuesday",
+   "sentenceIds": [
+    "es.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.miercoles",
+   "lemma": "miércoles",
+   "article": "el",
+   "plural": "miércoles",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الأربع",
+    "en": "Wednesday"
+   },
+   "conceptId": "c.a0.wednesday",
+   "sentenceIds": [
+    "es.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.jueves",
+   "lemma": "jueves",
+   "article": "el",
+   "plural": "jueves",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الخميس",
+    "en": "Thursday"
+   },
+   "conceptId": "c.a0.thursday",
+   "sentenceIds": [
+    "es.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.viernes",
+   "lemma": "viernes",
+   "article": "el",
+   "plural": "viernes",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الجمعة",
+    "en": "Friday"
+   },
+   "conceptId": "c.a0.friday",
+   "sentenceIds": [
+    "es.a0.sent.a27"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.sabado",
+   "lemma": "sábado",
+   "article": "el",
+   "plural": "sábados",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "السبت",
+    "en": "Saturday"
+   },
+   "conceptId": "c.a0.saturday",
+   "sentenceIds": [
+    "es.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.domingo",
+   "lemma": "domingo",
+   "article": "el",
+   "plural": "domingos",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الحد",
+    "en": "Sunday"
+   },
+   "conceptId": "c.a0.sunday",
+   "sentenceIds": [
+    "es.a0.sent.a23",
+    "es.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.que",
+   "lemma": "qué",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيه",
+    "en": "what"
+   },
+   "conceptId": "c.a0.what",
+   "sentenceIds": [
+    "es.a0.sent.a43",
+    "es.a0.sent.a31",
+    "es.a0.sent.a35"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.quien",
+   "lemma": "quién",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مين",
+    "en": "who"
+   },
+   "conceptId": "c.a0.who",
+   "sentenceIds": [
+    "es.a0.sent.a32"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.donde",
+   "lemma": "dónde",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فين",
+    "en": "where"
+   },
+   "conceptId": "c.a0.where",
+   "sentenceIds": [
+    "es.a0.sent.a08",
+    "es.a0.sent.a41",
+    "es.a0.sent.a15"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.cuando",
+   "lemma": "cuándo",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إمتى",
+    "en": "when"
+   },
+   "conceptId": "c.a0.when",
+   "sentenceIds": [
+    "es.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.por_que",
+   "lemma": "por qué",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "ليه",
+    "en": "why"
+   },
+   "conceptId": "c.a0.why",
+   "sentenceIds": [
+    "es.a0.sent.a35"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.y",
+   "lemma": "y",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "و",
+    "en": "and"
+   },
+   "conceptId": "c.a0.and",
+   "sentenceIds": [
+    "es.a0.sent.a06",
+    "es.a0.sent.a26",
+    "es.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.o",
+   "lemma": "o",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أو، ولا",
+    "en": "or"
+   },
+   "conceptId": "c.a0.or",
+   "sentenceIds": [
+    "es.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.pero",
+   "lemma": "pero",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بس، لكن",
+    "en": "but"
+   },
+   "conceptId": "c.a0.but",
+   "sentenceIds": [
+    "es.a0.sent.a37",
+    "es.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.tambien",
+   "lemma": "también",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "كمان، برضه",
+    "en": "also, too"
+   },
+   "conceptId": "c.a0.also",
+   "sentenceIds": [
+    "es.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.hablar",
+   "lemma": "hablar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتكلم",
+    "en": "to speak"
+   },
+   "conceptId": "c.a0.speak",
+   "sentenceIds": [
+    "es.a0.sent.a11",
+    "es.a0.sent.a36",
+    "es.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.aprender",
+   "lemma": "aprender",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعلم",
+    "en": "to learn"
+   },
+   "conceptId": "c.a0.learn",
+   "sentenceIds": [
+    "es.a0.sent.a35",
+    "es.a0.sent.a37"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.vocab.idioma",
+   "lemma": "idioma",
+   "article": "el",
+   "plural": "idiomas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة",
+    "en": "language"
+   },
+   "conceptId": "c.a0.language",
+   "sentenceIds": [
+    "es.a0.sent.a38"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "es.a0.sent.a01",
+   "text": "El taxi está aquí.",
+   "translations": {
+    "ar": "التاكسي هنا.",
+    "en": "The taxi is here."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a02",
+   "text": "El hotel es grande.",
+   "translations": {
+    "ar": "الفندق كبير.",
+    "en": "The hotel is big."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a03",
+   "text": "Me gusta la música.",
+   "translations": {
+    "ar": "أنا بحب الموسيقى.",
+    "en": "I like music."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a04",
+   "text": "Viene el autobús.",
+   "translations": {
+    "ar": "الأتوبيس جاي.",
+    "en": "The bus is coming."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a05",
+   "text": "¡No hay problema!",
+   "translations": {
+    "ar": "مفيش مشكلة!",
+    "en": "No problem!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a06",
+   "text": "Una pizza y un plátano, por favor.",
+   "translations": {
+    "ar": "بيتزا وموزة، من فضلك.",
+    "en": "A pizza and a banana, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a07",
+   "text": "La escuela es nueva.",
+   "translations": {
+    "ar": "المدرسة جديدة.",
+    "en": "The school is new."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a08",
+   "text": "¿Dónde está el coche?",
+   "translations": {
+    "ar": "العربية فين؟",
+    "en": "Where is the car?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a09",
+   "text": "Me gusta el chocolate.",
+   "translations": {
+    "ar": "أنا بحب الشوكولاتة.",
+    "en": "I like chocolate."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a41",
+   "text": "¿Dónde está el teléfono?",
+   "translations": {
+    "ar": "التليفون فين؟",
+    "en": "Where is the telephone?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a42",
+   "text": "Una pizza con tomate.",
+   "translations": {
+    "ar": "بيتزا بالطماطم.",
+    "en": "A pizza with tomato."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a10",
+   "text": "Perdón, no entiendo.",
+   "translations": {
+    "ar": "آسف، مش فاهم.",
+    "en": "Sorry, I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a11",
+   "text": "¿Habla inglés?",
+   "translations": {
+    "ar": "حضرتك بتتكلم إنجليزي؟",
+    "en": "Do you speak English?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a12",
+   "text": "Un poco.",
+   "translations": {
+    "ar": "شوية.",
+    "en": "A little."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a13",
+   "text": "¡Despacio, por favor!",
+   "translations": {
+    "ar": "بالراحة، من فضلك!",
+    "en": "Slowly, please!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a14",
+   "text": "Otra vez, por favor.",
+   "translations": {
+    "ar": "مرة كمان، من فضلك.",
+    "en": "Once more, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a15",
+   "text": "¿Dónde está el aseo?",
+   "translations": {
+    "ar": "الحمّام فين؟",
+    "en": "Where is the toilet?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a16",
+   "text": "El aseo está allí.",
+   "translations": {
+    "ar": "الحمّام هناك.",
+    "en": "The toilet is there."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a17",
+   "text": "¿Cuánto cuesta? – Cinco euros.",
+   "translations": {
+    "ar": "بكام ده؟ – خمسة يورو.",
+    "en": "How much is it? – Five euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a18",
+   "text": "No sé.",
+   "translations": {
+    "ar": "مش عارف.",
+    "en": "I don't know."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a19",
+   "text": "Necesito ayuda.",
+   "translations": {
+    "ar": "محتاج مساعدة.",
+    "en": "I need help."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a20",
+   "text": "¿Cómo? No entiendo.",
+   "translations": {
+    "ar": "نعم؟ مش فاهم.",
+    "en": "Pardon? I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a21",
+   "text": "Hoy es lunes.",
+   "translations": {
+    "ar": "النهارده الاتنين.",
+    "en": "Today is Monday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a22",
+   "text": "Mañana es martes.",
+   "translations": {
+    "ar": "بكرة التلات.",
+    "en": "Tomorrow is Tuesday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a23",
+   "text": "Ayer fue domingo.",
+   "translations": {
+    "ar": "امبارح كان الحد.",
+    "en": "Yesterday was Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a24",
+   "text": "La semana tiene siete días.",
+   "translations": {
+    "ar": "الأسبوع فيه سبع أيام.",
+    "en": "The week has seven days."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a25",
+   "text": "Son las doce.",
+   "translations": {
+    "ar": "الساعة اتناشر.",
+    "en": "It's twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a26",
+   "text": "El sábado y el domingo no trabajo.",
+   "translations": {
+    "ar": "مش بشتغل يوم السبت والحد.",
+    "en": "I don't work on Saturday and Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a27",
+   "text": "¡Hasta el viernes!",
+   "translations": {
+    "ar": "أشوفك يوم الجمعة!",
+    "en": "See you on Friday!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a28",
+   "text": "La clase es el miércoles y el jueves.",
+   "translations": {
+    "ar": "الدرس يوم الأربع والخميس.",
+    "en": "The class is on Wednesday and Thursday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a29",
+   "text": "Once, doce… ¡cien!",
+   "translations": {
+    "ar": "حداشر، اتناشر … مية!",
+    "en": "Eleven, twelve … a hundred!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a30",
+   "text": "¡Hoy cero problemas!",
+   "translations": {
+    "ar": "مفيش ولا مشكلة النهارده!",
+    "en": "Zero problems today!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a43",
+   "text": "¿Qué hora es? – Las doce.",
+   "translations": {
+    "ar": "الساعة كام؟ – اتناشر.",
+    "en": "What time is it? – Twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a31",
+   "text": "¿Qué es eso?",
+   "translations": {
+    "ar": "إيه ده؟",
+    "en": "What is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a32",
+   "text": "¿Quién es?",
+   "translations": {
+    "ar": "مين ده؟",
+    "en": "Who is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a33",
+   "text": "¿Dónde está el hotel?",
+   "translations": {
+    "ar": "الفندق فين؟",
+    "en": "Where is the hotel?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a34",
+   "text": "¿Cuándo viene el autobús?",
+   "translations": {
+    "ar": "الأتوبيس جاي إمتى؟",
+    "en": "When is the bus coming?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a35",
+   "text": "¿Por qué aprendes español?",
+   "translations": {
+    "ar": "ليه بتتعلم إسباني؟",
+    "en": "Why are you learning Spanish?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a36",
+   "text": "Hablo árabe e inglés.",
+   "translations": {
+    "ar": "أنا بتكلم عربي وإنجليزي.",
+    "en": "I speak Arabic and English."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a37",
+   "text": "Aprendo español, pero despacio.",
+   "translations": {
+    "ar": "أنا بتعلم إسباني، بس بالراحة.",
+    "en": "I'm learning Spanish, but slowly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a38",
+   "text": "El español es un idioma bonito.",
+   "translations": {
+    "ar": "الإسباني لغة جميلة.",
+    "en": "Spanish is a beautiful language."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a39",
+   "text": "¿Tú también hablas español?",
+   "translations": {
+    "ar": "إنت كمان بتتكلم إسباني؟",
+    "en": "Do you speak Spanish too?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a0.sent.a40",
+   "text": "¿Té o café? – Café, ¡pero despacio!",
+   "translations": {
+    "ar": "شاي ولا قهوة؟ – قهوة، بس بالراحة!",
+    "en": "Tea or coffee? – Coffee, but slowly!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "es.a0.gram.sounds",
+   "level": "A0",
+   "title": {
+    "ar": "أصوات الإسباني",
+    "en": "Spanish sounds"
+   },
+   "explanation": {
+    "en": "Spanish is read exactly as it is written, and the five vowels a, e, i, o, u are always short and clear.\n\nh is silent (hola, hijo). j, and g before e or i, are throat sounds like Arabic خ (jardín, gente).\n\nñ sounds like 'ny' (España, mañana). ll and y sound like English y (llamar, yo).\n\nIn Spain, z and c before e or i sound like English th, Arabic ث (zumo, cinco). In Latin America they sound like s.\n\nqu = k (queso). r between vowels is a quick tap (pero); rr and r at the start of a word are rolled (perro, rico). b and v sound the same.\n\nAn accent mark shows the stressed syllable: café, teléfono. Questions and exclamations open with ¿ and ¡.",
+    "ar": "الإسباني بيتقري بالظبط زي ما بيتكتب، والخمس حروف المتحركة a وe وi وo وu دايمًا قصيرة وواضحة.\n\nh مش بتتنطق (hola = أولا، hijo = إيخو). j، وg قبل e أو i، بيتنطقوا زي الخاء (jardín = خاردين، gente = خينتي).\n\nñ بتتنطق «ني» (España = إسبانيا، mañana = مانيانا). ll وy بيتنطقوا ي (llamar = يامار، yo = يو).\n\nفي إسبانيا z وc قبل e أو i بيتنطقوا ث (zumo = ثومو، cinco = ثينكو). في أمريكا اللاتينية بيتنطقوا س.\n\nqu = ك (queso = كيسو). r بين حرفين متحركين رنة خفيفة (pero)، وrr وr في أول الكلمة راء مكررة قوية (perro، rico). b وv نفس الصوت.\n\nالشرطة فوق الحرف بتوضح مكان الضغط: café، teléfono. والسؤال والتعجب بيبتدوا بـ ¿ و¡."
+   },
+   "table": {
+    "headers": [
+     "letters",
+     "sounds like",
+     "example"
+    ],
+    "rows": [
+     [
+      "h",
+      "silent",
+      "hola, hijo"
+     ],
+     [
+      "j, ge, gi",
+      "خ",
+      "jardín, gente"
+     ],
+     [
+      "ñ",
+      "ny / ني",
+      "España, mañana"
+     ],
+     [
+      "ll, y",
+      "y / ي",
+      "llamar, yo"
+     ],
+     [
+      "z, ce, ci",
+      "th / ث (Spain)",
+      "zumo, cinco"
+     ],
+     [
+      "qu",
+      "k",
+      "queso"
+     ],
+     [
+      "r / rr",
+      "tap / rolled",
+      "pero / perro"
+     ],
+     [
+      "b, v",
+      "same sound",
+      "vivir, bien"
+     ],
+     [
+      "á é í ó ú",
+      "stressed syllable",
+      "café, teléfono"
+     ],
+     [
+      "¿ ¡",
+      "open a question",
+      "¿Qué?"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a0.sent.a02",
+    "es.a0.sent.a07",
+    "es.a0.sent.a09"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ola (hello, the h is silent)",
+     "answer": "h",
+     "base": "h"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Espa___a (Spain, sounds 'españa')",
+     "answer": "ñ",
+     "base": "n / ñ"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ardín (garden, sounds 'khardeen')",
+     "answer": "j",
+     "base": "j"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___eso (cheese, sounds 'keso')",
+     "answer": "qu",
+     "base": "qu"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___amo Ana. (sounds 'yamo')",
+     "answer": "ll",
+     "base": "ll"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "pe___o (dog, rolled r)",
+     "answer": "rr",
+     "base": "r / rr"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___inco (five, sounds 'thinko')",
+     "answer": "c",
+     "base": "c / z"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "caf___ (coffee, stress at the end)",
+     "answer": "é",
+     "base": "e / é"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a0.gram.questions",
+   "level": "A0",
+   "title": {
+    "ar": "الأسئلة: ¿ وكلمات السؤال",
+    "en": "Questions: ¿ and question words"
+   },
+   "explanation": {
+    "en": "Spanish questions often keep the same word order as a statement; the voice rises at the end: ¿Hablas inglés? (Do you speak English?)\n\nWritten questions open with ¿ and close with ?.\n\nWith a question word, the question word comes first and usually the verb next: ¿Qué aprendes? ¿Dónde está el hotel? ¿Cuándo viene el autobús?\n\nQuestion words always have an accent: qué (what), quién (who), dónde (where), cuándo (when), por qué (why), cómo (how). Without the accent porque means because.\n\nSmall changes: y (and) becomes e before an i sound (árabe e inglés), and o (or) becomes u before an o sound.",
+    "ar": "السؤال الإسباني غالبًا بنفس ترتيب الجملة الخبرية، والصوت بيعلى في الآخر: ¿Hablas inglés? (بتتكلم إنجليزي؟)\n\nالسؤال المكتوب بيبتدي بـ ¿ ويخلص بـ ?.\n\nمع كلمة سؤال، كلمة السؤال الأول وبعدها الفعل غالبًا: ¿Qué aprendes? ¿Dónde está el hotel? ¿Cuándo viene el autobús?\n\nكلمات السؤال دايمًا عليها شرطة: qué (إيه)، quién (مين)، dónde (فين)، cuándo (إمتى)، por qué (ليه)، cómo (إزاي). ومن غير الشرطة porque معناها «عشان».\n\nتغييرات صغيرة: y (و) بتبقى e قبل صوت i (árabe e inglés)، وo (أو) بتبقى u قبل صوت o."
+   },
+   "table": {
+    "headers": [
+     "",
+     "question",
+     "meaning"
+    ],
+    "rows": [
+     [
+      "yes/no",
+      "¿Hablas inglés?",
+      "Do you speak English?"
+     ],
+     [
+      "qué",
+      "¿Qué es eso?",
+      "What is that?"
+     ],
+     [
+      "dónde",
+      "¿Dónde está el hotel?",
+      "Where is the hotel?"
+     ],
+     [
+      "cuándo",
+      "¿Cuándo viene el autobús?",
+      "When is the bus coming?"
+     ],
+     [
+      "por qué",
+      "¿Por qué aprendes español?",
+      "Why are you learning Spanish?"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "es.a0.sent.a31",
+    "es.a0.sent.a34",
+    "es.a0.sent.a39"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ es? (who)",
+     "answer": "Quién",
+     "base": "quién"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ está el aseo? (where)",
+     "answer": "Dónde",
+     "base": "dónde"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ viene el autobús? (when)",
+     "answer": "Cuándo",
+     "base": "cuándo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ aprendes español? (why)",
+     "answer": "Por qué",
+     "base": "por qué"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ es eso? (what)",
+     "answer": "Qué",
+     "base": "qué"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ usted inglés? (hablar)",
+     "answer": "Habla",
+     "base": "hablar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hablo árabe ___ inglés. (and)",
+     "answer": "e",
+     "base": "y / e"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Aprendo español, ___ despacio. (but)",
+     "answer": "pero",
+     "base": "pero"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "es.a0.text.hotel",
+   "level": "A0",
+   "kind": "reading",
+   "title": "En el hotel",
+   "body": "Omar: ¡Hola! ¿Habla inglés?\nRecepción: Un poco. ¿Y español?\nOmar: Aprendo español, pero despacio. ¿Dónde está el aseo?\nRecepción: Allí.\nOmar: ¡Gracias! ¿Y cuándo viene el taxi?\nRecepción: Hoy, a las doce.",
+   "translation": {
+    "ar": "عمر: أهلًا! حضرتك بتتكلم إنجليزي؟ / موظفة الاستقبال: شوية. وإسباني؟ / عمر: بتعلّم إسباني، بس بالراحة. الحمّام فين؟ / الموظفة: هناك. / عمر: شكرًا! والتاكسي جاي إمتى؟ / الموظفة: النهارده، الساعة اتناشر.",
+    "en": "Omar: Hello! Do you speak English? / Receptionist: A little. And Spanish? / Omar: I'm learning Spanish, but slowly. Where is the toilet? / Receptionist: There. / Omar: Thanks! And when is the taxi coming? / Receptionist: Today, at twelve o'clock."
+   },
+   "glossary": [
+    "es.a0.vocab.habla_ingles",
+    "es.a0.vocab.un_poco",
+    "es.a0.vocab.aprender",
+    "es.a0.vocab.despacio",
+    "es.a0.vocab.aseo",
+    "es.a0.vocab.alli",
+    "es.a0.vocab.cuando",
+    "es.a0.vocab.taxi",
+    "es.a0.vocab.hoy"
+   ],
+   "questions": [
+    {
+     "question": "¿Quién aprende español?",
+     "options": [
+      "Omar",
+      "La recepción",
+      "El taxi"
+     ],
+     "answer": 0
+    },
+    {
+     "question": "¿Dónde está el aseo?",
+     "options": [
+      "Aquí",
+      "Allí",
+      "En el taxi"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "¿Cuándo viene el taxi?",
+     "options": [
+      "Mañana",
+      "Hoy a las doce",
+      "El lunes"
+     ],
+     "answer": 1
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "es.a0.write.languages",
+   "level": "A0",
+   "prompt": {
+    "ar": "اكتب جملتين أو تلاتة قصيرين بالإسباني: بتتكلم لغات إيه، وبتتعلم إيه؟",
+    "en": "Write 2 or 3 short sentences in Spanish: which languages do you speak, and which are you learning?"
+   },
+   "minWords": 8
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "lang": "de",
- "contentVersion": "2026.11.21-starter-v2",
+ "contentVersion": "2026.11.23-phase2",
  "level": {
   "id": "A1",
   "title": {
@@ -685,7 +685,8 @@
     "de.a1.sent.s001"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.hello"
   },
   {
    "id": "de.a1.vocab.tschuess",
@@ -703,7 +704,8 @@
     "de.a1.sent.s016"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bye"
   },
   {
    "id": "de.a1.vocab.guten_morgen",
@@ -721,7 +723,8 @@
     "de.a1.sent.s009"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.good_morning"
   },
   {
    "id": "de.a1.vocab.guten_tag",
@@ -739,7 +742,8 @@
     "de.a1.sent.s018"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.good_day"
   },
   {
    "id": "de.a1.vocab.guten_abend",
@@ -757,7 +761,8 @@
     "de.a1.sent.s019"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.good_evening"
   },
   {
    "id": "de.a1.vocab.auf_wiedersehen",
@@ -775,7 +780,8 @@
     "de.a1.sent.s010"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.goodbye"
   },
   {
    "id": "de.a1.vocab.danke",
@@ -794,7 +800,8 @@
     "de.a1.sent.s017"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.thank_you"
   },
   {
    "id": "de.a1.vocab.bitte",
@@ -816,7 +823,8 @@
     "de.a1.sent.s072"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.please"
   },
   {
    "id": "de.a1.vocab.ja",
@@ -835,7 +843,8 @@
     "de.a1.sent.s034"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.yes"
   },
   {
    "id": "de.a1.vocab.nein",
@@ -853,7 +862,8 @@
     "de.a1.sent.s013"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.no"
   },
   {
    "id": "de.a1.vocab.entschuldigung",
@@ -871,7 +881,8 @@
     "de.a1.sent.s011"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.excuse_me"
   },
   {
    "id": "de.a1.vocab.gut",
@@ -889,7 +900,8 @@
     "de.a1.sent.s008"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.good"
   },
   {
    "id": "de.a1.vocab.name",
@@ -907,7 +919,8 @@
     "de.a1.sent.s014"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.name"
   },
   {
    "id": "de.a1.vocab.heissen",
@@ -928,7 +941,8 @@
     "de.a1.sent.s023"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.be_called"
   },
   {
    "id": "de.a1.vocab.sein",
@@ -953,7 +967,8 @@
     "de.a1.sent.s029"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.be"
   },
   {
    "id": "de.a1.vocab.kommen",
@@ -973,7 +988,8 @@
     "de.a1.sent.s025"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.come"
   },
   {
    "id": "de.a1.vocab.aus",
@@ -992,7 +1008,8 @@
     "de.a1.sent.s025"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.from"
   },
   {
    "id": "de.a1.vocab.wohnen",
@@ -1011,7 +1028,8 @@
     "de.a1.sent.s037"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.live"
   },
   {
    "id": "de.a1.vocab.in",
@@ -1032,7 +1050,8 @@
     "de.a1.sent.s037"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.in"
   },
   {
    "id": "de.a1.vocab.ich",
@@ -1051,7 +1070,8 @@
     "de.a1.sent.s013"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.i"
   },
   {
    "id": "de.a1.vocab.du",
@@ -1073,7 +1093,8 @@
     "de.a1.sent.s033"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.you_informal"
   },
   {
    "id": "de.a1.vocab.sie",
@@ -1093,7 +1114,8 @@
     "de.a1.sent.s071"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.you_formal"
   },
   {
    "id": "de.a1.vocab.wie",
@@ -1115,7 +1137,8 @@
     "de.a1.sent.s028"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.how"
   },
   {
    "id": "de.a1.vocab.woher",
@@ -1133,7 +1156,8 @@
     "de.a1.sent.s005"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.where_from"
   },
   {
    "id": "de.a1.vocab.land",
@@ -1151,7 +1175,8 @@
     "de.a1.sent.s020"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.country"
   },
   {
    "id": "de.a1.vocab.stadt",
@@ -1169,7 +1194,8 @@
     "de.a1.sent.s015"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.city"
   },
   {
    "id": "de.a1.vocab.familie",
@@ -1187,7 +1213,8 @@
     "de.a1.sent.s021"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.family"
   },
   {
    "id": "de.a1.vocab.mutter",
@@ -1205,7 +1232,8 @@
     "de.a1.sent.s023"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.mother"
   },
   {
    "id": "de.a1.vocab.vater",
@@ -1223,7 +1251,8 @@
     "de.a1.sent.s025"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.father"
   },
   {
    "id": "de.a1.vocab.bruder",
@@ -1243,7 +1272,8 @@
     "de.a1.sent.s040"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.brother"
   },
   {
    "id": "de.a1.vocab.schwester",
@@ -1261,7 +1291,8 @@
     "de.a1.sent.s026"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.sister"
   },
   {
    "id": "de.a1.vocab.kind",
@@ -1284,7 +1315,8 @@
     "de.a1.sent.s066"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.child"
   },
   {
    "id": "de.a1.vocab.haben",
@@ -1311,7 +1343,8 @@
     "de.a1.sent.s061"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.have"
   },
   {
    "id": "de.a1.vocab.eins",
@@ -1329,7 +1362,8 @@
     "de.a1.sent.s027"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.one"
   },
   {
    "id": "de.a1.vocab.zwei",
@@ -1350,7 +1384,8 @@
     "de.a1.sent.s072"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.two"
   },
   {
    "id": "de.a1.vocab.drei",
@@ -1369,7 +1404,8 @@
     "de.a1.sent.s035"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.three"
   },
   {
    "id": "de.a1.vocab.vier",
@@ -1387,7 +1423,8 @@
     "de.a1.sent.s039"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.four"
   },
   {
    "id": "de.a1.vocab.fuenf",
@@ -1405,7 +1442,8 @@
     "de.a1.sent.s032"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.five"
   },
   {
    "id": "de.a1.vocab.sechs",
@@ -1423,7 +1461,8 @@
     "de.a1.sent.s040"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.six"
   },
   {
    "id": "de.a1.vocab.sieben",
@@ -1441,7 +1480,8 @@
     "de.a1.sent.s038"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.seven"
   },
   {
    "id": "de.a1.vocab.acht",
@@ -1460,7 +1500,8 @@
     "de.a1.sent.s038"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.eight"
   },
   {
    "id": "de.a1.vocab.neun",
@@ -1478,7 +1519,8 @@
     "de.a1.sent.s038"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.nine"
   },
   {
    "id": "de.a1.vocab.zehn",
@@ -1496,7 +1538,8 @@
     "de.a1.sent.s038"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.ten"
   },
   {
    "id": "de.a1.vocab.zwanzig",
@@ -1514,7 +1557,8 @@
     "de.a1.sent.s029"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.twenty"
   },
   {
    "id": "de.a1.vocab.alt",
@@ -1536,7 +1580,8 @@
     "de.a1.sent.s047"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.old"
   },
   {
    "id": "de.a1.vocab.jahr",
@@ -1556,7 +1601,8 @@
     "de.a1.sent.s039"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.year"
   },
   {
    "id": "de.a1.vocab.sohn",
@@ -1574,7 +1620,8 @@
     "de.a1.sent.s030"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.son"
   },
   {
    "id": "de.a1.vocab.tochter",
@@ -1592,7 +1639,8 @@
     "de.a1.sent.s032"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.daughter"
   },
   {
    "id": "de.a1.vocab.verheiratet",
@@ -1610,7 +1658,8 @@
     "de.a1.sent.s033"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.married"
   },
   {
    "id": "de.a1.vocab.wie_viele",
@@ -1629,7 +1678,8 @@
     "de.a1.sent.s044"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.how_many"
   },
   {
    "id": "de.a1.vocab.haus",
@@ -1647,7 +1697,8 @@
     "de.a1.sent.s042"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.house"
   },
   {
    "id": "de.a1.vocab.wohnung",
@@ -1667,7 +1718,8 @@
     "de.a1.sent.s045"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.flat"
   },
   {
    "id": "de.a1.vocab.zimmer",
@@ -1686,7 +1738,8 @@
     "de.a1.sent.s045"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.room"
   },
   {
    "id": "de.a1.vocab.kueche",
@@ -1704,7 +1757,8 @@
     "de.a1.sent.s043"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.kitchen"
   },
   {
    "id": "de.a1.vocab.bad",
@@ -1723,7 +1777,8 @@
     "de.a1.sent.s054"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bathroom"
   },
   {
    "id": "de.a1.vocab.schlafzimmer",
@@ -1741,7 +1796,8 @@
     "de.a1.sent.s048"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bedroom"
   },
   {
    "id": "de.a1.vocab.wohnzimmer",
@@ -1759,7 +1815,8 @@
     "de.a1.sent.s053"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.living_room"
   },
   {
    "id": "de.a1.vocab.balkon",
@@ -1777,7 +1834,8 @@
     "de.a1.sent.s045"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.balcony"
   },
   {
    "id": "de.a1.vocab.garten",
@@ -1796,7 +1854,8 @@
     "de.a1.sent.s055"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.garden"
   },
   {
    "id": "de.a1.vocab.gross",
@@ -1816,7 +1875,8 @@
     "de.a1.sent.s056"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.big"
   },
   {
    "id": "de.a1.vocab.klein",
@@ -1835,7 +1895,8 @@
     "de.a1.sent.s054"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.small"
   },
   {
    "id": "de.a1.vocab.schoen",
@@ -1854,7 +1915,8 @@
     "de.a1.sent.s047"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.beautiful"
   },
   {
    "id": "de.a1.vocab.tisch",
@@ -1872,7 +1934,8 @@
     "de.a1.sent.s047"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.table"
   },
   {
    "id": "de.a1.vocab.stuhl",
@@ -1890,7 +1953,8 @@
     "de.a1.sent.s050"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.chair"
   },
   {
    "id": "de.a1.vocab.bett",
@@ -1908,7 +1972,8 @@
     "de.a1.sent.s048"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bed"
   },
   {
    "id": "de.a1.vocab.sofa",
@@ -1926,7 +1991,8 @@
     "de.a1.sent.s046"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.sofa"
   },
   {
    "id": "de.a1.vocab.schrank",
@@ -1945,7 +2011,8 @@
     "de.a1.sent.s056"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.wardrobe"
   },
   {
    "id": "de.a1.vocab.lampe",
@@ -1963,7 +2030,8 @@
     "de.a1.sent.s049"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.lamp"
   },
   {
    "id": "de.a1.vocab.fenster",
@@ -1981,7 +2049,8 @@
     "de.a1.sent.s051"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.window"
   },
   {
    "id": "de.a1.vocab.tuer",
@@ -1999,7 +2068,8 @@
     "de.a1.sent.s052"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.door"
   },
   {
    "id": "de.a1.vocab.neu",
@@ -2018,7 +2088,8 @@
     "de.a1.sent.s056"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.new"
   },
   {
    "id": "de.a1.vocab.teuer",
@@ -2036,7 +2107,8 @@
     "de.a1.sent.s049"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.expensive"
   },
   {
    "id": "de.a1.vocab.billig",
@@ -2054,7 +2126,8 @@
     "de.a1.sent.s050"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.cheap"
   },
   {
    "id": "de.a1.vocab.hell",
@@ -2072,7 +2145,8 @@
     "de.a1.sent.s043"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bright"
   },
   {
    "id": "de.a1.vocab.brot",
@@ -2090,7 +2164,8 @@
     "de.a1.sent.s058"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bread"
   },
   {
    "id": "de.a1.vocab.broetchen",
@@ -2108,7 +2183,8 @@
     "de.a1.sent.s072"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.bread_roll"
   },
   {
    "id": "de.a1.vocab.kaese",
@@ -2126,7 +2202,8 @@
     "de.a1.sent.s058"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.cheese"
   },
   {
    "id": "de.a1.vocab.wurst",
@@ -2144,7 +2221,8 @@
     "de.a1.sent.s068"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.sausage"
   },
   {
    "id": "de.a1.vocab.ei",
@@ -2162,7 +2240,8 @@
     "de.a1.sent.s071"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.egg"
   },
   {
    "id": "de.a1.vocab.apfel",
@@ -2180,7 +2259,8 @@
     "de.a1.sent.s064"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.apple"
   },
   {
    "id": "de.a1.vocab.fleisch",
@@ -2198,7 +2278,8 @@
     "de.a1.sent.s062"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.meat"
   },
   {
    "id": "de.a1.vocab.fisch",
@@ -2216,7 +2297,8 @@
     "de.a1.sent.s063"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.fish"
   },
   {
    "id": "de.a1.vocab.gemuese",
@@ -2234,7 +2316,8 @@
     "de.a1.sent.s065"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.vegetables"
   },
   {
    "id": "de.a1.vocab.obst",
@@ -2252,7 +2335,8 @@
     "de.a1.sent.s070"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.fruit"
   },
   {
    "id": "de.a1.vocab.reis",
@@ -2270,7 +2354,8 @@
     "de.a1.sent.s065"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.rice"
   },
   {
    "id": "de.a1.vocab.kartoffel",
@@ -2288,7 +2373,8 @@
     "de.a1.sent.s068"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.potato"
   },
   {
    "id": "de.a1.vocab.wasser",
@@ -2306,7 +2392,8 @@
     "de.a1.sent.s067"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.water"
   },
   {
    "id": "de.a1.vocab.kaffee",
@@ -2325,7 +2412,8 @@
     "de.a1.sent.s059"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.coffee"
   },
   {
    "id": "de.a1.vocab.tee",
@@ -2343,7 +2431,8 @@
     "de.a1.sent.s059"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.tea"
   },
   {
    "id": "de.a1.vocab.milch",
@@ -2361,7 +2450,8 @@
     "de.a1.sent.s066"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.milk"
   },
   {
    "id": "de.a1.vocab.saft",
@@ -2379,7 +2469,8 @@
     "de.a1.sent.s067"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.juice"
   },
   {
    "id": "de.a1.vocab.essen",
@@ -2400,7 +2491,8 @@
     "de.a1.sent.s070"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.eat"
   },
   {
    "id": "de.a1.vocab.trinken",
@@ -2419,7 +2511,8 @@
     "de.a1.sent.s066"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.drink"
   },
   {
    "id": "de.a1.vocab.moechten",
@@ -2439,7 +2532,8 @@
     "de.a1.sent.s071"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.want"
   },
   {
    "id": "de.a1.vocab.fruehstueck",
@@ -2457,7 +2551,8 @@
     "de.a1.sent.s058"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.breakfast"
   },
   {
    "id": "de.a1.vocab.mittagessen",
@@ -2475,7 +2570,8 @@
     "de.a1.sent.s065"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.lunch"
   },
   {
    "id": "de.a1.vocab.abendessen",
@@ -2493,7 +2589,8 @@
     "de.a1.sent.s069"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.dinner"
   },
   {
    "id": "de.a1.vocab.lecker",
@@ -2511,7 +2608,8 @@
     "de.a1.sent.s063"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.tasty"
   },
   {
    "id": "de.a1.vocab.hunger",
@@ -2529,7 +2627,8 @@
     "de.a1.sent.s060"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.hunger"
   },
   {
    "id": "de.a1.vocab.durst",
@@ -2547,14 +2646,16 @@
     "de.a1.sent.s061"
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "conceptId": "c.a1.thirst"
   }
  ],
  "sentences": [
   {
    "id": "de.a1.sent.s001",
    "translations": {
-    "en": "Hello, my name is Anna."
+    "en": "Hello, my name is Anna.",
+    "ar": "أهلًا، اسمي آنا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2564,7 +2665,8 @@
   {
    "id": "de.a1.sent.s002",
    "translations": {
-    "en": "What's your name?"
+    "en": "What's your name?",
+    "ar": "اسمك إيه؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2574,7 +2676,8 @@
   {
    "id": "de.a1.sent.s003",
    "translations": {
-    "en": "What is your name? (formal)"
+    "en": "What is your name? (formal)",
+    "ar": "اسم حضرتك إيه؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2584,7 +2687,8 @@
   {
    "id": "de.a1.sent.s004",
    "translations": {
-    "en": "I come from Egypt."
+    "en": "I come from Egypt.",
+    "ar": "أنا من مصر."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2594,7 +2698,8 @@
   {
    "id": "de.a1.sent.s005",
    "translations": {
-    "en": "Where are you from?"
+    "en": "Where are you from?",
+    "ar": "إنت منين؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2604,7 +2709,8 @@
   {
    "id": "de.a1.sent.s006",
    "translations": {
-    "en": "I live in Berlin."
+    "en": "I live in Berlin.",
+    "ar": "أنا ساكن في برلين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2614,7 +2720,8 @@
   {
    "id": "de.a1.sent.s007",
    "translations": {
-    "en": "How are you? (formal)"
+    "en": "How are you? (formal)",
+    "ar": "إزي حضرتك؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2624,7 +2731,8 @@
   {
    "id": "de.a1.sent.s008",
    "translations": {
-    "en": "Fine, thanks. And you?"
+    "en": "Fine, thanks. And you?",
+    "ar": "كويس، شكرًا. وإنت؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2634,7 +2742,8 @@
   {
    "id": "de.a1.sent.s009",
    "translations": {
-    "en": "Good morning, Mr Weber!"
+    "en": "Good morning, Mr Weber!",
+    "ar": "صباح الخير يا أستاذ فيبر!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2644,7 +2753,8 @@
   {
    "id": "de.a1.sent.s010",
    "translations": {
-    "en": "Goodbye, Ms Klein!"
+    "en": "Goodbye, Ms Klein!",
+    "ar": "مع السلامة يا مدام كلاين!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2654,7 +2764,8 @@
   {
    "id": "de.a1.sent.s011",
    "translations": {
-    "en": "Excuse me, are you Mr Weber?"
+    "en": "Excuse me, are you Mr Weber?",
+    "ar": "لو سمحت، حضرتك الأستاذ فيبر؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2664,7 +2775,8 @@
   {
    "id": "de.a1.sent.s012",
    "translations": {
-    "en": "Yes, that's me."
+    "en": "Yes, that's me.",
+    "ar": "أيوه، أنا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2674,7 +2786,8 @@
   {
    "id": "de.a1.sent.s013",
    "translations": {
-    "en": "No, I'm Peter."
+    "en": "No, I'm Peter.",
+    "ar": "لأ، أنا بيتر."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2684,7 +2797,8 @@
   {
    "id": "de.a1.sent.s014",
    "translations": {
-    "en": "My name is Lukas."
+    "en": "My name is Lukas.",
+    "ar": "اسمي لوكاس."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2694,7 +2808,8 @@
   {
    "id": "de.a1.sent.s015",
    "translations": {
-    "en": "Berlin is a city in Germany."
+    "en": "Berlin is a city in Germany.",
+    "ar": "برلين مدينة في ألمانيا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2704,7 +2819,8 @@
   {
    "id": "de.a1.sent.s016",
    "translations": {
-    "en": "Bye, see you tomorrow!"
+    "en": "Bye, see you tomorrow!",
+    "ar": "باي، أشوفك بكرة!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2714,7 +2830,8 @@
   {
    "id": "de.a1.sent.s017",
    "translations": {
-    "en": "Thank you very much! – You're welcome!"
+    "en": "Thank you very much! – You're welcome!",
+    "ar": "شكرًا جزيلًا! – العفو!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2724,7 +2841,8 @@
   {
    "id": "de.a1.sent.s018",
    "translations": {
-    "en": "Hello! I'm Ms Schmidt."
+    "en": "Hello! I'm Ms Schmidt.",
+    "ar": "نهارك سعيد! أنا مدام شميت."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2734,7 +2852,8 @@
   {
    "id": "de.a1.sent.s019",
    "translations": {
-    "en": "Good evening! How are you?"
+    "en": "Good evening! How are you?",
+    "ar": "مساء الخير! إزيك؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2744,7 +2863,8 @@
   {
    "id": "de.a1.sent.s020",
    "translations": {
-    "en": "Spain is a country in Europe."
+    "en": "Spain is a country in Europe.",
+    "ar": "إسبانيا بلد في أوروبا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2754,7 +2874,8 @@
   {
    "id": "de.a1.sent.s021",
    "translations": {
-    "en": "This is my family."
+    "en": "This is my family.",
+    "ar": "دي عيلتي."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2764,7 +2885,8 @@
   {
    "id": "de.a1.sent.s022",
    "translations": {
-    "en": "I have two brothers."
+    "en": "I have two brothers.",
+    "ar": "عندي أخين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2774,7 +2896,8 @@
   {
    "id": "de.a1.sent.s023",
    "translations": {
-    "en": "My mother's name is Maria."
+    "en": "My mother's name is Maria.",
+    "ar": "مامتي اسمها ماريا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2784,7 +2907,8 @@
   {
    "id": "de.a1.sent.s024",
    "translations": {
-    "en": "Do you have children?"
+    "en": "Do you have children?",
+    "ar": "عندك أطفال؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2794,7 +2918,8 @@
   {
    "id": "de.a1.sent.s025",
    "translations": {
-    "en": "My father comes from Spain."
+    "en": "My father comes from Spain.",
+    "ar": "بابا من إسبانيا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2804,7 +2929,8 @@
   {
    "id": "de.a1.sent.s026",
    "translations": {
-    "en": "I have one sister."
+    "en": "I have one sister.",
+    "ar": "عندي أخت واحدة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2814,7 +2940,8 @@
   {
    "id": "de.a1.sent.s027",
    "translations": {
-    "en": "One, two, three – go!"
+    "en": "One, two, three – go!",
+    "ar": "واحد، اتنين، تلاتة – يلا!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2824,7 +2951,8 @@
   {
    "id": "de.a1.sent.s028",
    "translations": {
-    "en": "How old are you?"
+    "en": "How old are you?",
+    "ar": "عندك كام سنة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2834,7 +2962,8 @@
   {
    "id": "de.a1.sent.s029",
    "translations": {
-    "en": "I'm twenty years old."
+    "en": "I'm twenty years old.",
+    "ar": "عندي عشرين سنة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2844,7 +2973,8 @@
   {
    "id": "de.a1.sent.s030",
    "translations": {
-    "en": "My son is eight."
+    "en": "My son is eight.",
+    "ar": "ابني عنده تمن سنين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2854,7 +2984,8 @@
   {
    "id": "de.a1.sent.s031",
    "translations": {
-    "en": "How many children do you have?"
+    "en": "How many children do you have?",
+    "ar": "عندك كام طفل؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2864,7 +2995,8 @@
   {
    "id": "de.a1.sent.s032",
    "translations": {
-    "en": "My daughter is five years old."
+    "en": "My daughter is five years old.",
+    "ar": "بنتي عندها خمس سنين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2874,7 +3006,8 @@
   {
    "id": "de.a1.sent.s033",
    "translations": {
-    "en": "Are you married?"
+    "en": "Are you married?",
+    "ar": "إنت متجوز؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2884,7 +3017,8 @@
   {
    "id": "de.a1.sent.s034",
    "translations": {
-    "en": "Yes, and we have two children."
+    "en": "Yes, and we have two children.",
+    "ar": "أيوه، وعندنا طفلين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2894,7 +3028,8 @@
   {
    "id": "de.a1.sent.s035",
    "translations": {
-    "en": "She has three children."
+    "en": "She has three children.",
+    "ar": "هي عندها تلات أطفال."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2904,7 +3039,8 @@
   {
    "id": "de.a1.sent.s036",
    "translations": {
-    "en": "That's your brother, isn't it?"
+    "en": "That's your brother, isn't it?",
+    "ar": "ده أخوك، صح؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2914,7 +3050,8 @@
   {
    "id": "de.a1.sent.s037",
    "translations": {
-    "en": "My parents live in Cairo."
+    "en": "My parents live in Cairo.",
+    "ar": "أهلي ساكنين في القاهرة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2924,7 +3061,8 @@
   {
    "id": "de.a1.sent.s038",
    "translations": {
-    "en": "Seven, eight, nine, ten!"
+    "en": "Seven, eight, nine, ten!",
+    "ar": "سبعة، تمانية، تسعة، عشرة!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2934,7 +3072,8 @@
   {
    "id": "de.a1.sent.s039",
    "translations": {
-    "en": "Our cat is four years old."
+    "en": "Our cat is four years old.",
+    "ar": "قطتنا عندها أربع سنين."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2944,7 +3083,8 @@
   {
    "id": "de.a1.sent.s040",
    "translations": {
-    "en": "My brother has six children!"
+    "en": "My brother has six children!",
+    "ar": "أخويا عنده ست أطفال!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2954,7 +3094,8 @@
   {
    "id": "de.a1.sent.s041",
    "translations": {
-    "en": "My flat is small but nice."
+    "en": "My flat is small but nice.",
+    "ar": "شقتي صغيرة بس حلوة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2964,7 +3105,8 @@
   {
    "id": "de.a1.sent.s042",
    "translations": {
-    "en": "The house has a garden."
+    "en": "The house has a garden.",
+    "ar": "البيت فيه جنينة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2974,7 +3116,8 @@
   {
    "id": "de.a1.sent.s043",
    "translations": {
-    "en": "The kitchen is big and bright."
+    "en": "The kitchen is big and bright.",
+    "ar": "المطبخ كبير ومنوّر."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2984,7 +3127,8 @@
   {
    "id": "de.a1.sent.s044",
    "translations": {
-    "en": "How many rooms does the flat have?"
+    "en": "How many rooms does the flat have?",
+    "ar": "الشقة فيها كام أوضة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -2994,7 +3138,8 @@
   {
    "id": "de.a1.sent.s045",
    "translations": {
-    "en": "The flat has three rooms, a bathroom and a balcony."
+    "en": "The flat has three rooms, a bathroom and a balcony.",
+    "ar": "الشقة فيها تلات أوض وحمّام وبلكونة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3004,7 +3149,8 @@
   {
    "id": "de.a1.sent.s046",
    "translations": {
-    "en": "The sofa is new. It's very comfortable."
+    "en": "The sofa is new. It's very comfortable.",
+    "ar": "الكنبة جديدة. ومريحة جدًا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3014,7 +3160,8 @@
   {
    "id": "de.a1.sent.s047",
    "translations": {
-    "en": "The table is old but beautiful."
+    "en": "The table is old but beautiful.",
+    "ar": "الترابيزة قديمة بس حلوة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3024,7 +3171,8 @@
   {
    "id": "de.a1.sent.s048",
    "translations": {
-    "en": "In the bedroom there's a bed and a wardrobe."
+    "en": "In the bedroom there's a bed and a wardrobe.",
+    "ar": "في أوضة النوم فيه سرير ودولاب."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3034,7 +3182,8 @@
   {
    "id": "de.a1.sent.s049",
    "translations": {
-    "en": "The lamp is expensive."
+    "en": "The lamp is expensive.",
+    "ar": "اللمبة غالية."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3044,7 +3193,8 @@
   {
    "id": "de.a1.sent.s050",
    "translations": {
-    "en": "The chair is cheap."
+    "en": "The chair is cheap.",
+    "ar": "الكرسي رخيص."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3054,7 +3204,8 @@
   {
    "id": "de.a1.sent.s051",
    "translations": {
-    "en": "Please open the window!"
+    "en": "Please open the window!",
+    "ar": "افتح الشباك لو سمحت!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3064,7 +3215,8 @@
   {
    "id": "de.a1.sent.s052",
    "translations": {
-    "en": "The door is closed."
+    "en": "The door is closed.",
+    "ar": "الباب مقفول."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3074,7 +3226,8 @@
   {
    "id": "de.a1.sent.s053",
    "translations": {
-    "en": "We're sitting in the living room."
+    "en": "We're sitting in the living room.",
+    "ar": "إحنا قاعدين في الصالة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3084,7 +3237,8 @@
   {
    "id": "de.a1.sent.s054",
    "translations": {
-    "en": "The bathroom is very small."
+    "en": "The bathroom is very small.",
+    "ar": "الحمّام صغير جدًا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3094,7 +3248,8 @@
   {
    "id": "de.a1.sent.s055",
    "translations": {
-    "en": "Is the garden big?"
+    "en": "Is the garden big?",
+    "ar": "الجنينة كبيرة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3104,7 +3259,8 @@
   {
    "id": "de.a1.sent.s056",
    "translations": {
-    "en": "The wardrobe is new. It's very big."
+    "en": "The wardrobe is new. It's very big.",
+    "ar": "الدولاب جديد. وكبير جدًا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3114,7 +3270,8 @@
   {
    "id": "de.a1.sent.s057",
    "translations": {
-    "en": "I'd like a coffee, please."
+    "en": "I'd like a coffee, please.",
+    "ar": "عايز قهوة، لو سمحت."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3124,7 +3281,8 @@
   {
    "id": "de.a1.sent.s058",
    "translations": {
-    "en": "For breakfast I eat bread with cheese."
+    "en": "For breakfast I eat bread with cheese.",
+    "ar": "على الفطار باكل عيش بجبنة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3134,7 +3292,8 @@
   {
    "id": "de.a1.sent.s059",
    "translations": {
-    "en": "Do you drink tea or coffee?"
+    "en": "Do you drink tea or coffee?",
+    "ar": "بتشرب شاي ولا قهوة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3144,7 +3303,8 @@
   {
    "id": "de.a1.sent.s060",
    "translations": {
-    "en": "I'm hungry!"
+    "en": "I'm hungry!",
+    "ar": "أنا جعان!"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3154,7 +3314,8 @@
   {
    "id": "de.a1.sent.s061",
    "translations": {
-    "en": "Are you thirsty?"
+    "en": "Are you thirsty?",
+    "ar": "إنت عطشان؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3164,7 +3325,8 @@
   {
    "id": "de.a1.sent.s062",
    "translations": {
-    "en": "I don't eat meat."
+    "en": "I don't eat meat.",
+    "ar": "أنا مش باكل لحمة."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3174,7 +3336,8 @@
   {
    "id": "de.a1.sent.s063",
    "translations": {
-    "en": "The fish is very tasty."
+    "en": "The fish is very tasty.",
+    "ar": "السمك طعمه حلو جدًا."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3184,7 +3347,8 @@
   {
    "id": "de.a1.sent.s064",
    "translations": {
-    "en": "Would you like an apple?"
+    "en": "Would you like an apple?",
+    "ar": "تحب تاكل تفاحة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3194,7 +3358,8 @@
   {
    "id": "de.a1.sent.s065",
    "translations": {
-    "en": "For lunch there's rice with vegetables."
+    "en": "For lunch there's rice with vegetables.",
+    "ar": "على الغدا فيه رز بالخضار."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3204,7 +3369,8 @@
   {
    "id": "de.a1.sent.s066",
    "translations": {
-    "en": "Children drink a lot of milk."
+    "en": "Children drink a lot of milk.",
+    "ar": "الأطفال بيشربوا لبن كتير."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3214,7 +3380,8 @@
   {
    "id": "de.a1.sent.s067",
    "translations": {
-    "en": "A water and a juice, please."
+    "en": "A water and a juice, please.",
+    "ar": "مية وعصير، لو سمحت."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3224,7 +3391,8 @@
   {
    "id": "de.a1.sent.s068",
    "translations": {
-    "en": "We eat potatoes with sausage."
+    "en": "We eat potatoes with sausage.",
+    "ar": "بناكل بطاطس بالسجق."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3234,7 +3402,8 @@
   {
    "id": "de.a1.sent.s069",
    "translations": {
-    "en": "What's for dinner?"
+    "en": "What's for dinner?",
+    "ar": "العشا إيه؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3244,7 +3413,8 @@
   {
    "id": "de.a1.sent.s070",
    "translations": {
-    "en": "I eat fruit every day."
+    "en": "I eat fruit every day.",
+    "ar": "باكل فاكهة كل يوم."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3254,7 +3424,8 @@
   {
    "id": "de.a1.sent.s071",
    "translations": {
-    "en": "Would you like an egg?"
+    "en": "Would you like an egg?",
+    "ar": "حضرتك تحب بيضة؟"
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3264,7 +3435,8 @@
   {
    "id": "de.a1.sent.s072",
    "translations": {
-    "en": "Two bread rolls, please."
+    "en": "Two bread rolls, please.",
+    "ar": "اتنين عيش صغير، لو سمحت."
    },
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
@@ -3277,10 +3449,12 @@
    "id": "de.a1.gram.present_sein_heissen",
    "level": "A1",
    "title": {
-    "en": "Present tense: sein, heißen, kommen, wohnen"
+    "en": "Present tense: sein, heißen, kommen, wohnen",
+    "ar": "المضارع: sein و heißen و kommen و wohnen"
    },
    "explanation": {
-    "en": "Regular German verbs take an ending that matches the person: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. So: ich komme, du kommst, er kommt, wir kommen.\n\nheißen ends in ß, so the du-form is just du heißt (not heißst).\n\nsein (to be) is irregular and must be learned by heart: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\n\nUse du with friends, family and children. Use Sie (always with a capital S) with adults you don't know."
+    "en": "Regular German verbs take an ending that matches the person: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. So: ich komme, du kommst, er kommt, wir kommen.\n\nheißen ends in ß, so the du-form is just du heißt (not heißst).\n\nsein (to be) is irregular and must be learned by heart: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\n\nUse du with friends, family and children. Use Sie (always with a capital S) with adults you don't know.",
+    "ar": "الأفعال الألماني المنتظمة بتاخد نهاية حسب الشخص: ich ‎-e، du ‎-st، er/sie/es ‎-t، wir ‎-en، ihr ‎-t، sie/Sie ‎-en. يعني: ich komme، du kommst، er kommt، wir kommen.\n\nheißen بتخلص بـ ß، فتصريف du بيبقى du heißt بس (مش heißst).\n\nsein (يكون) شاذ ولازم يتحفظ: ich bin، du bist، er/sie/es ist، wir sind، ihr seid، sie/Sie sind.\n\ndu للأصحاب والعيلة والأطفال. Sie (دايمًا بـ S كابيتال) للكبار اللي متعرفهمش."
    },
    "table": {
     "headers": [
@@ -3397,10 +3571,12 @@
    "id": "de.a1.gram.haben_possessive",
    "level": "A1",
    "title": {
-    "en": "haben and my/your: mein, dein"
+    "en": "haben and my/your: mein, dein",
+    "ar": "haben (عنده) و mein و dein"
    },
    "explanation": {
-    "en": "haben (to have) is slightly irregular: du hast, er/sie/es hat. The other forms are regular.\n\nPossessive words take the gender of the noun that follows. Use mein, dein, sein... before masculine and neuter nouns (mein Bruder, mein Kind) and add -e before feminine and plural nouns (meine Mutter, meine Kinder).\n\nsein means his, ihr means her, unser means our.\n\nAge uses sein, not haben: Ich bin zwanzig Jahre alt."
+    "en": "haben (to have) is slightly irregular: du hast, er/sie/es hat. The other forms are regular.\n\nPossessive words take the gender of the noun that follows. Use mein, dein, sein... before masculine and neuter nouns (mein Bruder, mein Kind) and add -e before feminine and plural nouns (meine Mutter, meine Kinder).\n\nsein means his, ihr means her, unser means our.\n\nAge uses sein, not haben: Ich bin zwanzig Jahre alt.",
+    "ar": "haben (عنده) شاذ شوية: du hast، er/sie/es hat. باقي التصريفات منتظمة.\n\nكلمات الملكية بتاخد جنس الاسم اللي بعدها. mein وdein وsein قبل المذكر والمحايد (mein Bruder، mein Kind)، وبنزود ‎-e قبل المؤنث والجمع (meine Mutter، meine Kinder).\n\nsein = بتاعه، ihr = بتاعها، unser = بتاعنا.\n\nالعمر بـ sein مش haben: Ich bin zwanzig Jahre alt (حرفيًا: أنا عشرين سنة كبير)."
    },
    "table": {
     "headers": [
@@ -3517,10 +3693,12 @@
    "id": "de.a1.gram.articles_gender",
    "level": "A1",
    "title": {
-    "en": "der, die, das: articles and gender"
+    "en": "der, die, das: articles and gender",
+    "ar": "der و die و das: الأدوات والجنس"
    },
    "explanation": {
-    "en": "Every German noun is masculine (der), feminine (die) or neuter (das). The gender often doesn't follow logic, so always learn a noun together with its article: der Tisch, die Lampe, das Bett.\n\nThe indefinite article is ein for masculine and neuter, eine for feminine. In the plural the definite article is always die, and there is no indefinite article: die Betten, Betten.\n\nWhen you replace a thing with a pronoun, use its grammatical gender: der Tisch → er, die Lampe → sie, das Bett → es. So: Der Schrank ist neu. Er ist groß. (\"It is big\" in English.)"
+    "en": "Every German noun is masculine (der), feminine (die) or neuter (das). The gender often doesn't follow logic, so always learn a noun together with its article: der Tisch, die Lampe, das Bett.\n\nThe indefinite article is ein for masculine and neuter, eine for feminine. In the plural the definite article is always die, and there is no indefinite article: die Betten, Betten.\n\nWhen you replace a thing with a pronoun, use its grammatical gender: der Tisch → er, die Lampe → sie, das Bett → es. So: Der Schrank ist neu. Er ist groß. (\"It is big\" in English.)",
+    "ar": "كل اسم ألماني يا مذكر (der) يا مؤنث (die) يا محايد (das). الجنس غالبًا مالوش منطق، فاحفظ الاسم دايمًا مع أداته: der Tisch، die Lampe، das Bett.\n\nأداة النكرة ein للمذكر والمحايد، وeine للمؤنث. في الجمع أداة التعريف دايمًا die، ومفيش أداة نكرة: die Betten، Betten.\n\nلما تشاور على حاجة بضمير، استخدم جنسها في القواعد: der Tisch ← er، die Lampe ← sie، das Bett ← es. يعني: Der Schrank ist neu. Er ist groß (هو كبير)."
    },
    "table": {
     "headers": [
@@ -3616,10 +3794,12 @@
    "id": "de.a1.gram.accusative_moechten",
    "level": "A1",
    "title": {
-    "en": "Accusative: einen Kaffee, keinen Hunger. And möchten"
+    "en": "Accusative: einen Kaffee, keinen Hunger. And möchten",
+    "ar": "حالة المفعول: einen Kaffee و keinen Hunger، و möchten"
    },
    "explanation": {
-    "en": "The thing you eat, drink, have or want is the object of the sentence, and German marks it with the accusative case. Good news: only masculine words change. der → den, ein → einen, kein → keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. Feminine, neuter and plural stay the same.\n\nkein means \"no / not a\": Ich esse kein Fleisch (I don't eat meat).\n\nmöchten (would like) is the polite way to order: ich möchte, du möchtest, er/sie möchte, wir möchten, ihr möchtet, sie/Sie möchten. Note: no -t in the er/sie form."
+    "en": "The thing you eat, drink, have or want is the object of the sentence, and German marks it with the accusative case. Good news: only masculine words change. der → den, ein → einen, kein → keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. Feminine, neuter and plural stay the same.\n\nkein means \"no / not a\": Ich esse kein Fleisch (I don't eat meat).\n\nmöchten (would like) is the polite way to order: ich möchte, du möchtest, er/sie möchte, wir möchten, ihr möchtet, sie/Sie möchten. Note: no -t in the er/sie form.",
+    "ar": "الحاجة اللي بتاكلها أو تشربها أو عندك أو عايزها هي المفعول، والألماني بيعلّمها بحالة المفعول (Akkusativ). الخبر الحلو: المذكر بس هو اللي بيتغير. der ← den، ein ← einen، kein ← keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. المؤنث والمحايد والجمع زي ما هم.\n\nkein معناها «مفيش/ولا»: Ich esse kein Fleisch (مش باكل لحمة).\n\nmöchten (أحب/عايز) هي الطريقة المؤدبة للطلب: ich möchte، du möchtest، er/sie möchte، wir möchten، ihr möchtet، sie/Sie möchten. خد بالك: مفيش ‎-t مع er/sie."
    },
    "table": {
     "headers": [
@@ -3718,7 +3898,8 @@
    "title": "Hallo, ich bin Sara!",
    "body": "Hallo! Ich heiße Sara. Ich komme aus Spanien, aus Madrid. Jetzt wohne ich in Berlin. Berlin ist eine große Stadt. Ich lerne Deutsch. Das ist mein Freund Tom. Er kommt aus England und wohnt auch in Berlin.",
    "translation": {
-    "en": "Hello! My name is Sara. I come from Spain, from Madrid. Now I live in Berlin. Berlin is a big city. I'm learning German. This is my friend Tom. He comes from England and also lives in Berlin."
+    "en": "Hello! My name is Sara. I come from Spain, from Madrid. Now I live in Berlin. Berlin is a big city. I'm learning German. This is my friend Tom. He comes from England and also lives in Berlin.",
+    "ar": "أهلًا! اسمي سارة. أنا من إسبانيا، من مدريد. دلوقتي ساكنة في برلين. برلين مدينة كبيرة. بتعلّم ألماني. ده صاحبي توم. هو من إنجلترا وساكن في برلين برضه."
    },
    "glossary": [
     "de.a1.vocab.heissen",
@@ -3766,7 +3947,8 @@
    "title": "DW: Nicos Weg (A1)",
    "url": "https://learngerman.dw.com/",
    "translation": {
-    "en": "Free video course from Deutsche Welle. Watch the A1 episodes that match this unit."
+    "en": "Free video course from Deutsche Welle. Watch the A1 episodes that match this unit.",
+    "ar": "مسلسل مجاني من دويتشه فيله لمستوى A1: فيديوهات قصيرة مع تمارين."
    },
    "glossary": [],
    "questions": [],
@@ -3778,7 +3960,8 @@
    "title": "Meine Familie",
    "body": "Hallo! Ich bin Mia und ich bin zehn Jahre alt. Das ist meine Familie. Meine Mutter heißt Anna, mein Vater heißt Jonas. Ich habe einen Bruder, er heißt Ben. Ben ist sieben. Wir wohnen in Hamburg. Meine Oma wohnt auch in Hamburg.",
    "translation": {
-    "en": "Hi! I'm Mia and I'm ten years old. This is my family. My mother's name is Anna, my father's name is Jonas. I have a brother, his name is Ben. Ben is seven. We live in Hamburg. My grandma lives in Hamburg too."
+    "en": "Hi! I'm Mia and I'm ten years old. This is my family. My mother's name is Anna, my father's name is Jonas. I have a brother, his name is Ben. Ben is seven. We live in Hamburg. My grandma lives in Hamburg too.",
+    "ar": "أهلًا! أنا ميا وعندي عشر سنين. دي عيلتي. مامتي اسمها آنا، وبابا اسمه يوناس. عندي أخ اسمه بن. بن عنده سبع سنين. إحنا ساكنين في هامبورج. تيتة ساكنة في هامبورج برضه."
    },
    "glossary": [
     "de.a1.vocab.familie",
@@ -3828,7 +4011,8 @@
    "title": "Meine neue Wohnung",
    "body": "Hallo Tom, ich habe eine neue Wohnung! Sie ist nicht groß, aber sehr schön. Die Wohnung hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und hat einen Balkon. Die Küche ist klein. Im Schlafzimmer stehen ein Bett und ein Schrank. Das Sofa ist neu, das Bett ist alt. Die Wohnung ist nicht teuer. Komm doch am Samstag! Liebe Grüße, Sara",
    "translation": {
-    "en": "Hi Tom, I have a new flat! It isn't big, but it's very nice. The flat has two rooms, a kitchen and a bathroom. The living room is bright and has a balcony. The kitchen is small. In the bedroom there's a bed and a wardrobe. The sofa is new, the bed is old. The flat isn't expensive. Come over on Saturday! Love, Sara"
+    "en": "Hi Tom, I have a new flat! It isn't big, but it's very nice. The flat has two rooms, a kitchen and a bathroom. The living room is bright and has a balcony. The kitchen is small. In the bedroom there's a bed and a wardrobe. The sofa is new, the bed is old. The flat isn't expensive. Come over on Saturday! Love, Sara",
+    "ar": "أهلًا يا توم، عندي شقة جديدة! مش كبيرة، بس حلوة جدًا. الشقة فيها أوضتين ومطبخ وحمّام. الصالة منوّرة وفيها بلكونة. المطبخ صغير. في أوضة النوم فيه سرير ودولاب. الكنبة جديدة والسرير قديم. الشقة مش غالية. تعالى يوم السبت! سلامات، سارة"
    },
    "glossary": [
     "de.a1.vocab.wohnung",
@@ -3879,7 +4063,8 @@
    "title": "Im Café",
    "body": "Kellner: Guten Tag! Was möchten Sie?\nAnna: Ich möchte einen Kaffee mit Milch, bitte.\nKellner: Und Sie?\nPeter: Ich habe Durst. Ein Wasser, bitte. Und ich habe auch Hunger. Haben Sie Brötchen?\nKellner: Ja, mit Käse oder mit Wurst.\nPeter: Ich esse kein Fleisch. Ein Brötchen mit Käse, bitte.\nKellner: Gern. Also: ein Kaffee, ein Wasser und ein Brötchen mit Käse.",
    "translation": {
-    "en": "Waiter: Hello! What would you like? / Anna: I'd like a coffee with milk, please. / Waiter: And you? / Peter: I'm thirsty. A water, please. And I'm hungry too. Do you have bread rolls? / Waiter: Yes, with cheese or with sausage. / Peter: I don't eat meat. A roll with cheese, please. / Waiter: Sure. So: a coffee, a water and a roll with cheese."
+    "en": "Waiter: Hello! What would you like? / Anna: I'd like a coffee with milk, please. / Waiter: And you? / Peter: I'm thirsty. A water, please. And I'm hungry too. Do you have bread rolls? / Waiter: Yes, with cheese or with sausage. / Peter: I don't eat meat. A roll with cheese, please. / Waiter: Sure. So: a coffee, a water and a roll with cheese.",
+    "ar": "الجرسون: نهارك سعيد! تحبوا تطلبوا إيه؟ / آنا: عايزة قهوة بلبن، لو سمحت. / الجرسون: وحضرتك؟ / بيتر: أنا عطشان. مية، لو سمحت. وجعان كمان. عندكم عيش صغير؟ / الجرسون: أيوه، بجبنة أو بسجق. / بيتر: أنا مش باكل لحمة. واحد بالجبنة، لو سمحت. / الجرسون: حاضر. يبقى: قهوة ومية وعيش بالجبنة."
    },
    "glossary": [
     "de.a1.vocab.moechten",
@@ -3932,7 +4117,8 @@
    "id": "de.a1.write.introduce",
    "level": "A1",
    "prompt": {
-    "en": "Introduce yourself in German: your name, where you come from and where you live. Write 3 to 5 sentences."
+    "en": "Introduce yourself in German: your name, where you come from and where you live. Write 3 to 5 sentences.",
+    "ar": "عرّف نفسك بالألماني: اسمك، إنت منين، وساكن فين. اكتب من 3 لـ 5 جمل."
    },
    "minWords": 15
   },
@@ -3940,7 +4126,8 @@
    "id": "de.a1.write.family",
    "level": "A1",
    "prompt": {
-    "en": "Describe your family: who is in it and what are their names?"
+    "en": "Describe your family: who is in it and what are their names?",
+    "ar": "اوصف عيلتك بالألماني: مين فيها وأساميهم إيه؟"
    },
    "minWords": 15
   },
@@ -3948,7 +4135,8 @@
    "id": "de.a1.write.home",
    "level": "A1",
    "prompt": {
-    "en": "Describe your home: how many rooms, what is in them, what is big, small, new or old?"
+    "en": "Describe your home: how many rooms, what is in them, what is big, small, new or old?",
+    "ar": "اوصف بيتك بالألماني: فيه كام أوضة، وفيها إيه، وإيه الكبير والصغير والجديد والقديم؟"
    },
    "minWords": 20
   },
@@ -3956,7 +4144,8 @@
    "id": "de.a1.write.breakfast",
    "level": "A1",
    "prompt": {
-    "en": "What do you eat and drink for breakfast, lunch and dinner?"
+    "en": "What do you eat and drink for breakfast, lunch and dinner?",
+    "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالألماني."
    },
    "minWords": 20
   }

@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../features/auth/sign_in_screen.dart';
+import '../features/contrast/contrast_screen.dart';
 import '../features/course/course_screen.dart';
 import '../features/course/lesson_screen.dart';
 import '../features/course/unit_screen.dart';
@@ -86,6 +87,10 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/practice/speaking',
       builder: (_, _) => const SpeakingScreen(),
+    ),
+    GoRoute(
+      path: '/practice/contrast',
+      builder: (_, _) => const ContrastScreen(),
     ),
     GoRoute(path: '/settings', builder: (_, _) => const SettingsScreen()),
     GoRoute(path: '/settings/about', builder: (_, _) => const AboutScreen()),

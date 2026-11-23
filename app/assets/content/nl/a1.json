@@ -1,0 +1,4142 @@
+{
+ "schemaVersion": 2,
+ "lang": "nl",
+ "contentVersion": "2026.11.23-phase2",
+ "level": {
+  "id": "A1",
+  "title": {
+   "ar": "A1 مبتدئ",
+   "en": "A1 Beginner"
+  },
+  "targetHours": 150,
+  "canDo": [
+   {
+    "ar": "تعرّف بنفسك وبالآخرين",
+    "en": "Introduce yourself and others"
+   },
+   {
+    "ar": "تسأل وتجاوب أسئلة شخصية بسيطة",
+    "en": "Ask and answer simple personal questions"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "nl.a1.u01",
+   "level": "A1",
+   "order": 1,
+   "theme": {
+    "ar": "أهلًا! التحية والتعارف",
+    "en": "Hello! Greetings and introductions"
+   },
+   "goals": [
+    {
+     "ar": "تحيّي الناس وتودّعهم",
+     "en": "Greet people and say goodbye"
+    },
+    {
+     "ar": "تقول اسمك ومنين وساكن فين",
+     "en": "Say your name, where you're from and where you live"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.zijn_heten_wonen"
+   ],
+   "lessonIds": [
+    "nl.a1.u01.l01",
+    "nl.a1.u01.l02",
+    "nl.a1.u01.l03",
+    "nl.a1.u01.l04",
+    "nl.a1.u01.l05",
+    "nl.a1.u01.l06"
+   ],
+   "sharedUnitId": "u.a1.01"
+  },
+  {
+   "id": "nl.a1.u02",
+   "level": "A1",
+   "order": 2,
+   "theme": {
+    "ar": "العائلة والأرقام",
+    "en": "Family and numbers"
+   },
+   "goals": [
+    {
+     "ar": "تتكلم عن عيلتك",
+     "en": "Talk about your family"
+    },
+    {
+     "ar": "تعدّ لحد 20 وتقول عمر حد",
+     "en": "Count to 20 and say how old someone is"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.hebben_bezittelijk"
+   ],
+   "lessonIds": [
+    "nl.a1.u02.l01",
+    "nl.a1.u02.l02",
+    "nl.a1.u02.l03",
+    "nl.a1.u02.l04",
+    "nl.a1.u02.l05",
+    "nl.a1.u02.l06"
+   ],
+   "sharedUnitId": "u.a1.02"
+  },
+  {
+   "id": "nl.a1.u03",
+   "level": "A1",
+   "order": 3,
+   "theme": {
+    "ar": "البيت والسكن",
+    "en": "Home and living"
+   },
+   "goals": [
+    {
+     "ar": "توصف شقتك أو بيتك",
+     "en": "Describe your flat or house"
+    },
+    {
+     "ar": "تسمّي الأوض والعفش بالأداة الصح",
+     "en": "Name rooms and furniture with the right article"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.de_het"
+   ],
+   "lessonIds": [
+    "nl.a1.u03.l01",
+    "nl.a1.u03.l02",
+    "nl.a1.u03.l03",
+    "nl.a1.u03.l04",
+    "nl.a1.u03.l05",
+    "nl.a1.u03.l06"
+   ],
+   "sharedUnitId": "u.a1.03"
+  },
+  {
+   "id": "nl.a1.u04",
+   "level": "A1",
+   "order": 4,
+   "theme": {
+    "ar": "الأكل والشرب",
+    "en": "Food and drink"
+   },
+   "goals": [
+    {
+     "ar": "تقول بتاكل وتشرب إيه",
+     "en": "Say what you eat and drink"
+    },
+    {
+     "ar": "تطلب في كافيه",
+     "en": "Order in a café"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.willen_geen"
+   ],
+   "lessonIds": [
+    "nl.a1.u04.l01",
+    "nl.a1.u04.l02",
+    "nl.a1.u04.l03",
+    "nl.a1.u04.l04",
+    "nl.a1.u04.l05",
+    "nl.a1.u04.l06"
+   ],
+   "sharedUnitId": "u.a1.04"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "nl.a1.u01.l01",
+   "unitId": "nl.a1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "أهلًا ومع السلامة",
+    "en": "Hello and goodbye"
+   },
+   "items": [
+    "nl.a1.vocab.hallo",
+    "nl.a1.vocab.doei",
+    "nl.a1.vocab.goedemorgen",
+    "nl.a1.vocab.goedendag",
+    "nl.a1.vocab.goedenavond",
+    "nl.a1.vocab.tot_ziens",
+    "nl.a1.vocab.dank_je",
+    "nl.a1.vocab.alsjeblieft",
+    "nl.a1.vocab.ja",
+    "nl.a1.vocab.nee",
+    "nl.a1.vocab.pardon",
+    "nl.a1.vocab.goed"
+   ]
+  },
+  {
+   "id": "nl.a1.u01.l02",
+   "unitId": "nl.a1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "إنت مين؟",
+    "en": "Who are you?"
+   },
+   "items": [
+    "nl.a1.vocab.naam",
+    "nl.a1.vocab.heten",
+    "nl.a1.vocab.zijn",
+    "nl.a1.vocab.komen",
+    "nl.a1.vocab.uit",
+    "nl.a1.vocab.wonen",
+    "nl.a1.vocab.in",
+    "nl.a1.vocab.ik",
+    "nl.a1.vocab.jij",
+    "nl.a1.vocab.u",
+    "nl.a1.vocab.hoe",
+    "nl.a1.vocab.waar_vandaan",
+    "nl.a1.vocab.land",
+    "nl.a1.vocab.stad"
+   ]
+  },
+  {
+   "id": "nl.a1.u01.l03",
+   "unitId": "nl.a1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "أنا أكون، اسمي، ساكن",
+    "en": "zijn, heten, wonen"
+   },
+   "grammarId": "nl.a1.gram.zijn_heten_wonen",
+   "items": []
+  },
+  {
+   "id": "nl.a1.u01.l04",
+   "unitId": "nl.a1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: أول محادثات",
+    "en": "Listen: first conversations"
+   },
+   "items": [
+    "nl.a1.sent.s001",
+    "nl.a1.sent.s002",
+    "nl.a1.sent.s004",
+    "nl.a1.sent.s005",
+    "nl.a1.sent.s006",
+    "nl.a1.sent.s008",
+    "nl.a1.sent.s012",
+    "nl.a1.sent.s014"
+   ]
+  },
+  {
+   "id": "nl.a1.u01.l05",
+   "unitId": "nl.a1.u01",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: سارة في أمستردام",
+    "en": "Read: Sara in Amsterdam"
+   },
+   "textId": "nl.a1.text.sara",
+   "items": []
+  },
+  {
+   "id": "nl.a1.u01.l06",
+   "unitId": "nl.a1.u01",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 1",
+    "en": "Unit 1 review"
+   },
+   "items": [
+    "nl.a1.vocab.hallo",
+    "nl.a1.vocab.doei",
+    "nl.a1.vocab.goedemorgen",
+    "nl.a1.vocab.goedendag",
+    "nl.a1.vocab.goedenavond",
+    "nl.a1.vocab.tot_ziens",
+    "nl.a1.vocab.dank_je",
+    "nl.a1.vocab.alsjeblieft",
+    "nl.a1.vocab.ja",
+    "nl.a1.vocab.nee",
+    "nl.a1.vocab.pardon",
+    "nl.a1.vocab.goed",
+    "nl.a1.vocab.naam",
+    "nl.a1.vocab.heten",
+    "nl.a1.vocab.zijn",
+    "nl.a1.vocab.komen",
+    "nl.a1.vocab.uit",
+    "nl.a1.vocab.wonen",
+    "nl.a1.vocab.in",
+    "nl.a1.vocab.ik",
+    "nl.a1.vocab.jij",
+    "nl.a1.vocab.u",
+    "nl.a1.vocab.hoe",
+    "nl.a1.vocab.waar_vandaan",
+    "nl.a1.vocab.land",
+    "nl.a1.vocab.stad"
+   ]
+  },
+  {
+   "id": "nl.a1.u02.l01",
+   "unitId": "nl.a1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "عيلتي",
+    "en": "My family"
+   },
+   "items": [
+    "nl.a1.vocab.familie",
+    "nl.a1.vocab.moeder",
+    "nl.a1.vocab.vader",
+    "nl.a1.vocab.broer",
+    "nl.a1.vocab.zus",
+    "nl.a1.vocab.kind",
+    "nl.a1.vocab.hebben",
+    "nl.a1.vocab.een",
+    "nl.a1.vocab.twee",
+    "nl.a1.vocab.drie"
+   ]
+  },
+  {
+   "id": "nl.a1.u02.l02",
+   "unitId": "nl.a1.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "الأرقام والعمر",
+    "en": "Numbers and age"
+   },
+   "items": [
+    "nl.a1.vocab.vier",
+    "nl.a1.vocab.vijf",
+    "nl.a1.vocab.zes",
+    "nl.a1.vocab.zeven",
+    "nl.a1.vocab.acht",
+    "nl.a1.vocab.negen",
+    "nl.a1.vocab.tien",
+    "nl.a1.vocab.twintig",
+    "nl.a1.vocab.oud",
+    "nl.a1.vocab.jaar",
+    "nl.a1.vocab.zoon",
+    "nl.a1.vocab.dochter",
+    "nl.a1.vocab.getrouwd",
+    "nl.a1.vocab.hoeveel"
+   ]
+  },
+  {
+   "id": "nl.a1.u02.l03",
+   "unitId": "nl.a1.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "عندي، بتاعي وبتاعك",
+    "en": "hebben, mijn and jouw"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.hebben_bezittelijk"
+  },
+  {
+   "id": "nl.a1.u02.l04",
+   "unitId": "nl.a1.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: كلام عن العيلة",
+    "en": "Listen: family talk"
+   },
+   "items": [
+    "nl.a1.sent.s022",
+    "nl.a1.sent.s024",
+    "nl.a1.sent.s028",
+    "nl.a1.sent.s029",
+    "nl.a1.sent.s031",
+    "nl.a1.sent.s033",
+    "nl.a1.sent.s035",
+    "nl.a1.sent.s038"
+   ]
+  },
+  {
+   "id": "nl.a1.u02.l05",
+   "unitId": "nl.a1.u02",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: عيلة ميا",
+    "en": "Read: Mia's family"
+   },
+   "items": [],
+   "textId": "nl.a1.text.familie_mia"
+  },
+  {
+   "id": "nl.a1.u02.l06",
+   "unitId": "nl.a1.u02",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 2",
+    "en": "Unit 2 review"
+   },
+   "items": [
+    "nl.a1.vocab.familie",
+    "nl.a1.vocab.moeder",
+    "nl.a1.vocab.vader",
+    "nl.a1.vocab.broer",
+    "nl.a1.vocab.zus",
+    "nl.a1.vocab.kind",
+    "nl.a1.vocab.hebben",
+    "nl.a1.vocab.een",
+    "nl.a1.vocab.twee",
+    "nl.a1.vocab.drie",
+    "nl.a1.vocab.vier",
+    "nl.a1.vocab.vijf",
+    "nl.a1.vocab.zes",
+    "nl.a1.vocab.zeven",
+    "nl.a1.vocab.acht",
+    "nl.a1.vocab.negen",
+    "nl.a1.vocab.tien",
+    "nl.a1.vocab.twintig",
+    "nl.a1.vocab.oud",
+    "nl.a1.vocab.jaar",
+    "nl.a1.vocab.zoon",
+    "nl.a1.vocab.dochter",
+    "nl.a1.vocab.getrouwd",
+    "nl.a1.vocab.hoeveel"
+   ]
+  },
+  {
+   "id": "nl.a1.u03.l01",
+   "unitId": "nl.a1.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "الأوض",
+    "en": "Rooms"
+   },
+   "items": [
+    "nl.a1.vocab.huis",
+    "nl.a1.vocab.appartement",
+    "nl.a1.vocab.kamer",
+    "nl.a1.vocab.keuken",
+    "nl.a1.vocab.badkamer",
+    "nl.a1.vocab.slaapkamer",
+    "nl.a1.vocab.woonkamer",
+    "nl.a1.vocab.balkon",
+    "nl.a1.vocab.tuin",
+    "nl.a1.vocab.groot",
+    "nl.a1.vocab.klein",
+    "nl.a1.vocab.mooi"
+   ]
+  },
+  {
+   "id": "nl.a1.u03.l02",
+   "unitId": "nl.a1.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "العفش",
+    "en": "Furniture"
+   },
+   "items": [
+    "nl.a1.vocab.tafel",
+    "nl.a1.vocab.stoel",
+    "nl.a1.vocab.bed",
+    "nl.a1.vocab.bank",
+    "nl.a1.vocab.kast",
+    "nl.a1.vocab.lamp",
+    "nl.a1.vocab.raam",
+    "nl.a1.vocab.deur",
+    "nl.a1.vocab.nieuw",
+    "nl.a1.vocab.duur",
+    "nl.a1.vocab.goedkoop",
+    "nl.a1.vocab.licht"
+   ]
+  },
+  {
+   "id": "nl.a1.u03.l03",
+   "unitId": "nl.a1.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "de ولا het؟",
+    "en": "de or het?"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.de_het"
+  },
+  {
+   "id": "nl.a1.u03.l04",
+   "unitId": "nl.a1.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: في البيت",
+    "en": "Listen: at home"
+   },
+   "items": [
+    "nl.a1.sent.s041",
+    "nl.a1.sent.s042",
+    "nl.a1.sent.s043",
+    "nl.a1.sent.s046",
+    "nl.a1.sent.s049",
+    "nl.a1.sent.s050",
+    "nl.a1.sent.s052",
+    "nl.a1.sent.s054"
+   ]
+  },
+  {
+   "id": "nl.a1.u03.l05",
+   "unitId": "nl.a1.u03",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: شقة سارة الجديدة",
+    "en": "Read: Sara's new flat"
+   },
+   "items": [],
+   "textId": "nl.a1.text.nieuw_appartement"
+  },
+  {
+   "id": "nl.a1.u03.l06",
+   "unitId": "nl.a1.u03",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 3",
+    "en": "Unit 3 review"
+   },
+   "items": [
+    "nl.a1.vocab.huis",
+    "nl.a1.vocab.appartement",
+    "nl.a1.vocab.kamer",
+    "nl.a1.vocab.keuken",
+    "nl.a1.vocab.badkamer",
+    "nl.a1.vocab.slaapkamer",
+    "nl.a1.vocab.woonkamer",
+    "nl.a1.vocab.balkon",
+    "nl.a1.vocab.tuin",
+    "nl.a1.vocab.groot",
+    "nl.a1.vocab.klein",
+    "nl.a1.vocab.mooi",
+    "nl.a1.vocab.tafel",
+    "nl.a1.vocab.stoel",
+    "nl.a1.vocab.bed",
+    "nl.a1.vocab.bank",
+    "nl.a1.vocab.kast",
+    "nl.a1.vocab.lamp",
+    "nl.a1.vocab.raam",
+    "nl.a1.vocab.deur",
+    "nl.a1.vocab.nieuw",
+    "nl.a1.vocab.duur",
+    "nl.a1.vocab.goedkoop",
+    "nl.a1.vocab.licht"
+   ]
+  },
+  {
+   "id": "nl.a1.u04.l01",
+   "unitId": "nl.a1.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "الأكل",
+    "en": "Food"
+   },
+   "items": [
+    "nl.a1.vocab.brood",
+    "nl.a1.vocab.broodje",
+    "nl.a1.vocab.kaas",
+    "nl.a1.vocab.worst",
+    "nl.a1.vocab.ei",
+    "nl.a1.vocab.appel",
+    "nl.a1.vocab.vlees",
+    "nl.a1.vocab.vis",
+    "nl.a1.vocab.groente",
+    "nl.a1.vocab.fruit",
+    "nl.a1.vocab.rijst",
+    "nl.a1.vocab.aardappel"
+   ]
+  },
+  {
+   "id": "nl.a1.u04.l02",
+   "unitId": "nl.a1.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "المشروبات والوجبات",
+    "en": "Drinks and meals"
+   },
+   "items": [
+    "nl.a1.vocab.water",
+    "nl.a1.vocab.koffie",
+    "nl.a1.vocab.thee",
+    "nl.a1.vocab.melk",
+    "nl.a1.vocab.sap",
+    "nl.a1.vocab.eten",
+    "nl.a1.vocab.drinken",
+    "nl.a1.vocab.willen",
+    "nl.a1.vocab.ontbijt",
+    "nl.a1.vocab.lunch",
+    "nl.a1.vocab.avondeten",
+    "nl.a1.vocab.lekker",
+    "nl.a1.vocab.honger",
+    "nl.a1.vocab.dorst"
+   ]
+  },
+  {
+   "id": "nl.a1.u04.l03",
+   "unitId": "nl.a1.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "ar": "عايز قهوة، و geen",
+    "en": "willen and geen"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.willen_geen"
+  },
+  {
+   "id": "nl.a1.u04.l04",
+   "unitId": "nl.a1.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: طلب الأكل",
+    "en": "Listen: ordering food"
+   },
+   "items": [
+    "nl.a1.sent.s057",
+    "nl.a1.sent.s059",
+    "nl.a1.sent.s060",
+    "nl.a1.sent.s061",
+    "nl.a1.sent.s062",
+    "nl.a1.sent.s064",
+    "nl.a1.sent.s067",
+    "nl.a1.sent.s072"
+   ]
+  },
+  {
+   "id": "nl.a1.u04.l05",
+   "unitId": "nl.a1.u04",
+   "order": 5,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: في الكافيه",
+    "en": "Read: in the café"
+   },
+   "items": [],
+   "textId": "nl.a1.text.in_het_cafe"
+  },
+  {
+   "id": "nl.a1.u04.l06",
+   "unitId": "nl.a1.u04",
+   "order": 6,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 4",
+    "en": "Unit 4 review"
+   },
+   "items": [
+    "nl.a1.vocab.brood",
+    "nl.a1.vocab.broodje",
+    "nl.a1.vocab.kaas",
+    "nl.a1.vocab.worst",
+    "nl.a1.vocab.ei",
+    "nl.a1.vocab.appel",
+    "nl.a1.vocab.vlees",
+    "nl.a1.vocab.vis",
+    "nl.a1.vocab.groente",
+    "nl.a1.vocab.fruit",
+    "nl.a1.vocab.rijst",
+    "nl.a1.vocab.aardappel",
+    "nl.a1.vocab.water",
+    "nl.a1.vocab.koffie",
+    "nl.a1.vocab.thee",
+    "nl.a1.vocab.melk",
+    "nl.a1.vocab.sap",
+    "nl.a1.vocab.eten",
+    "nl.a1.vocab.drinken",
+    "nl.a1.vocab.willen",
+    "nl.a1.vocab.ontbijt",
+    "nl.a1.vocab.lunch",
+    "nl.a1.vocab.avondeten",
+    "nl.a1.vocab.lekker",
+    "nl.a1.vocab.honger",
+    "nl.a1.vocab.dorst"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "nl.a1.vocab.hallo",
+   "lemma": "hallo",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرحبًا",
+    "en": "hello"
+   },
+   "conceptId": "c.a1.hello",
+   "sentenceIds": [
+    "nl.a1.sent.s001"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.doei",
+   "lemma": "doei",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باي، مع السلامة",
+    "en": "bye"
+   },
+   "conceptId": "c.a1.bye",
+   "sentenceIds": [
+    "nl.a1.sent.s016"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.goedemorgen",
+   "lemma": "goedemorgen",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صباح الخير",
+    "en": "good morning"
+   },
+   "conceptId": "c.a1.good_morning",
+   "sentenceIds": [
+    "nl.a1.sent.s009"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.goedendag",
+   "lemma": "goedendag",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نهارك سعيد",
+    "en": "hello, good day"
+   },
+   "conceptId": "c.a1.good_day",
+   "sentenceIds": [
+    "nl.a1.sent.s018"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.goedenavond",
+   "lemma": "goedenavond",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساء الخير",
+    "en": "good evening"
+   },
+   "conceptId": "c.a1.good_evening",
+   "sentenceIds": [
+    "nl.a1.sent.s019"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.tot_ziens",
+   "lemma": "tot ziens",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إلى اللقاء",
+    "en": "goodbye"
+   },
+   "conceptId": "c.a1.goodbye",
+   "sentenceIds": [
+    "nl.a1.sent.s010"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.dank_je",
+   "lemma": "dank je",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شكرًا",
+    "en": "thank you (informal)"
+   },
+   "conceptId": "c.a1.thank_you",
+   "sentenceIds": [
+    "nl.a1.sent.s008",
+    "nl.a1.sent.s017"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.alsjeblieft",
+   "lemma": "alsjeblieft",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من فضلك؛ اتفضل",
+    "en": "please (informal); here you are"
+   },
+   "conceptId": "c.a1.please",
+   "sentenceIds": [
+    "nl.a1.sent.s051"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ja",
+   "lemma": "ja",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نعم",
+    "en": "yes"
+   },
+   "conceptId": "c.a1.yes",
+   "sentenceIds": [
+    "nl.a1.sent.s012",
+    "nl.a1.sent.s034"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.nee",
+   "lemma": "nee",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لا",
+    "en": "no"
+   },
+   "conceptId": "c.a1.no",
+   "sentenceIds": [
+    "nl.a1.sent.s013"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.pardon",
+   "lemma": "pardon",
+   "article": null,
+   "plural": null,
+   "pos": "interjection",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عفوًا، آسف",
+    "en": "excuse me; sorry"
+   },
+   "conceptId": "c.a1.excuse_me",
+   "sentenceIds": [
+    "nl.a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.goed",
+   "lemma": "goed",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جيد، كويس",
+    "en": "good, well"
+   },
+   "conceptId": "c.a1.good",
+   "sentenceIds": [
+    "nl.a1.sent.s008"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.naam",
+   "lemma": "naam",
+   "article": "de",
+   "plural": "namen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اسم",
+    "en": "name"
+   },
+   "conceptId": "c.a1.name",
+   "sentenceIds": [
+    "nl.a1.sent.s014"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.heten",
+   "lemma": "heten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يُسمّى",
+    "en": "to be called"
+   },
+   "conceptId": "c.a1.be_called",
+   "sentenceIds": [
+    "nl.a1.sent.s001",
+    "nl.a1.sent.s002",
+    "nl.a1.sent.s003"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zijn",
+   "lemma": "zijn",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكون",
+    "en": "to be"
+   },
+   "conceptId": "c.a1.be",
+   "sentenceIds": [
+    "nl.a1.sent.s011",
+    "nl.a1.sent.s012",
+    "nl.a1.sent.s013"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.komen",
+   "lemma": "komen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأتي",
+    "en": "to come"
+   },
+   "conceptId": "c.a1.come",
+   "sentenceIds": [
+    "nl.a1.sent.s004",
+    "nl.a1.sent.s005",
+    "nl.a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.uit",
+   "lemma": "uit",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من (بلد أو مكان)",
+    "en": "from, out of"
+   },
+   "conceptId": "c.a1.from",
+   "sentenceIds": [
+    "nl.a1.sent.s004",
+    "nl.a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.wonen",
+   "lemma": "wonen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسكن",
+    "en": "to live (reside)"
+   },
+   "conceptId": "c.a1.live",
+   "sentenceIds": [
+    "nl.a1.sent.s006",
+    "nl.a1.sent.s037"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.in",
+   "lemma": "in",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "في",
+    "en": "in"
+   },
+   "conceptId": "c.a1.in",
+   "sentenceIds": [
+    "nl.a1.sent.s006",
+    "nl.a1.sent.s015",
+    "nl.a1.sent.s020"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ik",
+   "lemma": "ik",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أنا",
+    "en": "I"
+   },
+   "conceptId": "c.a1.i",
+   "sentenceIds": [
+    "nl.a1.sent.s001",
+    "nl.a1.sent.s004",
+    "nl.a1.sent.s006"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.jij",
+   "lemma": "jij",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إنت (غير رسمي، المختصر je)",
+    "en": "you (informal; short form je)"
+   },
+   "conceptId": "c.a1.you_informal",
+   "sentenceIds": [
+    "nl.a1.sent.s002",
+    "nl.a1.sent.s005",
+    "nl.a1.sent.s024"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.u",
+   "lemma": "u",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حضرتك (رسمي)",
+    "en": "you (formal)"
+   },
+   "conceptId": "c.a1.you_formal",
+   "sentenceIds": [
+    "nl.a1.sent.s003",
+    "nl.a1.sent.s007",
+    "nl.a1.sent.s011"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.hoe",
+   "lemma": "hoe",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كيف",
+    "en": "how"
+   },
+   "conceptId": "c.a1.how",
+   "sentenceIds": [
+    "nl.a1.sent.s002",
+    "nl.a1.sent.s003",
+    "nl.a1.sent.s007"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.waar_vandaan",
+   "lemma": "waar vandaan",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "من أين",
+    "en": "where from"
+   },
+   "conceptId": "c.a1.where_from",
+   "sentenceIds": [
+    "nl.a1.sent.s005"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.land",
+   "lemma": "land",
+   "article": "het",
+   "plural": "landen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بلد",
+    "en": "country"
+   },
+   "conceptId": "c.a1.country",
+   "sentenceIds": [
+    "nl.a1.sent.s020"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.stad",
+   "lemma": "stad",
+   "article": "de",
+   "plural": "steden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدينة",
+    "en": "city, town"
+   },
+   "conceptId": "c.a1.city",
+   "sentenceIds": [
+    "nl.a1.sent.s015"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.familie",
+   "lemma": "familie",
+   "article": "de",
+   "plural": "families",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عائلة",
+    "en": "family"
+   },
+   "conceptId": "c.a1.family",
+   "sentenceIds": [
+    "nl.a1.sent.s021"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.moeder",
+   "lemma": "moeder",
+   "article": "de",
+   "plural": "moeders",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أم",
+    "en": "mother"
+   },
+   "conceptId": "c.a1.mother",
+   "sentenceIds": [
+    "nl.a1.sent.s023"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vader",
+   "lemma": "vader",
+   "article": "de",
+   "plural": "vaders",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أب",
+    "en": "father"
+   },
+   "conceptId": "c.a1.father",
+   "sentenceIds": [
+    "nl.a1.sent.s025"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.broer",
+   "lemma": "broer",
+   "article": "de",
+   "plural": "broers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخ",
+    "en": "brother"
+   },
+   "conceptId": "c.a1.brother",
+   "sentenceIds": [
+    "nl.a1.sent.s022",
+    "nl.a1.sent.s036",
+    "nl.a1.sent.s040"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zus",
+   "lemma": "zus",
+   "article": "de",
+   "plural": "zussen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخت",
+    "en": "sister"
+   },
+   "conceptId": "c.a1.sister",
+   "sentenceIds": [
+    "nl.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kind",
+   "lemma": "kind",
+   "article": "het",
+   "plural": "kinderen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طفل",
+    "en": "child"
+   },
+   "conceptId": "c.a1.child",
+   "sentenceIds": [
+    "nl.a1.sent.s024",
+    "nl.a1.sent.s031",
+    "nl.a1.sent.s034"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.hebben",
+   "lemma": "hebben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يملك، عنده",
+    "en": "to have"
+   },
+   "conceptId": "c.a1.have",
+   "sentenceIds": [
+    "nl.a1.sent.s022",
+    "nl.a1.sent.s024",
+    "nl.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.een",
+   "lemma": "een",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "واحد",
+    "en": "one (written één when stressed)"
+   },
+   "conceptId": "c.a1.one",
+   "sentenceIds": [
+    "nl.a1.sent.s015",
+    "nl.a1.sent.s020",
+    "nl.a1.sent.s026"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.twee",
+   "lemma": "twee",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اثنان",
+    "en": "two"
+   },
+   "conceptId": "c.a1.two",
+   "sentenceIds": [
+    "nl.a1.sent.s022",
+    "nl.a1.sent.s027",
+    "nl.a1.sent.s034"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.drie",
+   "lemma": "drie",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثلاثة",
+    "en": "three"
+   },
+   "conceptId": "c.a1.three",
+   "sentenceIds": [
+    "nl.a1.sent.s027",
+    "nl.a1.sent.s035",
+    "nl.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vier",
+   "lemma": "vier",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أربعة",
+    "en": "four"
+   },
+   "conceptId": "c.a1.four",
+   "sentenceIds": [
+    "nl.a1.sent.s039"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vijf",
+   "lemma": "vijf",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خمسة",
+    "en": "five"
+   },
+   "conceptId": "c.a1.five",
+   "sentenceIds": [
+    "nl.a1.sent.s032"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zes",
+   "lemma": "zes",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ستة",
+    "en": "six"
+   },
+   "conceptId": "c.a1.six",
+   "sentenceIds": [
+    "nl.a1.sent.s040"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zeven",
+   "lemma": "zeven",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سبعة",
+    "en": "seven"
+   },
+   "conceptId": "c.a1.seven",
+   "sentenceIds": [
+    "nl.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.acht",
+   "lemma": "acht",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثمانية",
+    "en": "eight"
+   },
+   "conceptId": "c.a1.eight",
+   "sentenceIds": [
+    "nl.a1.sent.s030",
+    "nl.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.negen",
+   "lemma": "negen",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تسعة",
+    "en": "nine"
+   },
+   "conceptId": "c.a1.nine",
+   "sentenceIds": [
+    "nl.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.tien",
+   "lemma": "tien",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشرة",
+    "en": "ten"
+   },
+   "conceptId": "c.a1.ten",
+   "sentenceIds": [
+    "nl.a1.sent.s038"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.twintig",
+   "lemma": "twintig",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشرون",
+    "en": "twenty"
+   },
+   "conceptId": "c.a1.twenty",
+   "sentenceIds": [
+    "nl.a1.sent.s029"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.oud",
+   "lemma": "oud",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كبير في السن، قديم",
+    "en": "old"
+   },
+   "conceptId": "c.a1.old",
+   "sentenceIds": [
+    "nl.a1.sent.s028",
+    "nl.a1.sent.s029",
+    "nl.a1.sent.s032"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.jaar",
+   "lemma": "jaar",
+   "article": "het",
+   "plural": "jaren",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سنة",
+    "en": "year"
+   },
+   "conceptId": "c.a1.year",
+   "sentenceIds": [
+    "nl.a1.sent.s029",
+    "nl.a1.sent.s032",
+    "nl.a1.sent.s039"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zoon",
+   "lemma": "zoon",
+   "article": "de",
+   "plural": "zonen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ابن",
+    "en": "son"
+   },
+   "conceptId": "c.a1.son",
+   "sentenceIds": [
+    "nl.a1.sent.s030"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.dochter",
+   "lemma": "dochter",
+   "article": "de",
+   "plural": "dochters",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بنت، ابنة",
+    "en": "daughter"
+   },
+   "conceptId": "c.a1.daughter",
+   "sentenceIds": [
+    "nl.a1.sent.s032"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.getrouwd",
+   "lemma": "getrouwd",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متزوج",
+    "en": "married"
+   },
+   "conceptId": "c.a1.married",
+   "sentenceIds": [
+    "nl.a1.sent.s033"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.hoeveel",
+   "lemma": "hoeveel",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كام",
+    "en": "how many, how much"
+   },
+   "conceptId": "c.a1.how_many",
+   "sentenceIds": [
+    "nl.a1.sent.s031",
+    "nl.a1.sent.s044"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.huis",
+   "lemma": "huis",
+   "article": "het",
+   "plural": "huizen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيت",
+    "en": "house"
+   },
+   "conceptId": "c.a1.house",
+   "sentenceIds": [
+    "nl.a1.sent.s042"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.appartement",
+   "lemma": "appartement",
+   "article": "het",
+   "plural": "appartementen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شقة",
+    "en": "flat, apartment"
+   },
+   "conceptId": "c.a1.flat",
+   "sentenceIds": [
+    "nl.a1.sent.s041",
+    "nl.a1.sent.s044",
+    "nl.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kamer",
+   "lemma": "kamer",
+   "article": "de",
+   "plural": "kamers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرفة",
+    "en": "room"
+   },
+   "conceptId": "c.a1.room",
+   "sentenceIds": [
+    "nl.a1.sent.s044",
+    "nl.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.keuken",
+   "lemma": "keuken",
+   "article": "de",
+   "plural": "keukens",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مطبخ",
+    "en": "kitchen"
+   },
+   "conceptId": "c.a1.kitchen",
+   "sentenceIds": [
+    "nl.a1.sent.s043"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.badkamer",
+   "lemma": "badkamer",
+   "article": "de",
+   "plural": "badkamers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حمّام",
+    "en": "bathroom"
+   },
+   "conceptId": "c.a1.bathroom",
+   "sentenceIds": [
+    "nl.a1.sent.s045",
+    "nl.a1.sent.s054"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.slaapkamer",
+   "lemma": "slaapkamer",
+   "article": "de",
+   "plural": "slaapkamers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرفة نوم",
+    "en": "bedroom"
+   },
+   "conceptId": "c.a1.bedroom",
+   "sentenceIds": [
+    "nl.a1.sent.s048"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.woonkamer",
+   "lemma": "woonkamer",
+   "article": "de",
+   "plural": "woonkamers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرفة معيشة",
+    "en": "living room"
+   },
+   "conceptId": "c.a1.living_room",
+   "sentenceIds": [
+    "nl.a1.sent.s053"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.balkon",
+   "lemma": "balkon",
+   "article": "het",
+   "plural": "balkons",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بلكونة",
+    "en": "balcony"
+   },
+   "conceptId": "c.a1.balcony",
+   "sentenceIds": [
+    "nl.a1.sent.s045"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.tuin",
+   "lemma": "tuin",
+   "article": "de",
+   "plural": "tuinen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حديقة",
+    "en": "garden"
+   },
+   "conceptId": "c.a1.garden",
+   "sentenceIds": [
+    "nl.a1.sent.s042",
+    "nl.a1.sent.s055"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.groot",
+   "lemma": "groot",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كبير، طويل",
+    "en": "big, tall"
+   },
+   "conceptId": "c.a1.big",
+   "sentenceIds": [
+    "nl.a1.sent.s043",
+    "nl.a1.sent.s055",
+    "nl.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.klein",
+   "lemma": "klein",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صغير",
+    "en": "small, little"
+   },
+   "conceptId": "c.a1.small",
+   "sentenceIds": [
+    "nl.a1.sent.s010",
+    "nl.a1.sent.s041",
+    "nl.a1.sent.s054"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.mooi",
+   "lemma": "mooi",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جميل",
+    "en": "beautiful, nice"
+   },
+   "conceptId": "c.a1.beautiful",
+   "sentenceIds": [
+    "nl.a1.sent.s041",
+    "nl.a1.sent.s047"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.tafel",
+   "lemma": "tafel",
+   "article": "de",
+   "plural": "tafels",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طاولة، ترابيزة",
+    "en": "table"
+   },
+   "conceptId": "c.a1.table",
+   "sentenceIds": [
+    "nl.a1.sent.s047"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.stoel",
+   "lemma": "stoel",
+   "article": "de",
+   "plural": "stoelen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كرسي",
+    "en": "chair"
+   },
+   "conceptId": "c.a1.chair",
+   "sentenceIds": [
+    "nl.a1.sent.s050"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.bed",
+   "lemma": "bed",
+   "article": "het",
+   "plural": "bedden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سرير",
+    "en": "bed"
+   },
+   "conceptId": "c.a1.bed",
+   "sentenceIds": [
+    "nl.a1.sent.s048"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.bank",
+   "lemma": "bank",
+   "article": "de",
+   "plural": "banken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كنبة؛ دكة؛ بنك",
+    "en": "sofa; bench; bank"
+   },
+   "conceptId": "c.a1.sofa",
+   "sentenceIds": [
+    "nl.a1.sent.s046"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kast",
+   "lemma": "kast",
+   "article": "de",
+   "plural": "kasten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دولاب",
+    "en": "cupboard, wardrobe"
+   },
+   "conceptId": "c.a1.wardrobe",
+   "sentenceIds": [
+    "nl.a1.sent.s048",
+    "nl.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.lamp",
+   "lemma": "lamp",
+   "article": "de",
+   "plural": "lampen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لمبة، مصباح",
+    "en": "lamp"
+   },
+   "conceptId": "c.a1.lamp",
+   "sentenceIds": [
+    "nl.a1.sent.s049"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.raam",
+   "lemma": "raam",
+   "article": "het",
+   "plural": "ramen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شباك",
+    "en": "window"
+   },
+   "conceptId": "c.a1.window",
+   "sentenceIds": [
+    "nl.a1.sent.s051"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.deur",
+   "lemma": "deur",
+   "article": "de",
+   "plural": "deuren",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باب",
+    "en": "door"
+   },
+   "conceptId": "c.a1.door",
+   "sentenceIds": [
+    "nl.a1.sent.s052"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.nieuw",
+   "lemma": "nieuw",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جديد",
+    "en": "new"
+   },
+   "conceptId": "c.a1.new",
+   "sentenceIds": [
+    "nl.a1.sent.s046",
+    "nl.a1.sent.s056"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.duur",
+   "lemma": "duur",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غالي",
+    "en": "expensive"
+   },
+   "conceptId": "c.a1.expensive",
+   "sentenceIds": [
+    "nl.a1.sent.s049"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.goedkoop",
+   "lemma": "goedkoop",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رخيص",
+    "en": "cheap"
+   },
+   "conceptId": "c.a1.cheap",
+   "sentenceIds": [
+    "nl.a1.sent.s050"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.licht",
+   "lemma": "licht",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منوّر، فاتح",
+    "en": "bright, light"
+   },
+   "conceptId": "c.a1.bright",
+   "sentenceIds": [
+    "nl.a1.sent.s043"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.brood",
+   "lemma": "brood",
+   "article": "het",
+   "plural": "broden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خبز، عيش",
+    "en": "bread"
+   },
+   "conceptId": "c.a1.bread",
+   "sentenceIds": [
+    "nl.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.broodje",
+   "lemma": "broodje",
+   "article": "het",
+   "plural": "broodjes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيش صغير؛ سندوتش",
+    "en": "bread roll; sandwich"
+   },
+   "conceptId": "c.a1.bread_roll",
+   "sentenceIds": [
+    "nl.a1.sent.s072"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kaas",
+   "lemma": "kaas",
+   "article": "de",
+   "plural": "kazen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جبنة",
+    "en": "cheese"
+   },
+   "conceptId": "c.a1.cheese",
+   "sentenceIds": [
+    "nl.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.worst",
+   "lemma": "worst",
+   "article": "de",
+   "plural": "worsten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سجق، لحوم باردة",
+    "en": "sausage; cold cuts"
+   },
+   "conceptId": "c.a1.sausage",
+   "sentenceIds": [
+    "nl.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ei",
+   "lemma": "ei",
+   "article": "het",
+   "plural": "eieren",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيضة",
+    "en": "egg"
+   },
+   "conceptId": "c.a1.egg",
+   "sentenceIds": [
+    "nl.a1.sent.s071"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.appel",
+   "lemma": "appel",
+   "article": "de",
+   "plural": "appels",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تفاحة",
+    "en": "apple"
+   },
+   "conceptId": "c.a1.apple",
+   "sentenceIds": [
+    "nl.a1.sent.s064"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vlees",
+   "lemma": "vlees",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لحمة",
+    "en": "meat"
+   },
+   "conceptId": "c.a1.meat",
+   "sentenceIds": [
+    "nl.a1.sent.s062"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vis",
+   "lemma": "vis",
+   "article": "de",
+   "plural": "vissen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سمك",
+    "en": "fish"
+   },
+   "conceptId": "c.a1.fish",
+   "sentenceIds": [
+    "nl.a1.sent.s063"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.groente",
+   "lemma": "groente",
+   "article": "de",
+   "plural": "groenten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خضار",
+    "en": "vegetables"
+   },
+   "conceptId": "c.a1.vegetables",
+   "sentenceIds": [
+    "nl.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.fruit",
+   "lemma": "fruit",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فاكهة",
+    "en": "fruit"
+   },
+   "conceptId": "c.a1.fruit",
+   "sentenceIds": [
+    "nl.a1.sent.s070"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.rijst",
+   "lemma": "rijst",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رز",
+    "en": "rice"
+   },
+   "conceptId": "c.a1.rice",
+   "sentenceIds": [
+    "nl.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.aardappel",
+   "lemma": "aardappel",
+   "article": "de",
+   "plural": "aardappelen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطاطس",
+    "en": "potato"
+   },
+   "conceptId": "c.a1.potato",
+   "sentenceIds": [
+    "nl.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.water",
+   "lemma": "water",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مياه",
+    "en": "water"
+   },
+   "conceptId": "c.a1.water",
+   "sentenceIds": [
+    "nl.a1.sent.s067"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.koffie",
+   "lemma": "koffie",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قهوة",
+    "en": "coffee"
+   },
+   "conceptId": "c.a1.coffee",
+   "sentenceIds": [
+    "nl.a1.sent.s057",
+    "nl.a1.sent.s059"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.thee",
+   "lemma": "thee",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شاي",
+    "en": "tea"
+   },
+   "conceptId": "c.a1.tea",
+   "sentenceIds": [
+    "nl.a1.sent.s059"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.melk",
+   "lemma": "melk",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لبن، حليب",
+    "en": "milk"
+   },
+   "conceptId": "c.a1.milk",
+   "sentenceIds": [
+    "nl.a1.sent.s066"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.sap",
+   "lemma": "sap",
+   "article": "het",
+   "plural": "sappen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عصير",
+    "en": "juice"
+   },
+   "conceptId": "c.a1.juice",
+   "sentenceIds": [
+    "nl.a1.sent.s067"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.eten",
+   "lemma": "eten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياكل؛ (اسم) أكل",
+    "en": "to eat; (noun) food"
+   },
+   "conceptId": "c.a1.eat",
+   "sentenceIds": [
+    "nl.a1.sent.s058",
+    "nl.a1.sent.s062",
+    "nl.a1.sent.s068"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.drinken",
+   "lemma": "drinken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشرب",
+    "en": "to drink"
+   },
+   "conceptId": "c.a1.drink",
+   "sentenceIds": [
+    "nl.a1.sent.s059",
+    "nl.a1.sent.s066"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.willen",
+   "lemma": "willen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يريد، عايز (ik wil graag = أحب لو سمحت)",
+    "en": "to want (ik wil graag = I'd like)"
+   },
+   "conceptId": "c.a1.want",
+   "sentenceIds": [
+    "nl.a1.sent.s057",
+    "nl.a1.sent.s064",
+    "nl.a1.sent.s071"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ontbijt",
+   "lemma": "ontbijt",
+   "article": "het",
+   "plural": "ontbijten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فطار",
+    "en": "breakfast"
+   },
+   "conceptId": "c.a1.breakfast",
+   "sentenceIds": [
+    "nl.a1.sent.s058"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.lunch",
+   "lemma": "lunch",
+   "article": "de",
+   "plural": "lunches",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غداء",
+    "en": "lunch"
+   },
+   "conceptId": "c.a1.lunch",
+   "sentenceIds": [
+    "nl.a1.sent.s065"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.avondeten",
+   "lemma": "avondeten",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشاء",
+    "en": "dinner, supper"
+   },
+   "conceptId": "c.a1.dinner",
+   "sentenceIds": [
+    "nl.a1.sent.s069"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.lekker",
+   "lemma": "lekker",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لذيذ؛ مريح، حلو",
+    "en": "tasty; nice, comfortable"
+   },
+   "conceptId": "c.a1.tasty",
+   "sentenceIds": [
+    "nl.a1.sent.s046",
+    "nl.a1.sent.s063"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.honger",
+   "lemma": "honger",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جوع",
+    "en": "hunger"
+   },
+   "conceptId": "c.a1.hunger",
+   "sentenceIds": [
+    "nl.a1.sent.s060"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.dorst",
+   "lemma": "dorst",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عطش",
+    "en": "thirst"
+   },
+   "conceptId": "c.a1.thirst",
+   "sentenceIds": [
+    "nl.a1.sent.s061"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "nl.a1.sent.s001",
+   "text": "Hallo, ik heet Anna.",
+   "translations": {
+    "ar": "أهلًا، اسمي آنا.",
+    "en": "Hello, my name is Anna."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s002",
+   "text": "Hoe heet jij?",
+   "translations": {
+    "ar": "اسمك إيه؟",
+    "en": "What's your name?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s003",
+   "text": "Hoe heet u?",
+   "translations": {
+    "ar": "اسم حضرتك إيه؟",
+    "en": "What is your name? (formal)"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s004",
+   "text": "Ik kom uit Egypte.",
+   "translations": {
+    "ar": "أنا من مصر.",
+    "en": "I come from Egypt."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s005",
+   "text": "Waar kom jij vandaan?",
+   "translations": {
+    "ar": "إنت منين؟",
+    "en": "Where are you from?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s006",
+   "text": "Ik woon in Berlijn.",
+   "translations": {
+    "ar": "أنا ساكن في برلين.",
+    "en": "I live in Berlin."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s007",
+   "text": "Hoe gaat het met u?",
+   "translations": {
+    "ar": "إزي حضرتك؟",
+    "en": "How are you? (formal)"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s008",
+   "text": "Goed, dank je. En met jou?",
+   "translations": {
+    "ar": "كويس، شكرًا. وإنت؟",
+    "en": "Fine, thanks. And you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s009",
+   "text": "Goedemorgen, meneer Weber!",
+   "translations": {
+    "ar": "صباح الخير يا أستاذ فيبر!",
+    "en": "Good morning, Mr Weber!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s010",
+   "text": "Tot ziens, mevrouw Klein!",
+   "translations": {
+    "ar": "مع السلامة يا مدام كلاين!",
+    "en": "Goodbye, Ms Klein!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s011",
+   "text": "Pardon, bent u meneer Weber?",
+   "translations": {
+    "ar": "لو سمحت، حضرتك الأستاذ فيبر؟",
+    "en": "Excuse me, are you Mr Weber?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s012",
+   "text": "Ja, dat ben ik.",
+   "translations": {
+    "ar": "أيوه، أنا.",
+    "en": "Yes, that's me."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s013",
+   "text": "Nee, ik ben Peter.",
+   "translations": {
+    "ar": "لأ، أنا بيتر.",
+    "en": "No, I'm Peter."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s014",
+   "text": "Mijn naam is Lukas.",
+   "translations": {
+    "ar": "اسمي لوكاس.",
+    "en": "My name is Lukas."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s015",
+   "text": "Berlijn is een stad in Duitsland.",
+   "translations": {
+    "ar": "برلين مدينة في ألمانيا.",
+    "en": "Berlin is a city in Germany."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s016",
+   "text": "Doei, tot morgen!",
+   "translations": {
+    "ar": "باي، أشوفك بكرة!",
+    "en": "Bye, see you tomorrow!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s017",
+   "text": "Dank je wel! – Graag gedaan!",
+   "translations": {
+    "ar": "شكرًا جزيلًا! – العفو!",
+    "en": "Thank you very much! – You're welcome!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s018",
+   "text": "Goedendag! Ik ben mevrouw Schmidt.",
+   "translations": {
+    "ar": "نهارك سعيد! أنا مدام شميت.",
+    "en": "Hello! I'm Ms Schmidt."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s019",
+   "text": "Goedenavond! Hoe gaat het?",
+   "translations": {
+    "ar": "مساء الخير! إزيك؟",
+    "en": "Good evening! How are you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s020",
+   "text": "Spanje is een land in Europa.",
+   "translations": {
+    "ar": "إسبانيا بلد في أوروبا.",
+    "en": "Spain is a country in Europe."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s021",
+   "text": "Dit is mijn familie.",
+   "translations": {
+    "ar": "دي عيلتي.",
+    "en": "This is my family."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s022",
+   "text": "Ik heb twee broers.",
+   "translations": {
+    "ar": "عندي أخين.",
+    "en": "I have two brothers."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s023",
+   "text": "Mijn moeder heet Maria.",
+   "translations": {
+    "ar": "مامتي اسمها ماريا.",
+    "en": "My mother's name is Maria."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s024",
+   "text": "Heb jij kinderen?",
+   "translations": {
+    "ar": "عندك أطفال؟",
+    "en": "Do you have children?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s025",
+   "text": "Mijn vader komt uit Spanje.",
+   "translations": {
+    "ar": "بابا من إسبانيا.",
+    "en": "My father comes from Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s026",
+   "text": "Ik heb één zus.",
+   "translations": {
+    "ar": "عندي أخت واحدة.",
+    "en": "I have one sister."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s027",
+   "text": "Een, twee, drie – start!",
+   "translations": {
+    "ar": "واحد، اتنين، تلاتة – يلا!",
+    "en": "One, two, three – go!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s028",
+   "text": "Hoe oud ben jij?",
+   "translations": {
+    "ar": "عندك كام سنة؟",
+    "en": "How old are you?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s029",
+   "text": "Ik ben twintig jaar oud.",
+   "translations": {
+    "ar": "عندي عشرين سنة.",
+    "en": "I'm twenty years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s030",
+   "text": "Mijn zoon is acht.",
+   "translations": {
+    "ar": "ابني عنده تمن سنين.",
+    "en": "My son is eight."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s031",
+   "text": "Hoeveel kinderen heb jij?",
+   "translations": {
+    "ar": "عندك كام طفل؟",
+    "en": "How many children do you have?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s032",
+   "text": "Mijn dochter is vijf jaar oud.",
+   "translations": {
+    "ar": "بنتي عندها خمس سنين.",
+    "en": "My daughter is five years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s033",
+   "text": "Ben jij getrouwd?",
+   "translations": {
+    "ar": "إنت متجوز؟",
+    "en": "Are you married?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s034",
+   "text": "Ja, en we hebben twee kinderen.",
+   "translations": {
+    "ar": "أيوه، وعندنا طفلين.",
+    "en": "Yes, and we have two children."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s035",
+   "text": "Zij heeft drie kinderen.",
+   "translations": {
+    "ar": "هي عندها تلات أطفال.",
+    "en": "She has three children."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s036",
+   "text": "Dat is jouw broer, toch?",
+   "translations": {
+    "ar": "ده أخوك، صح؟",
+    "en": "That's your brother, isn't it?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s037",
+   "text": "Mijn ouders wonen in Caïro.",
+   "translations": {
+    "ar": "أهلي ساكنين في القاهرة.",
+    "en": "My parents live in Cairo."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s038",
+   "text": "Zeven, acht, negen, tien!",
+   "translations": {
+    "ar": "سبعة، تمانية، تسعة، عشرة!",
+    "en": "Seven, eight, nine, ten!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s039",
+   "text": "Onze kat is vier jaar oud.",
+   "translations": {
+    "ar": "قطتنا عندها أربع سنين.",
+    "en": "Our cat is four years old."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s040",
+   "text": "Mijn broer heeft zes kinderen!",
+   "translations": {
+    "ar": "أخويا عنده ست أطفال!",
+    "en": "My brother has six children!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s041",
+   "text": "Mijn appartement is klein, maar mooi.",
+   "translations": {
+    "ar": "شقتي صغيرة بس حلوة.",
+    "en": "My flat is small but nice."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s042",
+   "text": "Het huis heeft een tuin.",
+   "translations": {
+    "ar": "البيت فيه جنينة.",
+    "en": "The house has a garden."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s043",
+   "text": "De keuken is groot en licht.",
+   "translations": {
+    "ar": "المطبخ كبير ومنوّر.",
+    "en": "The kitchen is big and bright."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s044",
+   "text": "Hoeveel kamers heeft het appartement?",
+   "translations": {
+    "ar": "الشقة فيها كام أوضة؟",
+    "en": "How many rooms does the flat have?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s045",
+   "text": "Het appartement heeft drie kamers, een badkamer en een balkon.",
+   "translations": {
+    "ar": "الشقة فيها تلات أوض وحمّام وبلكونة.",
+    "en": "The flat has three rooms, a bathroom and a balcony."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s046",
+   "text": "De bank is nieuw. Hij zit heel lekker.",
+   "translations": {
+    "ar": "الكنبة جديدة. ومريحة جدًا.",
+    "en": "The sofa is new. It's very comfortable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s047",
+   "text": "De tafel is oud, maar mooi.",
+   "translations": {
+    "ar": "الترابيزة قديمة بس حلوة.",
+    "en": "The table is old but beautiful."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s048",
+   "text": "In de slaapkamer staan een bed en een kast.",
+   "translations": {
+    "ar": "في أوضة النوم فيه سرير ودولاب.",
+    "en": "In the bedroom there's a bed and a wardrobe."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s049",
+   "text": "De lamp is duur.",
+   "translations": {
+    "ar": "اللمبة غالية.",
+    "en": "The lamp is expensive."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s050",
+   "text": "De stoel is goedkoop.",
+   "translations": {
+    "ar": "الكرسي رخيص.",
+    "en": "The chair is cheap."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s051",
+   "text": "Doe alsjeblieft het raam open!",
+   "translations": {
+    "ar": "افتح الشباك لو سمحت!",
+    "en": "Please open the window!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s052",
+   "text": "De deur is dicht.",
+   "translations": {
+    "ar": "الباب مقفول.",
+    "en": "The door is closed."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s053",
+   "text": "We zitten in de woonkamer.",
+   "translations": {
+    "ar": "إحنا قاعدين في الصالة.",
+    "en": "We're sitting in the living room."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s054",
+   "text": "De badkamer is heel klein.",
+   "translations": {
+    "ar": "الحمّام صغير جدًا.",
+    "en": "The bathroom is very small."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s055",
+   "text": "Is de tuin groot?",
+   "translations": {
+    "ar": "الجنينة كبيرة؟",
+    "en": "Is the garden big?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s056",
+   "text": "De kast is nieuw. Hij is heel groot.",
+   "translations": {
+    "ar": "الدولاب جديد. وكبير جدًا.",
+    "en": "The wardrobe is new. It's very big."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s057",
+   "text": "Ik wil graag een koffie, alstublieft.",
+   "translations": {
+    "ar": "عايز قهوة، لو سمحت.",
+    "en": "I'd like a coffee, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s058",
+   "text": "Als ontbijt eet ik brood met kaas.",
+   "translations": {
+    "ar": "على الفطار باكل عيش بجبنة.",
+    "en": "For breakfast I eat bread with cheese."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s059",
+   "text": "Drink jij thee of koffie?",
+   "translations": {
+    "ar": "بتشرب شاي ولا قهوة؟",
+    "en": "Do you drink tea or coffee?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s060",
+   "text": "Ik heb honger!",
+   "translations": {
+    "ar": "أنا جعان!",
+    "en": "I'm hungry!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s061",
+   "text": "Heb jij dorst?",
+   "translations": {
+    "ar": "إنت عطشان؟",
+    "en": "Are you thirsty?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s062",
+   "text": "Ik eet geen vlees.",
+   "translations": {
+    "ar": "أنا مش باكل لحمة.",
+    "en": "I don't eat meat."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s063",
+   "text": "De vis is heel lekker.",
+   "translations": {
+    "ar": "السمك طعمه حلو جدًا.",
+    "en": "The fish is very tasty."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s064",
+   "text": "Wil je een appel?",
+   "translations": {
+    "ar": "تحب تاكل تفاحة؟",
+    "en": "Would you like an apple?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s065",
+   "text": "Als lunch is er rijst met groente.",
+   "translations": {
+    "ar": "على الغدا فيه رز بالخضار.",
+    "en": "For lunch there's rice with vegetables."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s066",
+   "text": "Kinderen drinken veel melk.",
+   "translations": {
+    "ar": "الأطفال بيشربوا لبن كتير.",
+    "en": "Children drink a lot of milk."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s067",
+   "text": "Een water en een sap, alstublieft.",
+   "translations": {
+    "ar": "مية وعصير، لو سمحت.",
+    "en": "A water and a juice, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s068",
+   "text": "We eten aardappelen met worst.",
+   "translations": {
+    "ar": "بناكل بطاطس بالسجق.",
+    "en": "We eat potatoes with sausage."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s069",
+   "text": "Wat is er als avondeten?",
+   "translations": {
+    "ar": "العشا إيه؟",
+    "en": "What's for dinner?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s070",
+   "text": "Ik eet elke dag fruit.",
+   "translations": {
+    "ar": "باكل فاكهة كل يوم.",
+    "en": "I eat fruit every day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s071",
+   "text": "Wilt u een ei?",
+   "translations": {
+    "ar": "حضرتك تحب بيضة؟",
+    "en": "Would you like an egg?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.s072",
+   "text": "Twee broodjes, alstublieft.",
+   "translations": {
+    "ar": "اتنين عيش صغير، لو سمحت.",
+    "en": "Two bread rolls, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "nl.a1.gram.zijn_heten_wonen",
+   "level": "A1",
+   "title": {
+    "ar": "المضارع: zijn و heten و komen و wonen",
+    "en": "Present tense: zijn, heten, komen, wonen"
+   },
+   "explanation": {
+    "en": "A Dutch verb in the present uses its stem: take off -en, so wonen → woon. Then: ik woon, jij woont, hij/zij/u woont, wij/jullie/zij wonen.\n\nThe stem keeps the vowel sound, so the spelling may change: wonen → woon (double o), komen → kom (single o, because the m closes the syllable).\n\nIf jij comes after the verb, drop the -t: Jij woont in Utrecht, but Woon jij in Utrecht?\n\nzijn (to be) is irregular: ik ben, jij bent, hij is, u bent, wij/jullie/zij zijn.\n\nUse jij (or short je) with friends and family, and u with adults you don't know.",
+    "ar": "الفعل الهولندي في المضارع بيستخدم الجذر: شيل ‎-en من الآخر، يعني wonen ← woon. وبعدين: ik woon، jij woont، hij/zij/u woont، wij/jullie/zij wonen.\n\nالجذر بيحافظ على صوت الحرف المتحرك، فالكتابة ممكن تتغير: wonen ← woon (حرفين o)، komen ← kom (حرف o واحد لأن الـ m بتقفل المقطع).\n\nلو jij جت بعد الفعل، شيل الـ ‎-t: Jij woont in Utrecht، بس Woon jij in Utrecht؟\n\nzijn (يكون) شاذ: ik ben، jij bent، hij is، u bent، wij/jullie/zij zijn.\n\njij (أو المختصر je) للأصحاب والعيلة، وu للكبار اللي متعرفهمش."
+   },
+   "table": {
+    "headers": [
+     "",
+     "zijn",
+     "heten",
+     "komen",
+     "wonen"
+    ],
+    "rows": [
+     [
+      "ik",
+      "ben",
+      "heet",
+      "kom",
+      "woon"
+     ],
+     [
+      "jij / je",
+      "bent",
+      "heet",
+      "komt",
+      "woont"
+     ],
+     [
+      "u",
+      "bent",
+      "heet",
+      "komt",
+      "woont"
+     ],
+     [
+      "hij / zij / het",
+      "is",
+      "heet",
+      "komt",
+      "woont"
+     ],
+     [
+      "wij / we",
+      "zijn",
+      "heten",
+      "komen",
+      "wonen"
+     ],
+     [
+      "jullie",
+      "zijn",
+      "heten",
+      "komen",
+      "wonen"
+     ],
+     [
+      "zij / ze",
+      "zijn",
+      "heten",
+      "komen",
+      "wonen"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.s001",
+    "nl.a1.sent.s005",
+    "nl.a1.sent.s013"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ Anna.",
+     "answer": "heet",
+     "base": "heten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hoe ___ jij?",
+     "answer": "heet",
+     "base": "heten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Waar ___ u vandaan?",
+     "answer": "komt",
+     "base": "komen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ uit Spanje.",
+     "answer": "kom",
+     "base": "komen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Jij ___ Peter.",
+     "answer": "bent",
+     "base": "zijn"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij ___ in Amsterdam.",
+     "answer": "woont",
+     "base": "wonen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wij ___ uit Egypte.",
+     "answer": "komen",
+     "base": "komen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ jij in Utrecht?",
+     "answer": "Woon",
+     "base": "wonen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.hebben_bezittelijk",
+   "level": "A1",
+   "title": {
+    "ar": "hebben (عنده) و mijn و jouw",
+    "en": "hebben (to have) and mijn, jouw"
+   },
+   "explanation": {
+    "en": "hebben (to have) is irregular: ik heb, jij hebt (but heb jij?), hij/zij heeft, u hebt or heeft, wij/jullie/zij hebben.\n\nPossessives don't change for gender, unlike German: mijn broer, mijn zus, mijn kinderen. The short forms je (your) and ze (her/their) are common when spoken.\n\nOnly ons (our) changes: ons with a singular het-word (ons huis), onze with everything else (onze kat, onze kinderen).\n\nFor age, Dutch uses zijn, like German: Ik ben twintig jaar (oud).",
+    "ar": "hebben (عنده) شاذ: ik heb، jij hebt (بس heb jij؟)، hij/zij heeft، u hebt أو heeft، wij/jullie/zij hebben.\n\nكلمات الملكية مش بتتغير مع المذكر والمؤنث، عكس الألماني: mijn broer، mijn zus، mijn kinderen. المختصرات je (بتاعك) وze (بتاعها/بتاعهم) منتشرة في الكلام.\n\nبس ons (بتاعنا) هي اللي بتتغير: ons مع كلمة het مفرد (ons huis)، وonze مع أي حاجة تانية (onze kat، onze kinderen).\n\nللعمر الهولندي بيستخدم zijn زي الألماني: Ik ben twintig jaar (oud)، مش «عندي»."
+   },
+   "table": {
+    "headers": [
+     "",
+     "hebben",
+     "possessive"
+    ],
+    "rows": [
+     [
+      "ik",
+      "heb",
+      "mijn"
+     ],
+     [
+      "jij / je",
+      "hebt (heb jij?)",
+      "jouw / je"
+     ],
+     [
+      "u",
+      "hebt / heeft",
+      "uw"
+     ],
+     [
+      "hij",
+      "heeft",
+      "zijn"
+     ],
+     [
+      "zij (she)",
+      "heeft",
+      "haar"
+     ],
+     [
+      "wij / we",
+      "hebben",
+      "ons / onze"
+     ],
+     [
+      "jullie",
+      "hebben",
+      "jullie"
+     ],
+     [
+      "zij / ze (they)",
+      "hebben",
+      "hun"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.s022",
+    "nl.a1.sent.s029",
+    "nl.a1.sent.s039"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ twee broers.",
+     "answer": "heb",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ jij kinderen?",
+     "answer": "Heb",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Zij ___ drie kinderen.",
+     "answer": "heeft",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wij ___ twee kinderen.",
+     "answer": "hebben",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dit is ___ moeder. (my)",
+     "answer": "mijn",
+     "base": "mijn"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ huis is groot. (our)",
+     "answer": "Ons",
+     "base": "ons / onze"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ kat is vier jaar oud. (our)",
+     "answer": "Onze",
+     "base": "ons / onze"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Is dat ___ broer? (your)",
+     "answer": "jouw",
+     "base": "jouw"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.de_het",
+   "level": "A1",
+   "title": {
+    "ar": "de و het: أدوات التعريف",
+    "en": "de and het: the two articles"
+   },
+   "explanation": {
+    "en": "Dutch has two words for the: de (about two thirds of nouns) and het. Learn every noun with its article: de tafel, het bed. All plurals take de: de bedden. The word for a is always een.\n\nTip for German speakers: a German das-word is often a Dutch het-word (das Haus → het huis), and der/die words are usually de-words.\n\nDiminutives ending in -je are always het: het broodje.\n\nAdjectives before a noun get -e (de grote kamer, een grote kamer), except with a singular het-word after een: een groot huis.\n\nFor de-words, it is usually hij: De kast is nieuw. Hij is groot. For het-words, it is het.",
+    "ar": "في الهولندي فيه كلمتين لـ «الـ»: de (حوالي تلتين الأسماء) وhet. احفظ كل اسم مع أداته: de tafel، het bed. كل الجمع بياخد de: de bedden. وكلمة «واحد/a» دايمًا een.\n\nنصيحة لو بتتعلم ألماني: كلمة das في الألماني غالبًا het في الهولندي (das Haus ← het huis)، وكلمات der وdie غالبًا de.\n\nالتصغير اللي بيخلص بـ ‎-je دايمًا het: het broodje.\n\nالصفة قبل الاسم بتاخد ‎-e (de grote kamer، een grote kamer)، إلا مع كلمة het مفرد بعد een: een groot huis.\n\nالضمير لكلمات de غالبًا hij: De kast is nieuw. Hij is groot. ولكلمات het بنقول het."
+   },
+   "table": {
+    "headers": [
+     "",
+     "de-word",
+     "het-word",
+     "plural"
+    ],
+    "rows": [
+     [
+      "the",
+      "de kamer",
+      "het huis",
+      "de huizen"
+     ],
+     [
+      "a",
+      "een kamer",
+      "een huis",
+      "– huizen"
+     ],
+     [
+      "the + adjective",
+      "de grote kamer",
+      "het grote huis",
+      "de grote huizen"
+     ],
+     [
+      "a + adjective",
+      "een grote kamer",
+      "een groot huis",
+      "grote huizen"
+     ],
+     [
+      "it",
+      "hij",
+      "het",
+      "ze"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.s042",
+    "nl.a1.sent.s043",
+    "nl.a1.sent.s056"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ keuken is groot.",
+     "answer": "De",
+     "base": "de / het"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ huis heeft een tuin.",
+     "answer": "Het",
+     "base": "de / het"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ bed is klein.",
+     "answer": "Het",
+     "base": "de / het"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ stoelen zijn goedkoop.",
+     "answer": "De",
+     "base": "de / het"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Het is een ___ huis. (groot)",
+     "answer": "groot",
+     "base": "groot"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De ___ kamer is licht. (groot)",
+     "answer": "grote",
+     "base": "groot"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ broodje is lekker.",
+     "answer": "Het",
+     "base": "de / het"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De kast is nieuw. ___ is heel groot.",
+     "answer": "Hij",
+     "base": "hij / het"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.willen_geen",
+   "level": "A1",
+   "title": {
+    "ar": "willen (عايز)، والنفي بـ geen و niet",
+    "en": "willen (to want), geen and niet"
+   },
+   "explanation": {
+    "en": "willen (to want): ik wil, jij wilt (but wil jij?), hij/zij wil, u wilt, wij/jullie/zij willen.\n\nTo order politely, add graag: Ik wil graag een koffie = I'd like a coffee.\n\ngeen means no / not a / not any. Use it instead of een, or before a noun without an article: Ik eet geen vlees. Ik heb geen honger.\n\nniet means not and is used for everything else: De vis is niet duur. Ik drink niet.\n\nHunger and thirst use hebben: Ik heb honger. Heb je dorst?",
+    "ar": "willen (عايز): ik wil، jij wilt (بس wil jij؟)، hij/zij wil، u wilt، wij/jullie/zij willen.\n\nعشان تطلب بأدب زوّد graag: Ik wil graag een koffie = أحب قهوة لو سمحت.\n\ngeen معناها «مفيش/ولا». بتيجي مكان een، أو قبل اسم من غير أداة: Ik eet geen vlees (مش باكل لحمة). Ik heb geen honger (مش جعان).\n\nniet معناها «مش» وبتستخدم لأي حاجة تانية: De vis is niet duur. Ik drink niet.\n\nالجوع والعطش بـ hebben: Ik heb honger (أنا جعان). Heb je dorst? (إنت عطشان؟)"
+   },
+   "table": {
+    "headers": [
+     "",
+     "willen",
+     "eten",
+     "drinken"
+    ],
+    "rows": [
+     [
+      "ik",
+      "wil",
+      "eet",
+      "drink"
+     ],
+     [
+      "jij / je",
+      "wilt (wil jij?)",
+      "eet",
+      "drinkt"
+     ],
+     [
+      "u",
+      "wilt",
+      "eet",
+      "drinkt"
+     ],
+     [
+      "hij / zij",
+      "wil",
+      "eet",
+      "drinkt"
+     ],
+     [
+      "wij / jullie / zij",
+      "willen",
+      "eten",
+      "drinken"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.s057",
+    "nl.a1.sent.s060",
+    "nl.a1.sent.s062"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ graag een koffie.",
+     "answer": "wil",
+     "base": "willen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ je een appel?",
+     "answer": "Wil",
+     "base": "willen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij ___ thee.",
+     "answer": "wil",
+     "base": "willen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik eet ___ vlees.",
+     "answer": "geen",
+     "base": "geen / niet"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik heb ___ honger.",
+     "answer": "geen",
+     "base": "geen / niet"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De lamp is ___ duur.",
+     "answer": "niet",
+     "base": "geen / niet"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wij ___ een broodje.",
+     "answer": "willen",
+     "base": "willen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Heb jij ___? (thirst)",
+     "answer": "dorst",
+     "base": "dorst"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "nl.a1.text.sara",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Hallo, ik ben Sara!",
+   "body": "Hallo! Ik heet Sara. Ik kom uit Egypte, uit Alexandrië. Nu woon ik in Amsterdam. Amsterdam is een grote stad. Ik leer Nederlands. Dit is mijn vriend Tom. Hij komt uit Engeland en woont ook in Amsterdam.",
+   "translation": {
+    "ar": "أهلًا! اسمي سارة. أنا من مصر، من إسكندرية. دلوقتي ساكنة في أمستردام. أمستردام مدينة كبيرة. بتعلّم هولندي. ده صاحبي توم. هو من إنجلترا وساكن في أمستردام برضه.",
+    "en": "Hello! My name is Sara. I come from Egypt, from Alexandria. Now I live in Amsterdam. Amsterdam is a big city. I'm learning Dutch. This is my friend Tom. He comes from England and also lives in Amsterdam."
+   },
+   "glossary": [
+    "nl.a1.vocab.heten",
+    "nl.a1.vocab.komen",
+    "nl.a1.vocab.uit",
+    "nl.a1.vocab.wonen",
+    "nl.a1.vocab.stad"
+   ],
+   "questions": [
+    {
+     "question": "Waar komt Sara vandaan?",
+     "options": [
+      "Uit Engeland",
+      "Uit Egypte",
+      "Uit Amsterdam"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Waar woont Sara nu?",
+     "options": [
+      "In Alexandrië",
+      "In Londen",
+      "In Amsterdam"
+     ],
+     "answer": 2
+    },
+    {
+     "question": "Waar komt Tom vandaan?",
+     "options": [
+      "Uit Engeland",
+      "Uit Spanje",
+      "Uit Egypte"
+     ],
+     "answer": 0
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.text.familie_mia",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Mijn familie",
+   "body": "Hoi! Ik ben Mia en ik ben tien jaar oud. Dit is mijn familie. Mijn moeder heet Anna en mijn vader heet Jonas. Ik heb een broer, hij heet Ben. Ben is zeven. We wonen in Utrecht. Mijn oma woont ook in Utrecht.",
+   "translation": {
+    "ar": "أهلًا! أنا ميا وعندي عشر سنين. دي عيلتي. مامتي اسمها آنا وبابا اسمه يوناس. عندي أخ اسمه بن. بن عنده سبع سنين. إحنا ساكنين في أوتريخت. تيتة ساكنة في أوتريخت برضه.",
+    "en": "Hi! I'm Mia and I'm ten years old. This is my family. My mother's name is Anna and my father's name is Jonas. I have a brother, his name is Ben. Ben is seven. We live in Utrecht. My grandma lives in Utrecht too."
+   },
+   "glossary": [
+    "nl.a1.vocab.familie",
+    "nl.a1.vocab.moeder",
+    "nl.a1.vocab.vader",
+    "nl.a1.vocab.broer",
+    "nl.a1.vocab.tien",
+    "nl.a1.vocab.zeven",
+    "nl.a1.vocab.oud"
+   ],
+   "questions": [
+    {
+     "question": "Hoe oud is Mia?",
+     "options": [
+      "Zeven",
+      "Tien",
+      "Twintig"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Hoe heet de vader van Mia?",
+     "options": [
+      "Jonas",
+      "Ben",
+      "Tom"
+     ],
+     "answer": 0
+    },
+    {
+     "question": "Waar woont de familie?",
+     "options": [
+      "In Amsterdam",
+      "In Utrecht",
+      "In Caïro"
+     ],
+     "answer": 1
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.text.nieuw_appartement",
+   "level": "A1",
+   "kind": "reading",
+   "title": "Mijn nieuwe appartement",
+   "body": "Hoi Tom, ik heb een nieuw appartement! Het is niet groot, maar wel heel mooi. Het appartement heeft twee kamers, een keuken en een badkamer. De woonkamer is licht en heeft een balkon. De keuken is klein. In de slaapkamer staan een bed en een kast. De bank is nieuw, het bed is oud. Het appartement is niet duur. Kom zaterdag langs! Groetjes, Sara",
+   "translation": {
+    "ar": "أهلًا يا توم، عندي شقة جديدة! مش كبيرة، بس حلوة جدًا. الشقة فيها أوضتين ومطبخ وحمّام. الصالة منوّرة وفيها بلكونة. المطبخ صغير. في أوضة النوم فيه سرير ودولاب. الكنبة جديدة والسرير قديم. الشقة مش غالية. تعالى يوم السبت! سلامات، سارة",
+    "en": "Hi Tom, I have a new flat! It isn't big, but it's very nice. The flat has two rooms, a kitchen and a bathroom. The living room is bright and has a balcony. The kitchen is small. In the bedroom there's a bed and a wardrobe. The sofa is new, the bed is old. The flat isn't expensive. Come over on Saturday! Love, Sara"
+   },
+   "glossary": [
+    "nl.a1.vocab.appartement",
+    "nl.a1.vocab.kamer",
+    "nl.a1.vocab.keuken",
+    "nl.a1.vocab.badkamer",
+    "nl.a1.vocab.woonkamer",
+    "nl.a1.vocab.balkon",
+    "nl.a1.vocab.licht",
+    "nl.a1.vocab.duur"
+   ],
+   "questions": [
+    {
+     "question": "Hoeveel kamers heeft het appartement?",
+     "options": [
+      "Eén",
+      "Twee",
+      "Drie"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Hoe is de keuken?",
+     "options": [
+      "Groot",
+      "Klein",
+      "Duur"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Wat is nieuw?",
+     "options": [
+      "Het bed",
+      "De kast",
+      "De bank"
+     ],
+     "answer": 2
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.text.in_het_cafe",
+   "level": "A1",
+   "kind": "reading",
+   "title": "In het café",
+   "body": "Ober: Goedemiddag! Wat wilt u?\nAnna: Ik wil graag een koffie met melk.\nOber: En u?\nPeter: Ik heb dorst. Een water, alstublieft. En ik heb ook honger. Heeft u broodjes?\nOber: Ja, met kaas of met worst.\nPeter: Ik eet geen vlees. Een broodje kaas, alstublieft.\nOber: Prima. Dus: een koffie, een water en een broodje kaas.",
+   "translation": {
+    "ar": "الجرسون: مساء الخير! تحبوا تطلبوا إيه؟ / آنا: أحب قهوة بلبن. / الجرسون: وحضرتك؟ / بيتر: أنا عطشان. مية، لو سمحت. وجعان كمان. عندكم سندوتشات؟ / الجرسون: أيوه، بالجبنة أو بالسجق. / بيتر: أنا مش باكل لحمة. سندوتش جبنة، لو سمحت. / الجرسون: تمام. يبقى: قهوة ومية وسندوتش جبنة.",
+    "en": "Waiter: Good afternoon! What would you like? / Anna: I'd like a coffee with milk. / Waiter: And you? / Peter: I'm thirsty. A water, please. And I'm hungry too. Do you have sandwiches? / Waiter: Yes, with cheese or with sausage. / Peter: I don't eat meat. A cheese sandwich, please. / Waiter: Fine. So: a coffee, a water and a cheese sandwich."
+   },
+   "glossary": [
+    "nl.a1.vocab.willen",
+    "nl.a1.vocab.koffie",
+    "nl.a1.vocab.melk",
+    "nl.a1.vocab.dorst",
+    "nl.a1.vocab.honger",
+    "nl.a1.vocab.broodje",
+    "nl.a1.vocab.kaas",
+    "nl.a1.vocab.worst",
+    "nl.a1.vocab.vlees"
+   ],
+   "questions": [
+    {
+     "question": "Wat drinkt Anna?",
+     "options": [
+      "Thee",
+      "Koffie met melk",
+      "Water"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Wat eet Peter?",
+     "options": [
+      "Een broodje worst",
+      "Een broodje kaas",
+      "Een appel"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Waarom eet Peter geen worst?",
+     "options": [
+      "Hij eet geen vlees.",
+      "Hij heeft geen honger.",
+      "Hij drinkt alleen water."
+     ],
+     "answer": 0
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "nl.a1.write.introduce",
+   "level": "A1",
+   "prompt": {
+    "ar": "عرّف نفسك بالهولندي: اسمك، إنت منين، وساكن فين. اكتب من 3 لـ 5 جمل.",
+    "en": "Introduce yourself in Dutch: your name, where you come from and where you live. Write 3 to 5 sentences."
+   },
+   "minWords": 15
+  },
+  {
+   "id": "nl.a1.write.family",
+   "level": "A1",
+   "prompt": {
+    "ar": "اوصف عيلتك بالهولندي: مين فيها وأساميهم إيه؟",
+    "en": "Describe your family in Dutch: who is in it and what are their names?"
+   },
+   "minWords": 15
+  },
+  {
+   "id": "nl.a1.write.home",
+   "level": "A1",
+   "prompt": {
+    "ar": "اوصف بيتك بالهولندي: فيه كام أوضة، وفيها إيه، وإيه الكبير والصغير والجديد والقديم؟",
+    "en": "Describe your home in Dutch: how many rooms, what is in them, what is big, small, new or old?"
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.breakfast",
+   "level": "A1",
+   "prompt": {
+    "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالهولندي.",
+    "en": "What do you eat and drink for breakfast, lunch and dinner? Write in Dutch."
+   },
+   "minWords": 20
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

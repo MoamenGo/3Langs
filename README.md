@@ -49,17 +49,21 @@ docs/ARCHITECTURE.md how the pieces fit together
 - A1 units 1 to 4 end to end: greetings and introductions, family and
   numbers, home and living, food and drink. Each unit has two vocabulary
   lessons, a grammar lesson, a listening dictation, a reading text with
-  questions and a unit review: 100 words and 72 example sentences. Words,
-  unit and lesson titles have Arabic; sentences and grammar notes are
-  English until their Arabic is added.
+  questions and a unit review: 100 words and 72 example sentences, all with
+  Arabic and English.
 - Phase 1 of the three-language plan: a track per language (German now,
   Spanish from week 3, Dutch from week 9), a language switcher that recolours
   the app, packs per language and level, and the shared A0-C1 syllabus.
-  Spanish and Dutch lessons arrive in phase 2.
+- Phase 2: German, Spanish and Dutch each ship A0 (sounds, survival
+  phrases, numbers and days, first questions) and A1 units 1 to 4. Every
+  word carries a shared concept id, so a word card shows the same word in
+  your other two languages. A contrast dictionary (Practice tab) lists false
+  friends, look-alikes and nouns whose gender changes. When A0 is done, the
+  home screen moves the language on to A1.
 - Finishing a lesson adds its words to your flashcards, scheduled by FSRS.
 - Listening, reading, writing (LanguageTool) and speaking practice screens.
 - Study time is tracked for the daily goal, streak and total hours.
-- The whole UI switches between English, Nederlands and Español; translations
+- The whole UI switches between Arabic (default) and English; translations
   and grammar explanations follow a separate "explanation language" setting.
 - Everything is saved on the device first. Sync turns on when you add Supabase
   settings and sign in.

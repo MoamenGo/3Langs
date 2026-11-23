@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://3lang.app/schema/contrast.schema.json",
+  "title": "3Lang contrast dictionary",
+  "description": "Traps and helpers between German, Dutch and Spanish (and English, which most learners know): false friends, near cognates and nouns whose gender differs.",
+  "type": "object",
+  "required": ["schemaVersion", "entries"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "forms", "note"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^x\\.[a-z0-9_]+$"},
+          "kind": {"enum": ["false_friend", "near_cognate", "gender_mismatch"]},
+          "conceptId": {"type": "string"},
+          "forms": {
+            "type": "object",
+            "description": "The words involved, by language code (de, nl, es, en).",
+            "propertyNames": {"enum": ["de", "nl", "es", "en"]},
+            "additionalProperties": {"type": "string"}
+          },
+          "note": {
+            "type": "object",
+            "required": ["en"],
+            "properties": {"ar": {"type": "string"}, "en": {"type": "string"}},
+            "additionalProperties": false
+          },
+          "level": {"enum": ["A0", "A1", "A2", "B1", "B2", "C1"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

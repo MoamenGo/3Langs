@@ -72,6 +72,8 @@ flutter:
   assets:
     - assets/content/
     - assets/content/de/
+    - assets/content/es/
+    - assets/content/nl/
   # Arabic text everywhere (the web build cannot rely on downloaded fallback
   # fonts). Noto Sans Arabic, SIL Open Font License: assets/fonts/OFL-NotoSansArabic.txt
   fonts:

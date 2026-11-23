@@ -371,4 +371,36 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get explainEnglish => 'الإنجليزي';
+
+  @override
+  String get contrastDictionary => 'قاموس المقارنة';
+
+  @override
+  String get contrastIntro =>
+      'كلمات شبه بعض بس معناها مختلف، وكلمات تقدر تحفظها مع بعض، وأسماء جنسها بيتغير من لغة للتانية.';
+
+  @override
+  String get inOtherLanguages => 'في لغاتك التانية';
+
+  @override
+  String get contrastAll => 'الكل';
+
+  @override
+  String get falseFriends => 'أصدقاء مزيفين';
+
+  @override
+  String get nearCognates => 'شبه بعض';
+
+  @override
+  String get genderMismatches => 'الجنس بيتغير';
+
+  @override
+  String levelDone(String level) {
+    return 'خلصت مستوى $level!';
+  }
+
+  @override
+  String startLevel(String level) {
+    return 'ابدأ مستوى $level';
+  }
 }

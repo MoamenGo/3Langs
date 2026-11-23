@@ -4,6 +4,7 @@ import 'package:flutter/services.dart' show AssetBundle;
 
 import '../../core/lang/lang.dart';
 import '../models/content.dart';
+import '../models/contrast.dart';
 
 /// Loads course content: one pack per language and level, bundled in
 /// assets/content/{lang}/{level}.json. Later levels will be downloaded from
@@ -12,12 +13,21 @@ class ContentRepository {
   ContentRepository(this.bundle);
   final AssetBundle bundle;
 
-  /// Packs that ship with this build. Dutch and Spanish arrive in phase 2.
+  /// Packs that ship with this build.
   static const bundled = <Lang, List<String>>{
-    Lang.de: ['A1'],
-    Lang.es: [],
-    Lang.nl: [],
+    Lang.de: ['A0', 'A1'],
+    Lang.es: ['A0', 'A1'],
+    Lang.nl: ['A0', 'A1'],
   };
+
+  /// The next bundled level above [level] for [lang], if any.
+  static String? nextPackLevel(Lang lang, String level) {
+    final from = cefrLevels.indexOf(level);
+    for (final l in cefrLevels.skip(from + 1)) {
+      if (hasPack(lang, l)) return l;
+    }
+    return null;
+  }
 
   static bool hasPack(Lang lang, String level) =>
       bundled[lang]?.contains(level) ?? false;
@@ -58,4 +68,16 @@ class ContentRepository {
     for (final MapEntry(key: lang, value: levels) in bundled.entries)
       for (final l in levels) level(lang, l),
   ]);
+
+  List<ContrastEntry>? _contrast;
+
+  /// The contrast dictionary shared by all three languages.
+  Future<List<ContrastEntry>> contrast() async {
+    if (_contrast != null) return _contrast!;
+    final raw = await bundle.loadString('assets/content/contrast.json');
+    final json = jsonDecode(raw) as Map<String, dynamic>;
+    return _contrast = (json['entries'] as List)
+        .map((e) => ContrastEntry.fromJson(e as Map<String, dynamic>))
+        .toList();
+  }
 }

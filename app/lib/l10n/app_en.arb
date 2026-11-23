@@ -269,5 +269,28 @@
   },
   "sameForAllLanguages": "The same units in German, Spanish and Dutch. Hours are per language.",
   "explainArabic": "Arabic",
-  "explainEnglish": "English"
+  "explainEnglish": "English",
+  "contrastDictionary": "Contrast dictionary",
+  "contrastIntro": "Words that look alike but mean different things, words you can learn together, and nouns whose gender changes between languages.",
+  "inOtherLanguages": "In your other languages",
+  "contrastAll": "All",
+  "falseFriends": "False friends",
+  "nearCognates": "Look alike",
+  "genderMismatches": "Gender changes",
+  "levelDone": "You finished level {level}!",
+  "@levelDone": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "startLevel": "Start level {level}",
+  "@startLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  }
 }

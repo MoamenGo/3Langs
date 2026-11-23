@@ -17,7 +17,7 @@ SCHEMA_PATH = CONTENT_DIR / "schema" / "level.schema.json"
 
 SCHEMA_VERSION = 1
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
-EXPLAIN_LANGS = ["en", "nl", "es"]
+EXPLAIN_LANGS = ["ar", "en"]  # explanation languages (schema v2)
 # Tatoeba uses ISO 639-3 codes.
 TATOEBA_LANGS = {"de": "deu", "en": "eng", "nl": "nld", "es": "spa"}
 

@@ -655,6 +655,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'English'**
   String get explainEnglish;
+
+  /// No description provided for @contrastDictionary.
+  ///
+  /// In en, this message translates to:
+  /// **'Contrast dictionary'**
+  String get contrastDictionary;
+
+  /// No description provided for @contrastIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Words that look alike but mean different things, words you can learn together, and nouns whose gender changes between languages.'**
+  String get contrastIntro;
+
+  /// No description provided for @inOtherLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'In your other languages'**
+  String get inOtherLanguages;
+
+  /// No description provided for @contrastAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get contrastAll;
+
+  /// No description provided for @falseFriends.
+  ///
+  /// In en, this message translates to:
+  /// **'False friends'**
+  String get falseFriends;
+
+  /// No description provided for @nearCognates.
+  ///
+  /// In en, this message translates to:
+  /// **'Look alike'**
+  String get nearCognates;
+
+  /// No description provided for @genderMismatches.
+  ///
+  /// In en, this message translates to:
+  /// **'Gender changes'**
+  String get genderMismatches;
+
+  /// No description provided for @levelDone.
+  ///
+  /// In en, this message translates to:
+  /// **'You finished level {level}!'**
+  String levelDone(String level);
+
+  /// No description provided for @startLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Start level {level}'**
+  String startLevel(String level);
 }
 
 class _AppLocalizationsDelegate

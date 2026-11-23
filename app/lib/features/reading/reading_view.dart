@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 
+import '../../core/lang/lang.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
@@ -72,13 +73,20 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
         Row(
           children: [
             Expanded(child: Text(t.title, style: theme.headlineSmall)),
-            if (t.body != null) SpeakButton(t.body!),
-            if (t.body != null) SpeakButton(t.body!, slow: true),
+            if (t.body != null)
+              SpeakButton(t.body!, lang: ContentId.parse(t.id)?.lang),
+            if (t.body != null)
+              SpeakButton(
+                t.body!,
+                slow: true,
+                lang: ContentId.parse(t.id)?.lang,
+              ),
           ],
         ),
         const SizedBox(height: 12),
         SelectableText(
           t.body ?? '',
+          textDirection: TextDirection.ltr,
           style: theme.bodyLarge?.copyWith(height: 1.6),
         ),
         if (t.translation != null)
@@ -112,7 +120,11 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
           Text(l.questions, style: theme.titleMedium),
           for (final (qi, q) in t.questions.indexed) ...[
             const SizedBox(height: 12),
-            Text(q.question, style: theme.titleSmall),
+            Text(
+              q.question,
+              textDirection: TextDirection.ltr,
+              style: theme.titleSmall,
+            ),
             RadioGroup<int>(
               groupValue: _answers[qi],
               onChanged: (v) =>
@@ -123,7 +135,7 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
                     RadioListTile<int>(
                       dense: true,
                       value: oi,
-                      title: Text(option),
+                      title: Text(option, textDirection: TextDirection.ltr),
                       secondary: _checked && oi == q.answer
                           ? const Icon(Icons.check, color: Colors.green)
                           : null,

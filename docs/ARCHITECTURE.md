@@ -60,6 +60,15 @@ in `review_logs`, which later lets us fit personal weights.
   (schema v2, `content/schema/level.schema.json`). `course_outline.json` is the
   shared A0-C1 syllabus: 70 units, the same for every language; each pack's
   units point at their shared unit with `sharedUnitId`.
+- Concepts: every word has a `conceptId` shared by its German, Dutch and
+  Spanish version. `conceptIndexProvider` indexes all bundled packs by it, so
+  `WordCard` shows the word in the other two languages (`OtherLanguages`).
+- Contrast dictionary: `assets/content/contrast.json` (false friends, near
+  cognates, gender mismatches), read by `contrastProvider`; shown on word
+  cards and in `features/contrast/contrast_screen.dart` (Practice tab).
+- Levels: `ContentRepository.bundled` lists the packs per language (A0 and A1
+  for all three today). When every lesson of the track's level is done, the
+  home screen offers the next bundled level (`advanceLevel`).
 - Learner: `language_tracks` holds one row per language (status, start date,
   level, unit, time share). `user_settings.active_language` is the language on
   screen; the whole app takes its colour (`LangSwitcher` at the top).

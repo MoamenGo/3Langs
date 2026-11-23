@@ -8,8 +8,10 @@ import 'package:material_ui/material_ui.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
+import '../contrast/contrast_widgets.dart';
 
-/// Shows one German word with its translation, plural and an example.
+/// Shows one word with its translation, plural, an example, and the same
+/// word in the learner's other languages.
 class WordCard extends ConsumerWidget {
   const WordCard({super.key, required this.item, required this.content});
   final VocabItem item;
@@ -36,11 +38,12 @@ class WordCard extends ConsumerWidget {
                 Flexible(
                   child: Text(
                     item.display,
+                    textDirection: TextDirection.ltr,
                     style: text.headlineMedium,
                     textAlign: TextAlign.center,
                   ),
                 ),
-                SpeakButton(item.display),
+                SpeakButton(item.display, lang: item.lang),
               ],
             ),
             if (item.plural != null)
@@ -60,11 +63,12 @@ class WordCard extends ConsumerWidget {
                   Flexible(
                     child: Text(
                       example.text,
+                      textDirection: TextDirection.ltr,
                       style: text.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
-                  SpeakButton(example.text),
+                  SpeakButton(example.text, lang: item.lang),
                 ],
               ),
               Text(
@@ -75,6 +79,7 @@ class WordCard extends ConsumerWidget {
                 textAlign: TextAlign.center,
               ),
             ],
+            OtherLanguages(item: item),
           ],
         ),
       ),
