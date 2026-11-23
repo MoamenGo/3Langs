@@ -6,6 +6,7 @@ import 'app.dart';
 import 'core/env.dart';
 import 'core/providers.dart';
 import 'data/local/local_db.dart';
+import 'data/local/migrations.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +18,7 @@ Future<void> main() async {
     );
   }
   final db = await LocalDb.open();
+  await LocalMigrations(db).run();
 
   runApp(
     ProviderScope(

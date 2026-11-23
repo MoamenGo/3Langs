@@ -34,11 +34,11 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
   }
 
   void _play({bool slow = false}) =>
-      ref.read(ttsProvider).speak(_current.de, slow: slow);
+      ref.read(ttsProvider).speak(_current.text, slow: slow);
 
   void _check() {
     final right =
-        normalizeAnswer(_controller.text) == normalizeAnswer(_current.de);
+        normalizeAnswer(_controller.text) == normalizeAnswer(_current.text);
     setState(() => _wasRight = right);
     if (right) _correct++;
   }
@@ -99,13 +99,15 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
           controller: _controller,
           autocorrect: false,
           enabled: _wasRight == null,
-          decoration: InputDecoration(hintText: l.typeHere),
+          decoration: InputDecoration(
+            hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+          ),
           onSubmitted: (_) => _wasRight == null ? _check() : _next(),
         ),
         const SizedBox(height: 12),
         if (_wasRight != null) ...[
           Text(
-            _wasRight! ? l.correct : l.wrongAnswer(_current.de),
+            _wasRight! ? l.correct : l.wrongAnswer(_current.text),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: _wasRight!

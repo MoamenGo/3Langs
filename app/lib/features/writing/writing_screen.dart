@@ -36,7 +36,11 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
       final lang = ref.read(explainLangProvider);
       final issues = await ref
           .read(languageToolProvider)
-          .check(_controller.text, motherTongue: lang.name);
+          .check(
+            _controller.text,
+            lang: ref.read(activeLangProvider),
+            motherTongue: lang.name,
+          );
       await ref
           .read(writingRepositoryProvider)
           .save(
@@ -63,14 +67,14 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     final lang = ref.watch(explainLangProvider);
-    final level = ref.watch(settingsProvider).value?.currentLevel ?? 'A1';
     return StudyTimer(
       activity: Activity.writing,
       child: Scaffold(
         appBar: AppBar(title: Text(l.lessonWriting)),
         body: AsyncView(
-          value: ref.watch(levelContentProvider(level)),
+          value: ref.watch(activeContentProvider),
           builder: (c) {
+            if (c == null) return const NoContentYet();
             _prompt ??= c.writingPrompts.firstOrNull;
             return ListView(
               padding: const EdgeInsets.all(16),
@@ -103,7 +107,9 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                   controller: _controller,
                   minLines: 6,
                   maxLines: 14,
-                  decoration: InputDecoration(hintText: l.typeHere),
+                  decoration: InputDecoration(
+                    hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+                  ),
                   onChanged: (_) => setState(() {}),
                 ),
                 Align(

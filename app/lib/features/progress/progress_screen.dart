@@ -22,8 +22,7 @@ class ProgressScreen extends ConsumerWidget {
     final settings = ref.watch(settingsProvider).value;
     final known = ref.watch(_knownWordsProvider).value ?? 0;
     final lessons = ref.watch(lessonProgressProvider).value ?? const {};
-    final level = settings?.currentLevel ?? 'A1';
-    final content = ref.watch(levelContentProvider(level)).value;
+    final content = ref.watch(activeContentProvider).value;
     final goal = settings?.dailyGoalMinutes ?? 120;
     final done = lessons.values
         .where((p) => p.status == LessonStatus.completed)
@@ -37,7 +36,10 @@ class ProgressScreen extends ConsumerWidget {
     final locale = Localizations.localeOf(context).toString();
 
     return Scaffold(
-      appBar: AppBar(title: Text(l.navProgress)),
+      appBar: AppBar(
+        title: Text(l.navProgress),
+        actions: const [LangSwitcher()],
+      ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -56,7 +58,7 @@ class ProgressScreen extends ConsumerWidget {
               _Stat(Icons.translate, l.wordsKnown(known)),
               _Stat(
                 Icons.school,
-                '$level · ${l.lessonsCompleted(done, total)}',
+                '${ref.watch(activeTrackProvider).currentLevel} · ${l.lessonsCompleted(done, total)}',
               ),
             ],
           ),

@@ -34,10 +34,8 @@ final appRouter = GoRouter(
               routes: [
                 GoRoute(
                   path: 'unit/:unitId',
-                  builder: (_, s) => UnitScreen(
-                    levelId: s.uri.queryParameters['level'] ?? 'A1',
-                    unitId: s.pathParameters['unitId']!,
-                  ),
+                  builder: (_, s) =>
+                      UnitScreen(unitId: s.pathParameters['unitId']!),
                 ),
               ],
             ),
@@ -64,10 +62,7 @@ final appRouter = GoRouter(
     // Full-screen study routes (no bottom bar, to keep focus).
     GoRoute(
       path: '/lesson/:lessonId',
-      builder: (_, s) => LessonScreen(
-        levelId: s.uri.queryParameters['level'] ?? 'A1',
-        lessonId: s.pathParameters['lessonId']!,
-      ),
+      builder: (_, s) => LessonScreen(lessonId: s.pathParameters['lessonId']!),
     ),
     GoRoute(path: '/review', builder: (_, _) => const ReviewScreen()),
     GoRoute(

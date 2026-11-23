@@ -15,6 +15,7 @@ import 'package:flutter/foundation.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../local/local_db.dart';
+import '../local/migrations.dart';
 import '../repositories/settings_repository.dart';
 
 enum SyncStatus { offline, signedOut, idle, syncing, error }
@@ -139,7 +140,10 @@ class SyncService {
           .order('updated_at', ascending: true)
           .limit(_pageSize);
       for (final remote in rows) {
-        final row = Map<String, Object?>.from(remote)..remove('user_id');
+        final row = migrateLegacyRow(
+          t,
+          Map<String, Object?>.from(remote)..remove('user_id'),
+        );
         final key = _localKey(t, row);
         final mine = await local.get(t, key);
         final mineIsNewer =

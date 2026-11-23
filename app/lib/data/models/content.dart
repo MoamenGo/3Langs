@@ -2,10 +2,13 @@
 // These mirror content/schema/level.schema.json. Content is read-only in the
 // app; learner progress points at the stable `id` of each record.
 
-/// One of the three explanation languages.
-enum ExplainLang { en, nl, es }
+import '../../core/lang/lang.dart';
 
-/// Text available in English, Dutch and Spanish.
+/// Language used for translations, explanations and the app interface.
+/// Arabic is the default; English is the fallback when a text has no Arabic yet.
+enum ExplainLang { ar, en }
+
+/// Text available in Arabic and English.
 class L10nText {
   const L10nText(this.values);
   final Map<String, String> values;
@@ -14,6 +17,7 @@ class L10nText {
       L10nText(Map<String, String>.from((json as Map?) ?? const {}));
 
   /// The text in [lang], falling back to English, then any language.
+  /// While Arabic is being added, many texts still only have English.
   String get(ExplainLang lang) =>
       values[lang.name] ??
       values['en'] ??
@@ -65,11 +69,16 @@ class Unit {
     required this.goals,
     required this.grammarIds,
     required this.lessonIds,
+    this.sharedUnitId,
   });
   final String id;
   final String level;
   final int order;
   final L10nText theme;
+
+  /// The unit of the shared three-language syllabus this unit realises,
+  /// for example `u.a1.03` for "Home" in German, Dutch and Spanish.
+  final String? sharedUnitId;
   final List<L10nText> goals;
   final List<String> grammarIds;
   final List<String> lessonIds;
@@ -82,6 +91,7 @@ class Unit {
     goals: _list(j['goals']).map(L10nText.fromJson).toList(),
     grammarIds: _strings(j['grammarIds']),
     lessonIds: _strings(j['lessonIds']),
+    sharedUnitId: j['sharedUnitId'] as String?,
   );
 }
 
@@ -174,14 +184,16 @@ class VocabItem {
 class Sentence {
   const Sentence({
     required this.id,
-    required this.de,
+    required this.text,
     required this.translations,
     required this.source,
     required this.license,
     this.audio,
   });
   final String id;
-  final String de;
+
+  /// The sentence in the pack's target language.
+  final String text;
   final L10nText translations;
   final AudioRef? audio;
   final String source;
@@ -189,7 +201,7 @@ class Sentence {
 
   factory Sentence.fromJson(Map<String, dynamic> j) => Sentence(
     id: j['id'] as String,
-    de: j['de'] as String,
+    text: (j['text'] ?? j['de']) as String,
     translations: L10nText.fromJson(j['translations']),
     audio: AudioRef.fromJson(j['audio']),
     source: j['source'] as String? ?? '',
@@ -344,6 +356,7 @@ class WritingPrompt {
 /// A whole level file, indexed by id for quick lookups.
 class LevelContent {
   LevelContent({
+    required this.lang,
     required this.contentVersion,
     required this.level,
     required this.units,
@@ -355,6 +368,8 @@ class LevelContent {
     required this.writingPrompts,
   });
 
+  /// The language this pack teaches.
+  final Lang lang;
   final String contentVersion;
   final Level level;
   final List<Unit> units;
@@ -374,6 +389,7 @@ class LevelContent {
       for (final e in _list(j[key])) id(f(e as Map<String, dynamic>)): f(e),
     };
     return LevelContent(
+      lang: Lang.tryParse(j['lang'] as String?) ?? Lang.de,
       contentVersion: j['contentVersion'] as String,
       level: Level.fromJson(j['level'] as Map<String, dynamic>),
       units:
@@ -398,26 +414,29 @@ class LevelContent {
           .toList();
 }
 
-/// One entry of the 24-month course outline (assets/content/course_outline.json).
+/// One level of the shared A0-C1 syllabus (assets/content/course_outline.json).
+/// The same units are taught in every language; hours are per language.
 class OutlineLevel {
   const OutlineLevel({
     required this.id,
     required this.title,
     required this.targetHours,
-    required this.months,
+    required this.unitIds,
     required this.unitThemes,
   });
   final String id;
   final L10nText title;
   final int targetHours;
-  final List<int> months;
+
+  /// Shared unit ids, for example `u.a1.03`.
+  final List<String> unitIds;
   final List<L10nText> unitThemes;
 
   factory OutlineLevel.fromJson(Map<String, dynamic> j) => OutlineLevel(
     id: j['id'] as String,
     title: L10nText.fromJson(j['title']),
     targetHours: j['targetHours'] as int,
-    months: _list(j['months']).cast<int>(),
+    unitIds: _list(j['units']).map((u) => (u as Map)['id'] as String).toList(),
     unitThemes: _list(j['units'])
         .map((u) => L10nText.fromJson((u as Map)['theme']))
         .toList(),

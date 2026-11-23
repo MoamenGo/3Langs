@@ -1,11 +1,12 @@
 # 3Lang
 
-Learn German from A1 to C1 in 2 years, with explanations in **English, Dutch
-and Spanish**. One Flutter codebase runs on **Android** and the **web**, works
+Learn **German, Spanish and Dutch at the same time**, from A0 to C1, with
+explanations in **Arabic** (or English). One Flutter codebase runs on **Android** and the **web**, works
 offline, and syncs your progress between devices through Supabase. Everything
 uses free tiers and openly licensed content.
 
-Course plan: [Step 1 – course and content architecture](https://claude.ai/artifact/Ttcd9jvsW6yCZg9Bm8YJkK)
+Design: [three-language architecture](https://claude.ai/artifact/WocUbyCTwK6az7Qgaf5nmy) ·
+earlier [course and content architecture](https://claude.ai/artifact/Ttcd9jvsW6yCZg9Bm8YJkK)
 (24 months, ~1,250 hours at about 2 hours a day, 6 days a week).
 
 ## What's in the repo
@@ -32,7 +33,7 @@ app/                 Flutter app (Android + web)
       progress/      streak, hours, words known, last 7 days
       settings/      app language, explanation language, goals, account, credits
       auth/          email sign-in (only needed for sync)
-    l10n/            UI strings: app_en.arb, app_nl.arb, app_es.arb
+    l10n/            UI strings: app_ar.arb (default, right to left), app_en.arb
   assets/content/    bundled level files (a1.json) and course_outline.json
   test/              FSRS, content, streak and screen tests
 supabase/migrations/ database schema with row level security
@@ -48,8 +49,13 @@ docs/ARCHITECTURE.md how the pieces fit together
 - A1 units 1 to 4 end to end: greetings and introductions, family and
   numbers, home and living, food and drink. Each unit has two vocabulary
   lessons, a grammar lesson, a listening dictation, a reading text with
-  questions and a unit review: 100 words and 72 example sentences, all with
-  English, Dutch and Spanish.
+  questions and a unit review: 100 words and 72 example sentences. Words,
+  unit and lesson titles have Arabic; sentences and grammar notes are
+  English until their Arabic is added.
+- Phase 1 of the three-language plan: a track per language (German now,
+  Spanish from week 3, Dutch from week 9), a language switcher that recolours
+  the app, packs per language and level, and the shared A0-C1 syllabus.
+  Spanish and Dutch lessons arrive in phase 2.
 - Finishing a lesson adds its words to your flashcards, scheduled by FSRS.
 - Listening, reading, writing (LanguageTool) and speaking practice screens.
 - Study time is tracked for the daily goal, streak and total hours.

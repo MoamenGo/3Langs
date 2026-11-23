@@ -71,3 +71,12 @@ flutter:
   generate: true
   assets:
     - assets/content/
+    - assets/content/de/
+  # Arabic text everywhere (the web build cannot rely on downloaded fallback
+  # fonts). Noto Sans Arabic, SIL Open Font License: assets/fonts/OFL-NotoSansArabic.txt
+  fonts:
+    - family: NotoSansArabic
+      fonts:
+        - asset: assets/fonts/NotoSansArabic-Regular.ttf
+        - asset: assets/fonts/NotoSansArabic-Bold.ttf
+          weight: 700

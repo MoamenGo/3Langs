@@ -18,7 +18,10 @@ class PracticeScreen extends StatelessWidget {
       (Icons.record_voice_over, l.lessonSpeaking, '/practice/speaking'),
     ];
     return Scaffold(
-      appBar: AppBar(title: Text(l.navPractice)),
+      appBar: AppBar(
+        title: Text(l.navPractice),
+        actions: const [LangSwitcher()],
+      ),
       body: GridView.extent(
         maxCrossAxisExtent: 220,
         padding: const EdgeInsets.all(16),

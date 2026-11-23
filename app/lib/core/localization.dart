@@ -1,4 +1,4 @@
-// Localization delegates for the app UI (en, nl, es).
+// Localization delegates for the app UI (ar, en).
 //
 // Flutter 3.47+ moved Material and Cupertino into the material_ui and
 // cupertino_ui packages, and the generated

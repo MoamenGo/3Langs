@@ -44,17 +44,6 @@
     }
   },
   "comingSoon": "Coming soon",
-  "monthsRange": "Months {from}–{to}",
-  "@monthsRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
-      },
-      "to": {
-        "type": "int"
-      }
-    }
-  },
   "hoursShort": "{hours} h",
   "@hoursShort": {
     "placeholders": {
@@ -101,10 +90,13 @@
     }
   },
   "backToCourse": "Back to course",
-  "whichMeans": "Which German word means “{word}”?",
+  "whichMeans": "Which {language} word means “{word}”?",
   "@whichMeans": {
     "placeholders": {
       "word": {
+        "type": "String"
+      },
+      "language": {
         "type": "String"
       }
     }
@@ -128,14 +120,14 @@
   "listenAndType": "Listen and type what you hear",
   "playAudio": "Play",
   "playSlow": "Slow",
-  "typeHere": "Type in German",
+  "typeHere": "Type in {language}",
   "showTranslation": "Show translation",
   "glossary": "Words",
   "questions": "Questions",
   "openLink": "Open in browser",
   "externalHint": "This is a free external resource. Open it in your browser.",
-  "writingCheck": "Check my German",
-  "noIssues": "No problems found. Gut gemacht!",
+  "writingCheck": "Check my writing",
+  "noIssues": "No problems found. Well done!",
   "wordCount": "{count} words",
   "@wordCount": {
     "placeholders": {
@@ -174,7 +166,7 @@
     }
   },
   "last7Days": "Last 7 days",
-  "courseTimeline": "Your 2-year path",
+  "courseTimeline": "Your A0–C1 path",
   "settings": "Settings",
   "appLanguage": "App language",
   "explanationLanguage": "Explanation language",
@@ -222,5 +214,60 @@
         "type": "String"
       }
     }
-  }
+  },
+  "@typeHere": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "noContentYet": "Lessons for {language} are coming in the next update.",
+  "@noContentYet": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "startsOn": "Your plan starts this language on {date}.",
+  "@startsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "languages": "Your languages",
+  "trackActive": "Active",
+  "trackScheduled": "Starts {date}",
+  "@trackScheduled": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "trackPaused": "Paused",
+  "pauseLanguage": "Pause",
+  "resumeLanguage": "Start now",
+  "levelN": "Level {level}",
+  "@levelN": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsCount": "{count} units",
+  "@unitsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sameForAllLanguages": "The same units in German, Spanish and Dutch. Hours are per language.",
+  "explainArabic": "Arabic",
+  "explainEnglish": "English"
 }

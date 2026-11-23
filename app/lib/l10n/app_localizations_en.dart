@@ -71,11 +71,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get comingSoon => 'Coming soon';
 
   @override
-  String monthsRange(int from, int to) {
-    return 'Months $from–$to';
-  }
-
-  @override
   String hoursShort(int hours) {
     return '$hours h';
   }
@@ -145,8 +140,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get backToCourse => 'Back to course';
 
   @override
-  String whichMeans(String word) {
-    return 'Which German word means “$word”?';
+  String whichMeans(String word, String language) {
+    return 'Which $language word means “$word”?';
   }
 
   @override
@@ -188,7 +183,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get playSlow => 'Slow';
 
   @override
-  String get typeHere => 'Type in German';
+  String typeHere(String language) {
+    return 'Type in $language';
+  }
 
   @override
   String get showTranslation => 'Show translation';
@@ -207,10 +204,10 @@ class AppLocalizationsEn extends AppLocalizations {
       'This is a free external resource. Open it in your browser.';
 
   @override
-  String get writingCheck => 'Check my German';
+  String get writingCheck => 'Check my writing';
 
   @override
-  String get noIssues => 'No problems found. Gut gemacht!';
+  String get noIssues => 'No problems found. Well done!';
 
   @override
   String wordCount(int count) {
@@ -243,7 +240,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get last7Days => 'Last 7 days';
 
   @override
-  String get courseTimeline => 'Your 2-year path';
+  String get courseTimeline => 'Your A0–C1 path';
 
   @override
   String get settings => 'Settings';
@@ -314,4 +311,54 @@ class AppLocalizationsEn extends AppLocalizations {
   String errorMessage(String message) {
     return 'Something went wrong: $message';
   }
+
+  @override
+  String noContentYet(String language) {
+    return 'Lessons for $language are coming in the next update.';
+  }
+
+  @override
+  String startsOn(String date) {
+    return 'Your plan starts this language on $date.';
+  }
+
+  @override
+  String get languages => 'Your languages';
+
+  @override
+  String get trackActive => 'Active';
+
+  @override
+  String trackScheduled(String date) {
+    return 'Starts $date';
+  }
+
+  @override
+  String get trackPaused => 'Paused';
+
+  @override
+  String get pauseLanguage => 'Pause';
+
+  @override
+  String get resumeLanguage => 'Start now';
+
+  @override
+  String levelN(String level) {
+    return 'Level $level';
+  }
+
+  @override
+  String unitsCount(int count) {
+    return '$count units';
+  }
+
+  @override
+  String get sameForAllLanguages =>
+      'The same units in German, Spanish and Dutch. Hours are per language.';
+
+  @override
+  String get explainArabic => 'Arabic';
+
+  @override
+  String get explainEnglish => 'English';
 }

@@ -1,0 +1,374 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Arabic (`ar`).
+class AppLocalizationsAr extends AppLocalizations {
+  AppLocalizationsAr([String locale = 'ar']) : super(locale);
+
+  @override
+  String get appTitle => '3Lang';
+
+  @override
+  String get navHome => 'الرئيسية';
+
+  @override
+  String get navCourse => 'المنهج';
+
+  @override
+  String get navPractice => 'تدريب';
+
+  @override
+  String get navProgress => 'التقدم';
+
+  @override
+  String todayGoal(int minutes, int goal) {
+    return 'النهارده: $minutes من $goal دقيقة';
+  }
+
+  @override
+  String streakDays(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count يوم ورا بعض',
+      two: 'يومين ورا بعض',
+      one: 'يوم واحد ورا بعض',
+      zero: 'لسه ما بدأتش',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String cardsDue(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count بطاقة مستحقة',
+      two: 'بطاقتين مستحقين',
+      one: 'بطاقة واحدة مستحقة',
+      zero: 'مفيش بطاقات مستحقة',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get startReview => 'راجع دلوقتي';
+
+  @override
+  String get continueLearning => 'كمّل التعلم';
+
+  @override
+  String get allLessonsDone =>
+      'خلصت كل الدروس المتاحة. وحدات جديدة جاية في الطريق.';
+
+  @override
+  String unitN(int n) {
+    return 'الوحدة $n';
+  }
+
+  @override
+  String get comingSoon => 'قريبًا';
+
+  @override
+  String hoursShort(int hours) {
+    return '$hours ساعة';
+  }
+
+  @override
+  String get lessonVocab => 'كلمات جديدة';
+
+  @override
+  String get lessonGrammar => 'قواعد';
+
+  @override
+  String get lessonListening => 'استماع';
+
+  @override
+  String get lessonReading => 'قراءة';
+
+  @override
+  String get lessonReview => 'مراجعة';
+
+  @override
+  String get lessonExam => 'اختبار تجريبي';
+
+  @override
+  String get lessonWriting => 'كتابة';
+
+  @override
+  String get lessonSpeaking => 'تحدث';
+
+  @override
+  String get flashcards => 'البطاقات';
+
+  @override
+  String get next => 'التالي';
+
+  @override
+  String get check => 'تحقق';
+
+  @override
+  String get correct => 'صح!';
+
+  @override
+  String wrongAnswer(String answer) {
+    return 'مش بالظبط. الإجابة: $answer';
+  }
+
+  @override
+  String get lessonDone => 'الدرس خلص!';
+
+  @override
+  String scoreLabel(int percent) {
+    return 'النتيجة: $percent%';
+  }
+
+  @override
+  String wordsAddedToReview(num count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'اتضاف $count كلمة للمراجعة',
+      two: 'اتضافت كلمتين للمراجعة',
+      one: 'اتضافت كلمة واحدة للمراجعة',
+      zero: 'مفيش كلمات جديدة للمراجعة',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get backToCourse => 'ارجع للمنهج';
+
+  @override
+  String whichMeans(String word, String language) {
+    return 'أنهي كلمة في $language معناها «$word»؟';
+  }
+
+  @override
+  String get example => 'مثال';
+
+  @override
+  String plural(String plural) {
+    return 'الجمع: $plural';
+  }
+
+  @override
+  String get showAnswer => 'اعرض الإجابة';
+
+  @override
+  String get rateAgain => 'تاني';
+
+  @override
+  String get rateHard => 'صعب';
+
+  @override
+  String get rateGood => 'كويس';
+
+  @override
+  String get rateEasy => 'سهل';
+
+  @override
+  String get reviewDone => 'خلصت المراجعة! ارجع بعدين.';
+
+  @override
+  String get reviewEmpty => 'لسه مفيش بطاقات. خلّص درس عشان تضيف كلمات.';
+
+  @override
+  String get listenAndType => 'اسمع واكتب اللي سمعته';
+
+  @override
+  String get playAudio => 'تشغيل';
+
+  @override
+  String get playSlow => 'ببطء';
+
+  @override
+  String typeHere(String language) {
+    return 'اكتب هنا ($language)';
+  }
+
+  @override
+  String get showTranslation => 'اعرض الترجمة';
+
+  @override
+  String get glossary => 'الكلمات';
+
+  @override
+  String get questions => 'الأسئلة';
+
+  @override
+  String get openLink => 'افتح في المتصفح';
+
+  @override
+  String get externalHint => 'ده مصدر خارجي مجاني. افتحه في المتصفح.';
+
+  @override
+  String get writingCheck => 'صحّح كتابتي';
+
+  @override
+  String get noIssues => 'مفيش أخطاء. برافو!';
+
+  @override
+  String wordCount(int count) {
+    return '$count كلمة';
+  }
+
+  @override
+  String get checkFailed => 'مقدرتش أصحح دلوقتي. إنت متصل بالإنترنت؟';
+
+  @override
+  String get speakingIntro => 'اسمع، وبعدين قول الجملة بصوت عالي. عملت إيه؟';
+
+  @override
+  String totalHours(String hours) {
+    return '$hours ساعة مذاكرة';
+  }
+
+  @override
+  String wordsKnown(int count) {
+    return '$count كلمة بتعرفها';
+  }
+
+  @override
+  String lessonsCompleted(int done, int total) {
+    return '$done من $total درس';
+  }
+
+  @override
+  String get last7Days => 'آخر 7 أيام';
+
+  @override
+  String get courseTimeline => 'طريقك من A0 لـ C1';
+
+  @override
+  String get settings => 'الإعدادات';
+
+  @override
+  String get appLanguage => 'لغة التطبيق';
+
+  @override
+  String get explanationLanguage => 'لغة الشرح';
+
+  @override
+  String get dailyGoal => 'الهدف اليومي';
+
+  @override
+  String minutesShort(int n) {
+    return '$n دقيقة';
+  }
+
+  @override
+  String get newCardsPerDay => 'بطاقات جديدة في اليوم';
+
+  @override
+  String get account => 'الحساب والمزامنة';
+
+  @override
+  String get signIn => 'سجّل دخول للمزامنة';
+
+  @override
+  String get signOut => 'تسجيل خروج';
+
+  @override
+  String signedInAs(String email) {
+    return 'داخل باسم $email';
+  }
+
+  @override
+  String get syncNow => 'زامن دلوقتي';
+
+  @override
+  String lastSynced(String time) {
+    return 'آخر مزامنة $time';
+  }
+
+  @override
+  String get syncDisabled =>
+      'المزامنة مقفولة: النسخة دي مفيهاش إعدادات Supabase. كل حاجة متخزنة على الجهاز ده.';
+
+  @override
+  String get email => 'الإيميل';
+
+  @override
+  String get password => 'كلمة السر';
+
+  @override
+  String get createAccount => 'اعمل حساب';
+
+  @override
+  String get checkEmail => 'شوف إيميلك عشان تأكد الحساب.';
+
+  @override
+  String get about => 'عن التطبيق والمصادر';
+
+  @override
+  String get aboutText =>
+      '3Lang بيستخدم محتوى مجاني ومفتوح الترخيص بس. كل كلمة وجملة محفوظ مصدرها وترخيصها، ومكتوبين تحت.';
+
+  @override
+  String errorMessage(String message) {
+    return 'حصلت مشكلة: $message';
+  }
+
+  @override
+  String noContentYet(String language) {
+    return 'دروس $language جاية في التحديث الجاي.';
+  }
+
+  @override
+  String startsOn(String date) {
+    return 'خطتك بتبدأ اللغة دي يوم $date.';
+  }
+
+  @override
+  String get languages => 'لغاتك';
+
+  @override
+  String get trackActive => 'شغالة';
+
+  @override
+  String trackScheduled(String date) {
+    return 'تبدأ $date';
+  }
+
+  @override
+  String get trackPaused => 'متوقفة';
+
+  @override
+  String get pauseLanguage => 'إيقاف';
+
+  @override
+  String get resumeLanguage => 'ابدأ دلوقتي';
+
+  @override
+  String levelN(String level) {
+    return 'مستوى $level';
+  }
+
+  @override
+  String unitsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count وحدة',
+      few: '$count وحدات',
+      two: 'وحدتين',
+      one: 'وحدة واحدة',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get sameForAllLanguages =>
+      'نفس الوحدات في الألماني والإسباني والهولندي. الساعات لكل لغة.';
+
+  @override
+  String get explainArabic => 'العربي';
+
+  @override
+  String get explainEnglish => 'الإنجليزي';
+}

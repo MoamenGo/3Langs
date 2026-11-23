@@ -2,6 +2,7 @@
 // Field names in toJson() match the Supabase columns in
 // supabase/migrations/20261121000000_init.sql, so a record can be pushed as is.
 
+import '../../core/lang/lang.dart';
 import 'content.dart';
 
 /// FSRS card states. Values match the `state` smallint in the database.
@@ -226,61 +227,169 @@ class StudySession {
 class UserSettings {
   const UserSettings({
     required this.updatedAt,
-    this.uiLanguage = 'en',
-    this.explanationLanguage = ExplainLang.en,
+    this.uiLanguage = 'ar',
+    this.explanationLanguage = ExplainLang.ar,
+    this.activeLanguage = Lang.de,
     this.dailyGoalMinutes = 120,
     this.newCardsPerDay = 20,
     this.desiredRetention = 0.9,
-    this.currentLevel = 'A1',
   });
 
-  /// App interface language: en, nl or es.
+  /// App interface language: ar or en.
   final String uiLanguage;
 
   /// Language used for translations and grammar explanations.
   final ExplainLang explanationLanguage;
+
+  /// The language on screen right now. Course, practice and progress show
+  /// this language; the colour of the app follows it.
+  final Lang activeLanguage;
   final int dailyGoalMinutes;
   final int newCardsPerDay;
   final double desiredRetention;
-  final String currentLevel;
   final DateTime updatedAt;
+
+  static const uiLanguages = ['ar', 'en'];
 
   UserSettings copyWith({
     String? uiLanguage,
     ExplainLang? explanationLanguage,
+    Lang? activeLanguage,
     int? dailyGoalMinutes,
     int? newCardsPerDay,
     double? desiredRetention,
-    String? currentLevel,
   }) => UserSettings(
     uiLanguage: uiLanguage ?? this.uiLanguage,
     explanationLanguage: explanationLanguage ?? this.explanationLanguage,
+    activeLanguage: activeLanguage ?? this.activeLanguage,
     dailyGoalMinutes: dailyGoalMinutes ?? this.dailyGoalMinutes,
     newCardsPerDay: newCardsPerDay ?? this.newCardsPerDay,
     desiredRetention: desiredRetention ?? this.desiredRetention,
-    currentLevel: currentLevel ?? this.currentLevel,
     updatedAt: DateTime.now().toUtc(),
   );
 
   Map<String, dynamic> toJson() => {
     'ui_language': uiLanguage,
     'explanation_language': explanationLanguage.name,
+    'active_language': activeLanguage.name,
     'daily_goal_minutes': dailyGoalMinutes,
     'new_cards_per_day': newCardsPerDay,
     'desired_retention': desiredRetention,
-    'current_level': currentLevel,
     'updated_at': updatedAt.toIso8601String(),
   };
 
-  factory UserSettings.fromJson(Map<String, dynamic> j) => UserSettings(
-    uiLanguage: j['ui_language'] as String? ?? 'en',
-    explanationLanguage: ExplainLang.values.byName(
-      j['explanation_language'] as String? ?? 'en',
-    ),
-    dailyGoalMinutes: j['daily_goal_minutes'] as int? ?? 120,
-    newCardsPerDay: j['new_cards_per_day'] as int? ?? 20,
-    desiredRetention: (j['desired_retention'] as num?)?.toDouble() ?? 0.9,
-    currentLevel: j['current_level'] as String? ?? 'A1',
+  /// Older builds offered en/nl/es for the interface and explanations. Those
+  /// values are mapped to the new choices (Dutch and Spanish are now
+  /// languages you learn, not explanation languages).
+  factory UserSettings.fromJson(Map<String, dynamic> j) {
+    final ui = j['ui_language'] as String?;
+    final explain = j['explanation_language'] as String?;
+    return UserSettings(
+      uiLanguage: uiLanguages.contains(ui) ? ui! : 'ar',
+      explanationLanguage: explain == 'en' ? ExplainLang.en : ExplainLang.ar,
+      activeLanguage: Lang.tryParse(j['active_language'] as String?) ?? Lang.de,
+      dailyGoalMinutes: j['daily_goal_minutes'] as int? ?? 120,
+      newCardsPerDay: j['new_cards_per_day'] as int? ?? 20,
+      desiredRetention: (j['desired_retention'] as num?)?.toDouble() ?? 0.9,
+      updatedAt: j['updated_at'] == null
+          ? DateTime.fromMillisecondsSinceEpoch(0, isUtc: true)
+          : _date(j['updated_at']),
+    );
+  }
+}
+
+enum TrackStatus { scheduled, active, paused }
+
+/// Your path in one language: its own level, unit and share of study time.
+/// One row per language in language_tracks.
+class LanguageTrack {
+  const LanguageTrack({
+    required this.lang,
+    required this.updatedAt,
+    this.status = TrackStatus.scheduled,
+    this.startDate,
+    this.currentLevel = 'A0',
+    this.currentUnitId,
+    this.timeShare = 1 / 3,
+    this.newCardsPerDay = 10,
+  });
+
+  final Lang lang;
+  final TrackStatus status;
+
+  /// The day this language starts (or started). Null until it is planned.
+  final DateTime? startDate;
+  final String currentLevel;
+  final String? currentUnitId;
+
+  /// Fraction of the daily study time for this language.
+  final double timeShare;
+  final int newCardsPerDay;
+  final DateTime updatedAt;
+
+  /// The default plan: German now, Spanish two weeks later, Dutch eight
+  /// weeks later (see Lang.startWeek).
+  factory LanguageTrack.defaultFor(Lang lang, DateTime planStart) {
+    final start = DateTime.utc(
+      planStart.year,
+      planStart.month,
+      planStart.day,
+    ).add(Duration(days: 7 * (lang.startWeek - 1)));
+    return LanguageTrack(
+      lang: lang,
+      status: lang.startWeek <= 1 ? TrackStatus.active : TrackStatus.scheduled,
+      startDate: start,
+      updatedAt: DateTime.fromMillisecondsSinceEpoch(0, isUtc: true),
+    );
+  }
+
+  /// Scheduled tracks become active on their start day.
+  bool isActiveOn(DateTime day) =>
+      status == TrackStatus.active ||
+      (status == TrackStatus.scheduled &&
+          startDate != null &&
+          !day.isBefore(startDate!));
+
+  LanguageTrack copyWith({
+    TrackStatus? status,
+    DateTime? startDate,
+    String? currentLevel,
+    String? currentUnitId,
+    double? timeShare,
+    int? newCardsPerDay,
+  }) => LanguageTrack(
+    lang: lang,
+    status: status ?? this.status,
+    startDate: startDate ?? this.startDate,
+    currentLevel: currentLevel ?? this.currentLevel,
+    currentUnitId: currentUnitId ?? this.currentUnitId,
+    timeShare: timeShare ?? this.timeShare,
+    newCardsPerDay: newCardsPerDay ?? this.newCardsPerDay,
+    updatedAt: DateTime.now().toUtc(),
+  );
+
+  Map<String, dynamic> toJson() => {
+    'lang': lang.name,
+    'status': status.name,
+    'start_date': startDate?.toIso8601String().substring(0, 10),
+    'current_level': currentLevel,
+    'current_unit_id': currentUnitId,
+    'time_share': timeShare,
+    'new_cards_per_day': newCardsPerDay,
+    'deleted': false,
+    'updated_at': updatedAt.toIso8601String(),
+  };
+
+  factory LanguageTrack.fromJson(Map<String, dynamic> j) => LanguageTrack(
+    lang: Lang.tryParse(j['lang'] as String?)!,
+    status: TrackStatus.values.byName(j['status'] as String? ?? 'scheduled'),
+    startDate: j['start_date'] == null
+        ? null
+        : DateTime.parse('${j['start_date']}'.substring(0, 10)).toUtc(),
+    currentLevel: j['current_level'] as String? ?? 'A0',
+    currentUnitId: j['current_unit_id'] as String?,
+    timeShare: (j['time_share'] as num?)?.toDouble() ?? 1 / 3,
+    newCardsPerDay: j['new_cards_per_day'] as int? ?? 10,
     updatedAt: j['updated_at'] == null
         ? DateTime.fromMillisecondsSinceEpoch(0, isUtc: true)
         : _date(j['updated_at']),

@@ -5,9 +5,8 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
 import 'app_localizations_en.dart';
-import 'app_localizations_es.dart';
-import 'app_localizations_nl.dart';
 
 // ignore_for_file: type=lint
 
@@ -95,9 +94,8 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('ar'),
     Locale('en'),
-    Locale('es'),
-    Locale('nl'),
   ];
 
   /// No description provided for @appTitle.
@@ -177,12 +175,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Coming soon'**
   String get comingSoon;
-
-  /// No description provided for @monthsRange.
-  ///
-  /// In en, this message translates to:
-  /// **'Months {from}–{to}'**
-  String monthsRange(int from, int to);
 
   /// No description provided for @hoursShort.
   ///
@@ -295,8 +287,8 @@ abstract class AppLocalizations {
   /// No description provided for @whichMeans.
   ///
   /// In en, this message translates to:
-  /// **'Which German word means “{word}”?'**
-  String whichMeans(String word);
+  /// **'Which {language} word means “{word}”?'**
+  String whichMeans(String word, String language);
 
   /// No description provided for @example.
   ///
@@ -373,8 +365,8 @@ abstract class AppLocalizations {
   /// No description provided for @typeHere.
   ///
   /// In en, this message translates to:
-  /// **'Type in German'**
-  String get typeHere;
+  /// **'Type in {language}'**
+  String typeHere(String language);
 
   /// No description provided for @showTranslation.
   ///
@@ -409,13 +401,13 @@ abstract class AppLocalizations {
   /// No description provided for @writingCheck.
   ///
   /// In en, this message translates to:
-  /// **'Check my German'**
+  /// **'Check my writing'**
   String get writingCheck;
 
   /// No description provided for @noIssues.
   ///
   /// In en, this message translates to:
-  /// **'No problems found. Gut gemacht!'**
+  /// **'No problems found. Well done!'**
   String get noIssues;
 
   /// No description provided for @wordCount.
@@ -463,7 +455,7 @@ abstract class AppLocalizations {
   /// No description provided for @courseTimeline.
   ///
   /// In en, this message translates to:
-  /// **'Your 2-year path'**
+  /// **'Your A0–C1 path'**
   String get courseTimeline;
 
   /// No description provided for @settings.
@@ -585,6 +577,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Something went wrong: {message}'**
   String errorMessage(String message);
+
+  /// No description provided for @noContentYet.
+  ///
+  /// In en, this message translates to:
+  /// **'Lessons for {language} are coming in the next update.'**
+  String noContentYet(String language);
+
+  /// No description provided for @startsOn.
+  ///
+  /// In en, this message translates to:
+  /// **'Your plan starts this language on {date}.'**
+  String startsOn(String date);
+
+  /// No description provided for @languages.
+  ///
+  /// In en, this message translates to:
+  /// **'Your languages'**
+  String get languages;
+
+  /// No description provided for @trackActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get trackActive;
+
+  /// No description provided for @trackScheduled.
+  ///
+  /// In en, this message translates to:
+  /// **'Starts {date}'**
+  String trackScheduled(String date);
+
+  /// No description provided for @trackPaused.
+  ///
+  /// In en, this message translates to:
+  /// **'Paused'**
+  String get trackPaused;
+
+  /// No description provided for @pauseLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause'**
+  String get pauseLanguage;
+
+  /// No description provided for @resumeLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Start now'**
+  String get resumeLanguage;
+
+  /// No description provided for @levelN.
+  ///
+  /// In en, this message translates to:
+  /// **'Level {level}'**
+  String levelN(String level);
+
+  /// No description provided for @unitsCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} units'**
+  String unitsCount(int count);
+
+  /// No description provided for @sameForAllLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'The same units in German, Spanish and Dutch. Hours are per language.'**
+  String get sameForAllLanguages;
+
+  /// No description provided for @explainArabic.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get explainArabic;
+
+  /// No description provided for @explainEnglish.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get explainEnglish;
 }
 
 class _AppLocalizationsDelegate
@@ -598,7 +668,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'es', 'nl'].contains(locale.languageCode);
+      <String>['ar', 'en'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -607,12 +677,10 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
     case 'en':
       return AppLocalizationsEn();
-    case 'es':
-      return AppLocalizationsEs();
-    case 'nl':
-      return AppLocalizationsNl();
   }
 
   throw FlutterError(

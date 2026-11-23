@@ -14,14 +14,14 @@ class ListeningScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final level = ref.watch(settingsProvider).value?.currentLevel ?? 'A1';
     return StudyTimer(
       activity: Activity.listening,
       child: Scaffold(
         appBar: AppBar(title: Text(context.l10n.lessonListening)),
         body: AsyncView(
-          value: ref.watch(levelContentProvider(level)),
+          value: ref.watch(activeContentProvider),
           builder: (c) {
+            if (c == null) return const NoContentYet();
             final sentences = (c.sentences.values.toList()..shuffle())
                 .take(10)
                 .toList();

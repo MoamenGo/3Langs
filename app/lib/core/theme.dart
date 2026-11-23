@@ -1,12 +1,17 @@
 import 'package:material_ui/material_ui.dart';
 
-// German flag colours, softened: black, red, gold.
-const _seed = Color(0xFFDD0000);
+import 'lang/lang.dart';
 
-ThemeData buildTheme(Brightness brightness) {
-  final scheme = ColorScheme.fromSeed(seedColor: _seed, brightness: brightness);
+/// The whole app takes the colour of the language on screen, so each
+/// language has its own visual context (it helps keep them apart).
+ThemeData buildTheme(Brightness brightness, {Lang lang = Lang.de}) {
+  final scheme = ColorScheme.fromSeed(
+    seedColor: lang.color,
+    brightness: brightness,
+  );
   return ThemeData(
     colorScheme: scheme,
+    fontFamilyFallback: const ['NotoSansArabic'],
     useMaterial3: true,
     cardTheme: const CardThemeData(
       elevation: 0,

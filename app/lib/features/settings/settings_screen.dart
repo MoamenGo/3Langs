@@ -9,7 +9,8 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/sync/sync_service.dart';
 
-const _languageNames = {'en': 'English', 'nl': 'Nederlands', 'es': 'Español'};
+/// Interface and explanation languages, each named in itself.
+const _languageNames = {'ar': 'العربية', 'en': 'English'};
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -59,6 +60,8 @@ class SettingsScreen extends ConsumerWidget {
               onChanged: (v) => save(settings.copyWith(explanationLanguage: v)),
             ),
           ),
+          const _TracksSection(),
+          const Divider(),
           ListTile(
             leading: const Icon(Icons.flag_outlined),
             title: Text(l.dailyGoal),
@@ -159,6 +162,66 @@ class _AccountSection extends ConsumerWidget {
             await ref.read(localDbProvider).clearAll();
           },
         ),
+      ],
+    );
+  }
+}
+
+/// The three languages, with their level and plan. A scheduled language can
+/// start early; an active one can be paused.
+class _TracksSection extends ConsumerWidget {
+  const _TracksSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final ui = ref.watch(uiLanguageProvider);
+    final tracks = ref.watch(tracksProvider).value;
+    if (tracks == null) return const SizedBox.shrink();
+    final today = DateTime.now().toUtc();
+    Future<void> save(LanguageTrack t) async {
+      await ref.read(trackRepositoryProvider).save(t);
+      ref.read(syncServiceProvider).schedule();
+    }
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 4),
+          child: Text(
+            l.languages,
+            style: Theme.of(context).textTheme.titleSmall,
+          ),
+        ),
+        for (final t in tracks.values)
+          ListTile(
+            leading: CircleAvatar(
+              backgroundColor: t.lang.color,
+              foregroundColor: Colors.white,
+              child: Text(t.lang.code),
+            ),
+            title: Text(t.lang.displayName(ui)),
+            subtitle: Text(
+              '${l.levelN(t.currentLevel)} · ${t.isActiveOn(today)
+                  ? l.trackActive
+                  : t.status == TrackStatus.paused
+                  ? l.trackPaused
+                  : l.trackScheduled(formatDay(t.startDate!))}',
+            ),
+            trailing: t.isActiveOn(today)
+                ? TextButton(
+                    onPressed: () =>
+                        save(t.copyWith(status: TrackStatus.paused)),
+                    child: Text(l.pauseLanguage),
+                  )
+                : TextButton(
+                    onPressed: () => save(
+                      t.copyWith(status: TrackStatus.active, startDate: today),
+                    ),
+                    child: Text(l.resumeLanguage),
+                  ),
+          ),
       ],
     );
   }

@@ -18,8 +18,7 @@ class HomeScreen extends ConsumerWidget {
     final settings = ref.watch(settingsProvider).value;
     final stats = ref.watch(studyStatsProvider).value;
     final due = ref.watch(dueCountProvider).value ?? 0;
-    final level = settings?.currentLevel ?? 'A1';
-    final content = ref.watch(levelContentProvider(level));
+    final content = ref.watch(activeContentProvider);
     final progress = ref.watch(lessonProgressProvider).value ?? const {};
     final lang = ref.watch(explainLangProvider);
     final goal = settings?.dailyGoalMinutes ?? 120;
@@ -29,6 +28,7 @@ class HomeScreen extends ConsumerWidget {
       appBar: AppBar(
         title: Text(l.appTitle),
         actions: [
+          const LangSwitcher(),
           IconButton(
             icon: const Icon(Icons.settings_outlined),
             tooltip: l.settings,
@@ -87,6 +87,7 @@ class HomeScreen extends ConsumerWidget {
           AsyncView(
             value: content,
             builder: (c) {
+              if (c == null) return const NoContentYet();
               final next = _nextLesson(c, progress);
               if (next == null) {
                 return Padding(
@@ -103,7 +104,7 @@ class HomeScreen extends ConsumerWidget {
                     '${l.unitN(unit.order)} · ${unit.theme.get(lang)}',
                   ),
                   trailing: const Icon(Icons.play_arrow),
-                  onTap: () => context.push('/lesson/${next.id}?level=$level'),
+                  onTap: () => context.push('/lesson/${next.id}'),
                 ),
               );
             },

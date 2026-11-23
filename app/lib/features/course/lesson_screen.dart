@@ -15,12 +15,9 @@ import 'exercises.dart';
 /// questions. Review: quiz over the whole unit. At the end, the lesson is
 /// marked complete and its words join the flashcard queue.
 class LessonScreen extends ConsumerStatefulWidget {
-  const LessonScreen({
-    super.key,
-    required this.levelId,
-    required this.lessonId,
-  });
-  final String levelId;
+  const LessonScreen({super.key, required this.lessonId});
+
+  /// For example `de.a1.u03.l02`; the language and level come from the id.
   final String lessonId;
 
   @override
@@ -42,7 +39,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final content = ref.watch(levelContentProvider(widget.levelId));
+    final content = ref.watch(levelContentProvider(packKeyOf(widget.lessonId)));
     final lang = ref.watch(explainLangProvider);
     return StudyTimer(
       activity: Activity.lesson,
@@ -236,9 +233,9 @@ class _GrammarLessonState extends ConsumerState<_GrammarLesson> {
               for (final id in p.exampleSentenceIds)
                 if (widget.content.sentences[id] case final s?)
                   ListTile(
-                    title: Text(s.de),
+                    title: Text(s.text),
                     subtitle: Text(s.translations.get(lang)),
-                    trailing: SpeakButton(s.de),
+                    trailing: SpeakButton(s.text),
                   ),
             ],
           ),

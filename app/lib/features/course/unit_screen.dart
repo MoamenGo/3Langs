@@ -8,8 +8,9 @@ import '../../data/models/learner.dart';
 import 'lesson_type_ui.dart';
 
 class UnitScreen extends ConsumerWidget {
-  const UnitScreen({super.key, required this.levelId, required this.unitId});
-  final String levelId;
+  const UnitScreen({super.key, required this.unitId});
+
+  /// For example `de.a1.u03`; the language and level come from the id.
   final String unitId;
 
   @override
@@ -18,7 +19,7 @@ class UnitScreen extends ConsumerWidget {
     final lang = ref.watch(explainLangProvider);
     final progress = ref.watch(lessonProgressProvider).value ?? const {};
     return AsyncView(
-      value: ref.watch(levelContentProvider(levelId)),
+      value: ref.watch(levelContentProvider(packKeyOf(unitId))),
       builder: (c) {
         final unit = c.units.firstWhere((u) => u.id == unitId);
         return Scaffold(
@@ -45,8 +46,7 @@ class UnitScreen extends ConsumerWidget {
                         progress[lesson.id]?.status == LessonStatus.completed
                         ? const Icon(Icons.check_circle, color: Colors.green)
                         : const Icon(Icons.chevron_right),
-                    onTap: () =>
-                        context.push('/lesson/${lesson.id}?level=$levelId'),
+                    onTap: () => context.push('/lesson/${lesson.id}'),
                   ),
                 ),
             ],

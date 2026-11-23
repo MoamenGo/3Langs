@@ -7,7 +7,7 @@ starter_a1_units.py)
 so the app has real content to run on.
 
 Run:  python content/pipeline/starter_a1.py
-Out:  app/assets/content/a1.json
+Out:  app/assets/content/de/a1.json (written as v1, then converted by to_v2.py)
 """
 from __future__ import annotations
 
@@ -348,6 +348,9 @@ def main() -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(build(), ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"wrote {out}")
+    # Convert to the three-language layout: assets/content/de/a1.json.
+    import to_v2
+    to_v2.main()
 
 
 if __name__ == "__main__":

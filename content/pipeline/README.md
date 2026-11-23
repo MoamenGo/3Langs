@@ -31,3 +31,11 @@ Other scripts:
 Licences: every record keeps `source` and `license`. The app's About screen
 lists them. Goethe lists and DW are copyrighted: use Goethe only as a level
 checklist and only link to DW.
+
+## Three-language layout (v2)
+
+The app now reads `app/assets/content/{lang}/{level}.json` with ids like
+`de.a1.vocab.haus` and explanations in `ar`/`en`. `to_v2.py` converts a v1
+file (what `starter_a1.py` and `08_publish.py` still write) into that layout,
+adding Arabic from `content/data/manual/ar_de_a1.json`. A `--lang` option for
+the whole pipeline comes with the Dutch and Spanish content (phase 4).

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 import '../core/env.dart';
+import '../core/lang/lang.dart';
 
 /// One problem LanguageTool found in the learner's text.
 class WritingIssue {
@@ -29,7 +30,7 @@ class WritingIssue {
   };
 }
 
-/// Grammar and spelling checks for German writing, via the free LanguageTool
+/// Grammar and spelling checks for German, Dutch and Spanish writing, via the free LanguageTool
 /// API. Explanations come back in the learner's explanation language when
 /// LanguageTool supports it (`motherTongue`).
 class LanguageToolService {
@@ -39,13 +40,14 @@ class LanguageToolService {
 
   Future<List<WritingIssue>> check(
     String text, {
+    Lang lang = Lang.de,
     String motherTongue = 'en',
   }) async {
     final res = await _client.post(
       Uri.parse('${Env.languageToolUrl}/check'),
       body: {
         'text': text,
-        'language': 'de-DE',
+        'language': lang.tts,
         'motherTongue': motherTongue,
         'level': 'default',
       },

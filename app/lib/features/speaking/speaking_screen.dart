@@ -26,14 +26,14 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     final lang = ref.watch(explainLangProvider);
-    final level = ref.watch(settingsProvider).value?.currentLevel ?? 'A1';
     return StudyTimer(
       activity: Activity.speaking,
       child: Scaffold(
         appBar: AppBar(title: Text(l.lessonSpeaking)),
         body: AsyncView(
-          value: ref.watch(levelContentProvider(level)),
+          value: ref.watch(activeContentProvider),
           builder: (c) {
+            if (c == null) return const NoContentYet();
             _sentences ??= c.sentences.values.toList()..shuffle();
             final s = _sentences![_index % _sentences!.length];
             return Padding(
@@ -44,7 +44,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
                   Text(l.speakingIntro, textAlign: TextAlign.center),
                   const Spacer(),
                   Text(
-                    s.de,
+                    s.text,
                     style: Theme.of(context).textTheme.headlineSmall,
                     textAlign: TextAlign.center,
                   ),
@@ -60,8 +60,8 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SpeakButton(s.de),
-                      SpeakButton(s.de, slow: true),
+                      SpeakButton(s.text),
+                      SpeakButton(s.text, slow: true),
                     ],
                   ),
                   const Spacer(),

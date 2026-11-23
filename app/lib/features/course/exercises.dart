@@ -59,12 +59,12 @@ class WordCard extends ConsumerWidget {
                 children: [
                   Flexible(
                     child: Text(
-                      example.de,
+                      example.text,
                       style: text.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
-                  SpeakButton(example.de),
+                  SpeakButton(example.text),
                 ],
               ),
               Text(
@@ -156,7 +156,10 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
         LinearProgressIndicator(value: _index / _order.length),
         const SizedBox(height: 24),
         Text(
-          l.whichMeans(target.translations.get(lang)),
+          l.whichMeans(
+            target.translations.get(lang),
+            ref.watch(activeLangNameProvider),
+          ),
           style: Theme.of(context).textTheme.titleLarge,
           textAlign: TextAlign.center,
         ),
@@ -190,7 +193,7 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
 }
 
 /// Fill-in-the-gap grammar exercises: "Ich ___ Anna. (heißen)".
-class FillBlankRunner extends StatefulWidget {
+class FillBlankRunner extends ConsumerStatefulWidget {
   const FillBlankRunner({
     super.key,
     required this.exercises,
@@ -200,10 +203,10 @@ class FillBlankRunner extends StatefulWidget {
   final void Function(double score) onDone;
 
   @override
-  State<FillBlankRunner> createState() => _FillBlankRunnerState();
+  ConsumerState<FillBlankRunner> createState() => _FillBlankRunnerState();
 }
 
-class _FillBlankRunnerState extends State<FillBlankRunner> {
+class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
   final _controller = TextEditingController();
   int _index = 0, _correct = 0;
   bool? _wasRight;
@@ -260,7 +263,9 @@ class _FillBlankRunnerState extends State<FillBlankRunner> {
           autofocus: true,
           autocorrect: false,
           enabled: _wasRight == null,
-          decoration: InputDecoration(hintText: l.typeHere),
+          decoration: InputDecoration(
+            hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+          ),
           onSubmitted: (_) => _wasRight == null ? _check() : _next(),
         ),
         const SizedBox(height: 12),

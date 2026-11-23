@@ -12,26 +12,27 @@ class ReadingListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final level = ref.watch(settingsProvider).value?.currentLevel ?? 'A1';
     return Scaffold(
       appBar: AppBar(title: Text(context.l10n.lessonReading)),
       body: AsyncView(
-        value: ref.watch(levelContentProvider(level)),
-        builder: (c) => ListView(
-          children: [
-            for (final t in c.texts.values)
-              ListTile(
-                leading: Icon(
-                  t.kind == 'external'
-                      ? Icons.open_in_new
-                      : Icons.article_outlined,
-                ),
-                title: Text(t.title),
-                subtitle: Text('${t.level} · ${t.source}'),
-                onTap: () => context.push('/practice/reading/${t.id}'),
+        value: ref.watch(activeContentProvider),
+        builder: (c) => c == null
+            ? const NoContentYet()
+            : ListView(
+                children: [
+                  for (final t in c.texts.values)
+                    ListTile(
+                      leading: Icon(
+                        t.kind == 'external'
+                            ? Icons.open_in_new
+                            : Icons.article_outlined,
+                      ),
+                      title: Text(t.title),
+                      subtitle: Text('${t.level} · ${t.source}'),
+                      onTap: () => context.push('/practice/reading/${t.id}'),
+                    ),
+                ],
               ),
-          ],
-        ),
       ),
     );
   }
@@ -43,13 +44,12 @@ class ReadingScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final level = ref.watch(settingsProvider).value?.currentLevel ?? 'A1';
     return StudyTimer(
       activity: Activity.reading,
       child: Scaffold(
         appBar: AppBar(),
         body: AsyncView(
-          value: ref.watch(levelContentProvider(level)),
+          value: ref.watch(levelContentProvider(packKeyOf(textId))),
           builder: (c) => ReadingView(
             text: c.texts[textId]!,
             content: c,

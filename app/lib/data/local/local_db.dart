@@ -35,9 +35,11 @@ class LocalDb {
   );
   static const writingSubmissions = SyncedTable('writing_submissions', 'id');
   static const userSettings = SyncedTable('user_settings', 'user_id');
+  static const languageTracks = SyncedTable('language_tracks', 'lang');
 
   static const syncedTables = [
     userSettings,
+    languageTracks,
     cardStates,
     reviewLogs,
     lessonProgress,
@@ -56,9 +58,12 @@ class LocalDb {
   static Future<LocalDb> open({String name = '3lang'}) async =>
       LocalDb._(await openAppDatabase(name));
 
-  /// In-memory database for tests.
-  static Future<LocalDb> memory() async =>
-      LocalDb._(await databaseFactoryMemory.openDatabase('test'));
+  /// In-memory database for tests. Each call gets a fresh, empty database
+  /// (memory databases with the same name share their data).
+  static Future<LocalDb> memory() async => LocalDb._(
+    await databaseFactoryMemory.openDatabase('test${_memoryCount++}'),
+  );
+  static var _memoryCount = 0;
 
   /// Saves a record changed on this device and marks it for upload.
   Future<void> putLocal(SyncedTable t, String key, Map<String, Object?> row) =>
