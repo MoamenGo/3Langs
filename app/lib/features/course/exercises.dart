@@ -10,6 +10,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../contrast/contrast_widgets.dart';
+import '../../core/bidi.dart';
 
 /// Shows one word with its translation, plural, an example, and the same
 /// word in the learner's other languages.
@@ -37,7 +38,7 @@ class WordCard extends ConsumerWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Flexible(
-                  child: Text(
+                  child: BidiText(
                     item.display,
                     textDirection: TextDirection.ltr,
                     style: text.headlineMedium,
@@ -48,21 +49,21 @@ class WordCard extends ConsumerWidget {
               ],
             ),
             if (item.plural != null)
-              Text(l.plural(item.plural!), style: text.bodySmall),
+              BidiText(l.plural(item.plural!), style: text.bodySmall),
             const SizedBox(height: 12),
-            Text(
+            BidiText(
               item.translations.get(lang),
               style: text.titleMedium,
               textAlign: TextAlign.center,
             ),
             if (example != null) ...[
               const Divider(height: 32),
-              Text(l.example, style: text.labelSmall),
+              BidiText(l.example, style: text.labelSmall),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Flexible(
-                    child: Text(
+                    child: BidiText(
                       example.text,
                       textDirection: TextDirection.ltr,
                       style: text.bodyLarge,
@@ -72,7 +73,7 @@ class WordCard extends ConsumerWidget {
                   SpeakButton(example.text, lang: item.lang),
                 ],
               ),
-              Text(
+              BidiText(
                 example.translations.get(lang),
                 style: text.bodyMedium?.copyWith(
                   color: Theme.of(context).hintColor,
@@ -197,7 +198,7 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
       children: [
         LinearProgressIndicator(value: _index / _order.length),
         const SizedBox(height: 24),
-        Text(
+        BidiText(
           l.whichMeans(
             target.translations.get(lang),
             ref.watch(activeLangNameProvider),
@@ -221,13 +222,13 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
                     : null,
               ),
               onPressed: () => _pick(o),
-              child: Text(o.display, style: const TextStyle(fontSize: 18)),
+              child: BidiText(o.display, style: const TextStyle(fontSize: 18)),
             ),
           ),
         if (_mixupFrom != null)
           Padding(
             padding: const EdgeInsets.only(top: 12),
-            child: Text(
+            child: BidiText(
               l.mixupHint(
                 _mixupFrom!.displayName(ref.watch(uiLanguageProvider)),
               ),
@@ -238,7 +239,7 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
         const Spacer(),
         FilledButton(
           onPressed: _picked == null ? null : _next,
-          child: Text(l.next),
+          child: BidiText(l.next),
         ),
       ],
     );
@@ -299,13 +300,13 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
       children: [
         LinearProgressIndicator(value: _index / widget.exercises.length),
         const SizedBox(height: 24),
-        Text(
+        BidiText(
           ex.prompt,
           style: Theme.of(context).textTheme.headlineSmall,
           textAlign: TextAlign.center,
         ),
         if (ex.base != null)
-          Text(
+          BidiText(
             '(${ex.base})',
             textAlign: TextAlign.center,
             style: TextStyle(color: Theme.of(context).hintColor),
@@ -313,17 +314,19 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
         const SizedBox(height: 16),
         TextField(
           controller: _controller,
+          textDirection: TextDirection.ltr,
           autofocus: true,
           autocorrect: false,
           enabled: _wasRight == null,
           decoration: InputDecoration(
             hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+            hintTextDirection: Directionality.of(context),
           ),
           onSubmitted: (_) => _wasRight == null ? _check() : _next(),
         ),
         const SizedBox(height: 12),
         if (_wasRight != null)
-          Text(
+          BidiText(
             _wasRight! ? l.correct : l.wrongAnswer(ex.answer),
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -335,7 +338,7 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
         const Spacer(),
         FilledButton(
           onPressed: _wasRight == null ? _check : _next,
-          child: Text(_wasRight == null ? l.check : l.next),
+          child: BidiText(_wasRight == null ? l.check : l.next),
         ),
       ],
     );

@@ -3,6 +3,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
+import '../../core/bidi.dart';
 
 /// Credits for every content source, as the CC BY / CC BY-SA licences ask.
 class AboutScreen extends ConsumerWidget {
@@ -58,31 +59,35 @@ class AboutScreen extends ConsumerWidget {
       },
     };
     return Scaffold(
-      appBar: AppBar(title: Text(l.about)),
+      appBar: AppBar(title: BidiText(l.about)),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Text(l.aboutText),
+          BidiText(l.aboutText),
           const SizedBox(height: 16),
           for (final (name, what, license, url) in _sources)
             ListTile(
-              title: Text(name),
-              subtitle: Text('$what · $license\n$url'),
+              title: BidiText(name),
+              subtitle: BidiText('$what · $license\n$url'),
               isThreeLine: true,
             ),
           const Divider(),
           for (final c in levels)
             ListTile(
               dense: true,
-              title: Text('${c.level.id} content ${c.contentVersion}'),
+              title: BidiText('${c.level.id} content ${c.contentVersion}'),
             ),
           for (final e in itemSources.entries.take(50))
-            ListTile(dense: true, title: Text(e.key), trailing: Text(e.value)),
+            ListTile(
+              dense: true,
+              title: BidiText(e.key),
+              trailing: BidiText(e.value),
+            ),
           const SizedBox(height: 16),
           OutlinedButton(
             onPressed: () =>
                 showLicensePage(context: context, applicationName: l.appTitle),
-            child: const Text('Open-source licences'),
+            child: const BidiText('Open-source licences'),
           ),
         ],
       ),

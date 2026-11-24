@@ -14,6 +14,7 @@ import '../../domain/assessment/assessment.dart';
 import 'exam_runner.dart';
 import 'exercises.dart';
 import 'grammar_view.dart';
+import '../../core/bidi.dart';
 
 /// Runs one lesson. Vocab lessons: study cards, then a quiz. Grammar: rule,
 /// table, then fill-in exercises. Listening: dictation. Reading: text and
@@ -77,7 +78,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         builder: (c) {
           final lesson = c.lessons[widget.lessonId]!;
           return Scaffold(
-            appBar: AppBar(title: Text(lesson.title.get(lang))),
+            appBar: AppBar(title: BidiText(lesson.title.get(lang))),
             body: SafeArea(
               child: Center(
                 child: ConstrainedBox(
@@ -201,7 +202,7 @@ class _VocabLessonState extends State<_VocabLesson> {
                   _quiz = true;
                 }
               }),
-              child: Text(context.l10n.next),
+              child: BidiText(context.l10n.next),
             ),
           ],
         ),
@@ -241,7 +242,7 @@ class _GrammarLessonState extends ConsumerState<_GrammarLesson> {
         ),
         FilledButton(
           onPressed: () => setState(() => _practice = true),
-          child: Text(context.l10n.next),
+          child: BidiText(context.l10n.next),
         ),
       ],
     );
@@ -261,14 +262,17 @@ class _LessonResult extends StatelessWidget {
       children: [
         const Icon(Icons.celebration, size: 72, color: Colors.amber),
         const SizedBox(height: 16),
-        Text(l.lessonDone, style: Theme.of(context).textTheme.headlineSmall),
-        Text(l.scoreLabel((score * 100).round())),
+        BidiText(
+          l.lessonDone,
+          style: Theme.of(context).textTheme.headlineSmall,
+        ),
+        BidiText(l.scoreLabel((score * 100).round())),
         const SizedBox(height: 8),
-        Text(l.wordsAddedToReview(added)),
+        BidiText(l.wordsAddedToReview(added)),
         const SizedBox(height: 24),
         FilledButton(
           onPressed: () => context.pop(),
-          child: Text(l.backToCourse),
+          child: BidiText(l.backToCourse),
         ),
       ],
     );
@@ -300,23 +304,23 @@ class _ExamResult extends StatelessWidget {
           color: passed ? Colors.amber : Colors.blueGrey,
         ),
         const SizedBox(height: 16),
-        Text(
+        BidiText(
           passed ? l.examPassed(level) : l.examFailed(level),
           style: Theme.of(context).textTheme.headlineSmall,
           textAlign: TextAlign.center,
         ),
-        Text(l.scoreLabel((score * 100).round())),
+        BidiText(l.scoreLabel((score * 100).round())),
         if (passed && next != null) ...[
           const SizedBox(height: 8),
-          Text(l.nowAtLevel(next!), textAlign: TextAlign.center),
+          BidiText(l.nowAtLevel(next!), textAlign: TextAlign.center),
         ],
         const SizedBox(height: 24),
         if (!passed)
-          OutlinedButton(onPressed: onRetry, child: Text(l.tryAgain)),
+          OutlinedButton(onPressed: onRetry, child: BidiText(l.tryAgain)),
         const SizedBox(height: 8),
         FilledButton(
           onPressed: () => context.pop(),
-          child: Text(l.backToCourse),
+          child: BidiText(l.backToCourse),
         ),
       ],
     );

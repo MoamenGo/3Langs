@@ -10,6 +10,7 @@ import '../../data/repositories/content_repository.dart';
 import '../../domain/scheduling/session_planner.dart';
 import '../course/lesson_type_ui.dart';
 import 'today_plan.dart';
+import '../../core/bidi.dart';
 
 /// "Today": the day's plan across the three languages, built by the
 /// SessionPlanner. "Continue" walks you through it block by block, so you
@@ -30,7 +31,7 @@ class TodayScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(l.navToday),
+        title: BidiText(l.navToday),
         actions: [
           const LangSwitcher(),
           IconButton(
@@ -48,16 +49,16 @@ class TodayScreen extends ConsumerWidget {
                 color: Theme.of(context).colorScheme.primaryContainer,
                 child: ListTile(
                   leading: const Icon(Icons.waving_hand),
-                  title: Text(l.welcomeTitle),
+                  title: BidiText(l.welcomeTitle),
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(l.welcomeSubtitle),
+                      BidiText(l.welcomeSubtitle),
                       const SizedBox(height: 8),
                       FilledButton(
                         key: const ValueKey('setup'),
                         onPressed: () => context.push('/welcome'),
-                        child: Text(l.setUp),
+                        child: BidiText(l.setUp),
                       ),
                     ],
                   ),
@@ -76,14 +77,14 @@ class TodayScreen extends ConsumerWidget {
                           color: Colors.orange,
                         ),
                         const SizedBox(width: 8),
-                        Text(
+                        BidiText(
                           l.streakDays(stats?.streakDays ?? 0),
                           style: Theme.of(context).textTheme.titleMedium,
                         ),
                       ],
                     ),
                     const SizedBox(height: 12),
-                    Text(l.todayGoal(minutes, goal)),
+                    BidiText(l.todayGoal(minutes, goal)),
                     const SizedBox(height: 8),
                     LinearProgressIndicator(
                       value: (minutes / goal).clamp(0, 1).toDouble(),
@@ -150,11 +151,11 @@ class _PlanCard extends ConsumerWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ListTile(
-              title: Text(
+              title: BidiText(
                 l.todaysPlan,
                 style: Theme.of(context).textTheme.titleLarge,
               ),
-              subtitle: Text(l.planMinutes(plan.totalMinutes, left)),
+              subtitle: BidiText(l.planMinutes(plan.totalMinutes, left)),
               trailing: IconButton(
                 tooltip: l.rebuildPlan,
                 icon: const Icon(Icons.refresh),
@@ -164,7 +165,7 @@ class _PlanCard extends ConsumerWidget {
             if (plan.blocks.isEmpty)
               Padding(
                 padding: const EdgeInsets.all(16),
-                child: Text(l.planEmpty),
+                child: BidiText(l.planEmpty),
               ),
             for (final (i, b) in plan.blocks.indexed)
               _BlockTile(
@@ -180,13 +181,15 @@ class _PlanCard extends ConsumerWidget {
                       children: [
                         const Icon(Icons.check_circle, color: Colors.green),
                         const SizedBox(width: 8),
-                        Expanded(child: Text(l.planDone)),
+                        Expanded(child: BidiText(l.planDone)),
                       ],
                     )
                   : FilledButton.icon(
                       key: const ValueKey('continue-plan'),
                       icon: const Icon(Icons.play_arrow),
-                      label: Text(done.isEmpty ? l.startPlan : l.continuePlan),
+                      label: BidiText(
+                        done.isEmpty ? l.startPlan : l.continuePlan,
+                      ),
                       onPressed: () => runBlock(context, ref, next),
                     ),
             ),
@@ -259,14 +262,14 @@ class _BlockTile extends ConsumerWidget {
             ? const Icon(Icons.check)
             : Icon(blockIcon(block), size: 20),
       ),
-      title: Text(
+      title: BidiText(
         title,
         style: done
             ? const TextStyle(decoration: TextDecoration.lineThrough)
             : null,
       ),
-      subtitle: subtitle == null ? null : Text(subtitle),
-      trailing: Text(l.minutesShort(block.minutes)),
+      subtitle: subtitle == null ? null : BidiText(subtitle),
+      trailing: BidiText(l.minutesShort(block.minutes)),
       onTap: () => runBlock(context, ref, block),
     );
   }
@@ -325,7 +328,10 @@ class _LevelCards extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(l.yourLanguages, style: Theme.of(context).textTheme.titleMedium),
+        BidiText(
+          l.yourLanguages,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
         for (final lang in Lang.values)
           Builder(
             builder: (context) {
@@ -366,7 +372,7 @@ class _LevelCards extends ConsumerWidget {
                       await switchLanguage(ref, lang);
                       await advanceLevel(ref);
                     },
-                    child: Text(l.startLevel(up)),
+                    child: BidiText(l.startLevel(up)),
                   );
                 }
               }
@@ -375,10 +381,12 @@ class _LevelCards extends ConsumerWidget {
                   leading: CircleAvatar(
                     backgroundColor: lang.color,
                     foregroundColor: Colors.white,
-                    child: Text(lang.code),
+                    child: BidiText(lang.code),
                   ),
-                  title: Text('${lang.displayName(ui)} · ${t.currentLevel}'),
-                  subtitle: Text(subtitle),
+                  title: BidiText(
+                    '${lang.displayName(ui)} · ${t.currentLevel}',
+                  ),
+                  subtitle: BidiText(subtitle),
                   trailing: trailing,
                   onTap: next == null || !started
                       ? null

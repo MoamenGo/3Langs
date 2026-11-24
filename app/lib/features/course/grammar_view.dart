@@ -7,6 +7,7 @@ import '../../core/providers.dart';
 import '../../core/theme.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
+import '../../core/bidi.dart';
 
 /// One piece of a grammar explanation, parsed from its plain text.
 sealed class ExplainBlock {
@@ -156,7 +157,7 @@ class GrammarView extends ConsumerWidget {
               ),
               TextButton.icon(
                 icon: const Icon(Icons.play_circle_outline),
-                label: Text(l.listenAll),
+                label: BidiText(l.listenAll),
                 onPressed: () async {
                   final tts = ref.read(ttsProvider);
                   for (final s in examples) {
@@ -183,7 +184,7 @@ class GrammarView extends ConsumerWidget {
                     size: 20,
                   ),
                 ),
-                title: Text(
+                title: BidiText(
                   s.text,
                   textDirection: TextDirection.ltr,
                   textAlign: Directionality.of(context) == TextDirection.rtl
@@ -195,7 +196,7 @@ class GrammarView extends ConsumerWidget {
                 ),
                 subtitle: Padding(
                   padding: const EdgeInsets.only(top: 4),
-                  child: Text(s.translations.get(explain)),
+                  child: BidiText(s.translations.get(explain)),
                 ),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
@@ -220,7 +221,7 @@ class GrammarView extends ConsumerWidget {
         ),
         const SizedBox(height: 8),
         Center(
-          child: Text(
+          child: BidiText(
             point.level,
             style: text.labelSmall?.copyWith(color: scheme.outline),
           ),
@@ -278,7 +279,7 @@ class _Hero extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  BidiText(
                     '${lang.code} · $level',
                     style: const TextStyle(
                       color: Colors.white70,
@@ -286,7 +287,7 @@ class _Hero extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 4),
-                  Text(
+                  BidiText(
                     title,
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                       color: Colors.white,
@@ -317,7 +318,7 @@ class _SectionTitle extends StatelessWidget {
         children: [
           Icon(icon, color: scheme.primary, size: 20),
           const SizedBox(width: 8),
-          Text(
+          BidiText(
             label,
             style: Theme.of(context).textTheme.titleMedium
                 ?.copyWith(fontWeight: FontWeight.w700),
@@ -345,7 +346,7 @@ class _PointCard extends StatelessWidget {
             CircleAvatar(
               radius: 14,
               backgroundColor: scheme.primary,
-              child: Text(
+              child: BidiText(
                 '$number',
                 style: TextStyle(
                   color: scheme.onPrimary,
@@ -356,7 +357,7 @@ class _PointCard extends StatelessWidget {
             ),
             const SizedBox(width: 12),
             Expanded(
-              child: Text(
+              child: BidiText(
                 text,
                 style: Theme.of(context).textTheme.bodyLarge
                     ?.copyWith(height: 1.6),
@@ -405,7 +406,7 @@ class _BulletsCard extends StatelessWidget {
                           color: scheme.primaryContainer,
                           borderRadius: BorderRadius.circular(8),
                         ),
-                        child: Text(
+                        child: BidiText(
                           item.label!,
                           style: text.labelLarge?.copyWith(
                             color: scheme.onPrimaryContainer,
@@ -414,7 +415,7 @@ class _BulletsCard extends StatelessWidget {
                         ),
                       ),
                     if (item.text.isNotEmpty)
-                      Text(
+                      BidiText(
                         item.text,
                         style: text.bodyLarge?.copyWith(height: 1.5),
                       ),
@@ -459,7 +460,7 @@ class _PairChip extends StatelessWidget {
           color: scheme.primary.withValues(alpha: strong ? 0.5 : 0.2),
         ),
       ),
-      child: Text(
+      child: BidiText(
         s,
         style: TextStyle(
           fontWeight: strong ? FontWeight.w700 : FontWeight.w500,
@@ -509,7 +510,7 @@ class _GrammarTable extends StatelessWidget {
               fontWeight: FontWeight.w700,
               color: scheme.primary,
             ),
-            columns: [for (final h in headers) DataColumn(label: Text(h))],
+            columns: [for (final h in headers) DataColumn(label: BidiText(h))],
             rows: [
               for (final (i, row) in rows.indexed)
                 DataRow(
@@ -518,7 +519,7 @@ class _GrammarTable extends StatelessWidget {
                         ? scheme.primary.withValues(alpha: 0.04)
                         : Colors.transparent,
                   ),
-                  cells: [for (final cell in row) DataCell(Text(cell))],
+                  cells: [for (final cell in row) DataCell(BidiText(cell))],
                 ),
             ],
           ),
@@ -601,12 +602,12 @@ class YouTubeCard extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    BidiText(
                       l.videosTitle,
                       style: Theme.of(context).textTheme.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),
                     ),
-                    Text(
+                    BidiText(
                       l.videosHint,
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
@@ -623,7 +624,7 @@ class YouTubeCard extends ConsumerWidget {
               for (final (icon, label, url) in options)
                 ActionChip(
                   avatar: Icon(icon, size: 18),
-                  label: Text(label),
+                  label: BidiText(label),
                   onPressed: () =>
                       launchUrl(url, mode: LaunchMode.externalApplication),
                 ),
@@ -672,11 +673,11 @@ class PieceOfGermanCard extends StatelessWidget {
           backgroundColor: scheme.tertiaryContainer,
           child: Icon(Icons.event_note, color: scheme.onTertiaryContainer),
         ),
-        title: Text(
+        title: BidiText(
           l.pieceOfGermanTitle,
           style: const TextStyle(fontWeight: FontWeight.w700),
         ),
-        subtitle: Text(l.pieceOfGermanHint),
+        subtitle: BidiText(l.pieceOfGermanHint),
         trailing: const Icon(Icons.open_in_new),
         onTap: () => launchUrl(url, mode: LaunchMode.externalApplication),
       ),

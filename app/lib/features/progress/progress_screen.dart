@@ -14,6 +14,7 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/repositories/content_repository.dart';
 import '../../data/repositories/progress_repository.dart';
+import '../../core/bidi.dart';
 
 final _knownWordsProvider = FutureProvider.autoDispose<int>((ref) {
   ref.watch(dueCountProvider); // refresh when cards change
@@ -82,7 +83,7 @@ class ProgressScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(l.navProgress),
+        title: BidiText(l.navProgress),
         actions: const [LangSwitcher()],
       ),
       body: ListView(
@@ -107,13 +108,16 @@ class ProgressScreen extends ConsumerWidget {
             ],
           ),
           const SizedBox(height: 24),
-          Text(l.yourLanguages, style: Theme.of(context).textTheme.titleMedium),
+          BidiText(
+            l.yourLanguages,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
           const SizedBox(height: 8),
           const _LanguageCards(),
           const SizedBox(height: 16),
           const _MixupMap(),
           const SizedBox(height: 24),
-          Text(l.last7Days, style: Theme.of(context).textTheme.titleMedium),
+          BidiText(l.last7Days, style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 12),
           SizedBox(
             height: 160,
@@ -132,7 +136,7 @@ class ProgressScreen extends ConsumerWidget {
                         return Column(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
-                            Text(
+                            BidiText(
                               '$minutes',
                               style: Theme.of(context).textTheme.labelSmall,
                             ),
@@ -147,7 +151,7 @@ class ProgressScreen extends ConsumerWidget {
                               ),
                             ),
                             const SizedBox(height: 4),
-                            Text(
+                            BidiText(
                               DateFormat.E(locale).format(day),
                               style: Theme.of(context).textTheme.labelSmall,
                             ),
@@ -180,7 +184,7 @@ class _Stat extends StatelessWidget {
           children: [
             Icon(icon, color: Theme.of(context).colorScheme.primary),
             const SizedBox(height: 8),
-            Text(label, style: Theme.of(context).textTheme.titleSmall),
+            BidiText(label, style: Theme.of(context).textTheme.titleSmall),
           ],
         ),
       ),
@@ -240,7 +244,7 @@ class _LanguageCards extends ConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        BidiText(
                           '${lang.displayName(ui)} · ${t.currentLevel}',
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(color: lang.color),
@@ -251,12 +255,12 @@ class _LanguageCards extends ConsumerWidget {
                           color: lang.color,
                         ),
                         const SizedBox(height: 8),
-                        Text(l.lessonsCompleted(done, total)),
-                        Text(l.wordsKnown(known[lang] ?? 0)),
+                        BidiText(l.lessonsCompleted(done, total)),
+                        BidiText(l.wordsKnown(known[lang] ?? 0)),
                         if (t.status == TrackStatus.paused)
-                          Text(l.trackPaused)
+                          BidiText(l.trackPaused)
                         else if (c1 != null)
-                          Text(l.c1By(formatDay(c1))),
+                          BidiText(l.c1By(formatDay(c1))),
                       ],
                     ),
                   ),
@@ -290,9 +294,12 @@ class _MixupMap extends ConsumerWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(l.mixupMap, style: Theme.of(context).textTheme.titleMedium),
+            BidiText(
+              l.mixupMap,
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
             const SizedBox(height: 8),
-            if (sorted.isEmpty) Text(l.noMixups),
+            if (sorted.isEmpty) BidiText(l.noMixups),
             for (final e in sorted)
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 4),
@@ -300,7 +307,7 @@ class _MixupMap extends ConsumerWidget {
                   children: [
                     SizedBox(
                       width: 72,
-                      child: Text(
+                      child: BidiText(
                         '\u2066${e.key.$1.code} <- ${e.key.$2.code}\u2069',
                         style: TextStyle(
                           color: e.key.$2.color,
@@ -317,7 +324,7 @@ class _MixupMap extends ConsumerWidget {
                     ),
                     SizedBox(
                       width: 40,
-                      child: Text('${e.value}', textAlign: TextAlign.end),
+                      child: BidiText('${e.value}', textAlign: TextAlign.end),
                     ),
                   ],
                 ),

@@ -6,6 +6,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/contrast.dart';
+import '../../core/bidi.dart';
 
 /// On a word card: the same word in the learner's other two languages, and
 /// any contrast note about it (false friend, gender change, look-alike).
@@ -31,7 +32,7 @@ class OtherLanguages extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         const Divider(height: 32),
-        Text(
+        BidiText(
           context.l10n.inOtherLanguages,
           style: text.labelSmall,
           textAlign: TextAlign.center,
@@ -70,12 +71,12 @@ class LangWordChip extends StatelessWidget {
       visualDensity: VisualDensity.compact,
       avatar: CircleAvatar(
         backgroundColor: color,
-        child: Text(
+        child: BidiText(
           code.toUpperCase(),
           style: const TextStyle(fontSize: 9, color: Colors.white),
         ),
       ),
-      label: Text(word, textDirection: TextDirection.ltr),
+      label: BidiText(word, textDirection: TextDirection.ltr),
       side: BorderSide(color: color.withValues(alpha: 0.5)),
     );
   }
@@ -100,7 +101,7 @@ class ContrastNote extends StatelessWidget {
         Icon(icon, size: 18, color: color),
         const SizedBox(width: 8),
         Expanded(
-          child: Text(text, style: Theme.of(context).textTheme.bodySmall),
+          child: BidiText(text, style: Theme.of(context).textTheme.bodySmall),
         ),
       ],
     );

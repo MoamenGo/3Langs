@@ -7,6 +7,7 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/repositories/content_repository.dart';
+import '../../core/bidi.dart';
 
 /// The shared A0 to C1 path in the language on screen. Each level lists the
 /// units of the shared syllabus; where this language has a pack in this
@@ -21,7 +22,7 @@ class CourseScreen extends ConsumerWidget {
     final track = ref.watch(activeTrackProvider);
     return Scaffold(
       appBar: AppBar(
-        title: Text(l.courseTimeline),
+        title: BidiText(l.courseTimeline),
         actions: const [LangSwitcher()],
       ),
       body: AsyncView(
@@ -32,7 +33,7 @@ class CourseScreen extends ConsumerWidget {
             _TrackHeader(track: track),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 8),
-              child: Text(
+              child: BidiText(
                 l.sameForAllLanguages,
                 style: Theme.of(context).textTheme.bodySmall,
               ),
@@ -48,10 +49,10 @@ class CourseScreen extends ConsumerWidget {
                       ),
                   leading: CircleAvatar(
                     backgroundColor: track.lang.color.withValues(alpha: 0.15),
-                    child: Text(level.id),
+                    child: BidiText(level.id),
                   ),
-                  title: Text(level.title.get(lang)),
-                  subtitle: Text(
+                  title: BidiText(level.title.get(lang)),
+                  subtitle: BidiText(
                     '${l.unitsCount(level.unitIds.length)} · ${l.hoursShort(level.targetHours)}',
                   ),
                   children: ContentRepository.hasPack(track.lang, level.id)
@@ -66,10 +67,10 @@ class CourseScreen extends ConsumerWidget {
                             ListTile(
                               dense: true,
                               enabled: false,
-                              title: Text(
+                              title: BidiText(
                                 '${l.unitN(i + 1)} · ${theme.get(lang)}',
                               ),
-                              trailing: Text(l.comingSoon),
+                              trailing: BidiText(l.comingSoon),
                             ),
                         ],
                 ),
@@ -97,13 +98,13 @@ class _TrackHeader extends ConsumerWidget {
         leading: CircleAvatar(
           backgroundColor: track.lang.color,
           foregroundColor: Colors.white,
-          child: Text(track.lang.code),
+          child: BidiText(track.lang.code),
         ),
-        title: Text(
+        title: BidiText(
           track.lang.displayName(ui),
           style: const TextStyle(fontWeight: FontWeight.w600),
         ),
-        subtitle: Text(
+        subtitle: BidiText(
           '${l.levelN(track.currentLevel)} · ${active
               ? l.trackActive
               : track.status == TrackStatus.paused
@@ -138,7 +139,7 @@ class _LevelUnits extends ConsumerWidget {
                     )
                     .length;
                 return ListTile(
-                  title: Text(
+                  title: BidiText(
                     '${l.unitN(unit.order)} · ${unit.theme.get(lang)}',
                   ),
                   subtitle: LinearProgressIndicator(
@@ -146,7 +147,7 @@ class _LevelUnits extends ConsumerWidget {
                         ? 0
                         : done / unit.lessonIds.length,
                   ),
-                  trailing: Text('$done/${unit.lessonIds.length}'),
+                  trailing: BidiText('$done/${unit.lessonIds.length}'),
                   onTap: () => context.go('/course/unit/${unit.id}'),
                 );
               },

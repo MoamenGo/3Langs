@@ -7,6 +7,7 @@ import '../../data/models/learner.dart';
 import '../course/exercises.dart';
 import '../today/today_plan.dart';
 import '../../core/lang/lang.dart';
+import '../../core/bidi.dart';
 
 /// Spaced-repetition review. Front: the meaning in the explanation language.
 /// Back: the German word, audio and example. The learner grades recall and
@@ -86,7 +87,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
       activity: Activity.review,
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: BidiText(
             widget.lang == null
                 ? l.flashcards
                 : '${l.flashcards} · ${widget.lang!.displayName(ref.watch(uiLanguageProvider))}',
@@ -100,7 +101,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
             }
             if (_queue!.isEmpty) {
               return Center(
-                child: Text(_done == 0 ? l.reviewEmpty : l.reviewDone),
+                child: BidiText(_done == 0 ? l.reviewEmpty : l.reviewDone),
               );
             }
             final card = _queue!.first;
@@ -128,14 +129,14 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      Text('${_queue!.length}', textAlign: TextAlign.end),
+                      BidiText('${_queue!.length}', textAlign: TextAlign.end),
                       Expanded(
                         child: Center(
                           child: _revealed
                               ? SingleChildScrollView(
                                   child: WordCard(item: item, content: level),
                                 )
-                              : Text(
+                              : BidiText(
                                   item.translations.get(lang),
                                   style: Theme.of(context)
                                       .textTheme
@@ -150,7 +151,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                             setState(() => _revealed = true);
                             ref.read(ttsProvider).speak(item.display);
                           },
-                          child: Text(l.showAnswer),
+                          child: BidiText(l.showAnswer),
                         )
                       else
                         Row(
@@ -174,8 +175,8 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                                     child: Column(
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
-                                        Text(label),
-                                        Text(
+                                        BidiText(label),
+                                        BidiText(
                                           _fmt(preview[rating]!),
                                           style: const TextStyle(fontSize: 11),
                                         ),

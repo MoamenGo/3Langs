@@ -8,6 +8,7 @@ import '../../core/widgets.dart';
 import '../../data/repositories/assessment_repository.dart';
 import '../../domain/assessment/assessment.dart';
 import '../course/exercises.dart';
+import '../../core/bidi.dart';
 
 /// Placement test for one language: a few words per level, easiest first.
 /// Stops at the first level you don't pass and starts you there.
@@ -53,7 +54,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
     final ui = ref.watch(uiLanguageProvider);
     final name = widget.lang.displayName(ui);
     return Scaffold(
-      appBar: AppBar(title: Text(l.placementTitle(name))),
+      appBar: AppBar(title: BidiText(l.placementTitle(name))),
       body: AsyncView(
         value: ref.watch(allContentProvider),
         builder: (packs) {
@@ -66,7 +67,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
               children: [
                 Icon(Icons.flag, size: 64, color: widget.lang.color),
                 const SizedBox(height: 16),
-                Text(
+                BidiText(
                   l.placementResult(name, _result!),
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.headlineSmall,
@@ -74,7 +75,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
                 const SizedBox(height: 24),
                 FilledButton(
                   onPressed: () => context.pop(),
-                  child: Text(l.done),
+                  child: BidiText(l.done),
                 ),
               ],
             );
@@ -84,7 +85,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
               children: [
                 Icon(Icons.quiz, size: 64, color: widget.lang.color),
                 const SizedBox(height: 16),
-                Text(
+                BidiText(
                   l.placementIntro(name),
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
@@ -93,14 +94,14 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
                 FilledButton(
                   key: const ValueKey('start-placement'),
                   onPressed: () => setState(() => _started = true),
-                  child: Text(l.startExam),
+                  child: BidiText(l.startExam),
                 ),
                 TextButton(
                   onPressed: () async {
                     await setTrackLevel(ref, widget.lang, 'A0');
                     if (context.mounted) context.pop();
                   },
-                  child: Text(l.placementBeginner),
+                  child: BidiText(l.placementBeginner),
                 ),
               ],
             );
@@ -111,7 +112,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
             body = Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text(
+                BidiText(
                   l.placementLevel(level),
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.labelLarge,

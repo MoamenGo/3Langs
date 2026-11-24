@@ -5,6 +5,7 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../domain/assessment/assessment.dart';
 import 'exercises.dart';
+import '../../core/bidi.dart';
 
 /// End-of-level exam: meaning questions from every unit, then grammar gap
 /// fills. Calls [onDone] with the overall score (0..1).
@@ -38,7 +39,7 @@ class _ExamRunnerState extends ConsumerState<ExamRunner> {
         children: [
           const Icon(Icons.workspace_premium, size: 64),
           const SizedBox(height: 16),
-          Text(
+          BidiText(
             l.examIntro(
               widget.content.level.id,
               _plan.length,
@@ -51,7 +52,7 @@ class _ExamRunnerState extends ConsumerState<ExamRunner> {
           FilledButton(
             key: const ValueKey('start-exam'),
             onPressed: () => setState(() => _started = true),
-            child: Text(l.startExam),
+            child: BidiText(l.startExam),
           ),
         ],
       );

@@ -6,6 +6,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import 'dictation.dart';
+import '../../core/bidi.dart';
 
 /// Free listening practice: dictation with 10 random sentences from the
 /// learner's current level.
@@ -17,7 +18,7 @@ class ListeningScreen extends ConsumerWidget {
     return StudyTimer(
       activity: Activity.listening,
       child: Scaffold(
-        appBar: AppBar(title: Text(context.l10n.lessonListening)),
+        appBar: AppBar(title: BidiText(context.l10n.lessonListening)),
         body: AsyncView(
           value: ref.watch(activeContentProvider),
           builder: (c) {
@@ -32,7 +33,7 @@ class ListeningScreen extends ConsumerWidget {
                 onDone: (score) {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
-                      content: Text(
+                      content: BidiText(
                         context.l10n.scoreLabel((score * 100).round()),
                       ),
                     ),

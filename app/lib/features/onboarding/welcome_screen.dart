@@ -8,6 +8,7 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../today/today_plan.dart';
+import '../../core/bidi.dart';
 
 /// First run: interface language, daily minutes, which languages and when
 /// each starts, and an optional placement test per language.
@@ -30,21 +31,21 @@ class WelcomeScreen extends ConsumerWidget {
     final today = DateTime.utc(now.year, now.month, now.day);
 
     return Scaffold(
-      appBar: AppBar(title: Text(l.welcomeTitle)),
+      appBar: AppBar(title: BidiText(l.welcomeTitle)),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 680),
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
-              Text(l.welcomeIntro, style: theme.bodyLarge),
+              BidiText(l.welcomeIntro, style: theme.bodyLarge),
               const SizedBox(height: 24),
-              Text(l.stepInterface, style: theme.titleMedium),
+              BidiText(l.stepInterface, style: theme.titleMedium),
               const SizedBox(height: 8),
               SegmentedButton<String>(
                 segments: const [
-                  ButtonSegment(value: 'ar', label: Text('العربية')),
-                  ButtonSegment(value: 'en', label: Text('English')),
+                  ButtonSegment(value: 'ar', label: BidiText('العربية')),
+                  ButtonSegment(value: 'en', label: BidiText('English')),
                 ],
                 selected: {settings.uiLanguage},
                 onSelectionChanged: (v) => saveSettings(
@@ -57,7 +58,7 @@ class WelcomeScreen extends ConsumerWidget {
                 ),
               ),
               const SizedBox(height: 24),
-              Text(l.stepMinutes, style: theme.titleMedium),
+              BidiText(l.stepMinutes, style: theme.titleMedium),
               Slider(
                 value: settings.dailyGoalMinutes.toDouble().clamp(30, 240),
                 min: 30,
@@ -68,15 +69,15 @@ class WelcomeScreen extends ConsumerWidget {
                   settings.copyWith(dailyGoalMinutes: v.round()),
                 ),
               ),
-              Text(
+              BidiText(
                 l.minutesPerLanguage(
                   settings.dailyGoalMinutes,
                   settings.dailyGoalMinutes ~/ 3,
                 ),
               ),
               const SizedBox(height: 24),
-              Text(l.stepLanguages, style: theme.titleMedium),
-              Text(l.stepLanguagesHint, style: theme.bodySmall),
+              BidiText(l.stepLanguages, style: theme.titleMedium),
+              BidiText(l.stepLanguagesHint, style: theme.bodySmall),
               for (final lang in Lang.values)
                 Builder(
                   builder: (context) {
@@ -97,9 +98,9 @@ class WelcomeScreen extends ConsumerWidget {
                               secondary: CircleAvatar(
                                 backgroundColor: lang.color,
                                 foregroundColor: Colors.white,
-                                child: Text(lang.code),
+                                child: BidiText(lang.code),
                               ),
-                              title: Text(
+                              title: BidiText(
                                 '${lang.displayName(ui)} · ${t.currentLevel}',
                               ),
                               value: t.status != TrackStatus.paused,
@@ -128,10 +129,10 @@ class WelcomeScreen extends ConsumerWidget {
                                   runSpacing: 8,
                                   crossAxisAlignment: WrapCrossAlignment.center,
                                   children: [
-                                    Text(l.startIn),
+                                    BidiText(l.startIn),
                                     for (final w in const [1, 3, 9])
                                       ChoiceChip(
-                                        label: Text(
+                                        label: BidiText(
                                           w == 1 ? l.startNow : l.weekN(w),
                                         ),
                                         selected: week == w,
@@ -151,7 +152,7 @@ class WelcomeScreen extends ConsumerWidget {
                                     OutlinedButton.icon(
                                       key: ValueKey('placement-${lang.name}'),
                                       icon: const Icon(Icons.quiz, size: 18),
-                                      label: Text(l.placementButton),
+                                      label: BidiText(l.placementButton),
                                       onPressed: () => context.push(
                                         '/placement/${lang.name}',
                                       ),
@@ -174,7 +175,7 @@ class WelcomeScreen extends ConsumerWidget {
                   ref.read(syncServiceProvider).schedule();
                   if (context.mounted) context.go('/');
                 },
-                child: Text(l.finishSetup),
+                child: BidiText(l.finishSetup),
               ),
             ],
           ),

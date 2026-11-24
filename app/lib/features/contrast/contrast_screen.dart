@@ -5,6 +5,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/contrast.dart';
 import 'contrast_widgets.dart';
+import '../../core/bidi.dart';
 
 /// The contrast dictionary: every false friend, look-alike and gender change
 /// between German, Dutch and Spanish, filterable by kind.
@@ -23,7 +24,7 @@ class _ContrastScreenState extends ConsumerState<ContrastScreen> {
     final l = context.l10n;
     final explain = ref.watch(explainLangProvider);
     return Scaffold(
-      appBar: AppBar(title: Text(l.contrastDictionary)),
+      appBar: AppBar(title: BidiText(l.contrastDictionary)),
       body: AsyncView(
         value: ref.watch(contrastProvider),
         builder: (entries) {
@@ -33,7 +34,7 @@ class _ContrastScreenState extends ConsumerState<ContrastScreen> {
           return ListView(
             padding: const EdgeInsets.all(12),
             children: [
-              Text(
+              BidiText(
                 l.contrastIntro,
                 style: Theme.of(context).textTheme.bodySmall,
               ),
@@ -44,7 +45,7 @@ class _ContrastScreenState extends ConsumerState<ContrastScreen> {
                   for (final k in [null, ...ContrastKind.values])
                     ChoiceChip(
                       key: ValueKey('contrast-${k?.json ?? 'all'}'),
-                      label: Text(
+                      label: BidiText(
                         '${k == null ? l.contrastAll : contrastKindLabel(context, k)}'
                         ' (${k == null ? entries.length : entries.where((e) => e.kind == k).length})',
                       ),

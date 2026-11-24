@@ -8,6 +8,7 @@ import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import '../../domain/interference/contrast_drill.dart';
 import '../../domain/interference/interference_detector.dart';
+import '../../core/bidi.dart';
 
 final _drillProvider = FutureProvider.autoDispose<List<DrillQuestion>>((
   ref,
@@ -79,12 +80,12 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
     return StudyTimer(
       activity: Activity.review,
       child: Scaffold(
-        appBar: AppBar(title: Text(l.blockContrast)),
+        appBar: AppBar(title: BidiText(l.blockContrast)),
         body: AsyncView(
           value: ref.watch(_drillProvider),
           builder: (questions) {
             if (questions.isEmpty) {
-              return Center(child: Text(l.drillEmpty));
+              return Center(child: BidiText(l.drillEmpty));
             }
             if (_finished) {
               return _Summary(score: _correct / questions.length);
@@ -101,7 +102,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                     children: [
                       LinearProgressIndicator(value: _index / questions.length),
                       const SizedBox(height: 24),
-                      Text(
+                      BidiText(
                         l.whichMeans(
                           q.target.translations.get(explain),
                           lang.displayName(ui),
@@ -112,7 +113,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                       const SizedBox(height: 8),
                       Center(
                         child: Chip(
-                          label: Text(lang.code),
+                          label: BidiText(lang.code),
                           backgroundColor: lang.color,
                           labelStyle: const TextStyle(color: Colors.white),
                         ),
@@ -136,14 +137,14 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                             child: Row(
                               children: [
                                 Expanded(
-                                  child: Text(
+                                  child: BidiText(
                                     o.text,
                                     textDirection: TextDirection.ltr,
                                     style: const TextStyle(fontSize: 18),
                                   ),
                                 ),
                                 if (_picked != null)
-                                  Text(
+                                  BidiText(
                                     o.lang?.code ?? 'x',
                                     style: TextStyle(
                                       color: o.lang?.color,
@@ -156,7 +157,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                         ),
                       if (_picked != null && q.note != null) ...[
                         const SizedBox(height: 12),
-                        Text(
+                        BidiText(
                           q.note!.get(explain),
                           textAlign: TextAlign.center,
                           style: Theme.of(context).textTheme.bodyMedium,
@@ -174,7 +175,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                                   _picked = null;
                                 }
                               }),
-                        child: Text(l.next),
+                        child: BidiText(l.next),
                       ),
                     ],
                   ),
@@ -200,17 +201,17 @@ class _Summary extends ConsumerWidget {
       padding: const EdgeInsets.all(16),
       children: [
         const Icon(Icons.compare_arrows, size: 56),
-        Text(
+        BidiText(
           l.scoreLabel((score * 100).round()),
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.headlineSmall,
         ),
         const SizedBox(height: 16),
-        Text(l.myMixups, style: Theme.of(context).textTheme.titleMedium),
-        if (events.isEmpty) Text(l.noMixups),
+        BidiText(l.myMixups, style: Theme.of(context).textTheme.titleMedium),
+        if (events.isEmpty) BidiText(l.noMixups),
         for (final e in events.take(30)) MixupTile(event: e),
         const SizedBox(height: 16),
-        FilledButton(onPressed: () => context.pop(), child: Text(l.done)),
+        FilledButton(onPressed: () => context.pop(), child: BidiText(l.done)),
       ],
     );
   }
@@ -227,18 +228,18 @@ class MixupTile extends ConsumerWidget {
     final ui = ref.watch(uiLanguageProvider);
     return ListTile(
       dense: true,
-      leading: Text(
+      leading: BidiText(
         '${event.lang.code}->${event.otherLang.code}',
         style: TextStyle(
           color: event.otherLang.color,
           fontWeight: FontWeight.bold,
         ),
       ),
-      title: Text(event.expected, textDirection: TextDirection.ltr),
-      subtitle: Text(
+      title: BidiText(event.expected, textDirection: TextDirection.ltr),
+      subtitle: BidiText(
         l.mixupGiven(event.given, event.otherLang.displayName(ui)),
       ),
-      trailing: Text(formatDay(event.at.toLocal())),
+      trailing: BidiText(formatDay(event.at.toLocal())),
     );
   }
 }

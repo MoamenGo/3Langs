@@ -3,6 +3,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../core/theme.dart';
 import '../../core/widgets.dart';
+import '../../core/bidi.dart';
 
 /// Bottom navigation on phones, a side rail on wide screens (web, tablets).
 class AppShell extends StatelessWidget {
@@ -36,7 +37,7 @@ class AppShell extends StatelessWidget {
                   labelType: NavigationRailLabelType.all,
                   leading: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16),
-                    child: Text(
+                    child: BidiText(
                       l.appTitle,
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
@@ -46,7 +47,7 @@ class AppShell extends StatelessWidget {
                       NavigationRailDestination(
                         icon: Icon(icon),
                         selectedIcon: Icon(selected),
-                        label: Text(label),
+                        label: BidiText(label),
                       ),
                   ],
                 ),

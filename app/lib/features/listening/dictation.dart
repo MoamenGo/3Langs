@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
+import '../../core/bidi.dart';
 
 /// Hear a German sentence (device TTS), type it, compare.
 class DictationRunner extends ConsumerStatefulWidget {
@@ -72,7 +73,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
       children: [
         LinearProgressIndicator(value: _index / widget.sentences.length),
         const SizedBox(height: 16),
-        Text(
+        BidiText(
           l.listenAndType,
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.titleMedium,
@@ -84,29 +85,31 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
             FilledButton.tonalIcon(
               onPressed: _play,
               icon: const Icon(Icons.volume_up),
-              label: Text(l.playAudio),
+              label: BidiText(l.playAudio),
             ),
             const SizedBox(width: 12),
             OutlinedButton.icon(
               onPressed: () => _play(slow: true),
               icon: const Icon(Icons.slow_motion_video),
-              label: Text(l.playSlow),
+              label: BidiText(l.playSlow),
             ),
           ],
         ),
         const SizedBox(height: 16),
         TextField(
           controller: _controller,
+          textDirection: TextDirection.ltr,
           autocorrect: false,
           enabled: _wasRight == null,
           decoration: InputDecoration(
             hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+            hintTextDirection: Directionality.of(context),
           ),
           onSubmitted: (_) => _wasRight == null ? _check() : _next(),
         ),
         const SizedBox(height: 12),
         if (_wasRight != null) ...[
-          Text(
+          BidiText(
             _wasRight! ? l.correct : l.wrongAnswer(_current.text),
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -115,12 +118,15 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
                   : Theme.of(context).colorScheme.error,
             ),
           ),
-          Text(_current.translations.get(lang), textAlign: TextAlign.center),
+          BidiText(
+            _current.translations.get(lang),
+            textAlign: TextAlign.center,
+          ),
         ] else
           TextButton(
             onPressed: () =>
                 setState(() => _showTranslation = !_showTranslation),
-            child: Text(
+            child: BidiText(
               _showTranslation
                   ? _current.translations.get(lang)
                   : l.showTranslation,
@@ -129,7 +135,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
         const Spacer(),
         FilledButton(
           onPressed: _wasRight == null ? _check : _next,
-          child: Text(_wasRight == null ? l.check : l.next),
+          child: BidiText(_wasRight == null ? l.check : l.next),
         ),
       ],
     );
