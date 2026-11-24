@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "lang": "es",
- "contentVersion": "2026.11.23-phase2",
+ "contentVersion": "2026.11.24-phase5",
  "level": {
   "id": "A1",
   "title": {
@@ -144,6 +144,237 @@
     "es.a1.u04.l06"
    ],
    "sharedUnitId": "u.a1.04"
+  },
+  {
+   "id": "es.a1.u05",
+   "level": "A1",
+   "order": 5,
+   "theme": {
+    "ar": "التسوق والأسعار",
+    "en": "Shopping and prices"
+   },
+   "goals": [
+    {
+     "en": "Talk about shopping and prices in Spanish",
+     "ar": "تتكلم عن التسوق والأسعار بالإسباني"
+    },
+    {
+     "en": "costar and numbers with prices",
+     "ar": "costar والأرقام مع الأسعار"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u05"
+   ],
+   "lessonIds": [
+    "es.a1.u05.l01",
+    "es.a1.u05.l02",
+    "es.a1.u05.l03",
+    "es.a1.u05.l04",
+    "es.a1.u05.l05"
+   ],
+   "sharedUnitId": "u.a1.05"
+  },
+  {
+   "id": "es.a1.u06",
+   "level": "A1",
+   "order": 6,
+   "theme": {
+    "ar": "الروتين اليومي والوقت",
+    "en": "Daily routine and time"
+   },
+   "goals": [
+    {
+     "en": "Talk about daily routine and time in Spanish",
+     "ar": "تتكلم عن الروتين اليومي والوقت بالإسباني"
+    },
+    {
+     "en": "Reflexive verbs and telling the time",
+     "ar": "الأفعال الانعكاسية ومعرفة الوقت"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u06"
+   ],
+   "lessonIds": [
+    "es.a1.u06.l01",
+    "es.a1.u06.l02",
+    "es.a1.u06.l03",
+    "es.a1.u06.l04",
+    "es.a1.u06.l05"
+   ],
+   "sharedUnitId": "u.a1.06"
+  },
+  {
+   "id": "es.a1.u07",
+   "level": "A1",
+   "order": 7,
+   "theme": {
+    "ar": "وقت الفراغ والهوايات",
+    "en": "Free time and hobbies"
+   },
+   "goals": [
+    {
+     "en": "Talk about free time and hobbies in Spanish",
+     "ar": "تتكلم عن وقت الفراغ والهوايات بالإسباني"
+    },
+    {
+     "en": "gustar, poder and saber",
+     "ar": "gustar وpoder وsaber"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u07"
+   ],
+   "lessonIds": [
+    "es.a1.u07.l01",
+    "es.a1.u07.l02",
+    "es.a1.u07.l03",
+    "es.a1.u07.l04",
+    "es.a1.u07.l05"
+   ],
+   "sharedUnitId": "u.a1.07"
+  },
+  {
+   "id": "es.a1.u08",
+   "level": "A1",
+   "order": 8,
+   "theme": {
+    "ar": "في المدينة",
+    "en": "In the city"
+   },
+   "goals": [
+    {
+     "en": "Talk about in the city in Spanish",
+     "ar": "تتكلم عن في المدينة بالإسباني"
+    },
+    {
+     "en": "estar for location and the polite imperative",
+     "ar": "estar للمكان والأمر المؤدب"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u08"
+   ],
+   "lessonIds": [
+    "es.a1.u08.l01",
+    "es.a1.u08.l02",
+    "es.a1.u08.l03",
+    "es.a1.u08.l04",
+    "es.a1.u08.l05"
+   ],
+   "sharedUnitId": "u.a1.08"
+  },
+  {
+   "id": "es.a1.u09",
+   "level": "A1",
+   "order": 9,
+   "theme": {
+    "ar": "السفر والمواصلات",
+    "en": "Travel and transport"
+   },
+   "goals": [
+    {
+     "en": "Talk about travel and transport in Spanish",
+     "ar": "تتكلم عن السفر والمواصلات بالإسباني"
+    },
+    {
+     "en": "tener que, salir and transport with en",
+     "ar": "tener que وsalir والمواصلات بـ en"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u09"
+   ],
+   "lessonIds": [
+    "es.a1.u09.l01",
+    "es.a1.u09.l02",
+    "es.a1.u09.l03",
+    "es.a1.u09.l04",
+    "es.a1.u09.l05"
+   ],
+   "sharedUnitId": "u.a1.09"
+  },
+  {
+   "id": "es.a1.u10",
+   "level": "A1",
+   "order": 10,
+   "theme": {
+    "ar": "الصحة والجسم",
+    "en": "Health and body"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and body in Spanish",
+     "ar": "تتكلم عن الصحة والجسم بالإسباني"
+    },
+    {
+     "en": "doler, estar enfermo and deber",
+     "ar": "doler وestar enfermo وdeber"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u10"
+   ],
+   "lessonIds": [
+    "es.a1.u10.l01",
+    "es.a1.u10.l02",
+    "es.a1.u10.l03",
+    "es.a1.u10.l04",
+    "es.a1.u10.l05"
+   ],
+   "sharedUnitId": "u.a1.10"
+  },
+  {
+   "id": "es.a1.u11",
+   "level": "A1",
+   "order": 11,
+   "theme": {
+    "ar": "الشغل والمدرسة",
+    "en": "Work and school"
+   },
+   "goals": [
+    {
+     "en": "Talk about work and school in Spanish",
+     "ar": "تتكلم عن الشغل والمدرسة بالإسباني"
+    },
+    {
+     "en": "Two pasts: pretérito perfecto and indefinido",
+     "ar": "ماضيين: pretérito perfecto وindefinido"
+    }
+   ],
+   "grammarIds": [
+    "es.a1.gram.u11"
+   ],
+   "lessonIds": [
+    "es.a1.u11.l01",
+    "es.a1.u11.l02",
+    "es.a1.u11.l03",
+    "es.a1.u11.l04",
+    "es.a1.u11.l05"
+   ],
+   "sharedUnitId": "u.a1.11"
+  },
+  {
+   "id": "es.a1.u12",
+   "level": "A1",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة A1 واختبار تجريبي",
+    "en": "A1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached A1",
+     "ar": "توري إنك وصلت لمستوى A1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "es.a1.u12.l01",
+    "es.a1.u12.l02"
+   ],
+   "sharedUnitId": "u.a1.12"
   }
  ],
  "lessons": [
@@ -666,6 +897,643 @@
     "es.a1.vocab.hambre",
     "es.a1.vocab.sed"
    ]
+  },
+  {
+   "id": "es.a1.u05.l01",
+   "unitId": "es.a1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 1",
+    "ar": "التسوق والأسعار: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.tienda",
+    "es.a1.vocab.supermercado",
+    "es.a1.vocab.dinero",
+    "es.a1.vocab.precio",
+    "es.a1.vocab.euro"
+   ]
+  },
+  {
+   "id": "es.a1.u05.l02",
+   "unitId": "es.a1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 2",
+    "ar": "التسوق والأسعار: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.comprar",
+    "es.a1.vocab.pagar",
+    "es.a1.vocab.costar",
+    "es.a1.vocab.camisa",
+    "es.a1.vocab.bolsa"
+   ]
+  },
+  {
+   "id": "es.a1.u05.l03",
+   "unitId": "es.a1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "costar and numbers with prices",
+    "ar": "costar والأرقام مع الأسعار"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u05"
+  },
+  {
+   "id": "es.a1.u05.l04",
+   "unitId": "es.a1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: shopping and prices",
+    "ar": "استماع: التسوق والأسعار"
+   },
+   "items": [
+    "es.a1.sent.u05_01",
+    "es.a1.sent.u05_02",
+    "es.a1.sent.u05_03",
+    "es.a1.sent.u05_04"
+   ]
+  },
+  {
+   "id": "es.a1.u05.l05",
+   "unitId": "es.a1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "es.a1.vocab.tienda",
+    "es.a1.vocab.supermercado",
+    "es.a1.vocab.dinero",
+    "es.a1.vocab.precio",
+    "es.a1.vocab.euro",
+    "es.a1.vocab.comprar",
+    "es.a1.vocab.pagar",
+    "es.a1.vocab.costar",
+    "es.a1.vocab.camisa",
+    "es.a1.vocab.bolsa"
+   ]
+  },
+  {
+   "id": "es.a1.u06.l01",
+   "unitId": "es.a1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 1",
+    "ar": "الروتين اليومي والوقت: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.levantarse",
+    "es.a1.vocab.dormir",
+    "es.a1.vocab.trabajar",
+    "es.a1.vocab.manana"
+   ]
+  },
+  {
+   "id": "es.a1.u06.l02",
+   "unitId": "es.a1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 2",
+    "ar": "الروتين اليومي والوقت: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.noche",
+    "es.a1.vocab.siempre",
+    "es.a1.vocab.a_menudo",
+    "es.a1.vocab.tarde"
+   ]
+  },
+  {
+   "id": "es.a1.u06.l03",
+   "unitId": "es.a1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Reflexive verbs and telling the time",
+    "ar": "الأفعال الانعكاسية ومعرفة الوقت"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u06"
+  },
+  {
+   "id": "es.a1.u06.l04",
+   "unitId": "es.a1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: daily routine and time",
+    "ar": "استماع: الروتين اليومي والوقت"
+   },
+   "items": [
+    "es.a1.sent.u06_01",
+    "es.a1.sent.u06_02",
+    "es.a1.sent.u06_03",
+    "es.a1.sent.u06_04"
+   ]
+  },
+  {
+   "id": "es.a1.u06.l05",
+   "unitId": "es.a1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "es.a1.vocab.levantarse",
+    "es.a1.vocab.dormir",
+    "es.a1.vocab.trabajar",
+    "es.a1.vocab.manana",
+    "es.a1.vocab.noche",
+    "es.a1.vocab.siempre",
+    "es.a1.vocab.a_menudo",
+    "es.a1.vocab.tarde"
+   ]
+  },
+  {
+   "id": "es.a1.u07.l01",
+   "unitId": "es.a1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 1",
+    "ar": "وقت الفراغ والهوايات: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.jugar",
+    "es.a1.vocab.leer",
+    "es.a1.vocab.nadar",
+    "es.a1.vocab.cocinar",
+    "es.a1.vocab.futbol",
+    "es.a1.vocab.libro"
+   ]
+  },
+  {
+   "id": "es.a1.u07.l02",
+   "unitId": "es.a1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 2",
+    "ar": "وقت الفراغ والهوايات: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.pelicula",
+    "es.a1.vocab.amigo",
+    "es.a1.vocab.fin_de_semana",
+    "es.a1.vocab.poder",
+    "es.a1.vocab.con_gusto"
+   ]
+  },
+  {
+   "id": "es.a1.u07.l03",
+   "unitId": "es.a1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "gustar, poder and saber",
+    "ar": "gustar وpoder وsaber"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u07"
+  },
+  {
+   "id": "es.a1.u07.l04",
+   "unitId": "es.a1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: free time and hobbies",
+    "ar": "استماع: وقت الفراغ والهوايات"
+   },
+   "items": [
+    "es.a1.sent.u07_01",
+    "es.a1.sent.u07_02",
+    "es.a1.sent.u07_03",
+    "es.a1.sent.u07_04"
+   ]
+  },
+  {
+   "id": "es.a1.u07.l05",
+   "unitId": "es.a1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "es.a1.vocab.jugar",
+    "es.a1.vocab.leer",
+    "es.a1.vocab.nadar",
+    "es.a1.vocab.cocinar",
+    "es.a1.vocab.futbol",
+    "es.a1.vocab.libro",
+    "es.a1.vocab.pelicula",
+    "es.a1.vocab.amigo",
+    "es.a1.vocab.fin_de_semana",
+    "es.a1.vocab.poder",
+    "es.a1.vocab.con_gusto"
+   ]
+  },
+  {
+   "id": "es.a1.u08.l01",
+   "unitId": "es.a1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 1",
+    "ar": "في المدينة: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.calle",
+    "es.a1.vocab.estacion",
+    "es.a1.vocab.farmacia",
+    "es.a1.vocab.museo",
+    "es.a1.vocab.parque"
+   ]
+  },
+  {
+   "id": "es.a1.u08.l02",
+   "unitId": "es.a1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 2",
+    "ar": "في المدينة: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.a_la_izquierda",
+    "es.a1.vocab.a_la_derecha",
+    "es.a1.vocab.todo_recto",
+    "es.a1.vocab.cerca",
+    "es.a1.vocab.lejos"
+   ]
+  },
+  {
+   "id": "es.a1.u08.l03",
+   "unitId": "es.a1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "estar for location and the polite imperative",
+    "ar": "estar للمكان والأمر المؤدب"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u08"
+  },
+  {
+   "id": "es.a1.u08.l04",
+   "unitId": "es.a1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: in the city",
+    "ar": "استماع: في المدينة"
+   },
+   "items": [
+    "es.a1.sent.u08_01",
+    "es.a1.sent.u08_02",
+    "es.a1.sent.u08_03",
+    "es.a1.sent.u08_04"
+   ]
+  },
+  {
+   "id": "es.a1.u08.l05",
+   "unitId": "es.a1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "es.a1.vocab.calle",
+    "es.a1.vocab.estacion",
+    "es.a1.vocab.farmacia",
+    "es.a1.vocab.museo",
+    "es.a1.vocab.parque",
+    "es.a1.vocab.a_la_izquierda",
+    "es.a1.vocab.a_la_derecha",
+    "es.a1.vocab.todo_recto",
+    "es.a1.vocab.cerca",
+    "es.a1.vocab.lejos"
+   ]
+  },
+  {
+   "id": "es.a1.u09.l01",
+   "unitId": "es.a1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 1",
+    "ar": "السفر والمواصلات: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.tren",
+    "es.a1.vocab.avion",
+    "es.a1.vocab.billete",
+    "es.a1.vocab.maleta",
+    "es.a1.vocab.viajar"
+   ]
+  },
+  {
+   "id": "es.a1.u09.l02",
+   "unitId": "es.a1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 2",
+    "ar": "السفر والمواصلات: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.conducir",
+    "es.a1.vocab.volar",
+    "es.a1.vocab.tener_que",
+    "es.a1.vocab.salida",
+    "es.a1.vocab.vacaciones"
+   ]
+  },
+  {
+   "id": "es.a1.u09.l03",
+   "unitId": "es.a1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "tener que, salir and transport with en",
+    "ar": "tener que وsalir والمواصلات بـ en"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u09"
+  },
+  {
+   "id": "es.a1.u09.l04",
+   "unitId": "es.a1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: travel and transport",
+    "ar": "استماع: السفر والمواصلات"
+   },
+   "items": [
+    "es.a1.sent.u09_01",
+    "es.a1.sent.u09_02",
+    "es.a1.sent.u09_03",
+    "es.a1.sent.u09_04"
+   ]
+  },
+  {
+   "id": "es.a1.u09.l05",
+   "unitId": "es.a1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "es.a1.vocab.tren",
+    "es.a1.vocab.avion",
+    "es.a1.vocab.billete",
+    "es.a1.vocab.maleta",
+    "es.a1.vocab.viajar",
+    "es.a1.vocab.conducir",
+    "es.a1.vocab.volar",
+    "es.a1.vocab.tener_que",
+    "es.a1.vocab.salida",
+    "es.a1.vocab.vacaciones"
+   ]
+  },
+  {
+   "id": "es.a1.u10.l01",
+   "unitId": "es.a1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 1",
+    "ar": "الصحة والجسم: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.cabeza",
+    "es.a1.vocab.barriga",
+    "es.a1.vocab.brazo",
+    "es.a1.vocab.pierna",
+    "es.a1.vocab.medico",
+    "es.a1.vocab.medicamento"
+   ]
+  },
+  {
+   "id": "es.a1.u10.l02",
+   "unitId": "es.a1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 2",
+    "ar": "الصحة والجسم: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.enfermo",
+    "es.a1.vocab.sano",
+    "es.a1.vocab.doler",
+    "es.a1.vocab.dolor",
+    "es.a1.vocab.fiebre"
+   ]
+  },
+  {
+   "id": "es.a1.u10.l03",
+   "unitId": "es.a1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "doler, estar enfermo and deber",
+    "ar": "doler وestar enfermo وdeber"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u10"
+  },
+  {
+   "id": "es.a1.u10.l04",
+   "unitId": "es.a1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and body",
+    "ar": "استماع: الصحة والجسم"
+   },
+   "items": [
+    "es.a1.sent.u10_01",
+    "es.a1.sent.u10_02",
+    "es.a1.sent.u10_03",
+    "es.a1.sent.u10_04"
+   ]
+  },
+  {
+   "id": "es.a1.u10.l05",
+   "unitId": "es.a1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "es.a1.vocab.cabeza",
+    "es.a1.vocab.barriga",
+    "es.a1.vocab.brazo",
+    "es.a1.vocab.pierna",
+    "es.a1.vocab.medico",
+    "es.a1.vocab.medicamento",
+    "es.a1.vocab.enfermo",
+    "es.a1.vocab.sano",
+    "es.a1.vocab.doler",
+    "es.a1.vocab.dolor",
+    "es.a1.vocab.fiebre"
+   ]
+  },
+  {
+   "id": "es.a1.u11.l01",
+   "unitId": "es.a1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 1",
+    "ar": "الشغل والمدرسة: كلمات 1"
+   },
+   "items": [
+    "es.a1.vocab.trabajo",
+    "es.a1.vocab.oficina",
+    "es.a1.vocab.companero",
+    "es.a1.vocab.jefe"
+   ]
+  },
+  {
+   "id": "es.a1.u11.l02",
+   "unitId": "es.a1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 2",
+    "ar": "الشغل والمدرسة: كلمات 2"
+   },
+   "items": [
+    "es.a1.vocab.profesor",
+    "es.a1.vocab.estudiante",
+    "es.a1.vocab.escribir",
+    "es.a1.vocab.hacer"
+   ]
+  },
+  {
+   "id": "es.a1.u11.l03",
+   "unitId": "es.a1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Two pasts: pretérito perfecto and indefinido",
+    "ar": "ماضيين: pretérito perfecto وindefinido"
+   },
+   "items": [],
+   "grammarId": "es.a1.gram.u11"
+  },
+  {
+   "id": "es.a1.u11.l04",
+   "unitId": "es.a1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work and school",
+    "ar": "استماع: الشغل والمدرسة"
+   },
+   "items": [
+    "es.a1.sent.u11_01",
+    "es.a1.sent.u11_02",
+    "es.a1.sent.u11_03",
+    "es.a1.sent.u11_04"
+   ]
+  },
+  {
+   "id": "es.a1.u11.l05",
+   "unitId": "es.a1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "es.a1.vocab.trabajo",
+    "es.a1.vocab.oficina",
+    "es.a1.vocab.companero",
+    "es.a1.vocab.jefe",
+    "es.a1.vocab.profesor",
+    "es.a1.vocab.estudiante",
+    "es.a1.vocab.escribir",
+    "es.a1.vocab.hacer"
+   ]
+  },
+  {
+   "id": "es.a1.u12.l01",
+   "unitId": "es.a1.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "A1 words review",
+    "ar": "مراجعة كلمات A1"
+   },
+   "items": [
+    "es.a1.vocab.tienda",
+    "es.a1.vocab.dinero",
+    "es.a1.vocab.euro",
+    "es.a1.vocab.pagar",
+    "es.a1.vocab.camisa",
+    "es.a1.vocab.levantarse",
+    "es.a1.vocab.trabajar",
+    "es.a1.vocab.noche",
+    "es.a1.vocab.a_menudo",
+    "es.a1.vocab.jugar",
+    "es.a1.vocab.nadar",
+    "es.a1.vocab.futbol",
+    "es.a1.vocab.pelicula",
+    "es.a1.vocab.fin_de_semana",
+    "es.a1.vocab.con_gusto",
+    "es.a1.vocab.estacion",
+    "es.a1.vocab.museo",
+    "es.a1.vocab.a_la_izquierda",
+    "es.a1.vocab.todo_recto",
+    "es.a1.vocab.lejos",
+    "es.a1.vocab.avion",
+    "es.a1.vocab.maleta",
+    "es.a1.vocab.conducir",
+    "es.a1.vocab.tener_que",
+    "es.a1.vocab.vacaciones",
+    "es.a1.vocab.barriga",
+    "es.a1.vocab.pierna",
+    "es.a1.vocab.medicamento",
+    "es.a1.vocab.sano",
+    "es.a1.vocab.dolor"
+   ]
+  },
+  {
+   "id": "es.a1.u12.l02",
+   "unitId": "es.a1.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "A1 exam",
+    "ar": "امتحان A1"
+   },
+   "items": []
   }
  ],
  "vocab": [
@@ -2622,6 +3490,1222 @@
    ],
    "source": "3lang-original",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tienda",
+   "lemma": "tienda",
+   "article": "la",
+   "plural": "tiendas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محل",
+    "en": "shop"
+   },
+   "conceptId": "c.a1.shop",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.supermercado",
+   "lemma": "supermercado",
+   "article": "el",
+   "plural": "supermercados",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوبر ماركت",
+    "en": "supermarket"
+   },
+   "conceptId": "c.a1.supermarket",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.dinero",
+   "lemma": "dinero",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فلوس",
+    "en": "money"
+   },
+   "conceptId": "c.a1.money",
+   "sentenceIds": [
+    "es.a1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.precio",
+   "lemma": "precio",
+   "article": "el",
+   "plural": "precios",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سعر",
+    "en": "price"
+   },
+   "conceptId": "c.a1.price",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.euro",
+   "lemma": "euro",
+   "article": "el",
+   "plural": "euros",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يورو",
+    "en": "euro"
+   },
+   "conceptId": "c.a1.euro",
+   "sentenceIds": [
+    "es.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.comprar",
+   "lemma": "comprar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتري",
+    "en": "to buy"
+   },
+   "conceptId": "c.a1.buy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pagar",
+   "lemma": "pagar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يدفع",
+    "en": "to pay"
+   },
+   "conceptId": "c.a1.pay",
+   "sentenceIds": [
+    "es.a1.sent.u05_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.costar",
+   "lemma": "costar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكلّف، تمنه",
+    "en": "to cost"
+   },
+   "conceptId": "c.a1.cost",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.camisa",
+   "lemma": "camisa",
+   "article": "la",
+   "plural": "camisas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قميص",
+    "en": "shirt"
+   },
+   "conceptId": "c.a1.shirt",
+   "sentenceIds": [
+    "es.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.bolsa",
+   "lemma": "bolsa",
+   "article": "la",
+   "plural": "bolsas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة",
+    "en": "bag"
+   },
+   "conceptId": "c.a1.bag",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.levantarse",
+   "lemma": "levantarse",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصحى، يقوم",
+    "en": "to get up"
+   },
+   "conceptId": "c.a1.get_up",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.dormir",
+   "lemma": "dormir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينام",
+    "en": "to sleep"
+   },
+   "conceptId": "c.a1.sleep",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.trabajar",
+   "lemma": "trabajar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتغل",
+    "en": "to work"
+   },
+   "conceptId": "c.a1.work",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.manana",
+   "lemma": "mañana",
+   "article": "la",
+   "plural": "mañanas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الصبح",
+    "en": "morning"
+   },
+   "conceptId": "c.a1.morning",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.noche",
+   "lemma": "noche",
+   "article": "la",
+   "plural": "noches",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المسا، بالليل",
+    "en": "evening"
+   },
+   "conceptId": "c.a1.evening",
+   "sentenceIds": [
+    "es.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.siempre",
+   "lemma": "siempre",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دايمًا",
+    "en": "always"
+   },
+   "conceptId": "c.a1.always",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.a_menudo",
+   "lemma": "a menudo",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتير، غالبًا",
+    "en": "often"
+   },
+   "conceptId": "c.a1.often",
+   "sentenceIds": [
+    "es.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tarde",
+   "lemma": "tarde",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متأخر",
+    "en": "late"
+   },
+   "conceptId": "c.a1.late",
+   "sentenceIds": [
+    "es.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.jugar",
+   "lemma": "jugar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يلعب",
+    "en": "to play"
+   },
+   "conceptId": "c.a1.play",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.leer",
+   "lemma": "leer",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقرا",
+    "en": "to read"
+   },
+   "conceptId": "c.a1.read",
+   "sentenceIds": [
+    "es.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.nadar",
+   "lemma": "nadar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعوم",
+    "en": "to swim"
+   },
+   "conceptId": "c.a1.swim",
+   "sentenceIds": [
+    "es.a1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cocinar",
+   "lemma": "cocinar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطبخ",
+    "en": "to cook"
+   },
+   "conceptId": "c.a1.cook",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.futbol",
+   "lemma": "fútbol",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كورة",
+    "en": "football"
+   },
+   "conceptId": "c.a1.football",
+   "sentenceIds": [
+    "es.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.libro",
+   "lemma": "libro",
+   "article": "el",
+   "plural": "libros",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتاب",
+    "en": "book"
+   },
+   "conceptId": "c.a1.book",
+   "sentenceIds": [
+    "es.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pelicula",
+   "lemma": "película",
+   "article": "la",
+   "plural": "películas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيلم",
+    "en": "film"
+   },
+   "conceptId": "c.a1.film",
+   "sentenceIds": [
+    "es.a1.sent.u07_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.amigo",
+   "lemma": "amigo",
+   "article": "el",
+   "plural": "amigos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحب",
+    "en": "friend"
+   },
+   "conceptId": "c.a1.friend",
+   "sentenceIds": [
+    "es.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.fin_de_semana",
+   "lemma": "fin de semana",
+   "article": "el",
+   "plural": "fines de semana",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الويك إند",
+    "en": "weekend"
+   },
+   "conceptId": "c.a1.weekend",
+   "sentenceIds": [
+    "es.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.poder",
+   "lemma": "poder",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقدر",
+    "en": "can, to be able to"
+   },
+   "conceptId": "c.a1.can",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.con_gusto",
+   "lemma": "con gusto",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بحب، بكل سرور",
+    "en": "gladly (like to)"
+   },
+   "conceptId": "c.a1.gladly",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.calle",
+   "lemma": "calle",
+   "article": "la",
+   "plural": "calles",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شارع",
+    "en": "street"
+   },
+   "conceptId": "c.a1.street",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.estacion",
+   "lemma": "estación",
+   "article": "la",
+   "plural": "estaciones",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محطة",
+    "en": "station"
+   },
+   "conceptId": "c.a1.station",
+   "sentenceIds": [
+    "es.a1.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.farmacia",
+   "lemma": "farmacia",
+   "article": "la",
+   "plural": "farmacias",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صيدلية",
+    "en": "pharmacy"
+   },
+   "conceptId": "c.a1.pharmacy",
+   "sentenceIds": [
+    "es.a1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.museo",
+   "lemma": "museo",
+   "article": "el",
+   "plural": "museos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متحف",
+    "en": "museum"
+   },
+   "conceptId": "c.a1.museum",
+   "sentenceIds": [
+    "es.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.parque",
+   "lemma": "parque",
+   "article": "el",
+   "plural": "parques",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جنينة، حديقة",
+    "en": "park"
+   },
+   "conceptId": "c.a1.park",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.a_la_izquierda",
+   "lemma": "a la izquierda",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شمال",
+    "en": "left"
+   },
+   "conceptId": "c.a1.left",
+   "sentenceIds": [
+    "es.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.a_la_derecha",
+   "lemma": "a la derecha",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يمين",
+    "en": "right"
+   },
+   "conceptId": "c.a1.right_dir",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.todo_recto",
+   "lemma": "todo recto",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على طول",
+    "en": "straight on"
+   },
+   "conceptId": "c.a1.straight_on",
+   "sentenceIds": [
+    "es.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cerca",
+   "lemma": "cerca",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قريب",
+    "en": "near"
+   },
+   "conceptId": "c.a1.near",
+   "sentenceIds": [
+    "es.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.lejos",
+   "lemma": "lejos",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بعيد",
+    "en": "far"
+   },
+   "conceptId": "c.a1.far",
+   "sentenceIds": [
+    "es.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tren",
+   "lemma": "tren",
+   "article": "el",
+   "plural": "trenes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قطر",
+    "en": "train"
+   },
+   "conceptId": "c.a1.train",
+   "sentenceIds": [
+    "es.a1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.avion",
+   "lemma": "avión",
+   "article": "el",
+   "plural": "aviones",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طيارة",
+    "en": "plane"
+   },
+   "conceptId": "c.a1.plane",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.billete",
+   "lemma": "billete",
+   "article": "el",
+   "plural": "billetes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تذكرة",
+    "en": "ticket"
+   },
+   "conceptId": "c.a1.ticket",
+   "sentenceIds": [
+    "es.a1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.maleta",
+   "lemma": "maleta",
+   "article": "la",
+   "plural": "maletas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة سفر",
+    "en": "suitcase"
+   },
+   "conceptId": "c.a1.suitcase",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.viajar",
+   "lemma": "viajar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسافر",
+    "en": "to travel"
+   },
+   "conceptId": "c.a1.travel",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.conducir",
+   "lemma": "conducir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسوق؛ يروح بمواصلة",
+    "en": "to drive; to go (by vehicle)"
+   },
+   "conceptId": "c.a1.drive",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.volar",
+   "lemma": "volar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطير، يسافر بالطيارة",
+    "en": "to fly"
+   },
+   "conceptId": "c.a1.fly",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.tener_que",
+   "lemma": "tener que",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لازم",
+    "en": "must, to have to"
+   },
+   "conceptId": "c.a1.must",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.salida",
+   "lemma": "salida",
+   "article": "la",
+   "plural": "salidas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيام، مغادرة",
+    "en": "departure"
+   },
+   "conceptId": "c.a1.departure",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.vacaciones",
+   "lemma": "vacaciones",
+   "article": "las",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إجازة",
+    "en": "holiday, vacation"
+   },
+   "conceptId": "c.a1.holiday",
+   "sentenceIds": [
+    "es.a1.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.cabeza",
+   "lemma": "cabeza",
+   "article": "la",
+   "plural": "cabezas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "راس",
+    "en": "head"
+   },
+   "conceptId": "c.a1.head",
+   "sentenceIds": [
+    "es.a1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.barriga",
+   "lemma": "barriga",
+   "article": "la",
+   "plural": "barrigas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطن",
+    "en": "belly, stomach"
+   },
+   "conceptId": "c.a1.belly",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.brazo",
+   "lemma": "brazo",
+   "article": "el",
+   "plural": "brazos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دراع",
+    "en": "arm"
+   },
+   "conceptId": "c.a1.arm",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.pierna",
+   "lemma": "pierna",
+   "article": "la",
+   "plural": "piernas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رجل",
+    "en": "leg"
+   },
+   "conceptId": "c.a1.leg",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.medico",
+   "lemma": "médico",
+   "article": "el",
+   "plural": "médicos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دكتور",
+    "en": "doctor"
+   },
+   "conceptId": "c.a1.doctor",
+   "sentenceIds": [
+    "es.a1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.medicamento",
+   "lemma": "medicamento",
+   "article": "el",
+   "plural": "medicamentos",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دوا",
+    "en": "medicine"
+   },
+   "conceptId": "c.a1.medicine",
+   "sentenceIds": [
+    "es.a1.sent.u10_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.enfermo",
+   "lemma": "enfermo",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيان",
+    "en": "ill, sick"
+   },
+   "conceptId": "c.a1.ill",
+   "sentenceIds": [
+    "es.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.sano",
+   "lemma": "sano",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صحي، بصحة كويسة",
+    "en": "healthy"
+   },
+   "conceptId": "c.a1.healthy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.doler",
+   "lemma": "doler",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوجع",
+    "en": "to hurt"
+   },
+   "conceptId": "c.a1.hurt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.dolor",
+   "lemma": "dolor",
+   "article": "el",
+   "plural": "dolores",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وجع",
+    "en": "pain"
+   },
+   "conceptId": "c.a1.pain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.fiebre",
+   "lemma": "fiebre",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سخونية، حرارة",
+    "en": "fever"
+   },
+   "conceptId": "c.a1.fever",
+   "sentenceIds": [
+    "es.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.trabajo",
+   "lemma": "trabajo",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شغل",
+    "en": "job, work"
+   },
+   "conceptId": "c.a1.job",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.oficina",
+   "lemma": "oficina",
+   "article": "la",
+   "plural": "oficinas",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مكتب",
+    "en": "office"
+   },
+   "conceptId": "c.a1.office",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.companero",
+   "lemma": "compañero",
+   "article": "el",
+   "plural": "compañeros",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زميل",
+    "en": "colleague"
+   },
+   "conceptId": "c.a1.colleague",
+   "sentenceIds": [
+    "es.a1.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.jefe",
+   "lemma": "jefe",
+   "article": "el",
+   "plural": "jefes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدير",
+    "en": "boss"
+   },
+   "conceptId": "c.a1.boss",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.profesor",
+   "lemma": "profesor",
+   "article": "el",
+   "plural": "profesores",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرس",
+    "en": "teacher"
+   },
+   "conceptId": "c.a1.teacher",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.estudiante",
+   "lemma": "estudiante",
+   "article": "el",
+   "plural": "estudiantes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طالب",
+    "en": "student"
+   },
+   "conceptId": "c.a1.student",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.escribir",
+   "lemma": "escribir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكتب",
+    "en": "to write"
+   },
+   "conceptId": "c.a1.write",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.vocab.hacer",
+   "lemma": "hacer",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعمل",
+    "en": "to make, to do"
+   },
+   "conceptId": "c.a1.make_do",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
   }
  ],
  "sentences": [
@@ -3416,6 +5500,314 @@
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
    "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u05_01",
+   "text": "¿Cuánto cuesta el pan?",
+   "translations": {
+    "ar": "العيش بكام؟",
+    "en": "How much does the bread cost?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u05_02",
+   "text": "La camisa cuesta veinte euros.",
+   "translations": {
+    "ar": "القميص بعشرين يورو.",
+    "en": "The shirt costs twenty euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u05_03",
+   "text": "No tengo dinero.",
+   "translations": {
+    "ar": "معييش فلوس.",
+    "en": "I don't have any money."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u05_04",
+   "text": "¿Puedo pagar con tarjeta?",
+   "translations": {
+    "ar": "ينفع أدفع بالكارت؟",
+    "en": "Can I pay by card?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u06_01",
+   "text": "Me levanto a las siete.",
+   "translations": {
+    "ar": "بصحى الساعة سبعة.",
+    "en": "I get up at seven o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u06_02",
+   "text": "¿Qué hora es?",
+   "translations": {
+    "ar": "الساعة كام؟",
+    "en": "What time is it?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u06_03",
+   "text": "Hoy trabajo hasta las cinco.",
+   "translations": {
+    "ar": "النهاردة هشتغل لحد خمسة.",
+    "en": "Today I work until five."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u06_04",
+   "text": "Por la noche a menudo duermo tarde.",
+   "translations": {
+    "ar": "بالليل غالبًا بنام متأخر.",
+    "en": "In the evening I often sleep late."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u07_01",
+   "text": "Me gusta leer libros.",
+   "translations": {
+    "ar": "بحب أقرا كتب.",
+    "en": "I like to read books."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u07_02",
+   "text": "¿Sabes nadar?",
+   "translations": {
+    "ar": "تعرف تعوم؟",
+    "en": "Can you swim?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u07_03",
+   "text": "El fin de semana juego al fútbol con amigos.",
+   "translations": {
+    "ar": "في الويك إند بلعب كورة مع أصحابي.",
+    "en": "At the weekend I play football with friends."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u07_04",
+   "text": "Queremos ver una película.",
+   "translations": {
+    "ar": "عايزين نشوف فيلم.",
+    "en": "We want to see a film."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u08_01",
+   "text": "Perdone, ¿dónde está la estación?",
+   "translations": {
+    "ar": "لو سمحت، المحطة فين؟",
+    "en": "Excuse me, where is the station?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u08_02",
+   "text": "Siga todo recto y luego a la izquierda.",
+   "translations": {
+    "ar": "امشي على طول وبعدين شمال.",
+    "en": "Go straight on and then left."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u08_03",
+   "text": "La farmacia está al lado del banco.",
+   "translations": {
+    "ar": "الصيدلية جنب البنك.",
+    "en": "The pharmacy is next to the bank."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u08_04",
+   "text": "¿Está lejos el museo? No, está cerca.",
+   "translations": {
+    "ar": "المتحف بعيد؟ لأ، قريب.",
+    "en": "Is the museum far? No, it is near."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u09_01",
+   "text": "Voy al trabajo en tren.",
+   "translations": {
+    "ar": "بروح الشغل بالقطر.",
+    "en": "I go to work by train."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u09_02",
+   "text": "Tenemos que comprar un billete.",
+   "translations": {
+    "ar": "لازم نشتري تذكرة.",
+    "en": "We have to buy a ticket."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u09_03",
+   "text": "¿Cuándo sale el autobús?",
+   "translations": {
+    "ar": "الأتوبيس بيقوم إمتى؟",
+    "en": "When does the bus leave?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u09_04",
+   "text": "En vacaciones volamos a España.",
+   "translations": {
+    "ar": "في الإجازة هنسافر إسبانيا بالطيارة.",
+    "en": "In the holidays we fly to Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u10_01",
+   "text": "Me duele la cabeza.",
+   "translations": {
+    "ar": "راسي بتوجعني.",
+    "en": "My head hurts."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u10_02",
+   "text": "Estoy enfermo y tengo fiebre.",
+   "translations": {
+    "ar": "أنا عيان وعندي سخونية.",
+    "en": "I am ill and have a fever."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u10_03",
+   "text": "Debes ir al médico.",
+   "translations": {
+    "ar": "المفروض تروح للدكتور.",
+    "en": "You should go to the doctor."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u10_04",
+   "text": "Tome este medicamento tres veces al día.",
+   "translations": {
+    "ar": "خد الدوا ده تلات مرات في اليوم.",
+    "en": "Take this medicine three times a day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u11_01",
+   "text": "Ayer trabajé mucho.",
+   "translations": {
+    "ar": "امبارح اشتغلت كتير.",
+    "en": "Yesterday I worked a lot."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u11_02",
+   "text": "Mi compañero ha escrito un correo.",
+   "translations": {
+    "ar": "زميلي كتب إيميل.",
+    "en": "My colleague has written an email."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u11_03",
+   "text": "¿Por qué aprendes español?",
+   "translations": {
+    "ar": "بتتعلم إسباني ليه؟",
+    "en": "Why are you learning Spanish?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.a1.sent.u11_04",
+   "text": "¿Qué has hecho en la escuela?",
+   "translations": {
+    "ar": "عملت إيه في المدرسة؟",
+    "en": "What did you do at school?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
   }
  ],
  "grammar": [
@@ -3657,8 +6049,8 @@
     "en": "el, la: articles and gender"
    },
    "explanation": {
-    "en": "Every Spanish noun is masculine or feminine. Most words in -o are masculine (el armario) and most in -a are feminine (la mesa). Learn the exceptions with their article: el sofá, el día, el problema, la mano.\n\nArticles: el / la (the), los / las (the, plural), un / una (a).\n\nPlural: add -s after a vowel (mesa → mesas) and -es after a consonant (balcón → balcones; the accent disappears).\n\nAdjectives agree with the noun: el piso pequeño, la cocina pequeña, los pisos pequeños. Adjectives in -e only change for plural: grande, grandes.\n\nhay means there is / there are: En el dormitorio hay una cama.",
-    "ar": "كل اسم في الإسباني يا مذكر يا مؤنث. أغلب الكلمات اللي بتخلص بـ ‎-o مذكر (el armario) وأغلب اللي بتخلص بـ ‎-a مؤنث (la mesa). احفظ الاستثناءات مع أداتها: el sofá، el día، el problema، la mano.\n\nالأدوات: el / la (الـ)، los / las (الـ للجمع)، un / una (واحد/واحدة، زي a).\n\nالجمع: زوّد ‎-s بعد حرف متحرك (mesa ← mesas) و‎-es بعد حرف ساكن (balcón ← balcones، والشرطة بتختفي).\n\nالصفة بتمشي مع الاسم: el piso pequeño، la cocina pequeña، los pisos pequeños. الصفات اللي بتخلص بـ ‎-e بتتغير في الجمع بس: grande، grandes.\n\nhay معناها «فيه»: En el dormitorio hay una cama = في أوضة النوم فيه سرير."
+    "en": "Every Spanish noun is masculine or feminine. Most words in -o are masculine (el armario) and most in -a are feminine (la mesa). Learn the exceptions with their article: el sofá, el día, el problema, la mano.\n\nArticles: el / la (the), los / las (the, plural), un / una (a).\n\nPlural: add -s after a vowel (mesa -> mesas) and -es after a consonant (balcón -> balcones; the accent disappears).\n\nAdjectives agree with the noun: el piso pequeño, la cocina pequeña, los pisos pequeños. Adjectives in -e only change for plural: grande, grandes.\n\nhay means there is / there are: En el dormitorio hay una cama.",
+    "ar": "كل اسم في الإسباني يا مذكر يا مؤنث. أغلب الكلمات اللي بتخلص بـ ‎-o مذكر (el armario) وأغلب اللي بتخلص بـ ‎-a مؤنث (la mesa). احفظ الاستثناءات مع أداتها: el sofá، el día، el problema، la mano.\n\nالأدوات: el / la (الـ)، los / las (الـ للجمع)، un / una (واحد/واحدة، زي a).\n\nالجمع: زوّد ‎-s بعد حرف متحرك (mesa -> mesas) و‎-es بعد حرف ساكن (balcón -> balcones، والشرطة بتختفي).\n\nالصفة بتمشي مع الاسم: el piso pequeño، la cocina pequeña، los pisos pequeños. الصفات اللي بتخلص بـ ‎-e بتتغير في الجمع بس: grande، grandes.\n\nhay معناها «فيه»: En el dormitorio hay una cama = في أوضة النوم فيه سرير."
    },
    "table": {
     "headers": [
@@ -3860,6 +6252,314 @@
      "prompt": "Para desayunar ___ pan con queso. (yo)",
      "answer": "como",
      "base": "comer"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u05",
+   "level": "A1",
+   "title": {
+    "en": "costar and numbers with prices",
+    "ar": "costar والأرقام مع الأسعار"
+   },
+   "explanation": {
+    "en": "costar changes o to ue when stressed: cuesta (one thing), cuestan (several): La camisa cuesta veinte euros. Las bolsas cuestan dos euros.\n\nAsk: ¿Cuánto cuesta? / ¿Cuánto cuestan? cuánto agrees with the noun: ¿Cuánto dinero? ¿Cuántas bolsas?\n\nNegation is simple: put no before the verb: No tengo dinero. No es barato.",
+    "ar": "costar الـ o بتبقى ue: cuesta (لحاجة واحدة) وcuestan (لكذا حاجة): La camisa cuesta veinte euros. Las bolsas cuestan dos euros.\n\nتسأل: ¿Cuánto cuesta? / ¿Cuánto cuestan? وcuánto بتتغير مع الاسم: ¿Cuánto dinero? ¿Cuántas bolsas?\n\nالنفي سهل: حط no قبل الفعل: No tengo dinero. No es barato."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u05_01",
+    "es.a1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "La camisa ___ veinte euros.",
+     "answer": "cuesta",
+     "base": "costar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Las bolsas ___ dos euros.",
+     "answer": "cuestan",
+     "base": "costar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ bolsas quieres?",
+     "answer": "Cuántas",
+     "base": "cuánto"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ tengo dinero.",
+     "answer": "no",
+     "base": "no"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u06",
+   "level": "A1",
+   "title": {
+    "en": "Reflexive verbs and telling the time",
+    "ar": "الأفعال الانعكاسية ومعرفة الوقت"
+   },
+   "explanation": {
+    "en": "levantarse (to get up) is reflexive: me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan.\n\ndormir changes o to ue: duermo, duermes, duerme, dormimos, dormís, duermen.\n\nTime: ¿Qué hora es? – Es la una. Son las siete. At seven = a las siete. Note: mañana means both morning (la mañana) and tomorrow (mañana).",
+    "ar": "levantarse (يصحى) فعل انعكاسي: me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan.\n\ndormir الـ o بتبقى ue: duermo, duermes, duerme, dormimos, dormís, duermen.\n\nالوقت: ¿Qué hora es? – Es la una. Son las siete. الساعة سبعة (في) = a las siete. خلي بالك: mañana معناها الصبح (la mañana) وبكرة (mañana)."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u06_01",
+    "es.a1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ levanto a las siete.",
+     "answer": "me",
+     "base": "levantarse"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ella ___ hasta las nueve.",
+     "answer": "duerme",
+     "base": "dormir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nosotros ___ levantamos tarde.",
+     "answer": "nos",
+     "base": "levantarse"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ las cinco.",
+     "answer": "Son",
+     "base": "ser"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u07",
+   "level": "A1",
+   "title": {
+    "en": "gustar, poder and saber",
+    "ar": "gustar وpoder وsaber"
+   },
+   "explanation": {
+    "en": "gustar works backwards: the thing you like is the subject. Me gusta leer. Me gusta la música. Me gustan los libros (plural -> gustan).\n\npoder (o -> ue) = can, be allowed: puedo, puedes, puede, podemos, podéis, pueden. For a learned skill Spanish uses saber: ¿Sabes nadar? = Can you swim?\n\njugar (u -> ue) takes a: juego al fútbol.",
+    "ar": "gustar بتشتغل بالعكس: الحاجة اللي بتحبها هي الفاعل. Me gusta leer. Me gusta la música. Me gustan los libros (جمع -> gustan).\n\npoder (o -> ue) = يقدر أو مسموح له: puedo, puedes, puede, podemos, podéis, pueden. وللمهارة اللي اتعلمتها الإسباني بيستخدم saber: ¿Sabes nadar? = تعرف تعوم؟\n\njugar (u -> ue) بتاخد a: juego al fútbol."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u07_01",
+    "es.a1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ la música.",
+     "answer": "gusta",
+     "base": "gustar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ los libros.",
+     "answer": "gustan",
+     "base": "gustar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ nadar? (tú)",
+     "answer": "Sabes",
+     "base": "saber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ al fútbol.",
+     "answer": "juego",
+     "base": "jugar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u08",
+   "level": "A1",
+   "title": {
+    "en": "estar for location and the polite imperative",
+    "ar": "estar للمكان والأمر المؤدب"
+   },
+   "explanation": {
+    "en": "For where something is, Spanish uses estar, not ser: ¿Dónde está la estación? El museo está cerca.\n\nPolite (usted) imperative: -ar verbs take -e, -er/-ir verbs take -a: tomar -> tome, seguir -> siga, girar -> gire. Informal (tú): toma, sigue, gira.\n\nde + el = del, a + el = al: al lado del banco.",
+    "ar": "عشان تقول الحاجة فين، الإسباني بيستخدم estar مش ser: ¿Dónde está la estación? El museo está cerca.\n\nالأمر المؤدب (usted): أفعال ‎-ar بتاخد ‎-e، وأفعال ‎-er/-ir بتاخد ‎-a: tomar -> tome، seguir -> siga، girar -> gire. والعادي (tú): toma، sigue، gira.\n\nde + el = del، وa + el = al: al lado del banco."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u08_01",
+    "es.a1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "¿Dónde ___ la farmacia?",
+     "answer": "está",
+     "base": "estar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ todo recto. (usted, seguir)",
+     "answer": "Siga",
+     "base": "seguir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La farmacia está al lado ___ banco.",
+     "answer": "del",
+     "base": "de + el"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "El museo ___ lejos.",
+     "answer": "está",
+     "base": "estar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u09",
+   "level": "A1",
+   "title": {
+    "en": "tener que, salir and transport with en",
+    "ar": "tener que وsalir والمواصلات بـ en"
+   },
+   "explanation": {
+    "en": "Must = tener que + infinitive: Tengo que trabajar. Tenemos que comprar un billete.\n\nTransport uses en: en tren, en autobús, en coche, en avión (but a pie = on foot).\n\nsalir (to leave) has yo salgo; ¿Cuándo sale el tren? volar changes o -> ue: vuelo, vuelas, vuela, volamos.",
+    "ar": "لازم = tener que + مصدر: Tengo que trabajar. Tenemos que comprar un billete.\n\nالمواصلات بـ en: en tren، en autobús، en coche، en avión (بس a pie = ماشي على رجلك).\n\nsalir (يقوم/يخرج) ليها yo salgo؛ ¿Cuándo sale el tren? وvolar الـ o بتبقى ue: vuelo, vuelas, vuela, volamos."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u09_01",
+    "es.a1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Tenemos ___ comprar un billete.",
+     "answer": "que",
+     "base": "tener que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Voy al trabajo ___ tren.",
+     "answer": "en",
+     "base": "en"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Cuándo ___ el autobús?",
+     "answer": "sale",
+     "base": "salir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo ___ a Madrid. (volar)",
+     "answer": "vuelo",
+     "base": "volar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u10",
+   "level": "A1",
+   "title": {
+    "en": "doler, estar enfermo and deber",
+    "ar": "doler وestar enfermo وdeber"
+   },
+   "explanation": {
+    "en": "doler works like gustar: Me duele la cabeza (one thing), Me duelen las piernas (plural). Use the article, not a possessive: la cabeza, not mi cabeza.\n\nIllness is a state, so estar: Estoy enfermo/enferma. But tener for fever: Tengo fiebre.\n\ndeber + infinitive = should: Debes ir al médico.",
+    "ar": "doler بتشتغل زي gustar: Me duele la cabeza (حاجة واحدة)، Me duelen las piernas (جمع). استخدم الأداة مش الملكية: la cabeza مش mi cabeza.\n\nالعيا حالة، فبنستخدم estar: Estoy enfermo/enferma. بس الحرارة بـ tener: Tengo fiebre.\n\ndeber + مصدر = المفروض: Debes ir al médico."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u10_01",
+    "es.a1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ la cabeza.",
+     "answer": "duele",
+     "base": "doler"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ las piernas.",
+     "answer": "duelen",
+     "base": "doler"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ enfermo. (yo)",
+     "answer": "Estoy",
+     "base": "estar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ ir al médico. (tú)",
+     "answer": "Debes",
+     "base": "deber"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.a1.gram.u11",
+   "level": "A1",
+   "title": {
+    "en": "Two pasts: pretérito perfecto and indefinido",
+    "ar": "ماضيين: pretérito perfecto وindefinido"
+   },
+   "explanation": {
+    "en": "pretérito perfecto = haber + participle, for today, this week, life so far: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). Participles: -ar -> -ado, -er/-ir -> -ido; irregular: hecho (hacer), escrito (escribir).\n\nindefinido for finished times like ayer: trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (why, two words) vs porque (because).",
+    "ar": "pretérito perfecto = haber + اسم المفعول، للنهاردة والأسبوع ده والحياة لحد دلوقتي: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). اسم المفعول: ‎-ar -> ‎-ado، و‎-er/-ir -> ‎-ido؛ والشاذ: hecho (hacer)، escrito (escribir).\n\nindefinido للوقت اللي خلص زي ayer (امبارح): trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (ليه، كلمتين) غير porque (عشان)."
+   },
+   "exampleSentenceIds": [
+    "es.a1.sent.u11_01",
+    "es.a1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Mi compañero ___ escrito un correo.",
+     "answer": "ha",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Qué has ___? (hacer)",
+     "answer": "hecho",
+     "base": "hacer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ayer ___ mucho. (yo, trabajar)",
+     "answer": "trabajé",
+     "base": "trabajar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ aprendes español?",
+     "answer": "Por qué",
+     "base": "por qué"
     }
    ],
    "source": "3lang-original",
@@ -4106,6 +6806,69 @@
    "prompt": {
     "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالإسباني.",
     "en": "What do you eat and drink for breakfast, lunch and dinner? Write in Spanish."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u05",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about shopping and prices in Spanish: what you buy every week and how much it costs.",
+    "ar": "اكتب بالإسباني عن التسوق والأسعار: إيه اللي بتشتريه كل أسبوع وبكام."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u06",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about daily routine and time in Spanish: your typical day from morning to evening.",
+    "ar": "اكتب بالإسباني عن الروتين اليومي والوقت: يومك العادي من الصبح لبالليل."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u07",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about free time and hobbies in Spanish: what you like to do in your free time.",
+    "ar": "اكتب بالإسباني عن وقت الفراغ والهوايات: بتحب تعمل إيه في وقت فراغك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u08",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about in the city in Spanish: the way from your home to a place you like in your city.",
+    "ar": "اكتب بالإسباني عن في المدينة: الطريق من بيتك لمكان بتحبه في مدينتك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u09",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about travel and transport in Spanish: a trip you took: where, how and with whom.",
+    "ar": "اكتب بالإسباني عن السفر والمواصلات: رحلة عملتها: فين وإزاي ومع مين."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u10",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about health and body in Spanish: a time you were ill and what you did.",
+    "ar": "اكتب بالإسباني عن الصحة والجسم: مرة كنت عيان وعملت إيه."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "es.a1.write.u11",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about work and school in Spanish: what you did last week at work or school.",
+    "ar": "اكتب بالإسباني عن الشغل والمدرسة: عملت إيه الأسبوع اللي فات في الشغل أو المدرسة."
    },
    "minWords": 20
   }

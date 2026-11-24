@@ -5,12 +5,18 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import '../course/exercises.dart';
+import '../today/today_plan.dart';
+import '../../core/lang/lang.dart';
+import '../../core/bidi.dart';
 
 /// Spaced-repetition review. Front: the meaning in the explanation language.
 /// Back: the German word, audio and example. The learner grades recall and
 /// FSRS schedules the next showing.
 class ReviewScreen extends ConsumerStatefulWidget {
-  const ReviewScreen({super.key});
+  const ReviewScreen({super.key, this.lang});
+
+  /// Only this language's cards (from the daily plan), or all when null.
+  final Lang? lang;
 
   @override
   ConsumerState<ReviewScreen> createState() => _ReviewScreenState();
@@ -29,10 +35,15 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
   }
 
   Future<void> _load() async {
-    final limit = ref.read(settingsProvider).value?.newCardsPerDay ?? 20;
+    var limit = ref.read(settingsProvider).value?.newCardsPerDay ?? 20;
+    final lang = widget.lang;
+    if (lang != null) {
+      final plan = ref.read(todayPlanProvider).value;
+      limit = plan?.newCardLimit[lang] ?? limit;
+    }
     final cards = await ref
         .read(srsRepositoryProvider)
-        .dueCards(newLimit: limit);
+        .dueCards(newLimit: limit, lang: lang);
     setState(() {
       _queue = cards;
       _shownAt = DateTime.now();
@@ -75,7 +86,13 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     return StudyTimer(
       activity: Activity.review,
       child: Scaffold(
-        appBar: AppBar(title: Text(l.flashcards)),
+        appBar: AppBar(
+          title: BidiText(
+            widget.lang == null
+                ? l.flashcards
+                : '${l.flashcards} · ${widget.lang!.displayName(ref.watch(uiLanguageProvider))}',
+          ),
+        ),
         body: AsyncView(
           value: all,
           builder: (levels) {
@@ -84,7 +101,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
             }
             if (_queue!.isEmpty) {
               return Center(
-                child: Text(_done == 0 ? l.reviewEmpty : l.reviewDone),
+                child: BidiText(_done == 0 ? l.reviewEmpty : l.reviewDone),
               );
             }
             final card = _queue!.first;
@@ -112,14 +129,14 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      Text('${_queue!.length}', textAlign: TextAlign.end),
+                      BidiText('${_queue!.length}', textAlign: TextAlign.end),
                       Expanded(
                         child: Center(
                           child: _revealed
                               ? SingleChildScrollView(
                                   child: WordCard(item: item, content: level),
                                 )
-                              : Text(
+                              : BidiText(
                                   item.translations.get(lang),
                                   style: Theme.of(context)
                                       .textTheme
@@ -134,7 +151,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                             setState(() => _revealed = true);
                             ref.read(ttsProvider).speak(item.display);
                           },
-                          child: Text(l.showAnswer),
+                          child: BidiText(l.showAnswer),
                         )
                       else
                         Row(
@@ -158,8 +175,8 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                                     child: Column(
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
-                                        Text(label),
-                                        Text(
+                                        BidiText(label),
+                                        BidiText(
                                           _fmt(preview[rating]!),
                                           style: const TextStyle(fontSize: 11),
                                         ),

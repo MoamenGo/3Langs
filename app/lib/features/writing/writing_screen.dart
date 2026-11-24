@@ -6,6 +6,7 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../services/language_tool_service.dart';
+import '../../core/bidi.dart';
 
 /// Writing practice: pick a prompt, write in German, get corrections from
 /// LanguageTool. Every attempt is saved and synced.
@@ -70,7 +71,7 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
     return StudyTimer(
       activity: Activity.writing,
       child: Scaffold(
-        appBar: AppBar(title: Text(l.lessonWriting)),
+        appBar: AppBar(title: BidiText(l.lessonWriting)),
         body: AsyncView(
           value: ref.watch(activeContentProvider),
           builder: (c) {
@@ -87,7 +88,7 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                       for (final p in c.writingPrompts)
                         DropdownMenuItem(
                           value: p,
-                          child: Text(
+                          child: BidiText(
                             p.prompt.get(lang),
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -97,7 +98,7 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                   ),
                 if (_prompt != null) ...[
                   const SizedBox(height: 8),
-                  Text(
+                  BidiText(
                     _prompt!.prompt.get(lang),
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
@@ -105,16 +106,18 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                 const SizedBox(height: 12),
                 TextField(
                   controller: _controller,
+                  textDirection: TextDirection.ltr,
                   minLines: 6,
                   maxLines: 14,
                   decoration: InputDecoration(
                     hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+                    hintTextDirection: Directionality.of(context),
                   ),
                   onChanged: (_) => setState(() {}),
                 ),
                 Align(
-                  alignment: Alignment.centerRight,
-                  child: Text(l.wordCount(_words)),
+                  alignment: AlignmentDirectional.centerEnd,
+                  child: BidiText(l.wordCount(_words)),
                 ),
                 const SizedBox(height: 8),
                 FilledButton.icon(
@@ -125,12 +128,12 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                           child: CircularProgressIndicator(strokeWidth: 2),
                         )
                       : const Icon(Icons.spellcheck),
-                  label: Text(l.writingCheck),
+                  label: BidiText(l.writingCheck),
                 ),
                 if (_error != null)
                   Padding(
                     padding: const EdgeInsets.only(top: 12),
-                    child: Text(
+                    child: BidiText(
                       _error!,
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.error,
@@ -139,12 +142,12 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                   ),
                 if (_issues != null) ...[
                   const SizedBox(height: 16),
-                  if (_issues!.isEmpty) Text(l.noIssues),
+                  if (_issues!.isEmpty) BidiText(l.noIssues),
                   for (final issue in _issues!)
                     Card(
                       child: ListTile(
                         leading: const Icon(Icons.error_outline),
-                        title: Text(
+                        title: BidiText(
                           _controller.text.substring(
                             issue.offset,
                             (issue.offset + issue.length).clamp(
@@ -153,11 +156,11 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                             ),
                           ),
                         ),
-                        subtitle: Text(issue.message),
+                        subtitle: BidiText(issue.message),
                         trailing: issue.replacements.isEmpty
                             ? null
-                            : Text(
-                                '→ ${issue.replacements.first}',
+                            : BidiText(
+                                '-> ${issue.replacements.first}',
                                 style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                 ),

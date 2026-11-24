@@ -292,5 +292,220 @@
         "type": "String"
       }
     }
-  }
+  },
+  "navToday": "Today",
+  "welcomeTitle": "Set up your three languages",
+  "welcomeSubtitle": "Choose your languages, daily time and starting level.",
+  "setUp": "Set up",
+  "todaysPlan": "Today's plan",
+  "planMinutes": "{total} min planned · {left} min left",
+  "@planMinutes": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "left": {
+        "type": "int"
+      }
+    }
+  },
+  "rebuildPlan": "Rebuild today's plan",
+  "planEmpty": "Nothing to study today. Enjoy your day off!",
+  "planDone": "Today's plan is done. Great work!",
+  "startPlan": "Start today's session",
+  "continuePlan": "Continue",
+  "blockReview": "Review · {lang}",
+  "@blockReview": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "blockLesson": "New lesson · {lang}",
+  "@blockLesson": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "blockContrast": "Contrast drill",
+  "blockContrastHint": "The words you mix up between languages",
+  "yourLanguages": "Your languages",
+  "drillEmpty": "No words to compare yet. Finish a few lessons in two languages first.",
+  "myMixups": "Your mix-ups",
+  "noMixups": "No mix-ups yet.",
+  "mixupGiven": "You chose {given} ({lang})",
+  "@mixupGiven": {
+    "placeholders": {
+      "given": {
+        "type": "String"
+      },
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "done": "Done",
+  "examIntro": "{level} exam: {count} questions from the whole level. Score {pass}% or more to move up.",
+  "@examIntro": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "pass": {
+        "type": "int"
+      }
+    }
+  },
+  "startExam": "Start",
+  "examPassed": "You passed {level}!",
+  "@examPassed": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "examFailed": "Not yet. Review {level} and try again.",
+  "@examFailed": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "nowAtLevel": "You are now at {level}.",
+  "@nowAtLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAgain": "Try again",
+  "mixupHint": "That one is {lang}: a mix-up between languages.",
+  "@mixupHint": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "placementTitle": "Placement test · {lang}",
+  "@placementTitle": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "placementResult": "You start {lang} at {level}.",
+  "@placementResult": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      },
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "placementIntro": "A few words from each level, from A1 up. It stops when it gets hard, about 5 minutes. Not sure? Start as a beginner.",
+  "@placementIntro": {
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "placementBeginner": "I'm a complete beginner (A0)",
+  "placementLevel": "Level {level}",
+  "@placementLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeIntro": "3Lang teaches German, Dutch and Spanish side by side, from A0 to C1. Every day it plans a session across your languages: reviews first, new lessons in two languages, a skill in the third, and a contrast drill when you mix them up.",
+  "stepInterface": "1. App language",
+  "stepMinutes": "2. Minutes a day",
+  "minutesPerLanguage": "{total} min a day, about {each} min per language",
+  "@minutesPerLanguage": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "each": {
+        "type": "int"
+      }
+    }
+  },
+  "stepLanguages": "3. Languages and start",
+  "stepLanguagesHint": "German and Dutch are close, so Dutch starts later by default. Take a placement test if you already know some.",
+  "startIn": "Start:",
+  "startNow": "Now",
+  "weekN": "Week {n}",
+  "@weekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "placementButton": "Placement test",
+  "finishSetup": "Save and go to today",
+  "c1By": "C1 by about {date}",
+  "@c1By": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "mixupMap": "Mix-ups between languages",
+  "languagesAndPlan": "Languages and plan",
+  "languagesAndPlanHint": "Pause a language, change start dates, placement tests",
+  "appearance": "Appearance",
+  "colorTheme": "Colour theme",
+  "themeLanguage": "Language colours",
+  "themeAurora": "Aurora",
+  "themeOcean": "Ocean",
+  "themeSunset": "Sunset",
+  "themeForest": "Forest",
+  "themeRose": "Rose",
+  "themeMidnight": "Midnight",
+  "modeSystem": "Auto",
+  "modeLight": "Light",
+  "modeDark": "Dark",
+  "humanVoice": "Human voice",
+  "humanVoiceHint": "Words play real recordings by native speakers (Lingua Libre, free licence). Sentences use the most natural voice on your device.",
+  "nativeSpeaker": "Native speaker",
+  "watchOnYouTube": "Watch on YouTube",
+  "videosTitle": "Videos on this topic",
+  "videosHint": "Opens YouTube with lessons on this exact topic.",
+  "videoInArabic": "Explained in Arabic",
+  "videoInEnglish": "Explained in English",
+  "videoNative": "In {language} only",
+  "keyPoints": "Key points",
+  "examplesTitle": "Examples",
+  "remember": "Remember",
+  "listenAll": "Listen to all",
+  "@videoNative": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "pieceOfGermanTitle": "Piece of German: this week's plan",
+  "pieceOfGermanHint": "Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).",
+  "androidApp": "Android app",
+  "androidAppHint": "Download 3Lang for your Android phone, or use Chrome's menu > Install app.",
+  "notQuiteTryAgain": "Not quite. Try again, or see the answer."
 }

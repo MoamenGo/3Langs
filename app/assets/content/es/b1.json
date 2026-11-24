@@ -1,0 +1,5590 @@
+{
+ "schemaVersion": 2,
+ "lang": "es",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "B1",
+  "title": {
+   "ar": "B1 متوسط",
+   "en": "B1 Intermediate"
+  },
+  "targetHours": 330,
+  "canDo": [
+   {
+    "en": "Follow the main points of clear talk on familiar topics",
+    "ar": "تفهم النقط الأساسية في كلام واضح عن مواضيع مألوفة"
+   },
+   {
+    "en": "Deal with most situations while travelling and living abroad",
+    "ar": "تتصرف في أغلب المواقف وإنت مسافر أو عايش برة"
+   },
+   {
+    "en": "Give reasons and explanations for opinions and plans",
+    "ar": "تدي أسباب وتوضيح لآرائك وخططك"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "es.b1.u01",
+   "level": "B1",
+   "order": 1,
+   "theme": {
+    "ar": "التعليم والتعلم",
+    "en": "Education and learning"
+   },
+   "goals": [
+    {
+     "en": "Talk about education and learning in Spanish",
+     "ar": "تتكلم عن التعليم والتعلم بالإسباني"
+    },
+    {
+     "en": "Irregular indefinido",
+     "ar": "الـ indefinido الشاذ"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u01"
+   ],
+   "lessonIds": [
+    "es.b1.u01.l01",
+    "es.b1.u01.l02",
+    "es.b1.u01.l03",
+    "es.b1.u01.l04",
+    "es.b1.u01.l05"
+   ],
+   "sharedUnitId": "u.b1.01"
+  },
+  {
+   "id": "es.b1.u02",
+   "level": "B1",
+   "order": 2,
+   "theme": {
+    "ar": "البحث عن شغل والتقديم",
+    "en": "Job search and applications"
+   },
+   "goals": [
+    {
+     "en": "Talk about job search and applications in Spanish",
+     "ar": "تتكلم عن البحث عن شغل والتقديم بالإسباني"
+    },
+    {
+     "en": "Relative clauses with que, quien, el que",
+     "ar": "الجمل الموصولة بـ que وquien وel que"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u02"
+   ],
+   "lessonIds": [
+    "es.b1.u02.l01",
+    "es.b1.u02.l02",
+    "es.b1.u02.l03",
+    "es.b1.u02.l04",
+    "es.b1.u02.l05"
+   ],
+   "sharedUnitId": "u.b1.02"
+  },
+  {
+   "id": "es.b1.u03",
+   "level": "B1",
+   "order": 3,
+   "theme": {
+    "ar": "العيش مع الآخرين",
+    "en": "Living together"
+   },
+   "goals": [
+    {
+     "en": "Talk about living together in Spanish",
+     "ar": "تتكلم عن العيش مع الآخرين بالإسباني"
+    },
+    {
+     "en": "Prepositions + relative pronouns; dejar",
+     "ar": "حروف الجر مع ضماير الوصل؛ dejar"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u03"
+   ],
+   "lessonIds": [
+    "es.b1.u03.l01",
+    "es.b1.u03.l02",
+    "es.b1.u03.l03",
+    "es.b1.u03.l04",
+    "es.b1.u03.l05"
+   ],
+   "sharedUnitId": "u.b1.03"
+  },
+  {
+   "id": "es.b1.u04",
+   "level": "B1",
+   "order": 4,
+   "theme": {
+    "ar": "الاستهلاك والفلوس",
+    "en": "Consumption and money"
+   },
+   "goals": [
+    {
+     "en": "Talk about consumption and money in Spanish",
+     "ar": "تتكلم عن الاستهلاك والفلوس بالإسباني"
+    },
+    {
+     "en": "Passive with se and poder; gastar en",
+     "ar": "المجهول بـ se مع poder؛ gastar en"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u04"
+   ],
+   "lessonIds": [
+    "es.b1.u04.l01",
+    "es.b1.u04.l02",
+    "es.b1.u04.l03",
+    "es.b1.u04.l04",
+    "es.b1.u04.l05"
+   ],
+   "sharedUnitId": "u.b1.04"
+  },
+  {
+   "id": "es.b1.u05",
+   "level": "B1",
+   "order": 5,
+   "theme": {
+    "ar": "البيئة والطبيعة",
+    "en": "Environment and nature"
+   },
+   "goals": [
+    {
+     "en": "Talk about environment and nature in Spanish",
+     "ar": "تتكلم عن البيئة والطبيعة بالإسباني"
+    },
+    {
+     "en": "Passive se, ser + participle; volverse",
+     "ar": "المجهول بـ se وser + اسم المفعول؛ volverse"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u05"
+   ],
+   "lessonIds": [
+    "es.b1.u05.l01",
+    "es.b1.u05.l02",
+    "es.b1.u05.l03",
+    "es.b1.u05.l04",
+    "es.b1.u05.l05"
+   ],
+   "sharedUnitId": "u.b1.05"
+  },
+  {
+   "id": "es.b1.u06",
+   "level": "B1",
+   "order": 6,
+   "theme": {
+    "ar": "الإعلام والأخبار",
+    "en": "Media and news"
+   },
+   "goals": [
+    {
+     "en": "Talk about media and news in Spanish",
+     "ar": "تتكلم عن الإعلام والأخبار بالإسباني"
+    },
+    {
+     "en": "aunque, sin embargo; reported speech",
+     "ar": "aunque وsin embargo؛ الكلام المنقول"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u06"
+   ],
+   "lessonIds": [
+    "es.b1.u06.l01",
+    "es.b1.u06.l02",
+    "es.b1.u06.l03",
+    "es.b1.u06.l04",
+    "es.b1.u06.l05"
+   ],
+   "sharedUnitId": "u.b1.06"
+  },
+  {
+   "id": "es.b1.u07",
+   "level": "B1",
+   "order": 7,
+   "theme": {
+    "ar": "النظام الصحي",
+    "en": "Health system"
+   },
+   "goals": [
+    {
+     "en": "Talk about health system in Spanish",
+     "ar": "تتكلم عن النظام الصحي بالإسباني"
+    },
+    {
+     "en": "para + infinitive and para que + subjunctive",
+     "ar": "para + مصدر وpara que + subjuntivo"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u07"
+   ],
+   "lessonIds": [
+    "es.b1.u07.l01",
+    "es.b1.u07.l02",
+    "es.b1.u07.l03",
+    "es.b1.u07.l04",
+    "es.b1.u07.l05"
+   ],
+   "sharedUnitId": "u.b1.07"
+  },
+  {
+   "id": "es.b1.u08",
+   "level": "B1",
+   "order": 8,
+   "theme": {
+    "ar": "الثقافة والفن",
+    "en": "Culture and art"
+   },
+   "goals": [
+    {
+     "en": "Talk about culture and art in Spanish",
+     "ar": "تتكلم عن الثقافة والفن بالإسباني"
+    },
+    {
+     "en": "Pluscuamperfecto; después de, antes de",
+     "ar": "الماضي الأسبق؛ después de وantes de"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u08"
+   ],
+   "lessonIds": [
+    "es.b1.u08.l01",
+    "es.b1.u08.l02",
+    "es.b1.u08.l03",
+    "es.b1.u08.l04",
+    "es.b1.u08.l05"
+   ],
+   "sharedUnitId": "u.b1.08"
+  },
+  {
+   "id": "es.b1.u09",
+   "level": "B1",
+   "order": 9,
+   "theme": {
+    "ar": "السفر والتنقل",
+    "en": "Travel and mobility"
+   },
+   "goals": [
+    {
+     "en": "Talk about travel and mobility in Spanish",
+     "ar": "تتكلم عن السفر والتنقل بالإسباني"
+    },
+    {
+     "en": "debido a, durante, en lugar de, a pesar de",
+     "ar": "debido a وdurante وen lugar de وa pesar de"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u09"
+   ],
+   "lessonIds": [
+    "es.b1.u09.l01",
+    "es.b1.u09.l02",
+    "es.b1.u09.l03",
+    "es.b1.u09.l04",
+    "es.b1.u09.l05"
+   ],
+   "sharedUnitId": "u.b1.09"
+  },
+  {
+   "id": "es.b1.u10",
+   "level": "B1",
+   "order": 10,
+   "theme": {
+    "ar": "السياسة والمجتمع",
+    "en": "Politics and society"
+   },
+   "goals": [
+    {
+     "en": "Talk about politics and society in Spanish",
+     "ar": "تتكلم عن السياسة والمجتمع بالإسباني"
+    },
+    {
+     "en": "Past unreal conditions; cuanto más",
+     "ar": "الشرط غير الحقيقي في الماضي؛ cuanto más"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u10"
+   ],
+   "lessonIds": [
+    "es.b1.u10.l01",
+    "es.b1.u10.l02",
+    "es.b1.u10.l03",
+    "es.b1.u10.l04",
+    "es.b1.u10.l05"
+   ],
+   "sharedUnitId": "u.b1.10"
+  },
+  {
+   "id": "es.b1.u11",
+   "level": "B1",
+   "order": 11,
+   "theme": {
+    "ar": "العلاقات والمشاعر",
+    "en": "Relationships and feelings"
+   },
+   "goals": [
+    {
+     "en": "Talk about relationships and feelings in Spanish",
+     "ar": "تتكلم عن العلاقات والمشاعر بالإسباني"
+    },
+    {
+     "en": "Verbs with prepositions",
+     "ar": "أفعال مع حروف جر"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u11"
+   ],
+   "lessonIds": [
+    "es.b1.u11.l01",
+    "es.b1.u11.l02",
+    "es.b1.u11.l03",
+    "es.b1.u11.l04",
+    "es.b1.u11.l05"
+   ],
+   "sharedUnitId": "u.b1.11"
+  },
+  {
+   "id": "es.b1.u12",
+   "level": "B1",
+   "order": 12,
+   "theme": {
+    "ar": "العلوم والتكنولوجيا",
+    "en": "Science and technology"
+   },
+   "goals": [
+    {
+     "en": "Talk about science and technology in Spanish",
+     "ar": "تتكلم عن العلوم والتكنولوجيا بالإسباني"
+    },
+    {
+     "en": "Participles and -ente adjectives",
+     "ar": "اسم المفعول وصفات ‎-ente"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u12"
+   ],
+   "lessonIds": [
+    "es.b1.u12.l01",
+    "es.b1.u12.l02",
+    "es.b1.u12.l03",
+    "es.b1.u12.l04",
+    "es.b1.u12.l05"
+   ],
+   "sharedUnitId": "u.b1.12"
+  },
+  {
+   "id": "es.b1.u13",
+   "level": "B1",
+   "order": 13,
+   "theme": {
+    "ar": "الرياضة والترفيه",
+    "en": "Sport and leisure"
+   },
+   "goals": [
+    {
+     "en": "Talk about sport and leisure in Spanish",
+     "ar": "تتكلم عن الرياضة والترفيه بالإسباني"
+    },
+    {
+     "en": "Two-part conjunctions",
+     "ar": "أدوات الربط المزدوجة"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u13"
+   ],
+   "lessonIds": [
+    "es.b1.u13.l01",
+    "es.b1.u13.l02",
+    "es.b1.u13.l03",
+    "es.b1.u13.l04",
+    "es.b1.u13.l05"
+   ],
+   "sharedUnitId": "u.b1.13"
+  },
+  {
+   "id": "es.b1.u14",
+   "level": "B1",
+   "order": 14,
+   "theme": {
+    "ar": "العيش في الخارج",
+    "en": "Living abroad"
+   },
+   "goals": [
+    {
+     "en": "Talk about living abroad in Spanish",
+     "ar": "تتكلم عن العيش في الخارج بالإسباني"
+    },
+    {
+     "en": "The future tense and ir a",
+     "ar": "المستقبل وir a"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u14"
+   ],
+   "lessonIds": [
+    "es.b1.u14.l01",
+    "es.b1.u14.l02",
+    "es.b1.u14.l03",
+    "es.b1.u14.l04",
+    "es.b1.u14.l05"
+   ],
+   "sharedUnitId": "u.b1.14"
+  },
+  {
+   "id": "es.b1.u15",
+   "level": "B1",
+   "order": 15,
+   "theme": {
+    "ar": "الرسائل والإيميلات الرسمية",
+    "en": "Formal letters and emails"
+   },
+   "goals": [
+    {
+     "en": "Talk about formal letters and emails in Spanish",
+     "ar": "تتكلم عن الرسائل والإيميلات الرسمية بالإسباني"
+    },
+    {
+     "en": "Formal register: usted and polite forms",
+     "ar": "الأسلوب الرسمي: usted والصيغ المؤدبة"
+    }
+   ],
+   "grammarIds": [
+    "es.b1.gram.u15"
+   ],
+   "lessonIds": [
+    "es.b1.u15.l01",
+    "es.b1.u15.l02",
+    "es.b1.u15.l03",
+    "es.b1.u15.l04",
+    "es.b1.u15.l05"
+   ],
+   "sharedUnitId": "u.b1.15"
+  },
+  {
+   "id": "es.b1.u16",
+   "level": "B1",
+   "order": 16,
+   "theme": {
+    "ar": "مراجعة B1 واختبار تجريبي",
+    "en": "B1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached B1",
+     "ar": "توري إنك وصلت لمستوى B1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "es.b1.u16.l01",
+    "es.b1.u16.l02"
+   ],
+   "sharedUnitId": "u.b1.16"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "es.b1.u01.l01",
+   "unitId": "es.b1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Education and learning: words 1",
+    "ar": "التعليم والتعلم: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.educacion",
+    "es.b1.vocab.universidad",
+    "es.b1.vocab.curso",
+    "es.b1.vocab.examen",
+    "es.b1.vocab.aprobar"
+   ]
+  },
+  {
+   "id": "es.b1.u01.l02",
+   "unitId": "es.b1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Education and learning: words 2",
+    "ar": "التعليم والتعلم: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.asignatura",
+    "es.b1.vocab.conocimiento",
+    "es.b1.vocab.entender",
+    "es.b1.vocab.explicar",
+    "es.b1.vocab.mejorar"
+   ]
+  },
+  {
+   "id": "es.b1.u01.l03",
+   "unitId": "es.b1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Irregular indefinido",
+    "ar": "الـ indefinido الشاذ"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u01"
+  },
+  {
+   "id": "es.b1.u01.l04",
+   "unitId": "es.b1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: education and learning",
+    "ar": "استماع: التعليم والتعلم"
+   },
+   "items": [
+    "es.b1.sent.u01_01",
+    "es.b1.sent.u01_02",
+    "es.b1.sent.u01_03"
+   ]
+  },
+  {
+   "id": "es.b1.u01.l05",
+   "unitId": "es.b1.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "es.b1.vocab.educacion",
+    "es.b1.vocab.universidad",
+    "es.b1.vocab.curso",
+    "es.b1.vocab.examen",
+    "es.b1.vocab.aprobar",
+    "es.b1.vocab.asignatura",
+    "es.b1.vocab.conocimiento",
+    "es.b1.vocab.entender",
+    "es.b1.vocab.explicar",
+    "es.b1.vocab.mejorar"
+   ]
+  },
+  {
+   "id": "es.b1.u02.l01",
+   "unitId": "es.b1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Job search and applications: words 1",
+    "ar": "البحث عن شغل والتقديم: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.solicitud",
+    "es.b1.vocab.solicitar",
+    "es.b1.vocab.curriculum",
+    "es.b1.vocab.experiencia",
+    "es.b1.vocab.entrevista"
+   ]
+  },
+  {
+   "id": "es.b1.u02.l02",
+   "unitId": "es.b1.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Job search and applications: words 2",
+    "ar": "البحث عن شغل والتقديم: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.puesto",
+    "es.b1.vocab.habilidad",
+    "es.b1.vocab.empleador",
+    "es.b1.vocab.contrato",
+    "es.b1.vocab.en_paro"
+   ]
+  },
+  {
+   "id": "es.b1.u02.l03",
+   "unitId": "es.b1.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Relative clauses with que, quien, el que",
+    "ar": "الجمل الموصولة بـ que وquien وel que"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u02"
+  },
+  {
+   "id": "es.b1.u02.l04",
+   "unitId": "es.b1.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: job search and applications",
+    "ar": "استماع: البحث عن شغل والتقديم"
+   },
+   "items": [
+    "es.b1.sent.u02_01",
+    "es.b1.sent.u02_02",
+    "es.b1.sent.u02_03"
+   ]
+  },
+  {
+   "id": "es.b1.u02.l05",
+   "unitId": "es.b1.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "es.b1.vocab.solicitud",
+    "es.b1.vocab.solicitar",
+    "es.b1.vocab.curriculum",
+    "es.b1.vocab.experiencia",
+    "es.b1.vocab.entrevista",
+    "es.b1.vocab.puesto",
+    "es.b1.vocab.habilidad",
+    "es.b1.vocab.empleador",
+    "es.b1.vocab.contrato",
+    "es.b1.vocab.en_paro"
+   ]
+  },
+  {
+   "id": "es.b1.u03.l01",
+   "unitId": "es.b1.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Living together: words 1",
+    "ar": "العيش مع الآخرين: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.companero_de_piso",
+    "es.b1.vocab.norma",
+    "es.b1.vocab.ruido",
+    "es.b1.vocab.limpiar",
+    "es.b1.vocab.basura"
+   ]
+  },
+  {
+   "id": "es.b1.u03.l02",
+   "unitId": "es.b1.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Living together: words 2",
+    "ar": "العيش مع الآخرين: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.compartir",
+    "es.b1.vocab.respetar",
+    "es.b1.vocab.quejarse",
+    "es.b1.vocab.conflicto",
+    "es.b1.vocab.dejar"
+   ]
+  },
+  {
+   "id": "es.b1.u03.l03",
+   "unitId": "es.b1.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Prepositions + relative pronouns; dejar",
+    "ar": "حروف الجر مع ضماير الوصل؛ dejar"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u03"
+  },
+  {
+   "id": "es.b1.u03.l04",
+   "unitId": "es.b1.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: living together",
+    "ar": "استماع: العيش مع الآخرين"
+   },
+   "items": [
+    "es.b1.sent.u03_01",
+    "es.b1.sent.u03_02",
+    "es.b1.sent.u03_03"
+   ]
+  },
+  {
+   "id": "es.b1.u03.l05",
+   "unitId": "es.b1.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "es.b1.vocab.companero_de_piso",
+    "es.b1.vocab.norma",
+    "es.b1.vocab.ruido",
+    "es.b1.vocab.limpiar",
+    "es.b1.vocab.basura",
+    "es.b1.vocab.compartir",
+    "es.b1.vocab.respetar",
+    "es.b1.vocab.quejarse",
+    "es.b1.vocab.conflicto",
+    "es.b1.vocab.dejar"
+   ]
+  },
+  {
+   "id": "es.b1.u04.l01",
+   "unitId": "es.b1.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Consumption and money: words 1",
+    "ar": "الاستهلاك والفلوس: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.gastar",
+    "es.b1.vocab.ahorrar",
+    "es.b1.vocab.deuda",
+    "es.b1.vocab.recibo",
+    "es.b1.vocab.oferta"
+   ]
+  },
+  {
+   "id": "es.b1.u04.l02",
+   "unitId": "es.b1.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Consumption and money: words 2",
+    "ar": "الاستهلاك والفلوس: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.cliente",
+    "es.b1.vocab.consumidor",
+    "es.b1.vocab.cambiar",
+    "es.b1.vocab.valioso"
+   ]
+  },
+  {
+   "id": "es.b1.u04.l03",
+   "unitId": "es.b1.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Passive with se and poder; gastar en",
+    "ar": "المجهول بـ se مع poder؛ gastar en"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u04"
+  },
+  {
+   "id": "es.b1.u04.l04",
+   "unitId": "es.b1.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: consumption and money",
+    "ar": "استماع: الاستهلاك والفلوس"
+   },
+   "items": [
+    "es.b1.sent.u04_01",
+    "es.b1.sent.u04_02",
+    "es.b1.sent.u04_03"
+   ]
+  },
+  {
+   "id": "es.b1.u04.l05",
+   "unitId": "es.b1.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "es.b1.vocab.gastar",
+    "es.b1.vocab.ahorrar",
+    "es.b1.vocab.deuda",
+    "es.b1.vocab.recibo",
+    "es.b1.vocab.oferta",
+    "es.b1.vocab.cliente",
+    "es.b1.vocab.consumidor",
+    "es.b1.vocab.cambiar",
+    "es.b1.vocab.valioso"
+   ]
+  },
+  {
+   "id": "es.b1.u05.l01",
+   "unitId": "es.b1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and nature: words 1",
+    "ar": "البيئة والطبيعة: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.medio_ambiente",
+    "es.b1.vocab.naturaleza",
+    "es.b1.vocab.clima",
+    "es.b1.vocab.energia",
+    "es.b1.vocab.contaminacion"
+   ]
+  },
+  {
+   "id": "es.b1.u05.l02",
+   "unitId": "es.b1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and nature: words 2",
+    "ar": "البيئة والطبيعة: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.proteger",
+    "es.b1.vocab.reciclar",
+    "es.b1.vocab.arbol",
+    "es.b1.vocab.desperdiciar",
+    "es.b1.vocab.futuro"
+   ]
+  },
+  {
+   "id": "es.b1.u05.l03",
+   "unitId": "es.b1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Passive se, ser + participle; volverse",
+    "ar": "المجهول بـ se وser + اسم المفعول؛ volverse"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u05"
+  },
+  {
+   "id": "es.b1.u05.l04",
+   "unitId": "es.b1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: environment and nature",
+    "ar": "استماع: البيئة والطبيعة"
+   },
+   "items": [
+    "es.b1.sent.u05_01",
+    "es.b1.sent.u05_02",
+    "es.b1.sent.u05_03"
+   ]
+  },
+  {
+   "id": "es.b1.u05.l05",
+   "unitId": "es.b1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "es.b1.vocab.medio_ambiente",
+    "es.b1.vocab.naturaleza",
+    "es.b1.vocab.clima",
+    "es.b1.vocab.energia",
+    "es.b1.vocab.contaminacion",
+    "es.b1.vocab.proteger",
+    "es.b1.vocab.reciclar",
+    "es.b1.vocab.arbol",
+    "es.b1.vocab.desperdiciar",
+    "es.b1.vocab.futuro"
+   ]
+  },
+  {
+   "id": "es.b1.u06.l01",
+   "unitId": "es.b1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Media and news: words 1",
+    "ar": "الإعلام والأخبار: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.noticias",
+    "es.b1.vocab.articulo",
+    "es.b1.vocab.informar",
+    "es.b1.vocab.periodista",
+    "es.b1.vocab.opinion"
+   ]
+  },
+  {
+   "id": "es.b1.u06.l02",
+   "unitId": "es.b1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Media and news: words 2",
+    "ar": "الإعلام والأخبار: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.afirmar",
+    "es.b1.vocab.aunque",
+    "es.b1.vocab.sin_embargo",
+    "es.b1.vocab.fuente"
+   ]
+  },
+  {
+   "id": "es.b1.u06.l03",
+   "unitId": "es.b1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "aunque, sin embargo; reported speech",
+    "ar": "aunque وsin embargo؛ الكلام المنقول"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u06"
+  },
+  {
+   "id": "es.b1.u06.l04",
+   "unitId": "es.b1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: media and news",
+    "ar": "استماع: الإعلام والأخبار"
+   },
+   "items": [
+    "es.b1.sent.u06_01",
+    "es.b1.sent.u06_02",
+    "es.b1.sent.u06_03"
+   ]
+  },
+  {
+   "id": "es.b1.u06.l05",
+   "unitId": "es.b1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "es.b1.vocab.noticias",
+    "es.b1.vocab.articulo",
+    "es.b1.vocab.informar",
+    "es.b1.vocab.periodista",
+    "es.b1.vocab.opinion",
+    "es.b1.vocab.afirmar",
+    "es.b1.vocab.aunque",
+    "es.b1.vocab.sin_embargo",
+    "es.b1.vocab.fuente"
+   ]
+  },
+  {
+   "id": "es.b1.u07.l01",
+   "unitId": "es.b1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health system: words 1",
+    "ar": "النظام الصحي: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.seguro_medico",
+    "es.b1.vocab.hospital",
+    "es.b1.vocab.paciente",
+    "es.b1.vocab.tratamiento",
+    "es.b1.vocab.emergencia"
+   ]
+  },
+  {
+   "id": "es.b1.u07.l02",
+   "unitId": "es.b1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health system: words 2",
+    "ar": "النظام الصحي: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.enfermero",
+    "es.b1.vocab.evitar",
+    "es.b1.vocab.para",
+    "es.b1.vocab.para_que"
+   ]
+  },
+  {
+   "id": "es.b1.u07.l03",
+   "unitId": "es.b1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "para + infinitive and para que + subjunctive",
+    "ar": "para + مصدر وpara que + subjuntivo"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u07"
+  },
+  {
+   "id": "es.b1.u07.l04",
+   "unitId": "es.b1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health system",
+    "ar": "استماع: النظام الصحي"
+   },
+   "items": [
+    "es.b1.sent.u07_01",
+    "es.b1.sent.u07_02",
+    "es.b1.sent.u07_03"
+   ]
+  },
+  {
+   "id": "es.b1.u07.l05",
+   "unitId": "es.b1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "es.b1.vocab.seguro_medico",
+    "es.b1.vocab.hospital",
+    "es.b1.vocab.paciente",
+    "es.b1.vocab.tratamiento",
+    "es.b1.vocab.emergencia",
+    "es.b1.vocab.enfermero",
+    "es.b1.vocab.evitar",
+    "es.b1.vocab.para",
+    "es.b1.vocab.para_que"
+   ]
+  },
+  {
+   "id": "es.b1.u08.l01",
+   "unitId": "es.b1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Culture and art: words 1",
+    "ar": "الثقافة والفن: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.arte",
+    "es.b1.vocab.exposicion",
+    "es.b1.vocab.pintura",
+    "es.b1.vocab.artista",
+    "es.b1.vocab.concierto"
+   ]
+  },
+  {
+   "id": "es.b1.u08.l02",
+   "unitId": "es.b1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Culture and art: words 2",
+    "ar": "الثقافة والفن: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.teatro",
+    "es.b1.vocab.publico",
+    "es.b1.vocab.despues_de_que",
+    "es.b1.vocab.antes_de_que",
+    "es.b1.vocab.famoso"
+   ]
+  },
+  {
+   "id": "es.b1.u08.l03",
+   "unitId": "es.b1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Pluscuamperfecto; después de, antes de",
+    "ar": "الماضي الأسبق؛ después de وantes de"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u08"
+  },
+  {
+   "id": "es.b1.u08.l04",
+   "unitId": "es.b1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: culture and art",
+    "ar": "استماع: الثقافة والفن"
+   },
+   "items": [
+    "es.b1.sent.u08_01",
+    "es.b1.sent.u08_02",
+    "es.b1.sent.u08_03"
+   ]
+  },
+  {
+   "id": "es.b1.u08.l05",
+   "unitId": "es.b1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "es.b1.vocab.arte",
+    "es.b1.vocab.exposicion",
+    "es.b1.vocab.pintura",
+    "es.b1.vocab.artista",
+    "es.b1.vocab.concierto",
+    "es.b1.vocab.teatro",
+    "es.b1.vocab.publico",
+    "es.b1.vocab.despues_de_que",
+    "es.b1.vocab.antes_de_que",
+    "es.b1.vocab.famoso"
+   ]
+  },
+  {
+   "id": "es.b1.u09.l01",
+   "unitId": "es.b1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and mobility: words 1",
+    "ar": "السفر والتنقل: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.trafico",
+    "es.b1.vocab.atasco",
+    "es.b1.vocab.retraso",
+    "es.b1.vocab.bicicleta",
+    "es.b1.vocab.conexion"
+   ]
+  },
+  {
+   "id": "es.b1.u09.l02",
+   "unitId": "es.b1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and mobility: words 2",
+    "ar": "السفر والتنقل: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.transporte_publico",
+    "es.b1.vocab.debido_a",
+    "es.b1.vocab.en_lugar_de",
+    "es.b1.vocab.llegar",
+    "es.b1.vocab.perder"
+   ]
+  },
+  {
+   "id": "es.b1.u09.l03",
+   "unitId": "es.b1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "debido a, durante, en lugar de, a pesar de",
+    "ar": "debido a وdurante وen lugar de وa pesar de"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u09"
+  },
+  {
+   "id": "es.b1.u09.l04",
+   "unitId": "es.b1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: travel and mobility",
+    "ar": "استماع: السفر والتنقل"
+   },
+   "items": [
+    "es.b1.sent.u09_01",
+    "es.b1.sent.u09_02",
+    "es.b1.sent.u09_03"
+   ]
+  },
+  {
+   "id": "es.b1.u09.l05",
+   "unitId": "es.b1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "es.b1.vocab.trafico",
+    "es.b1.vocab.atasco",
+    "es.b1.vocab.retraso",
+    "es.b1.vocab.bicicleta",
+    "es.b1.vocab.conexion",
+    "es.b1.vocab.transporte_publico",
+    "es.b1.vocab.debido_a",
+    "es.b1.vocab.en_lugar_de",
+    "es.b1.vocab.llegar",
+    "es.b1.vocab.perder"
+   ]
+  },
+  {
+   "id": "es.b1.u10.l01",
+   "unitId": "es.b1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and society: words 1",
+    "ar": "السياسة والمجتمع: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.politica",
+    "es.b1.vocab.gobierno",
+    "es.b1.vocab.elecciones",
+    "es.b1.vocab.votar",
+    "es.b1.vocab.ciudadano"
+   ]
+  },
+  {
+   "id": "es.b1.u10.l02",
+   "unitId": "es.b1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and society: words 2",
+    "ar": "السياسة والمجتمع: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.sociedad",
+    "es.b1.vocab.ley",
+    "es.b1.vocab.derecho",
+    "es.b1.vocab.igual",
+    "es.b1.vocab.cuanto_mas_mas"
+   ]
+  },
+  {
+   "id": "es.b1.u10.l03",
+   "unitId": "es.b1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Past unreal conditions; cuanto más",
+    "ar": "الشرط غير الحقيقي في الماضي؛ cuanto más"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u10"
+  },
+  {
+   "id": "es.b1.u10.l04",
+   "unitId": "es.b1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: politics and society",
+    "ar": "استماع: السياسة والمجتمع"
+   },
+   "items": [
+    "es.b1.sent.u10_01",
+    "es.b1.sent.u10_02",
+    "es.b1.sent.u10_03"
+   ]
+  },
+  {
+   "id": "es.b1.u10.l05",
+   "unitId": "es.b1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "es.b1.vocab.politica",
+    "es.b1.vocab.gobierno",
+    "es.b1.vocab.elecciones",
+    "es.b1.vocab.votar",
+    "es.b1.vocab.ciudadano",
+    "es.b1.vocab.sociedad",
+    "es.b1.vocab.ley",
+    "es.b1.vocab.derecho",
+    "es.b1.vocab.igual",
+    "es.b1.vocab.cuanto_mas_mas"
+   ]
+  },
+  {
+   "id": "es.b1.u11.l01",
+   "unitId": "es.b1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Relationships and feelings: words 1",
+    "ar": "العلاقات والمشاعر: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.sentimiento",
+    "es.b1.vocab.feliz",
+    "es.b1.vocab.triste",
+    "es.b1.vocab.enfadado",
+    "es.b1.vocab.celoso"
+   ]
+  },
+  {
+   "id": "es.b1.u11.l02",
+   "unitId": "es.b1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Relationships and feelings: words 2",
+    "ar": "العلاقات والمشاعر: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.confiar",
+    "es.b1.vocab.pensar_en",
+    "es.b1.vocab.tener_miedo_de",
+    "es.b1.vocab.sonar_con"
+   ]
+  },
+  {
+   "id": "es.b1.u11.l03",
+   "unitId": "es.b1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Verbs with prepositions",
+    "ar": "أفعال مع حروف جر"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u11"
+  },
+  {
+   "id": "es.b1.u11.l04",
+   "unitId": "es.b1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: relationships and feelings",
+    "ar": "استماع: العلاقات والمشاعر"
+   },
+   "items": [
+    "es.b1.sent.u11_01",
+    "es.b1.sent.u11_02",
+    "es.b1.sent.u11_03"
+   ]
+  },
+  {
+   "id": "es.b1.u11.l05",
+   "unitId": "es.b1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "es.b1.vocab.sentimiento",
+    "es.b1.vocab.feliz",
+    "es.b1.vocab.triste",
+    "es.b1.vocab.enfadado",
+    "es.b1.vocab.celoso",
+    "es.b1.vocab.confiar",
+    "es.b1.vocab.pensar_en",
+    "es.b1.vocab.tener_miedo_de",
+    "es.b1.vocab.sonar_con"
+   ]
+  },
+  {
+   "id": "es.b1.u12.l01",
+   "unitId": "es.b1.u12",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Science and technology: words 1",
+    "ar": "العلوم والتكنولوجيا: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.ciencia",
+    "es.b1.vocab.investigacion",
+    "es.b1.vocab.invento",
+    "es.b1.vocab.desarrollar",
+    "es.b1.vocab.aparato"
+   ]
+  },
+  {
+   "id": "es.b1.u12.l02",
+   "unitId": "es.b1.u12",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Science and technology: words 2",
+    "ar": "العلوم والتكنولوجيا: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.datos",
+    "es.b1.vocab.robot",
+    "es.b1.vocab.progreso",
+    "es.b1.vocab.creciente",
+    "es.b1.vocab.desarrollado"
+   ]
+  },
+  {
+   "id": "es.b1.u12.l03",
+   "unitId": "es.b1.u12",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Participles and -ente adjectives",
+    "ar": "اسم المفعول وصفات ‎-ente"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u12"
+  },
+  {
+   "id": "es.b1.u12.l04",
+   "unitId": "es.b1.u12",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: science and technology",
+    "ar": "استماع: العلوم والتكنولوجيا"
+   },
+   "items": [
+    "es.b1.sent.u12_01",
+    "es.b1.sent.u12_02",
+    "es.b1.sent.u12_03"
+   ]
+  },
+  {
+   "id": "es.b1.u12.l05",
+   "unitId": "es.b1.u12",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 12 review",
+    "ar": "مراجعة الوحدة 12"
+   },
+   "items": [
+    "es.b1.vocab.ciencia",
+    "es.b1.vocab.investigacion",
+    "es.b1.vocab.invento",
+    "es.b1.vocab.desarrollar",
+    "es.b1.vocab.aparato",
+    "es.b1.vocab.datos",
+    "es.b1.vocab.robot",
+    "es.b1.vocab.progreso",
+    "es.b1.vocab.creciente",
+    "es.b1.vocab.desarrollado"
+   ]
+  },
+  {
+   "id": "es.b1.u13.l01",
+   "unitId": "es.b1.u13",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Sport and leisure: words 1",
+    "ar": "الرياضة والترفيه: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.equipo",
+    "es.b1.vocab.partido",
+    "es.b1.vocab.entrenamiento",
+    "es.b1.vocab.competicion"
+   ]
+  },
+  {
+   "id": "es.b1.u13.l02",
+   "unitId": "es.b1.u13",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Sport and leisure: words 2",
+    "ar": "الرياضة والترفيه: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.pasatiempo",
+    "es.b1.vocab.tanto_como",
+    "es.b1.vocab.ni_ni",
+    "es.b1.vocab.o_o"
+   ]
+  },
+  {
+   "id": "es.b1.u13.l03",
+   "unitId": "es.b1.u13",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Two-part conjunctions",
+    "ar": "أدوات الربط المزدوجة"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u13"
+  },
+  {
+   "id": "es.b1.u13.l04",
+   "unitId": "es.b1.u13",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: sport and leisure",
+    "ar": "استماع: الرياضة والترفيه"
+   },
+   "items": [
+    "es.b1.sent.u13_01",
+    "es.b1.sent.u13_02",
+    "es.b1.sent.u13_03"
+   ]
+  },
+  {
+   "id": "es.b1.u13.l05",
+   "unitId": "es.b1.u13",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 13 review",
+    "ar": "مراجعة الوحدة 13"
+   },
+   "items": [
+    "es.b1.vocab.equipo",
+    "es.b1.vocab.partido",
+    "es.b1.vocab.entrenamiento",
+    "es.b1.vocab.competicion",
+    "es.b1.vocab.pasatiempo",
+    "es.b1.vocab.tanto_como",
+    "es.b1.vocab.ni_ni",
+    "es.b1.vocab.o_o"
+   ]
+  },
+  {
+   "id": "es.b1.u14.l01",
+   "unitId": "es.b1.u14",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Living abroad: words 1",
+    "ar": "العيش في الخارج: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.emigrar",
+    "es.b1.vocab.extranjero",
+    "es.b1.vocab.integracion",
+    "es.b1.vocab.nostalgia",
+    "es.b1.vocab.cultura"
+   ]
+  },
+  {
+   "id": "es.b1.u14.l02",
+   "unitId": "es.b1.u14",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Living abroad: words 2",
+    "ar": "العيش في الخارج: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.acostumbrarse_a",
+    "es.b1.vocab.planear",
+    "es.b1.vocab.visado",
+    "es.b1.vocab.probablemente"
+   ]
+  },
+  {
+   "id": "es.b1.u14.l03",
+   "unitId": "es.b1.u14",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "The future tense and ir a",
+    "ar": "المستقبل وir a"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u14"
+  },
+  {
+   "id": "es.b1.u14.l04",
+   "unitId": "es.b1.u14",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: living abroad",
+    "ar": "استماع: العيش في الخارج"
+   },
+   "items": [
+    "es.b1.sent.u14_01",
+    "es.b1.sent.u14_02",
+    "es.b1.sent.u14_03"
+   ]
+  },
+  {
+   "id": "es.b1.u14.l05",
+   "unitId": "es.b1.u14",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 14 review",
+    "ar": "مراجعة الوحدة 14"
+   },
+   "items": [
+    "es.b1.vocab.emigrar",
+    "es.b1.vocab.extranjero",
+    "es.b1.vocab.integracion",
+    "es.b1.vocab.nostalgia",
+    "es.b1.vocab.cultura",
+    "es.b1.vocab.acostumbrarse_a",
+    "es.b1.vocab.planear",
+    "es.b1.vocab.visado",
+    "es.b1.vocab.probablemente"
+   ]
+  },
+  {
+   "id": "es.b1.u15.l01",
+   "unitId": "es.b1.u15",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Formal letters and emails: words 1",
+    "ar": "الرسائل والإيميلات الرسمية: كلمات 1"
+   },
+   "items": [
+    "es.b1.vocab.peticion",
+    "es.b1.vocab.adjuntar",
+    "es.b1.vocab.respuesta",
+    "es.b1.vocab.atentamente",
+    "es.b1.vocab.estimados_senores"
+   ]
+  },
+  {
+   "id": "es.b1.u15.l02",
+   "unitId": "es.b1.u15",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Formal letters and emails: words 2",
+    "ar": "الرسائل والإيميلات الرسمية: كلمات 2"
+   },
+   "items": [
+    "es.b1.vocab.confirmar",
+    "es.b1.vocab.cancelar",
+    "es.b1.vocab.inscripcion",
+    "es.b1.vocab.agradecido"
+   ]
+  },
+  {
+   "id": "es.b1.u15.l03",
+   "unitId": "es.b1.u15",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Formal register: usted and polite forms",
+    "ar": "الأسلوب الرسمي: usted والصيغ المؤدبة"
+   },
+   "items": [],
+   "grammarId": "es.b1.gram.u15"
+  },
+  {
+   "id": "es.b1.u15.l04",
+   "unitId": "es.b1.u15",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: formal letters and emails",
+    "ar": "استماع: الرسائل والإيميلات الرسمية"
+   },
+   "items": [
+    "es.b1.sent.u15_01",
+    "es.b1.sent.u15_02",
+    "es.b1.sent.u15_03"
+   ]
+  },
+  {
+   "id": "es.b1.u15.l05",
+   "unitId": "es.b1.u15",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 15 review",
+    "ar": "مراجعة الوحدة 15"
+   },
+   "items": [
+    "es.b1.vocab.peticion",
+    "es.b1.vocab.adjuntar",
+    "es.b1.vocab.respuesta",
+    "es.b1.vocab.atentamente",
+    "es.b1.vocab.estimados_senores",
+    "es.b1.vocab.confirmar",
+    "es.b1.vocab.cancelar",
+    "es.b1.vocab.inscripcion",
+    "es.b1.vocab.agradecido"
+   ]
+  },
+  {
+   "id": "es.b1.u16.l01",
+   "unitId": "es.b1.u16",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "B1 words review",
+    "ar": "مراجعة كلمات B1"
+   },
+   "items": [
+    "es.b1.vocab.educacion",
+    "es.b1.vocab.aprobar",
+    "es.b1.vocab.explicar",
+    "es.b1.vocab.curriculum",
+    "es.b1.vocab.habilidad",
+    "es.b1.vocab.companero_de_piso",
+    "es.b1.vocab.basura",
+    "es.b1.vocab.conflicto",
+    "es.b1.vocab.deuda",
+    "es.b1.vocab.consumidor",
+    "es.b1.vocab.naturaleza",
+    "es.b1.vocab.proteger",
+    "es.b1.vocab.futuro",
+    "es.b1.vocab.periodista",
+    "es.b1.vocab.sin_embargo",
+    "es.b1.vocab.paciente",
+    "es.b1.vocab.evitar",
+    "es.b1.vocab.exposicion",
+    "es.b1.vocab.teatro",
+    "es.b1.vocab.famoso",
+    "es.b1.vocab.bicicleta",
+    "es.b1.vocab.en_lugar_de",
+    "es.b1.vocab.gobierno",
+    "es.b1.vocab.sociedad",
+    "es.b1.vocab.cuanto_mas_mas",
+    "es.b1.vocab.enfadado",
+    "es.b1.vocab.tener_miedo_de",
+    "es.b1.vocab.invento",
+    "es.b1.vocab.robot",
+    "es.b1.vocab.equipo"
+   ]
+  },
+  {
+   "id": "es.b1.u16.l02",
+   "unitId": "es.b1.u16",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "B1 exam",
+    "ar": "امتحان B1"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "es.b1.vocab.educacion",
+   "lemma": "educación",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تعليم",
+    "en": "education"
+   },
+   "conceptId": "c.b1.education",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.universidad",
+   "lemma": "universidad",
+   "article": "la",
+   "plural": "universidades",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جامعة",
+    "en": "university"
+   },
+   "conceptId": "c.b1.university",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.curso",
+   "lemma": "curso",
+   "article": "el",
+   "plural": "cursos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كورس",
+    "en": "course"
+   },
+   "conceptId": "c.b1.course",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.examen",
+   "lemma": "examen",
+   "article": "el",
+   "plural": "exámenes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "امتحان",
+    "en": "exam"
+   },
+   "conceptId": "c.b1.exam",
+   "sentenceIds": [
+    "es.b1.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.aprobar",
+   "lemma": "aprobar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينجح",
+    "en": "to pass (an exam)"
+   },
+   "conceptId": "c.b1.pass_exam",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.asignatura",
+   "lemma": "asignatura",
+   "article": "la",
+   "plural": "asignaturas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مادة",
+    "en": "subject (at school)"
+   },
+   "conceptId": "c.b1.subject",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.conocimiento",
+   "lemma": "conocimiento",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معرفة",
+    "en": "knowledge"
+   },
+   "conceptId": "c.b1.knowledge",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.entender",
+   "lemma": "entender",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفهم",
+    "en": "to understand"
+   },
+   "conceptId": "c.b1.understand",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.explicar",
+   "lemma": "explicar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشرح",
+    "en": "to explain"
+   },
+   "conceptId": "c.b1.explain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.mejorar",
+   "lemma": "mejorar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحسّن",
+    "en": "to improve"
+   },
+   "conceptId": "c.b1.improve",
+   "sentenceIds": [
+    "es.b1.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.solicitud",
+   "lemma": "solicitud",
+   "article": "la",
+   "plural": "solicitudes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طلب تقديم",
+    "en": "application"
+   },
+   "conceptId": "c.b1.application",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.solicitar",
+   "lemma": "solicitar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقدّم على",
+    "en": "to apply"
+   },
+   "conceptId": "c.b1.apply",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.curriculum",
+   "lemma": "currículum",
+   "article": "el",
+   "plural": "currículums",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سي في",
+    "en": "CV"
+   },
+   "conceptId": "c.b1.cv",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.experiencia",
+   "lemma": "experiencia",
+   "article": "la",
+   "plural": "experiencias",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خبرة",
+    "en": "experience"
+   },
+   "conceptId": "c.b1.experience",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.entrevista",
+   "lemma": "entrevista",
+   "article": "la",
+   "plural": "entrevistas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "انترفيو",
+    "en": "job interview"
+   },
+   "conceptId": "c.b1.interview",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.puesto",
+   "lemma": "puesto",
+   "article": "el",
+   "plural": "puestos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وظيفة",
+    "en": "position, post"
+   },
+   "conceptId": "c.b1.position",
+   "sentenceIds": [
+    "es.b1.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.habilidad",
+   "lemma": "habilidad",
+   "article": "la",
+   "plural": "habilidades",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مهارة",
+    "en": "skill"
+   },
+   "conceptId": "c.b1.skill",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.empleador",
+   "lemma": "empleador",
+   "article": "el",
+   "plural": "empleadores",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحب الشغل",
+    "en": "employer"
+   },
+   "conceptId": "c.b1.employer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.contrato",
+   "lemma": "contrato",
+   "article": "el",
+   "plural": "contratos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عقد",
+    "en": "contract"
+   },
+   "conceptId": "c.b1.contract",
+   "sentenceIds": [
+    "es.b1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.en_paro",
+   "lemma": "en paro",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عاطل",
+    "en": "unemployed"
+   },
+   "conceptId": "c.b1.unemployed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.companero_de_piso",
+   "lemma": "compañero de piso",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شريك في السكن",
+    "en": "flatmate"
+   },
+   "conceptId": "c.b1.flatmate",
+   "sentenceIds": [
+    "es.b1.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.norma",
+   "lemma": "norma",
+   "article": "la",
+   "plural": "normas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قاعدة",
+    "en": "rule"
+   },
+   "conceptId": "c.b1.rule",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ruido",
+   "lemma": "ruido",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دوشة",
+    "en": "noise"
+   },
+   "conceptId": "c.b1.noise",
+   "sentenceIds": [
+    "es.b1.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.limpiar",
+   "lemma": "limpiar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينضّف",
+    "en": "to clean"
+   },
+   "conceptId": "c.b1.clean",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.basura",
+   "lemma": "basura",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زبالة",
+    "en": "rubbish"
+   },
+   "conceptId": "c.b1.rubbish",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.compartir",
+   "lemma": "compartir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشارك، يقسم",
+    "en": "to share"
+   },
+   "conceptId": "c.b1.share",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.respetar",
+   "lemma": "respetar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحترم",
+    "en": "to respect"
+   },
+   "conceptId": "c.b1.respect",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.quejarse",
+   "lemma": "quejarse",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتكي",
+    "en": "to complain"
+   },
+   "conceptId": "c.b1.complain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.conflicto",
+   "lemma": "conflicto",
+   "article": "el",
+   "plural": "conflictos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خلاف",
+    "en": "conflict"
+   },
+   "conceptId": "c.b1.conflict",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.dejar",
+   "lemma": "dejar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يخلّي",
+    "en": "to let, to have (something done)"
+   },
+   "conceptId": "c.b1.let",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.gastar",
+   "lemma": "gastar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصرف",
+    "en": "to spend (money)"
+   },
+   "conceptId": "c.b1.spend",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ahorrar",
+   "lemma": "ahorrar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحوّش",
+    "en": "to save (money)"
+   },
+   "conceptId": "c.b1.save",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.deuda",
+   "lemma": "deuda",
+   "article": "la",
+   "plural": "deudas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دين",
+    "en": "debt"
+   },
+   "conceptId": "c.b1.debt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.recibo",
+   "lemma": "recibo",
+   "article": "el",
+   "plural": "recibos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيصال",
+    "en": "receipt"
+   },
+   "conceptId": "c.b1.receipt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.oferta",
+   "lemma": "oferta",
+   "article": "la",
+   "plural": "ofertas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عرض",
+    "en": "offer, deal"
+   },
+   "conceptId": "c.b1.offer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.cliente",
+   "lemma": "cliente",
+   "article": "el",
+   "plural": "clientes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زبون",
+    "en": "customer"
+   },
+   "conceptId": "c.b1.customer",
+   "sentenceIds": [
+    "es.b1.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.consumidor",
+   "lemma": "consumidor",
+   "article": "el",
+   "plural": "consumidores",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستهلك",
+    "en": "consumer"
+   },
+   "conceptId": "c.b1.consumer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.cambiar",
+   "lemma": "cambiar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبدّل، يرجّع",
+    "en": "to exchange (goods)"
+   },
+   "conceptId": "c.b1.exchange",
+   "sentenceIds": [
+    "es.b1.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.valioso",
+   "lemma": "valioso",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيّم، غالي",
+    "en": "costly, valuable"
+   },
+   "conceptId": "c.b1.expensive_b1",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.medio_ambiente",
+   "lemma": "medio ambiente",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "البيئة",
+    "en": "environment"
+   },
+   "conceptId": "c.b1.environment",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.naturaleza",
+   "lemma": "naturaleza",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الطبيعة",
+    "en": "nature"
+   },
+   "conceptId": "c.b1.nature",
+   "sentenceIds": [
+    "es.b1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.clima",
+   "lemma": "clima",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المناخ",
+    "en": "climate"
+   },
+   "conceptId": "c.b1.climate",
+   "sentenceIds": [
+    "es.b1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.energia",
+   "lemma": "energía",
+   "article": "la",
+   "plural": "energías",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طاقة",
+    "en": "energy"
+   },
+   "conceptId": "c.b1.energy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.contaminacion",
+   "lemma": "contaminación",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تلوث",
+    "en": "pollution"
+   },
+   "conceptId": "c.b1.pollution",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.proteger",
+   "lemma": "proteger",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحمي",
+    "en": "to protect"
+   },
+   "conceptId": "c.b1.protect",
+   "sentenceIds": [
+    "es.b1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.reciclar",
+   "lemma": "reciclar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعيد التدوير",
+    "en": "to recycle"
+   },
+   "conceptId": "c.b1.recycle",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.arbol",
+   "lemma": "árbol",
+   "article": "el",
+   "plural": "árboles",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شجرة",
+    "en": "tree"
+   },
+   "conceptId": "c.b1.tree",
+   "sentenceIds": [
+    "es.b1.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.desperdiciar",
+   "lemma": "desperdiciar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يهدر",
+    "en": "to waste"
+   },
+   "conceptId": "c.b1.waste_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.futuro",
+   "lemma": "futuro",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المستقبل",
+    "en": "future"
+   },
+   "conceptId": "c.b1.future",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.noticias",
+   "lemma": "noticias",
+   "article": "las",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخبار",
+    "en": "news"
+   },
+   "conceptId": "c.b1.news",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.articulo",
+   "lemma": "artículo",
+   "article": "el",
+   "plural": "artículos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مقالة",
+    "en": "article"
+   },
+   "conceptId": "c.b1.article",
+   "sentenceIds": [
+    "es.b1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.informar",
+   "lemma": "informar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبلّغ، يغطّي (خبر)",
+    "en": "to report"
+   },
+   "conceptId": "c.b1.report",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.periodista",
+   "lemma": "periodista",
+   "article": "el",
+   "plural": "periodistas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صحفي",
+    "en": "journalist"
+   },
+   "conceptId": "c.b1.journalist",
+   "sentenceIds": [
+    "es.b1.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.opinion",
+   "lemma": "opinión",
+   "article": "la",
+   "plural": "opiniones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رأي",
+    "en": "opinion"
+   },
+   "conceptId": "c.b1.opinion",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.afirmar",
+   "lemma": "afirmar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يدّعي",
+    "en": "to claim"
+   },
+   "conceptId": "c.b1.claim",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.aunque",
+   "lemma": "aunque",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رغم إن",
+    "en": "although"
+   },
+   "conceptId": "c.b1.although",
+   "sentenceIds": [
+    "es.b1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.sin_embargo",
+   "lemma": "sin embargo",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ومع ذلك",
+    "en": "nevertheless"
+   },
+   "conceptId": "c.b1.nevertheless",
+   "sentenceIds": [
+    "es.b1.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.fuente",
+   "lemma": "fuente",
+   "article": "la",
+   "plural": "fuentes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مصدر",
+    "en": "source"
+   },
+   "conceptId": "c.b1.source",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.seguro_medico",
+   "lemma": "seguro médico",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تأمين صحي",
+    "en": "health insurance"
+   },
+   "conceptId": "c.b1.health_insurance",
+   "sentenceIds": [
+    "es.b1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.hospital",
+   "lemma": "hospital",
+   "article": "el",
+   "plural": "hospitales",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستشفى",
+    "en": "hospital"
+   },
+   "conceptId": "c.b1.hospital",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.paciente",
+   "lemma": "paciente",
+   "article": "el",
+   "plural": "pacientes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مريض",
+    "en": "patient"
+   },
+   "conceptId": "c.b1.patient",
+   "sentenceIds": [
+    "es.b1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.tratamiento",
+   "lemma": "tratamiento",
+   "article": "el",
+   "plural": "tratamientos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاج",
+    "en": "treatment"
+   },
+   "conceptId": "c.b1.treatment",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.emergencia",
+   "lemma": "emergencia",
+   "article": "la",
+   "plural": "emergencias",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طوارئ",
+    "en": "emergency"
+   },
+   "conceptId": "c.b1.emergency",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.enfermero",
+   "lemma": "enfermero",
+   "article": "el",
+   "plural": "enfermeros",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ممرض",
+    "en": "nurse"
+   },
+   "conceptId": "c.b1.nurse",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.evitar",
+   "lemma": "evitar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتجنّب",
+    "en": "to avoid"
+   },
+   "conceptId": "c.b1.avoid",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.para",
+   "lemma": "para",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشان (هدف)",
+    "en": "in order to"
+   },
+   "conceptId": "c.b1.in_order_to",
+   "sentenceIds": [
+    "es.b1.sent.u07_01",
+    "es.b1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.para_que",
+   "lemma": "para que",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشان (يحصل كذا)",
+    "en": "so that"
+   },
+   "conceptId": "c.b1.so_that",
+   "sentenceIds": [
+    "es.b1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.arte",
+   "lemma": "arte",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فن",
+    "en": "art"
+   },
+   "conceptId": "c.b1.art",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.exposicion",
+   "lemma": "exposición",
+   "article": "la",
+   "plural": "exposiciones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معرض",
+    "en": "exhibition"
+   },
+   "conceptId": "c.b1.exhibition",
+   "sentenceIds": [
+    "es.b1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.pintura",
+   "lemma": "pintura",
+   "article": "la",
+   "plural": "pinturas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لوحة",
+    "en": "painting (picture)"
+   },
+   "conceptId": "c.b1.painting",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.artista",
+   "lemma": "artista",
+   "article": "el",
+   "plural": "artistas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فنان",
+    "en": "artist"
+   },
+   "conceptId": "c.b1.artist",
+   "sentenceIds": [
+    "es.b1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.concierto",
+   "lemma": "concierto",
+   "article": "el",
+   "plural": "conciertos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حفلة موسيقية",
+    "en": "concert"
+   },
+   "conceptId": "c.b1.concert",
+   "sentenceIds": [
+    "es.b1.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.teatro",
+   "lemma": "teatro",
+   "article": "el",
+   "plural": "teatros",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسرح",
+    "en": "theatre"
+   },
+   "conceptId": "c.b1.theatre",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.publico",
+   "lemma": "público",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الجمهور",
+    "en": "audience"
+   },
+   "conceptId": "c.b1.audience",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.despues_de_que",
+   "lemma": "después de que",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بعد ما",
+    "en": "after (doing)"
+   },
+   "conceptId": "c.b1.after_conj",
+   "sentenceIds": [
+    "es.b1.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.antes_de_que",
+   "lemma": "antes de que",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قبل ما",
+    "en": "before (doing)"
+   },
+   "conceptId": "c.b1.before_conj",
+   "sentenceIds": [
+    "es.b1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.famoso",
+   "lemma": "famoso",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشهور",
+    "en": "famous"
+   },
+   "conceptId": "c.b1.famous",
+   "sentenceIds": [
+    "es.b1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.trafico",
+   "lemma": "tráfico",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرور، زحمة",
+    "en": "traffic"
+   },
+   "conceptId": "c.b1.traffic",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.atasco",
+   "lemma": "atasco",
+   "article": "el",
+   "plural": "atascos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زحمة",
+    "en": "traffic jam"
+   },
+   "conceptId": "c.b1.traffic_jam",
+   "sentenceIds": [
+    "es.b1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.retraso",
+   "lemma": "retraso",
+   "article": "el",
+   "plural": "retrasos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تأخير",
+    "en": "delay"
+   },
+   "conceptId": "c.b1.delay",
+   "sentenceIds": [
+    "es.b1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.bicicleta",
+   "lemma": "bicicleta",
+   "article": "la",
+   "plural": "bicicletas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عجلة",
+    "en": "bicycle"
+   },
+   "conceptId": "c.b1.bicycle",
+   "sentenceIds": [
+    "es.b1.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.conexion",
+   "lemma": "conexión",
+   "article": "la",
+   "plural": "conexiones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مواصلة",
+    "en": "connection (transport)"
+   },
+   "conceptId": "c.b1.connection",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.transporte_publico",
+   "lemma": "transporte público",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مواصلات عامة",
+    "en": "public transport"
+   },
+   "conceptId": "c.b1.public_transport",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.debido_a",
+   "lemma": "debido a",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بسبب",
+    "en": "because of"
+   },
+   "conceptId": "c.b1.because_of",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.en_lugar_de",
+   "lemma": "en lugar de",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بدل",
+    "en": "instead of"
+   },
+   "conceptId": "c.b1.instead_of",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.llegar",
+   "lemma": "llegar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوصل",
+    "en": "to arrive"
+   },
+   "conceptId": "c.b1.arrive",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.perder",
+   "lemma": "perder",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفوّت",
+    "en": "to miss (a train)"
+   },
+   "conceptId": "c.b1.miss",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.politica",
+   "lemma": "política",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سياسة",
+    "en": "politics"
+   },
+   "conceptId": "c.b1.politics",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.gobierno",
+   "lemma": "gobierno",
+   "article": "el",
+   "plural": "gobiernos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حكومة",
+    "en": "government"
+   },
+   "conceptId": "c.b1.government",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.elecciones",
+   "lemma": "elecciones",
+   "article": "las",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "انتخابات",
+    "en": "election"
+   },
+   "conceptId": "c.b1.election",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.votar",
+   "lemma": "votar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينتخب، يصوّت",
+    "en": "to vote"
+   },
+   "conceptId": "c.b1.vote",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ciudadano",
+   "lemma": "ciudadano",
+   "article": "el",
+   "plural": "ciudadanos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مواطن",
+    "en": "citizen"
+   },
+   "conceptId": "c.b1.citizen",
+   "sentenceIds": [
+    "es.b1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.sociedad",
+   "lemma": "sociedad",
+   "article": "la",
+   "plural": "sociedades",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مجتمع",
+    "en": "society"
+   },
+   "conceptId": "c.b1.society",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ley",
+   "lemma": "ley",
+   "article": "la",
+   "plural": "leyes",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قانون",
+    "en": "law"
+   },
+   "conceptId": "c.b1.law",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.derecho",
+   "lemma": "derecho",
+   "article": "el",
+   "plural": "derechos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حق",
+    "en": "right (entitlement)"
+   },
+   "conceptId": "c.b1.right_n",
+   "sentenceIds": [
+    "es.b1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.igual",
+   "lemma": "igual",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متساوي",
+    "en": "equal"
+   },
+   "conceptId": "c.b1.equal",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.cuanto_mas_mas",
+   "lemma": "cuanto más ... más",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كل ما ... كل ما",
+    "en": "the more ... the more"
+   },
+   "conceptId": "c.b1.the_more",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.sentimiento",
+   "lemma": "sentimiento",
+   "article": "el",
+   "plural": "sentimientos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إحساس",
+    "en": "feeling"
+   },
+   "conceptId": "c.b1.feeling",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.feliz",
+   "lemma": "feliz",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مبسوط، سعيد",
+    "en": "happy"
+   },
+   "conceptId": "c.b1.happy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.triste",
+   "lemma": "triste",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زعلان",
+    "en": "sad"
+   },
+   "conceptId": "c.b1.sad",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.enfadado",
+   "lemma": "enfadado",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متضايق، غضبان",
+    "en": "angry"
+   },
+   "conceptId": "c.b1.angry",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.celoso",
+   "lemma": "celoso",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غيران",
+    "en": "jealous"
+   },
+   "conceptId": "c.b1.jealous",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.confiar",
+   "lemma": "confiar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يثق",
+    "en": "to trust"
+   },
+   "conceptId": "c.b1.trust",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.pensar_en",
+   "lemma": "pensar en",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفكر في",
+    "en": "to think of"
+   },
+   "conceptId": "c.b1.think_of",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.tener_miedo_de",
+   "lemma": "tener miedo de",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يخاف من",
+    "en": "to be afraid of"
+   },
+   "conceptId": "c.b1.be_afraid",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.sonar_con",
+   "lemma": "soñar con",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحلم بـ",
+    "en": "to dream of"
+   },
+   "conceptId": "c.b1.dream",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ciencia",
+   "lemma": "ciencia",
+   "article": "la",
+   "plural": "ciencias",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "علم",
+    "en": "science"
+   },
+   "conceptId": "c.b1.science",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.investigacion",
+   "lemma": "investigación",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بحث",
+    "en": "research"
+   },
+   "conceptId": "c.b1.research",
+   "sentenceIds": [
+    "es.b1.sent.u12_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.invento",
+   "lemma": "invento",
+   "article": "el",
+   "plural": "inventos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اختراع",
+    "en": "invention"
+   },
+   "conceptId": "c.b1.invention",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.desarrollar",
+   "lemma": "desarrollar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطوّر",
+    "en": "to develop"
+   },
+   "conceptId": "c.b1.develop",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.aparato",
+   "lemma": "aparato",
+   "article": "el",
+   "plural": "aparatos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جهاز",
+    "en": "device"
+   },
+   "conceptId": "c.b1.device",
+   "sentenceIds": [
+    "es.b1.sent.u12_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.datos",
+   "lemma": "datos",
+   "article": "los",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيانات",
+    "en": "data"
+   },
+   "conceptId": "c.b1.data",
+   "sentenceIds": [
+    "es.b1.sent.u12_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.robot",
+   "lemma": "robot",
+   "article": "el",
+   "plural": "robots",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "روبوت",
+    "en": "robot"
+   },
+   "conceptId": "c.b1.robot",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.progreso",
+   "lemma": "progreso",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تقدم",
+    "en": "progress"
+   },
+   "conceptId": "c.b1.progress",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.creciente",
+   "lemma": "creciente",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متزايد",
+    "en": "growing"
+   },
+   "conceptId": "c.b1.growing",
+   "sentenceIds": [
+    "es.b1.sent.u12_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.desarrollado",
+   "lemma": "desarrollado",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متطور",
+    "en": "developed"
+   },
+   "conceptId": "c.b1.developed",
+   "sentenceIds": [
+    "es.b1.sent.u12_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.equipo",
+   "lemma": "equipo",
+   "article": "el",
+   "plural": "equipos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فريق",
+    "en": "team"
+   },
+   "conceptId": "c.b1.team",
+   "sentenceIds": [
+    "es.b1.sent.u13_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.partido",
+   "lemma": "partido",
+   "article": "el",
+   "plural": "partidos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ماتش",
+    "en": "match, game"
+   },
+   "conceptId": "c.b1.match",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.entrenamiento",
+   "lemma": "entrenamiento",
+   "article": "el",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تمرين",
+    "en": "training"
+   },
+   "conceptId": "c.b1.training",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.competicion",
+   "lemma": "competición",
+   "article": "la",
+   "plural": "competiciones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسابقة",
+    "en": "competition"
+   },
+   "conceptId": "c.b1.competition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.pasatiempo",
+   "lemma": "pasatiempo",
+   "article": "el",
+   "plural": "pasatiempos",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "هواية",
+    "en": "hobby"
+   },
+   "conceptId": "c.b1.hobby",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.tanto_como",
+   "lemma": "tanto ... como",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سواء ... أو، الاتنين",
+    "en": "both ... and"
+   },
+   "conceptId": "c.b1.both_and",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.ni_ni",
+   "lemma": "ni ... ni",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لا ... ولا",
+    "en": "neither ... nor"
+   },
+   "conceptId": "c.b1.neither_nor",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.o_o",
+   "lemma": "o ... o",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يا ... يا",
+    "en": "either ... or"
+   },
+   "conceptId": "c.b1.either_or",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.emigrar",
+   "lemma": "emigrar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يهاجر",
+    "en": "to emigrate"
+   },
+   "conceptId": "c.b1.abroad_live",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.extranjero",
+   "lemma": "extranjero",
+   "article": "el",
+   "plural": "extranjeros",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أجنبي",
+    "en": "foreigner"
+   },
+   "conceptId": "c.b1.foreigner",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.integracion",
+   "lemma": "integración",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اندماج",
+    "en": "integration"
+   },
+   "conceptId": "c.b1.integration",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.nostalgia",
+   "lemma": "nostalgia",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الحنين للوطن",
+    "en": "homesickness"
+   },
+   "conceptId": "c.b1.homesickness",
+   "sentenceIds": [
+    "es.b1.sent.u14_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.cultura",
+   "lemma": "cultura",
+   "article": "la",
+   "plural": "culturas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثقافة",
+    "en": "culture"
+   },
+   "conceptId": "c.b1.culture",
+   "sentenceIds": [
+    "es.b1.sent.u14_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.acostumbrarse_a",
+   "lemma": "acostumbrarse a",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعوّد",
+    "en": "to get used to"
+   },
+   "conceptId": "c.b1.get_used",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.planear",
+   "lemma": "planear",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يخطط",
+    "en": "to plan"
+   },
+   "conceptId": "c.b1.plan_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.visado",
+   "lemma": "visado",
+   "article": "el",
+   "plural": "visados",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيزا",
+    "en": "visa"
+   },
+   "conceptId": "c.b1.visa",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.probablemente",
+   "lemma": "probablemente",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "غالبًا، على الأرجح",
+    "en": "probably"
+   },
+   "conceptId": "c.b1.probably",
+   "sentenceIds": [
+    "es.b1.sent.u14_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.peticion",
+   "lemma": "petición",
+   "article": "la",
+   "plural": "peticiones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طلب",
+    "en": "request"
+   },
+   "conceptId": "c.b1.request",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.adjuntar",
+   "lemma": "adjuntar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يرفق",
+    "en": "to attach"
+   },
+   "conceptId": "c.b1.attach",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.respuesta",
+   "lemma": "respuesta",
+   "article": "la",
+   "plural": "respuestas",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رد",
+    "en": "reply"
+   },
+   "conceptId": "c.b1.reply_n",
+   "sentenceIds": [
+    "es.b1.sent.u15_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.atentamente",
+   "lemma": "atentamente",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مع خالص التحية",
+    "en": "kind regards"
+   },
+   "conceptId": "c.b1.regards",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.estimados_senores",
+   "lemma": "estimados señores",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "السادة الأفاضل",
+    "en": "Dear Sir or Madam"
+   },
+   "conceptId": "c.b1.dear_formal",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.confirmar",
+   "lemma": "confirmar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأكّد",
+    "en": "to confirm"
+   },
+   "conceptId": "c.b1.confirm",
+   "sentenceIds": [
+    "es.b1.sent.u15_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.cancelar",
+   "lemma": "cancelar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يلغي",
+    "en": "to cancel"
+   },
+   "conceptId": "c.b1.cancel",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.inscripcion",
+   "lemma": "inscripción",
+   "article": "la",
+   "plural": "inscripciones",
+   "pos": "noun",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تسجيل",
+    "en": "registration"
+   },
+   "conceptId": "c.b1.registration",
+   "sentenceIds": [
+    "es.b1.sent.u15_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.vocab.agradecido",
+   "lemma": "agradecido",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ممتن",
+    "en": "grateful"
+   },
+   "conceptId": "c.b1.grateful",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "es.b1.sent.u01_01",
+   "text": "El año pasado aprobé el examen.",
+   "translations": {
+    "ar": "السنة اللي فاتت نجحت في الامتحان.",
+    "en": "Last year I passed the exam."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u01_02",
+   "text": "La profesora explicó muy bien la gramática.",
+   "translations": {
+    "ar": "المدرس شرح القواعد كويس جدًا.",
+    "en": "The teacher explained the grammar very well."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u01_03",
+   "text": "Quiero mejorar mis conocimientos.",
+   "translations": {
+    "ar": "عايز أحسّن معرفتي.",
+    "en": "I want to improve my knowledge."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u02_01",
+   "text": "Solicito un puesto que me va bien.",
+   "translations": {
+    "ar": "بقدّم على شغلانة تناسبني.",
+    "en": "I am applying for a job that suits me."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u02_02",
+   "text": "El hombre que me entrevistó fue muy amable.",
+   "translations": {
+    "ar": "الراجل اللي عمل معايا الانترفيو كان لطيف جدًا.",
+    "en": "The man who interviewed me was very friendly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u02_03",
+   "text": "Este es el contrato que firmé.",
+   "translations": {
+    "ar": "ده العقد اللي مضيته.",
+    "en": "This is the contract that I signed."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u03_01",
+   "text": "Ese es el compañero de piso con quien comparto la cocina.",
+   "translations": {
+    "ar": "ده الشريك اللي بقسم معاه المطبخ.",
+    "en": "That is the flatmate with whom I share the kitchen."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u03_02",
+   "text": "Llevo mi bici a reparar.",
+   "translations": {
+    "ar": "بصلّح العجلة (عند حد).",
+    "en": "I am having my bike repaired."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u03_03",
+   "text": "Los vecinos se quejan del ruido.",
+   "translations": {
+    "ar": "الجيران بيشتكوا من الدوشة.",
+    "en": "The neighbours complain about the noise."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u04_01",
+   "text": "El producto se puede cambiar.",
+   "translations": {
+    "ar": "المنتج ممكن يتبدّل.",
+    "en": "The product can be exchanged."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u04_02",
+   "text": "Gasto demasiado dinero en ropa.",
+   "translations": {
+    "ar": "بصرف فلوس كتير أوي على الهدوم.",
+    "en": "I spend too much money on clothes."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u04_03",
+   "text": "El cliente quiere hablar con el gerente.",
+   "translations": {
+    "ar": "الزبون عايز يكلم المدير.",
+    "en": "The customer wants to speak to the manager."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u05_01",
+   "text": "Cada año se talan muchos árboles.",
+   "translations": {
+    "ar": "كل سنة شجر كتير بيتقطع.",
+    "en": "Every year many trees are cut down."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u05_02",
+   "text": "El clima se está volviendo más cálido.",
+   "translations": {
+    "ar": "المناخ بيسخن.",
+    "en": "The climate is getting warmer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u05_03",
+   "text": "Tenemos que proteger la naturaleza.",
+   "translations": {
+    "ar": "لازم نحمي الطبيعة.",
+    "en": "We must protect nature."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u06_01",
+   "text": "El periodista dice que la noticia es verdadera.",
+   "translations": {
+    "ar": "الصحفي بيقول إن الخبر صح.",
+    "en": "The journalist says that the news is true."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u06_02",
+   "text": "Aunque era tarde, leí el artículo.",
+   "translations": {
+    "ar": "رغم إن الوقت كان متأخر، قريت المقالة.",
+    "en": "Although it was late, I read the article."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u06_03",
+   "text": "Llovía; sin embargo, salimos.",
+   "translations": {
+    "ar": "كانت بتمطر؛ ومع ذلك خرجنا.",
+    "en": "It was raining; nevertheless we went out."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u07_01",
+   "text": "Voy al médico para conseguir una receta.",
+   "translations": {
+    "ar": "بروح للدكتور عشان آخد روشتة.",
+    "en": "I go to the doctor in order to get a prescription."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u07_02",
+   "text": "Es importante tener seguro médico.",
+   "translations": {
+    "ar": "مهم يكون عندك تأمين صحي.",
+    "en": "It is important to have health insurance."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u07_03",
+   "text": "La enfermera lo explica para que el paciente lo entienda.",
+   "translations": {
+    "ar": "الممرضة بتشرح عشان المريض يفهم.",
+    "en": "The nurse explains it so that the patient understands."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u08_01",
+   "text": "Después de que habíamos comido, fuimos al concierto.",
+   "translations": {
+    "ar": "بعد ما كنا أكلنا، رحنا الحفلة.",
+    "en": "After we had eaten, we went to the concert."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u08_02",
+   "text": "Antes de que abriera la exposición, mucha gente esperaba.",
+   "translations": {
+    "ar": "قبل ما المعرض يفتح، ناس كتير كانوا مستنيين.",
+    "en": "Before the exhibition opened, many people were waiting."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u08_03",
+   "text": "El artista es muy famoso.",
+   "translations": {
+    "ar": "الفنان مشهور جدًا.",
+    "en": "The artist is very famous."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u09_01",
+   "text": "Debido al atasco perdí el tren.",
+   "translations": {
+    "ar": "بسبب الزحمة فوّت القطر.",
+    "en": "Because of the traffic jam I missed the train."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u09_02",
+   "text": "Durante el viaje el tren tuvo retraso.",
+   "translations": {
+    "ar": "خلال الرحلة القطر اتأخر.",
+    "en": "During the journey the train had a delay."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u09_03",
+   "text": "En lugar del coche tomo la bicicleta.",
+   "translations": {
+    "ar": "بدل العربية باخد العجلة.",
+    "en": "Instead of the car I take the bike."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u10_01",
+   "text": "Si hubiera votado, el resultado habría sido diferente.",
+   "translations": {
+    "ar": "لو كنت صوّت، النتيجة كانت هتبقى مختلفة.",
+    "en": "If I had voted, the result would have been different."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u10_02",
+   "text": "Cuantas más personas votan, mejor.",
+   "translations": {
+    "ar": "كل ما الناس تصوّت أكتر، كل ما يبقى أحسن.",
+    "en": "The more people vote, the better."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u10_03",
+   "text": "Todos los ciudadanos tienen los mismos derechos.",
+   "translations": {
+    "ar": "كل المواطنين ليهم حقوق متساوية.",
+    "en": "All citizens have equal rights."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u11_01",
+   "text": "Pienso a menudo en mi familia.",
+   "translations": {
+    "ar": "بفكر في عيلتي كتير.",
+    "en": "I often think of my family."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u11_02",
+   "text": "¿Qué esperas? – El autobús.",
+   "translations": {
+    "ar": "مستني إيه؟ – الأتوبيس.",
+    "en": "What are you waiting for? – For the bus."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u11_03",
+   "text": "Sueña con una casa junto al mar.",
+   "translations": {
+    "ar": "بتحلم ببيت على البحر.",
+    "en": "She dreams of a house by the sea."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u12_01",
+   "text": "El aparato recién desarrollado es muy rápido.",
+   "translations": {
+    "ar": "الجهاز اللي اتطور جديد سريع جدًا.",
+    "en": "The newly developed device is very fast."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u12_02",
+   "text": "La creciente cantidad de datos es un problema.",
+   "translations": {
+    "ar": "كمية البيانات المتزايدة مشكلة.",
+    "en": "The growing amount of data is a problem."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u12_03",
+   "text": "La investigación progresa cada día.",
+   "translations": {
+    "ar": "البحث بيتقدم كل يوم.",
+    "en": "Research makes progress every day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u13_01",
+   "text": "Me gustan tanto el fútbol como el tenis.",
+   "translations": {
+    "ar": "بحب الكورة والتنس الاتنين.",
+    "en": "I like both football and tennis."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u13_02",
+   "text": "Nuestro equipo ni ganó ni perdió.",
+   "translations": {
+    "ar": "فريقنا لا كسب ولا خسر.",
+    "en": "Our team neither won nor lost."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u13_03",
+   "text": "O entrenamos hoy o mañana.",
+   "translations": {
+    "ar": "يا نتمرن النهاردة يا بكرة.",
+    "en": "Either we train today or tomorrow."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u14_01",
+   "text": "El año que viene me mudaré a España.",
+   "translations": {
+    "ar": "السنة الجاية هعزّل إسبانيا.",
+    "en": "Next year I will move to Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u14_02",
+   "text": "Probablemente tendré nostalgia.",
+   "translations": {
+    "ar": "غالبًا هيوحشني بلدي.",
+    "en": "I will probably have homesickness."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u14_03",
+   "text": "Uno se acostumbra a una nueva cultura.",
+   "translations": {
+    "ar": "الواحد بيتعوّد على ثقافة جديدة.",
+    "en": "You get used to a new culture."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u15_01",
+   "text": "Le agradecería una respuesta rápida.",
+   "translations": {
+    "ar": "أكون ممتن لو رديتوا بسرعة.",
+    "en": "I would be grateful for a quick reply."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u15_02",
+   "text": "Adjunto le envío mi currículum.",
+   "translations": {
+    "ar": "مرفق السي في بتاعي.",
+    "en": "Please find my CV attached."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.b1.sent.u15_03",
+   "text": "Quisiera confirmar mi inscripción.",
+   "translations": {
+    "ar": "حابب أأكد تسجيلي.",
+    "en": "I would like to confirm my registration."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "es.b1.gram.u01",
+   "level": "B1",
+   "title": {
+    "en": "Irregular indefinido",
+    "ar": "الـ indefinido الشاذ"
+   },
+   "explanation": {
+    "en": "Many common verbs have an irregular indefinido stem with endings -e, -iste, -o, -imos, -isteis, -ieron: tener -> tuve, estar -> estuve, poder -> pude, hacer -> hice (hizo), venir -> vine, querer -> quise.\n\ndecir and traer take -eron: dijeron, trajeron. Regular: aprobé, explicó (c -> qu in yo: expliqué).",
+    "ar": "أفعال كتير منتشرة ليها جذر شاذ في الـ indefinido بالنهايات ‎-e, -iste, -o, -imos, -isteis, -ieron: tener -> tuve، estar -> estuve، poder -> pude، hacer -> hice (hizo)، venir -> vine، querer -> quise.\n\ndecir وtraer بياخدوا ‎-eron: dijeron، trajeron. والمنتظم: aprobé، explicó (وفي yo الـ c بتبقى qu: expliqué)."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u01_01",
+    "es.b1.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ayer ___ mucho trabajo. (yo, tener)",
+     "answer": "tuve",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Qué ___ el fin de semana? (tú, hacer)",
+     "answer": "hiciste",
+     "base": "hacer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La profesora ___ la gramática. (explicar)",
+     "answer": "explicó",
+     "base": "explicar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "No ___ venir. (yo, poder)",
+     "answer": "pude",
+     "base": "poder"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u02",
+   "level": "B1",
+   "title": {
+    "en": "Relative clauses with que, quien, el que",
+    "ar": "الجمل الموصولة بـ que وquien وel que"
+   },
+   "explanation": {
+    "en": "que is the all-purpose relative pronoun for people and things: El hombre que me entrevistó ... El contrato que firmé ... The word order doesn't change.\n\nAfter a preposition: el/la/los/las que or quien(es) for people: la persona con quien trabajo, la empresa en la que trabajo.",
+    "ar": "que هو ضمير الوصل اللي ينفع لكل حاجة، أشخاص وحاجات: El hombre que me entrevistó ... El contrato que firmé ... وترتيب الكلام مش بيتغير.\n\nبعد حرف جر: el/la/los/las que أو quien(es) للأشخاص: la persona con quien trabajo، la empresa en la que trabajo."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u02_01",
+    "es.b1.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "El hombre ___ me entrevistó fue amable.",
+     "answer": "que",
+     "base": "que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La persona con ___ trabajo. (person)",
+     "answer": "quien",
+     "base": "quien"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La empresa en ___ que trabajo. (fem.)",
+     "answer": "la",
+     "base": "el/la que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Este es el contrato ___ firmé.",
+     "answer": "que",
+     "base": "que"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u03",
+   "level": "B1",
+   "title": {
+    "en": "Prepositions + relative pronouns; dejar",
+    "ar": "حروف الجر مع ضماير الوصل؛ dejar"
+   },
+   "explanation": {
+    "en": "Preposition + el/la/los/las que (things or people) or quien (people): la cocina en la que cocino, el compañero con quien vivo.\n\ndejar + infinitive = to let: Déjame pensar. To have something done, Spanish often just uses the verb or llevar a: Llevo mi bici a reparar.\n\nquejarse de = to complain about: Se quejan del ruido.",
+    "ar": "حرف جر + el/la/los/las que (حاجات أو أشخاص) أو quien (أشخاص): la cocina en la que cocino، el compañero con quien vivo.\n\ndejar + مصدر = يخلّي: Déjame pensar. وعشان تخلي حد يعمل حاجة، الإسباني غالبًا بيستخدم الفعل نفسه أو llevar a: Llevo mi bici a reparar.\n\nquejarse de = يشتكي من: Se quejan del ruido."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u03_01",
+    "es.b1.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "El compañero con ___ vivo. (person)",
+     "answer": "quien",
+     "base": "quien"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La cocina en la ___ cocino.",
+     "answer": "que",
+     "base": "que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ pensar. (tú, dejar + me)",
+     "answer": "Déjame",
+     "base": "dejar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Los vecinos se quejan ___ ruido.",
+     "answer": "del",
+     "base": "de + el"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u04",
+   "level": "B1",
+   "title": {
+    "en": "Passive with se and poder; gastar en",
+    "ar": "المجهول بـ se مع poder؛ gastar en"
+   },
+   "explanation": {
+    "en": "With modal verbs the passive se goes before the modal or attaches to the infinitive: El producto se puede cambiar = puede cambiarse. La factura se tiene que pagar.\n\nThe ser passive exists but is formal: La factura fue pagada.\n\nspend on = gastar en: Gasto demasiado dinero en ropa.",
+    "ar": "مع أفعال الوجه، se بتاعة المجهول بتيجي قبل الفعل أو بتتلزق في المصدر: El producto se puede cambiar = puede cambiarse. La factura se tiene que pagar.\n\nالمجهول بـ ser موجود بس رسمي: La factura fue pagada.\n\nيصرف على = gastar en: Gasto demasiado dinero en ropa."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u04_01",
+    "es.b1.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "El producto ___ puede cambiar.",
+     "answer": "se",
+     "base": "se"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Gasto mucho dinero ___ ropa.",
+     "answer": "en",
+     "base": "en"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La factura fue ___. (pagar)",
+     "answer": "pagada",
+     "base": "pagar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Quiero ___ dinero. (save)",
+     "answer": "ahorrar",
+     "base": "ahorrar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u05",
+   "level": "B1",
+   "title": {
+    "en": "Passive se, ser + participle; volverse",
+    "ar": "المجهول بـ se وser + اسم المفعول؛ volverse"
+   },
+   "explanation": {
+    "en": "Everyday passive: se + verb agreeing with the thing: Se talan muchos árboles. Se recicla el plástico.\n\nFormal passive: ser + participle (agreeing) + por: Los árboles fueron talados por la empresa.\n\nTo become: hacerse, ponerse, volverse: El clima se vuelve más cálido. Se hizo profesor.",
+    "ar": "المجهول اليومي: se + فعل بيطابق الحاجة: Se talan muchos árboles. Se recicla el plástico.\n\nالمجهول الرسمي: ser + اسم المفعول (مطابق) + por: Los árboles fueron talados por la empresa.\n\nيبقى: hacerse، ponerse، volverse: El clima se vuelve más cálido. Se hizo profesor."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u05_01",
+    "es.b1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ talan muchos árboles.",
+     "answer": "Se",
+     "base": "se"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Los árboles fueron ___ por la empresa. (talar)",
+     "answer": "talados",
+     "base": "talar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Tenemos que ___ la naturaleza.",
+     "answer": "proteger",
+     "base": "proteger"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "El clima se ___ más cálido. (volver)",
+     "answer": "vuelve",
+     "base": "volverse"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u06",
+   "level": "B1",
+   "title": {
+    "en": "aunque, sin embargo; reported speech",
+    "ar": "aunque وsin embargo؛ الكلام المنقول"
+   },
+   "explanation": {
+    "en": "aunque + indicative = although (a fact): Aunque era tarde, leí el artículo. sin embargo = nevertheless, between sentences.\n\nReported speech shifts tenses after a past verb: Dice que es verdad -> Dijo que era verdad. Dijo que vendría.",
+    "ar": "aunque + indicativo = رغم إن (حقيقة): Aunque era tarde, leí el artículo. وsin embargo = ومع ذلك، بين الجمل.\n\nالكلام المنقول بيغير الزمن بعد فعل ماضي: Dice que es verdad -> Dijo que era verdad. Dijo que vendría."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u06_01",
+    "es.b1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ era tarde, leí el artículo.",
+     "answer": "Aunque",
+     "base": "aunque"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Llovía; sin ___, salimos.",
+     "answer": "embargo",
+     "base": "sin embargo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dijo que ___ verdad. (ser, past)",
+     "answer": "era",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dijo que ___ mañana. (venir, conditional)",
+     "answer": "vendría",
+     "base": "venir"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u07",
+   "level": "B1",
+   "title": {
+    "en": "para + infinitive and para que + subjunctive",
+    "ar": "para + مصدر وpara que + subjuntivo"
+   },
+   "explanation": {
+    "en": "Same subject: para + infinitive: Voy al médico para conseguir una receta.\n\nDifferent subject: para que + present subjunctive: Lo explica para que el paciente lo entienda. Subjunctive: -ar verbs take -e endings, -er/-ir verbs take -a endings: hable, entienda, viva.\n\nEs importante + infinitive: Es importante tener seguro.",
+    "ar": "نفس الفاعل: para + مصدر: Voy al médico para conseguir una receta.\n\nفاعل مختلف: para que + المضارع الـ subjuntivo: Lo explica para que el paciente lo entienda. الـ subjuntivo: أفعال ‎-ar بتاخد نهايات ‎-e، وأفعال ‎-er/-ir بتاخد ‎-a: hable، entienda، viva.\n\nEs importante + مصدر: Es importante tener seguro."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u07_01",
+    "es.b1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Voy al médico ___ conseguir una receta.",
+     "answer": "para",
+     "base": "para"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Lo explica para que el paciente lo ___. (entender)",
+     "answer": "entienda",
+     "base": "entender"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Habla despacio para que yo ___. (comprender)",
+     "answer": "comprenda",
+     "base": "comprender"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es importante ___ seguro. (tener)",
+     "answer": "tener",
+     "base": "tener"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u08",
+   "level": "B1",
+   "title": {
+    "en": "Pluscuamperfecto; después de, antes de",
+    "ar": "الماضي الأسبق؛ después de وantes de"
+   },
+   "explanation": {
+    "en": "había + participle: Habíamos comido. Él ya se había ido.\n\nWith the same subject use después de / antes de + infinitive: Después de comer, fuimos al concierto. With a different subject: después de que / antes de que + verb; antes de que always takes the subjunctive: Antes de que abriera la exposición, ...",
+    "ar": "había + اسم المفعول: Habíamos comido. Él ya se había ido.\n\nمع نفس الفاعل استخدم después de / antes de + مصدر: Después de comer, fuimos al concierto. ومع فاعل مختلف: después de que / antes de que + فعل؛ وantes de que دايمًا بتاخد subjuntivo: Antes de que abriera la exposición, ..."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u08_01",
+    "es.b1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ya ___ comido. (nosotros)",
+     "answer": "habíamos",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Después ___ comer, fuimos al concierto.",
+     "answer": "de",
+     "base": "de"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Él ya se había ___. (ir)",
+     "answer": "ido",
+     "base": "ir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Antes ___ que abriera, esperábamos.",
+     "answer": "de",
+     "base": "de"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u09",
+   "level": "B1",
+   "title": {
+    "en": "debido a, durante, en lugar de, a pesar de",
+    "ar": "debido a وdurante وen lugar de وa pesar de"
+   },
+   "explanation": {
+    "en": "Spanish prepositions of cause and contrast: debido a / por (because of), durante (during), en lugar de / en vez de (instead of), a pesar de (despite). a + el = al, de + el = del: debido al atasco, en lugar del coche.\n\nperder = to miss (a train) and to lose: Perdí el tren.",
+    "ar": "حروف الجر للسبب والمقارنة في الإسباني: debido a / por (بسبب)، durante (خلال)، en lugar de / en vez de (بدل)، a pesar de (رغم). وa + el = al، de + el = del: debido al atasco، en lugar del coche.\n\nperder = يفوّت (قطر) ويضيّع: Perdí el tren."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u09_01",
+    "es.b1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Debido ___ atasco llegué tarde.",
+     "answer": "al",
+     "base": "a + el"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "En lugar ___ coche tomo la bici.",
+     "answer": "del",
+     "base": "de + el"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "A pesar ___ la lluvia salimos.",
+     "answer": "de",
+     "base": "de"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ayer ___ el tren. (yo, perder)",
+     "answer": "perdí",
+     "base": "perder"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u10",
+   "level": "B1",
+   "title": {
+    "en": "Past unreal conditions; cuanto más",
+    "ar": "الشرط غير الحقيقي في الماضي؛ cuanto más"
+   },
+   "explanation": {
+    "en": "si + pluscuamperfecto de subjuntivo (hubiera + participle), then condicional compuesto (habría + participle): Si hubiera votado, el resultado habría sido diferente.\n\ncuanto más ..., más ...; cuanto + noun agrees: cuantas más personas: Cuantas más personas votan, mejor.",
+    "ar": "si + pluscuamperfecto de subjuntivo (hubiera + اسم المفعول)، وبعدها condicional compuesto (habría + اسم المفعول): Si hubiera votado, el resultado habría sido diferente.\n\ncuanto más ...، más ...؛ وcuanto بتطابق الاسم: cuantas más personas: Cuantas más personas votan, mejor."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u10_01",
+    "es.b1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Si ___ votado, ... (yo)",
+     "answer": "hubiera",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "..., el resultado ___ sido diferente.",
+     "answer": "habría",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ más personas votan, mejor.",
+     "answer": "Cuantas",
+     "base": "cuanto"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Cuanto más estudio, ___ aprendo.",
+     "answer": "más",
+     "base": "más"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u11",
+   "level": "B1",
+   "title": {
+    "en": "Verbs with prepositions",
+    "ar": "أفعال مع حروف جر"
+   },
+   "explanation": {
+    "en": "Spanish verbs also have fixed prepositions, often different from German and Dutch: pensar en (think of), soñar con (dream of), tener miedo de (be afraid of), confiar en (trust), enamorarse de (fall in love with).\n\nesperar takes no preposition: Espero el autobús. Questions keep the preposition first: ¿En qué piensas? ¿Con qué sueñas?",
+    "ar": "الأفعال الإسبانية برضه ليها حروف جر ثابتة، وغالبًا مختلفة عن الألماني والهولندي: pensar en (يفكر في)، soñar con (يحلم بـ)، tener miedo de (يخاف من)، confiar en (يثق في)، enamorarse de (يحب).\n\nesperar من غير حرف جر: Espero el autobús. والسؤال بيبدأ بحرف الجر: ¿En qué piensas? ¿Con qué sueñas?"
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u11_01",
+    "es.b1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Pienso a menudo ___ mi familia.",
+     "answer": "en",
+     "base": "pensar en"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sueña ___ una casa junto al mar.",
+     "answer": "con",
+     "base": "soñar con"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Tengo miedo ___ los perros.",
+     "answer": "de",
+     "base": "tener miedo de"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ qué piensas?",
+     "answer": "En",
+     "base": "en"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u12",
+   "level": "B1",
+   "title": {
+    "en": "Participles and -ente adjectives",
+    "ar": "اسم المفعول وصفات ‎-ente"
+   },
+   "explanation": {
+    "en": "Past participles work as adjectives and agree: el aparato desarrollado, las ciudades desarrolladas. recién + participle = newly: recién desarrollado.\n\nMany adjectives in -ante / -ente come from verbs: creciente (growing), interesante, sorprendente. They change only for number: crecientes.",
+    "ar": "اسم المفعول بيشتغل صفة وبيطابق: el aparato desarrollado، las ciudades desarrolladas. وrecién + اسم المفعول = لسه/حديثًا: recién desarrollado.\n\nصفات كتير بتخلص بـ ‎-ante / -ente جاية من أفعال: creciente (متزايد)، interesante، sorprendente. وبتتغير في العدد بس: crecientes."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u12_01",
+    "es.b1.sent.u12_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "el aparato ___ (desarrollar)",
+     "answer": "desarrollado",
+     "base": "desarrollar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "las ciudades ___ (desarrollar)",
+     "answer": "desarrolladas",
+     "base": "desarrollar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "la ___ cantidad de datos (crecer)",
+     "answer": "creciente",
+     "base": "crecer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "un aparato ___ desarrollado (newly)",
+     "answer": "recién",
+     "base": "recién"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u13",
+   "level": "B1",
+   "title": {
+    "en": "Two-part conjunctions",
+    "ar": "أدوات الربط المزدوجة"
+   },
+   "explanation": {
+    "en": "tanto ... como = both ... and; ni ... ni = neither ... nor (with no before the verb if ni comes after it: No ganó ni perdió); o ... o = either ... or; no solo ... sino también = not only ... but also.\n\no becomes u before o-/ho-: siete u ocho. y becomes e before i-/hi-: padres e hijos.",
+    "ar": "tanto ... como = الاتنين؛ ni ... ni = لا ... ولا (ومع no قبل الفعل لو ni جت بعده: No ganó ni perdió)؛ o ... o = يا ... يا؛ no solo ... sino también = مش بس ... لكن كمان.\n\no بتبقى u قبل كلمة بتبدأ بـ o/ho: siete u ocho. وy بتبقى e قبل i/hi: padres e hijos."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u13_01",
+    "es.b1.sent.u13_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Me gustan tanto el fútbol ___ el tenis.",
+     "answer": "como",
+     "base": "tanto ... como"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nuestro equipo ___ ganó ni perdió.",
+     "answer": "ni",
+     "base": "ni ... ni"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "no solo rápido ___ también fuerte",
+     "answer": "sino",
+     "base": "no solo ... sino"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "siete ___ ocho",
+     "answer": "u",
+     "base": "o"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u14",
+   "level": "B1",
+   "title": {
+    "en": "The future tense and ir a",
+    "ar": "المستقبل وir a"
+   },
+   "explanation": {
+    "en": "ir a + infinitive for plans: Voy a mudarme. Simple future = infinitive + -é, -ás, -á, -emos, -éis, -án: me mudaré, tendrás. Irregular stems: tener -> tendr-, hacer -> har-, poder -> podr-, salir -> saldr-, venir -> vendr-, decir -> dir-.\n\nThe future also expresses guesses: Serán las diez = it's probably ten.",
+    "ar": "ir a + مصدر للخطط: Voy a mudarme. والمستقبل البسيط = المصدر + ‎-é, -ás, -á, -emos, -éis, -án: me mudaré، tendrás. والجذور الشاذة: tener -> tendr-، hacer -> har-، poder -> podr-، salir -> saldr-، venir -> vendr-، decir -> dir-.\n\nالمستقبل بيعبر كمان عن التخمين: Serán las diez = غالبًا الساعة عشرة."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u14_01",
+    "es.b1.sent.u14_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "El año que viene me ___ a España. (mudarse)",
+     "answer": "mudaré",
+     "base": "mudarse"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Probablemente ___ nostalgia. (yo, tener)",
+     "answer": "tendré",
+     "base": "tener"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Uno se acostumbra ___ una nueva cultura.",
+     "answer": "a",
+     "base": "a"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ a estudiar en Madrid. (yo, ir)",
+     "answer": "Voy",
+     "base": "ir"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.b1.gram.u15",
+   "level": "B1",
+   "title": {
+    "en": "Formal register: usted and polite forms",
+    "ar": "الأسلوب الرسمي: usted والصيغ المؤدبة"
+   },
+   "explanation": {
+    "en": "Formal Spanish uses usted/ustedes with third-person verbs and the pronouns le/les, su: Le envío mi currículum. ¿Podría usted informarme?\n\nOpenings: Estimado señor García: / Estimada señora López: / Estimados señores: (with a colon). Closings: Atentamente, / Un cordial saludo,\n\nPolite verbs: quisiera, podría, le agradecería.",
+    "ar": "الإسباني الرسمي بيستخدم usted/ustedes مع أفعال الغايب والضماير le/les وsu: Le envío mi currículum. ¿Podría usted informarme?\n\nالبداية: Estimado señor García: / Estimada señora López: / Estimados señores: (بنقطتين). والنهاية: Atentamente, / Un cordial saludo,\n\nأفعال مؤدبة: quisiera، podría، le agradecería."
+   },
+   "exampleSentenceIds": [
+    "es.b1.sent.u15_01",
+    "es.b1.sent.u15_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ señores:",
+     "answer": "Estimados",
+     "base": "estimado"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿___ usted informarme? (poder, polite)",
+     "answer": "Podría",
+     "base": "poder"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ confirmar mi inscripción. (querer, polite)",
+     "answer": "Quisiera",
+     "base": "querer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Le ___ una respuesta rápida. (agradecer)",
+     "answer": "agradecería",
+     "base": "agradecer"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "es.b1.write.u01",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about education and learning in Spanish: how you learn best and a good teacher you remember.",
+    "ar": "اكتب بالإسباني عن التعليم والتعلم: إزاي بتتعلم أحسن ومدرس كويس فاكره."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u02",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about job search and applications in Spanish: an application email for a job you would like.",
+    "ar": "اكتب بالإسباني عن البحث عن شغل والتقديم: إيميل تقديم على شغلانة نفسك فيها."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u03",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about living together in Spanish: rules for living together in a shared flat.",
+    "ar": "اكتب بالإسباني عن العيش مع الآخرين: قواعد للعيشة في شقة مشتركة."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u04",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about consumption and money in Spanish: what you spend money on and how you save.",
+    "ar": "اكتب بالإسباني عن الاستهلاك والفلوس: بتصرف فلوسك على إيه وبتحوّش إزاي."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u05",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about environment and nature in Spanish: an environmental problem in your city and what could be done.",
+    "ar": "اكتب بالإسباني عن البيئة والطبيعة: مشكلة بيئية في مدينتك وممكن يتعمل إيه."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u06",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about media and news in Spanish: a piece of news you read recently and what you think of it.",
+    "ar": "اكتب بالإسباني عن الإعلام والأخبار: خبر قريته قريب ورأيك فيه."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u07",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about health system in Spanish: how the health system works in your country.",
+    "ar": "اكتب بالإسباني عن النظام الصحي: النظام الصحي في بلدك شغال إزاي."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u08",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about culture and art in Spanish: a film, concert or exhibition you saw and what had happened before.",
+    "ar": "اكتب بالإسباني عن الثقافة والفن: فيلم أو حفلة أو معرض شفته وإيه اللي حصل قبلها."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u09",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about travel and mobility in Spanish: how you get around and the problems of traffic in your city.",
+    "ar": "اكتب بالإسباني عن السفر والتنقل: بتتنقل إزاي ومشاكل المرور في مدينتك."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u10",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about politics and society in Spanish: what you would change if you were the mayor of your city.",
+    "ar": "اكتب بالإسباني عن السياسة والمجتمع: كنت هتغير إيه لو كنت محافظ مدينتك."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u11",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about relationships and feelings in Spanish: a person who is important to you and why.",
+    "ar": "اكتب بالإسباني عن العلاقات والمشاعر: شخص مهم بالنسبالك وليه."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u12",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about science and technology in Spanish: a technology you use every day and how it has changed your life.",
+    "ar": "اكتب بالإسباني عن العلوم والتكنولوجيا: تكنولوجيا بتستخدمها كل يوم وغيّرت حياتك إزاي."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u13",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about sport and leisure in Spanish: a sport or hobby you would recommend and why.",
+    "ar": "اكتب بالإسباني عن الرياضة والترفيه: رياضة أو هواية تنصح بيها وليه."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u14",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about living abroad in Spanish: your plans for living or studying abroad.",
+    "ar": "اكتب بالإسباني عن العيش في الخارج: خططك للعيشة أو الدراسة برة."
+   },
+   "minWords": 80
+  },
+  {
+   "id": "es.b1.write.u15",
+   "level": "B1",
+   "prompt": {
+    "en": "Write about formal letters and emails in Spanish: a formal email asking for information about a course.",
+    "ar": "اكتب بالإسباني عن الرسائل والإيميلات الرسمية: إيميل رسمي تسأل فيه عن معلومات كورس."
+   },
+   "minWords": 80
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

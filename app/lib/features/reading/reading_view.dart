@@ -5,6 +5,7 @@ import '../../core/lang/lang.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
+import '../../core/bidi.dart';
 
 /// A reading text with audio, a glossary, a translation toggle and questions.
 class ReadingView extends ConsumerStatefulWidget {
@@ -25,7 +26,10 @@ class ReadingView extends ConsumerStatefulWidget {
 class _ReadingViewState extends ConsumerState<ReadingView> {
   final _answers = <int, int>{};
   bool _showTranslation = false;
-  bool _checked = false;
+  bool _checked = false, _revealed = false;
+
+  /// Score of the first check; retries help learning but don't raise it.
+  double? _firstScore;
 
   @override
   Widget build(BuildContext context) {
@@ -38,20 +42,22 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
       return ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Text(t.title, style: theme.headlineSmall),
+          BidiText(t.title, style: theme.headlineSmall),
           const SizedBox(height: 8),
-          if (t.translation != null) Text(t.translation!.get(lang)),
+          if (t.translation != null) BidiText(t.translation!.get(lang)),
           const SizedBox(height: 8),
-          Text(l.externalHint),
+          BidiText(l.externalHint),
           SelectableText(
             t.url ?? '',
+            textDirection: TextDirection.ltr,
+            textAlign: screenAlign(context),
             style: const TextStyle(decoration: TextDecoration.underline),
           ),
           const SizedBox(height: 16),
           if (widget.onDone != null)
             FilledButton(
               onPressed: () => widget.onDone!(1),
-              child: Text(l.next),
+              child: BidiText(l.next),
             ),
         ],
       );
@@ -72,7 +78,7 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
       children: [
         Row(
           children: [
-            Expanded(child: Text(t.title, style: theme.headlineSmall)),
+            Expanded(child: BidiText(t.title, style: theme.headlineSmall)),
             if (t.body != null)
               SpeakButton(t.body!, lang: ContentId.parse(t.id)?.lang),
             if (t.body != null)
@@ -91,36 +97,38 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
         ),
         if (t.translation != null)
           Align(
-            alignment: Alignment.centerLeft,
+            alignment: AlignmentDirectional.centerStart,
             child: TextButton(
               onPressed: () =>
                   setState(() => _showTranslation = !_showTranslation),
-              child: Text(l.showTranslation),
+              child: BidiText(l.showTranslation),
             ),
           ),
         if (_showTranslation && t.translation != null)
-          Text(
+          BidiText(
             t.translation!.get(lang),
             style: TextStyle(color: Theme.of(context).hintColor),
           ),
         if (glossary.isNotEmpty) ...[
           const Divider(height: 32),
-          Text(l.glossary, style: theme.titleMedium),
+          BidiText(l.glossary, style: theme.titleMedium),
           Wrap(
             spacing: 8,
             runSpacing: 4,
             children: [
               for (final v in glossary)
-                Chip(label: Text('${v.display} · ${v.translations.get(lang)}')),
+                Chip(
+                  label: BidiText('${v.display} · ${v.translations.get(lang)}'),
+                ),
             ],
           ),
         ],
         if (t.questions.isNotEmpty) ...[
           const Divider(height: 32),
-          Text(l.questions, style: theme.titleMedium),
+          BidiText(l.questions, style: theme.titleMedium),
           for (final (qi, q) in t.questions.indexed) ...[
             const SizedBox(height: 12),
-            Text(
+            BidiText(
               q.question,
               textDirection: TextDirection.ltr,
               style: theme.titleSmall,
@@ -135,9 +143,17 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
                     RadioListTile<int>(
                       dense: true,
                       value: oi,
-                      title: Text(option, textDirection: TextDirection.ltr),
-                      secondary: _checked && oi == q.answer
+                      title: BidiText(option, textDirection: TextDirection.ltr),
+                      secondary:
+                          _checked &&
+                              oi == q.answer &&
+                              (_revealed || _answers[qi] == q.answer)
                           ? const Icon(Icons.check, color: Colors.green)
+                          : _checked && _answers[qi] == oi && oi != q.answer
+                          ? Icon(
+                              Icons.close,
+                              color: Theme.of(context).colorScheme.error,
+                            )
                           : null,
                     ),
                 ],
@@ -147,22 +163,36 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
         ],
         const SizedBox(height: 16),
         if (_checked)
-          Text(
+          BidiText(
             l.scoreLabel((score * 100).round()),
             textAlign: TextAlign.center,
           ),
-        FilledButton(
-          onPressed: _answers.length < t.questions.length
-              ? null
-              : () {
-                  if (!_checked) {
-                    setState(() => _checked = true);
-                  } else {
-                    widget.onDone?.call(score);
-                  }
-                },
-          child: Text(!_checked ? l.check : l.next),
-        ),
+        if (_checked && score < 1 && !_revealed)
+          RetryOrReveal(
+            onRetry: () => setState(() {
+              _checked = false;
+              for (final (qi, q) in t.questions.indexed) {
+                if (_answers[qi] != q.answer) _answers.remove(qi);
+              }
+            }),
+            onReveal: () => setState(() => _revealed = true),
+          )
+        else
+          FilledButton(
+            onPressed: _answers.length < t.questions.length
+                ? null
+                : () {
+                    if (!_checked) {
+                      setState(() {
+                        _checked = true;
+                        _firstScore ??= score;
+                      });
+                    } else {
+                      widget.onDone?.call(_firstScore ?? score);
+                    }
+                  },
+            child: BidiText(!_checked ? l.check : l.next),
+          ),
       ],
     );
   }

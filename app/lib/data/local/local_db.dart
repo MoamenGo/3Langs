@@ -36,6 +36,16 @@ class LocalDb {
   static const writingSubmissions = SyncedTable('writing_submissions', 'id');
   static const userSettings = SyncedTable('user_settings', 'user_id');
   static const languageTracks = SyncedTable('language_tracks', 'lang');
+  static const interferenceEvents = SyncedTable(
+    'interference_events',
+    'id',
+    appendOnly: true,
+  );
+  static const levelAssessments = SyncedTable(
+    'level_assessments',
+    'id',
+    appendOnly: true,
+  );
 
   static const syncedTables = [
     userSettings,
@@ -45,6 +55,8 @@ class LocalDb {
     lessonProgress,
     studySessions,
     writingSubmissions,
+    interferenceEvents,
+    levelAssessments,
   ];
 
   /// Local-only key/value store: sync cursors, device preferences.
@@ -103,6 +115,9 @@ class LocalDb {
       await meta.record(key).get(db) as T?;
   Future<void> setMeta(String key, Object? value) =>
       meta.record(key).put(db, value);
+  Future<void> deleteMeta(String key) => meta.record(key).delete(db);
+  Stream<Object?> watchMeta(String key) =>
+      meta.record(key).onSnapshot(db).map((s) => s?.value);
 
   /// Wipes everything, used on sign-out so the next account starts clean.
   Future<void> clearAll() async {

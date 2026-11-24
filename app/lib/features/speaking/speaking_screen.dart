@@ -5,6 +5,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
+import '../../core/bidi.dart';
 
 /// Shadowing: hear a sentence, say it aloud, rate yourself.
 ///
@@ -29,7 +30,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
     return StudyTimer(
       activity: Activity.speaking,
       child: Scaffold(
-        appBar: AppBar(title: Text(l.lessonSpeaking)),
+        appBar: AppBar(title: BidiText(l.lessonSpeaking)),
         body: AsyncView(
           value: ref.watch(activeContentProvider),
           builder: (c) {
@@ -41,9 +42,9 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Text(l.speakingIntro, textAlign: TextAlign.center),
+                  BidiText(l.speakingIntro, textAlign: TextAlign.center),
                   const Spacer(),
-                  Text(
+                  BidiText(
                     s.text,
                     textDirection: TextDirection.ltr,
                     style: Theme.of(context).textTheme.headlineSmall,
@@ -52,7 +53,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
                   TextButton(
                     onPressed: () =>
                         setState(() => _showTranslation = !_showTranslation),
-                    child: Text(
+                    child: BidiText(
                       _showTranslation
                           ? s.translations.get(lang)
                           : l.showTranslation,
@@ -77,7 +78,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
                                 _index++;
                                 _showTranslation = false;
                               }),
-                              child: Text(label),
+                              child: BidiText(label),
                             ),
                           ),
                         ),

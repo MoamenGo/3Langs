@@ -1,0 +1,4233 @@
+{
+ "schemaVersion": 2,
+ "lang": "es",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "C1",
+  "title": {
+   "ar": "C1 متقدم",
+   "en": "C1 Advanced"
+  },
+  "targetHours": 250,
+  "canDo": [
+   {
+    "en": "Understand long, demanding texts and recognise implicit meaning",
+    "ar": "تفهم نصوص طويلة وصعبة وتلقط المعنى اللي بين السطور"
+   },
+   {
+    "en": "Express yourself fluently without obviously searching for words",
+    "ar": "تعبّر عن نفسك بطلاقة من غير ما تبان بتدوّر على الكلام"
+   },
+   {
+    "en": "Use language flexibly for social, academic and professional purposes",
+    "ar": "تستخدم اللغة بمرونة في الحياة الاجتماعية والدراسة والشغل"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "es.c1.u01",
+   "level": "C1",
+   "order": 1,
+   "theme": {
+    "ar": "اللغة الأكاديمية",
+    "en": "Academic language"
+   },
+   "goals": [
+    {
+     "en": "Talk about academic language in Spanish",
+     "ar": "تتكلم عن اللغة الأكاديمية بالإسباني"
+    },
+    {
+     "en": "Academic nominal style",
+     "ar": "الأسلوب الاسمي الأكاديمي"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u01"
+   ],
+   "lessonIds": [
+    "es.c1.u01.l01",
+    "es.c1.u01.l02",
+    "es.c1.u01.l03",
+    "es.c1.u01.l04",
+    "es.c1.u01.l05"
+   ],
+   "sharedUnitId": "u.c1.01"
+  },
+  {
+   "id": "es.c1.u02",
+   "level": "C1",
+   "order": 2,
+   "theme": {
+    "ar": "الفلسفة والأخلاق",
+    "en": "Philosophy and ethics"
+   },
+   "goals": [
+    {
+     "en": "Talk about philosophy and ethics in Spanish",
+     "ar": "تتكلم عن الفلسفة والأخلاق بالإسباني"
+    },
+    {
+     "en": "Complex subordinate clauses",
+     "ar": "الجمل الفرعية المركبة"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u02"
+   ],
+   "lessonIds": [
+    "es.c1.u02.l01",
+    "es.c1.u02.l02",
+    "es.c1.u02.l03",
+    "es.c1.u02.l04",
+    "es.c1.u02.l05"
+   ],
+   "sharedUnitId": "u.c1.02"
+  },
+  {
+   "id": "es.c1.u03",
+   "level": "C1",
+   "order": 3,
+   "theme": {
+    "ar": "لغة البيزنس",
+    "en": "Business language"
+   },
+   "goals": [
+    {
+     "en": "Talk about business language in Spanish",
+     "ar": "تتكلم عن لغة البيزنس بالإسباني"
+    },
+    {
+     "en": "Verb + noun collocations",
+     "ar": "تراكيب فعل واسم"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u03"
+   ],
+   "lessonIds": [
+    "es.c1.u03.l01",
+    "es.c1.u03.l02",
+    "es.c1.u03.l03",
+    "es.c1.u03.l04",
+    "es.c1.u03.l05"
+   ],
+   "sharedUnitId": "u.c1.03"
+  },
+  {
+   "id": "es.c1.u04",
+   "level": "C1",
+   "order": 4,
+   "theme": {
+    "ar": "السياسة والاتحاد الأوروبي",
+    "en": "Politics and the EU"
+   },
+   "goals": [
+    {
+     "en": "Talk about politics and the eu in Spanish",
+     "ar": "تتكلم عن السياسة والاتحاد الأوروبي بالإسباني"
+    },
+    {
+     "en": "Reporting in the news",
+     "ar": "نقل الكلام في الأخبار"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u04"
+   ],
+   "lessonIds": [
+    "es.c1.u04.l01",
+    "es.c1.u04.l02",
+    "es.c1.u04.l03",
+    "es.c1.u04.l04",
+    "es.c1.u04.l05"
+   ],
+   "sharedUnitId": "u.c1.04"
+  },
+  {
+   "id": "es.c1.u05",
+   "level": "C1",
+   "order": 5,
+   "theme": {
+    "ar": "تبسيط العلوم",
+    "en": "Science communication"
+   },
+   "goals": [
+    {
+     "en": "Talk about science communication in Spanish",
+     "ar": "تتكلم عن تبسيط العلوم بالإسباني"
+    },
+    {
+     "en": "Hedging and stance",
+     "ar": "التحفظ والموقف"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u05"
+   ],
+   "lessonIds": [
+    "es.c1.u05.l01",
+    "es.c1.u05.l02",
+    "es.c1.u05.l03",
+    "es.c1.u05.l04",
+    "es.c1.u05.l05"
+   ],
+   "sharedUnitId": "u.c1.05"
+  },
+  {
+   "id": "es.c1.u06",
+   "level": "C1",
+   "order": 6,
+   "theme": {
+    "ar": "الأدب والسينما",
+    "en": "Literature and film"
+   },
+   "goals": [
+    {
+     "en": "Talk about literature and film in Spanish",
+     "ar": "تتكلم عن الأدب والسينما بالإسباني"
+    },
+    {
+     "en": "Stylistic devices",
+     "ar": "الأدوات البلاغية"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u06"
+   ],
+   "lessonIds": [
+    "es.c1.u06.l01",
+    "es.c1.u06.l02",
+    "es.c1.u06.l03",
+    "es.c1.u06.l04",
+    "es.c1.u06.l05"
+   ],
+   "sharedUnitId": "u.c1.06"
+  },
+  {
+   "id": "es.c1.u07",
+   "level": "C1",
+   "order": 7,
+   "theme": {
+    "ar": "الهجرة والهوية",
+    "en": "Migration and identity"
+   },
+   "goals": [
+    {
+     "en": "Talk about migration and identity in Spanish",
+     "ar": "تتكلم عن الهجرة والهوية بالإسباني"
+    },
+    {
+     "en": "Advanced connectors",
+     "ar": "أدوات ربط متقدمة"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u07"
+   ],
+   "lessonIds": [
+    "es.c1.u07.l01",
+    "es.c1.u07.l02",
+    "es.c1.u07.l03",
+    "es.c1.u07.l04",
+    "es.c1.u07.l05"
+   ],
+   "sharedUnitId": "u.c1.07"
+  },
+  {
+   "id": "es.c1.u08",
+   "level": "C1",
+   "order": 8,
+   "theme": {
+    "ar": "الفكاهة والتعبيرات",
+    "en": "Humour and idioms"
+   },
+   "goals": [
+    {
+     "en": "Talk about humour and idioms in Spanish",
+     "ar": "تتكلم عن الفكاهة والتعبيرات بالإسباني"
+    },
+    {
+     "en": "Idiomatic expressions",
+     "ar": "التعبيرات الاصطلاحية"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u08"
+   ],
+   "lessonIds": [
+    "es.c1.u08.l01",
+    "es.c1.u08.l02",
+    "es.c1.u08.l03",
+    "es.c1.u08.l04",
+    "es.c1.u08.l05"
+   ],
+   "sharedUnitId": "u.c1.08"
+  },
+  {
+   "id": "es.c1.u09",
+   "level": "C1",
+   "order": 9,
+   "theme": {
+    "ar": "التكنولوجيا والأخلاق",
+    "en": "Technology and ethics"
+   },
+   "goals": [
+    {
+     "en": "Talk about technology and ethics in Spanish",
+     "ar": "تتكلم عن التكنولوجيا والأخلاق بالإسباني"
+    },
+    {
+     "en": "Advanced passive constructions",
+     "ar": "المبني للمجهول المتقدم"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u09"
+   ],
+   "lessonIds": [
+    "es.c1.u09.l01",
+    "es.c1.u09.l02",
+    "es.c1.u09.l03",
+    "es.c1.u09.l04",
+    "es.c1.u09.l05"
+   ],
+   "sharedUnitId": "u.c1.09"
+  },
+  {
+   "id": "es.c1.u10",
+   "level": "C1",
+   "order": 10,
+   "theme": {
+    "ar": "اللهجات المحلية",
+    "en": "Regional varieties"
+   },
+   "goals": [
+    {
+     "en": "Talk about regional varieties in Spanish",
+     "ar": "تتكلم عن اللهجات المحلية بالإسباني"
+    },
+    {
+     "en": "Spain and Latin America",
+     "ar": "إسبانيا وأمريكا اللاتينية"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u10"
+   ],
+   "lessonIds": [
+    "es.c1.u10.l01",
+    "es.c1.u10.l02",
+    "es.c1.u10.l03",
+    "es.c1.u10.l04",
+    "es.c1.u10.l05"
+   ],
+   "sharedUnitId": "u.c1.10"
+  },
+  {
+   "id": "es.c1.u11",
+   "level": "C1",
+   "order": 11,
+   "theme": {
+    "ar": "العرض والمناظرة",
+    "en": "Presenting and debating"
+   },
+   "goals": [
+    {
+     "en": "Talk about presenting and debating in Spanish",
+     "ar": "تتكلم عن العرض والمناظرة بالإسباني"
+    },
+    {
+     "en": "Discourse markers",
+     "ar": "علامات الخطاب"
+    }
+   ],
+   "grammarIds": [
+    "es.c1.gram.u11"
+   ],
+   "lessonIds": [
+    "es.c1.u11.l01",
+    "es.c1.u11.l02",
+    "es.c1.u11.l03",
+    "es.c1.u11.l04",
+    "es.c1.u11.l05"
+   ],
+   "sharedUnitId": "u.c1.11"
+  },
+  {
+   "id": "es.c1.u12",
+   "level": "C1",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة C1 واختبار تجريبي",
+    "en": "C1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached C1",
+     "ar": "توري إنك وصلت لمستوى C1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "es.c1.u12.l01",
+    "es.c1.u12.l02"
+   ],
+   "sharedUnitId": "u.c1.12"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "es.c1.u01.l01",
+   "unitId": "es.c1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Academic language: words 1",
+    "ar": "اللغة الأكاديمية: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.tesis",
+    "es.c1.vocab.analisis",
+    "es.c1.vocab.clase_magistral",
+    "es.c1.vocab.hipotesis",
+    "es.c1.vocab.investigar",
+    "es.c1.vocab.citar"
+   ]
+  },
+  {
+   "id": "es.c1.u01.l02",
+   "unitId": "es.c1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Academic language: words 2",
+    "ar": "اللغة الأكاديمية: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.resumen",
+    "es.c1.vocab.nota_al_pie",
+    "es.c1.vocab.pertinente",
+    "es.c1.vocab.empirico",
+    "es.c1.vocab.hallazgo"
+   ]
+  },
+  {
+   "id": "es.c1.u01.l03",
+   "unitId": "es.c1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Academic nominal style",
+    "ar": "الأسلوب الاسمي الأكاديمي"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u01"
+  },
+  {
+   "id": "es.c1.u01.l04",
+   "unitId": "es.c1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: academic language",
+    "ar": "استماع: اللغة الأكاديمية"
+   },
+   "items": [
+    "es.c1.sent.u01_01",
+    "es.c1.sent.u01_02",
+    "es.c1.sent.u01_03"
+   ]
+  },
+  {
+   "id": "es.c1.u01.l05",
+   "unitId": "es.c1.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "es.c1.vocab.tesis",
+    "es.c1.vocab.analisis",
+    "es.c1.vocab.clase_magistral",
+    "es.c1.vocab.hipotesis",
+    "es.c1.vocab.investigar",
+    "es.c1.vocab.citar",
+    "es.c1.vocab.resumen",
+    "es.c1.vocab.nota_al_pie",
+    "es.c1.vocab.pertinente",
+    "es.c1.vocab.empirico",
+    "es.c1.vocab.hallazgo"
+   ]
+  },
+  {
+   "id": "es.c1.u02.l01",
+   "unitId": "es.c1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Philosophy and ethics: words 1",
+    "ar": "الفلسفة والأخلاق: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.moral",
+    "es.c1.vocab.libertad",
+    "es.c1.vocab.conciencia",
+    "es.c1.vocab.dignidad",
+    "es.c1.vocab.dilema",
+    "es.c1.vocab.justificar"
+   ]
+  },
+  {
+   "id": "es.c1.u02.l02",
+   "unitId": "es.c1.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Philosophy and ethics: words 2",
+    "ar": "الفلسفة والأخلاق: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.virtud",
+    "es.c1.vocab.consecuencia",
+    "es.c1.vocab.filosofo",
+    "es.c1.vocab.deberia",
+    "es.c1.vocab.egoista"
+   ]
+  },
+  {
+   "id": "es.c1.u02.l03",
+   "unitId": "es.c1.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Complex subordinate clauses",
+    "ar": "الجمل الفرعية المركبة"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u02"
+  },
+  {
+   "id": "es.c1.u02.l04",
+   "unitId": "es.c1.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: philosophy and ethics",
+    "ar": "استماع: الفلسفة والأخلاق"
+   },
+   "items": [
+    "es.c1.sent.u02_01",
+    "es.c1.sent.u02_02",
+    "es.c1.sent.u02_03"
+   ]
+  },
+  {
+   "id": "es.c1.u02.l05",
+   "unitId": "es.c1.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "es.c1.vocab.moral",
+    "es.c1.vocab.libertad",
+    "es.c1.vocab.conciencia",
+    "es.c1.vocab.dignidad",
+    "es.c1.vocab.dilema",
+    "es.c1.vocab.justificar",
+    "es.c1.vocab.virtud",
+    "es.c1.vocab.consecuencia",
+    "es.c1.vocab.filosofo",
+    "es.c1.vocab.deberia",
+    "es.c1.vocab.egoista"
+   ]
+  },
+  {
+   "id": "es.c1.u03.l01",
+   "unitId": "es.c1.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Business language: words 1",
+    "ar": "لغة البيزنس: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.negociacion",
+    "es.c1.vocab.plazo",
+    "es.c1.vocab.entrega",
+    "es.c1.vocab.compromiso"
+   ]
+  },
+  {
+   "id": "es.c1.u03.l02",
+   "unitId": "es.c1.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Business language: words 2",
+    "ar": "لغة البيزنس: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.condicion",
+    "es.c1.vocab.tener_en_cuenta",
+    "es.c1.vocab.tomar_una_decision",
+    "es.c1.vocab.tomar_medidas"
+   ]
+  },
+  {
+   "id": "es.c1.u03.l03",
+   "unitId": "es.c1.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Verb + noun collocations",
+    "ar": "تراكيب فعل واسم"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u03"
+  },
+  {
+   "id": "es.c1.u03.l04",
+   "unitId": "es.c1.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: business language",
+    "ar": "استماع: لغة البيزنس"
+   },
+   "items": [
+    "es.c1.sent.u03_01",
+    "es.c1.sent.u03_02",
+    "es.c1.sent.u03_03"
+   ]
+  },
+  {
+   "id": "es.c1.u03.l05",
+   "unitId": "es.c1.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "es.c1.vocab.negociacion",
+    "es.c1.vocab.plazo",
+    "es.c1.vocab.entrega",
+    "es.c1.vocab.compromiso",
+    "es.c1.vocab.condicion",
+    "es.c1.vocab.tener_en_cuenta",
+    "es.c1.vocab.tomar_una_decision",
+    "es.c1.vocab.tomar_medidas"
+   ]
+  },
+  {
+   "id": "es.c1.u04.l01",
+   "unitId": "es.c1.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and the EU: words 1",
+    "ar": "السياسة والاتحاد الأوروبي: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.parlamento",
+    "es.c1.vocab.union",
+    "es.c1.vocab.estado_miembro",
+    "es.c1.vocab.legislacion",
+    "es.c1.vocab.portavoz"
+   ]
+  },
+  {
+   "id": "es.c1.u04.l02",
+   "unitId": "es.c1.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and the EU: words 2",
+    "ar": "السياسة والاتحاد الأوروبي: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.oposicion",
+    "es.c1.vocab.mayoria",
+    "es.c1.vocab.coalicion",
+    "es.c1.vocab.rechazar"
+   ]
+  },
+  {
+   "id": "es.c1.u04.l03",
+   "unitId": "es.c1.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Reporting in the news",
+    "ar": "نقل الكلام في الأخبار"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u04"
+  },
+  {
+   "id": "es.c1.u04.l04",
+   "unitId": "es.c1.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: politics and the eu",
+    "ar": "استماع: السياسة والاتحاد الأوروبي"
+   },
+   "items": [
+    "es.c1.sent.u04_01",
+    "es.c1.sent.u04_02",
+    "es.c1.sent.u04_03"
+   ]
+  },
+  {
+   "id": "es.c1.u04.l05",
+   "unitId": "es.c1.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "es.c1.vocab.parlamento",
+    "es.c1.vocab.union",
+    "es.c1.vocab.estado_miembro",
+    "es.c1.vocab.legislacion",
+    "es.c1.vocab.portavoz",
+    "es.c1.vocab.oposicion",
+    "es.c1.vocab.mayoria",
+    "es.c1.vocab.coalicion",
+    "es.c1.vocab.rechazar"
+   ]
+  },
+  {
+   "id": "es.c1.u05.l01",
+   "unitId": "es.c1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Science communication: words 1",
+    "ar": "تبسيط العلوم: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.evidencia",
+    "es.c1.vocab.metodo",
+    "es.c1.vocab.muestra",
+    "es.c1.vocab.correlacion",
+    "es.c1.vocab.significativo",
+    "es.c1.vocab.presumiblemente"
+   ]
+  },
+  {
+   "id": "es.c1.u05.l02",
+   "unitId": "es.c1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Science communication: words 2",
+    "ar": "تبسيط العلوم: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.al_parecer",
+    "es.c1.vocab.tender_a",
+    "es.c1.vocab.indicar",
+    "es.c1.vocab.suposicion",
+    "es.c1.vocab.limitacion"
+   ]
+  },
+  {
+   "id": "es.c1.u05.l03",
+   "unitId": "es.c1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Hedging and stance",
+    "ar": "التحفظ والموقف"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u05"
+  },
+  {
+   "id": "es.c1.u05.l04",
+   "unitId": "es.c1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: science communication",
+    "ar": "استماع: تبسيط العلوم"
+   },
+   "items": [
+    "es.c1.sent.u05_01",
+    "es.c1.sent.u05_02",
+    "es.c1.sent.u05_03"
+   ]
+  },
+  {
+   "id": "es.c1.u05.l05",
+   "unitId": "es.c1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "es.c1.vocab.evidencia",
+    "es.c1.vocab.metodo",
+    "es.c1.vocab.muestra",
+    "es.c1.vocab.correlacion",
+    "es.c1.vocab.significativo",
+    "es.c1.vocab.presumiblemente",
+    "es.c1.vocab.al_parecer",
+    "es.c1.vocab.tender_a",
+    "es.c1.vocab.indicar",
+    "es.c1.vocab.suposicion",
+    "es.c1.vocab.limitacion"
+   ]
+  },
+  {
+   "id": "es.c1.u06.l01",
+   "unitId": "es.c1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Literature and film: words 1",
+    "ar": "الأدب والسينما: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.escena",
+    "es.c1.vocab.trama",
+    "es.c1.vocab.narrador",
+    "es.c1.vocab.protagonista",
+    "es.c1.vocab.metafora",
+    "es.c1.vocab.ironia"
+   ]
+  },
+  {
+   "id": "es.c1.u06.l02",
+   "unitId": "es.c1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Literature and film: words 2",
+    "ar": "الأدب والسينما: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.tension",
+    "es.c1.vocab.sutil",
+    "es.c1.vocab.retratar",
+    "es.c1.vocab.director_de_cine",
+    "es.c1.vocab.conmovedor"
+   ]
+  },
+  {
+   "id": "es.c1.u06.l03",
+   "unitId": "es.c1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Stylistic devices",
+    "ar": "الأدوات البلاغية"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u06"
+  },
+  {
+   "id": "es.c1.u06.l04",
+   "unitId": "es.c1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: literature and film",
+    "ar": "استماع: الأدب والسينما"
+   },
+   "items": [
+    "es.c1.sent.u06_01",
+    "es.c1.sent.u06_02",
+    "es.c1.sent.u06_03"
+   ]
+  },
+  {
+   "id": "es.c1.u06.l05",
+   "unitId": "es.c1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "es.c1.vocab.escena",
+    "es.c1.vocab.trama",
+    "es.c1.vocab.narrador",
+    "es.c1.vocab.protagonista",
+    "es.c1.vocab.metafora",
+    "es.c1.vocab.ironia",
+    "es.c1.vocab.tension",
+    "es.c1.vocab.sutil",
+    "es.c1.vocab.retratar",
+    "es.c1.vocab.director_de_cine",
+    "es.c1.vocab.conmovedor"
+   ]
+  },
+  {
+   "id": "es.c1.u07.l01",
+   "unitId": "es.c1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Migration and identity: words 1",
+    "ar": "الهجرة والهوية: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.identidad",
+    "es.c1.vocab.pertenencia",
+    "es.c1.vocab.patria"
+   ]
+  },
+  {
+   "id": "es.c1.u07.l02",
+   "unitId": "es.c1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Migration and identity: words 2",
+    "ar": "الهجرة والهوية: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.diversidad",
+    "es.c1.vocab.raiz",
+    "es.c1.vocab.en_la_medida_en_que"
+   ]
+  },
+  {
+   "id": "es.c1.u07.l03",
+   "unitId": "es.c1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Advanced connectors",
+    "ar": "أدوات ربط متقدمة"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u07"
+  },
+  {
+   "id": "es.c1.u07.l04",
+   "unitId": "es.c1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: migration and identity",
+    "ar": "استماع: الهجرة والهوية"
+   },
+   "items": [
+    "es.c1.sent.u07_01",
+    "es.c1.sent.u07_02",
+    "es.c1.sent.u07_03"
+   ]
+  },
+  {
+   "id": "es.c1.u07.l05",
+   "unitId": "es.c1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "es.c1.vocab.identidad",
+    "es.c1.vocab.pertenencia",
+    "es.c1.vocab.patria",
+    "es.c1.vocab.diversidad",
+    "es.c1.vocab.raiz",
+    "es.c1.vocab.en_la_medida_en_que"
+   ]
+  },
+  {
+   "id": "es.c1.u08.l01",
+   "unitId": "es.c1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Humour and idioms: words 1",
+    "ar": "الفكاهة والتعبيرات: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.chiste",
+    "es.c1.vocab.expresion_idiomatica",
+    "es.c1.vocab.juego_de_palabras",
+    "es.c1.vocab.sarcastico",
+    "es.c1.vocab.exagerar",
+    "es.c1.vocab.tomar_el_pelo"
+   ]
+  },
+  {
+   "id": "es.c1.u08.l02",
+   "unitId": "es.c1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Humour and idioms: words 2",
+    "ar": "الفكاهة والتعبيرات: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.reirse_de",
+    "es.c1.vocab.remate",
+    "es.c1.vocab.no_es_lo_mio",
+    "es.c1.vocab.pan_comido",
+    "es.c1.vocab.tomarle_el_pelo_a_alguien"
+   ]
+  },
+  {
+   "id": "es.c1.u08.l03",
+   "unitId": "es.c1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Idiomatic expressions",
+    "ar": "التعبيرات الاصطلاحية"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u08"
+  },
+  {
+   "id": "es.c1.u08.l04",
+   "unitId": "es.c1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: humour and idioms",
+    "ar": "استماع: الفكاهة والتعبيرات"
+   },
+   "items": [
+    "es.c1.sent.u08_01",
+    "es.c1.sent.u08_02",
+    "es.c1.sent.u08_03"
+   ]
+  },
+  {
+   "id": "es.c1.u08.l05",
+   "unitId": "es.c1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "es.c1.vocab.chiste",
+    "es.c1.vocab.expresion_idiomatica",
+    "es.c1.vocab.juego_de_palabras",
+    "es.c1.vocab.sarcastico",
+    "es.c1.vocab.exagerar",
+    "es.c1.vocab.tomar_el_pelo",
+    "es.c1.vocab.reirse_de",
+    "es.c1.vocab.remate",
+    "es.c1.vocab.no_es_lo_mio",
+    "es.c1.vocab.pan_comido",
+    "es.c1.vocab.tomarle_el_pelo_a_alguien"
+   ]
+  },
+  {
+   "id": "es.c1.u09.l01",
+   "unitId": "es.c1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Technology and ethics: words 1",
+    "ar": "التكنولوجيا والأخلاق: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.inteligencia_artificial",
+    "es.c1.vocab.algoritmo",
+    "es.c1.vocab.riesgo",
+    "es.c1.vocab.vigilancia",
+    "es.c1.vocab.automatizar"
+   ]
+  },
+  {
+   "id": "es.c1.u09.l02",
+   "unitId": "es.c1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Technology and ethics: words 2",
+    "ar": "التكنولوجيا والأخلاق: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.sustituir",
+    "es.c1.vocab.transparente",
+    "es.c1.vocab.sesgo",
+    "es.c1.vocab.regular",
+    "es.c1.vocab.responsable"
+   ]
+  },
+  {
+   "id": "es.c1.u09.l03",
+   "unitId": "es.c1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Advanced passive constructions",
+    "ar": "المبني للمجهول المتقدم"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u09"
+  },
+  {
+   "id": "es.c1.u09.l04",
+   "unitId": "es.c1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: technology and ethics",
+    "ar": "استماع: التكنولوجيا والأخلاق"
+   },
+   "items": [
+    "es.c1.sent.u09_01",
+    "es.c1.sent.u09_02",
+    "es.c1.sent.u09_03"
+   ]
+  },
+  {
+   "id": "es.c1.u09.l05",
+   "unitId": "es.c1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "es.c1.vocab.inteligencia_artificial",
+    "es.c1.vocab.algoritmo",
+    "es.c1.vocab.riesgo",
+    "es.c1.vocab.vigilancia",
+    "es.c1.vocab.automatizar",
+    "es.c1.vocab.sustituir",
+    "es.c1.vocab.transparente",
+    "es.c1.vocab.sesgo",
+    "es.c1.vocab.regular",
+    "es.c1.vocab.responsable"
+   ]
+  },
+  {
+   "id": "es.c1.u10.l01",
+   "unitId": "es.c1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Regional varieties: words 1",
+    "ar": "اللهجات المحلية: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.austria",
+    "es.c1.vocab.suiza",
+    "es.c1.vocab.flandes",
+    "es.c1.vocab.america_latina",
+    "es.c1.vocab.acento"
+   ]
+  },
+  {
+   "id": "es.c1.u10.l02",
+   "unitId": "es.c1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Regional varieties: words 2",
+    "ar": "اللهجات المحلية: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.variedad",
+    "es.c1.vocab.lengua_estandar",
+    "es.c1.vocab.region",
+    "es.c1.vocab.regional",
+    "es.c1.vocab.local"
+   ]
+  },
+  {
+   "id": "es.c1.u10.l03",
+   "unitId": "es.c1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Spain and Latin America",
+    "ar": "إسبانيا وأمريكا اللاتينية"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u10"
+  },
+  {
+   "id": "es.c1.u10.l04",
+   "unitId": "es.c1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: regional varieties",
+    "ar": "استماع: اللهجات المحلية"
+   },
+   "items": [
+    "es.c1.sent.u10_01",
+    "es.c1.sent.u10_02",
+    "es.c1.sent.u10_03"
+   ]
+  },
+  {
+   "id": "es.c1.u10.l05",
+   "unitId": "es.c1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "es.c1.vocab.austria",
+    "es.c1.vocab.suiza",
+    "es.c1.vocab.flandes",
+    "es.c1.vocab.america_latina",
+    "es.c1.vocab.acento",
+    "es.c1.vocab.variedad",
+    "es.c1.vocab.lengua_estandar",
+    "es.c1.vocab.region",
+    "es.c1.vocab.regional",
+    "es.c1.vocab.local"
+   ]
+  },
+  {
+   "id": "es.c1.u11.l01",
+   "unitId": "es.c1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Presenting and debating: words 1",
+    "ar": "العرض والمناظرة: كلمات 1"
+   },
+   "items": [
+    "es.c1.vocab.presentacion",
+    "es.c1.vocab.conclusion",
+    "es.c1.vocab.diapositiva",
+    "es.c1.vocab.destacar",
+    "es.c1.vocab.ilustrar"
+   ]
+  },
+  {
+   "id": "es.c1.u11.l02",
+   "unitId": "es.c1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Presenting and debating: words 2",
+    "ar": "العرض والمناظرة: كلمات 2"
+   },
+   "items": [
+    "es.c1.vocab.refutar",
+    "es.c1.vocab.ademas",
+    "es.c1.vocab.en_primer_lugar",
+    "es.c1.vocab.en_resumen",
+    "es.c1.vocab.como_ya_se_ha_mencionado"
+   ]
+  },
+  {
+   "id": "es.c1.u11.l03",
+   "unitId": "es.c1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Discourse markers",
+    "ar": "علامات الخطاب"
+   },
+   "items": [],
+   "grammarId": "es.c1.gram.u11"
+  },
+  {
+   "id": "es.c1.u11.l04",
+   "unitId": "es.c1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: presenting and debating",
+    "ar": "استماع: العرض والمناظرة"
+   },
+   "items": [
+    "es.c1.sent.u11_01",
+    "es.c1.sent.u11_02",
+    "es.c1.sent.u11_03"
+   ]
+  },
+  {
+   "id": "es.c1.u11.l05",
+   "unitId": "es.c1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "es.c1.vocab.presentacion",
+    "es.c1.vocab.conclusion",
+    "es.c1.vocab.diapositiva",
+    "es.c1.vocab.destacar",
+    "es.c1.vocab.ilustrar",
+    "es.c1.vocab.refutar",
+    "es.c1.vocab.ademas",
+    "es.c1.vocab.en_primer_lugar",
+    "es.c1.vocab.en_resumen",
+    "es.c1.vocab.como_ya_se_ha_mencionado"
+   ]
+  },
+  {
+   "id": "es.c1.u12.l01",
+   "unitId": "es.c1.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "C1 words review",
+    "ar": "مراجعة كلمات C1"
+   },
+   "items": [
+    "es.c1.vocab.tesis",
+    "es.c1.vocab.hipotesis",
+    "es.c1.vocab.resumen",
+    "es.c1.vocab.empirico",
+    "es.c1.vocab.libertad",
+    "es.c1.vocab.dilema",
+    "es.c1.vocab.consecuencia",
+    "es.c1.vocab.egoista",
+    "es.c1.vocab.entrega",
+    "es.c1.vocab.tener_en_cuenta",
+    "es.c1.vocab.parlamento",
+    "es.c1.vocab.legislacion",
+    "es.c1.vocab.mayoria",
+    "es.c1.vocab.evidencia",
+    "es.c1.vocab.correlacion",
+    "es.c1.vocab.al_parecer",
+    "es.c1.vocab.suposicion",
+    "es.c1.vocab.trama",
+    "es.c1.vocab.metafora",
+    "es.c1.vocab.sutil",
+    "es.c1.vocab.conmovedor",
+    "es.c1.vocab.patria",
+    "es.c1.vocab.en_la_medida_en_que",
+    "es.c1.vocab.juego_de_palabras",
+    "es.c1.vocab.tomar_el_pelo",
+    "es.c1.vocab.no_es_lo_mio",
+    "es.c1.vocab.inteligencia_artificial",
+    "es.c1.vocab.vigilancia",
+    "es.c1.vocab.transparente",
+    "es.c1.vocab.responsable"
+   ]
+  },
+  {
+   "id": "es.c1.u12.l02",
+   "unitId": "es.c1.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "C1 exam",
+    "ar": "امتحان C1"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "es.c1.vocab.tesis",
+   "lemma": "tesis",
+   "article": "la",
+   "plural": "tesis",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رسالة علمية",
+    "en": "thesis"
+   },
+   "conceptId": "c.c1.thesis",
+   "sentenceIds": [
+    "es.c1.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.analisis",
+   "lemma": "análisis",
+   "article": "el",
+   "plural": "análisis",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحليل",
+    "en": "analysis"
+   },
+   "conceptId": "c.c1.analysis",
+   "sentenceIds": [
+    "es.c1.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.clase_magistral",
+   "lemma": "clase magistral",
+   "article": "la",
+   "plural": "clases magistrales",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محاضرة",
+    "en": "lecture"
+   },
+   "conceptId": "c.c1.lecture",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.hipotesis",
+   "lemma": "hipótesis",
+   "article": "la",
+   "plural": "hipótesis",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فرضية",
+    "en": "hypothesis"
+   },
+   "conceptId": "c.c1.hypothesis",
+   "sentenceIds": [
+    "es.c1.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.investigar",
+   "lemma": "investigar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبحث في",
+    "en": "to investigate"
+   },
+   "conceptId": "c.c1.investigate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.citar",
+   "lemma": "citar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقتبس",
+    "en": "to quote"
+   },
+   "conceptId": "c.c1.quote_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.resumen",
+   "lemma": "resumen",
+   "article": "el",
+   "plural": "resúmenes",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملخص",
+    "en": "summary"
+   },
+   "conceptId": "c.c1.summary",
+   "sentenceIds": [
+    "es.c1.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.nota_al_pie",
+   "lemma": "nota al pie",
+   "article": "la",
+   "plural": "notas al pie",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "هامش",
+    "en": "footnote"
+   },
+   "conceptId": "c.c1.footnote",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.pertinente",
+   "lemma": "pertinente",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرتبط بالموضوع",
+    "en": "relevant"
+   },
+   "conceptId": "c.c1.relevant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.empirico",
+   "lemma": "empírico",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجريبي",
+    "en": "empirical"
+   },
+   "conceptId": "c.c1.empirical",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.hallazgo",
+   "lemma": "hallazgo",
+   "article": "el",
+   "plural": "hallazgos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نتايج البحث",
+    "en": "findings"
+   },
+   "conceptId": "c.c1.findings",
+   "sentenceIds": [
+    "es.c1.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.moral",
+   "lemma": "moral",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخلاقي",
+    "en": "moral"
+   },
+   "conceptId": "c.c1.moral",
+   "sentenceIds": [
+    "es.c1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.libertad",
+   "lemma": "libertad",
+   "article": "la",
+   "plural": "libertades",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حرية",
+    "en": "freedom"
+   },
+   "conceptId": "c.c1.freedom",
+   "sentenceIds": [
+    "es.c1.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.conciencia",
+   "lemma": "conciencia",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ضمير",
+    "en": "conscience"
+   },
+   "conceptId": "c.c1.conscience",
+   "sentenceIds": [
+    "es.c1.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.dignidad",
+   "lemma": "dignidad",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كرامة",
+    "en": "dignity"
+   },
+   "conceptId": "c.c1.dignity",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.dilema",
+   "lemma": "dilema",
+   "article": "el",
+   "plural": "dilemas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معضلة",
+    "en": "dilemma"
+   },
+   "conceptId": "c.c1.dilemma",
+   "sentenceIds": [
+    "es.c1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.justificar",
+   "lemma": "justificar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبرر",
+    "en": "to justify"
+   },
+   "conceptId": "c.c1.justify",
+   "sentenceIds": [
+    "es.c1.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.virtud",
+   "lemma": "virtud",
+   "article": "la",
+   "plural": "virtudes",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فضيلة",
+    "en": "virtue"
+   },
+   "conceptId": "c.c1.virtue",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.consecuencia",
+   "lemma": "consecuencia",
+   "article": "la",
+   "plural": "consecuencias",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عاقبة",
+    "en": "consequence"
+   },
+   "conceptId": "c.c1.consequence",
+   "sentenceIds": [
+    "es.c1.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.filosofo",
+   "lemma": "filósofo",
+   "article": "el",
+   "plural": "filósofos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيلسوف",
+    "en": "philosopher"
+   },
+   "conceptId": "c.c1.philosopher",
+   "sentenceIds": [
+    "es.c1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.deberia",
+   "lemma": "debería",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المفروض",
+    "en": "to ought to"
+   },
+   "conceptId": "c.c1.ought_to",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.egoista",
+   "lemma": "egoísta",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أناني",
+    "en": "selfish"
+   },
+   "conceptId": "c.c1.selfish",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.negociacion",
+   "lemma": "negociación",
+   "article": "la",
+   "plural": "negociaciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مفاوضة",
+    "en": "negotiation"
+   },
+   "conceptId": "c.c1.negotiation",
+   "sentenceIds": [
+    "es.c1.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.plazo",
+   "lemma": "plazo",
+   "article": "el",
+   "plural": "plazos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ميعاد التسليم",
+    "en": "deadline"
+   },
+   "conceptId": "c.c1.deadline",
+   "sentenceIds": [
+    "es.c1.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.entrega",
+   "lemma": "entrega",
+   "article": "la",
+   "plural": "entregas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "توصيل",
+    "en": "delivery"
+   },
+   "conceptId": "c.c1.delivery",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.compromiso",
+   "lemma": "compromiso",
+   "article": "el",
+   "plural": "compromisos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حل وسط",
+    "en": "compromise"
+   },
+   "conceptId": "c.c1.compromise",
+   "sentenceIds": [
+    "es.c1.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.condicion",
+   "lemma": "condición",
+   "article": "la",
+   "plural": "condiciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شرط",
+    "en": "condition (of contract)"
+   },
+   "conceptId": "c.c1.condition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tener_en_cuenta",
+   "lemma": "tener en cuenta",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد في الاعتبار",
+    "en": "to take into account"
+   },
+   "conceptId": "c.c1.take_into_account",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tomar_una_decision",
+   "lemma": "tomar una decisión",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد قرار",
+    "en": "to make a decision"
+   },
+   "conceptId": "c.c1.make_decision",
+   "sentenceIds": [
+    "es.c1.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tomar_medidas",
+   "lemma": "tomar medidas",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد إجراءات",
+    "en": "to take measures"
+   },
+   "conceptId": "c.c1.take_measures",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.parlamento",
+   "lemma": "parlamento",
+   "article": "el",
+   "plural": "parlamentos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "برلمان",
+    "en": "parliament"
+   },
+   "conceptId": "c.c1.parliament",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.union",
+   "lemma": "unión",
+   "article": "la",
+   "plural": "uniones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اتحاد",
+    "en": "union"
+   },
+   "conceptId": "c.c1.union",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.estado_miembro",
+   "lemma": "Estado miembro",
+   "article": "el",
+   "plural": "Estados miembros",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دولة عضو",
+    "en": "member state"
+   },
+   "conceptId": "c.c1.member_state",
+   "sentenceIds": [
+    "es.c1.sent.u04_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.legislacion",
+   "lemma": "legislación",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تشريع",
+    "en": "legislation"
+   },
+   "conceptId": "c.c1.legislation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.portavoz",
+   "lemma": "portavoz",
+   "article": "el",
+   "plural": "portavoces",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متحدث رسمي",
+    "en": "spokesperson"
+   },
+   "conceptId": "c.c1.spokesperson",
+   "sentenceIds": [
+    "es.c1.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.oposicion",
+   "lemma": "oposición",
+   "article": "la",
+   "plural": "oposiciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معارضة",
+    "en": "opposition"
+   },
+   "conceptId": "c.c1.opposition",
+   "sentenceIds": [
+    "es.c1.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.mayoria",
+   "lemma": "mayoría",
+   "article": "la",
+   "plural": "mayorías",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أغلبية",
+    "en": "majority"
+   },
+   "conceptId": "c.c1.majority",
+   "sentenceIds": [
+    "es.c1.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.coalicion",
+   "lemma": "coalición",
+   "article": "la",
+   "plural": "coaliciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ائتلاف",
+    "en": "coalition"
+   },
+   "conceptId": "c.c1.coalition",
+   "sentenceIds": [
+    "es.c1.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.rechazar",
+   "lemma": "rechazar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يرفض",
+    "en": "to reject"
+   },
+   "conceptId": "c.c1.reject",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.evidencia",
+   "lemma": "evidencia",
+   "article": "la",
+   "plural": "evidencias",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دليل",
+    "en": "evidence"
+   },
+   "conceptId": "c.c1.evidence",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.metodo",
+   "lemma": "método",
+   "article": "el",
+   "plural": "métodos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منهج",
+    "en": "method"
+   },
+   "conceptId": "c.c1.method",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.muestra",
+   "lemma": "muestra",
+   "article": "la",
+   "plural": "muestras",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عينة",
+    "en": "sample (study)"
+   },
+   "conceptId": "c.c1.sample",
+   "sentenceIds": [
+    "es.c1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.correlacion",
+   "lemma": "correlación",
+   "article": "la",
+   "plural": "correlaciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ارتباط",
+    "en": "correlation"
+   },
+   "conceptId": "c.c1.correlation",
+   "sentenceIds": [
+    "es.c1.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.significativo",
+   "lemma": "significativo",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملحوظ",
+    "en": "significant"
+   },
+   "conceptId": "c.c1.significant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.presumiblemente",
+   "lemma": "presumiblemente",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على الأرجح",
+    "en": "presumably"
+   },
+   "conceptId": "c.c1.presumably",
+   "sentenceIds": [
+    "es.c1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.al_parecer",
+   "lemma": "al parecer",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على ما يبدو",
+    "en": "apparently"
+   },
+   "conceptId": "c.c1.apparently",
+   "sentenceIds": [
+    "es.c1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tender_a",
+   "lemma": "tender a",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يميل إلى",
+    "en": "to tend to"
+   },
+   "conceptId": "c.c1.tend_to",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.indicar",
+   "lemma": "indicar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشير إلى",
+    "en": "to suggest, indicate"
+   },
+   "conceptId": "c.c1.suggest_indicate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.suposicion",
+   "lemma": "suposición",
+   "article": "la",
+   "plural": "suposiciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "افتراض",
+    "en": "assumption"
+   },
+   "conceptId": "c.c1.assumption",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.limitacion",
+   "lemma": "limitación",
+   "article": "la",
+   "plural": "limitaciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قصور",
+    "en": "limitation"
+   },
+   "conceptId": "c.c1.limitation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.escena",
+   "lemma": "escena",
+   "article": "la",
+   "plural": "escenas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشهد",
+    "en": "scene"
+   },
+   "conceptId": "c.c1.scene",
+   "sentenceIds": [
+    "es.c1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.trama",
+   "lemma": "trama",
+   "article": "la",
+   "plural": "tramas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حبكة",
+    "en": "plot"
+   },
+   "conceptId": "c.c1.plot",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.narrador",
+   "lemma": "narrador",
+   "article": "el",
+   "plural": "narradores",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "راوي",
+    "en": "narrator"
+   },
+   "conceptId": "c.c1.narrator",
+   "sentenceIds": [
+    "es.c1.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.protagonista",
+   "lemma": "protagonista",
+   "article": "el",
+   "plural": "protagonistas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطل القصة",
+    "en": "protagonist"
+   },
+   "conceptId": "c.c1.protagonist",
+   "sentenceIds": [
+    "es.c1.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.metafora",
+   "lemma": "metáfora",
+   "article": "la",
+   "plural": "metáforas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "استعارة",
+    "en": "metaphor"
+   },
+   "conceptId": "c.c1.metaphor",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.ironia",
+   "lemma": "ironía",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سخرية",
+    "en": "irony"
+   },
+   "conceptId": "c.c1.irony",
+   "sentenceIds": [
+    "es.c1.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tension",
+   "lemma": "tensión",
+   "article": "la",
+   "plural": "tensiones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "توتر / تشويق",
+    "en": "tension, suspense"
+   },
+   "conceptId": "c.c1.tension",
+   "sentenceIds": [
+    "es.c1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.sutil",
+   "lemma": "sutil",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خفي",
+    "en": "subtle"
+   },
+   "conceptId": "c.c1.subtle",
+   "sentenceIds": [
+    "es.c1.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.retratar",
+   "lemma": "retratar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصوّر",
+    "en": "to depict"
+   },
+   "conceptId": "c.c1.depict",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.director_de_cine",
+   "lemma": "director de cine",
+   "article": "el",
+   "plural": "directores de cine",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مخرج",
+    "en": "film director"
+   },
+   "conceptId": "c.c1.director",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.conmovedor",
+   "lemma": "conmovedor",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤثر",
+    "en": "moving"
+   },
+   "conceptId": "c.c1.moving",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.identidad",
+   "lemma": "identidad",
+   "article": "la",
+   "plural": "identidades",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "هوية",
+    "en": "identity"
+   },
+   "conceptId": "c.c1.identity",
+   "sentenceIds": [
+    "es.c1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.pertenencia",
+   "lemma": "pertenencia",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "انتماء",
+    "en": "belonging"
+   },
+   "conceptId": "c.c1.belonging",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.patria",
+   "lemma": "patria",
+   "article": "la",
+   "plural": "patrias",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وطن",
+    "en": "homeland"
+   },
+   "conceptId": "c.c1.homeland",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.diversidad",
+   "lemma": "diversidad",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تنوع",
+    "en": "diversity"
+   },
+   "conceptId": "c.c1.diversity",
+   "sentenceIds": [
+    "es.c1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.raiz",
+   "lemma": "raíz",
+   "article": "la",
+   "plural": "raíces",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جذور",
+    "en": "roots"
+   },
+   "conceptId": "c.c1.roots",
+   "sentenceIds": [
+    "es.c1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.en_la_medida_en_que",
+   "lemma": "en la medida en que",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بقدر ما",
+    "en": "insofar as"
+   },
+   "conceptId": "c.c1.insofar_as",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.chiste",
+   "lemma": "chiste",
+   "article": "el",
+   "plural": "chistes",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نكتة",
+    "en": "joke"
+   },
+   "conceptId": "c.c1.joke",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.expresion_idiomatica",
+   "lemma": "expresión idiomática",
+   "article": "la",
+   "plural": "expresiones idiomáticas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تعبير اصطلاحي",
+    "en": "idiom"
+   },
+   "conceptId": "c.c1.idiom",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.juego_de_palabras",
+   "lemma": "juego de palabras",
+   "article": "el",
+   "plural": "juegos de palabras",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تلاعب بالألفاظ",
+    "en": "pun"
+   },
+   "conceptId": "c.c1.pun",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.sarcastico",
+   "lemma": "sarcástico",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ساخر",
+    "en": "sarcastic"
+   },
+   "conceptId": "c.c1.sarcastic",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.exagerar",
+   "lemma": "exagerar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبالغ",
+    "en": "to exaggerate"
+   },
+   "conceptId": "c.c1.exaggerate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tomar_el_pelo",
+   "lemma": "tomar el pelo",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يغلّس على / يهزر مع",
+    "en": "to tease"
+   },
+   "conceptId": "c.c1.tease",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.reirse_de",
+   "lemma": "reírse de",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يضحك على",
+    "en": "to laugh at"
+   },
+   "conceptId": "c.c1.laugh_at",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.remate",
+   "lemma": "remate",
+   "article": "el",
+   "plural": "remates",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قفلة النكتة",
+    "en": "punchline"
+   },
+   "conceptId": "c.c1.punchline",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.no_es_lo_mio",
+   "lemma": "no es lo mío",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش بتاعي",
+    "en": "not my cup of tea"
+   },
+   "conceptId": "c.c1.not_my_cup_of_tea",
+   "sentenceIds": [
+    "es.c1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.pan_comido",
+   "lemma": "pan comido",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سهلة جدًا",
+    "en": "a piece of cake"
+   },
+   "conceptId": "c.c1.piece_of_cake",
+   "sentenceIds": [
+    "es.c1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.tomarle_el_pelo_a_alguien",
+   "lemma": "tomarle el pelo a alguien",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتغل حد",
+    "en": "to pull someone's leg"
+   },
+   "conceptId": "c.c1.pull_someones_leg",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.inteligencia_artificial",
+   "lemma": "inteligencia artificial",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ذكاء اصطناعي",
+    "en": "artificial intelligence"
+   },
+   "conceptId": "c.c1.artificial_intelligence",
+   "sentenceIds": [
+    "es.c1.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.algoritmo",
+   "lemma": "algoritmo",
+   "article": "el",
+   "plural": "algoritmos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خوارزمية",
+    "en": "algorithm"
+   },
+   "conceptId": "c.c1.algorithm",
+   "sentenceIds": [
+    "es.c1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.riesgo",
+   "lemma": "riesgo",
+   "article": "el",
+   "plural": "riesgos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خطر",
+    "en": "risk"
+   },
+   "conceptId": "c.c1.risk",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.vigilancia",
+   "lemma": "vigilancia",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مراقبة",
+    "en": "surveillance"
+   },
+   "conceptId": "c.c1.surveillance",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.automatizar",
+   "lemma": "automatizar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يميكن",
+    "en": "to automate"
+   },
+   "conceptId": "c.c1.automate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.sustituir",
+   "lemma": "sustituir",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستبدل",
+    "en": "to replace"
+   },
+   "conceptId": "c.c1.replace",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.transparente",
+   "lemma": "transparente",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شفاف",
+    "en": "transparent"
+   },
+   "conceptId": "c.c1.transparent",
+   "sentenceIds": [
+    "es.c1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.sesgo",
+   "lemma": "sesgo",
+   "article": "el",
+   "plural": "sesgos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحيز",
+    "en": "bias"
+   },
+   "conceptId": "c.c1.bias",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.regular",
+   "lemma": "regular",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينظّم بقانون",
+    "en": "to regulate"
+   },
+   "conceptId": "c.c1.regulate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.responsable",
+   "lemma": "responsable",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسؤول (يتحاسب)",
+    "en": "accountable"
+   },
+   "conceptId": "c.c1.accountable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.austria",
+   "lemma": "Austria",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "النمسا",
+    "en": "Austria"
+   },
+   "conceptId": "c.c1.austria",
+   "sentenceIds": [
+    "es.c1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.suiza",
+   "lemma": "Suiza",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سويسرا",
+    "en": "Switzerland"
+   },
+   "conceptId": "c.c1.switzerland",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.flandes",
+   "lemma": "Flandes",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فلاندرز",
+    "en": "Flanders"
+   },
+   "conceptId": "c.c1.flanders",
+   "sentenceIds": [
+    "es.c1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.america_latina",
+   "lemma": "América Latina",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أمريكا اللاتينية",
+    "en": "Latin America"
+   },
+   "conceptId": "c.c1.latin_america",
+   "sentenceIds": [
+    "es.c1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.acento",
+   "lemma": "acento",
+   "article": "el",
+   "plural": "acentos",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لكنة",
+    "en": "accent"
+   },
+   "conceptId": "c.c1.accent",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.variedad",
+   "lemma": "variedad",
+   "article": "la",
+   "plural": "variedades",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نوع / صيغة",
+    "en": "variety (of a language)"
+   },
+   "conceptId": "c.c1.variety",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.lengua_estandar",
+   "lemma": "lengua estándar",
+   "article": "la",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اللغة الفصحى",
+    "en": "standard language"
+   },
+   "conceptId": "c.c1.standard_language",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.region",
+   "lemma": "región",
+   "article": "la",
+   "plural": "regiones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منطقة",
+    "en": "region"
+   },
+   "conceptId": "c.c1.region",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.regional",
+   "lemma": "regional",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إقليمي",
+    "en": "regional"
+   },
+   "conceptId": "c.c1.regional",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.local",
+   "lemma": "local",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محلي",
+    "en": "local"
+   },
+   "conceptId": "c.c1.local",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.presentacion",
+   "lemma": "presentación",
+   "article": "la",
+   "plural": "presentaciones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عرض تقديمي",
+    "en": "presentation"
+   },
+   "conceptId": "c.c1.presentation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.conclusion",
+   "lemma": "conclusión",
+   "article": "la",
+   "plural": "conclusiones",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خاتمة",
+    "en": "conclusion"
+   },
+   "conceptId": "c.c1.conclusion",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.diapositiva",
+   "lemma": "diapositiva",
+   "article": "la",
+   "plural": "diapositivas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شريحة",
+    "en": "slide (presentation)"
+   },
+   "conceptId": "c.c1.slide",
+   "sentenceIds": [
+    "es.c1.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.destacar",
+   "lemma": "destacar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأكّد على",
+    "en": "to emphasise"
+   },
+   "conceptId": "c.c1.emphasise",
+   "sentenceIds": [
+    "es.c1.sent.u11_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.ilustrar",
+   "lemma": "ilustrar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوضّح",
+    "en": "to illustrate"
+   },
+   "conceptId": "c.c1.illustrate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.refutar",
+   "lemma": "refutar",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفنّد",
+    "en": "to refute"
+   },
+   "conceptId": "c.c1.refute",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.ademas",
+   "lemma": "además",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاوة على ذلك",
+    "en": "moreover"
+   },
+   "conceptId": "c.c1.moreover",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.en_primer_lugar",
+   "lemma": "en primer lugar",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أولًا",
+    "en": "first of all"
+   },
+   "conceptId": "c.c1.first_of_all",
+   "sentenceIds": [
+    "es.c1.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.en_resumen",
+   "lemma": "en resumen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باختصار",
+    "en": "to sum up"
+   },
+   "conceptId": "c.c1.to_sum_up",
+   "sentenceIds": [
+    "es.c1.sent.u11_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.vocab.como_ya_se_ha_mencionado",
+   "lemma": "como ya se ha mencionado",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زي ما قلت",
+    "en": "as mentioned"
+   },
+   "conceptId": "c.c1.as_mentioned",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "es.c1.sent.u01_01",
+   "text": "El análisis de los datos confirma la hipótesis.",
+   "translations": {
+    "ar": "تحليل البيانات بيأكد الفرضية.",
+    "en": "The analysis of the data confirms the hypothesis."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u01_02",
+   "text": "En mi tesis investigo el uso de los dialectos.",
+   "translations": {
+    "ar": "في رسالتي ببحث في استخدام اللهجات.",
+    "en": "In my thesis I investigate the use of dialects."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u01_03",
+   "text": "El resumen presenta los principales hallazgos.",
+   "translations": {
+    "ar": "الملخص بيعرض أهم نتايج البحث.",
+    "en": "The summary presents the main findings."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u02_01",
+   "text": "Quien tiene conciencia no puede justificar eso.",
+   "translations": {
+    "ar": "اللي عنده ضمير ما يقدرش يبرر ده.",
+    "en": "Whoever has a conscience cannot justify that."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u02_02",
+   "text": "La libertad sin responsabilidad tiene consecuencias.",
+   "translations": {
+    "ar": "الحرية من غير مسؤولية ليها عواقب.",
+    "en": "Freedom without responsibility has consequences."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u02_03",
+   "text": "El filósofo describe un dilema moral.",
+   "translations": {
+    "ar": "الفيلسوف بيوصف معضلة أخلاقية.",
+    "en": "The philosopher describes a moral dilemma."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u03_01",
+   "text": "Tenemos que tomar una decisión antes del plazo.",
+   "translations": {
+    "ar": "لازم ناخد قرار قبل ميعاد التسليم.",
+    "en": "We have to make a decision before the deadline."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u03_02",
+   "text": "Tendremos en cuenta sus deseos.",
+   "translations": {
+    "ar": "هناخد طلباتك في الاعتبار.",
+    "en": "We will take your wishes into account."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u03_03",
+   "text": "Tras largas negociaciones encontramos un compromiso.",
+   "translations": {
+    "ar": "بعد مفاوضات طويلة لقينا حل وسط.",
+    "en": "After long negotiations we found a compromise."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u04_01",
+   "text": "El portavoz dijo que la mayoría había rechazado la ley.",
+   "translations": {
+    "ar": "المتحدث الرسمي قال إن الأغلبية رفضت القانون.",
+    "en": "The spokesperson said the majority had rejected the law."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u04_02",
+   "text": "Cada Estado miembro debe firmar el tratado.",
+   "translations": {
+    "ar": "كل دولة عضو لازم تمضي على المعاهدة.",
+    "en": "Every member state must sign the treaty."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u04_03",
+   "text": "La coalición necesita a la oposición.",
+   "translations": {
+    "ar": "الائتلاف محتاج المعارضة.",
+    "en": "The coalition needs the opposition."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u05_01",
+   "text": "Los resultados indican una correlación.",
+   "translations": {
+    "ar": "النتايج بتشير إلى ارتباط.",
+    "en": "The results suggest a correlation."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u05_02",
+   "text": "Al parecer, la muestra era demasiado pequeña.",
+   "translations": {
+    "ar": "العينة على ما يبدو كانت صغيرة أوي.",
+    "en": "The sample was apparently too small."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u05_03",
+   "text": "Presumiblemente no es la única causa.",
+   "translations": {
+    "ar": "ده على الأرجح مش السبب الوحيد.",
+    "en": "This is presumably not the only cause."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u06_01",
+   "text": "El director retrata la guerra con una ironía sutil.",
+   "translations": {
+    "ar": "المخرج بيصوّر الحرب بسخرية خفية.",
+    "en": "The director depicts the war with subtle irony."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u06_02",
+   "text": "La tensión aumenta de escena en escena.",
+   "translations": {
+    "ar": "التشويق بيزيد من مشهد لمشهد.",
+    "en": "The tension rises from scene to scene."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u06_03",
+   "text": "El narrador no es el protagonista.",
+   "translations": {
+    "ar": "الراوي مش بطل القصة.",
+    "en": "The narrator is not the protagonist."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u07_01",
+   "text": "Mis raíces están en Egipto, mientras que mis hijos se sienten neerlandeses.",
+   "translations": {
+    "ar": "جذوري في مصر، في حين إن ولادي حاسين إنهم هولنديين.",
+    "en": "My roots are in Egypt, whereas my children feel Dutch."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u07_02",
+   "text": "La nostalgia forma parte de mi identidad.",
+   "translations": {
+    "ar": "الحنين للوطن جزء من هويتي.",
+    "en": "Homesickness is part of my identity."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u07_03",
+   "text": "La diversidad enriquece una sociedad.",
+   "translations": {
+    "ar": "التنوع بيغني المجتمع.",
+    "en": "Diversity enriches a society."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u08_01",
+   "text": "¿Me estás tomando el pelo?",
+   "translations": {
+    "ar": "إنت بتشتغلني؟",
+    "en": "Are you pulling my leg?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u08_02",
+   "text": "El examen fue pan comido.",
+   "translations": {
+    "ar": "الامتحان كان سهل جدًا.",
+    "en": "The exam was a piece of cake."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u08_03",
+   "text": "La ópera no es lo mío.",
+   "translations": {
+    "ar": "الأوبرا مش بتاعتي.",
+    "en": "Opera is not my cup of tea."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u09_01",
+   "text": "Las decisiones tomadas por el algoritmo deben ser transparentes.",
+   "translations": {
+    "ar": "القرارات اللي بتاخدها الخوارزمية لازم تبقى شفافة.",
+    "en": "The decisions made by the algorithm must be transparent."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u09_02",
+   "text": "Muchos empleos están siendo sustituidos por robots.",
+   "translations": {
+    "ar": "شغلانات كتير بتتبدل بروبوتات.",
+    "en": "Many jobs are being replaced by robots."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u09_03",
+   "text": "La inteligencia artificial tiene que ser regulada.",
+   "translations": {
+    "ar": "الذكاء الاصطناعي لازم يتنظّم بقانون.",
+    "en": "Artificial intelligence has to be regulated."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u10_01",
+   "text": "En Austria se dice Jänner en lugar de Januar.",
+   "translations": {
+    "ar": "في النمسا بيقولوا Jänner بدل Januar.",
+    "en": "In Austria people say Jänner instead of Januar."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u10_02",
+   "text": "En Flandes la pronunciación es más suave.",
+   "translations": {
+    "ar": "في فلاندرز النطق أنعم.",
+    "en": "In Flanders the pronunciation is softer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u10_03",
+   "text": "En América Latina se dice ustedes en lugar de vosotros.",
+   "translations": {
+    "ar": "في أمريكا اللاتينية بيقولوا ustedes بدل vosotros.",
+    "en": "In Latin America people say ustedes instead of vosotros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u11_01",
+   "text": "En primer lugar quiero dar las gracias al público.",
+   "translations": {
+    "ar": "أولًا حابب أشكر الجمهور.",
+    "en": "First of all I would like to thank the audience."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u11_02",
+   "text": "Esta diapositiva ilustra el problema.",
+   "translations": {
+    "ar": "الشريحة دي بتوضّح المشكلة.",
+    "en": "This slide illustrates the problem."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "es.c1.sent.u11_03",
+   "text": "En resumen, quiero destacar tres puntos.",
+   "translations": {
+    "ar": "باختصار، حابب أأكّد على تلات نقط.",
+    "en": "To sum up, I would like to emphasise three points."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "es.c1.gram.u01",
+   "level": "C1",
+   "title": {
+    "en": "Academic nominal style",
+    "ar": "الأسلوب الاسمي الأكاديمي"
+   },
+   "explanation": {
+    "en": "Academic Spanish turns clauses into noun phrases with de:\n- Se analizan los datos. -> el análisis de los datos\n- Después de que se publicara el estudio -> Tras la publicación del estudio\n- Porque suben los precios -> Debido a la subida de los precios\n\nAlso typical: impersonal se (se observa que ...), the passive with ser, and long noun chains with de.",
+    "ar": "الإسباني الأكاديمي بيحوّل الجمل لعبارات اسمية بـ de:\n- Se analizan los datos. -> el análisis de los datos\n- Después de que se publicara el estudio -> Tras la publicación del estudio\n- Porque suben los precios -> Debido a la subida de los precios\n\nومن المعتاد كمان: se غير الشخصية (se observa que ...)، والمبني للمجهول بـ ser، وسلاسل أسماء طويلة بـ de."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u01_01",
+    "es.c1.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Tras la ___ del estudio (publicar)",
+     "answer": "publicación",
+     "base": "publicar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "el análisis ___ los datos",
+     "answer": "de",
+     "base": "de"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Debido a la ___ de los precios (subir)",
+     "answer": "subida",
+     "base": "subir"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Se ___ que los resultados varían. (observar)",
+     "answer": "observa",
+     "base": "observar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u02",
+   "level": "C1",
+   "title": {
+    "en": "Complex subordinate clauses",
+    "ar": "الجمل الفرعية المركبة"
+   },
+   "explanation": {
+    "en": "Patterns for complex Spanish sentences:\n- quien / el que: Quien tiene conciencia no puede justificarlo.\n- lo que: Todo lo que dice es verdad.\n- cuanto más ..., más ...: Cuanto más lo pienso, más dudas tengo.\n- sin que / como si + subjunctive: Lo hizo sin que nadie lo supiera. Actúa como si no supiera nada.\n\nSubjunctive after verbs of wishing, doubt and emotion is essential at C1.",
+    "ar": "تراكيب للجمل الإسبانية المركبة:\n- quien / el que: Quien tiene conciencia no puede justificarlo.\n- lo que: Todo lo que dice es verdad.\n- cuanto más ...، más ...: Cuanto más lo pienso, más dudas tengo.\n- sin que / como si + subjuntivo: Lo hizo sin que nadie lo supiera. Actúa como si no supiera nada.\n\nوالـ subjuntivo بعد أفعال الأمنية والشك والمشاعر أساسي في C1."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u02_01",
+    "es.c1.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ tiene conciencia no puede justificarlo.",
+     "answer": "Quien",
+     "base": "quien"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Todo lo ___ dice es verdad.",
+     "answer": "que",
+     "base": "que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Cuanto ___ lo pienso, más dudas tengo.",
+     "answer": "más",
+     "base": "más"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Actúa como si no ___ nada. (saber)",
+     "answer": "supiera",
+     "base": "saber"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u03",
+   "level": "C1",
+   "title": {
+    "en": "Verb + noun collocations",
+    "ar": "تراكيب فعل واسم"
+   },
+   "explanation": {
+    "en": "Formal Spanish likes verb + noun collocations:\n- decidir -> tomar una decisión\n- preguntar -> hacer una pregunta\n- considerar -> tener en cuenta\n- actuar -> tomar medidas\n- influir -> ejercer influencia sobre\n- aplicar -> poner en práctica\n\nSpanish uses tomar where German uses treffen and Dutch nemen.",
+    "ar": "الإسباني الرسمي بيحب تراكيب الفعل + الاسم:\n- decidir -> tomar una decisión\n- preguntar -> hacer una pregunta\n- considerar -> tener en cuenta\n- actuar -> tomar medidas\n- influir -> ejercer influencia sobre\n- aplicar -> poner en práctica\n\nالإسباني بيستخدم tomar مكان treffen في الألماني وnemen في الهولندي."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u03_01",
+    "es.c1.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ una decisión",
+     "answer": "tomar",
+     "base": "tomar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ una pregunta",
+     "answer": "hacer",
+     "base": "hacer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "tener en ___",
+     "answer": "cuenta",
+     "base": "cuenta"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "poner en ___",
+     "answer": "práctica",
+     "base": "práctica"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u04",
+   "level": "C1",
+   "title": {
+    "en": "Reporting in the news",
+    "ar": "نقل الكلام في الأخبار"
+   },
+   "explanation": {
+    "en": "Spanish news uses reported speech with tense shift and the conditional for unconfirmed information (condicional de rumor):\n- El portavoz afirmó que la mayoría había rechazado la ley.\n- Según fuentes oficiales, el ministro habría conocido los hechos. (= reportedly)\n- Reporting verbs: subrayar, admitir, negar (+ subjunctive when negated: negó que fuera cierto), declarar, señalar.",
+    "ar": "الأخبار الإسبانية بتستخدم الكلام المنقول مع رجوع الأزمنة، والـ condicional للمعلومات اللي مش متأكدة (condicional de rumor):\n- El portavoz afirmó que la mayoría había rechazado la ley.\n- Según fuentes oficiales, el ministro habría conocido los hechos. (= بيقولوا)\n- أفعال النقل: subrayar، admitir، negar (+ subjuntivo مع النفي: negó que fuera cierto)، declarar، señalar."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u04_01",
+    "es.c1.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Afirmó que la mayoría ___ rechazado la ley.",
+     "answer": "había",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "El ministro ___ conocido los hechos. (reportedly)",
+     "answer": "habría",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Negó que ___ cierto. (ser)",
+     "answer": "fuera",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ fuentes oficiales, ... (according to)",
+     "answer": "Según",
+     "base": "según"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u05",
+   "level": "C1",
+   "title": {
+    "en": "Hedging and stance",
+    "ar": "التحفظ والموقف"
+   },
+   "explanation": {
+    "en": "Spanish hedging tools:\n- adverbs: presumiblemente, probablemente, al parecer, aparentemente, posiblemente\n- verbs: parecer, indicar, sugerir, apuntar a\n- the conditional: Esto podría significar que ...\n- impersonal + subjunctive: Es posible que ... / No se puede descartar que haya ...\n- Es probable que + subjunctive; but Es evidente que + indicative.",
+    "ar": "أدوات التحفظ في الإسباني:\n- ظروف: presumiblemente، probablemente، al parecer، aparentemente، posiblemente\n- أفعال: parecer، indicar، sugerir، apuntar a\n- الـ condicional: Esto podría significar que ...\n- عبارات غير شخصية + subjuntivo: Es posible que ... / No se puede descartar que haya ...\n- Es probable que + subjuntivo؛ بس Es evidente que + indicativo."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u05_01",
+    "es.c1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Esto ___ significar que ... (poder, cond.)",
+     "answer": "podría",
+     "base": "poder"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es posible que ___ otra causa. (haber, subj.)",
+     "answer": "haya",
+     "base": "haber"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Los datos ___ a una correlación. (apuntar)",
+     "answer": "apuntan",
+     "base": "apuntar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es evidente que ___ un problema. (haber, ind.)",
+     "answer": "hay",
+     "base": "haber"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u06",
+   "level": "C1",
+   "title": {
+    "en": "Stylistic devices",
+    "ar": "الأدوات البلاغية"
+   },
+   "explanation": {
+    "en": "Naming devices in Spanish:\n- la metáfora: La vida es un viaje.\n- el símil / la comparación: fuerte como un oso\n- la anáfora, la repetición\n- la ironía, la pregunta retórica\n- fronting with a pronoun for emphasis: Esa película no la entendí.\n\nUseful phrases: El autor utiliza ... para ...; De este modo se subraya ...",
+    "ar": "أسماء الأدوات بالإسباني:\n- la metáfora: La vida es un viaje.\n- el símil / la comparación (تشبيه): fuerte como un oso\n- la anáfora، la repetición\n- la ironía، la pregunta retórica\n- تقديم المفعول مع ضمير للتأكيد: Esa película no la entendí.\n\nعبارات مفيدة: El autor utiliza ... para ...؛ De este modo se subraya ..."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u06_01",
+    "es.c1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "fuerte ___ un oso (simile)",
+     "answer": "como",
+     "base": "como"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Esa película no ___ entendí. (pronoun)",
+     "answer": "la",
+     "base": "la"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "El autor utiliza la ironía ___ criticar.",
+     "answer": "para",
+     "base": "para"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De este modo se ___ la tensión. (subrayar)",
+     "answer": "subraya",
+     "base": "subrayar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u07",
+   "level": "C1",
+   "title": {
+    "en": "Advanced connectors",
+    "ar": "أدوات ربط متقدمة"
+   },
+   "explanation": {
+    "en": "Precise Spanish connectors:\n- mientras que / en cambio: contrast: Yo me quedo, mientras que él emigra.\n- en la medida en que: insofar as\n- siempre que / con tal de que + subjunctive: provided that\n- gerund for 'by': Se aprende hablando.\n- ni mucho menos / y mucho menos: let alone\n- de ahí que + subjunctive: hence\n- si bien: although (formal, + indicative)",
+    "ar": "أدوات ربط إسبانية دقيقة:\n- mientras que / en cambio: مقارنة: Yo me quedo, mientras que él emigra.\n- en la medida en que: بقدر ما\n- siempre que / con tal de que + subjuntivo: بشرط إن\n- الـ gerundio بمعنى 'عن طريق': Se aprende hablando.\n- ni mucho menos / y mucho menos: ناهيك عن\n- de ahí que + subjuntivo: عشان كده\n- si bien: رغم إن (رسمي، + indicativo)"
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u07_01",
+    "es.c1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Se aprende ___. (hablar, by)",
+     "answer": "hablando",
+     "base": "hablar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Yo me quedo, mientras ___ él emigra.",
+     "answer": "que",
+     "base": "que"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Vengo siempre que no ___. (llover, subj.)",
+     "answer": "llueva",
+     "base": "llover"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De ahí que ___ nostalgia. (tener, subj., él)",
+     "answer": "tenga",
+     "base": "tener"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u08",
+   "level": "C1",
+   "title": {
+    "en": "Idiomatic expressions",
+    "ar": "التعبيرات الاصطلاحية"
+   },
+   "explanation": {
+    "en": "Spanish idioms to learn as chunks:\n- ser pan comido (piece of cake)\n- tomar el pelo a alguien (pull someone's leg)\n- no tener pelos en la lengua (to speak one's mind)\n- estar en las nubes (to daydream)\n- costar un ojo de la cara (cost an arm and a leg)\n- meter la pata (to put your foot in it)\n\nThe verb conjugates: Siempre meto la pata.",
+    "ar": "تعبيرات إسبانية تحفظها كقطعة واحدة:\n- ser pan comido (سهلة جدًا)\n- tomar el pelo a alguien (يشتغل حد)\n- no tener pelos en la lengua (بيقول اللي في دماغه)\n- estar en las nubes (سرحان)\n- costar un ojo de la cara (غالي جدًا)\n- meter la pata (يهبب الدنيا)\n\nوالفعل بيتصرّف: Siempre meto la pata."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u08_01",
+    "es.c1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "El examen fue ___ comido.",
+     "answer": "pan",
+     "base": "pan"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¿Me estás tomando el ___?",
+     "answer": "pelo",
+     "base": "pelo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Siempre ___ la pata. (yo, meter)",
+     "answer": "meto",
+     "base": "meter"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Cuesta un ojo de la ___.",
+     "answer": "cara",
+     "base": "cara"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u09",
+   "level": "C1",
+   "title": {
+    "en": "Advanced passive constructions",
+    "ar": "المبني للمجهول المتقدم"
+   },
+   "explanation": {
+    "en": "Advanced Spanish passive forms:\n- ser + participle with modals: tiene que ser regulada; debería haber sido revisado\n- estar siendo + participle: están siendo sustituidos\n- estar + participle for a resulting state: Los datos están guardados.\n- agent with por: tomadas por el algoritmo\n- participle clauses: Una vez tomada la decisión, ... (absolute participle)",
+    "ar": "صيغ مبني للمجهول إسبانية متقدمة:\n- ser + اسم مفعول مع أفعال الوجه: tiene que ser regulada؛ debería haber sido revisado\n- estar siendo + اسم مفعول: están siendo sustituidos\n- estar + اسم مفعول للحالة: Los datos están guardados.\n- الفاعل بـ por: tomadas por el algoritmo\n- جمل اسم المفعول: Una vez tomada la decisión, ... (participio absoluto)"
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u09_01",
+    "es.c1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "La IA tiene que ser ___. (regular)",
+     "answer": "regulada",
+     "base": "regular"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Muchos empleos están ___ sustituidos.",
+     "answer": "siendo",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "decisiones tomadas ___ el algoritmo",
+     "answer": "por",
+     "base": "por"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Una vez ___ la decisión, ... (tomar)",
+     "answer": "tomada",
+     "base": "tomar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u10",
+   "level": "C1",
+   "title": {
+    "en": "Spain and Latin America",
+    "ar": "إسبانيا وأمريكا اللاتينية"
+   },
+   "explanation": {
+    "en": "Spanish varies across more than 20 countries:\n- Latin America uses ustedes for all plural 'you'; vosotros is only used in Spain.\n- voseo: vos instead of tú in Argentina, Uruguay and Central America: vos tenés, vos sos.\n- seseo: z/ce/ci pronounced like s in Latin America and parts of Spain.\n- vocabulary: coche / carro / auto, ordenador / computadora, móvil / celular, coger (Spain) / tomar.",
+    "ar": "الإسباني بيختلف في أكتر من ٢٠ بلد:\n- أمريكا اللاتينية بتستخدم ustedes لكل 'إنتو'؛ وvosotros في إسبانيا بس.\n- الـ voseo: vos بدل tú في الأرجنتين وأوروجواي وأمريكا الوسطى: vos tenés، vos sos.\n- الـ seseo: z/ce/ci بتتنطق s في أمريكا اللاتينية وأجزاء من إسبانيا.\n- كلمات: coche / carro / auto، ordenador / computadora، móvil / celular، coger (إسبانيا) / tomar."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u10_01",
+    "es.c1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Latin America: vosotros -> ___",
+     "answer": "ustedes",
+     "base": "vosotros"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Argentina: tú eres -> vos ___",
+     "answer": "sos",
+     "base": "ser"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Latin America: ordenador -> ___",
+     "answer": "computadora",
+     "base": "ordenador"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Latin America: móvil -> ___",
+     "answer": "celular",
+     "base": "móvil"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "es.c1.gram.u11",
+   "level": "C1",
+   "title": {
+    "en": "Discourse markers",
+    "ar": "علامات الخطاب"
+   },
+   "explanation": {
+    "en": "Signposts for a Spanish presentation:\n- opening: En primer lugar, ... / A continuación voy a ...\n- moving on: Paso ahora al siguiente punto. / Pasemos a ...\n- referring back: Como ya se ha mencionado, ...\n- emphasising: Cabe destacar que ... / Lo fundamental es ...\n- example: Pongamos por caso ... / Por ejemplo, ...\n- closing: En resumen, ... / Para concluir, ... / Muchas gracias por su atención.",
+    "ar": "علامات لعرض تقديمي بالإسباني:\n- البداية: En primer lugar, ... / A continuación voy a ...\n- الانتقال: Paso ahora al siguiente punto. / Pasemos a ...\n- الرجوع لحاجة: Como ya se ha mencionado, ...\n- التأكيد: Cabe destacar que ... / Lo fundamental es ...\n- مثال: Pongamos por caso ... / Por ejemplo, ...\n- الختام: En resumen, ... / Para concluir, ... / Muchas gracias por su atención."
+   },
+   "exampleSentenceIds": [
+    "es.c1.sent.u11_01",
+    "es.c1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ ahora al siguiente punto. (pasar, yo)",
+     "answer": "Paso",
+     "base": "pasar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Cabe ___ que ... (destacar)",
+     "answer": "destacar",
+     "base": "destacar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Como ya se ha ___, ...",
+     "answer": "mencionado",
+     "base": "mencionar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Muchas gracias por su ___.",
+     "answer": "atención",
+     "base": "atención"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "es.c1.write.u01",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about academic language in Spanish: a short abstract of a study you find interesting.",
+    "ar": "اكتب بالإسباني عن اللغة الأكاديمية: ملخص قصير لدراسة شايفها مهمة."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u02",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about philosophy and ethics in Spanish: whether freedom or security matters more.",
+    "ar": "اكتب بالإسباني عن الفلسفة والأخلاق: الحرية ولا الأمان أهم."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u03",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about business language in Spanish: a reply to a client who complains about a late delivery.",
+    "ar": "اكتب بالإسباني عن لغة البيزنس: رد على عميل بيشتكي من تأخير الطلب."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u04",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about politics and the eu in Spanish: a news report about a decision of the European Parliament.",
+    "ar": "اكتب بالإسباني عن السياسة والاتحاد الأوروبي: خبر عن قرار للبرلمان الأوروبي."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u05",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about science communication in Spanish: a popular science article on a health study.",
+    "ar": "اكتب بالإسباني عن تبسيط العلوم: مقال علمي مبسّط عن دراسة صحية."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u06",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about literature and film in Spanish: a review of a film that uses an unusual style.",
+    "ar": "اكتب بالإسباني عن الأدب والسينما: نقد لفيلم بأسلوب غير معتاد."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u07",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about migration and identity in Spanish: what home means to someone who lives between two countries.",
+    "ar": "اكتب بالإسباني عن الهجرة والهوية: يعني إيه وطن لحد عايش بين بلدين."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u08",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about humour and idioms in Spanish: a funny misunderstanding you had in a foreign language.",
+    "ar": "اكتب بالإسباني عن الفكاهة والتعبيرات: سوء فهم مضحك حصل لك في لغة أجنبية."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u09",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about technology and ethics in Spanish: should AI decide who gets a loan or a job.",
+    "ar": "اكتب بالإسباني عن التكنولوجيا والأخلاق: هل الذكاء الاصطناعي المفروض يقرر مين ياخد قرض أو شغلانة."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u10",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about regional varieties in Spanish: differences you noticed between regions of one country.",
+    "ar": "اكتب بالإسباني عن اللهجات المحلية: فروق لاحظتها بين مناطق في نفس البلد."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "es.c1.write.u11",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about presenting and debating in Spanish: the conclusion of a presentation on your favourite topic.",
+    "ar": "اكتب بالإسباني عن العرض والمناظرة: ختام عرض تقديمي عن موضوعك المفضل."
+   },
+   "minWords": 180
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

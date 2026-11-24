@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "lang": "nl",
- "contentVersion": "2026.11.23-phase2",
+ "contentVersion": "2026.11.24-phase5",
  "level": {
   "id": "A1",
   "title": {
@@ -144,6 +144,237 @@
     "nl.a1.u04.l06"
    ],
    "sharedUnitId": "u.a1.04"
+  },
+  {
+   "id": "nl.a1.u05",
+   "level": "A1",
+   "order": 5,
+   "theme": {
+    "ar": "التسوق والأسعار",
+    "en": "Shopping and prices"
+   },
+   "goals": [
+    {
+     "en": "Talk about shopping and prices in Dutch",
+     "ar": "تتكلم عن التسوق والأسعار بالهولندي"
+    },
+    {
+     "en": "geen or niet with prices and shopping",
+     "ar": "geen ولا niet في الشرا"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u05"
+   ],
+   "lessonIds": [
+    "nl.a1.u05.l01",
+    "nl.a1.u05.l02",
+    "nl.a1.u05.l03",
+    "nl.a1.u05.l04",
+    "nl.a1.u05.l05"
+   ],
+   "sharedUnitId": "u.a1.05"
+  },
+  {
+   "id": "nl.a1.u06",
+   "level": "A1",
+   "order": 6,
+   "theme": {
+    "ar": "الروتين اليومي والوقت",
+    "en": "Daily routine and time"
+   },
+   "goals": [
+    {
+     "en": "Talk about daily routine and time in Dutch",
+     "ar": "تتكلم عن الروتين اليومي والوقت بالهولندي"
+    },
+    {
+     "en": "Separable verbs and inversion",
+     "ar": "الأفعال اللي بتنفصل وتقديم الفعل"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u06"
+   ],
+   "lessonIds": [
+    "nl.a1.u06.l01",
+    "nl.a1.u06.l02",
+    "nl.a1.u06.l03",
+    "nl.a1.u06.l04",
+    "nl.a1.u06.l05"
+   ],
+   "sharedUnitId": "u.a1.06"
+  },
+  {
+   "id": "nl.a1.u07",
+   "level": "A1",
+   "order": 7,
+   "theme": {
+    "ar": "وقت الفراغ والهوايات",
+    "en": "Free time and hobbies"
+   },
+   "goals": [
+    {
+     "en": "Talk about free time and hobbies in Dutch",
+     "ar": "تتكلم عن وقت الفراغ والهوايات بالهولندي"
+    },
+    {
+     "en": "graag and the modal verbs kunnen, willen",
+     "ar": "graag والأفعال kunnen وwillen"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u07"
+   ],
+   "lessonIds": [
+    "nl.a1.u07.l01",
+    "nl.a1.u07.l02",
+    "nl.a1.u07.l03",
+    "nl.a1.u07.l04",
+    "nl.a1.u07.l05"
+   ],
+   "sharedUnitId": "u.a1.07"
+  },
+  {
+   "id": "nl.a1.u08",
+   "level": "A1",
+   "order": 8,
+   "theme": {
+    "ar": "في المدينة",
+    "en": "In the city"
+   },
+   "goals": [
+    {
+     "en": "Talk about in the city in Dutch",
+     "ar": "تتكلم عن في المدينة بالهولندي"
+    },
+    {
+     "en": "The imperative and asking the way",
+     "ar": "الأمر والسؤال عن الطريق"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u08"
+   ],
+   "lessonIds": [
+    "nl.a1.u08.l01",
+    "nl.a1.u08.l02",
+    "nl.a1.u08.l03",
+    "nl.a1.u08.l04",
+    "nl.a1.u08.l05"
+   ],
+   "sharedUnitId": "u.a1.08"
+  },
+  {
+   "id": "nl.a1.u09",
+   "level": "A1",
+   "order": 9,
+   "theme": {
+    "ar": "السفر والمواصلات",
+    "en": "Travel and transport"
+   },
+   "goals": [
+    {
+     "en": "Talk about travel and transport in Dutch",
+     "ar": "تتكلم عن السفر والمواصلات بالهولندي"
+    },
+    {
+     "en": "moeten, mogen and travelling met",
+     "ar": "moeten وmogen والسفر بـ met"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u09"
+   ],
+   "lessonIds": [
+    "nl.a1.u09.l01",
+    "nl.a1.u09.l02",
+    "nl.a1.u09.l03",
+    "nl.a1.u09.l04",
+    "nl.a1.u09.l05"
+   ],
+   "sharedUnitId": "u.a1.09"
+  },
+  {
+   "id": "nl.a1.u10",
+   "level": "A1",
+   "order": 10,
+   "theme": {
+    "ar": "الصحة والجسم",
+    "en": "Health and body"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and body in Dutch",
+     "ar": "تتكلم عن الصحة والجسم بالهولندي"
+    },
+    {
+     "en": "Pain, moeten for advice, object pronouns",
+     "ar": "الوجع وmoeten للنصيحة وضماير المفعول"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u10"
+   ],
+   "lessonIds": [
+    "nl.a1.u10.l01",
+    "nl.a1.u10.l02",
+    "nl.a1.u10.l03",
+    "nl.a1.u10.l04",
+    "nl.a1.u10.l05"
+   ],
+   "sharedUnitId": "u.a1.10"
+  },
+  {
+   "id": "nl.a1.u11",
+   "level": "A1",
+   "order": 11,
+   "theme": {
+    "ar": "الشغل والمدرسة",
+    "en": "Work and school"
+   },
+   "goals": [
+    {
+     "en": "Talk about work and school in Dutch",
+     "ar": "تتكلم عن الشغل والمدرسة بالهولندي"
+    },
+    {
+     "en": "Perfect tense with hebben",
+     "ar": "الماضي التام مع hebben"
+    }
+   ],
+   "grammarIds": [
+    "nl.a1.gram.u11"
+   ],
+   "lessonIds": [
+    "nl.a1.u11.l01",
+    "nl.a1.u11.l02",
+    "nl.a1.u11.l03",
+    "nl.a1.u11.l04",
+    "nl.a1.u11.l05"
+   ],
+   "sharedUnitId": "u.a1.11"
+  },
+  {
+   "id": "nl.a1.u12",
+   "level": "A1",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة A1 واختبار تجريبي",
+    "en": "A1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached A1",
+     "ar": "توري إنك وصلت لمستوى A1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "nl.a1.u12.l01",
+    "nl.a1.u12.l02"
+   ],
+   "sharedUnitId": "u.a1.12"
   }
  ],
  "lessons": [
@@ -666,6 +897,643 @@
     "nl.a1.vocab.honger",
     "nl.a1.vocab.dorst"
    ]
+  },
+  {
+   "id": "nl.a1.u05.l01",
+   "unitId": "nl.a1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 1",
+    "ar": "التسوق والأسعار: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.winkel",
+    "nl.a1.vocab.supermarkt",
+    "nl.a1.vocab.geld",
+    "nl.a1.vocab.prijs",
+    "nl.a1.vocab.euro"
+   ]
+  },
+  {
+   "id": "nl.a1.u05.l02",
+   "unitId": "nl.a1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 2",
+    "ar": "التسوق والأسعار: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.kopen",
+    "nl.a1.vocab.betalen",
+    "nl.a1.vocab.kosten",
+    "nl.a1.vocab.overhemd",
+    "nl.a1.vocab.tas"
+   ]
+  },
+  {
+   "id": "nl.a1.u05.l03",
+   "unitId": "nl.a1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "geen or niet with prices and shopping",
+    "ar": "geen ولا niet في الشرا"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u05"
+  },
+  {
+   "id": "nl.a1.u05.l04",
+   "unitId": "nl.a1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: shopping and prices",
+    "ar": "استماع: التسوق والأسعار"
+   },
+   "items": [
+    "nl.a1.sent.u05_01",
+    "nl.a1.sent.u05_02",
+    "nl.a1.sent.u05_03",
+    "nl.a1.sent.u05_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u05.l05",
+   "unitId": "nl.a1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "nl.a1.vocab.winkel",
+    "nl.a1.vocab.supermarkt",
+    "nl.a1.vocab.geld",
+    "nl.a1.vocab.prijs",
+    "nl.a1.vocab.euro",
+    "nl.a1.vocab.kopen",
+    "nl.a1.vocab.betalen",
+    "nl.a1.vocab.kosten",
+    "nl.a1.vocab.overhemd",
+    "nl.a1.vocab.tas"
+   ]
+  },
+  {
+   "id": "nl.a1.u06.l01",
+   "unitId": "nl.a1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 1",
+    "ar": "الروتين اليومي والوقت: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.opstaan",
+    "nl.a1.vocab.slapen",
+    "nl.a1.vocab.werken",
+    "nl.a1.vocab.ochtend"
+   ]
+  },
+  {
+   "id": "nl.a1.u06.l02",
+   "unitId": "nl.a1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 2",
+    "ar": "الروتين اليومي والوقت: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.avond",
+    "nl.a1.vocab.altijd",
+    "nl.a1.vocab.vaak",
+    "nl.a1.vocab.laat"
+   ]
+  },
+  {
+   "id": "nl.a1.u06.l03",
+   "unitId": "nl.a1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Separable verbs and inversion",
+    "ar": "الأفعال اللي بتنفصل وتقديم الفعل"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u06"
+  },
+  {
+   "id": "nl.a1.u06.l04",
+   "unitId": "nl.a1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: daily routine and time",
+    "ar": "استماع: الروتين اليومي والوقت"
+   },
+   "items": [
+    "nl.a1.sent.u06_01",
+    "nl.a1.sent.u06_02",
+    "nl.a1.sent.u06_03",
+    "nl.a1.sent.u06_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u06.l05",
+   "unitId": "nl.a1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "nl.a1.vocab.opstaan",
+    "nl.a1.vocab.slapen",
+    "nl.a1.vocab.werken",
+    "nl.a1.vocab.ochtend",
+    "nl.a1.vocab.avond",
+    "nl.a1.vocab.altijd",
+    "nl.a1.vocab.vaak",
+    "nl.a1.vocab.laat"
+   ]
+  },
+  {
+   "id": "nl.a1.u07.l01",
+   "unitId": "nl.a1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 1",
+    "ar": "وقت الفراغ والهوايات: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.spelen",
+    "nl.a1.vocab.lezen",
+    "nl.a1.vocab.zwemmen",
+    "nl.a1.vocab.koken",
+    "nl.a1.vocab.voetbal",
+    "nl.a1.vocab.boek"
+   ]
+  },
+  {
+   "id": "nl.a1.u07.l02",
+   "unitId": "nl.a1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 2",
+    "ar": "وقت الفراغ والهوايات: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.film",
+    "nl.a1.vocab.vriend",
+    "nl.a1.vocab.weekend",
+    "nl.a1.vocab.kunnen",
+    "nl.a1.vocab.graag"
+   ]
+  },
+  {
+   "id": "nl.a1.u07.l03",
+   "unitId": "nl.a1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "graag and the modal verbs kunnen, willen",
+    "ar": "graag والأفعال kunnen وwillen"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u07"
+  },
+  {
+   "id": "nl.a1.u07.l04",
+   "unitId": "nl.a1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: free time and hobbies",
+    "ar": "استماع: وقت الفراغ والهوايات"
+   },
+   "items": [
+    "nl.a1.sent.u07_01",
+    "nl.a1.sent.u07_02",
+    "nl.a1.sent.u07_03",
+    "nl.a1.sent.u07_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u07.l05",
+   "unitId": "nl.a1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "nl.a1.vocab.spelen",
+    "nl.a1.vocab.lezen",
+    "nl.a1.vocab.zwemmen",
+    "nl.a1.vocab.koken",
+    "nl.a1.vocab.voetbal",
+    "nl.a1.vocab.boek",
+    "nl.a1.vocab.film",
+    "nl.a1.vocab.vriend",
+    "nl.a1.vocab.weekend",
+    "nl.a1.vocab.kunnen",
+    "nl.a1.vocab.graag"
+   ]
+  },
+  {
+   "id": "nl.a1.u08.l01",
+   "unitId": "nl.a1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 1",
+    "ar": "في المدينة: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.straat",
+    "nl.a1.vocab.station",
+    "nl.a1.vocab.apotheek",
+    "nl.a1.vocab.museum",
+    "nl.a1.vocab.park"
+   ]
+  },
+  {
+   "id": "nl.a1.u08.l02",
+   "unitId": "nl.a1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 2",
+    "ar": "في المدينة: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.links",
+    "nl.a1.vocab.rechts",
+    "nl.a1.vocab.rechtdoor",
+    "nl.a1.vocab.dichtbij",
+    "nl.a1.vocab.ver"
+   ]
+  },
+  {
+   "id": "nl.a1.u08.l03",
+   "unitId": "nl.a1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "The imperative and asking the way",
+    "ar": "الأمر والسؤال عن الطريق"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u08"
+  },
+  {
+   "id": "nl.a1.u08.l04",
+   "unitId": "nl.a1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: in the city",
+    "ar": "استماع: في المدينة"
+   },
+   "items": [
+    "nl.a1.sent.u08_01",
+    "nl.a1.sent.u08_02",
+    "nl.a1.sent.u08_03",
+    "nl.a1.sent.u08_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u08.l05",
+   "unitId": "nl.a1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "nl.a1.vocab.straat",
+    "nl.a1.vocab.station",
+    "nl.a1.vocab.apotheek",
+    "nl.a1.vocab.museum",
+    "nl.a1.vocab.park",
+    "nl.a1.vocab.links",
+    "nl.a1.vocab.rechts",
+    "nl.a1.vocab.rechtdoor",
+    "nl.a1.vocab.dichtbij",
+    "nl.a1.vocab.ver"
+   ]
+  },
+  {
+   "id": "nl.a1.u09.l01",
+   "unitId": "nl.a1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 1",
+    "ar": "السفر والمواصلات: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.trein",
+    "nl.a1.vocab.vliegtuig",
+    "nl.a1.vocab.kaartje",
+    "nl.a1.vocab.koffer",
+    "nl.a1.vocab.reizen"
+   ]
+  },
+  {
+   "id": "nl.a1.u09.l02",
+   "unitId": "nl.a1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 2",
+    "ar": "السفر والمواصلات: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.rijden",
+    "nl.a1.vocab.vliegen",
+    "nl.a1.vocab.moeten",
+    "nl.a1.vocab.vertrek",
+    "nl.a1.vocab.vakantie"
+   ]
+  },
+  {
+   "id": "nl.a1.u09.l03",
+   "unitId": "nl.a1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "moeten, mogen and travelling met",
+    "ar": "moeten وmogen والسفر بـ met"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u09"
+  },
+  {
+   "id": "nl.a1.u09.l04",
+   "unitId": "nl.a1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: travel and transport",
+    "ar": "استماع: السفر والمواصلات"
+   },
+   "items": [
+    "nl.a1.sent.u09_01",
+    "nl.a1.sent.u09_02",
+    "nl.a1.sent.u09_03",
+    "nl.a1.sent.u09_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u09.l05",
+   "unitId": "nl.a1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "nl.a1.vocab.trein",
+    "nl.a1.vocab.vliegtuig",
+    "nl.a1.vocab.kaartje",
+    "nl.a1.vocab.koffer",
+    "nl.a1.vocab.reizen",
+    "nl.a1.vocab.rijden",
+    "nl.a1.vocab.vliegen",
+    "nl.a1.vocab.moeten",
+    "nl.a1.vocab.vertrek",
+    "nl.a1.vocab.vakantie"
+   ]
+  },
+  {
+   "id": "nl.a1.u10.l01",
+   "unitId": "nl.a1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 1",
+    "ar": "الصحة والجسم: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.hoofd",
+    "nl.a1.vocab.buik",
+    "nl.a1.vocab.arm",
+    "nl.a1.vocab.been",
+    "nl.a1.vocab.dokter",
+    "nl.a1.vocab.medicijn"
+   ]
+  },
+  {
+   "id": "nl.a1.u10.l02",
+   "unitId": "nl.a1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 2",
+    "ar": "الصحة والجسم: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.ziek",
+    "nl.a1.vocab.gezond",
+    "nl.a1.vocab.pijn_doen",
+    "nl.a1.vocab.pijn",
+    "nl.a1.vocab.koorts"
+   ]
+  },
+  {
+   "id": "nl.a1.u10.l03",
+   "unitId": "nl.a1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Pain, moeten for advice, object pronouns",
+    "ar": "الوجع وmoeten للنصيحة وضماير المفعول"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u10"
+  },
+  {
+   "id": "nl.a1.u10.l04",
+   "unitId": "nl.a1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and body",
+    "ar": "استماع: الصحة والجسم"
+   },
+   "items": [
+    "nl.a1.sent.u10_01",
+    "nl.a1.sent.u10_02",
+    "nl.a1.sent.u10_03",
+    "nl.a1.sent.u10_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u10.l05",
+   "unitId": "nl.a1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "nl.a1.vocab.hoofd",
+    "nl.a1.vocab.buik",
+    "nl.a1.vocab.arm",
+    "nl.a1.vocab.been",
+    "nl.a1.vocab.dokter",
+    "nl.a1.vocab.medicijn",
+    "nl.a1.vocab.ziek",
+    "nl.a1.vocab.gezond",
+    "nl.a1.vocab.pijn_doen",
+    "nl.a1.vocab.pijn",
+    "nl.a1.vocab.koorts"
+   ]
+  },
+  {
+   "id": "nl.a1.u11.l01",
+   "unitId": "nl.a1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 1",
+    "ar": "الشغل والمدرسة: كلمات 1"
+   },
+   "items": [
+    "nl.a1.vocab.werk",
+    "nl.a1.vocab.kantoor",
+    "nl.a1.vocab.collega",
+    "nl.a1.vocab.baas"
+   ]
+  },
+  {
+   "id": "nl.a1.u11.l02",
+   "unitId": "nl.a1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 2",
+    "ar": "الشغل والمدرسة: كلمات 2"
+   },
+   "items": [
+    "nl.a1.vocab.leraar",
+    "nl.a1.vocab.student",
+    "nl.a1.vocab.schrijven",
+    "nl.a1.vocab.maken"
+   ]
+  },
+  {
+   "id": "nl.a1.u11.l03",
+   "unitId": "nl.a1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Perfect tense with hebben",
+    "ar": "الماضي التام مع hebben"
+   },
+   "items": [],
+   "grammarId": "nl.a1.gram.u11"
+  },
+  {
+   "id": "nl.a1.u11.l04",
+   "unitId": "nl.a1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work and school",
+    "ar": "استماع: الشغل والمدرسة"
+   },
+   "items": [
+    "nl.a1.sent.u11_01",
+    "nl.a1.sent.u11_02",
+    "nl.a1.sent.u11_03",
+    "nl.a1.sent.u11_04"
+   ]
+  },
+  {
+   "id": "nl.a1.u11.l05",
+   "unitId": "nl.a1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "nl.a1.vocab.werk",
+    "nl.a1.vocab.kantoor",
+    "nl.a1.vocab.collega",
+    "nl.a1.vocab.baas",
+    "nl.a1.vocab.leraar",
+    "nl.a1.vocab.student",
+    "nl.a1.vocab.schrijven",
+    "nl.a1.vocab.maken"
+   ]
+  },
+  {
+   "id": "nl.a1.u12.l01",
+   "unitId": "nl.a1.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "A1 words review",
+    "ar": "مراجعة كلمات A1"
+   },
+   "items": [
+    "nl.a1.vocab.winkel",
+    "nl.a1.vocab.geld",
+    "nl.a1.vocab.euro",
+    "nl.a1.vocab.betalen",
+    "nl.a1.vocab.overhemd",
+    "nl.a1.vocab.opstaan",
+    "nl.a1.vocab.werken",
+    "nl.a1.vocab.avond",
+    "nl.a1.vocab.vaak",
+    "nl.a1.vocab.spelen",
+    "nl.a1.vocab.zwemmen",
+    "nl.a1.vocab.voetbal",
+    "nl.a1.vocab.film",
+    "nl.a1.vocab.weekend",
+    "nl.a1.vocab.graag",
+    "nl.a1.vocab.station",
+    "nl.a1.vocab.museum",
+    "nl.a1.vocab.links",
+    "nl.a1.vocab.rechtdoor",
+    "nl.a1.vocab.ver",
+    "nl.a1.vocab.vliegtuig",
+    "nl.a1.vocab.koffer",
+    "nl.a1.vocab.rijden",
+    "nl.a1.vocab.moeten",
+    "nl.a1.vocab.vakantie",
+    "nl.a1.vocab.buik",
+    "nl.a1.vocab.been",
+    "nl.a1.vocab.medicijn",
+    "nl.a1.vocab.gezond",
+    "nl.a1.vocab.pijn"
+   ]
+  },
+  {
+   "id": "nl.a1.u12.l02",
+   "unitId": "nl.a1.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "A1 exam",
+    "ar": "امتحان A1"
+   },
+   "items": []
   }
  ],
  "vocab": [
@@ -2625,6 +3493,1227 @@
    ],
    "source": "3lang-original",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.winkel",
+   "lemma": "winkel",
+   "article": "de",
+   "plural": "winkels",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محل",
+    "en": "shop"
+   },
+   "conceptId": "c.a1.shop",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.supermarkt",
+   "lemma": "supermarkt",
+   "article": "de",
+   "plural": "supermarkten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوبر ماركت",
+    "en": "supermarket"
+   },
+   "conceptId": "c.a1.supermarket",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.geld",
+   "lemma": "geld",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فلوس",
+    "en": "money"
+   },
+   "conceptId": "c.a1.money",
+   "sentenceIds": [
+    "nl.a1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.prijs",
+   "lemma": "prijs",
+   "article": "de",
+   "plural": "prijzen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سعر",
+    "en": "price"
+   },
+   "conceptId": "c.a1.price",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.euro",
+   "lemma": "euro",
+   "article": "de",
+   "plural": "euro's",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يورو",
+    "en": "euro"
+   },
+   "conceptId": "c.a1.euro",
+   "sentenceIds": [
+    "nl.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kopen",
+   "lemma": "kopen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتري",
+    "en": "to buy"
+   },
+   "conceptId": "c.a1.buy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.betalen",
+   "lemma": "betalen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يدفع",
+    "en": "to pay"
+   },
+   "conceptId": "c.a1.pay",
+   "sentenceIds": [
+    "nl.a1.sent.u05_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kosten",
+   "lemma": "kosten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكلّف، تمنه",
+    "en": "to cost"
+   },
+   "conceptId": "c.a1.cost",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.overhemd",
+   "lemma": "overhemd",
+   "article": "het",
+   "plural": "overhemden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قميص",
+    "en": "shirt"
+   },
+   "conceptId": "c.a1.shirt",
+   "sentenceIds": [
+    "nl.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.tas",
+   "lemma": "tas",
+   "article": "de",
+   "plural": "tassen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة",
+    "en": "bag"
+   },
+   "conceptId": "c.a1.bag",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.opstaan",
+   "lemma": "opstaan",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصحى، يقوم",
+    "en": "to get up"
+   },
+   "conceptId": "c.a1.get_up",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.slapen",
+   "lemma": "slapen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينام",
+    "en": "to sleep"
+   },
+   "conceptId": "c.a1.sleep",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.werken",
+   "lemma": "werken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتغل",
+    "en": "to work"
+   },
+   "conceptId": "c.a1.work",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ochtend",
+   "lemma": "ochtend",
+   "article": "de",
+   "plural": "ochtenden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الصبح",
+    "en": "morning"
+   },
+   "conceptId": "c.a1.morning",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.avond",
+   "lemma": "avond",
+   "article": "de",
+   "plural": "avonden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المسا، بالليل",
+    "en": "evening"
+   },
+   "conceptId": "c.a1.evening",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.altijd",
+   "lemma": "altijd",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دايمًا",
+    "en": "always"
+   },
+   "conceptId": "c.a1.always",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vaak",
+   "lemma": "vaak",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتير، غالبًا",
+    "en": "often"
+   },
+   "conceptId": "c.a1.often",
+   "sentenceIds": [
+    "nl.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.laat",
+   "lemma": "laat",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متأخر",
+    "en": "late"
+   },
+   "conceptId": "c.a1.late",
+   "sentenceIds": [
+    "nl.a1.sent.u06_02",
+    "nl.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.spelen",
+   "lemma": "spelen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يلعب",
+    "en": "to play"
+   },
+   "conceptId": "c.a1.play",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.lezen",
+   "lemma": "lezen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقرا",
+    "en": "to read"
+   },
+   "conceptId": "c.a1.read",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.zwemmen",
+   "lemma": "zwemmen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعوم",
+    "en": "to swim"
+   },
+   "conceptId": "c.a1.swim",
+   "sentenceIds": [
+    "nl.a1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.koken",
+   "lemma": "koken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطبخ",
+    "en": "to cook"
+   },
+   "conceptId": "c.a1.cook",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.voetbal",
+   "lemma": "voetbal",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كورة",
+    "en": "football"
+   },
+   "conceptId": "c.a1.football",
+   "sentenceIds": [
+    "nl.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.boek",
+   "lemma": "boek",
+   "article": "het",
+   "plural": "boeken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتاب",
+    "en": "book"
+   },
+   "conceptId": "c.a1.book",
+   "sentenceIds": [
+    "nl.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.film",
+   "lemma": "film",
+   "article": "de",
+   "plural": "films",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيلم",
+    "en": "film"
+   },
+   "conceptId": "c.a1.film",
+   "sentenceIds": [
+    "nl.a1.sent.u07_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vriend",
+   "lemma": "vriend",
+   "article": "de",
+   "plural": "vrienden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحب",
+    "en": "friend"
+   },
+   "conceptId": "c.a1.friend",
+   "sentenceIds": [
+    "nl.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.weekend",
+   "lemma": "weekend",
+   "article": "het",
+   "plural": "weekenden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الويك إند",
+    "en": "weekend"
+   },
+   "conceptId": "c.a1.weekend",
+   "sentenceIds": [
+    "nl.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kunnen",
+   "lemma": "kunnen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقدر",
+    "en": "can, to be able to"
+   },
+   "conceptId": "c.a1.can",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.graag",
+   "lemma": "graag",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بحب، بكل سرور",
+    "en": "gladly (like to)"
+   },
+   "conceptId": "c.a1.gladly",
+   "sentenceIds": [
+    "nl.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.straat",
+   "lemma": "straat",
+   "article": "de",
+   "plural": "straten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شارع",
+    "en": "street"
+   },
+   "conceptId": "c.a1.street",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.station",
+   "lemma": "station",
+   "article": "het",
+   "plural": "stations",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محطة",
+    "en": "station"
+   },
+   "conceptId": "c.a1.station",
+   "sentenceIds": [
+    "nl.a1.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.apotheek",
+   "lemma": "apotheek",
+   "article": "de",
+   "plural": "apotheken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صيدلية",
+    "en": "pharmacy"
+   },
+   "conceptId": "c.a1.pharmacy",
+   "sentenceIds": [
+    "nl.a1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.museum",
+   "lemma": "museum",
+   "article": "het",
+   "plural": "musea",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متحف",
+    "en": "museum"
+   },
+   "conceptId": "c.a1.museum",
+   "sentenceIds": [
+    "nl.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.park",
+   "lemma": "park",
+   "article": "het",
+   "plural": "parken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جنينة، حديقة",
+    "en": "park"
+   },
+   "conceptId": "c.a1.park",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.links",
+   "lemma": "links",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شمال",
+    "en": "left"
+   },
+   "conceptId": "c.a1.left",
+   "sentenceIds": [
+    "nl.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.rechts",
+   "lemma": "rechts",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يمين",
+    "en": "right"
+   },
+   "conceptId": "c.a1.right_dir",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.rechtdoor",
+   "lemma": "rechtdoor",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على طول",
+    "en": "straight on"
+   },
+   "conceptId": "c.a1.straight_on",
+   "sentenceIds": [
+    "nl.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.dichtbij",
+   "lemma": "dichtbij",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قريب",
+    "en": "near"
+   },
+   "conceptId": "c.a1.near",
+   "sentenceIds": [
+    "nl.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ver",
+   "lemma": "ver",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بعيد",
+    "en": "far"
+   },
+   "conceptId": "c.a1.far",
+   "sentenceIds": [
+    "nl.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.trein",
+   "lemma": "trein",
+   "article": "de",
+   "plural": "treinen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قطر",
+    "en": "train"
+   },
+   "conceptId": "c.a1.train",
+   "sentenceIds": [
+    "nl.a1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vliegtuig",
+   "lemma": "vliegtuig",
+   "article": "het",
+   "plural": "vliegtuigen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طيارة",
+    "en": "plane"
+   },
+   "conceptId": "c.a1.plane",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kaartje",
+   "lemma": "kaartje",
+   "article": "het",
+   "plural": "kaartjes",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تذكرة",
+    "en": "ticket"
+   },
+   "conceptId": "c.a1.ticket",
+   "sentenceIds": [
+    "nl.a1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.koffer",
+   "lemma": "koffer",
+   "article": "de",
+   "plural": "koffers",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة سفر",
+    "en": "suitcase"
+   },
+   "conceptId": "c.a1.suitcase",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.reizen",
+   "lemma": "reizen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسافر",
+    "en": "to travel"
+   },
+   "conceptId": "c.a1.travel",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.rijden",
+   "lemma": "rijden",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسوق؛ يروح بمواصلة",
+    "en": "to drive; to go (by vehicle)"
+   },
+   "conceptId": "c.a1.drive",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vliegen",
+   "lemma": "vliegen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطير، يسافر بالطيارة",
+    "en": "to fly"
+   },
+   "conceptId": "c.a1.fly",
+   "sentenceIds": [
+    "nl.a1.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.moeten",
+   "lemma": "moeten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لازم",
+    "en": "must, to have to"
+   },
+   "conceptId": "c.a1.must",
+   "sentenceIds": [
+    "nl.a1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vertrek",
+   "lemma": "vertrek",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيام، مغادرة",
+    "en": "departure"
+   },
+   "conceptId": "c.a1.departure",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.vakantie",
+   "lemma": "vakantie",
+   "article": "de",
+   "plural": "vakanties",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إجازة",
+    "en": "holiday, vacation"
+   },
+   "conceptId": "c.a1.holiday",
+   "sentenceIds": [
+    "nl.a1.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.hoofd",
+   "lemma": "hoofd",
+   "article": "het",
+   "plural": "hoofden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "راس",
+    "en": "head"
+   },
+   "conceptId": "c.a1.head",
+   "sentenceIds": [
+    "nl.a1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.buik",
+   "lemma": "buik",
+   "article": "de",
+   "plural": "buiken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطن",
+    "en": "belly, stomach"
+   },
+   "conceptId": "c.a1.belly",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.arm",
+   "lemma": "arm",
+   "article": "de",
+   "plural": "armen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دراع",
+    "en": "arm"
+   },
+   "conceptId": "c.a1.arm",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.been",
+   "lemma": "been",
+   "article": "het",
+   "plural": "benen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رجل",
+    "en": "leg"
+   },
+   "conceptId": "c.a1.leg",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.dokter",
+   "lemma": "dokter",
+   "article": "de",
+   "plural": "dokters",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دكتور",
+    "en": "doctor"
+   },
+   "conceptId": "c.a1.doctor",
+   "sentenceIds": [
+    "nl.a1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.medicijn",
+   "lemma": "medicijn",
+   "article": "het",
+   "plural": "medicijnen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دوا",
+    "en": "medicine"
+   },
+   "conceptId": "c.a1.medicine",
+   "sentenceIds": [
+    "nl.a1.sent.u10_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.ziek",
+   "lemma": "ziek",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيان",
+    "en": "ill, sick"
+   },
+   "conceptId": "c.a1.ill",
+   "sentenceIds": [
+    "nl.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.gezond",
+   "lemma": "gezond",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صحي، بصحة كويسة",
+    "en": "healthy"
+   },
+   "conceptId": "c.a1.healthy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.pijn_doen",
+   "lemma": "pijn doen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوجع",
+    "en": "to hurt"
+   },
+   "conceptId": "c.a1.hurt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.pijn",
+   "lemma": "pijn",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وجع",
+    "en": "pain"
+   },
+   "conceptId": "c.a1.pain",
+   "sentenceIds": [
+    "nl.a1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.koorts",
+   "lemma": "koorts",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سخونية، حرارة",
+    "en": "fever"
+   },
+   "conceptId": "c.a1.fever",
+   "sentenceIds": [
+    "nl.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.werk",
+   "lemma": "werk",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شغل",
+    "en": "job, work"
+   },
+   "conceptId": "c.a1.job",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.kantoor",
+   "lemma": "kantoor",
+   "article": "het",
+   "plural": "kantoren",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مكتب",
+    "en": "office"
+   },
+   "conceptId": "c.a1.office",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.collega",
+   "lemma": "collega",
+   "article": "de",
+   "plural": "collega's",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زميل",
+    "en": "colleague"
+   },
+   "conceptId": "c.a1.colleague",
+   "sentenceIds": [
+    "nl.a1.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.baas",
+   "lemma": "baas",
+   "article": "de",
+   "plural": "bazen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدير",
+    "en": "boss"
+   },
+   "conceptId": "c.a1.boss",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.leraar",
+   "lemma": "leraar",
+   "article": "de",
+   "plural": "leraren",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرس",
+    "en": "teacher"
+   },
+   "conceptId": "c.a1.teacher",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.student",
+   "lemma": "student",
+   "article": "de",
+   "plural": "studenten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طالب",
+    "en": "student"
+   },
+   "conceptId": "c.a1.student",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.schrijven",
+   "lemma": "schrijven",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكتب",
+    "en": "to write"
+   },
+   "conceptId": "c.a1.write",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.vocab.maken",
+   "lemma": "maken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعمل",
+    "en": "to make, to do"
+   },
+   "conceptId": "c.a1.make_do",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
   }
  ],
  "sentences": [
@@ -3419,6 +5508,314 @@
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
    "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u05_01",
+   "text": "Hoeveel kost het brood?",
+   "translations": {
+    "ar": "العيش بكام؟",
+    "en": "How much does the bread cost?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u05_02",
+   "text": "Het overhemd kost twintig euro.",
+   "translations": {
+    "ar": "القميص بعشرين يورو.",
+    "en": "The shirt costs twenty euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u05_03",
+   "text": "Ik heb geen geld.",
+   "translations": {
+    "ar": "معييش فلوس.",
+    "en": "I don't have any money."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u05_04",
+   "text": "Kan ik met de kaart betalen?",
+   "translations": {
+    "ar": "ينفع أدفع بالكارت؟",
+    "en": "Can I pay by card?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u06_01",
+   "text": "Ik sta om zeven uur op.",
+   "translations": {
+    "ar": "بصحى الساعة سبعة.",
+    "en": "I get up at seven o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u06_02",
+   "text": "Hoe laat is het?",
+   "translations": {
+    "ar": "الساعة كام؟",
+    "en": "What time is it?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u06_03",
+   "text": "Vandaag werk ik tot vijf uur.",
+   "translations": {
+    "ar": "النهاردة هشتغل لحد خمسة.",
+    "en": "Today I work until five."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u06_04",
+   "text": "'s Avonds slaap ik vaak laat.",
+   "translations": {
+    "ar": "بالليل غالبًا بنام متأخر.",
+    "en": "In the evening I often sleep late."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u07_01",
+   "text": "Ik lees graag boeken.",
+   "translations": {
+    "ar": "بحب أقرا كتب.",
+    "en": "I like to read books."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u07_02",
+   "text": "Kun jij zwemmen?",
+   "translations": {
+    "ar": "تعرف تعوم؟",
+    "en": "Can you swim?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u07_03",
+   "text": "In het weekend speel ik voetbal met vrienden.",
+   "translations": {
+    "ar": "في الويك إند بلعب كورة مع أصحابي.",
+    "en": "At the weekend I play football with friends."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u07_04",
+   "text": "We willen een film zien.",
+   "translations": {
+    "ar": "عايزين نشوف فيلم.",
+    "en": "We want to see a film."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u08_01",
+   "text": "Pardon, waar is het station?",
+   "translations": {
+    "ar": "لو سمحت، المحطة فين؟",
+    "en": "Excuse me, where is the station?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u08_02",
+   "text": "Ga rechtdoor en dan links.",
+   "translations": {
+    "ar": "امشي على طول وبعدين شمال.",
+    "en": "Go straight on and then left."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u08_03",
+   "text": "De apotheek is naast de bank.",
+   "translations": {
+    "ar": "الصيدلية جنب البنك.",
+    "en": "The pharmacy is next to the bank."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u08_04",
+   "text": "Is het museum ver? Nee, het is dichtbij.",
+   "translations": {
+    "ar": "المتحف بعيد؟ لأ، قريب.",
+    "en": "Is the museum far? No, it is near."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u09_01",
+   "text": "Ik ga met de trein naar mijn werk.",
+   "translations": {
+    "ar": "بروح الشغل بالقطر.",
+    "en": "I go to work by train."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u09_02",
+   "text": "We moeten een kaartje kopen.",
+   "translations": {
+    "ar": "لازم نشتري تذكرة.",
+    "en": "We have to buy a ticket."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u09_03",
+   "text": "Wanneer vertrekt de bus?",
+   "translations": {
+    "ar": "الأتوبيس بيقوم إمتى؟",
+    "en": "When does the bus leave?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u09_04",
+   "text": "In de vakantie vliegen we naar Spanje.",
+   "translations": {
+    "ar": "في الإجازة هنسافر إسبانيا بالطيارة.",
+    "en": "In the holidays we fly to Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u10_01",
+   "text": "Mijn hoofd doet pijn.",
+   "translations": {
+    "ar": "راسي بتوجعني.",
+    "en": "My head hurts."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u10_02",
+   "text": "Ik ben ziek en heb koorts.",
+   "translations": {
+    "ar": "أنا عيان وعندي سخونية.",
+    "en": "I am ill and have a fever."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u10_03",
+   "text": "Je moet naar de dokter gaan.",
+   "translations": {
+    "ar": "المفروض تروح للدكتور.",
+    "en": "You should go to the doctor."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u10_04",
+   "text": "Neem dit medicijn drie keer per dag.",
+   "translations": {
+    "ar": "خد الدوا ده تلات مرات في اليوم.",
+    "en": "Take this medicine three times a day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u11_01",
+   "text": "Gisteren heb ik veel gewerkt.",
+   "translations": {
+    "ar": "امبارح اشتغلت كتير.",
+    "en": "Yesterday I worked a lot."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u11_02",
+   "text": "Mijn collega heeft een e-mail geschreven.",
+   "translations": {
+    "ar": "زميلي كتب إيميل.",
+    "en": "My colleague has written an email."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u11_03",
+   "text": "Waarom leer je Spaans?",
+   "translations": {
+    "ar": "بتتعلم إسباني ليه؟",
+    "en": "Why are you learning Spanish?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.a1.sent.u11_04",
+   "text": "Wat heb je op school gedaan?",
+   "translations": {
+    "ar": "عملت إيه في المدرسة؟",
+    "en": "What did you do at school?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
   }
  ],
  "grammar": [
@@ -3430,8 +5827,8 @@
     "en": "Present tense: zijn, heten, komen, wonen"
    },
    "explanation": {
-    "en": "A Dutch verb in the present uses its stem: take off -en, so wonen → woon. Then: ik woon, jij woont, hij/zij/u woont, wij/jullie/zij wonen.\n\nThe stem keeps the vowel sound, so the spelling may change: wonen → woon (double o), komen → kom (single o, because the m closes the syllable).\n\nIf jij comes after the verb, drop the -t: Jij woont in Utrecht, but Woon jij in Utrecht?\n\nzijn (to be) is irregular: ik ben, jij bent, hij is, u bent, wij/jullie/zij zijn.\n\nUse jij (or short je) with friends and family, and u with adults you don't know.",
-    "ar": "الفعل الهولندي في المضارع بيستخدم الجذر: شيل ‎-en من الآخر، يعني wonen ← woon. وبعدين: ik woon، jij woont، hij/zij/u woont، wij/jullie/zij wonen.\n\nالجذر بيحافظ على صوت الحرف المتحرك، فالكتابة ممكن تتغير: wonen ← woon (حرفين o)، komen ← kom (حرف o واحد لأن الـ m بتقفل المقطع).\n\nلو jij جت بعد الفعل، شيل الـ ‎-t: Jij woont in Utrecht، بس Woon jij in Utrecht؟\n\nzijn (يكون) شاذ: ik ben، jij bent، hij is، u bent، wij/jullie/zij zijn.\n\njij (أو المختصر je) للأصحاب والعيلة، وu للكبار اللي متعرفهمش."
+    "en": "A Dutch verb in the present uses its stem: take off -en, so wonen -> woon. Then: ik woon, jij woont, hij/zij/u woont, wij/jullie/zij wonen.\n\nThe stem keeps the vowel sound, so the spelling may change: wonen -> woon (double o), komen -> kom (single o, because the m closes the syllable).\n\nIf jij comes after the verb, drop the -t: Jij woont in Utrecht, but Woon jij in Utrecht?\n\nzijn (to be) is irregular: ik ben, jij bent, hij is, u bent, wij/jullie/zij zijn.\n\nUse jij (or short je) with friends and family, and u with adults you don't know.",
+    "ar": "الفعل الهولندي في المضارع بيستخدم الجذر: شيل ‎-en من الآخر، يعني wonen -> woon. وبعدين: ik woon، jij woont، hij/zij/u woont، wij/jullie/zij wonen.\n\nالجذر بيحافظ على صوت الحرف المتحرك، فالكتابة ممكن تتغير: wonen -> woon (حرفين o)، komen -> kom (حرف o واحد لأن الـ m بتقفل المقطع).\n\nلو jij جت بعد الفعل، شيل الـ ‎-t: Jij woont in Utrecht، بس Woon jij in Utrecht؟\n\nzijn (يكون) شاذ: ik ben، jij bent، hij is، u bent، wij/jullie/zij zijn.\n\njij (أو المختصر je) للأصحاب والعيلة، وu للكبار اللي متعرفهمش."
    },
    "table": {
     "headers": [
@@ -3677,8 +6074,8 @@
     "en": "de and het: the two articles"
    },
    "explanation": {
-    "en": "Dutch has two words for the: de (about two thirds of nouns) and het. Learn every noun with its article: de tafel, het bed. All plurals take de: de bedden. The word for a is always een.\n\nTip for German speakers: a German das-word is often a Dutch het-word (das Haus → het huis), and der/die words are usually de-words.\n\nDiminutives ending in -je are always het: het broodje.\n\nAdjectives before a noun get -e (de grote kamer, een grote kamer), except with a singular het-word after een: een groot huis.\n\nFor de-words, it is usually hij: De kast is nieuw. Hij is groot. For het-words, it is het.",
-    "ar": "في الهولندي فيه كلمتين لـ «الـ»: de (حوالي تلتين الأسماء) وhet. احفظ كل اسم مع أداته: de tafel، het bed. كل الجمع بياخد de: de bedden. وكلمة «واحد/a» دايمًا een.\n\nنصيحة لو بتتعلم ألماني: كلمة das في الألماني غالبًا het في الهولندي (das Haus ← het huis)، وكلمات der وdie غالبًا de.\n\nالتصغير اللي بيخلص بـ ‎-je دايمًا het: het broodje.\n\nالصفة قبل الاسم بتاخد ‎-e (de grote kamer، een grote kamer)، إلا مع كلمة het مفرد بعد een: een groot huis.\n\nالضمير لكلمات de غالبًا hij: De kast is nieuw. Hij is groot. ولكلمات het بنقول het."
+    "en": "Dutch has two words for the: de (about two thirds of nouns) and het. Learn every noun with its article: de tafel, het bed. All plurals take de: de bedden. The word for a is always een.\n\nTip for German speakers: a German das-word is often a Dutch het-word (das Haus -> het huis), and der/die words are usually de-words.\n\nDiminutives ending in -je are always het: het broodje.\n\nAdjectives before a noun get -e (de grote kamer, een grote kamer), except with a singular het-word after een: een groot huis.\n\nFor de-words, it is usually hij: De kast is nieuw. Hij is groot. For het-words, it is het.",
+    "ar": "في الهولندي فيه كلمتين لـ «الـ»: de (حوالي تلتين الأسماء) وhet. احفظ كل اسم مع أداته: de tafel، het bed. كل الجمع بياخد de: de bedden. وكلمة «واحد/a» دايمًا een.\n\nنصيحة لو بتتعلم ألماني: كلمة das في الألماني غالبًا het في الهولندي (das Haus -> het huis)، وكلمات der وdie غالبًا de.\n\nالتصغير اللي بيخلص بـ ‎-je دايمًا het: het broodje.\n\nالصفة قبل الاسم بتاخد ‎-e (de grote kamer، een grote kamer)، إلا مع كلمة het مفرد بعد een: een groot huis.\n\nالضمير لكلمات de غالبًا hij: De kast is nieuw. Hij is groot. ولكلمات het بنقول het."
    },
    "table": {
     "headers": [
@@ -3882,6 +6279,314 @@
      "prompt": "Heb jij ___? (thirst)",
      "answer": "dorst",
      "base": "dorst"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u05",
+   "level": "A1",
+   "title": {
+    "en": "geen or niet with prices and shopping",
+    "ar": "geen ولا niet في الشرا"
+   },
+   "explanation": {
+    "en": "Remember: geen replaces een or comes before a noun without an article: Ik heb geen geld. Dat is geen tas.\n\nniet negates the rest: Het overhemd is niet goedkoop. Ik koop het brood niet.\n\nPrices: twintig euro (no plural -s after a number), 2,50 = twee euro vijftig. Ask: Hoeveel kost ...? or Wat kost ...?",
+    "ar": "افتكر: geen بتيجي مكان een أو قبل اسم من غير أداة: Ik heb geen geld. Dat is geen tas.\n\nniet بتنفي الباقي: Het overhemd is niet goedkoop. Ik koop het brood niet.\n\nالأسعار: twintig euro (من غير ‎-s بعد الرقم)، و2,50 = twee euro vijftig. تسأل: Hoeveel kost ...? أو Wat kost ...?"
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u05_01",
+    "nl.a1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik heb ___ geld.",
+     "answer": "geen",
+     "base": "geen / niet"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Het overhemd is ___ duur.",
+     "answer": "niet",
+     "base": "geen / niet"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ kost de tas?",
+     "answer": "Hoeveel",
+     "base": "hoeveel"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dat is ___ supermarkt.",
+     "answer": "geen",
+     "base": "geen / niet"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u06",
+   "level": "A1",
+   "title": {
+    "en": "Separable verbs and inversion",
+    "ar": "الأفعال اللي بتنفصل وتقديم الفعل"
+   },
+   "explanation": {
+    "en": "Like German, Dutch has separable verbs: opstaan -> Ik sta om zeven uur op. The prefix goes to the end.\n\nThe verb comes second; if you start with a time, the subject moves after the verb: Vandaag werk ik tot vijf uur.\n\nTime: om zeven uur = at seven; Hoe laat is het? = What time is it? Watch out: half acht means 7:30 (half to eight), as in German halb acht.",
+    "ar": "زي الألماني، الهولندي فيه أفعال بتنفصل: opstaan -> Ik sta om zeven uur op. البادئة بتروح للآخر.\n\nالفعل في المكان التاني؛ لو بدأت بوقت، الفاعل ييجي بعد الفعل: Vandaag werk ik tot vijf uur.\n\nالوقت: om zeven uur = الساعة سبعة؛ Hoe laat is het? = الساعة كام؟ خلي بالك: half acht يعني سبعة ونص (نص قبل تمانية)، زي halb acht في الألماني."
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u06_01",
+    "nl.a1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ om zeven uur op.",
+     "answer": "sta",
+     "base": "opstaan"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij staat om zes uur ___.",
+     "answer": "op",
+     "base": "opstaan"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Vandaag ___ ik tot vijf uur.",
+     "answer": "werk",
+     "base": "werken"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "'s Avonds ___ zij vaak laat.",
+     "answer": "slaapt",
+     "base": "slapen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u07",
+   "level": "A1",
+   "title": {
+    "en": "graag and the modal verbs kunnen, willen",
+    "ar": "graag والأفعال kunnen وwillen"
+   },
+   "explanation": {
+    "en": "graag after the verb means you like doing it: Ik lees graag. Ik speel graag voetbal. Not: niet graag.\n\nModal verbs send the main verb to the end: Ik kan zwemmen. We willen een film zien.\n\nkunnen: ik kan, jij kunt (kun jij?), hij kan, wij kunnen. willen: ik wil, jij wilt (wil jij?), hij wil, wij willen.",
+    "ar": "graag بعد الفعل معناها إنك بتحب تعمله: Ik lees graag. Ik speel graag voetbal. ومش بتحب: niet graag.\n\nأفعال الوجه بتبعت الفعل الأساسي للآخر: Ik kan zwemmen. We willen een film zien.\n\nkunnen: ik kan, jij kunt (kun jij?), hij kan, wij kunnen. وwillen: ik wil, jij wilt (wil jij?), hij wil, wij willen."
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u07_01",
+    "nl.a1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik lees ___ boeken.",
+     "answer": "graag",
+     "base": "graag"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ jij zwemmen?",
+     "answer": "Kun",
+     "base": "kunnen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wij ___ een film zien.",
+     "answer": "willen",
+     "base": "willen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij ___ goed koken.",
+     "answer": "kan",
+     "base": "kunnen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u08",
+   "level": "A1",
+   "title": {
+    "en": "The imperative and asking the way",
+    "ar": "الأمر والسؤال عن الطريق"
+   },
+   "explanation": {
+    "en": "The Dutch imperative is just the stem: Ga rechtdoor! Neem de bus! Kom hier! For politeness add u after it (Gaat u rechtdoor) or add maar / even: Kijk even.\n\nDutch has no cases: prepositions don't change the article: naast de bank, in het park, bij het station.\n\nTo ask: Waar is ...? Hoe kom ik bij ...? (How do I get to ...?)",
+    "ar": "الأمر في الهولندي هو الجذر بس: Ga rechtdoor! Neem de bus! Kom hier! ولو عايز تبقى مؤدب زوّد u بعده (Gaat u rechtdoor) أو maar / even: Kijk even.\n\nالهولندي مفيهوش حالات إعرابية: حروف الجر مش بتغير الأداة: naast de bank، in het park، bij het station.\n\nتسأل: Waar is ...? وHoe kom ik bij ...? (أروح ... إزاي؟)"
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u08_01",
+    "nl.a1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ rechtdoor! (gaan)",
+     "answer": "Ga",
+     "base": "gaan"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De apotheek is ___ de bank. (next to)",
+     "answer": "naast",
+     "base": "naast"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ is het station?",
+     "answer": "Waar",
+     "base": "waar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ de bus! (nemen)",
+     "answer": "Neem",
+     "base": "nemen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u09",
+   "level": "A1",
+   "title": {
+    "en": "moeten, mogen and travelling met",
+    "ar": "moeten وmogen والسفر بـ met"
+   },
+   "explanation": {
+    "en": "moeten (must): ik moet, jij moet, hij moet, wij moeten. mogen (may): ik mag, jij mag, hij mag, wij mogen. Hier mag je niet roken.\n\nBy train/bus = met de trein / met de bus. Dutch splits German fahren: rijden for driving (Ik rijd naar Utrecht), gaan for going in general (Ik ga met de trein).\n\nFalse friend: Dutch rijden is not reiten (to ride a horse) only; it is any driving.",
+    "ar": "moeten (لازم): ik moet, jij moet, hij moet, wij moeten. وmogen (مسموح): ik mag, jij mag, hij mag, wij mogen. Hier mag je niet roken.\n\nبالقطر/بالأتوبيس = met de trein / met de bus. الهولندي بيقسم fahren الألماني: rijden للسواقة (Ik rijd naar Utrecht)، وgaan للروحان عمومًا (Ik ga met de trein).\n\nخلي بالك: rijden في الهولندي مش ركوب الخيل بس زي reiten؛ دي أي سواقة."
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u09_01",
+    "nl.a1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "We ___ een kaartje kopen.",
+     "answer": "moeten",
+     "base": "moeten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ga ___ de trein.",
+     "answer": "met",
+     "base": "met"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hier ___ je niet roken.",
+     "answer": "mag",
+     "base": "mogen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij ___ naar Utrecht. (drive)",
+     "answer": "rijdt",
+     "base": "rijden"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u10",
+   "level": "A1",
+   "title": {
+    "en": "Pain, moeten for advice, object pronouns",
+    "ar": "الوجع وmoeten للنصيحة وضماير المفعول"
+   },
+   "explanation": {
+    "en": "Pain: Mijn hoofd doet pijn. Ik heb hoofdpijn / buikpijn.\n\nDutch has no sollen: use moeten for advice (Je moet naar de dokter gaan) or zou moeten for softer advice (Je zou moeten rusten).\n\nObject pronouns: mij (me), jou (je), hem, haar, ons, jullie, hen/hun (them). De dokter onderzoekt mij.",
+    "ar": "الوجع: Mijn hoofd doet pijn. Ik heb hoofdpijn / buikpijn.\n\nالهولندي مفيهوش sollen: استخدم moeten للنصيحة (Je moet naar de dokter gaan) أو zou moeten لنصيحة أخف (Je zou moeten rusten).\n\nضماير المفعول: mij (me)، jou (je)، hem، haar، ons، jullie، hen/hun. De dokter onderzoekt mij."
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u10_01",
+    "nl.a1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Mijn hoofd doet ___.",
+     "answer": "pijn",
+     "base": "pijn doen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Je ___ naar de dokter gaan.",
+     "answer": "moet",
+     "base": "moeten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De dokter onderzoekt ___. (ik)",
+     "answer": "mij",
+     "base": "ik"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ik zie ___ morgen. (hij)",
+     "answer": "hem",
+     "base": "hij"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.a1.gram.u11",
+   "level": "A1",
+   "title": {
+    "en": "Perfect tense with hebben",
+    "ar": "الماضي التام مع hebben"
+   },
+   "explanation": {
+    "en": "The Dutch perfect: hebben + past participle at the end: Ik heb veel gewerkt.\n\nRegular verbs: ge- + stem + -t or -d. Use -t if the stem ends in a sound from 't kofschip (t, k, f, s, ch, p): werken -> gewerkt, maken -> gemaakt; otherwise -d: leren -> geleerd, wonen -> gewoond. Irregular: schrijven -> geschreven, doen -> gedaan.\n\nCompare German: gearbeitet / gewerkt, gemacht / gemaakt.",
+    "ar": "الماضي التام في الهولندي: hebben + اسم المفعول في الآخر: Ik heb veel gewerkt.\n\nالأفعال المنتظمة: ge- + الجذر + ‎-t أو ‎-d. استخدم ‎-t لو الجذر بيخلص بحرف من 't kofschip (t, k, f, s, ch, p): werken -> gewerkt، maken -> gemaakt؛ وإلا ‎-d: leren -> geleerd، wonen -> gewoond. والشاذة: schrijven -> geschreven، doen -> gedaan.\n\nقارن بالألماني: gearbeitet / gewerkt، gemacht / gemaakt."
+   },
+   "exampleSentenceIds": [
+    "nl.a1.sent.u11_01",
+    "nl.a1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ik ___ veel gewerkt.",
+     "answer": "heb",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wat heb je ___? (doen)",
+     "answer": "gedaan",
+     "base": "doen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij heeft een e-mail ___. (schrijven)",
+     "answer": "geschreven",
+     "base": "schrijven"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wij hebben Nederlands ___. (leren)",
+     "answer": "geleerd",
+     "base": "leren"
     }
    ],
    "source": "3lang-original",
@@ -4129,6 +6834,69 @@
    "prompt": {
     "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالهولندي.",
     "en": "What do you eat and drink for breakfast, lunch and dinner? Write in Dutch."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u05",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about shopping and prices in Dutch: what you buy every week and how much it costs.",
+    "ar": "اكتب بالهولندي عن التسوق والأسعار: إيه اللي بتشتريه كل أسبوع وبكام."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u06",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about daily routine and time in Dutch: your typical day from morning to evening.",
+    "ar": "اكتب بالهولندي عن الروتين اليومي والوقت: يومك العادي من الصبح لبالليل."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u07",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about free time and hobbies in Dutch: what you like to do in your free time.",
+    "ar": "اكتب بالهولندي عن وقت الفراغ والهوايات: بتحب تعمل إيه في وقت فراغك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u08",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about in the city in Dutch: the way from your home to a place you like in your city.",
+    "ar": "اكتب بالهولندي عن في المدينة: الطريق من بيتك لمكان بتحبه في مدينتك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u09",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about travel and transport in Dutch: a trip you took: where, how and with whom.",
+    "ar": "اكتب بالهولندي عن السفر والمواصلات: رحلة عملتها: فين وإزاي ومع مين."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u10",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about health and body in Dutch: a time you were ill and what you did.",
+    "ar": "اكتب بالهولندي عن الصحة والجسم: مرة كنت عيان وعملت إيه."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "nl.a1.write.u11",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about work and school in Dutch: what you did last week at work or school.",
+    "ar": "اكتب بالهولندي عن الشغل والمدرسة: عملت إيه الأسبوع اللي فات في الشغل أو المدرسة."
    },
    "minWords": 20
   }

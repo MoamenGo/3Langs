@@ -269,9 +269,11 @@
               "het",
               "el",
               "la",
+              "los",
+              "las",
               null
             ],
-            "description": "German der/die/das, Dutch de/het, Spanish el/la. null for words without one."
+            "description": "German der/die/das, Dutch de/het, Spanish el/la (los/las for plural-only nouns). null for words without one."
           },
           "plural": {
             "type": [

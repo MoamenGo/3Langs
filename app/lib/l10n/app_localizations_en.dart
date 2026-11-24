@@ -393,4 +393,280 @@ class AppLocalizationsEn extends AppLocalizations {
   String startLevel(String level) {
     return 'Start level $level';
   }
+
+  @override
+  String get navToday => 'Today';
+
+  @override
+  String get welcomeTitle => 'Set up your three languages';
+
+  @override
+  String get welcomeSubtitle =>
+      'Choose your languages, daily time and starting level.';
+
+  @override
+  String get setUp => 'Set up';
+
+  @override
+  String get todaysPlan => 'Today\'s plan';
+
+  @override
+  String planMinutes(int total, int left) {
+    return '$total min planned · $left min left';
+  }
+
+  @override
+  String get rebuildPlan => 'Rebuild today\'s plan';
+
+  @override
+  String get planEmpty => 'Nothing to study today. Enjoy your day off!';
+
+  @override
+  String get planDone => 'Today\'s plan is done. Great work!';
+
+  @override
+  String get startPlan => 'Start today\'s session';
+
+  @override
+  String get continuePlan => 'Continue';
+
+  @override
+  String blockReview(String lang) {
+    return 'Review · $lang';
+  }
+
+  @override
+  String blockLesson(String lang) {
+    return 'New lesson · $lang';
+  }
+
+  @override
+  String get blockContrast => 'Contrast drill';
+
+  @override
+  String get blockContrastHint => 'The words you mix up between languages';
+
+  @override
+  String get yourLanguages => 'Your languages';
+
+  @override
+  String get drillEmpty =>
+      'No words to compare yet. Finish a few lessons in two languages first.';
+
+  @override
+  String get myMixups => 'Your mix-ups';
+
+  @override
+  String get noMixups => 'No mix-ups yet.';
+
+  @override
+  String mixupGiven(String given, String lang) {
+    return 'You chose $given ($lang)';
+  }
+
+  @override
+  String get done => 'Done';
+
+  @override
+  String examIntro(String level, int count, int pass) {
+    return '$level exam: $count questions from the whole level. Score $pass% or more to move up.';
+  }
+
+  @override
+  String get startExam => 'Start';
+
+  @override
+  String examPassed(String level) {
+    return 'You passed $level!';
+  }
+
+  @override
+  String examFailed(String level) {
+    return 'Not yet. Review $level and try again.';
+  }
+
+  @override
+  String nowAtLevel(String level) {
+    return 'You are now at $level.';
+  }
+
+  @override
+  String get tryAgain => 'Try again';
+
+  @override
+  String mixupHint(String lang) {
+    return 'That one is $lang: a mix-up between languages.';
+  }
+
+  @override
+  String placementTitle(String lang) {
+    return 'Placement test · $lang';
+  }
+
+  @override
+  String placementResult(String lang, String level) {
+    return 'You start $lang at $level.';
+  }
+
+  @override
+  String placementIntro(String lang) {
+    return 'A few words from each level, from A1 up. It stops when it gets hard, about 5 minutes. Not sure? Start as a beginner.';
+  }
+
+  @override
+  String get placementBeginner => 'I\'m a complete beginner (A0)';
+
+  @override
+  String placementLevel(String level) {
+    return 'Level $level';
+  }
+
+  @override
+  String get welcomeIntro =>
+      '3Lang teaches German, Dutch and Spanish side by side, from A0 to C1. Every day it plans a session across your languages: reviews first, new lessons in two languages, a skill in the third, and a contrast drill when you mix them up.';
+
+  @override
+  String get stepInterface => '1. App language';
+
+  @override
+  String get stepMinutes => '2. Minutes a day';
+
+  @override
+  String minutesPerLanguage(int total, int each) {
+    return '$total min a day, about $each min per language';
+  }
+
+  @override
+  String get stepLanguages => '3. Languages and start';
+
+  @override
+  String get stepLanguagesHint =>
+      'German and Dutch are close, so Dutch starts later by default. Take a placement test if you already know some.';
+
+  @override
+  String get startIn => 'Start:';
+
+  @override
+  String get startNow => 'Now';
+
+  @override
+  String weekN(int n) {
+    return 'Week $n';
+  }
+
+  @override
+  String get placementButton => 'Placement test';
+
+  @override
+  String get finishSetup => 'Save and go to today';
+
+  @override
+  String c1By(String date) {
+    return 'C1 by about $date';
+  }
+
+  @override
+  String get mixupMap => 'Mix-ups between languages';
+
+  @override
+  String get languagesAndPlan => 'Languages and plan';
+
+  @override
+  String get languagesAndPlanHint =>
+      'Pause a language, change start dates, placement tests';
+
+  @override
+  String get appearance => 'Appearance';
+
+  @override
+  String get colorTheme => 'Colour theme';
+
+  @override
+  String get themeLanguage => 'Language colours';
+
+  @override
+  String get themeAurora => 'Aurora';
+
+  @override
+  String get themeOcean => 'Ocean';
+
+  @override
+  String get themeSunset => 'Sunset';
+
+  @override
+  String get themeForest => 'Forest';
+
+  @override
+  String get themeRose => 'Rose';
+
+  @override
+  String get themeMidnight => 'Midnight';
+
+  @override
+  String get modeSystem => 'Auto';
+
+  @override
+  String get modeLight => 'Light';
+
+  @override
+  String get modeDark => 'Dark';
+
+  @override
+  String get humanVoice => 'Human voice';
+
+  @override
+  String get humanVoiceHint =>
+      'Words play real recordings by native speakers (Lingua Libre, free licence). Sentences use the most natural voice on your device.';
+
+  @override
+  String get nativeSpeaker => 'Native speaker';
+
+  @override
+  String get watchOnYouTube => 'Watch on YouTube';
+
+  @override
+  String get videosTitle => 'Videos on this topic';
+
+  @override
+  String get videosHint => 'Opens YouTube with lessons on this exact topic.';
+
+  @override
+  String get videoInArabic => 'Explained in Arabic';
+
+  @override
+  String get videoInEnglish => 'Explained in English';
+
+  @override
+  String videoNative(String language) {
+    return 'In $language only';
+  }
+
+  @override
+  String get keyPoints => 'Key points';
+
+  @override
+  String get examplesTitle => 'Examples';
+
+  @override
+  String get remember => 'Remember';
+
+  @override
+  String get listenAll => 'Listen to all';
+
+  @override
+  String get pieceOfGermanTitle => 'Piece of German: this week\'s plan';
+
+  @override
+  String get pieceOfGermanHint =>
+      'Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).';
+
+  @override
+  String get androidApp => 'Android app';
+
+  @override
+  String get androidAppHint =>
+      'Download 3Lang for your Android phone, or use Chrome\'s menu > Install app.';
+
+  @override
+  String get notQuiteTryAgain => 'Not quite. Try again, or see the answer.';
 }

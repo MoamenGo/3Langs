@@ -6,6 +6,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import 'reading_view.dart';
+import '../../core/bidi.dart';
 
 class ReadingListScreen extends ConsumerWidget {
   const ReadingListScreen({super.key});
@@ -13,7 +14,7 @@ class ReadingListScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: Text(context.l10n.lessonReading)),
+      appBar: AppBar(title: BidiText(context.l10n.lessonReading)),
       body: AsyncView(
         value: ref.watch(activeContentProvider),
         builder: (c) => c == null
@@ -27,8 +28,8 @@ class ReadingListScreen extends ConsumerWidget {
                             ? Icons.open_in_new
                             : Icons.article_outlined,
                       ),
-                      title: Text(t.title),
-                      subtitle: Text('${t.level} · ${t.source}'),
+                      title: BidiText(t.title),
+                      subtitle: BidiText('${t.level} · ${t.source}'),
                       onTap: () => context.push('/practice/reading/${t.id}'),
                     ),
                 ],

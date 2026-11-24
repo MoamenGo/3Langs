@@ -307,7 +307,7 @@ def build_a0(lang: str) -> dict:
 
 NAME_AR = {"de": "ألماني", "nl": "هولندي", "es": "إسباني", "en": "إنجليزي"}
 NAME_EN = {"de": "German", "nl": "Dutch", "es": "Spanish", "en": "English"}
-GENDER = {"der": "m", "die": "f", "das": "n", "el": "m", "la": "f", "de": "c", "het": "n"}
+GENDER = {"der": "m", "die": "f", "das": "n", "el": "m", "la": "f", "los": "m", "las": "f", "de": "c", "het": "n"}
 GENDER_EN = {"m": "masculine", "f": "feminine", "n": "neuter", "c": "common (de)"}
 GENDER_AR = {"m": "مذكر", "f": "مؤنث", "n": "محايد", "c": "de (مشترك)"}
 

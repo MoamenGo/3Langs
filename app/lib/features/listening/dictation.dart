@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
+import '../../core/bidi.dart';
 
 /// Hear a German sentence (device TTS), type it, compare.
 class DictationRunner extends ConsumerStatefulWidget {
@@ -23,6 +24,22 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
   final _controller = TextEditingController();
   int _index = 0, _correct = 0;
   bool? _wasRight;
+  bool _revealed = false, _firstTry = true;
+  final _focus = FocusNode();
+
+  bool get _done => _wasRight == true || _revealed;
+  bool get _waitingRetry => _wasRight == false && !_revealed;
+
+  void _retry() {
+    setState(() => _wasRight = null);
+    _controller.selection = TextSelection(
+      baseOffset: 0,
+      extentOffset: _controller.text.length,
+    );
+    WidgetsBinding.instance.addPostFrameCallback((_) => _focus.requestFocus());
+  }
+
+  void _reveal() => setState(() => _revealed = true);
   bool _showTranslation = false;
 
   Sentence get _current => widget.sentences[_index];
@@ -40,7 +57,8 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
     final right =
         normalizeAnswer(_controller.text) == normalizeAnswer(_current.text);
     setState(() => _wasRight = right);
-    if (right) _correct++;
+    if (right && _firstTry) _correct++;
+    if (!right) _firstTry = false;
   }
 
   void _next() {
@@ -51,6 +69,8 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
     setState(() {
       _index++;
       _wasRight = null;
+      _revealed = false;
+      _firstTry = true;
       _showTranslation = false;
       _controller.clear();
     });
@@ -60,6 +80,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
   @override
   void dispose() {
     _controller.dispose();
+    _focus.dispose();
     super.dispose();
   }
 
@@ -72,7 +93,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
       children: [
         LinearProgressIndicator(value: _index / widget.sentences.length),
         const SizedBox(height: 16),
-        Text(
+        BidiText(
           l.listenAndType,
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.titleMedium,
@@ -84,30 +105,41 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
             FilledButton.tonalIcon(
               onPressed: _play,
               icon: const Icon(Icons.volume_up),
-              label: Text(l.playAudio),
+              label: BidiText(l.playAudio),
             ),
             const SizedBox(width: 12),
             OutlinedButton.icon(
               onPressed: () => _play(slow: true),
               icon: const Icon(Icons.slow_motion_video),
-              label: Text(l.playSlow),
+              label: BidiText(l.playSlow),
             ),
           ],
         ),
         const SizedBox(height: 16),
         TextField(
           controller: _controller,
+          focusNode: _focus,
+          textDirection: TextDirection.ltr,
           autocorrect: false,
           enabled: _wasRight == null,
           decoration: InputDecoration(
             hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+            hintTextDirection: Directionality.of(context),
           ),
-          onSubmitted: (_) => _wasRight == null ? _check() : _next(),
+          onSubmitted: (_) => _wasRight == null
+              ? _check()
+              : _done
+              ? _next()
+              : null,
         ),
         const SizedBox(height: 12),
         if (_wasRight != null) ...[
-          Text(
-            _wasRight! ? l.correct : l.wrongAnswer(_current.text),
+          BidiText(
+            _wasRight!
+                ? l.correct
+                : _revealed
+                ? l.wrongAnswer(_current.text)
+                : l.notQuiteTryAgain,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: _wasRight!
@@ -115,22 +147,28 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
                   : Theme.of(context).colorScheme.error,
             ),
           ),
-          Text(_current.translations.get(lang), textAlign: TextAlign.center),
+          BidiText(
+            _current.translations.get(lang),
+            textAlign: TextAlign.center,
+          ),
         ] else
           TextButton(
             onPressed: () =>
                 setState(() => _showTranslation = !_showTranslation),
-            child: Text(
+            child: BidiText(
               _showTranslation
                   ? _current.translations.get(lang)
                   : l.showTranslation,
             ),
           ),
         const Spacer(),
-        FilledButton(
-          onPressed: _wasRight == null ? _check : _next,
-          child: Text(_wasRight == null ? l.check : l.next),
-        ),
+        if (_waitingRetry)
+          RetryOrReveal(onRetry: _retry, onReveal: _reveal)
+        else
+          FilledButton(
+            onPressed: _wasRight == null ? _check : _next,
+            child: BidiText(_wasRight == null ? l.check : l.next),
+          ),
       ],
     );
   }

@@ -5,6 +5,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
+import '../../core/bidi.dart';
 
 /// Email + password sign-in with Supabase Auth (free tier). Signing in is
 /// optional: it only turns on sync between phone and browser.
@@ -49,7 +50,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: Text(l.signIn)),
+      appBar: AppBar(title: BidiText(l.signIn)),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 420),
@@ -80,7 +81,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
                           password: _password.text,
                         ),
                       ),
-                child: Text(l.signIn),
+                child: BidiText(l.signIn),
               ),
               TextButton(
                 onPressed: _busy
@@ -94,10 +95,10 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
                           setState(() => _message = l.checkEmail);
                         }
                       }),
-                child: Text(l.createAccount),
+                child: BidiText(l.createAccount),
               ),
               if (_message != null)
-                Text(_message!, textAlign: TextAlign.center),
+                BidiText(_message!, textAlign: TextAlign.center),
             ],
           ),
         ),

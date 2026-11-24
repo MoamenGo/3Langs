@@ -6,6 +6,7 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import 'lesson_type_ui.dart';
+import '../../core/bidi.dart';
 
 class UnitScreen extends ConsumerWidget {
   const UnitScreen({super.key, required this.unitId});
@@ -24,7 +25,7 @@ class UnitScreen extends ConsumerWidget {
         final unit = c.units.firstWhere((u) => u.id == unitId);
         return Scaffold(
           appBar: AppBar(
-            title: Text('${l.unitN(unit.order)} · ${unit.theme.get(lang)}'),
+            title: BidiText('${l.unitN(unit.order)} · ${unit.theme.get(lang)}'),
           ),
           body: ListView(
             padding: const EdgeInsets.all(12),
@@ -33,15 +34,15 @@ class UnitScreen extends ConsumerWidget {
                 ListTile(
                   dense: true,
                   leading: const Icon(Icons.flag_outlined),
-                  title: Text(goal.get(lang)),
+                  title: BidiText(goal.get(lang)),
                 ),
               const Divider(),
               for (final lesson in c.lessonsOf(unit))
                 Card(
                   child: ListTile(
                     leading: Icon(lesson.type.icon),
-                    title: Text(lesson.title.get(lang)),
-                    subtitle: Text(lesson.type.label(l)),
+                    title: BidiText(lesson.title.get(lang)),
+                    subtitle: BidiText(lesson.type.label(l)),
                     trailing:
                         progress[lesson.id]?.status == LessonStatus.completed
                         ? const Icon(Icons.check_circle, color: Colors.green)

@@ -7,6 +7,7 @@ import '../data/repositories/progress_repository.dart';
 import '../data/sync/sync_service.dart';
 import '../l10n/app_localizations.dart';
 import 'providers.dart';
+import 'bidi.dart';
 
 extension L10nX on BuildContext {
   AppLocalizations get l10n => AppLocalizations.of(this);
@@ -25,7 +26,7 @@ class AsyncView<T> extends StatelessWidget {
     error: (e, _) => Center(
       child: Padding(
         padding: const EdgeInsets.all(24),
-        child: Text(context.l10n.errorMessage('$e')),
+        child: BidiText(context.l10n.errorMessage('$e')),
       ),
     ),
   );
@@ -106,7 +107,7 @@ class LangSwitcher extends ConsumerWidget {
                 message: lang.displayName(ui),
                 child: ChoiceChip(
                   key: ValueKey('lang-${lang.name}'),
-                  label: Text(lang.code),
+                  label: BidiText(lang.code),
                   selected: lang == active,
                   showCheckmark: false,
                   selectedColor: lang.color,
@@ -116,6 +117,12 @@ class LangSwitcher extends ConsumerWidget {
                   ),
                   side: BorderSide(color: lang.color),
                   visualDensity: VisualDensity.compact,
+                  materialTapTargetSize: MediaQuery.sizeOf(context).width < 420
+                      ? MaterialTapTargetSize.shrinkWrap
+                      : null,
+                  labelPadding: MediaQuery.sizeOf(context).width < 420
+                      ? const EdgeInsets.symmetric(horizontal: 2)
+                      : null,
                   onSelected: (_) => switchLanguage(ref, lang),
                 ),
               ),
@@ -143,14 +150,14 @@ class NoContentYet extends ConsumerWidget {
           children: [
             Icon(Icons.hourglass_top, size: 48, color: track.lang.color),
             const SizedBox(height: 16),
-            Text(
+            BidiText(
               l.noContentYet(track.lang.displayName(ui)),
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.titleMedium,
             ),
             if (track.startDate != null) ...[
               const SizedBox(height: 8),
-              Text(
+              BidiText(
                 l.startsOn(formatDay(track.startDate!)),
                 textAlign: TextAlign.center,
               ),
@@ -175,3 +182,41 @@ String normalizeAnswer(String s) => s
     .replaceAll(RegExp(r'[.,!?;:¿¡"„“”–-]'), '')
     .replaceAll(RegExp(r'\s+'), ' ')
     .trim();
+
+/// Shown after a wrong answer: try the same question again, or give up and
+/// see the right answer. Only a right answer on the first try counts.
+class RetryOrReveal extends StatelessWidget {
+  const RetryOrReveal({
+    super.key,
+    required this.onRetry,
+    required this.onReveal,
+  });
+  final VoidCallback onRetry;
+  final VoidCallback onReveal;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    return Row(
+      children: [
+        Expanded(
+          child: FilledButton.icon(
+            key: const Key('try-again'),
+            onPressed: onRetry,
+            icon: const Icon(Icons.replay),
+            label: BidiText(l.tryAgain),
+          ),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: OutlinedButton.icon(
+            key: const Key('show-answer'),
+            onPressed: onReveal,
+            icon: const Icon(Icons.visibility_outlined),
+            label: BidiText(l.showAnswer),
+          ),
+        ),
+      ],
+    );
+  }
+}

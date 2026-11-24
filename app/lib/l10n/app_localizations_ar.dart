@@ -403,4 +403,279 @@ class AppLocalizationsAr extends AppLocalizations {
   String startLevel(String level) {
     return 'ابدأ مستوى $level';
   }
+
+  @override
+  String get navToday => 'اليوم';
+
+  @override
+  String get welcomeTitle => 'جهّز اللغات التلاتة';
+
+  @override
+  String get welcomeSubtitle => 'اختار لغاتك ووقتك اليومي ومستوى البداية.';
+
+  @override
+  String get setUp => 'ابدأ الإعداد';
+
+  @override
+  String get todaysPlan => 'خطة النهاردة';
+
+  @override
+  String planMinutes(int total, int left) {
+    return '$total دقيقة في الخطة · فاضل $left دقيقة';
+  }
+
+  @override
+  String get rebuildPlan => 'اعمل خطة النهاردة من جديد';
+
+  @override
+  String get planEmpty => 'مفيش مذاكرة النهاردة. استمتع بيوم الراحة!';
+
+  @override
+  String get planDone => 'خلّصت خطة النهاردة. شغل عظيم!';
+
+  @override
+  String get startPlan => 'ابدأ جلسة النهاردة';
+
+  @override
+  String get continuePlan => 'كمّل';
+
+  @override
+  String blockReview(String lang) {
+    return 'مراجعة · $lang';
+  }
+
+  @override
+  String blockLesson(String lang) {
+    return 'درس جديد · $lang';
+  }
+
+  @override
+  String get blockContrast => 'تمرين المقارنة';
+
+  @override
+  String get blockContrastHint => 'الكلمات اللي بتلخبط فيها بين اللغات';
+
+  @override
+  String get yourLanguages => 'لغاتك';
+
+  @override
+  String get drillEmpty =>
+      'لسه مفيش كلمات للمقارنة. خلّص كام درس في لغتين الأول.';
+
+  @override
+  String get myMixups => 'الحاجات اللي لخبطت فيها';
+
+  @override
+  String get noMixups => 'لسه مفيش لخبطة.';
+
+  @override
+  String mixupGiven(String given, String lang) {
+    return 'اخترت $given ($lang)';
+  }
+
+  @override
+  String get done => 'تمام';
+
+  @override
+  String examIntro(String level, int count, int pass) {
+    return 'امتحان $level: $count سؤال من المستوى كله. محتاج $pass% أو أكتر عشان تطلع المستوى اللي بعده.';
+  }
+
+  @override
+  String get startExam => 'ابدأ';
+
+  @override
+  String examPassed(String level) {
+    return 'نجحت في $level!';
+  }
+
+  @override
+  String examFailed(String level) {
+    return 'لسه. راجع $level وجرّب تاني.';
+  }
+
+  @override
+  String nowAtLevel(String level) {
+    return 'إنت دلوقتي في مستوى $level.';
+  }
+
+  @override
+  String get tryAgain => 'حاول تاني';
+
+  @override
+  String mixupHint(String lang) {
+    return 'دي $lang: لخبطة بين اللغات.';
+  }
+
+  @override
+  String placementTitle(String lang) {
+    return 'اختبار تحديد المستوى · $lang';
+  }
+
+  @override
+  String placementResult(String lang, String level) {
+    return 'هتبدأ $lang من مستوى $level.';
+  }
+
+  @override
+  String placementIntro(String lang) {
+    return 'كام كلمة من كل مستوى، من A1 وطالع. بيقف لما يصعب عليك، حوالي 5 دقايق. مش متأكد؟ ابدأ من الأول.';
+  }
+
+  @override
+  String get placementBeginner => 'أنا مبتدئ خالص (A0)';
+
+  @override
+  String placementLevel(String level) {
+    return 'مستوى $level';
+  }
+
+  @override
+  String get welcomeIntro =>
+      '3Lang بيعلّمك ألماني وهولندي وإسباني مع بعض، من A0 لحد C1. كل يوم بيعملك جلسة للغات كلها: المراجعة الأول، ودروس جديدة في لغتين، ومهارة في التالتة، وتمرين مقارنة لما تلخبط بينهم.';
+
+  @override
+  String get stepInterface => '1. لغة التطبيق';
+
+  @override
+  String get stepMinutes => '2. دقايق في اليوم';
+
+  @override
+  String minutesPerLanguage(int total, int each) {
+    return '$total دقيقة في اليوم، حوالي $each دقيقة لكل لغة';
+  }
+
+  @override
+  String get stepLanguages => '3. اللغات وميعاد البداية';
+
+  @override
+  String get stepLanguagesHint =>
+      'الألماني والهولندي قريبين من بعض، فالهولندي بيبدأ متأخر شوية. اعمل اختبار تحديد مستوى لو بتعرف حاجة.';
+
+  @override
+  String get startIn => 'البداية:';
+
+  @override
+  String get startNow => 'دلوقتي';
+
+  @override
+  String weekN(int n) {
+    return 'الأسبوع $n';
+  }
+
+  @override
+  String get placementButton => 'اختبار المستوى';
+
+  @override
+  String get finishSetup => 'احفظ وروح لخطة النهاردة';
+
+  @override
+  String c1By(String date) {
+    return 'C1 تقريبًا في $date';
+  }
+
+  @override
+  String get mixupMap => 'اللخبطة بين اللغات';
+
+  @override
+  String get languagesAndPlan => 'اللغات والخطة';
+
+  @override
+  String get languagesAndPlanHint =>
+      'وقّف لغة، غيّر ميعاد البداية، اختبار المستوى';
+
+  @override
+  String get appearance => 'الشكل';
+
+  @override
+  String get colorTheme => 'لون الثيم';
+
+  @override
+  String get themeLanguage => 'ألوان اللغة';
+
+  @override
+  String get themeAurora => 'شفق';
+
+  @override
+  String get themeOcean => 'محيط';
+
+  @override
+  String get themeSunset => 'غروب';
+
+  @override
+  String get themeForest => 'غابة';
+
+  @override
+  String get themeRose => 'وردي';
+
+  @override
+  String get themeMidnight => 'نص الليل';
+
+  @override
+  String get modeSystem => 'تلقائي';
+
+  @override
+  String get modeLight => 'فاتح';
+
+  @override
+  String get modeDark => 'غامق';
+
+  @override
+  String get humanVoice => 'صوت بشري';
+
+  @override
+  String get humanVoiceHint =>
+      'الكلمات بتشغّل تسجيلات حقيقية لناس من أهل اللغة (Lingua Libre، رخصة مجانية). والجمل بتستخدم أطبع صوت موجود على جهازك.';
+
+  @override
+  String get nativeSpeaker => 'صوت من أهل اللغة';
+
+  @override
+  String get watchOnYouTube => 'اتفرج على يوتيوب';
+
+  @override
+  String get videosTitle => 'فيديوهات عن الموضوع ده';
+
+  @override
+  String get videosHint => 'بيفتح يوتيوب على دروس عن نفس الموضوع بالظبط.';
+
+  @override
+  String get videoInArabic => 'شرح بالعربي';
+
+  @override
+  String get videoInEnglish => 'شرح بالإنجليزي';
+
+  @override
+  String videoNative(String language) {
+    return '$language بس';
+  }
+
+  @override
+  String get keyPoints => 'أهم النقط';
+
+  @override
+  String get examplesTitle => 'أمثلة';
+
+  @override
+  String get remember => 'افتكر';
+
+  @override
+  String get listenAll => 'اسمع الكل';
+
+  @override
+  String get pieceOfGermanTitle => 'خطة الأسبوع ده من Piece of German';
+
+  @override
+  String get pieceOfGermanHint =>
+      'خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com).';
+
+  @override
+  String get androidApp => 'تطبيق أندرويد';
+
+  @override
+  String get androidAppHint =>
+      'نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق.';
+
+  @override
+  String get notQuiteTryAgain => 'مش مظبوط. حاول تاني أو اعرض الإجابة.';
 }

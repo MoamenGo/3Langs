@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../core/widgets.dart';
+import '../../core/bidi.dart';
 
 /// Free practice by skill, outside the lesson path.
 class PracticeScreen extends StatelessWidget {
@@ -17,10 +18,11 @@ class PracticeScreen extends StatelessWidget {
       (Icons.edit_note, l.lessonWriting, '/practice/writing'),
       (Icons.record_voice_over, l.lessonSpeaking, '/practice/speaking'),
       (Icons.compare_arrows, l.contrastDictionary, '/practice/contrast'),
+      (Icons.shuffle, l.blockContrast, '/review/contrast'),
     ];
     return Scaffold(
       appBar: AppBar(
-        title: Text(l.navPractice),
+        title: BidiText(l.navPractice),
         actions: const [LangSwitcher()],
       ),
       body: GridView.extent(
@@ -43,7 +45,7 @@ class PracticeScreen extends StatelessWidget {
                       color: Theme.of(context).colorScheme.primary,
                     ),
                     const SizedBox(height: 8),
-                    Text(label, textAlign: TextAlign.center),
+                    BidiText(label, textAlign: TextAlign.center),
                   ],
                 ),
               ),
