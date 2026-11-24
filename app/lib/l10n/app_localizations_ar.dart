@@ -663,7 +663,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get listenAll => 'اسمع الكل';
 
   @override
-  String get pieceOfGermanTitle => 'Piece of German: خطة الأسبوع ده';
+  String get pieceOfGermanTitle => 'خطة الأسبوع ده من Piece of German';
 
   @override
   String get pieceOfGermanHint =>
