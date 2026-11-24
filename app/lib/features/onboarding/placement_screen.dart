@@ -123,6 +123,7 @@ class _PlacementScreenState extends ConsumerState<PlacementScreen> {
                     items: plan.byLevel[level]!,
                     pool: [for (final w in plan.byLevel.values) ...w],
                     onDone: (s) => _levelDone(level, s),
+                    allowRetry: false,
                   ),
                 ),
               ],

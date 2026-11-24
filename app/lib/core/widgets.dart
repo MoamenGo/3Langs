@@ -182,3 +182,41 @@ String normalizeAnswer(String s) => s
     .replaceAll(RegExp(r'[.,!?;:¿¡"„“”–-]'), '')
     .replaceAll(RegExp(r'\s+'), ' ')
     .trim();
+
+/// Shown after a wrong answer: try the same question again, or give up and
+/// see the right answer. Only a right answer on the first try counts.
+class RetryOrReveal extends StatelessWidget {
+  const RetryOrReveal({
+    super.key,
+    required this.onRetry,
+    required this.onReveal,
+  });
+  final VoidCallback onRetry;
+  final VoidCallback onReveal;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    return Row(
+      children: [
+        Expanded(
+          child: FilledButton.icon(
+            key: const Key('try-again'),
+            onPressed: onRetry,
+            icon: const Icon(Icons.replay),
+            label: BidiText(l.tryAgain),
+          ),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: OutlinedButton.icon(
+            key: const Key('show-answer'),
+            onPressed: onReveal,
+            icon: const Icon(Icons.visibility_outlined),
+            label: BidiText(l.showAnswer),
+          ),
+        ),
+      ],
+    );
+  }
+}

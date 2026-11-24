@@ -24,6 +24,22 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
   final _controller = TextEditingController();
   int _index = 0, _correct = 0;
   bool? _wasRight;
+  bool _revealed = false, _firstTry = true;
+  final _focus = FocusNode();
+
+  bool get _done => _wasRight == true || _revealed;
+  bool get _waitingRetry => _wasRight == false && !_revealed;
+
+  void _retry() {
+    setState(() => _wasRight = null);
+    _controller.selection = TextSelection(
+      baseOffset: 0,
+      extentOffset: _controller.text.length,
+    );
+    WidgetsBinding.instance.addPostFrameCallback((_) => _focus.requestFocus());
+  }
+
+  void _reveal() => setState(() => _revealed = true);
   bool _showTranslation = false;
 
   Sentence get _current => widget.sentences[_index];
@@ -41,7 +57,8 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
     final right =
         normalizeAnswer(_controller.text) == normalizeAnswer(_current.text);
     setState(() => _wasRight = right);
-    if (right) _correct++;
+    if (right && _firstTry) _correct++;
+    if (!right) _firstTry = false;
   }
 
   void _next() {
@@ -52,6 +69,8 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
     setState(() {
       _index++;
       _wasRight = null;
+      _revealed = false;
+      _firstTry = true;
       _showTranslation = false;
       _controller.clear();
     });
@@ -61,6 +80,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
   @override
   void dispose() {
     _controller.dispose();
+    _focus.dispose();
     super.dispose();
   }
 
@@ -98,6 +118,7 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
         const SizedBox(height: 16),
         TextField(
           controller: _controller,
+          focusNode: _focus,
           textDirection: TextDirection.ltr,
           autocorrect: false,
           enabled: _wasRight == null,
@@ -105,12 +126,20 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
             hintText: l.typeHere(ref.watch(activeLangNameProvider)),
             hintTextDirection: Directionality.of(context),
           ),
-          onSubmitted: (_) => _wasRight == null ? _check() : _next(),
+          onSubmitted: (_) => _wasRight == null
+              ? _check()
+              : _done
+              ? _next()
+              : null,
         ),
         const SizedBox(height: 12),
         if (_wasRight != null) ...[
           BidiText(
-            _wasRight! ? l.correct : l.wrongAnswer(_current.text),
+            _wasRight!
+                ? l.correct
+                : _revealed
+                ? l.wrongAnswer(_current.text)
+                : l.notQuiteTryAgain,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: _wasRight!
@@ -133,10 +162,13 @@ class _DictationRunnerState extends ConsumerState<DictationRunner> {
             ),
           ),
         const Spacer(),
-        FilledButton(
-          onPressed: _wasRight == null ? _check : _next,
-          child: BidiText(_wasRight == null ? l.check : l.next),
-        ),
+        if (_waitingRetry)
+          RetryOrReveal(onRetry: _retry, onReveal: _reveal)
+        else
+          FilledButton(
+            onPressed: _wasRight == null ? _check : _next,
+            child: BidiText(_wasRight == null ? l.check : l.next),
+          ),
       ],
     );
   }

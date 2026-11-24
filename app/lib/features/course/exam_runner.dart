@@ -61,6 +61,7 @@ class _ExamRunnerState extends ConsumerState<ExamRunner> {
       return ChoiceQuiz(
         items: _plan.words,
         pool: widget.content.vocab.values.toList(),
+        allowRetry: false,
         onDone: (s) {
           if (_plan.exercises.isEmpty) {
             _wordScore = s;
@@ -71,6 +72,10 @@ class _ExamRunnerState extends ConsumerState<ExamRunner> {
         },
       );
     }
-    return FillBlankRunner(exercises: _plan.exercises, onDone: _finish);
+    return FillBlankRunner(
+      exercises: _plan.exercises,
+      onDone: _finish,
+      allowRetry: false,
+    );
   }
 }

@@ -666,4 +666,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get androidAppHint =>
       'Download 3Lang for your Android phone, or use Chrome\'s menu > Install app.';
+
+  @override
+  String get notQuiteTryAgain => 'Not quite. Try again, or see the answer.';
 }

@@ -1171,6 +1171,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Download 3Lang for your Android phone, or use Chrome\'s menu > Install app.'**
   String get androidAppHint;
+
+  /// No description provided for @notQuiteTryAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Not quite. Try again, or see the answer.'**
+  String get notQuiteTryAgain;
 }
 
 class _AppLocalizationsDelegate

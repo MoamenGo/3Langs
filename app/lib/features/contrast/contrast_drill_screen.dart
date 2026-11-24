@@ -43,20 +43,38 @@ class ContrastDrillScreen extends ConsumerStatefulWidget {
 class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
   int _index = 0, _correct = 0;
   DrillOption? _picked;
-  bool _finished = false;
+  bool _finished = false, _revealed = false, _firstTry = true;
+  final _wrongTries = <DrillOption>{};
+
+  bool get _done => (_picked?.correct ?? false) || _revealed;
+
+  void _retry() => setState(() {
+    _wrongTries.add(_picked!);
+    _picked = null;
+  });
+
+  void _reveal(DrillQuestion q) {
+    setState(() => _revealed = true);
+    _speak(q);
+  }
+
+  void _speak(DrillQuestion q) => ref
+      .read(ttsProvider)
+      .speak(
+        q.target.display,
+        lang: q.target.lang ?? ref.read(activeLangProvider),
+      );
 
   Future<void> _pick(DrillQuestion q, DrillOption o) async {
-    if (_picked != null) return;
+    if (_picked != null || _done || _wrongTries.contains(o)) return;
     setState(() => _picked = o);
-    ref
-        .read(ttsProvider)
-        .speak(
-          q.target.display,
-          lang: q.target.lang ?? ref.read(activeLangProvider),
-        );
     if (o.correct) {
-      _correct++;
-    } else if (o.lang != null && q.target.lang != null) {
+      if (_firstTry) _correct++;
+      _speak(q);
+      return;
+    }
+    _firstTry = false;
+    if (o.lang != null && q.target.lang != null) {
       await ref
           .read(interferenceRepositoryProvider)
           .record(
@@ -125,11 +143,10 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                           child: OutlinedButton(
                             style: OutlinedButton.styleFrom(
                               padding: const EdgeInsets.all(16),
-                              backgroundColor: _picked == null
-                                  ? null
-                                  : o.correct
+                              backgroundColor: o.correct && _done
                                   ? Colors.green.withValues(alpha: 0.2)
-                                  : identical(o, _picked)
+                                  : identical(o, _picked) ||
+                                        _wrongTries.contains(o)
                                   ? Theme.of(context).colorScheme.errorContainer
                                   : null,
                             ),
@@ -143,7 +160,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                                     style: const TextStyle(fontSize: 18),
                                   ),
                                 ),
-                                if (_picked != null)
+                                if (_done)
                                   BidiText(
                                     o.lang?.code ?? 'x',
                                     style: TextStyle(
@@ -155,7 +172,17 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                             ),
                           ),
                         ),
-                      if (_picked != null && q.note != null) ...[
+                      if (_picked != null && !_done) ...[
+                        const SizedBox(height: 12),
+                        BidiText(
+                          l.notQuiteTryAgain,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Theme.of(context).colorScheme.error,
+                          ),
+                        ),
+                      ],
+                      if (_done && q.note != null) ...[
                         const SizedBox(height: 12),
                         BidiText(
                           q.note!.get(explain),
@@ -164,19 +191,28 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                         ),
                       ],
                       const Spacer(),
-                      FilledButton(
-                        onPressed: _picked == null
-                            ? null
-                            : () => setState(() {
-                                if (_index + 1 >= questions.length) {
-                                  _finished = true;
-                                } else {
-                                  _index++;
-                                  _picked = null;
-                                }
-                              }),
-                        child: BidiText(l.next),
-                      ),
+                      if (_picked != null && !_done)
+                        RetryOrReveal(
+                          onRetry: _retry,
+                          onReveal: () => _reveal(q),
+                        )
+                      else
+                        FilledButton(
+                          onPressed: !_done
+                              ? null
+                              : () => setState(() {
+                                  if (_index + 1 >= questions.length) {
+                                    _finished = true;
+                                  } else {
+                                    _index++;
+                                    _picked = null;
+                                    _revealed = false;
+                                    _firstTry = true;
+                                    _wrongTries.clear();
+                                  }
+                                }),
+                          child: BidiText(l.next),
+                        ),
                     ],
                   ),
                 ),

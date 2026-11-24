@@ -500,7 +500,7 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get tryAgain => 'جرّب تاني';
+  String get tryAgain => 'حاول تاني';
 
   @override
   String mixupHint(String lang) {
@@ -675,4 +675,7 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get androidAppHint =>
       'نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق.';
+
+  @override
+  String get notQuiteTryAgain => 'مش مظبوط. حاول تاني أو اعرض الإجابة.';
 }

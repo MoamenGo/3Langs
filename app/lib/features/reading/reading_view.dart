@@ -26,7 +26,10 @@ class ReadingView extends ConsumerStatefulWidget {
 class _ReadingViewState extends ConsumerState<ReadingView> {
   final _answers = <int, int>{};
   bool _showTranslation = false;
-  bool _checked = false;
+  bool _checked = false, _revealed = false;
+
+  /// Score of the first check; retries help learning but don't raise it.
+  double? _firstScore;
 
   @override
   Widget build(BuildContext context) {
@@ -141,8 +144,16 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
                       dense: true,
                       value: oi,
                       title: BidiText(option, textDirection: TextDirection.ltr),
-                      secondary: _checked && oi == q.answer
+                      secondary:
+                          _checked &&
+                              oi == q.answer &&
+                              (_revealed || _answers[qi] == q.answer)
                           ? const Icon(Icons.check, color: Colors.green)
+                          : _checked && _answers[qi] == oi && oi != q.answer
+                          ? Icon(
+                              Icons.close,
+                              color: Theme.of(context).colorScheme.error,
+                            )
                           : null,
                     ),
                 ],
@@ -156,18 +167,32 @@ class _ReadingViewState extends ConsumerState<ReadingView> {
             l.scoreLabel((score * 100).round()),
             textAlign: TextAlign.center,
           ),
-        FilledButton(
-          onPressed: _answers.length < t.questions.length
-              ? null
-              : () {
-                  if (!_checked) {
-                    setState(() => _checked = true);
-                  } else {
-                    widget.onDone?.call(score);
-                  }
-                },
-          child: BidiText(!_checked ? l.check : l.next),
-        ),
+        if (_checked && score < 1 && !_revealed)
+          RetryOrReveal(
+            onRetry: () => setState(() {
+              _checked = false;
+              for (final (qi, q) in t.questions.indexed) {
+                if (_answers[qi] != q.answer) _answers.remove(qi);
+              }
+            }),
+            onReveal: () => setState(() => _revealed = true),
+          )
+        else
+          FilledButton(
+            onPressed: _answers.length < t.questions.length
+                ? null
+                : () {
+                    if (!_checked) {
+                      setState(() {
+                        _checked = true;
+                        _firstScore ??= score;
+                      });
+                    } else {
+                      widget.onDone?.call(_firstScore ?? score);
+                    }
+                  },
+            child: BidiText(!_checked ? l.check : l.next),
+          ),
       ],
     );
   }

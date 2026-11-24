@@ -128,7 +128,7 @@
   "examPassed": "نجحت في {level}!",
   "examFailed": "لسه. راجع {level} وجرّب تاني.",
   "nowAtLevel": "إنت دلوقتي في مستوى {level}.",
-  "tryAgain": "جرّب تاني",
+  "tryAgain": "حاول تاني",
   "mixupHint": "دي {lang}: لخبطة بين اللغات.",
   "placementTitle": "اختبار تحديد المستوى · {lang}",
   "placementResult": "هتبدأ {lang} من مستوى {level}.",
@@ -178,5 +178,6 @@
   "pieceOfGermanTitle": "خطة الأسبوع ده من Piece of German",
   "pieceOfGermanHint": "خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com).",
   "androidApp": "تطبيق أندرويد",
-  "androidAppHint": "نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق."
+  "androidAppHint": "نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق.",
+  "notQuiteTryAgain": "مش مظبوط. حاول تاني أو اعرض الإجابة."
 }
