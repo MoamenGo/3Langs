@@ -31,4 +31,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r content/pipeline/requirements.txt
       - name: Validate bundled level files
-        run: python content/pipeline/validate.py app/assets/content/a1.json
+        run: |
+          for f in app/assets/content/*/*.json; do
+            case "$f" in */contrast.json|*/course_outline.json) continue;; esac
+            python content/pipeline/validate.py "$f"
+          done
