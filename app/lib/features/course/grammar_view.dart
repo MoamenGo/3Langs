@@ -121,7 +121,7 @@ class GrammarView extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
     final explain = ref.watch(explainLangProvider);
-    final lang = ref.watch(activeLangProvider);
+    final lang = content.lang;
     final scheme = Theme.of(context).colorScheme;
     final text = Theme.of(context).textTheme;
     final blocks = parseExplanation(point.explanation.get(explain));
@@ -185,6 +185,10 @@ class GrammarView extends ConsumerWidget {
                 ),
                 title: Text(
                   s.text,
+                  textDirection: TextDirection.ltr,
+                  textAlign: Directionality.of(context) == TextDirection.rtl
+                      ? TextAlign.right
+                      : TextAlign.left,
                   style: text.titleMedium?.copyWith(
                     fontWeight: FontWeight.w600,
                   ),
@@ -196,8 +200,8 @@ class GrammarView extends ConsumerWidget {
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    SpeakButton(s.text),
-                    SpeakButton(s.text, slow: true),
+                    SpeakButton(s.text, lang: lang),
+                    SpeakButton(s.text, slow: true, lang: lang),
                   ],
                 ),
               ),
