@@ -502,5 +502,7 @@
         "type": "String"
       }
     }
-  }
+  },
+  "pieceOfGermanTitle": "Piece of German: this week's plan",
+  "pieceOfGermanHint": "Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com)."
 }

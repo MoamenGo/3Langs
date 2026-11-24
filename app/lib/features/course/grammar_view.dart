@@ -106,6 +106,17 @@ class GrammarView extends ConsumerWidget {
   final GrammarPoint point;
   final LevelContent content;
 
+  int _unitOrder() {
+    for (final lesson in content.lessons.values) {
+      if (lesson.grammarId == point.id) {
+        for (final u in content.units) {
+          if (u.id == lesson.unitId) return u.order;
+        }
+      }
+    }
+    return 1;
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
@@ -193,6 +204,12 @@ class GrammarView extends ConsumerWidget {
             ),
         ],
         const SizedBox(height: 16),
+        if (lang == Lang.de)
+          if (pieceOfGermanUrl(content.level.id, _unitOrder()) case final url?)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: PieceOfGermanCard(url: url),
+            ),
         YouTubeCard(
           topic: point.title.values['en'] ?? point.title.get(explain),
           lang: lang,
@@ -609,6 +626,55 @@ class YouTubeCard extends ConsumerWidget {
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// The week of Piece of German (pieceofgerman.com, a free day-by-day German
+/// plan with Arabic notes and curated videos) that matches our [level] and
+/// unit [order]. We only link to it; the plan is the author's own.
+Uri? pieceOfGermanUrl(String level, int order) {
+  String? path;
+  switch (level) {
+    case 'A0':
+      path = '/a1/week-1';
+    case 'A1':
+      path = order <= 12 ? '/a1/week-$order' : '/a1/exam-week';
+    case 'A2':
+      path = order <= 12 ? '/a2/week-$order' : '/a2';
+    case 'B1':
+      path = order <= 3 ? '/b1/week-$order' : '/b1';
+    case 'B2':
+      path = order <= 2 ? '/b2/lesson-$order' : '/b2';
+    case 'C1':
+      path = order <= 2 ? '/c1/lesson-$order' : '/c1';
+  }
+  return path == null ? null : Uri.https('www.pieceofgerman.com', path);
+}
+
+class PieceOfGermanCard extends StatelessWidget {
+  const PieceOfGermanCard({super.key, required this.url});
+  final Uri url;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        leading: CircleAvatar(
+          backgroundColor: scheme.tertiaryContainer,
+          child: Icon(Icons.event_note, color: scheme.onTertiaryContainer),
+        ),
+        title: Text(
+          l.pieceOfGermanTitle,
+          style: const TextStyle(fontWeight: FontWeight.w700),
+        ),
+        subtitle: Text(l.pieceOfGermanHint),
+        trailing: const Icon(Icons.open_in_new),
+        onTap: () => launchUrl(url, mode: LaunchMode.externalApplication),
       ),
     );
   }

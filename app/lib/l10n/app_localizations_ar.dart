@@ -661,4 +661,11 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get listenAll => 'اسمع الكل';
+
+  @override
+  String get pieceOfGermanTitle => 'Piece of German: خطة الأسبوع ده';
+
+  @override
+  String get pieceOfGermanHint =>
+      'خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com).';
 }

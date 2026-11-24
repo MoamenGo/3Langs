@@ -1147,6 +1147,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Listen to all'**
   String get listenAll;
+
+  /// No description provided for @pieceOfGermanTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Piece of German: this week\'s plan'**
+  String get pieceOfGermanTitle;
+
+  /// No description provided for @pieceOfGermanHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).'**
+  String get pieceOfGermanHint;
 }
 
 class _AppLocalizationsDelegate

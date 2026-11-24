@@ -57,11 +57,9 @@ void main() {
     for (final MapEntry(key: (lang, level), value: p) in packs.entries) {
       expect(p.lang, lang);
       expect(p.level.id, level);
-      expect(
-        p.units.map((u) => u.order),
-        [for (var i = 1; i <= units[level]!; i++) i],
-        reason: '$lang $level',
-      );
+      expect(p.units.map((u) => u.order), [
+        for (var i = 1; i <= units[level]!; i++) i,
+      ], reason: '$lang $level');
       expect(
         p.vocab.length,
         greaterThanOrEqualTo(level == 'A0' ? 50 : 100),
@@ -251,7 +249,11 @@ void main() {
   test('example sentences exist in every unit and level', () {
     for (final p in packs.values) {
       final linked = p.vocab.values.where((v) => v.sentenceIds.isNotEmpty);
-      expect(linked.length, greaterThan(p.vocab.length * 0.25), reason: '${p.lang} ${p.level.id}');
+      expect(
+        linked.length,
+        greaterThan(p.vocab.length * 0.25),
+        reason: '${p.lang} ${p.level.id}',
+      );
     }
   });
 

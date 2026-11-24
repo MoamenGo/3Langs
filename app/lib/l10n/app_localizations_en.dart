@@ -652,4 +652,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get listenAll => 'Listen to all';
+
+  @override
+  String get pieceOfGermanTitle => 'Piece of German: this week\'s plan';
+
+  @override
+  String get pieceOfGermanHint =>
+      'Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).';
 }

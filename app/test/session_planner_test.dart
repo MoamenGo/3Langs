@@ -26,10 +26,10 @@ void main() {
       final skills = plan.blocks.where((b) => b.kind == BlockKind.skill);
       expect(lessons.length, 2, reason: 'day $d');
       expect(skills.length, 1, reason: 'day $d');
-      expect(
-        {...lessons.map((b) => b.lang), ...skills.map((b) => b.lang)},
-        Lang.values.toSet(),
-      );
+      expect({
+        ...lessons.map((b) => b.lang),
+        ...skills.map((b) => b.lang),
+      }, Lang.values.toSet());
     }
   });
 

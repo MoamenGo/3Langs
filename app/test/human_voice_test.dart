@@ -6,7 +6,10 @@ void main() {
   test('only words and short phrases are looked up', () {
     expect(HumanVoice.candidates('das Haus'), ['das Haus', 'Haus']);
     expect(HumanVoice.candidates('Hallo!'), ['Hallo']);
-    expect(HumanVoice.candidates('Ich wohne seit drei Jahren in Berlin.'), isEmpty);
+    expect(
+      HumanVoice.candidates('Ich wohne seit drei Jahren in Berlin.'),
+      isEmpty,
+    );
   });
 
   test('picks the exact Lingua Libre file for the word', () {
@@ -17,15 +20,23 @@ void main() {
       'File:LL-Q188 (deu)-Sebastian Wallroth-Alfandary-Haus.wav',
       'File:LL-Q188 (deu)-Some One-Haus.wav',
     ];
-    expect(HumanVoice.pickFile(titles, prefix, 'Haus'), 'LL-Q188 (deu)-Some One-Haus.wav');
+    expect(
+      HumanVoice.pickFile(titles, prefix, 'Haus'),
+      'LL-Q188 (deu)-Some One-Haus.wav',
+    );
     expect(HumanVoice.pickFile(titles, prefix, 'Baum'), isNull);
   });
 
   test('neural voices rank above old offline ones', () {
     expect(
-      TtsService.voiceScore('Microsoft Katja Online (Natural) - German (Germany)'),
+      TtsService.voiceScore(
+        'Microsoft Katja Online (Natural) - German (Germany)',
+      ),
       greaterThan(TtsService.voiceScore('Google Deutsch')),
     );
-    expect(TtsService.voiceScore('Google Deutsch'), greaterThan(TtsService.voiceScore('eSpeak German')));
+    expect(
+      TtsService.voiceScore('Google Deutsch'),
+      greaterThan(TtsService.voiceScore('eSpeak German')),
+    );
   });
 }
