@@ -14,9 +14,10 @@ void main() {
     final titles = [
       'File:LL-Q188 (deu)-Speaker-Haustür.wav',
       'File:LL-Q7411 (nld)-Speaker-Haus.wav',
-      'File:LL-Q188 (deu)-Some-One-Haus.wav',
+      'File:LL-Q188 (deu)-Sebastian Wallroth-Alfandary-Haus.wav',
+      'File:LL-Q188 (deu)-Some One-Haus.wav',
     ];
-    expect(HumanVoice.pickFile(titles, prefix, 'Haus'), 'LL-Q188 (deu)-Some-One-Haus.wav');
+    expect(HumanVoice.pickFile(titles, prefix, 'Haus'), 'LL-Q188 (deu)-Some One-Haus.wav');
     expect(HumanVoice.pickFile(titles, prefix, 'Baum'), isNull);
   });
 

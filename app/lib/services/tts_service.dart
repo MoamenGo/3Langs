@@ -47,8 +47,9 @@ class TtsService {
     if (!slow && await playHuman(text, lang)) return;
     if (_voice != lang) {
       await _tts.setLanguage(lang.tts);
-      await _pickNaturalVoice(lang);
-      _voice = lang;
+      // Browsers load their voice list late: retry on the next call until
+      // a voice is found.
+      if (await _pickNaturalVoice(lang)) _voice = lang;
     }
     // The web engine's normal rate is 1.0; mobile engines use 0.5.
     await _tts.setSpeechRate(
@@ -57,13 +58,13 @@ class TtsService {
     await _tts.speak(text);
   }
 
-  Future<void> _pickNaturalVoice(Lang lang) async {
+  Future<bool> _pickNaturalVoice(Lang lang) async {
     try {
       final voices = (await _tts.getVoices as List?) ?? const [];
       final code = lang.tts.toLowerCase();
       final base = code.split('-').first;
       Map? best;
-      var bestScore = -1;
+      var bestScore = -100;
       for (final v in voices.whereType<Map>()) {
         final locale = '${v['locale'] ?? ''}'.toLowerCase().replaceAll(
           '_',
@@ -82,10 +83,12 @@ class TtsService {
           'name': '${best['name']}',
           'locale': '${best['locale']}',
         });
+        return true;
       }
     } catch (_) {
       // Keep the engine's default voice.
     }
+    return false;
   }
 
   /// How human a voice sounds, judged by its name: neural and online voices

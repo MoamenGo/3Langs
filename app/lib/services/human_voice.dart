@@ -75,7 +75,7 @@ class HumanVoice {
       'origin': '*',
       'list': 'search',
       'srnamespace': '6',
-      'srlimit': '20',
+      'srlimit': '50',
       'srsearch': 'intitle:"$prefix" intitle:"$word"',
     });
     try {
@@ -100,9 +100,12 @@ class HumanVoice {
   static String? pickFile(Iterable<String> titles, String prefix, String word) {
     for (final title in titles) {
       final name = title.startsWith('File:') ? title.substring(5) : title;
-      if (name.startsWith('$prefix-') && name.endsWith('-$word.wav')) {
-        return name;
-      }
+      if (!name.startsWith('$prefix-')) continue;
+      // "<speaker>-<word>.wav": the word is everything after the first
+      // hyphen, so "Alfandary-Haus" does not count as "Haus".
+      final rest = name.substring(prefix.length + 1);
+      final dash = rest.indexOf('-');
+      if (dash > 0 && rest.substring(dash + 1) == '$word.wav') return name;
     }
     return null;
   }
