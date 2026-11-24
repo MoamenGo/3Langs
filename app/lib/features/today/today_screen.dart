@@ -40,60 +40,92 @@ class TodayScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          if (!onboarded)
-            Card(
-              color: Theme.of(context).colorScheme.primaryContainer,
-              child: ListTile(
-                leading: const Icon(Icons.waving_hand),
-                title: Text(l.welcomeTitle),
-                subtitle: Text(l.welcomeSubtitle),
-                trailing: FilledButton(
-                  key: const ValueKey('setup'),
-                  onPressed: () => context.push('/welcome'),
-                  child: Text(l.setUp),
-                ),
-              ),
-            ),
-          Card(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
+      body: LayoutBuilder(
+        builder: (context, c) {
+          final main = <Widget>[
+            if (!onboarded)
+              Card(
+                color: Theme.of(context).colorScheme.primaryContainer,
+                child: ListTile(
+                  leading: const Icon(Icons.waving_hand),
+                  title: Text(l.welcomeTitle),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Icon(
-                        Icons.local_fire_department,
-                        color: Colors.orange,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        l.streakDays(stats?.streakDays ?? 0),
-                        style: Theme.of(context).textTheme.titleMedium,
+                      Text(l.welcomeSubtitle),
+                      const SizedBox(height: 8),
+                      FilledButton(
+                        key: const ValueKey('setup'),
+                        onPressed: () => context.push('/welcome'),
+                        child: Text(l.setUp),
                       ),
                     ],
                   ),
-                  const SizedBox(height: 12),
-                  Text(l.todayGoal(minutes, goal)),
-                  const SizedBox(height: 8),
-                  LinearProgressIndicator(
-                    value: (minutes / goal).clamp(0, 1).toDouble(),
-                  ),
-                ],
+                ),
+              ),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(
+                          Icons.local_fire_department,
+                          color: Colors.orange,
+                        ),
+                        const SizedBox(width: 8),
+                        Text(
+                          l.streakDays(stats?.streakDays ?? 0),
+                          style: Theme.of(context).textTheme.titleMedium,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    Text(l.todayGoal(minutes, goal)),
+                    const SizedBox(height: 8),
+                    LinearProgressIndicator(
+                      value: (minutes / goal).clamp(0, 1).toDouble(),
+                    ),
+                  ],
+                ),
               ),
             ),
-          ),
-          const SizedBox(height: 8),
-          AsyncView(
-            value: plan,
-            builder: (p) => _PlanCard(plan: p, done: done),
-          ),
-          const SizedBox(height: 8),
-          const _LevelCards(),
-        ],
+            const SizedBox(height: 8),
+            AsyncView(
+              value: plan,
+              builder: (p) => _PlanCard(plan: p, done: done),
+            ),
+          ];
+          if (c.maxWidth < 900) {
+            return ListView(
+              padding: const EdgeInsets.all(16),
+              children: [
+                ...main,
+                const SizedBox(height: 8),
+                const _LevelCards(),
+              ],
+            );
+          }
+          return SingleChildScrollView(
+            padding: const EdgeInsets.all(24),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  flex: 3,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: main,
+                  ),
+                ),
+                const SizedBox(width: 24),
+                const Expanded(flex: 2, child: _LevelCards()),
+              ],
+            ),
+          );
+        },
       ),
     );
   }

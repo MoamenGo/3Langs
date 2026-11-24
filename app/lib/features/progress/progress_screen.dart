@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../core/providers.dart';
+import '../../core/responsive.dart';
 import '../../core/widgets.dart';
 
 import 'package:sembast/sembast.dart' show Filter;
@@ -87,9 +88,8 @@ class ProgressScreen extends ConsumerWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Wrap(
-            spacing: 12,
-            runSpacing: 12,
+          ResponsiveGrid(
+            minItemWidth: 130,
             children: [
               _Stat(
                 Icons.local_fire_department,
@@ -172,7 +172,6 @@ class _Stat extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => SizedBox(
-    width: 170,
     child: Card(
       child: Padding(
         padding: const EdgeInsets.all(16),
@@ -202,9 +201,9 @@ class _LanguageCards extends ConsumerWidget {
     final minutes = ref.watch(settingsProvider).value?.dailyGoalMinutes ?? 120;
     final ui = ref.watch(uiLanguageProvider);
     if (tracks == null || outline == null) return const SizedBox.shrink();
-    return Wrap(
-      spacing: 12,
-      runSpacing: 12,
+    return ResponsiveGrid(
+      minItemWidth: 250,
+      maxColumns: 3,
       children: [
         for (final lang in Lang.values)
           Builder(
@@ -231,7 +230,6 @@ class _LanguageCards extends ConsumerWidget {
               final fraction = total == 0 ? 0.0 : done / total;
               final c1 = projectC1(t, outline, minutes, fraction);
               return SizedBox(
-                width: 260,
                 child: Card(
                   shape: RoundedRectangleBorder(
                     side: BorderSide(color: lang.color, width: 2),

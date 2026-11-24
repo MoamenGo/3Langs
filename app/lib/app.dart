@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 import 'core/localization.dart';
 import 'core/providers.dart';
 import 'core/router.dart';
+import 'core/responsive.dart';
 import 'core/theme.dart';
 import 'l10n/app_localizations.dart';
 
@@ -34,8 +35,9 @@ class _ThreeLangAppState extends ConsumerState<ThreeLangApp> {
       theme: buildTheme(Brightness.light, lang: lang, appTheme: appTheme),
       darkTheme: buildTheme(Brightness.dark, lang: lang, appTheme: appTheme),
       themeMode: appTheme == AppTheme.midnight ? ThemeMode.dark : mode,
-      builder: (context, child) =>
-          GlassBackground(child: child ?? const SizedBox.shrink()),
+      builder: (context, child) => GlassBackground(
+        child: ResponsiveFrame(child: child ?? const SizedBox.shrink()),
+      ),
       locale: Locale(uiLanguage),
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: appLocalizationsDelegates,

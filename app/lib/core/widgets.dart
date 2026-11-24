@@ -116,6 +116,12 @@ class LangSwitcher extends ConsumerWidget {
                   ),
                   side: BorderSide(color: lang.color),
                   visualDensity: VisualDensity.compact,
+                  materialTapTargetSize: MediaQuery.sizeOf(context).width < 420
+                      ? MaterialTapTargetSize.shrinkWrap
+                      : null,
+                  labelPadding: MediaQuery.sizeOf(context).width < 420
+                      ? const EdgeInsets.symmetric(horizontal: 2)
+                      : null,
                   onSelected: (_) => switchLanguage(ref, lang),
                 ),
               ),
