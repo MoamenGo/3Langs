@@ -3288,6 +3288,1432 @@
     "en": "Looks alike in German and Dutch: learn them together. (first)",
     "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (أول)"
    }
+  },
+  {
+   "id": "x.gender_nl_education",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.education",
+   "level": "B1",
+   "forms": {
+    "de": "die Bildung",
+    "nl": "het onderwijs"
+   },
+   "note": {
+    "en": "Different gender: German die Bildung (feminine), Dutch het onderwijs (neuter).",
+    "ar": "الجنس مختلف: ألماني die Bildung (مؤنث)، هولندي het onderwijs (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_university",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.university",
+   "level": "B1",
+   "forms": {
+    "de": "die Universität",
+    "nl": "de universiteit",
+    "es": "la universidad"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (university)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (جامعة)"
+   }
+  },
+  {
+   "id": "x.cognate_course",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.course",
+   "level": "B1",
+   "forms": {
+    "de": "der Kurs",
+    "nl": "de cursus",
+    "es": "el curso"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (course)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (كورس)"
+   }
+  },
+  {
+   "id": "x.gender_nl_exam",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.exam",
+   "level": "B1",
+   "forms": {
+    "de": "die Prüfung",
+    "nl": "het examen"
+   },
+   "note": {
+    "en": "Different gender: German die Prüfung (feminine), Dutch het examen (neuter).",
+    "ar": "الجنس مختلف: ألماني die Prüfung (مؤنث)، هولندي het examen (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_exam",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.exam",
+   "level": "B1",
+   "forms": {
+    "de": "die Prüfung",
+    "es": "el examen"
+   },
+   "note": {
+    "en": "Different gender: German die Prüfung (feminine), Spanish el examen (masculine).",
+    "ar": "الجنس مختلف: ألماني die Prüfung (مؤنث)، إسباني el examen (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_exam",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.exam",
+   "level": "B1",
+   "forms": {
+    "de": "die Prüfung",
+    "nl": "het examen",
+    "es": "el examen"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (exam)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (امتحان)"
+   }
+  },
+  {
+   "id": "x.gender_nl_knowledge",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.knowledge",
+   "level": "B1",
+   "forms": {
+    "de": "das Wissen",
+    "nl": "de kennis"
+   },
+   "note": {
+    "en": "Different gender: German das Wissen (neuter), Dutch de kennis (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Wissen (محايد)، هولندي de kennis (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_improve",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.improve",
+   "level": "B1",
+   "forms": {
+    "de": "verbessern",
+    "nl": "verbeteren",
+    "es": "mejorar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to improve)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يحسّن)"
+   }
+  },
+  {
+   "id": "x.cognate_apply",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.apply",
+   "level": "B1",
+   "forms": {
+    "de": "sich bewerben",
+    "nl": "solliciteren",
+    "es": "solicitar"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (to apply)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (يقدّم على)"
+   }
+  },
+  {
+   "id": "x.gender_nl_cv",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.cv",
+   "level": "B1",
+   "forms": {
+    "de": "der Lebenslauf",
+    "nl": "het cv"
+   },
+   "note": {
+    "en": "Different gender: German der Lebenslauf (masculine), Dutch het cv (neuter).",
+    "ar": "الجنس مختلف: ألماني der Lebenslauf (مذكر)، هولندي het cv (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_experience",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.experience",
+   "level": "B1",
+   "forms": {
+    "de": "die Erfahrung",
+    "nl": "de ervaring",
+    "es": "la experiencia"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (experience)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (خبرة)"
+   }
+  },
+  {
+   "id": "x.gender_es_position",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.position",
+   "level": "B1",
+   "forms": {
+    "de": "die Stelle",
+    "es": "el puesto"
+   },
+   "note": {
+    "en": "Different gender: German die Stelle (feminine), Spanish el puesto (masculine).",
+    "ar": "الجنس مختلف: ألماني die Stelle (مؤنث)، إسباني el puesto (مذكر)."
+   }
+  },
+  {
+   "id": "x.gender_nl_contract",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.contract",
+   "level": "B1",
+   "forms": {
+    "de": "der Vertrag",
+    "nl": "het contract"
+   },
+   "note": {
+    "en": "Different gender: German der Vertrag (masculine), Dutch het contract (neuter).",
+    "ar": "الجنس مختلف: ألماني der Vertrag (مذكر)، هولندي het contract (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_contract",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.contract",
+   "level": "B1",
+   "forms": {
+    "de": "der Vertrag",
+    "nl": "het contract",
+    "es": "el contrato"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (contract)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (عقد)"
+   }
+  },
+  {
+   "id": "x.cognate_rule",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.rule",
+   "level": "B1",
+   "forms": {
+    "de": "die Regel",
+    "nl": "de regel",
+    "es": "la norma"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (rule)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (قاعدة)"
+   }
+  },
+  {
+   "id": "x.gender_nl_noise",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.noise",
+   "level": "B1",
+   "forms": {
+    "de": "der Lärm",
+    "nl": "het lawaai"
+   },
+   "note": {
+    "en": "Different gender: German der Lärm (masculine), Dutch het lawaai (neuter).",
+    "ar": "الجنس مختلف: ألماني der Lärm (مذكر)، هولندي het lawaai (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_nl_rubbish",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.rubbish",
+   "level": "B1",
+   "forms": {
+    "de": "der Müll",
+    "nl": "het afval"
+   },
+   "note": {
+    "en": "Different gender: German der Müll (masculine), Dutch het afval (neuter).",
+    "ar": "الجنس مختلف: ألماني der Müll (مذكر)، هولندي het afval (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_rubbish",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.rubbish",
+   "level": "B1",
+   "forms": {
+    "de": "der Müll",
+    "es": "la basura"
+   },
+   "note": {
+    "en": "Different gender: German der Müll (masculine), Spanish la basura (feminine).",
+    "ar": "الجنس مختلف: ألماني der Müll (مذكر)، إسباني la basura (مؤنث)."
+   }
+  },
+  {
+   "id": "x.cognate_share",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.share",
+   "level": "B1",
+   "forms": {
+    "de": "teilen",
+    "nl": "delen",
+    "es": "compartir"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to share)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يشارك، يقسم)"
+   }
+  },
+  {
+   "id": "x.cognate_respect",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.respect",
+   "level": "B1",
+   "forms": {
+    "de": "respektieren",
+    "nl": "respecteren",
+    "es": "respetar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (to respect)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (يحترم)"
+   }
+  },
+  {
+   "id": "x.gender_nl_conflict",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.conflict",
+   "level": "B1",
+   "forms": {
+    "de": "der Konflikt",
+    "nl": "het conflict"
+   },
+   "note": {
+    "en": "Different gender: German der Konflikt (masculine), Dutch het conflict (neuter).",
+    "ar": "الجنس مختلف: ألماني der Konflikt (مذكر)، هولندي het conflict (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_conflict",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.conflict",
+   "level": "B1",
+   "forms": {
+    "de": "der Konflikt",
+    "nl": "het conflict",
+    "es": "el conflicto"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (conflict)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (خلاف)"
+   }
+  },
+  {
+   "id": "x.cognate_let",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.let",
+   "level": "B1",
+   "forms": {
+    "de": "lassen",
+    "nl": "laten",
+    "es": "dejar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to let, to have (something done))",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يخلّي)"
+   }
+  },
+  {
+   "id": "x.cognate_save",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.save",
+   "level": "B1",
+   "forms": {
+    "de": "sparen",
+    "nl": "sparen",
+    "es": "ahorrar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to save (money))",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يحوّش)"
+   }
+  },
+  {
+   "id": "x.cognate_debt",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.debt",
+   "level": "B1",
+   "forms": {
+    "de": "die Schulden",
+    "nl": "de schuld",
+    "es": "la deuda"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (debt)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (دين)"
+   }
+  },
+  {
+   "id": "x.gender_es_receipt",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.receipt",
+   "level": "B1",
+   "forms": {
+    "de": "die Quittung",
+    "es": "el recibo"
+   },
+   "note": {
+    "en": "Different gender: German die Quittung (feminine), Spanish el recibo (masculine).",
+    "ar": "الجنس مختلف: ألماني die Quittung (مؤنث)، إسباني el recibo (مذكر)."
+   }
+  },
+  {
+   "id": "x.gender_nl_offer",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.offer",
+   "level": "B1",
+   "forms": {
+    "de": "das Angebot",
+    "nl": "de aanbieding"
+   },
+   "note": {
+    "en": "Different gender: German das Angebot (neuter), Dutch de aanbieding (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Angebot (محايد)، هولندي de aanbieding (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.gender_nl_environment",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.environment",
+   "level": "B1",
+   "forms": {
+    "de": "die Umwelt",
+    "nl": "het milieu"
+   },
+   "note": {
+    "en": "Different gender: German die Umwelt (feminine), Dutch het milieu (neuter).",
+    "ar": "الجنس مختلف: ألماني die Umwelt (مؤنث)، هولندي het milieu (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_environment",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.environment",
+   "level": "B1",
+   "forms": {
+    "de": "die Umwelt",
+    "es": "el medio ambiente"
+   },
+   "note": {
+    "en": "Different gender: German die Umwelt (feminine), Spanish el medio ambiente (masculine).",
+    "ar": "الجنس مختلف: ألماني die Umwelt (مؤنث)، إسباني el medio ambiente (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_nature",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.nature",
+   "level": "B1",
+   "forms": {
+    "de": "die Natur",
+    "nl": "de natuur",
+    "es": "la naturaleza"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (nature)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (الطبيعة)"
+   }
+  },
+  {
+   "id": "x.cognate_climate",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.climate",
+   "level": "B1",
+   "forms": {
+    "de": "das Klima",
+    "nl": "het klimaat",
+    "es": "el clima"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (climate)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (المناخ)"
+   }
+  },
+  {
+   "id": "x.cognate_energy",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.energy",
+   "level": "B1",
+   "forms": {
+    "de": "die Energie",
+    "nl": "de energie",
+    "es": "la energía"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (energy)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (طاقة)"
+   }
+  },
+  {
+   "id": "x.cognate_recycle",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.recycle",
+   "level": "B1",
+   "forms": {
+    "de": "recyceln",
+    "nl": "recyclen",
+    "es": "reciclar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to recycle)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يعيد التدوير)"
+   }
+  },
+  {
+   "id": "x.gender_es_future",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.future",
+   "level": "B1",
+   "forms": {
+    "de": "die Zukunft",
+    "es": "el futuro"
+   },
+   "note": {
+    "en": "Different gender: German die Zukunft (feminine), Spanish el futuro (masculine).",
+    "ar": "الجنس مختلف: ألماني die Zukunft (مؤنث)، إسباني el futuro (مذكر)."
+   }
+  },
+  {
+   "id": "x.gender_nl_news",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.news",
+   "level": "B1",
+   "forms": {
+    "de": "die Nachrichten",
+    "nl": "het nieuws"
+   },
+   "note": {
+    "en": "Different gender: German die Nachrichten (feminine), Dutch het nieuws (neuter).",
+    "ar": "الجنس مختلف: ألماني die Nachrichten (مؤنث)، هولندي het nieuws (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_nl_article",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.article",
+   "level": "B1",
+   "forms": {
+    "de": "der Artikel",
+    "nl": "het artikel"
+   },
+   "note": {
+    "en": "Different gender: German der Artikel (masculine), Dutch het artikel (neuter).",
+    "ar": "الجنس مختلف: ألماني der Artikel (مذكر)، هولندي het artikel (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_article",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.article",
+   "level": "B1",
+   "forms": {
+    "de": "der Artikel",
+    "nl": "het artikel",
+    "es": "el artículo"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (article)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (مقالة)"
+   }
+  },
+  {
+   "id": "x.cognate_report",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.report",
+   "level": "B1",
+   "forms": {
+    "de": "berichten",
+    "nl": "berichten",
+    "es": "informar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to report)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يبلّغ، يغطّي (خبر))"
+   }
+  },
+  {
+   "id": "x.cognate_journalist",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.journalist",
+   "level": "B1",
+   "forms": {
+    "de": "der Journalist",
+    "nl": "de journalist",
+    "es": "el periodista"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (journalist)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (صحفي)"
+   }
+  },
+  {
+   "id": "x.cognate_opinion",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.opinion",
+   "level": "B1",
+   "forms": {
+    "de": "die Meinung",
+    "nl": "de mening",
+    "es": "la opinión"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (opinion)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (رأي)"
+   }
+  },
+  {
+   "id": "x.gender_es_health_insurance",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.health_insurance",
+   "level": "B1",
+   "forms": {
+    "de": "die Krankenversicherung",
+    "es": "el seguro médico"
+   },
+   "note": {
+    "en": "Different gender: German die Krankenversicherung (feminine), Spanish el seguro médico (masculine).",
+    "ar": "الجنس مختلف: ألماني die Krankenversicherung (مؤنث)، إسباني el seguro médico (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_patient",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.patient",
+   "level": "B1",
+   "forms": {
+    "de": "der Patient",
+    "nl": "de patiënt",
+    "es": "el paciente"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (patient)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (مريض)"
+   }
+  },
+  {
+   "id": "x.gender_es_treatment",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.treatment",
+   "level": "B1",
+   "forms": {
+    "de": "die Behandlung",
+    "es": "el tratamiento"
+   },
+   "note": {
+    "en": "Different gender: German die Behandlung (feminine), Spanish el tratamiento (masculine).",
+    "ar": "الجنس مختلف: ألماني die Behandlung (مؤنث)، إسباني el tratamiento (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_treatment",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.treatment",
+   "level": "B1",
+   "forms": {
+    "de": "die Behandlung",
+    "nl": "de behandeling",
+    "es": "el tratamiento"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (treatment)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (علاج)"
+   }
+  },
+  {
+   "id": "x.gender_nl_emergency",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.emergency",
+   "level": "B1",
+   "forms": {
+    "de": "der Notfall",
+    "nl": "het noodgeval"
+   },
+   "note": {
+    "en": "Different gender: German der Notfall (masculine), Dutch het noodgeval (neuter).",
+    "ar": "الجنس مختلف: ألماني der Notfall (مذكر)، هولندي het noodgeval (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_emergency",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.emergency",
+   "level": "B1",
+   "forms": {
+    "de": "der Notfall",
+    "es": "la emergencia"
+   },
+   "note": {
+    "en": "Different gender: German der Notfall (masculine), Spanish la emergencia (feminine).",
+    "ar": "الجنس مختلف: ألماني der Notfall (مذكر)، إسباني la emergencia (مؤنث)."
+   }
+  },
+  {
+   "id": "x.gender_es_nurse",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.nurse",
+   "level": "B1",
+   "forms": {
+    "de": "die Pflegekraft",
+    "es": "el enfermero"
+   },
+   "note": {
+    "en": "Different gender: German die Pflegekraft (feminine), Spanish el enfermero (masculine).",
+    "ar": "الجنس مختلف: ألماني die Pflegekraft (مؤنث)، إسباني el enfermero (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_avoid",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.avoid",
+   "level": "B1",
+   "forms": {
+    "de": "vermeiden",
+    "nl": "vermijden",
+    "es": "evitar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to avoid)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يتجنّب)"
+   }
+  },
+  {
+   "id": "x.gender_es_art",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.art",
+   "level": "B1",
+   "forms": {
+    "de": "die Kunst",
+    "es": "el arte"
+   },
+   "note": {
+    "en": "Different gender: German die Kunst (feminine), Spanish el arte (masculine).",
+    "ar": "الجنس مختلف: ألماني die Kunst (مؤنث)، إسباني el arte (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_art",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.art",
+   "level": "B1",
+   "forms": {
+    "de": "die Kunst",
+    "nl": "de kunst",
+    "es": "el arte"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (art)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (فن)"
+   }
+  },
+  {
+   "id": "x.gender_nl_painting",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.painting",
+   "level": "B1",
+   "forms": {
+    "de": "das Gemälde",
+    "nl": "de schilderij-tentoonstelling"
+   },
+   "note": {
+    "en": "Different gender: German das Gemälde (neuter), Dutch de schilderij-tentoonstelling (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Gemälde (محايد)، هولندي de schilderij-tentoonstelling (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_concert",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.concert",
+   "level": "B1",
+   "forms": {
+    "de": "das Konzert",
+    "nl": "het concert",
+    "es": "el concierto"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (concert)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (حفلة موسيقية)"
+   }
+  },
+  {
+   "id": "x.cognate_theatre",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.theatre",
+   "level": "B1",
+   "forms": {
+    "de": "das Theater",
+    "nl": "het theater",
+    "es": "el teatro"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (theatre)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (مسرح)"
+   }
+  },
+  {
+   "id": "x.cognate_audience",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.audience",
+   "level": "B1",
+   "forms": {
+    "de": "das Publikum",
+    "nl": "het publiek",
+    "es": "el público"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (audience)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (الجمهور)"
+   }
+  },
+  {
+   "id": "x.gender_nl_traffic",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.traffic",
+   "level": "B1",
+   "forms": {
+    "de": "der Verkehr",
+    "nl": "het verkeer"
+   },
+   "note": {
+    "en": "Different gender: German der Verkehr (masculine), Dutch het verkeer (neuter).",
+    "ar": "الجنس مختلف: ألماني der Verkehr (مذكر)، هولندي het verkeer (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_traffic",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.traffic",
+   "level": "B1",
+   "forms": {
+    "de": "der Verkehr",
+    "nl": "het verkeer",
+    "es": "el tráfico"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (traffic)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (مرور، زحمة)"
+   }
+  },
+  {
+   "id": "x.gender_es_delay",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.delay",
+   "level": "B1",
+   "forms": {
+    "de": "die Verspätung",
+    "es": "el retraso"
+   },
+   "note": {
+    "en": "Different gender: German die Verspätung (feminine), Spanish el retraso (masculine).",
+    "ar": "الجنس مختلف: ألماني die Verspätung (مؤنث)، إسباني el retraso (مذكر)."
+   }
+  },
+  {
+   "id": "x.gender_nl_bicycle",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.bicycle",
+   "level": "B1",
+   "forms": {
+    "de": "das Fahrrad",
+    "nl": "de fiets"
+   },
+   "note": {
+    "en": "Different gender: German das Fahrrad (neuter), Dutch de fiets (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Fahrrad (محايد)، هولندي de fiets (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_connection",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.connection",
+   "level": "B1",
+   "forms": {
+    "de": "die Verbindung",
+    "nl": "de verbinding",
+    "es": "la conexión"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (connection (transport))",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (مواصلة)"
+   }
+  },
+  {
+   "id": "x.gender_nl_public_transport",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.public_transport",
+   "level": "B1",
+   "forms": {
+    "de": "die öffentlichen Verkehrsmittel",
+    "nl": "het openbaar vervoer"
+   },
+   "note": {
+    "en": "Different gender: German die öffentlichen Verkehrsmittel (feminine), Dutch het openbaar vervoer (neuter).",
+    "ar": "الجنس مختلف: ألماني die öffentlichen Verkehrsmittel (مؤنث)، هولندي het openbaar vervoer (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_public_transport",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.public_transport",
+   "level": "B1",
+   "forms": {
+    "de": "die öffentlichen Verkehrsmittel",
+    "es": "el transporte público"
+   },
+   "note": {
+    "en": "Different gender: German die öffentlichen Verkehrsmittel (feminine), Spanish el transporte público (masculine).",
+    "ar": "الجنس مختلف: ألماني die öffentlichen Verkehrsmittel (مؤنث)، إسباني el transporte público (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_arrive",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.arrive",
+   "level": "B1",
+   "forms": {
+    "de": "ankommen",
+    "nl": "aankomen",
+    "es": "llegar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to arrive)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يوصل)"
+   }
+  },
+  {
+   "id": "x.cognate_politics",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.politics",
+   "level": "B1",
+   "forms": {
+    "de": "die Politik",
+    "nl": "de politiek",
+    "es": "la política"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (politics)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (سياسة)"
+   }
+  },
+  {
+   "id": "x.gender_es_government",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.government",
+   "level": "B1",
+   "forms": {
+    "de": "die Regierung",
+    "es": "el gobierno"
+   },
+   "note": {
+    "en": "Different gender: German die Regierung (feminine), Spanish el gobierno (masculine).",
+    "ar": "الجنس مختلف: ألماني die Regierung (مؤنث)، إسباني el gobierno (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_government",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.government",
+   "level": "B1",
+   "forms": {
+    "de": "die Regierung",
+    "nl": "de regering",
+    "es": "el gobierno"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (government)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (حكومة)"
+   }
+  },
+  {
+   "id": "x.cognate_citizen",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.citizen",
+   "level": "B1",
+   "forms": {
+    "de": "der Bürger",
+    "nl": "de burger",
+    "es": "el ciudadano"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (citizen)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (مواطن)"
+   }
+  },
+  {
+   "id": "x.gender_nl_law",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.law",
+   "level": "B1",
+   "forms": {
+    "de": "das Gesetz",
+    "nl": "de wet"
+   },
+   "note": {
+    "en": "Different gender: German das Gesetz (neuter), Dutch de wet (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Gesetz (محايد)، هولندي de wet (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_right_n",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.right_n",
+   "level": "B1",
+   "forms": {
+    "de": "das Recht",
+    "nl": "het recht",
+    "es": "el derecho"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (right (entitlement))",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (حق)"
+   }
+  },
+  {
+   "id": "x.cognate_trust",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.trust",
+   "level": "B1",
+   "forms": {
+    "de": "vertrauen",
+    "nl": "vertrouwen",
+    "es": "confiar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to trust)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يثق)"
+   }
+  },
+  {
+   "id": "x.cognate_think_of",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.think_of",
+   "level": "B1",
+   "forms": {
+    "de": "denken an",
+    "nl": "denken aan",
+    "es": "pensar en"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to think of)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يفكر في)"
+   }
+  },
+  {
+   "id": "x.gender_nl_research",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.research",
+   "level": "B1",
+   "forms": {
+    "de": "die Forschung",
+    "nl": "het onderzoek"
+   },
+   "note": {
+    "en": "Different gender: German die Forschung (feminine), Dutch het onderzoek (neuter).",
+    "ar": "الجنس مختلف: ألماني die Forschung (مؤنث)، هولندي het onderzoek (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_invention",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.invention",
+   "level": "B1",
+   "forms": {
+    "de": "die Erfindung",
+    "es": "el invento"
+   },
+   "note": {
+    "en": "Different gender: German die Erfindung (feminine), Spanish el invento (masculine).",
+    "ar": "الجنس مختلف: ألماني die Erfindung (مؤنث)، إسباني el invento (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_develop",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.develop",
+   "level": "B1",
+   "forms": {
+    "de": "entwickeln",
+    "nl": "ontwikkelen",
+    "es": "desarrollar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to develop)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يطوّر)"
+   }
+  },
+  {
+   "id": "x.cognate_device",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.device",
+   "level": "B1",
+   "forms": {
+    "de": "das Gerät",
+    "nl": "het apparaat",
+    "es": "el aparato"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (device)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (جهاز)"
+   }
+  },
+  {
+   "id": "x.gender_es_data",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.data",
+   "level": "B1",
+   "forms": {
+    "de": "die Daten",
+    "es": "los datos"
+   },
+   "note": {
+    "en": "Different gender: German die Daten (feminine), Spanish los datos (masculine).",
+    "ar": "الجنس مختلف: ألماني die Daten (مؤنث)، إسباني los datos (مذكر)."
+   }
+  },
+  {
+   "id": "x.cognate_robot",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.robot",
+   "level": "B1",
+   "forms": {
+    "de": "der Roboter",
+    "nl": "de robot",
+    "es": "el robot"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (robot)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (روبوت)"
+   }
+  },
+  {
+   "id": "x.cognate_developed",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.developed",
+   "level": "B1",
+   "forms": {
+    "de": "entwickelt",
+    "nl": "ontwikkeld",
+    "es": "desarrollado"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (developed)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (متطور)"
+   }
+  },
+  {
+   "id": "x.gender_nl_team",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.team",
+   "level": "B1",
+   "forms": {
+    "de": "die Mannschaft",
+    "nl": "het team"
+   },
+   "note": {
+    "en": "Different gender: German die Mannschaft (feminine), Dutch het team (neuter).",
+    "ar": "الجنس مختلف: ألماني die Mannschaft (مؤنث)، هولندي het team (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_es_team",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.team",
+   "level": "B1",
+   "forms": {
+    "de": "die Mannschaft",
+    "es": "el equipo"
+   },
+   "note": {
+    "en": "Different gender: German die Mannschaft (feminine), Spanish el equipo (masculine).",
+    "ar": "الجنس مختلف: ألماني die Mannschaft (مؤنث)، إسباني el equipo (مذكر)."
+   }
+  },
+  {
+   "id": "x.gender_nl_match",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.match",
+   "level": "B1",
+   "forms": {
+    "de": "das Spiel",
+    "nl": "de wedstrijd"
+   },
+   "note": {
+    "en": "Different gender: German das Spiel (neuter), Dutch de wedstrijd (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Spiel (محايد)، هولندي de wedstrijd (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.gender_nl_training",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.training",
+   "level": "B1",
+   "forms": {
+    "de": "das Training",
+    "nl": "de training"
+   },
+   "note": {
+    "en": "Different gender: German das Training (neuter), Dutch de training (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Training (محايد)، هولندي de training (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_training",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.training",
+   "level": "B1",
+   "forms": {
+    "de": "das Training",
+    "nl": "de training",
+    "es": "el entrenamiento"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (training)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (تمرين)"
+   }
+  },
+  {
+   "id": "x.gender_es_competition",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.competition",
+   "level": "B1",
+   "forms": {
+    "de": "der Wettbewerb",
+    "es": "la competición"
+   },
+   "note": {
+    "en": "Different gender: German der Wettbewerb (masculine), Spanish la competición (feminine).",
+    "ar": "الجنس مختلف: ألماني der Wettbewerb (مذكر)، إسباني la competición (مؤنث)."
+   }
+  },
+  {
+   "id": "x.gender_nl_hobby",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.hobby",
+   "level": "B1",
+   "forms": {
+    "de": "das Hobby",
+    "nl": "de hobby"
+   },
+   "note": {
+    "en": "Different gender: German das Hobby (neuter), Dutch de hobby (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Hobby (محايد)، هولندي de hobby (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_hobby",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.hobby",
+   "level": "B1",
+   "forms": {
+    "de": "das Hobby",
+    "nl": "de hobby",
+    "es": "el pasatiempo"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (hobby)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (هواية)"
+   }
+  },
+  {
+   "id": "x.cognate_abroad_live",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.abroad_live",
+   "level": "B1",
+   "forms": {
+    "de": "auswandern",
+    "nl": "emigreren",
+    "es": "emigrar"
+   },
+   "note": {
+    "en": "Looks alike in Dutch and Spanish: learn them together. (to emigrate)",
+    "ar": "شبه بعض في الهولندي والإسباني: احفظهم مع بعض. (يهاجر)"
+   }
+  },
+  {
+   "id": "x.cognate_integration",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.integration",
+   "level": "B1",
+   "forms": {
+    "de": "die Integration",
+    "nl": "de integratie",
+    "es": "la integración"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (integration)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (اندماج)"
+   }
+  },
+  {
+   "id": "x.gender_nl_homesickness",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.homesickness",
+   "level": "B1",
+   "forms": {
+    "de": "das Heimweh",
+    "nl": "de heimwee"
+   },
+   "note": {
+    "en": "Different gender: German das Heimweh (neuter), Dutch de heimwee (common (de)).",
+    "ar": "الجنس مختلف: ألماني das Heimweh (محايد)، هولندي de heimwee (de (مشترك))."
+   }
+  },
+  {
+   "id": "x.cognate_homesickness",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.homesickness",
+   "level": "B1",
+   "forms": {
+    "de": "das Heimweh",
+    "nl": "de heimwee",
+    "es": "la nostalgia"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (homesickness)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (الحنين للوطن)"
+   }
+  },
+  {
+   "id": "x.cognate_culture",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.culture",
+   "level": "B1",
+   "forms": {
+    "de": "die Kultur",
+    "nl": "de cultuur",
+    "es": "la cultura"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (culture)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (ثقافة)"
+   }
+  },
+  {
+   "id": "x.cognate_plan_v",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.plan_v",
+   "level": "B1",
+   "forms": {
+    "de": "planen",
+    "nl": "plannen",
+    "es": "planear"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch and Spanish: learn them together. (to plan)",
+    "ar": "شبه بعض في الألماني والهولندي والإسباني: احفظهم مع بعض. (يخطط)"
+   }
+  },
+  {
+   "id": "x.cognate_visa",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.visa",
+   "level": "B1",
+   "forms": {
+    "de": "das Visum",
+    "nl": "het visum",
+    "es": "el visado"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (visa)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (فيزا)"
+   }
+  },
+  {
+   "id": "x.gender_nl_request",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.request",
+   "level": "B1",
+   "forms": {
+    "de": "die Anfrage",
+    "nl": "het verzoek"
+   },
+   "note": {
+    "en": "Different gender: German die Anfrage (feminine), Dutch het verzoek (neuter).",
+    "ar": "الجنس مختلف: ألماني die Anfrage (مؤنث)، هولندي het verzoek (محايد)."
+   }
+  },
+  {
+   "id": "x.gender_nl_reply_n",
+   "kind": "gender_mismatch",
+   "conceptId": "c.b1.reply_n",
+   "level": "B1",
+   "forms": {
+    "de": "die Antwort",
+    "nl": "het antwoord"
+   },
+   "note": {
+    "en": "Different gender: German die Antwort (feminine), Dutch het antwoord (neuter).",
+    "ar": "الجنس مختلف: ألماني die Antwort (مؤنث)، هولندي het antwoord (محايد)."
+   }
+  },
+  {
+   "id": "x.cognate_reply_n",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.reply_n",
+   "level": "B1",
+   "forms": {
+    "de": "die Antwort",
+    "nl": "het antwoord",
+    "es": "la respuesta"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (reply)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (رد)"
+   }
+  },
+  {
+   "id": "x.cognate_confirm",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.confirm",
+   "level": "B1",
+   "forms": {
+    "de": "bestätigen",
+    "nl": "bevestigen",
+    "es": "confirmar"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (to confirm)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (يأكّد)"
+   }
+  },
+  {
+   "id": "x.cognate_registration",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.registration",
+   "level": "B1",
+   "forms": {
+    "de": "die Anmeldung",
+    "nl": "de aanmelding",
+    "es": "la inscripción"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (registration)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (تسجيل)"
+   }
+  },
+  {
+   "id": "x.cognate_grateful",
+   "kind": "near_cognate",
+   "conceptId": "c.b1.grateful",
+   "level": "B1",
+   "forms": {
+    "de": "dankbar",
+    "nl": "dankbaar",
+    "es": "agradecido"
+   },
+   "note": {
+    "en": "Looks alike in German and Dutch: learn them together. (grateful)",
+    "ar": "شبه بعض في الألماني والهولندي: احفظهم مع بعض. (ممتن)"
+   }
   }
  ]
 }
