@@ -574,4 +574,82 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get languagesAndPlanHint =>
       'Pause a language, change start dates, placement tests';
+
+  @override
+  String get appearance => 'Appearance';
+
+  @override
+  String get colorTheme => 'Colour theme';
+
+  @override
+  String get themeLanguage => 'Language colours';
+
+  @override
+  String get themeAurora => 'Aurora';
+
+  @override
+  String get themeOcean => 'Ocean';
+
+  @override
+  String get themeSunset => 'Sunset';
+
+  @override
+  String get themeForest => 'Forest';
+
+  @override
+  String get themeRose => 'Rose';
+
+  @override
+  String get themeMidnight => 'Midnight';
+
+  @override
+  String get modeSystem => 'Auto';
+
+  @override
+  String get modeLight => 'Light';
+
+  @override
+  String get modeDark => 'Dark';
+
+  @override
+  String get humanVoice => 'Human voice';
+
+  @override
+  String get humanVoiceHint =>
+      'Words play real recordings by native speakers (Lingua Libre, free licence). Sentences use the most natural voice on your device.';
+
+  @override
+  String get nativeSpeaker => 'Native speaker';
+
+  @override
+  String get watchOnYouTube => 'Watch on YouTube';
+
+  @override
+  String get videosTitle => 'Videos on this topic';
+
+  @override
+  String get videosHint => 'Opens YouTube with lessons on this exact topic.';
+
+  @override
+  String get videoInArabic => 'Explained in Arabic';
+
+  @override
+  String get videoInEnglish => 'Explained in English';
+
+  @override
+  String videoNative(String language) {
+    return 'In $language only';
+  }
+
+  @override
+  String get keyPoints => 'Key points';
+
+  @override
+  String get examplesTitle => 'Examples';
+
+  @override
+  String get remember => 'Remember';
+
+  @override
+  String get listenAll => 'Listen to all';
 }

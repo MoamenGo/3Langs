@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
+
 import 'package:sembast/sembast.dart' show Filter;
 
 import '../../core/lang/lang.dart';
@@ -209,7 +210,10 @@ class _LanguageCards extends ConsumerWidget {
           Builder(
             builder: (context) {
               final t = tracks[lang]!;
-              final level = ContentRepository.packLevelFor(lang, t.currentLevel);
+              final level = ContentRepository.packLevelFor(
+                lang,
+                t.currentLevel,
+              );
               final pack = level == null
                   ? null
                   : ref

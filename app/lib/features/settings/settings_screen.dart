@@ -4,6 +4,8 @@ import 'package:intl/intl.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../core/providers.dart';
+import '../../core/lang/lang.dart';
+import '../../core/theme.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
@@ -60,6 +62,16 @@ class SettingsScreen extends ConsumerWidget {
               onChanged: (v) => save(settings.copyWith(explanationLanguage: v)),
             ),
           ),
+          const _AppearanceSection(),
+          SwitchListTile(
+            secondary: const Icon(Icons.record_voice_over_outlined),
+            title: Text(l.humanVoice),
+            subtitle: Text(l.humanVoiceHint),
+            value: ref.watch(humanVoiceProvider).value ?? true,
+            onChanged: (v) =>
+                ref.read(localDbProvider).setMeta('human_voice', v),
+          ),
+          const Divider(),
           const _TracksSection(),
           const Divider(),
           ListTile(
@@ -229,6 +241,150 @@ class _TracksSection extends ConsumerWidget {
                   ),
           ),
       ],
+    );
+  }
+}
+
+/// Colour theme and light/dark mode.
+class _AppearanceSection extends ConsumerWidget {
+  const _AppearanceSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final current = ref.watch(appThemeProvider).value ?? AppTheme.aurora;
+    final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
+    final db = ref.read(localDbProvider);
+    final names = {
+      AppTheme.language: l.themeLanguage,
+      AppTheme.aurora: l.themeAurora,
+      AppTheme.ocean: l.themeOcean,
+      AppTheme.sunset: l.themeSunset,
+      AppTheme.forest: l.themeForest,
+      AppTheme.rose: l.themeRose,
+      AppTheme.midnight: l.themeMidnight,
+    };
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.palette_outlined),
+              const SizedBox(width: 16),
+              Text(
+                l.colorTheme,
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Wrap(
+            spacing: 12,
+            runSpacing: 12,
+            children: [
+              for (final t in AppTheme.values)
+                _ThemeSwatch(
+                  key: Key('theme-${t.name}'),
+                  theme: t,
+                  label: names[t]!,
+                  selected: t == current,
+                  onTap: () => db.setMeta('theme', t.name),
+                ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          SegmentedButton<ThemeMode>(
+            segments: [
+              ButtonSegment(
+                value: ThemeMode.system,
+                icon: const Icon(Icons.brightness_auto),
+                label: Text(l.modeSystem),
+              ),
+              ButtonSegment(
+                value: ThemeMode.light,
+                icon: const Icon(Icons.light_mode),
+                label: Text(l.modeLight),
+              ),
+              ButtonSegment(
+                value: ThemeMode.dark,
+                icon: const Icon(Icons.dark_mode),
+                label: Text(l.modeDark),
+              ),
+            ],
+            selected: {mode},
+            onSelectionChanged: (s) => db.setMeta('theme_mode', s.first.name),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ThemeSwatch extends StatelessWidget {
+  const _ThemeSwatch({
+    super.key,
+    required this.theme,
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+  final AppTheme theme;
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = theme == AppTheme.language
+        ? [for (final l in Lang.values) l.color]
+        : theme.gradient;
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: SizedBox(
+        width: 84,
+        child: Column(
+          children: [
+            AnimatedContainer(
+              duration: const Duration(milliseconds: 200),
+              width: 56,
+              height: 56,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: LinearGradient(
+                  colors: colors,
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+                border: Border.all(
+                  color: selected
+                      ? Theme.of(context).colorScheme.primary
+                      : Colors.transparent,
+                  width: 3,
+                ),
+                boxShadow: [
+                  if (selected)
+                    BoxShadow(
+                      color: colors.first.withValues(alpha: 0.5),
+                      blurRadius: 12,
+                    ),
+                ],
+              ),
+              child: selected
+                  ? const Icon(Icons.check, color: Colors.white)
+                  : null,
+            ),
+            const SizedBox(height: 6),
+            Text(
+              label,
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.labelSmall,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

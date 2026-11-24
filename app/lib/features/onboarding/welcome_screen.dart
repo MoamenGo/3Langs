@@ -117,7 +117,12 @@ class WelcomeScreen extends ConsumerWidget {
                             ),
                             if (t.status != TrackStatus.paused)
                               Padding(
-                                padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+                                padding: const EdgeInsets.fromLTRB(
+                                  16,
+                                  0,
+                                  16,
+                                  8,
+                                ),
                                 child: Wrap(
                                   spacing: 8,
                                   runSpacing: 8,

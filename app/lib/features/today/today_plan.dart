@@ -32,7 +32,9 @@ SessionBlock blockFromJson(Map<String, Object?> j) => SessionBlock(
   lang: Lang.tryParse(j['lang'] as String?),
   minutes: j['minutes'] as int,
   lessonId: j['lessonId'] as String?,
-  skill: j['skill'] == null ? null : SkillKind.values.byName(j['skill'] as String),
+  skill: j['skill'] == null
+      ? null
+      : SkillKind.values.byName(j['skill'] as String),
 );
 
 /// Builds today's plan from the tracks, due cards, next lessons and recent
@@ -60,7 +62,10 @@ final todayPlanProvider = FutureProvider<SessionPlan>((ref) async {
   final tracks = await ref.read(trackRepositoryProvider).all();
   final settings = await ref.read(settingsRepositoryProvider).get();
   final due = await ref.read(srsRepositoryProvider).dueCards(newLimit: 0);
-  final progress = await ref.read(progressRepositoryProvider).watchLessons().first;
+  final progress = await ref
+      .read(progressRepositoryProvider)
+      .watchLessons()
+      .first;
   final events = await ref.read(interferenceRepositoryProvider).all();
   final content = ref.read(contentRepositoryProvider);
 
@@ -121,8 +126,9 @@ final doneBlocksProvider = StreamProvider<Set<String>>((ref) {
 Future<void> markBlockDone(WidgetRef ref, SessionBlock block) async {
   final db = ref.read(localDbProvider);
   final key = _doneKey(todayKey());
-  final done = ((await db.getMeta<List>(key)) ?? const []).cast<String>().toSet()
-    ..add(block.id);
+  final done =
+      ((await db.getMeta<List>(key)) ?? const []).cast<String>().toSet()
+        ..add(block.id);
   await db.setMeta(key, done.toList());
 }
 

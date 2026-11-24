@@ -583,4 +583,82 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get languagesAndPlanHint =>
       'وقّف لغة، غيّر ميعاد البداية، اختبار المستوى';
+
+  @override
+  String get appearance => 'الشكل';
+
+  @override
+  String get colorTheme => 'لون الثيم';
+
+  @override
+  String get themeLanguage => 'ألوان اللغة';
+
+  @override
+  String get themeAurora => 'شفق';
+
+  @override
+  String get themeOcean => 'محيط';
+
+  @override
+  String get themeSunset => 'غروب';
+
+  @override
+  String get themeForest => 'غابة';
+
+  @override
+  String get themeRose => 'وردي';
+
+  @override
+  String get themeMidnight => 'نص الليل';
+
+  @override
+  String get modeSystem => 'تلقائي';
+
+  @override
+  String get modeLight => 'فاتح';
+
+  @override
+  String get modeDark => 'غامق';
+
+  @override
+  String get humanVoice => 'صوت بشري';
+
+  @override
+  String get humanVoiceHint =>
+      'الكلمات بتشغّل تسجيلات حقيقية لناس من أهل اللغة (Lingua Libre، رخصة مجانية). والجمل بتستخدم أطبع صوت موجود على جهازك.';
+
+  @override
+  String get nativeSpeaker => 'صوت من أهل اللغة';
+
+  @override
+  String get watchOnYouTube => 'اتفرج على يوتيوب';
+
+  @override
+  String get videosTitle => 'فيديوهات عن الموضوع ده';
+
+  @override
+  String get videosHint => 'بيفتح يوتيوب على دروس عن نفس الموضوع بالظبط.';
+
+  @override
+  String get videoInArabic => 'شرح بالعربي';
+
+  @override
+  String get videoInEnglish => 'شرح بالإنجليزي';
+
+  @override
+  String videoNative(String language) {
+    return '$language بس';
+  }
+
+  @override
+  String get keyPoints => 'أهم النقط';
+
+  @override
+  String get examplesTitle => 'أمثلة';
+
+  @override
+  String get remember => 'افتكر';
+
+  @override
+  String get listenAll => 'اسمع الكل';
 }

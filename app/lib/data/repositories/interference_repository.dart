@@ -35,9 +35,7 @@ class InterferenceRepository {
       .watchAll(LocalDb.interferenceEvents)
       .map(
         (rows) =>
-            rows
-                .map((r) => InterferenceEvent.fromJson(Map.of(r)))
-                .toList()
+            rows.map((r) => InterferenceEvent.fromJson(Map.of(r))).toList()
               ..sort((a, b) => b.at.compareTo(a.at)),
       );
 
@@ -49,6 +47,5 @@ class InterferenceRepository {
 }
 
 /// Events in the 7 days before [now].
-int eventsThisWeek(List<InterferenceEvent> events, DateTime now) => events
-    .where((e) => now.difference(e.at) < const Duration(days: 7))
-    .length;
+int eventsThisWeek(List<InterferenceEvent> events, DateTime now) =>
+    events.where((e) => now.difference(e.at) < const Duration(days: 7)).length;

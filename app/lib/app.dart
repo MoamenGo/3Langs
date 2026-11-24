@@ -26,11 +26,16 @@ class _ThreeLangAppState extends ConsumerState<ThreeLangApp> {
     final settings = ref.watch(settingsProvider).value;
     final uiLanguage = settings?.uiLanguage ?? 'ar';
     final lang = ref.watch(activeLangProvider);
+    final appTheme = ref.watch(appThemeProvider).value ?? AppTheme.aurora;
+    final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
     return MaterialApp.router(
       onGenerateTitle: (c) => AppLocalizations.of(c).appTitle,
       debugShowCheckedModeBanner: false,
-      theme: buildTheme(Brightness.light, lang: lang),
-      darkTheme: buildTheme(Brightness.dark, lang: lang),
+      theme: buildTheme(Brightness.light, lang: lang, appTheme: appTheme),
+      darkTheme: buildTheme(Brightness.dark, lang: lang, appTheme: appTheme),
+      themeMode: appTheme == AppTheme.midnight ? ThemeMode.dark : mode,
+      builder: (context, child) =>
+          GlassBackground(child: child ?? const SizedBox.shrink()),
       locale: Locale(uiLanguage),
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: appLocalizationsDelegates,

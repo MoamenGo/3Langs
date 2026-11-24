@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
+import '../../core/theme.dart';
 import '../../core/widgets.dart';
 
 /// Bottom navigation on phones, a side rail on wide screens (web, tablets).
@@ -25,27 +26,32 @@ class AppShell extends StatelessWidget {
       return Scaffold(
         body: Row(
           children: [
-            NavigationRail(
-              selectedIndex: shell.currentIndex,
-              onDestinationSelected: go,
-              labelType: NavigationRailLabelType.all,
-              leading: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                child: Text(
-                  l.appTitle,
-                  style: Theme.of(context).textTheme.titleLarge,
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: Glass(
+                radius: 28,
+                child: NavigationRail(
+                  selectedIndex: shell.currentIndex,
+                  onDestinationSelected: go,
+                  labelType: NavigationRailLabelType.all,
+                  leading: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    child: Text(
+                      l.appTitle,
+                      style: Theme.of(context).textTheme.titleLarge,
+                    ),
+                  ),
+                  destinations: [
+                    for (final (icon, selected, label) in items)
+                      NavigationRailDestination(
+                        icon: Icon(icon),
+                        selectedIcon: Icon(selected),
+                        label: Text(label),
+                      ),
+                  ],
                 ),
               ),
-              destinations: [
-                for (final (icon, selected, label) in items)
-                  NavigationRailDestination(
-                    icon: Icon(icon),
-                    selectedIcon: Icon(selected),
-                    label: Text(label),
-                  ),
-              ],
             ),
-            const VerticalDivider(width: 1),
             Expanded(child: shell),
           ],
         ),
@@ -53,17 +59,22 @@ class AppShell extends StatelessWidget {
     }
     return Scaffold(
       body: shell,
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: shell.currentIndex,
-        onDestinationSelected: go,
-        destinations: [
-          for (final (icon, selected, label) in items)
-            NavigationDestination(
-              icon: Icon(icon),
-              selectedIcon: Icon(selected),
-              label: label,
-            ),
-        ],
+      extendBody: true,
+      bottomNavigationBar: Glass(
+        radius: 0,
+        child: NavigationBar(
+          backgroundColor: Colors.transparent,
+          selectedIndex: shell.currentIndex,
+          onDestinationSelected: go,
+          destinations: [
+            for (final (icon, selected, label) in items)
+              NavigationDestination(
+                icon: Icon(icon),
+                selectedIcon: Icon(selected),
+                label: label,
+              ),
+          ],
+        ),
       ),
     );
   }

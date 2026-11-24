@@ -88,12 +88,11 @@ class InterferenceDetector {
       for (final MapEntry(key: code, value: form) in e.forms.entries) {
         final lang = Lang.tryParse(code);
         if (lang == null) continue;
-        _byForm
-            .putIfAbsent(normalize(form), () => [])
-            .add((lang, e.conceptId));
-        _byForm
-            .putIfAbsent(normalize(_stripArticle(form)), () => [])
-            .add((lang, e.conceptId));
+        _byForm.putIfAbsent(normalize(form), () => []).add((lang, e.conceptId));
+        _byForm.putIfAbsent(normalize(_stripArticle(form)), () => []).add((
+          lang,
+          e.conceptId,
+        ));
       }
     }
   }
@@ -102,8 +101,20 @@ class InterferenceDetector {
   final _byForm = <String, List<(Lang, String?)>>{};
 
   static const _articles = {
-    'der', 'die', 'das', 'de', 'het', 'el', 'la', 'los', 'las', 'een', 'ein',
-    'eine', 'un', 'una',
+    'der',
+    'die',
+    'das',
+    'de',
+    'het',
+    'el',
+    'la',
+    'los',
+    'las',
+    'een',
+    'ein',
+    'eine',
+    'un',
+    'una',
   };
 
   static String normalize(String s) => s

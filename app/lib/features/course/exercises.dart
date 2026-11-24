@@ -166,7 +166,12 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
         if (mounted) setState(() => _mixupFrom = from);
       });
     }
-    ref.read(ttsProvider).speak(target.display, lang: target.lang ?? ref.read(activeLangProvider));
+    ref
+        .read(ttsProvider)
+        .speak(
+          target.display,
+          lang: target.lang ?? ref.read(activeLangProvider),
+        );
   }
 
   void _next() {
@@ -223,7 +228,9 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
           Padding(
             padding: const EdgeInsets.only(top: 12),
             child: Text(
-              l.mixupHint(_mixupFrom!.displayName(ref.watch(uiLanguageProvider))),
+              l.mixupHint(
+                _mixupFrom!.displayName(ref.watch(uiLanguageProvider)),
+              ),
               textAlign: TextAlign.center,
               style: TextStyle(color: _mixupFrom!.color),
             ),

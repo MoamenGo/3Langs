@@ -3,6 +3,7 @@
 
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:material_ui/material_ui.dart' show ThemeMode;
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../data/local/local_db.dart';
@@ -24,6 +25,7 @@ import '../services/tts_service.dart';
 import '../srs/fsrs.dart';
 import 'env.dart';
 import 'lang/lang.dart';
+import 'theme.dart';
 
 /// Opened in main() before the app starts, then injected with an override.
 final localDbProvider = Provider<LocalDb>(
@@ -114,7 +116,23 @@ final syncServiceProvider = Provider((ref) {
   return service;
 });
 
-final ttsProvider = Provider((ref) => TtsService());
+final ttsProvider = Provider((ref) {
+  final tts = TtsService();
+  ref.listen(
+    humanVoiceProvider,
+    (_, v) => tts.humanVoice = v.value ?? true,
+    fireImmediately: true,
+  );
+  return tts;
+});
+
+/// Play native-speaker recordings for words (on by default).
+final humanVoiceProvider = StreamProvider<bool>(
+  (ref) => ref
+      .watch(localDbProvider)
+      .watchMeta('human_voice')
+      .map((v) => v != false),
+);
 final languageToolProvider = Provider((ref) => LanguageToolService());
 
 // ---- Content -------------------------------------------------------------
@@ -262,12 +280,7 @@ Future<Lang?> reportWrongAnswer(
   if (match == null) return null;
   await ref
       .read(interferenceRepositoryProvider)
-      .record(
-        lang: lang,
-        match: match,
-        expected: target.display,
-        given: given,
-      );
+      .record(lang: lang, match: match, expected: target.display, given: given);
   ref.read(syncServiceProvider).schedule();
   return match.otherLang;
 }
@@ -307,8 +320,17 @@ Future<void> setTrackLevel(WidgetRef ref, Lang lang, String level) async {
 
 /// False until the first-run setup (languages, minutes, placement) is done.
 final onboardedProvider = StreamProvider<bool>(
+  (ref) =>
+      ref.watch(localDbProvider).watchMeta('onboarded').map((v) => v == true),
+);
+
+/// Colour theme and light/dark mode, kept on this device only.
+final appThemeProvider = StreamProvider<AppTheme>(
+  (ref) => ref.watch(localDbProvider).watchMeta('theme').map(AppTheme.parse),
+);
+final themeModeProvider = StreamProvider<ThemeMode>(
   (ref) => ref
       .watch(localDbProvider)
-      .watchMeta('onboarded')
-      .map((v) => v == true),
+      .watchMeta('theme_mode')
+      .map(AppTheme.parseMode),
 );

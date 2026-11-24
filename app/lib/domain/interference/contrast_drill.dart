@@ -21,11 +21,7 @@ class DrillOption {
 }
 
 class DrillQuestion {
-  const DrillQuestion({
-    required this.target,
-    required this.options,
-    this.note,
-  });
+  const DrillQuestion({required this.target, required this.options, this.note});
 
   /// The word to find.
   final VocabItem target;

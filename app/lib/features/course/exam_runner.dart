@@ -24,8 +24,8 @@ class _ExamRunnerState extends ConsumerState<ExamRunner> {
 
   void _finish(double grammarScore) {
     final p = _plan;
-    final total = p.words.length * (_wordScore ?? 0) +
-        p.exercises.length * grammarScore;
+    final total =
+        p.words.length * (_wordScore ?? 0) + p.exercises.length * grammarScore;
     widget.onDone(p.length == 0 ? 0 : total / p.length);
   }
 

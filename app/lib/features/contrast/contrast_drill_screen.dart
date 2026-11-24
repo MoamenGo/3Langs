@@ -47,7 +47,12 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
   Future<void> _pick(DrillQuestion q, DrillOption o) async {
     if (_picked != null) return;
     setState(() => _picked = o);
-    ref.read(ttsProvider).speak(q.target.display, lang: q.target.lang ?? ref.read(activeLangProvider));
+    ref
+        .read(ttsProvider)
+        .speak(
+          q.target.display,
+          lang: q.target.lang ?? ref.read(activeLangProvider),
+        );
     if (o.correct) {
       _correct++;
     } else if (o.lang != null && q.target.lang != null) {
@@ -82,9 +87,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
               return Center(child: Text(l.drillEmpty));
             }
             if (_finished) {
-              return _Summary(
-                score: _correct / questions.length,
-              );
+              return _Summary(score: _correct / questions.length);
             }
             final q = questions[_index];
             final lang = q.target.lang!;
@@ -96,9 +99,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      LinearProgressIndicator(
-                        value: _index / questions.length,
-                      ),
+                      LinearProgressIndicator(value: _index / questions.length),
                       const SizedBox(height: 24),
                       Text(
                         l.whichMeans(

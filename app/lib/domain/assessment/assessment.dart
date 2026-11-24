@@ -59,9 +59,8 @@ ExamPlan buildLevelExam(
     }
     i++;
   }
-  final exercises = [
-    for (final g in c.grammar.values) ...g.exercises,
-  ]..shuffle(rnd);
+  final exercises = [for (final g in c.grammar.values) ...g.exercises]
+    ..shuffle(rnd);
   return ExamPlan(
     words: words,
     exercises: exercises.take(grammarCount).toList(),

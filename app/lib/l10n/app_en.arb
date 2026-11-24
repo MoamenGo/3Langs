@@ -470,5 +470,37 @@
   },
   "mixupMap": "Mix-ups between languages",
   "languagesAndPlan": "Languages and plan",
-  "languagesAndPlanHint": "Pause a language, change start dates, placement tests"
+  "languagesAndPlanHint": "Pause a language, change start dates, placement tests",
+  "appearance": "Appearance",
+  "colorTheme": "Colour theme",
+  "themeLanguage": "Language colours",
+  "themeAurora": "Aurora",
+  "themeOcean": "Ocean",
+  "themeSunset": "Sunset",
+  "themeForest": "Forest",
+  "themeRose": "Rose",
+  "themeMidnight": "Midnight",
+  "modeSystem": "Auto",
+  "modeLight": "Light",
+  "modeDark": "Dark",
+  "humanVoice": "Human voice",
+  "humanVoiceHint": "Words play real recordings by native speakers (Lingua Libre, free licence). Sentences use the most natural voice on your device.",
+  "nativeSpeaker": "Native speaker",
+  "watchOnYouTube": "Watch on YouTube",
+  "videosTitle": "Videos on this topic",
+  "videosHint": "Opens YouTube with lessons on this exact topic.",
+  "videoInArabic": "Explained in Arabic",
+  "videoInEnglish": "Explained in English",
+  "videoNative": "In {language} only",
+  "keyPoints": "Key points",
+  "examplesTitle": "Examples",
+  "remember": "Remember",
+  "listenAll": "Listen to all",
+  "@videoNative": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  }
 }

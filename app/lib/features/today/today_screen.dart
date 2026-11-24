@@ -223,7 +223,9 @@ class _BlockTile extends ConsumerWidget {
             ? Colors.green
             : (lang?.color ?? Theme.of(context).colorScheme.tertiary),
         foregroundColor: Colors.white,
-        child: done ? const Icon(Icons.check) : Icon(blockIcon(block), size: 20),
+        child: done
+            ? const Icon(Icons.check)
+            : Icon(blockIcon(block), size: 20),
       ),
       title: Text(
         title,
@@ -322,7 +324,9 @@ class _LevelCards extends ConsumerWidget {
                 trailing = Icon(next.type.icon);
               } else {
                 final up = ContentRepository.nextPackLevel(lang, pack.level.id);
-                subtitle = up == null ? l.allLessonsDone : l.levelDone(pack.level.id);
+                subtitle = up == null
+                    ? l.allLessonsDone
+                    : l.levelDone(pack.level.id);
                 if (up != null) {
                   trailing = FilledButton(
                     key: ValueKey('next-level-${lang.name}'),

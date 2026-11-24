@@ -13,6 +13,7 @@ import '../../data/repositories/content_repository.dart';
 import '../../domain/assessment/assessment.dart';
 import 'exam_runner.dart';
 import 'exercises.dart';
+import 'grammar_view.dart';
 
 /// Runs one lesson. Vocab lessons: study cards, then a quiz. Grammar: rule,
 /// table, then fill-in exercises. Listening: dictation. Reading: text and
@@ -45,7 +46,9 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         );
     String? next;
     if (passed) {
-      await ref.read(progressRepositoryProvider).completeLesson(lesson.id, score);
+      await ref
+          .read(progressRepositoryProvider)
+          .completeLesson(lesson.id, score);
       next = ContentRepository.nextPackLevel(c.lang, c.level.id);
       if (next != null) await setTrackLevel(ref, c.lang, next);
     }
@@ -137,10 +140,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           onDone: done,
         );
       case LessonType.exam:
-        return ExamRunner(
-          content: c,
-          onDone: (s) => _finishExam(lesson, c, s),
-        );
+        return ExamRunner(content: c, onDone: (s) => _finishExam(lesson, c, s));
     }
   }
 }
@@ -229,52 +229,15 @@ class _GrammarLessonState extends ConsumerState<_GrammarLesson> {
 
   @override
   Widget build(BuildContext context) {
-    final lang = ref.watch(explainLangProvider);
     final p = widget.point;
     if (_practice) {
       return FillBlankRunner(exercises: p.exercises, onDone: widget.onDone);
     }
-    final theme = Theme.of(context).textTheme;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Expanded(
-          child: ListView(
-            children: [
-              Text(p.title.get(lang), style: theme.headlineSmall),
-              const SizedBox(height: 12),
-              Text(
-                p.explanation.get(lang),
-                style: theme.bodyLarge?.copyWith(height: 1.5),
-              ),
-              if (p.tableRows.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: DataTable(
-                    columns: [
-                      for (final h in p.tableHeaders)
-                        DataColumn(label: Text(h)),
-                    ],
-                    rows: [
-                      for (final row in p.tableRows)
-                        DataRow(
-                          cells: [for (final cell in row) DataCell(Text(cell))],
-                        ),
-                    ],
-                  ),
-                ),
-              ],
-              const SizedBox(height: 16),
-              for (final id in p.exampleSentenceIds)
-                if (widget.content.sentences[id] case final s?)
-                  ListTile(
-                    title: Text(s.text),
-                    subtitle: Text(s.translations.get(lang)),
-                    trailing: SpeakButton(s.text),
-                  ),
-            ],
-          ),
+          child: GrammarView(point: p, content: widget.content),
         ),
         FilledButton(
           onPressed: () => setState(() => _practice = true),

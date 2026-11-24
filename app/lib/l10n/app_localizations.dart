@@ -997,6 +997,156 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Pause a language, change start dates, placement tests'**
   String get languagesAndPlanHint;
+
+  /// No description provided for @appearance.
+  ///
+  /// In en, this message translates to:
+  /// **'Appearance'**
+  String get appearance;
+
+  /// No description provided for @colorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Colour theme'**
+  String get colorTheme;
+
+  /// No description provided for @themeLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Language colours'**
+  String get themeLanguage;
+
+  /// No description provided for @themeAurora.
+  ///
+  /// In en, this message translates to:
+  /// **'Aurora'**
+  String get themeAurora;
+
+  /// No description provided for @themeOcean.
+  ///
+  /// In en, this message translates to:
+  /// **'Ocean'**
+  String get themeOcean;
+
+  /// No description provided for @themeSunset.
+  ///
+  /// In en, this message translates to:
+  /// **'Sunset'**
+  String get themeSunset;
+
+  /// No description provided for @themeForest.
+  ///
+  /// In en, this message translates to:
+  /// **'Forest'**
+  String get themeForest;
+
+  /// No description provided for @themeRose.
+  ///
+  /// In en, this message translates to:
+  /// **'Rose'**
+  String get themeRose;
+
+  /// No description provided for @themeMidnight.
+  ///
+  /// In en, this message translates to:
+  /// **'Midnight'**
+  String get themeMidnight;
+
+  /// No description provided for @modeSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto'**
+  String get modeSystem;
+
+  /// No description provided for @modeLight.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get modeLight;
+
+  /// No description provided for @modeDark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get modeDark;
+
+  /// No description provided for @humanVoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Human voice'**
+  String get humanVoice;
+
+  /// No description provided for @humanVoiceHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Words play real recordings by native speakers (Lingua Libre, free licence). Sentences use the most natural voice on your device.'**
+  String get humanVoiceHint;
+
+  /// No description provided for @nativeSpeaker.
+  ///
+  /// In en, this message translates to:
+  /// **'Native speaker'**
+  String get nativeSpeaker;
+
+  /// No description provided for @watchOnYouTube.
+  ///
+  /// In en, this message translates to:
+  /// **'Watch on YouTube'**
+  String get watchOnYouTube;
+
+  /// No description provided for @videosTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Videos on this topic'**
+  String get videosTitle;
+
+  /// No description provided for @videosHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Opens YouTube with lessons on this exact topic.'**
+  String get videosHint;
+
+  /// No description provided for @videoInArabic.
+  ///
+  /// In en, this message translates to:
+  /// **'Explained in Arabic'**
+  String get videoInArabic;
+
+  /// No description provided for @videoInEnglish.
+  ///
+  /// In en, this message translates to:
+  /// **'Explained in English'**
+  String get videoInEnglish;
+
+  /// No description provided for @videoNative.
+  ///
+  /// In en, this message translates to:
+  /// **'In {language} only'**
+  String videoNative(String language);
+
+  /// No description provided for @keyPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'Key points'**
+  String get keyPoints;
+
+  /// No description provided for @examplesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Examples'**
+  String get examplesTitle;
+
+  /// No description provided for @remember.
+  ///
+  /// In en, this message translates to:
+  /// **'Remember'**
+  String get remember;
+
+  /// No description provided for @listenAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Listen to all'**
+  String get listenAll;
 }
 
 class _AppLocalizationsDelegate
