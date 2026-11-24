@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "3lang/contrast.schema.json",
+  "title": "Cross-language contrast pairs: false friends, near cognates, gender mismatches, grammar divergences",
+  "type": "object",
+  "required": ["schemaVersion", "pairs"],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "pairs": {"type": "array", "items": {
+      "type": "object",
+      "required": ["id", "type", "a", "b", "tip"],
+      "properties": {
+        "id": {"type": "string", "description": "x.{langA}-{langB}.{slug}"},
+        "type": {"enum": ["false_friend", "near_cognate", "gender_mismatch", "spelling_shift", "grammar_divergence"]},
+        "a": {"type": "object", "required": ["lang", "text"], "properties": {"lang": {"enum": ["de", "nl", "es"]}, "id": {"type": "string"}, "text": {"type": "string"}, "meaning": {"type": "object"}}},
+        "b": {"type": "object", "required": ["lang", "text"], "properties": {"lang": {"enum": ["de", "nl", "es"]}, "id": {"type": "string"}, "text": {"type": "string"}, "meaning": {"type": "object"}}},
+        "tip": {"type": "object", "required": ["ar"], "properties": {"ar": {"type": "string"}, "en": {"type": "string"}}},
+        "unlockLevel": {"enum": ["A0", "A1", "A2", "B1", "B2", "C1"]}
+      }}}
+  }
+}

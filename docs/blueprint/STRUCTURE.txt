@@ -1,0 +1,54 @@
+3lang/
+├─ app/
+│  ├─ lib/
+│  │  ├─ main.dart
+│  │  ├─ app.dart
+│  │  ├─ core/
+│  │  │  ├─ router.dart            # /today /session /course/:lang /lesson /concept /review /progress
+│  │  │  ├─ theme.dart             # + ألوان كل لغة
+│  │  │  ├─ env.dart · localization.dart · widgets.dart · providers.dart
+│  │  │  └─ lang/
+│  │  │     ├─ lang.dart           # enum Lang { de, nl, es } + ExplainLang { ar, en }
+│  │  │     └─ lang_config.dart    # يقرأ config/languages.json
+│  │  ├─ domain/                   # Dart فقط، بدون Flutter
+│  │  │  ├─ curriculum/            # concept.dart realization.dart shared_unit.dart lang_unit.dart lesson.dart grammar_point.dart cefr.dart
+│  │  │  ├─ learner/               # language_track.dart card_state.dart review_log.dart lesson_progress.dart
+│  │  │  ├─ scheduling/            # session_planner.dart interleaver.dart load_balancer.dart session_plan.dart
+│  │  │  ├─ interference/          # confusable_index.dart interference_detector.dart contrast_card.dart
+│  │  │  ├─ assessment/            # placement_test.dart level_exam.dart cefr_estimator.dart
+│  │  │  └─ srs/fsrs.dart          # منقول من lib/srs
+│  │  ├─ data/
+│  │  │  ├─ content/               # pack_loader.dart pack_downloader.dart content_repository.dart
+│  │  │  ├─ local/                 # local_db.dart db_factory*.dart
+│  │  │  ├─ repositories/          # track_ srs_ progress_ settings_ interference_ writing_ assessment_repository.dart
+│  │  │  └─ sync/                  # sync_service.dart synced_tables.dart
+│  │  ├─ features/
+│  │  │  ├─ onboarding/            # languages_step placement_step schedule_step
+│  │  │  ├─ today/                 # today_screen session_runner session_summary
+│  │  │  ├─ course/                # course_screen (تبويب لكل لغة) unit_screen concept_screen
+│  │  │  ├─ lesson/                # lesson_screen + exercises/ (choice, typing, listen, order, speak, contrast)
+│  │  │  ├─ review/                # review_screen contrast_drill_screen confusables_screen
+│  │  │  ├─ compare/               # compare_screen (المفهوم بالثلاث لغات)
+│  │  │  ├─ skills/                # listening/ reading/ speaking/ writing/
+│  │  │  ├─ progress/              # progress_screen language_progress_screen
+│  │  │  ├─ settings/ · auth/ · packs/
+│  │  └─ l10n/                     # app_ar.arb app_en.arb
+│  ├─ assets/content/
+│  │  ├─ concepts.json · contrast.json
+│  │  ├─ de/a0.json de/a1.json
+│  │  ├─ nl/a0.json nl/a1.json
+│  │  └─ es/a0.json es/a1.json     # A2+ تتحمل من Supabase Storage
+│  └─ test/                        # domain/ (planner, detector, fsrs) data/ features/
+├─ config/languages.json
+├─ content/
+│  ├─ concepts/a0.yaml … c1.yaml   # المنهج المشترك: 70 وحدة
+│  ├─ langs/de/a0/u01.yaml …       # تحقيق كل وحدة لكل لغة
+│  ├─ langs/nl/… · langs/es/…
+│  ├─ contrast/de-nl.yaml de-es.yaml nl-es.yaml
+│  ├─ schema/concept.schema.json lang_pack.schema.json contrast.schema.json
+│  ├─ pipeline/                    # 01_download … 08_publish + --lang + 09_link_concepts + 10_contrast
+│  └─ build/                       # يطلع app/assets/content و ملفات Storage
+├─ supabase/migrations/
+│  ├─ 20261121000000_init.sql
+│  └─ 2026112x000000_multilang.sql
+└─ docs/ARCHITECTURE.md · CURRICULUM.md · CONTENT_GUIDE.md

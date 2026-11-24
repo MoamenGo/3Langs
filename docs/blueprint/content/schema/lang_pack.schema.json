@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "3lang/lang_pack.schema.json",
+  "title": "One language, one level: content/build -> assets/content/{lang}/{level}.json",
+  "type": "object",
+  "required": ["schemaVersion", "contentVersion", "lang", "level", "units", "lessons", "vocab", "sentences", "grammar"],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "contentVersion": {"type": "string"},
+    "lang": {"enum": ["de", "nl", "es"]},
+    "level": {"enum": ["A0", "A1", "A2", "B1", "B2", "C1"]},
+    "units": {"type": "array", "items": {
+      "type": "object", "required": ["id", "sharedUnitId", "lessonIds"],
+      "properties": {
+        "id": {"type": "string", "description": "{lang}.u.{level}.{nn}"},
+        "sharedUnitId": {"type": "string"},
+        "lessonIds": {"type": "array", "items": {"type": "string"}},
+        "grammarIds": {"type": "array", "items": {"type": "string"}}
+      }}},
+    "lessons": {"type": "array", "items": {
+      "type": "object", "required": ["id", "unitId", "order", "type", "items"],
+      "properties": {
+        "id": {"type": "string", "description": "{lang}.{level}.u{nn}.l{nn}"},
+        "unitId": {"type": "string"},
+        "order": {"type": "integer"},
+        "type": {"enum": ["vocab", "grammar", "listening", "reading", "speaking", "writing", "contrast", "review", "exam"]},
+        "items": {"type": "array", "items": {"type": "string"}},
+        "grammarId": {"type": "string"},
+        "textId": {"type": "string"}
+      }}},
+    "vocab": {"type": "array", "items": {
+      "type": "object", "required": ["id", "conceptId", "lemma", "pos"],
+      "properties": {
+        "id": {"type": "string", "description": "{lang}.{level}.vocab.{slug}"},
+        "conceptId": {"type": "string"},
+        "lemma": {"type": "string"},
+        "article": {"type": "string"},
+        "gender": {"enum": ["m", "f", "n", "common"]},
+        "plural": {"type": "string"},
+        "pos": {"type": "string"},
+        "ipa": {"type": "string"},
+        "freqRank": {"type": "integer"},
+        "audio": {"type": "object"},
+        "sentenceIds": {"type": "array", "items": {"type": "string"}},
+        "source": {"type": "string"},
+        "license": {"type": "string"}
+      }}},
+    "sentences": {"type": "array", "items": {
+      "type": "object", "required": ["id", "text", "translation"],
+      "properties": {
+        "id": {"type": "string"},
+        "text": {"type": "string"},
+        "translation": {"type": "object", "properties": {"ar": {"type": "string"}, "en": {"type": "string"}}},
+        "conceptIds": {"type": "array", "items": {"type": "string"}},
+        "audio": {"type": "object"},
+        "source": {"type": "string"},
+        "license": {"type": "string"}
+      }}},
+    "grammar": {"type": "array", "items": {
+      "type": "object", "required": ["id", "title", "explanation"],
+      "properties": {
+        "id": {"type": "string"},
+        "conceptId": {"type": "string", "description": "absent when langOnly"},
+        "langOnly": {"type": "boolean"},
+        "title": {"type": "object"},
+        "explanation": {"type": "object"},
+        "rules": {"type": "array"},
+        "examples": {"type": "array", "items": {"type": "string"}}
+      }}},
+    "texts": {"type": "array"}
+  }
+}

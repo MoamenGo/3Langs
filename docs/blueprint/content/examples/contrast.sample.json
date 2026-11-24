@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "pairs": [
+    {
+      "id": "x.de-nl.haus_huis",
+      "type": "spelling_shift",
+      "a": {
+        "lang": "de",
+        "id": "de.a1.vocab.haus",
+        "text": "das Haus"
+      },
+      "b": {
+        "lang": "nl",
+        "id": "nl.a1.vocab.huis",
+        "text": "het huis"
+      },
+      "tip": {
+        "ar": "au في الألماني بتبقى ui في الهولندي كتير: Haus/huis، Maus/muis."
+      },
+      "unlockLevel": "A1"
+    },
+    {
+      "id": "x.de-nl.zimmer_kamer",
+      "type": "false_friend",
+      "a": {
+        "lang": "de",
+        "id": "de.a1.vocab.zimmer",
+        "text": "das Zimmer"
+      },
+      "b": {
+        "lang": "nl",
+        "id": "nl.a1.vocab.kamer",
+        "text": "de kamer"
+      },
+      "tip": {
+        "ar": "الأوضة في الهولندي kamer. الكلمة الألماني Kammer معناها غرفة تخزين أو مجلس، مش أوضة عادية."
+      },
+      "unlockLevel": "A1"
+    },
+    {
+      "id": "x.de-es.tisch_mesa",
+      "type": "gender_mismatch",
+      "a": {
+        "lang": "de",
+        "id": "de.a1.vocab.tisch",
+        "text": "der Tisch"
+      },
+      "b": {
+        "lang": "es",
+        "id": "es.a1.vocab.mesa",
+        "text": "la mesa"
+      },
+      "tip": {
+        "ar": "الترابيزة مذكر في الألماني ومؤنث في الإسباني. احفظ الأداة مع كل لغة لوحدها."
+      },
+      "unlockLevel": "A1"
+    },
+    {
+      "id": "x.de-nl.bekommen",
+      "type": "false_friend",
+      "a": {
+        "lang": "de",
+        "text": "bekommen",
+        "meaning": {
+          "ar": "يستلم / ياخد"
+        }
+      },
+      "b": {
+        "lang": "nl",
+        "text": "bekomen",
+        "meaning": {
+          "ar": "يفوق من حاجة / الأكل يريّح"
+        }
+      },
+      "tip": {
+        "ar": "\"ياخد\" في الهولندي krijgen، مش bekomen."
+      },
+      "unlockLevel": "A2"
+    },
+    {
+      "id": "x.de-nl.rat",
+      "type": "false_friend",
+      "a": {
+        "lang": "de",
+        "text": "der Rat",
+        "meaning": {
+          "ar": "نصيحة / مجلس"
+        }
+      },
+      "b": {
+        "lang": "nl",
+        "text": "de rat",
+        "meaning": {
+          "ar": "فار"
+        }
+      },
+      "tip": {
+        "ar": "النصيحة في الهولندي het advies أو de raad."
+      },
+      "unlockLevel": "A2"
+    }
+  ]
+}

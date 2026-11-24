@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": "2026.11.23-blueprint",
+  "lang": "es",
+  "level": "A1",
+  "units": [
+    {
+      "id": "es.u.a1.03",
+      "sharedUnitId": "u.a1.03",
+      "grammarIds": [
+        "es.a1.gram.noun_gender"
+      ],
+      "lessonIds": [
+        "es.a1.u03.l01",
+        "es.a1.u03.l02",
+        "es.a1.u03.l03",
+        "es.a1.u03.l04",
+        "es.a1.u03.l05",
+        "es.a1.u03.l06",
+        "es.a1.u03.l07",
+        "es.a1.u03.l08",
+        "es.a1.u03.l09"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "es.a1.u03.l01",
+      "unitId": "es.u.a1.03",
+      "order": 1,
+      "type": "vocab",
+      "items": [
+        "es.a1.vocab.casa",
+        "es.a1.vocab.habitacion",
+        "es.a1.vocab.cocina",
+        "es.a1.vocab.mesa"
+      ]
+    },
+    {
+      "id": "es.a1.u03.l02",
+      "unitId": "es.u.a1.03",
+      "order": 2,
+      "type": "vocab",
+      "items": [
+        "es.a1.vocab.casa",
+        "es.a1.vocab.habitacion",
+        "es.a1.vocab.cocina",
+        "es.a1.vocab.mesa"
+      ]
+    },
+    {
+      "id": "es.a1.u03.l03",
+      "unitId": "es.u.a1.03",
+      "order": 3,
+      "type": "grammar",
+      "items": [],
+      "grammarId": "es.a1.gram.noun_gender"
+    },
+    {
+      "id": "es.a1.u03.l04",
+      "unitId": "es.u.a1.03",
+      "order": 4,
+      "type": "listening",
+      "items": []
+    },
+    {
+      "id": "es.a1.u03.l05",
+      "unitId": "es.u.a1.03",
+      "order": 5,
+      "type": "reading",
+      "items": []
+    },
+    {
+      "id": "es.a1.u03.l06",
+      "unitId": "es.u.a1.03",
+      "order": 6,
+      "type": "speaking",
+      "items": []
+    },
+    {
+      "id": "es.a1.u03.l07",
+      "unitId": "es.u.a1.03",
+      "order": 7,
+      "type": "contrast",
+      "items": [
+        "es.a1.vocab.casa",
+        "es.a1.vocab.habitacion",
+        "es.a1.vocab.cocina",
+        "es.a1.vocab.mesa"
+      ]
+    },
+    {
+      "id": "es.a1.u03.l08",
+      "unitId": "es.u.a1.03",
+      "order": 8,
+      "type": "review",
+      "items": [
+        "es.a1.vocab.casa",
+        "es.a1.vocab.habitacion",
+        "es.a1.vocab.cocina",
+        "es.a1.vocab.mesa"
+      ]
+    },
+    {
+      "id": "es.a1.u03.l09",
+      "unitId": "es.u.a1.03",
+      "order": 9,
+      "type": "exam",
+      "items": []
+    }
+  ],
+  "vocab": [
+    {
+      "id": "es.a1.vocab.casa",
+      "conceptId": "c.a1.home.house",
+      "lemma": "casa",
+      "article": "la",
+      "gender": "f",
+      "plural": "casas",
+      "pos": "noun",
+      "sentenceIds": [
+        "es.a1.sent.home01"
+      ],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "es.a1.vocab.habitacion",
+      "conceptId": "c.a1.home.room",
+      "lemma": "habitación",
+      "article": "la",
+      "gender": "f",
+      "plural": "habitaciones",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "es.a1.vocab.cocina",
+      "conceptId": "c.a1.home.kitchen",
+      "lemma": "cocina",
+      "article": "la",
+      "gender": "f",
+      "plural": "cocinas",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "es.a1.vocab.mesa",
+      "conceptId": "c.a1.home.table",
+      "lemma": "mesa",
+      "article": "la",
+      "gender": "f",
+      "plural": "mesas",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "es.a1.sent.home01",
+      "text": "La casa es grande.",
+      "translation": {
+        "ar": "البيت كبير.",
+        "en": "The house is big."
+      },
+      "conceptIds": [
+        "c.a1.home.house"
+      ],
+      "source": "manual",
+      "license": "CC0"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "es.a1.gram.noun_gender",
+      "conceptId": "c.a1.gram.noun_gender",
+      "title": {
+        "ar": "el y la",
+        "en": "el y la"
+      },
+      "explanation": {
+        "ar": "الإسباني فيه جنسين: el للمذكر و la للمؤنث. أغلب الكلمات اللي بتخلص بـ -a مؤنثة."
+      },
+      "rules": [],
+      "examples": []
+    }
+  ]
+}

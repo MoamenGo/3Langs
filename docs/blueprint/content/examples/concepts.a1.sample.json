@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": "2026.11.23-blueprint",
+  "units": [
+    {"id": "u.a1.03", "level": "A1", "order": 3,
+     "theme": {"ar": "البيت والسكن", "en": "Home and living"},
+     "canDo": [{"ar": "توصف بيتك أو شقتك", "en": "Describe your home"}],
+     "conceptIds": ["c.a1.home.house", "c.a1.home.room", "c.a1.home.kitchen", "c.a1.home.table", "c.a1.gram.noun_gender"]}
+  ],
+  "concepts": [
+    {"id": "c.a1.home.house",   "level": "A1", "kind": "sense",   "gloss": {"ar": "بيت", "en": "house"}},
+    {"id": "c.a1.home.room",    "level": "A1", "kind": "sense",   "gloss": {"ar": "أوضة", "en": "room"}},
+    {"id": "c.a1.home.kitchen", "level": "A1", "kind": "sense",   "gloss": {"ar": "مطبخ", "en": "kitchen"}},
+    {"id": "c.a1.home.table",   "level": "A1", "kind": "sense",   "gloss": {"ar": "ترابيزة", "en": "table"}},
+    {"id": "c.a1.gram.noun_gender", "level": "A1", "kind": "grammar", "gloss": {"ar": "جنس الاسم والأداة", "en": "Noun gender and articles"}}
+  ]
+}

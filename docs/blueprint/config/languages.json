@@ -1,0 +1,15 @@
+{
+  "explanationLanguages": ["ar", "en"],
+  "targets": [
+    {"code": "de", "name": {"ar": "الألماني", "en": "German"}, "flag": "🇩🇪", "color": "#D4A017", "tts": "de-DE", "startWeek": 1,  "defaultShare": 0.34},
+    {"code": "es", "name": {"ar": "الإسباني", "en": "Spanish"}, "flag": "🇪🇸", "color": "#C8102E", "tts": "es-ES", "startWeek": 3,  "defaultShare": 0.33},
+    {"code": "nl", "name": {"ar": "الهولندي", "en": "Dutch"},   "flag": "🇳🇱", "color": "#FF6F00", "tts": "nl-NL", "startWeek": 9,  "defaultShare": 0.33}
+  ],
+  "similarity": {"de-nl": "high", "de-es": "low", "nl-es": "low"},
+  "rules": {
+    "noAdjacentNewBlocksFor": ["de-nl"],
+    "reviewChunkSize": 10,
+    "contrastBlockMinEvents": 3,
+    "levelExamPassScore": 0.7
+  }
+}

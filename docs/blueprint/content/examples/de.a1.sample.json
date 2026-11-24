@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": "2026.11.23-blueprint",
+  "lang": "de",
+  "level": "A1",
+  "units": [
+    {
+      "id": "de.u.a1.03",
+      "sharedUnitId": "u.a1.03",
+      "grammarIds": [
+        "de.a1.gram.noun_gender"
+      ],
+      "lessonIds": [
+        "de.a1.u03.l01",
+        "de.a1.u03.l02",
+        "de.a1.u03.l03",
+        "de.a1.u03.l04",
+        "de.a1.u03.l05",
+        "de.a1.u03.l06",
+        "de.a1.u03.l07",
+        "de.a1.u03.l08",
+        "de.a1.u03.l09"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1.u03.l01",
+      "unitId": "de.u.a1.03",
+      "order": 1,
+      "type": "vocab",
+      "items": [
+        "de.a1.vocab.haus",
+        "de.a1.vocab.zimmer",
+        "de.a1.vocab.kueche",
+        "de.a1.vocab.tisch"
+      ]
+    },
+    {
+      "id": "de.a1.u03.l02",
+      "unitId": "de.u.a1.03",
+      "order": 2,
+      "type": "vocab",
+      "items": [
+        "de.a1.vocab.haus",
+        "de.a1.vocab.zimmer",
+        "de.a1.vocab.kueche",
+        "de.a1.vocab.tisch"
+      ]
+    },
+    {
+      "id": "de.a1.u03.l03",
+      "unitId": "de.u.a1.03",
+      "order": 3,
+      "type": "grammar",
+      "items": [],
+      "grammarId": "de.a1.gram.noun_gender"
+    },
+    {
+      "id": "de.a1.u03.l04",
+      "unitId": "de.u.a1.03",
+      "order": 4,
+      "type": "listening",
+      "items": []
+    },
+    {
+      "id": "de.a1.u03.l05",
+      "unitId": "de.u.a1.03",
+      "order": 5,
+      "type": "reading",
+      "items": []
+    },
+    {
+      "id": "de.a1.u03.l06",
+      "unitId": "de.u.a1.03",
+      "order": 6,
+      "type": "speaking",
+      "items": []
+    },
+    {
+      "id": "de.a1.u03.l07",
+      "unitId": "de.u.a1.03",
+      "order": 7,
+      "type": "contrast",
+      "items": [
+        "de.a1.vocab.haus",
+        "de.a1.vocab.zimmer",
+        "de.a1.vocab.kueche",
+        "de.a1.vocab.tisch"
+      ]
+    },
+    {
+      "id": "de.a1.u03.l08",
+      "unitId": "de.u.a1.03",
+      "order": 8,
+      "type": "review",
+      "items": [
+        "de.a1.vocab.haus",
+        "de.a1.vocab.zimmer",
+        "de.a1.vocab.kueche",
+        "de.a1.vocab.tisch"
+      ]
+    },
+    {
+      "id": "de.a1.u03.l09",
+      "unitId": "de.u.a1.03",
+      "order": 9,
+      "type": "exam",
+      "items": []
+    }
+  ],
+  "vocab": [
+    {
+      "id": "de.a1.vocab.haus",
+      "conceptId": "c.a1.home.house",
+      "lemma": "Haus",
+      "article": "das",
+      "gender": "n",
+      "plural": "Häuser",
+      "pos": "noun",
+      "sentenceIds": [
+        "de.a1.sent.home01"
+      ],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "de.a1.vocab.zimmer",
+      "conceptId": "c.a1.home.room",
+      "lemma": "Zimmer",
+      "article": "das",
+      "gender": "n",
+      "plural": "Zimmer",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "de.a1.vocab.kueche",
+      "conceptId": "c.a1.home.kitchen",
+      "lemma": "Küche",
+      "article": "die",
+      "gender": "f",
+      "plural": "Küchen",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    },
+    {
+      "id": "de.a1.vocab.tisch",
+      "conceptId": "c.a1.home.table",
+      "lemma": "Tisch",
+      "article": "der",
+      "gender": "m",
+      "plural": "Tische",
+      "pos": "noun",
+      "sentenceIds": [],
+      "source": "manual",
+      "license": "CC0"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "de.a1.sent.home01",
+      "text": "Das Haus ist groß.",
+      "translation": {
+        "ar": "البيت كبير.",
+        "en": "The house is big."
+      },
+      "conceptIds": [
+        "c.a1.home.house"
+      ],
+      "source": "manual",
+      "license": "CC0"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "de.a1.gram.noun_gender",
+      "conceptId": "c.a1.gram.noun_gender",
+      "title": {
+        "ar": "Genus: der, die, das",
+        "en": "Genus: der, die, das"
+      },
+      "explanation": {
+        "ar": "الألماني فيه 3 أجناس: der للمذكر، die للمؤنث، das للمحايد. احفظ الأداة مع الكلمة دايمًا."
+      },
+      "rules": [],
+      "examples": []
+    }
+  ]
+}
