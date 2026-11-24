@@ -31,9 +31,10 @@ void main() {
   test('packs: a track studies its own level, then moves up', () {
     expect(ContentRepository.packLevelFor(Lang.de, 'A0'), 'A0');
     expect(ContentRepository.packLevelFor(Lang.es, 'A1'), 'A1');
-    expect(ContentRepository.packLevelFor(Lang.nl, 'B1'), isNull);
+    expect(ContentRepository.packLevelFor(Lang.nl, 'B1'), 'B1');
     expect(ContentRepository.nextPackLevel(Lang.de, 'A0'), 'A1');
-    expect(ContentRepository.nextPackLevel(Lang.de, 'A1'), isNull);
+    expect(ContentRepository.nextPackLevel(Lang.de, 'B2'), 'C1');
+    expect(ContentRepository.nextPackLevel(Lang.de, 'C1'), isNull);
   });
 
   test('default plan: German now, Spanish week 3, Dutch week 9', () {

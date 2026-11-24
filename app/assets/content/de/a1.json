@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "lang": "de",
- "contentVersion": "2026.11.23-phase2",
+ "contentVersion": "2026.11.24-phase5",
  "level": {
   "id": "A1",
   "title": {
@@ -144,6 +144,237 @@
     "de.a1.u04.l06"
    ],
    "sharedUnitId": "u.a1.04"
+  },
+  {
+   "id": "de.a1.u05",
+   "level": "A1",
+   "order": 5,
+   "theme": {
+    "ar": "التسوق والأسعار",
+    "en": "Shopping and prices"
+   },
+   "goals": [
+    {
+     "en": "Talk about shopping and prices in German",
+     "ar": "تتكلم عن التسوق والأسعار بالألماني"
+    },
+    {
+     "en": "kein or nicht?",
+     "ar": "kein ولا nicht؟"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u05"
+   ],
+   "lessonIds": [
+    "de.a1.u05.l01",
+    "de.a1.u05.l02",
+    "de.a1.u05.l03",
+    "de.a1.u05.l04",
+    "de.a1.u05.l05"
+   ],
+   "sharedUnitId": "u.a1.05"
+  },
+  {
+   "id": "de.a1.u06",
+   "level": "A1",
+   "order": 6,
+   "theme": {
+    "ar": "الروتين اليومي والوقت",
+    "en": "Daily routine and time"
+   },
+   "goals": [
+    {
+     "en": "Talk about daily routine and time in German",
+     "ar": "تتكلم عن الروتين اليومي والوقت بالألماني"
+    },
+    {
+     "en": "Separable verbs and verb second",
+     "ar": "الأفعال اللي بتنفصل والفعل في المكان التاني"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u06"
+   ],
+   "lessonIds": [
+    "de.a1.u06.l01",
+    "de.a1.u06.l02",
+    "de.a1.u06.l03",
+    "de.a1.u06.l04",
+    "de.a1.u06.l05"
+   ],
+   "sharedUnitId": "u.a1.06"
+  },
+  {
+   "id": "de.a1.u07",
+   "level": "A1",
+   "order": 7,
+   "theme": {
+    "ar": "وقت الفراغ والهوايات",
+    "en": "Free time and hobbies"
+   },
+   "goals": [
+    {
+     "en": "Talk about free time and hobbies in German",
+     "ar": "تتكلم عن وقت الفراغ والهوايات بالألماني"
+    },
+    {
+     "en": "gern and the modal verbs können, wollen",
+     "ar": "gern والأفعال können وwollen"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u07"
+   ],
+   "lessonIds": [
+    "de.a1.u07.l01",
+    "de.a1.u07.l02",
+    "de.a1.u07.l03",
+    "de.a1.u07.l04",
+    "de.a1.u07.l05"
+   ],
+   "sharedUnitId": "u.a1.07"
+  },
+  {
+   "id": "de.a1.u08",
+   "level": "A1",
+   "order": 8,
+   "theme": {
+    "ar": "في المدينة",
+    "en": "In the city"
+   },
+   "goals": [
+    {
+     "en": "Talk about in the city in German",
+     "ar": "تتكلم عن في المدينة بالألماني"
+    },
+    {
+     "en": "The imperative and in, an, bei + dative",
+     "ar": "الأمر وin وan وbei مع الداتيف"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u08"
+   ],
+   "lessonIds": [
+    "de.a1.u08.l01",
+    "de.a1.u08.l02",
+    "de.a1.u08.l03",
+    "de.a1.u08.l04",
+    "de.a1.u08.l05"
+   ],
+   "sharedUnitId": "u.a1.08"
+  },
+  {
+   "id": "de.a1.u09",
+   "level": "A1",
+   "order": 9,
+   "theme": {
+    "ar": "السفر والمواصلات",
+    "en": "Travel and transport"
+   },
+   "goals": [
+    {
+     "en": "Talk about travel and transport in German",
+     "ar": "تتكلم عن السفر والمواصلات بالألماني"
+    },
+    {
+     "en": "müssen, dürfen and mit + dative",
+     "ar": "müssen وdürfen وmit مع الداتيف"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u09"
+   ],
+   "lessonIds": [
+    "de.a1.u09.l01",
+    "de.a1.u09.l02",
+    "de.a1.u09.l03",
+    "de.a1.u09.l04",
+    "de.a1.u09.l05"
+   ],
+   "sharedUnitId": "u.a1.09"
+  },
+  {
+   "id": "de.a1.u10",
+   "level": "A1",
+   "order": 10,
+   "theme": {
+    "ar": "الصحة والجسم",
+    "en": "Health and body"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and body in German",
+     "ar": "تتكلم عن الصحة والجسم بالألماني"
+    },
+    {
+     "en": "sollen and pronouns in the accusative",
+     "ar": "sollen والضمائر في الأكوزاتيف"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u10"
+   ],
+   "lessonIds": [
+    "de.a1.u10.l01",
+    "de.a1.u10.l02",
+    "de.a1.u10.l03",
+    "de.a1.u10.l04",
+    "de.a1.u10.l05"
+   ],
+   "sharedUnitId": "u.a1.10"
+  },
+  {
+   "id": "de.a1.u11",
+   "level": "A1",
+   "order": 11,
+   "theme": {
+    "ar": "الشغل والمدرسة",
+    "en": "Work and school"
+   },
+   "goals": [
+    {
+     "en": "Talk about work and school in German",
+     "ar": "تتكلم عن الشغل والمدرسة بالألماني"
+    },
+    {
+     "en": "Perfect tense with haben",
+     "ar": "الماضي التام (Perfekt) مع haben"
+    }
+   ],
+   "grammarIds": [
+    "de.a1.gram.u11"
+   ],
+   "lessonIds": [
+    "de.a1.u11.l01",
+    "de.a1.u11.l02",
+    "de.a1.u11.l03",
+    "de.a1.u11.l04",
+    "de.a1.u11.l05"
+   ],
+   "sharedUnitId": "u.a1.11"
+  },
+  {
+   "id": "de.a1.u12",
+   "level": "A1",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة A1 واختبار تجريبي",
+    "en": "A1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached A1",
+     "ar": "توري إنك وصلت لمستوى A1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.a1.u12.l01",
+    "de.a1.u12.l02"
+   ],
+   "sharedUnitId": "u.a1.12"
   }
  ],
  "lessons": [
@@ -666,6 +897,643 @@
     "de.a1.vocab.hunger",
     "de.a1.vocab.durst"
    ]
+  },
+  {
+   "id": "de.a1.u05.l01",
+   "unitId": "de.a1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 1",
+    "ar": "التسوق والأسعار: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.geschaeft",
+    "de.a1.vocab.supermarkt",
+    "de.a1.vocab.geld",
+    "de.a1.vocab.preis",
+    "de.a1.vocab.euro"
+   ]
+  },
+  {
+   "id": "de.a1.u05.l02",
+   "unitId": "de.a1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Shopping and prices: words 2",
+    "ar": "التسوق والأسعار: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.kaufen",
+    "de.a1.vocab.bezahlen",
+    "de.a1.vocab.kosten",
+    "de.a1.vocab.hemd",
+    "de.a1.vocab.tasche"
+   ]
+  },
+  {
+   "id": "de.a1.u05.l03",
+   "unitId": "de.a1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "kein or nicht?",
+    "ar": "kein ولا nicht؟"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u05"
+  },
+  {
+   "id": "de.a1.u05.l04",
+   "unitId": "de.a1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: shopping and prices",
+    "ar": "استماع: التسوق والأسعار"
+   },
+   "items": [
+    "de.a1.sent.u05_01",
+    "de.a1.sent.u05_02",
+    "de.a1.sent.u05_03",
+    "de.a1.sent.u05_04"
+   ]
+  },
+  {
+   "id": "de.a1.u05.l05",
+   "unitId": "de.a1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "de.a1.vocab.geschaeft",
+    "de.a1.vocab.supermarkt",
+    "de.a1.vocab.geld",
+    "de.a1.vocab.preis",
+    "de.a1.vocab.euro",
+    "de.a1.vocab.kaufen",
+    "de.a1.vocab.bezahlen",
+    "de.a1.vocab.kosten",
+    "de.a1.vocab.hemd",
+    "de.a1.vocab.tasche"
+   ]
+  },
+  {
+   "id": "de.a1.u06.l01",
+   "unitId": "de.a1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 1",
+    "ar": "الروتين اليومي والوقت: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.aufstehen",
+    "de.a1.vocab.schlafen",
+    "de.a1.vocab.arbeiten",
+    "de.a1.vocab.morgen"
+   ]
+  },
+  {
+   "id": "de.a1.u06.l02",
+   "unitId": "de.a1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Daily routine and time: words 2",
+    "ar": "الروتين اليومي والوقت: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.abend",
+    "de.a1.vocab.immer",
+    "de.a1.vocab.oft",
+    "de.a1.vocab.spaet"
+   ]
+  },
+  {
+   "id": "de.a1.u06.l03",
+   "unitId": "de.a1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Separable verbs and verb second",
+    "ar": "الأفعال اللي بتنفصل والفعل في المكان التاني"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u06"
+  },
+  {
+   "id": "de.a1.u06.l04",
+   "unitId": "de.a1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: daily routine and time",
+    "ar": "استماع: الروتين اليومي والوقت"
+   },
+   "items": [
+    "de.a1.sent.u06_01",
+    "de.a1.sent.u06_02",
+    "de.a1.sent.u06_03",
+    "de.a1.sent.u06_04"
+   ]
+  },
+  {
+   "id": "de.a1.u06.l05",
+   "unitId": "de.a1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "de.a1.vocab.aufstehen",
+    "de.a1.vocab.schlafen",
+    "de.a1.vocab.arbeiten",
+    "de.a1.vocab.morgen",
+    "de.a1.vocab.abend",
+    "de.a1.vocab.immer",
+    "de.a1.vocab.oft",
+    "de.a1.vocab.spaet"
+   ]
+  },
+  {
+   "id": "de.a1.u07.l01",
+   "unitId": "de.a1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 1",
+    "ar": "وقت الفراغ والهوايات: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.spielen",
+    "de.a1.vocab.lesen",
+    "de.a1.vocab.schwimmen",
+    "de.a1.vocab.kochen",
+    "de.a1.vocab.fussball",
+    "de.a1.vocab.buch"
+   ]
+  },
+  {
+   "id": "de.a1.u07.l02",
+   "unitId": "de.a1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Free time and hobbies: words 2",
+    "ar": "وقت الفراغ والهوايات: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.film",
+    "de.a1.vocab.freund",
+    "de.a1.vocab.wochenende",
+    "de.a1.vocab.koennen",
+    "de.a1.vocab.gern"
+   ]
+  },
+  {
+   "id": "de.a1.u07.l03",
+   "unitId": "de.a1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "gern and the modal verbs können, wollen",
+    "ar": "gern والأفعال können وwollen"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u07"
+  },
+  {
+   "id": "de.a1.u07.l04",
+   "unitId": "de.a1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: free time and hobbies",
+    "ar": "استماع: وقت الفراغ والهوايات"
+   },
+   "items": [
+    "de.a1.sent.u07_01",
+    "de.a1.sent.u07_02",
+    "de.a1.sent.u07_03",
+    "de.a1.sent.u07_04"
+   ]
+  },
+  {
+   "id": "de.a1.u07.l05",
+   "unitId": "de.a1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "de.a1.vocab.spielen",
+    "de.a1.vocab.lesen",
+    "de.a1.vocab.schwimmen",
+    "de.a1.vocab.kochen",
+    "de.a1.vocab.fussball",
+    "de.a1.vocab.buch",
+    "de.a1.vocab.film",
+    "de.a1.vocab.freund",
+    "de.a1.vocab.wochenende",
+    "de.a1.vocab.koennen",
+    "de.a1.vocab.gern"
+   ]
+  },
+  {
+   "id": "de.a1.u08.l01",
+   "unitId": "de.a1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 1",
+    "ar": "في المدينة: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.strasse",
+    "de.a1.vocab.bahnhof",
+    "de.a1.vocab.apotheke",
+    "de.a1.vocab.museum",
+    "de.a1.vocab.park"
+   ]
+  },
+  {
+   "id": "de.a1.u08.l02",
+   "unitId": "de.a1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "In the city: words 2",
+    "ar": "في المدينة: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.links",
+    "de.a1.vocab.rechts",
+    "de.a1.vocab.geradeaus",
+    "de.a1.vocab.nah",
+    "de.a1.vocab.weit"
+   ]
+  },
+  {
+   "id": "de.a1.u08.l03",
+   "unitId": "de.a1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "The imperative and in, an, bei + dative",
+    "ar": "الأمر وin وan وbei مع الداتيف"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u08"
+  },
+  {
+   "id": "de.a1.u08.l04",
+   "unitId": "de.a1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: in the city",
+    "ar": "استماع: في المدينة"
+   },
+   "items": [
+    "de.a1.sent.u08_01",
+    "de.a1.sent.u08_02",
+    "de.a1.sent.u08_03",
+    "de.a1.sent.u08_04"
+   ]
+  },
+  {
+   "id": "de.a1.u08.l05",
+   "unitId": "de.a1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "de.a1.vocab.strasse",
+    "de.a1.vocab.bahnhof",
+    "de.a1.vocab.apotheke",
+    "de.a1.vocab.museum",
+    "de.a1.vocab.park",
+    "de.a1.vocab.links",
+    "de.a1.vocab.rechts",
+    "de.a1.vocab.geradeaus",
+    "de.a1.vocab.nah",
+    "de.a1.vocab.weit"
+   ]
+  },
+  {
+   "id": "de.a1.u09.l01",
+   "unitId": "de.a1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 1",
+    "ar": "السفر والمواصلات: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.zug",
+    "de.a1.vocab.flugzeug",
+    "de.a1.vocab.fahrkarte",
+    "de.a1.vocab.koffer",
+    "de.a1.vocab.reisen"
+   ]
+  },
+  {
+   "id": "de.a1.u09.l02",
+   "unitId": "de.a1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and transport: words 2",
+    "ar": "السفر والمواصلات: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.fahren",
+    "de.a1.vocab.fliegen",
+    "de.a1.vocab.muessen",
+    "de.a1.vocab.abfahrt",
+    "de.a1.vocab.urlaub"
+   ]
+  },
+  {
+   "id": "de.a1.u09.l03",
+   "unitId": "de.a1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "müssen, dürfen and mit + dative",
+    "ar": "müssen وdürfen وmit مع الداتيف"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u09"
+  },
+  {
+   "id": "de.a1.u09.l04",
+   "unitId": "de.a1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: travel and transport",
+    "ar": "استماع: السفر والمواصلات"
+   },
+   "items": [
+    "de.a1.sent.u09_01",
+    "de.a1.sent.u09_02",
+    "de.a1.sent.u09_03",
+    "de.a1.sent.u09_04"
+   ]
+  },
+  {
+   "id": "de.a1.u09.l05",
+   "unitId": "de.a1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "de.a1.vocab.zug",
+    "de.a1.vocab.flugzeug",
+    "de.a1.vocab.fahrkarte",
+    "de.a1.vocab.koffer",
+    "de.a1.vocab.reisen",
+    "de.a1.vocab.fahren",
+    "de.a1.vocab.fliegen",
+    "de.a1.vocab.muessen",
+    "de.a1.vocab.abfahrt",
+    "de.a1.vocab.urlaub"
+   ]
+  },
+  {
+   "id": "de.a1.u10.l01",
+   "unitId": "de.a1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 1",
+    "ar": "الصحة والجسم: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.kopf",
+    "de.a1.vocab.bauch",
+    "de.a1.vocab.arm",
+    "de.a1.vocab.bein",
+    "de.a1.vocab.arzt",
+    "de.a1.vocab.medikament"
+   ]
+  },
+  {
+   "id": "de.a1.u10.l02",
+   "unitId": "de.a1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and body: words 2",
+    "ar": "الصحة والجسم: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.krank",
+    "de.a1.vocab.gesund",
+    "de.a1.vocab.wehtun",
+    "de.a1.vocab.schmerz",
+    "de.a1.vocab.fieber"
+   ]
+  },
+  {
+   "id": "de.a1.u10.l03",
+   "unitId": "de.a1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "sollen and pronouns in the accusative",
+    "ar": "sollen والضمائر في الأكوزاتيف"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u10"
+  },
+  {
+   "id": "de.a1.u10.l04",
+   "unitId": "de.a1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and body",
+    "ar": "استماع: الصحة والجسم"
+   },
+   "items": [
+    "de.a1.sent.u10_01",
+    "de.a1.sent.u10_02",
+    "de.a1.sent.u10_03",
+    "de.a1.sent.u10_04"
+   ]
+  },
+  {
+   "id": "de.a1.u10.l05",
+   "unitId": "de.a1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "de.a1.vocab.kopf",
+    "de.a1.vocab.bauch",
+    "de.a1.vocab.arm",
+    "de.a1.vocab.bein",
+    "de.a1.vocab.arzt",
+    "de.a1.vocab.medikament",
+    "de.a1.vocab.krank",
+    "de.a1.vocab.gesund",
+    "de.a1.vocab.wehtun",
+    "de.a1.vocab.schmerz",
+    "de.a1.vocab.fieber"
+   ]
+  },
+  {
+   "id": "de.a1.u11.l01",
+   "unitId": "de.a1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 1",
+    "ar": "الشغل والمدرسة: كلمات 1"
+   },
+   "items": [
+    "de.a1.vocab.arbeit",
+    "de.a1.vocab.buero",
+    "de.a1.vocab.kollege",
+    "de.a1.vocab.chef"
+   ]
+  },
+  {
+   "id": "de.a1.u11.l02",
+   "unitId": "de.a1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work and school: words 2",
+    "ar": "الشغل والمدرسة: كلمات 2"
+   },
+   "items": [
+    "de.a1.vocab.lehrer",
+    "de.a1.vocab.student",
+    "de.a1.vocab.schreiben",
+    "de.a1.vocab.machen"
+   ]
+  },
+  {
+   "id": "de.a1.u11.l03",
+   "unitId": "de.a1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Perfect tense with haben",
+    "ar": "الماضي التام (Perfekt) مع haben"
+   },
+   "items": [],
+   "grammarId": "de.a1.gram.u11"
+  },
+  {
+   "id": "de.a1.u11.l04",
+   "unitId": "de.a1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work and school",
+    "ar": "استماع: الشغل والمدرسة"
+   },
+   "items": [
+    "de.a1.sent.u11_01",
+    "de.a1.sent.u11_02",
+    "de.a1.sent.u11_03",
+    "de.a1.sent.u11_04"
+   ]
+  },
+  {
+   "id": "de.a1.u11.l05",
+   "unitId": "de.a1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "de.a1.vocab.arbeit",
+    "de.a1.vocab.buero",
+    "de.a1.vocab.kollege",
+    "de.a1.vocab.chef",
+    "de.a1.vocab.lehrer",
+    "de.a1.vocab.student",
+    "de.a1.vocab.schreiben",
+    "de.a1.vocab.machen"
+   ]
+  },
+  {
+   "id": "de.a1.u12.l01",
+   "unitId": "de.a1.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "A1 words review",
+    "ar": "مراجعة كلمات A1"
+   },
+   "items": [
+    "de.a1.vocab.geschaeft",
+    "de.a1.vocab.geld",
+    "de.a1.vocab.euro",
+    "de.a1.vocab.bezahlen",
+    "de.a1.vocab.hemd",
+    "de.a1.vocab.aufstehen",
+    "de.a1.vocab.arbeiten",
+    "de.a1.vocab.abend",
+    "de.a1.vocab.oft",
+    "de.a1.vocab.spielen",
+    "de.a1.vocab.schwimmen",
+    "de.a1.vocab.fussball",
+    "de.a1.vocab.film",
+    "de.a1.vocab.wochenende",
+    "de.a1.vocab.gern",
+    "de.a1.vocab.bahnhof",
+    "de.a1.vocab.museum",
+    "de.a1.vocab.links",
+    "de.a1.vocab.geradeaus",
+    "de.a1.vocab.weit",
+    "de.a1.vocab.flugzeug",
+    "de.a1.vocab.koffer",
+    "de.a1.vocab.fahren",
+    "de.a1.vocab.muessen",
+    "de.a1.vocab.urlaub",
+    "de.a1.vocab.bauch",
+    "de.a1.vocab.bein",
+    "de.a1.vocab.medikament",
+    "de.a1.vocab.gesund",
+    "de.a1.vocab.schmerz"
+   ]
+  },
+  {
+   "id": "de.a1.u12.l02",
+   "unitId": "de.a1.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "A1 exam",
+    "ar": "امتحان A1"
+   },
+   "items": []
   }
  ],
  "vocab": [
@@ -2648,6 +3516,1225 @@
    "source": "3lang-original",
    "license": "CC BY-SA 4.0",
    "conceptId": "c.a1.thirst"
+  },
+  {
+   "id": "de.a1.vocab.geschaeft",
+   "lemma": "Geschäft",
+   "article": "das",
+   "plural": "Geschäfte",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محل",
+    "en": "shop"
+   },
+   "conceptId": "c.a1.shop",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.supermarkt",
+   "lemma": "Supermarkt",
+   "article": "der",
+   "plural": "Supermärkte",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوبر ماركت",
+    "en": "supermarket"
+   },
+   "conceptId": "c.a1.supermarket",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.geld",
+   "lemma": "Geld",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فلوس",
+    "en": "money"
+   },
+   "conceptId": "c.a1.money",
+   "sentenceIds": [
+    "de.a1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.preis",
+   "lemma": "Preis",
+   "article": "der",
+   "plural": "Preise",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سعر",
+    "en": "price"
+   },
+   "conceptId": "c.a1.price",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.euro",
+   "lemma": "Euro",
+   "article": "der",
+   "plural": "Euro",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يورو",
+    "en": "euro"
+   },
+   "conceptId": "c.a1.euro",
+   "sentenceIds": [
+    "de.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.kaufen",
+   "lemma": "kaufen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتري",
+    "en": "to buy"
+   },
+   "conceptId": "c.a1.buy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.bezahlen",
+   "lemma": "bezahlen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يدفع",
+    "en": "to pay"
+   },
+   "conceptId": "c.a1.pay",
+   "sentenceIds": [
+    "de.a1.sent.u05_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.kosten",
+   "lemma": "kosten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكلّف، تمنه",
+    "en": "to cost"
+   },
+   "conceptId": "c.a1.cost",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.hemd",
+   "lemma": "Hemd",
+   "article": "das",
+   "plural": "Hemden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قميص",
+    "en": "shirt"
+   },
+   "conceptId": "c.a1.shirt",
+   "sentenceIds": [
+    "de.a1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.tasche",
+   "lemma": "Tasche",
+   "article": "die",
+   "plural": "Taschen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة",
+    "en": "bag"
+   },
+   "conceptId": "c.a1.bag",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.aufstehen",
+   "lemma": "aufstehen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصحى، يقوم",
+    "en": "to get up"
+   },
+   "conceptId": "c.a1.get_up",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.schlafen",
+   "lemma": "schlafen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينام",
+    "en": "to sleep"
+   },
+   "conceptId": "c.a1.sleep",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.arbeiten",
+   "lemma": "arbeiten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتغل",
+    "en": "to work"
+   },
+   "conceptId": "c.a1.work",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.morgen",
+   "lemma": "Morgen",
+   "article": "der",
+   "plural": "Morgen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الصبح",
+    "en": "morning"
+   },
+   "conceptId": "c.a1.morning",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.abend",
+   "lemma": "Abend",
+   "article": "der",
+   "plural": "Abende",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المسا، بالليل",
+    "en": "evening"
+   },
+   "conceptId": "c.a1.evening",
+   "sentenceIds": [
+    "de.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.immer",
+   "lemma": "immer",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دايمًا",
+    "en": "always"
+   },
+   "conceptId": "c.a1.always",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.oft",
+   "lemma": "oft",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتير، غالبًا",
+    "en": "often"
+   },
+   "conceptId": "c.a1.often",
+   "sentenceIds": [
+    "de.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.spaet",
+   "lemma": "spät",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متأخر",
+    "en": "late"
+   },
+   "conceptId": "c.a1.late",
+   "sentenceIds": [
+    "de.a1.sent.u06_02",
+    "de.a1.sent.u06_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.spielen",
+   "lemma": "spielen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يلعب",
+    "en": "to play"
+   },
+   "conceptId": "c.a1.play",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.lesen",
+   "lemma": "lesen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقرا",
+    "en": "to read"
+   },
+   "conceptId": "c.a1.read",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.schwimmen",
+   "lemma": "schwimmen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعوم",
+    "en": "to swim"
+   },
+   "conceptId": "c.a1.swim",
+   "sentenceIds": [
+    "de.a1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.kochen",
+   "lemma": "kochen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطبخ",
+    "en": "to cook"
+   },
+   "conceptId": "c.a1.cook",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.fussball",
+   "lemma": "Fußball",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كورة",
+    "en": "football"
+   },
+   "conceptId": "c.a1.football",
+   "sentenceIds": [
+    "de.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.buch",
+   "lemma": "Buch",
+   "article": "das",
+   "plural": "Bücher",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كتاب",
+    "en": "book"
+   },
+   "conceptId": "c.a1.book",
+   "sentenceIds": [
+    "de.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.film",
+   "lemma": "Film",
+   "article": "der",
+   "plural": "Filme",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيلم",
+    "en": "film"
+   },
+   "conceptId": "c.a1.film",
+   "sentenceIds": [
+    "de.a1.sent.u07_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.freund",
+   "lemma": "Freund",
+   "article": "der",
+   "plural": "Freunde",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحب",
+    "en": "friend"
+   },
+   "conceptId": "c.a1.friend",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.wochenende",
+   "lemma": "Wochenende",
+   "article": "das",
+   "plural": "Wochenenden",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "الويك إند",
+    "en": "weekend"
+   },
+   "conceptId": "c.a1.weekend",
+   "sentenceIds": [
+    "de.a1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.koennen",
+   "lemma": "können",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقدر",
+    "en": "can, to be able to"
+   },
+   "conceptId": "c.a1.can",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.gern",
+   "lemma": "gern",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بحب، بكل سرور",
+    "en": "gladly (like to)"
+   },
+   "conceptId": "c.a1.gladly",
+   "sentenceIds": [
+    "de.a1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.strasse",
+   "lemma": "Straße",
+   "article": "die",
+   "plural": "Straßen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شارع",
+    "en": "street"
+   },
+   "conceptId": "c.a1.street",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.bahnhof",
+   "lemma": "Bahnhof",
+   "article": "der",
+   "plural": "Bahnhöfe",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محطة",
+    "en": "station"
+   },
+   "conceptId": "c.a1.station",
+   "sentenceIds": [
+    "de.a1.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.apotheke",
+   "lemma": "Apotheke",
+   "article": "die",
+   "plural": "Apotheken",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صيدلية",
+    "en": "pharmacy"
+   },
+   "conceptId": "c.a1.pharmacy",
+   "sentenceIds": [
+    "de.a1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.museum",
+   "lemma": "Museum",
+   "article": "das",
+   "plural": "Museen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متحف",
+    "en": "museum"
+   },
+   "conceptId": "c.a1.museum",
+   "sentenceIds": [
+    "de.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.park",
+   "lemma": "Park",
+   "article": "der",
+   "plural": "Parks",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جنينة، حديقة",
+    "en": "park"
+   },
+   "conceptId": "c.a1.park",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.links",
+   "lemma": "links",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شمال",
+    "en": "left"
+   },
+   "conceptId": "c.a1.left",
+   "sentenceIds": [
+    "de.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.rechts",
+   "lemma": "rechts",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يمين",
+    "en": "right"
+   },
+   "conceptId": "c.a1.right_dir",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.geradeaus",
+   "lemma": "geradeaus",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على طول",
+    "en": "straight on"
+   },
+   "conceptId": "c.a1.straight_on",
+   "sentenceIds": [
+    "de.a1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.nah",
+   "lemma": "nah",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قريب",
+    "en": "near"
+   },
+   "conceptId": "c.a1.near",
+   "sentenceIds": [
+    "de.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.weit",
+   "lemma": "weit",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بعيد",
+    "en": "far"
+   },
+   "conceptId": "c.a1.far",
+   "sentenceIds": [
+    "de.a1.sent.u08_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.zug",
+   "lemma": "Zug",
+   "article": "der",
+   "plural": "Züge",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قطر",
+    "en": "train"
+   },
+   "conceptId": "c.a1.train",
+   "sentenceIds": [
+    "de.a1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.flugzeug",
+   "lemma": "Flugzeug",
+   "article": "das",
+   "plural": "Flugzeuge",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طيارة",
+    "en": "plane"
+   },
+   "conceptId": "c.a1.plane",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.fahrkarte",
+   "lemma": "Fahrkarte",
+   "article": "die",
+   "plural": "Fahrkarten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تذكرة",
+    "en": "ticket"
+   },
+   "conceptId": "c.a1.ticket",
+   "sentenceIds": [
+    "de.a1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.koffer",
+   "lemma": "Koffer",
+   "article": "der",
+   "plural": "Koffer",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شنطة سفر",
+    "en": "suitcase"
+   },
+   "conceptId": "c.a1.suitcase",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.reisen",
+   "lemma": "reisen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسافر",
+    "en": "to travel"
+   },
+   "conceptId": "c.a1.travel",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.fahren",
+   "lemma": "fahren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسوق؛ يروح بمواصلة",
+    "en": "to drive; to go (by vehicle)"
+   },
+   "conceptId": "c.a1.drive",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.fliegen",
+   "lemma": "fliegen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يطير، يسافر بالطيارة",
+    "en": "to fly"
+   },
+   "conceptId": "c.a1.fly",
+   "sentenceIds": [
+    "de.a1.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.muessen",
+   "lemma": "müssen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لازم",
+    "en": "must, to have to"
+   },
+   "conceptId": "c.a1.must",
+   "sentenceIds": [
+    "de.a1.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.abfahrt",
+   "lemma": "Abfahrt",
+   "article": "die",
+   "plural": "Abfahrten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيام، مغادرة",
+    "en": "departure"
+   },
+   "conceptId": "c.a1.departure",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.urlaub",
+   "lemma": "Urlaub",
+   "article": "der",
+   "plural": "Urlaube",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إجازة",
+    "en": "holiday, vacation"
+   },
+   "conceptId": "c.a1.holiday",
+   "sentenceIds": [
+    "de.a1.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.kopf",
+   "lemma": "Kopf",
+   "article": "der",
+   "plural": "Köpfe",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "راس",
+    "en": "head"
+   },
+   "conceptId": "c.a1.head",
+   "sentenceIds": [
+    "de.a1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.bauch",
+   "lemma": "Bauch",
+   "article": "der",
+   "plural": "Bäuche",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطن",
+    "en": "belly, stomach"
+   },
+   "conceptId": "c.a1.belly",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.arm",
+   "lemma": "Arm",
+   "article": "der",
+   "plural": "Arme",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دراع",
+    "en": "arm"
+   },
+   "conceptId": "c.a1.arm",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.bein",
+   "lemma": "Bein",
+   "article": "das",
+   "plural": "Beine",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رجل",
+    "en": "leg"
+   },
+   "conceptId": "c.a1.leg",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.arzt",
+   "lemma": "Arzt",
+   "article": "der",
+   "plural": "Ärzte",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دكتور",
+    "en": "doctor"
+   },
+   "conceptId": "c.a1.doctor",
+   "sentenceIds": [
+    "de.a1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.medikament",
+   "lemma": "Medikament",
+   "article": "das",
+   "plural": "Medikamente",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دوا",
+    "en": "medicine"
+   },
+   "conceptId": "c.a1.medicine",
+   "sentenceIds": [
+    "de.a1.sent.u10_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.krank",
+   "lemma": "krank",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيان",
+    "en": "ill, sick"
+   },
+   "conceptId": "c.a1.ill",
+   "sentenceIds": [
+    "de.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.gesund",
+   "lemma": "gesund",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "صحي، بصحة كويسة",
+    "en": "healthy"
+   },
+   "conceptId": "c.a1.healthy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.wehtun",
+   "lemma": "wehtun",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوجع",
+    "en": "to hurt"
+   },
+   "conceptId": "c.a1.hurt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.schmerz",
+   "lemma": "Schmerz",
+   "article": "der",
+   "plural": "Schmerzen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وجع",
+    "en": "pain"
+   },
+   "conceptId": "c.a1.pain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.fieber",
+   "lemma": "Fieber",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سخونية، حرارة",
+    "en": "fever"
+   },
+   "conceptId": "c.a1.fever",
+   "sentenceIds": [
+    "de.a1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.arbeit",
+   "lemma": "Arbeit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شغل",
+    "en": "job, work"
+   },
+   "conceptId": "c.a1.job",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.buero",
+   "lemma": "Büro",
+   "article": "das",
+   "plural": "Büros",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مكتب",
+    "en": "office"
+   },
+   "conceptId": "c.a1.office",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.kollege",
+   "lemma": "Kollege",
+   "article": "der",
+   "plural": "Kollegen",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زميل",
+    "en": "colleague"
+   },
+   "conceptId": "c.a1.colleague",
+   "sentenceIds": [
+    "de.a1.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.chef",
+   "lemma": "Chef",
+   "article": "der",
+   "plural": "Chefs",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدير",
+    "en": "boss"
+   },
+   "conceptId": "c.a1.boss",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.lehrer",
+   "lemma": "Lehrer",
+   "article": "der",
+   "plural": "Lehrer",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرس",
+    "en": "teacher"
+   },
+   "conceptId": "c.a1.teacher",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.student",
+   "lemma": "Student",
+   "article": "der",
+   "plural": "Studenten",
+   "pos": "noun",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "طالب",
+    "en": "student"
+   },
+   "conceptId": "c.a1.student",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.schreiben",
+   "lemma": "schreiben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكتب",
+    "en": "to write"
+   },
+   "conceptId": "c.a1.write",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.vocab.machen",
+   "lemma": "machen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعمل",
+    "en": "to make, to do"
+   },
+   "conceptId": "c.a1.make_do",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
   }
  ],
  "sentences": [
@@ -3442,6 +5529,314 @@
    "license": "CC BY-SA 4.0",
    "needsReview": false,
    "text": "Zwei Brötchen, bitte."
+  },
+  {
+   "id": "de.a1.sent.u05_01",
+   "text": "Wie viel kostet das Brot?",
+   "translations": {
+    "ar": "العيش بكام؟",
+    "en": "How much does the bread cost?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u05_02",
+   "text": "Das Hemd kostet zwanzig Euro.",
+   "translations": {
+    "ar": "القميص بعشرين يورو.",
+    "en": "The shirt costs twenty euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u05_03",
+   "text": "Ich habe kein Geld.",
+   "translations": {
+    "ar": "معييش فلوس.",
+    "en": "I don't have any money."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u05_04",
+   "text": "Kann ich mit Karte bezahlen?",
+   "translations": {
+    "ar": "ينفع أدفع بالكارت؟",
+    "en": "Can I pay by card?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u06_01",
+   "text": "Ich stehe um sieben Uhr auf.",
+   "translations": {
+    "ar": "بصحى الساعة سبعة.",
+    "en": "I get up at seven o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u06_02",
+   "text": "Wie spät ist es?",
+   "translations": {
+    "ar": "الساعة كام؟",
+    "en": "What time is it?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u06_03",
+   "text": "Heute arbeite ich bis fünf.",
+   "translations": {
+    "ar": "النهاردة هشتغل لحد خمسة.",
+    "en": "Today I work until five."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u06_04",
+   "text": "Am Abend schlafe ich oft spät.",
+   "translations": {
+    "ar": "بالليل غالبًا بنام متأخر.",
+    "en": "In the evening I often sleep late."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u07_01",
+   "text": "Ich lese gern Bücher.",
+   "translations": {
+    "ar": "بحب أقرا كتب.",
+    "en": "I like to read books."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u07_02",
+   "text": "Kannst du schwimmen?",
+   "translations": {
+    "ar": "تعرف تعوم؟",
+    "en": "Can you swim?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u07_03",
+   "text": "Am Wochenende spiele ich mit Freunden Fußball.",
+   "translations": {
+    "ar": "في الويك إند بلعب كورة مع أصحابي.",
+    "en": "At the weekend I play football with friends."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u07_04",
+   "text": "Wir wollen einen Film sehen.",
+   "translations": {
+    "ar": "عايزين نشوف فيلم.",
+    "en": "We want to see a film."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u08_01",
+   "text": "Entschuldigung, wo ist der Bahnhof?",
+   "translations": {
+    "ar": "لو سمحت، المحطة فين؟",
+    "en": "Excuse me, where is the station?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u08_02",
+   "text": "Gehen Sie geradeaus und dann links.",
+   "translations": {
+    "ar": "امشي على طول وبعدين شمال.",
+    "en": "Go straight on and then left."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u08_03",
+   "text": "Die Apotheke ist neben der Bank.",
+   "translations": {
+    "ar": "الصيدلية جنب البنك.",
+    "en": "The pharmacy is next to the bank."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u08_04",
+   "text": "Ist das Museum weit? Nein, es ist nah.",
+   "translations": {
+    "ar": "المتحف بعيد؟ لأ، قريب.",
+    "en": "Is the museum far? No, it is near."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u09_01",
+   "text": "Ich fahre mit dem Zug zur Arbeit.",
+   "translations": {
+    "ar": "بروح الشغل بالقطر.",
+    "en": "I go to work by train."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u09_02",
+   "text": "Wir müssen eine Fahrkarte kaufen.",
+   "translations": {
+    "ar": "لازم نشتري تذكرة.",
+    "en": "We have to buy a ticket."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u09_03",
+   "text": "Wann fährt der Bus ab?",
+   "translations": {
+    "ar": "الأتوبيس بيقوم إمتى؟",
+    "en": "When does the bus leave?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u09_04",
+   "text": "Im Urlaub fliegen wir nach Spanien.",
+   "translations": {
+    "ar": "في الإجازة هنسافر إسبانيا بالطيارة.",
+    "en": "In the holidays we fly to Spain."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u10_01",
+   "text": "Mein Kopf tut weh.",
+   "translations": {
+    "ar": "راسي بتوجعني.",
+    "en": "My head hurts."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u10_02",
+   "text": "Ich bin krank und habe Fieber.",
+   "translations": {
+    "ar": "أنا عيان وعندي سخونية.",
+    "en": "I am ill and have a fever."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u10_03",
+   "text": "Du sollst zum Arzt gehen.",
+   "translations": {
+    "ar": "المفروض تروح للدكتور.",
+    "en": "You should go to the doctor."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u10_04",
+   "text": "Nehmen Sie das Medikament dreimal am Tag.",
+   "translations": {
+    "ar": "خد الدوا ده تلات مرات في اليوم.",
+    "en": "Take this medicine three times a day."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u11_01",
+   "text": "Gestern habe ich viel gearbeitet.",
+   "translations": {
+    "ar": "امبارح اشتغلت كتير.",
+    "en": "Yesterday I worked a lot."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u11_02",
+   "text": "Mein Kollege hat eine E-Mail geschrieben.",
+   "translations": {
+    "ar": "زميلي كتب إيميل.",
+    "en": "My colleague has written an email."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u11_03",
+   "text": "Warum lernst du Spanisch?",
+   "translations": {
+    "ar": "بتتعلم إسباني ليه؟",
+    "en": "Why are you learning Spanish?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a1.sent.u11_04",
+   "text": "Was hast du in der Schule gemacht?",
+   "translations": {
+    "ar": "عملت إيه في المدرسة؟",
+    "en": "What did you do at school?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
   }
  ],
  "grammar": [
@@ -3888,6 +6283,422 @@
    ],
    "source": "3lang-original",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u05",
+   "level": "A1",
+   "title": {
+    "en": "kein or nicht?",
+    "ar": "kein ولا nicht؟"
+   },
+   "explanation": {
+    "en": "kein negates a noun that would have ein or no article: Ich habe kein Geld. Das ist keine Tasche. It takes the same endings as ein (kein, keine, keinen).\n\nnicht negates everything else: verbs, adjectives, nouns with der/die/das, names: Das Hemd ist nicht billig. Ich kaufe das Brot nicht.\n\nnicht usually goes at the end of the sentence, or before the word it negates.",
+    "ar": "kein بتنفي اسم كان هيبقى معاه ein أو من غير أداة: Ich habe kein Geld (معييش فلوس). Das ist keine Tasche. وبتاخد نفس نهايات ein (kein, keine, keinen).\n\nnicht بتنفي أي حاجة تانية: الأفعال، الصفات، الأسماء اللي معاها der/die/das، والأسماء: Das Hemd ist nicht billig. Ich kaufe das Brot nicht.\n\nnicht غالبًا بتيجي في آخر الجملة أو قبل الكلمة اللي بتنفيها."
+   },
+   "table": {
+    "headers": [
+     "",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "nominative",
+      "kein",
+      "keine",
+      "kein",
+      "keine"
+     ],
+     [
+      "accusative",
+      "keinen",
+      "keine",
+      "kein",
+      "keine"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u05_01",
+    "de.a1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich habe ___ Geld.",
+     "answer": "kein",
+     "base": "kein / nicht"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Hemd ist ___ teuer.",
+     "answer": "nicht",
+     "base": "kein / nicht"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er kauft ___ Tasche.",
+     "answer": "keine",
+     "base": "kein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wir haben ___ Supermarkt hier.",
+     "answer": "keinen",
+     "base": "kein"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u06",
+   "level": "A1",
+   "title": {
+    "en": "Separable verbs and verb second",
+    "ar": "الأفعال اللي بتنفصل والفعل في المكان التاني"
+   },
+   "explanation": {
+    "en": "Some verbs have a prefix that splits off: aufstehen → Ich stehe um sieben Uhr auf. The verb goes in position 2, the prefix goes to the very end.\n\nThe verb is always the second element in a statement, even when the sentence starts with a time: Heute arbeite ich bis fünf. (not: Heute ich arbeite).\n\nTime: um sieben Uhr = at seven o'clock; Wie spät ist es? = What time is it?",
+    "ar": "فيه أفعال ليها بادئة بتنفصل: aufstehen ← Ich stehe um sieben Uhr auf. الفعل في المكان التاني والبادئة في آخر الجملة خالص.\n\nالفعل دايمًا العنصر التاني في الجملة الخبرية، حتى لو الجملة بدأت بوقت: Heute arbeite ich bis fünf (مش Heute ich arbeite).\n\nالوقت: um sieben Uhr = الساعة سبعة؛ Wie spät ist es? = الساعة كام؟"
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u06_01",
+    "de.a1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ um sieben Uhr auf.",
+     "answer": "stehe",
+     "base": "aufstehen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er steht um sechs Uhr ___.",
+     "answer": "auf",
+     "base": "aufstehen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Heute ___ ich bis fünf.",
+     "answer": "arbeite",
+     "base": "arbeiten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Am Abend ___ er oft spät.",
+     "answer": "schläft",
+     "base": "schlafen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u07",
+   "level": "A1",
+   "title": {
+    "en": "gern and the modal verbs können, wollen",
+    "ar": "gern والأفعال können وwollen"
+   },
+   "explanation": {
+    "en": "To say you like doing something, add gern after the verb: Ich lese gern. Ich spiele gern Fußball. Not liking it: nicht gern.\n\nModal verbs push the main verb to the end in the infinitive: Ich kann schwimmen. Wir wollen einen Film sehen.\n\nkönnen: ich kann, du kannst, er kann, wir können, ihr könnt, sie können. wollen: ich will, du willst, er will, wir wollen, ihr wollt, sie wollen.",
+    "ar": "عشان تقول بتحب تعمل حاجة، زوّد gern بعد الفعل: Ich lese gern (بحب أقرا). Ich spiele gern Fußball. ومش بتحب: nicht gern.\n\nأفعال الوجه بتزق الفعل الأساسي لآخر الجملة في المصدر: Ich kann schwimmen. Wir wollen einen Film sehen.\n\nkönnen: ich kann, du kannst, er kann, wir können, ihr könnt, sie können. وwollen: ich will, du willst, er will, wir wollen, ihr wollt, sie wollen."
+   },
+   "table": {
+    "headers": [
+     "",
+     "können",
+     "wollen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "kann",
+      "will"
+     ],
+     [
+      "du",
+      "kannst",
+      "willst"
+     ],
+     [
+      "er/sie/es",
+      "kann",
+      "will"
+     ],
+     [
+      "wir",
+      "können",
+      "wollen"
+     ],
+     [
+      "ihr",
+      "könnt",
+      "wollt"
+     ],
+     [
+      "sie/Sie",
+      "können",
+      "wollen"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u07_01",
+    "de.a1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich lese ___ Bücher.",
+     "answer": "gern",
+     "base": "gern"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ du schwimmen?",
+     "answer": "Kannst",
+     "base": "können"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wir ___ einen Film sehen.",
+     "answer": "wollen",
+     "base": "wollen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ gut kochen.",
+     "answer": "kann",
+     "base": "können"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u08",
+   "level": "A1",
+   "title": {
+    "en": "The imperative and in, an, bei + dative",
+    "ar": "الأمر وin وan وbei مع الداتيف"
+   },
+   "explanation": {
+    "en": "Imperative: polite form = verb + Sie: Gehen Sie geradeaus! Informal (du) = verb stem: Geh! Nimm den Bus!\n\nAfter in, an, bei, neben (answering wo?) the noun is in the dative: der/das → dem, die → der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder.",
+    "ar": "الأمر: الصيغة الرسمية = الفعل + Sie: Gehen Sie geradeaus! والعادية (du) = جذر الفعل: Geh! Nimm den Bus!\n\nبعد in وan وbei وneben (لما بتجاوب على wo؟ فين) الاسم بيبقى داتيف: der/das ← dem، وdie ← der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder."
+   },
+   "table": {
+    "headers": [
+     "",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "dative",
+      "dem",
+      "der",
+      "dem",
+      "den (+n)"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u08_01",
+    "de.a1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ Sie geradeaus! (gehen)",
+     "answer": "Gehen",
+     "base": "gehen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Die Apotheke ist neben ___ Bank.",
+     "answer": "der",
+     "base": "die"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich bin ___ Park.",
+     "answer": "im",
+     "base": "in + dem"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wo ___ der Bahnhof?",
+     "answer": "ist",
+     "base": "sein"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u09",
+   "level": "A1",
+   "title": {
+    "en": "müssen, dürfen and mit + dative",
+    "ar": "müssen وdürfen وmit مع الداتيف"
+   },
+   "explanation": {
+    "en": "müssen (must): ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen. dürfen (may): ich darf, du darfst, er darf, wir dürfen. Hier darf man nicht rauchen = smoking is not allowed here.\n\nmit always takes the dative: mit dem Zug, mit der Bahn, mit dem Auto. Going by vehicle is fahren (ich fahre, du fährst, er fährt).",
+    "ar": "müssen (لازم): ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen. وdürfen (مسموح): ich darf, du darfst, er darf, wir dürfen. Hier darf man nicht rauchen = ممنوع التدخين هنا.\n\nmit دايمًا بتاخد داتيف: mit dem Zug، mit der Bahn، mit dem Auto. والسفر بمواصلة اسمه fahren (ich fahre, du fährst, er fährt)."
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u09_01",
+    "de.a1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Wir ___ eine Fahrkarte kaufen.",
+     "answer": "müssen",
+     "base": "müssen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich fahre mit ___ Zug.",
+     "answer": "dem",
+     "base": "der"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hier ___ man nicht rauchen.",
+     "answer": "darf",
+     "base": "dürfen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ mit dem Auto. (fahren)",
+     "answer": "fährt",
+     "base": "fahren"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u10",
+   "level": "A1",
+   "title": {
+    "en": "sollen and pronouns in the accusative",
+    "ar": "sollen والضمائر في الأكوزاتيف"
+   },
+   "explanation": {
+    "en": "sollen passes on advice or an instruction from someone else: Du sollst zum Arzt gehen (the doctor says so). ich soll, du sollst, er soll, wir sollen.\n\nPersonal pronouns in the accusative: mich, dich, ihn, sie, es, uns, euch, sie/Sie. Der Arzt untersucht mich.\n\nPain: Mein Kopf tut weh. Ich habe Kopfschmerzen / Bauchschmerzen.",
+    "ar": "sollen بتنقل نصيحة أو تعليمات من حد تاني: Du sollst zum Arzt gehen (الدكتور قال كده). ich soll, du sollst, er soll, wir sollen.\n\nالضمائر في الأكوزاتيف: mich, dich, ihn, sie, es, uns, euch, sie/Sie. Der Arzt untersucht mich (الدكتور بيكشف عليّا).\n\nالوجع: Mein Kopf tut weh. Ich habe Kopfschmerzen / Bauchschmerzen."
+   },
+   "table": {
+    "headers": [
+     "nominative",
+     "ich",
+     "du",
+     "er",
+     "sie",
+     "es",
+     "wir",
+     "ihr",
+     "sie/Sie"
+    ],
+    "rows": [
+     [
+      "accusative",
+      "mich",
+      "dich",
+      "ihn",
+      "sie",
+      "es",
+      "uns",
+      "euch",
+      "sie/Sie"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u10_01",
+    "de.a1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Du ___ zum Arzt gehen.",
+     "answer": "sollst",
+     "base": "sollen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Der Arzt untersucht ___. (ich)",
+     "answer": "mich",
+     "base": "ich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Mein Kopf tut ___.",
+     "answer": "weh",
+     "base": "wehtun"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich sehe ___ morgen. (er)",
+     "answer": "ihn",
+     "base": "er"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a1.gram.u11",
+   "level": "A1",
+   "title": {
+    "en": "Perfect tense with haben",
+    "ar": "الماضي التام (Perfekt) مع haben"
+   },
+   "explanation": {
+    "en": "Spoken German talks about the past with haben + past participle at the end: Ich habe viel gearbeitet.\n\nRegular verbs: ge- + stem + -t: machen → gemacht, lernen → gelernt, arbeiten → gearbeitet. Irregular verbs: ge- + stem + -en, often with a vowel change: schreiben → geschrieben, lesen → gelesen.\n\nQuestion words: wer, was, wo, wann, warum, wie.",
+    "ar": "الألماني في الكلام بيحكي عن الماضي بـ haben + اسم المفعول في آخر الجملة: Ich habe viel gearbeitet.\n\nالأفعال المنتظمة: ge- + الجذر + ‎-t: machen ← gemacht، lernen ← gelernt، arbeiten ← gearbeitet. والشاذة: ge- + الجذر + ‎-en وغالبًا الحرف المتحرك بيتغير: schreiben ← geschrieben، lesen ← gelesen.\n\nأدوات السؤال: wer (مين)، was (إيه)، wo (فين)، wann (إمتى)، warum (ليه)، wie (إزاي)."
+   },
+   "exampleSentenceIds": [
+    "de.a1.sent.u11_01",
+    "de.a1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ viel gearbeitet.",
+     "answer": "habe",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Was hast du ___? (machen)",
+     "answer": "gemacht",
+     "base": "machen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er hat eine E-Mail ___. (schreiben)",
+     "answer": "geschrieben",
+     "base": "schreiben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ lernst du Spanisch? (why)",
+     "answer": "Warum",
+     "base": "warum"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
   }
  ],
  "texts": [
@@ -4146,6 +6957,69 @@
    "prompt": {
     "en": "What do you eat and drink for breakfast, lunch and dinner?",
     "ar": "بتاكل وتشرب إيه على الفطار والغدا والعشا؟ اكتب بالألماني."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u05",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about shopping and prices in German: what you buy every week and how much it costs.",
+    "ar": "اكتب بالألماني عن التسوق والأسعار: إيه اللي بتشتريه كل أسبوع وبكام."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u06",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about daily routine and time in German: your typical day from morning to evening.",
+    "ar": "اكتب بالألماني عن الروتين اليومي والوقت: يومك العادي من الصبح لبالليل."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u07",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about free time and hobbies in German: what you like to do in your free time.",
+    "ar": "اكتب بالألماني عن وقت الفراغ والهوايات: بتحب تعمل إيه في وقت فراغك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u08",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about in the city in German: the way from your home to a place you like in your city.",
+    "ar": "اكتب بالألماني عن في المدينة: الطريق من بيتك لمكان بتحبه في مدينتك."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u09",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about travel and transport in German: a trip you took: where, how and with whom.",
+    "ar": "اكتب بالألماني عن السفر والمواصلات: رحلة عملتها: فين وإزاي ومع مين."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u10",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about health and body in German: a time you were ill and what you did.",
+    "ar": "اكتب بالألماني عن الصحة والجسم: مرة كنت عيان وعملت إيه."
+   },
+   "minWords": 20
+  },
+  {
+   "id": "de.a1.write.u11",
+   "level": "A1",
+   "prompt": {
+    "en": "Write about work and school in German: what you did last week at work or school.",
+    "ar": "اكتب بالألماني عن الشغل والمدرسة: عملت إيه الأسبوع اللي فات في الشغل أو المدرسة."
    },
    "minWords": 20
   }

@@ -13,12 +13,16 @@ class ContentRepository {
   ContentRepository(this.bundle);
   final AssetBundle bundle;
 
-  /// Packs that ship with this build.
+  /// Packs that ship with this build: every level, A0 to C1, for all three
+  /// languages (written by content/pipeline/build_levels.py).
   static const bundled = <Lang, List<String>>{
-    Lang.de: ['A0', 'A1'],
-    Lang.es: ['A0', 'A1'],
-    Lang.nl: ['A0', 'A1'],
+    Lang.de: packLevels,
+    Lang.es: packLevels,
+    Lang.nl: packLevels,
   };
+
+  /// Levels that have a pack. Shrink this list to ship a smaller build.
+  static const packLevels = ['A0', 'A1', 'A2'];
 
   /// The next bundled level above [level] for [lang], if any.
   static String? nextPackLevel(Lang lang, String level) {

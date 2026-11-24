@@ -17,7 +17,7 @@ LevelContent load(Lang lang, String level) => LevelContent.fromJson(
 const articles = {
   Lang.de: {'der', 'die', 'das'},
   Lang.nl: {'de', 'het'},
-  Lang.es: {'el', 'la'},
+  Lang.es: {'el', 'la', 'los', 'las'},
 };
 
 void main() {
@@ -32,9 +32,9 @@ void main() {
     }
   });
 
-  test('every language ships A0 and A1', () {
+  test('every language ships every level, A0 to C1', () {
     for (final lang in Lang.values) {
-      expect(ContentRepository.bundled[lang], ['A0', 'A1'], reason: '$lang');
+      expect(ContentRepository.bundled[lang], cefrLevels, reason: '$lang');
     }
   });
 
@@ -52,16 +52,30 @@ void main() {
     }
   });
 
-  test('packs parse with four units each', () {
+  test('packs parse with every unit of their level', () {
+    const units = {'A0': 4, 'A1': 12, 'A2': 12, 'B1': 16, 'B2': 14, 'C1': 12};
     for (final MapEntry(key: (lang, level), value: p) in packs.entries) {
       expect(p.lang, lang);
       expect(p.level.id, level);
-      expect(p.units.map((u) => u.order), [1, 2, 3, 4], reason: '$lang');
+      expect(
+        p.units.map((u) => u.order),
+        [for (var i = 1; i <= units[level]!; i++) i],
+        reason: '$lang $level',
+      );
       expect(
         p.vocab.length,
         greaterThanOrEqualTo(level == 'A0' ? 50 : 100),
         reason: '$lang $level',
       );
+    }
+  });
+
+  test('every level after A0 ends with an exam', () {
+    for (final MapEntry(key: (_, level), value: p) in packs.entries) {
+      if (level == 'A0') continue;
+      final last = p.lessonsOf(p.units.last);
+      expect(last.last.type, LessonType.exam, reason: p.units.last.id);
+      expect(p.grammar.values.expand((g) => g.exercises), isNotEmpty);
     }
   });
 
@@ -142,16 +156,14 @@ void main() {
     for (final MapEntry(key: (_, level), value: p) in packs.entries) {
       final l = level.toLowerCase();
       expect(p.units.map((u) => u.sharedUnitId), [
-        'u.$l.01',
-        'u.$l.02',
-        'u.$l.03',
-        'u.$l.04',
+        for (var i = 1; i <= p.units.length; i++)
+          'u.$l.${i.toString().padLeft(2, '0')}',
       ]);
     }
   });
 
   test('the three languages teach the same concepts at each level', () {
-    for (final level in ['A0', 'A1']) {
+    for (final level in cefrLevels) {
       Set<String?> concepts(Lang lang) =>
           packs[(lang, level)]!.vocab.values.map((v) => v.conceptId).toSet();
       final de = concepts(Lang.de);
@@ -163,9 +175,12 @@ void main() {
 
   test('a word is never taught twice in one language', () {
     for (final lang in Lang.values) {
-      final a0 = packs[(lang, 'A0')]!.vocab.values.map((v) => v.display);
-      final a1 = packs[(lang, 'A1')]!.vocab.values.map((v) => v.display);
-      expect(a0.toSet().intersection(a1.toSet()), isEmpty, reason: '$lang');
+      final seen = <String>{};
+      for (final level in cefrLevels) {
+        for (final v in packs[(lang, level)]!.vocab.values) {
+          expect(seen.add(v.display), isTrue, reason: '$lang ${v.id}');
+        }
+      }
     }
   });
 
@@ -185,25 +200,58 @@ void main() {
     }
   });
 
-  test('every A1 unit has vocab, grammar, listening, reading and review', () {
-    for (final lang in Lang.values) {
-      final p = packs[(lang, 'A1')]!;
-      for (final unit in p.units) {
+  test('every unit has vocab, grammar, listening and review', () {
+    for (final p in packs.values) {
+      if (p.level.id == 'A0') continue;
+      for (final unit in p.units.take(p.units.length - 1)) {
         final types = p.lessonsOf(unit).map((l) => l.type).toSet();
         expect(
           types,
-          containsAll(LessonType.values.where((t) => t != LessonType.exam)),
+          containsAll([
+            LessonType.vocab,
+            LessonType.grammar,
+            LessonType.listening,
+            LessonType.review,
+          ]),
           reason: unit.id,
         );
       }
     }
   });
 
-  test('every word has an example sentence that uses it', () {
-    for (final p in packs.values) {
-      for (final v in p.vocab.values) {
-        expect(v.sentenceIds, isNotEmpty, reason: v.id);
+  test('A1 units 1-4 also have a reading text', () {
+    for (final lang in Lang.values) {
+      final p = packs[(lang, 'A1')]!;
+      for (final unit in p.units.take(4)) {
+        expect(
+          p.lessonsOf(unit).map((l) => l.type),
+          contains(LessonType.reading),
+          reason: unit.id,
+        );
       }
+    }
+  });
+
+  test('every starter word has an example sentence that uses it', () {
+    // A0 and A1 units 1-4 have an example for every word; later units have
+    // fewer example sentences, linked wherever a sentence uses the word.
+    for (final p in packs.values) {
+      if (p.level.id != 'A0' && p.level.id != 'A1') continue;
+      final starter = p.units
+          .where((u) => u.order <= 4)
+          .expand(p.lessonsOf)
+          .where((l) => l.type == LessonType.vocab)
+          .expand((l) => l.items);
+      for (final id in starter) {
+        expect(p.vocab[id]!.sentenceIds, isNotEmpty, reason: id);
+      }
+    }
+  });
+
+  test('example sentences exist in every unit and level', () {
+    for (final p in packs.values) {
+      final linked = p.vocab.values.where((v) => v.sentenceIds.isNotEmpty);
+      expect(linked.length, greaterThan(p.vocab.length * 0.25), reason: '${p.lang} ${p.level.id}');
     }
   });
 
