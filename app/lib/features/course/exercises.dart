@@ -5,6 +5,7 @@ import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 
+import '../../core/lang/lang.dart';
 import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
@@ -123,18 +124,49 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
             .where((v) => v.id != target.id && !near.contains(v))
             .toList()
           ..shuffle(_rnd);
-    return [
+    final options = [
       target,
       ...[...near, ...far].take(3),
-    ]..shuffle(_rnd);
+    ];
+    // Sometimes one wrong option is the same word in another language you
+    // learn (das Haus in a Dutch quiz): picking it counts as a mix-up.
+    final other = _otherLanguageTwin(target);
+    if (other != null && options.length == 4 && _rnd.nextInt(3) == 0) {
+      options[3] = other;
+    }
+    return options..shuffle(_rnd);
   }
+
+  VocabItem? _otherLanguageTwin(VocabItem target) {
+    final cid = target.conceptId;
+    final lang = target.lang;
+    if (cid == null || lang == null) return null;
+    final twins = ref.read(conceptIndexProvider).value?[cid];
+    if (twins == null) return null;
+    final others = [
+      for (final e in twins.entries)
+        if (e.key != lang && e.value.display != target.display) e.value,
+    ]..sort((a, b) => Lang.areSimilar(lang, a.lang!) ? -1 : 1);
+    return others.firstOrNull;
+  }
+
+  Lang? _mixupFrom;
 
   void _pick(VocabItem v) {
     if (_picked != null) return;
     final target = _order[_index];
-    setState(() => _picked = v.id);
-    if (v.id == target.id) _correct++;
-    ref.read(ttsProvider).speak(target.display);
+    setState(() {
+      _picked = v.id;
+      _mixupFrom = null;
+    });
+    if (v.id == target.id) {
+      _correct++;
+    } else if (v.lang != null && v.lang != target.lang) {
+      reportWrongAnswer(ref, target, v.display).then((from) {
+        if (mounted) setState(() => _mixupFrom = from);
+      });
+    }
+    ref.read(ttsProvider).speak(target.display, lang: target.lang ?? ref.read(activeLangProvider));
   }
 
   void _next() {
@@ -185,6 +217,15 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
               ),
               onPressed: () => _pick(o),
               child: Text(o.display, style: const TextStyle(fontSize: 18)),
+            ),
+          ),
+        if (_mixupFrom != null)
+          Padding(
+            padding: const EdgeInsets.only(top: 12),
+            child: Text(
+              l.mixupHint(_mixupFrom!.displayName(ref.watch(uiLanguageProvider))),
+              textAlign: TextAlign.center,
+              style: TextStyle(color: _mixupFrom!.color),
             ),
           ),
         const Spacer(),

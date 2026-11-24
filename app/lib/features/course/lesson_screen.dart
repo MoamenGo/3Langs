@@ -8,6 +8,10 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../listening/dictation.dart';
 import '../reading/reading_view.dart';
+import '../../data/repositories/assessment_repository.dart';
+import '../../data/repositories/content_repository.dart';
+import '../../domain/assessment/assessment.dart';
+import 'exam_runner.dart';
 import 'exercises.dart';
 
 /// Runs one lesson. Vocab lessons: study cards, then a quiz. Grammar: rule,
@@ -26,6 +30,28 @@ class LessonScreen extends ConsumerStatefulWidget {
 
 class _LessonScreenState extends ConsumerState<LessonScreen> {
   ({double score, int added})? _result;
+  ({double score, String? next})? _exam;
+
+  Future<void> _finishExam(Lesson lesson, LevelContent c, double score) async {
+    final passed = score >= examPassMark;
+    await ref
+        .read(assessmentRepositoryProvider)
+        .record(
+          lang: c.lang,
+          level: c.level.id,
+          kind: AssessmentKind.exam,
+          score: score,
+          passed: passed,
+        );
+    String? next;
+    if (passed) {
+      await ref.read(progressRepositoryProvider).completeLesson(lesson.id, score);
+      next = ContentRepository.nextPackLevel(c.lang, c.level.id);
+      if (next != null) await setTrackLevel(ref, c.lang, next);
+    }
+    ref.read(syncServiceProvider).schedule();
+    if (mounted) setState(() => _exam = (score: score, next: next));
+  }
 
   Future<void> _finish(Lesson lesson, double score) async {
     await ref.read(progressRepositoryProvider).completeLesson(lesson.id, score);
@@ -55,7 +81,14 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                   constraints: const BoxConstraints(maxWidth: 640),
                   child: Padding(
                     padding: const EdgeInsets.all(16),
-                    child: _result != null
+                    child: _exam != null
+                        ? _ExamResult(
+                            score: _exam!.score,
+                            level: c.level.id,
+                            next: _exam!.next,
+                            onRetry: () => setState(() => _exam = null),
+                          )
+                        : _result != null
                         ? _LessonResult(
                             score: _result!.score,
                             added: _result!.added,
@@ -104,7 +137,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           onDone: done,
         );
       case LessonType.exam:
-        return Center(child: Text(context.l10n.comingSoon));
+        return ExamRunner(
+          content: c,
+          onDone: (s) => _finishExam(lesson, c, s),
+        );
     }
   }
 }
@@ -267,6 +303,54 @@ class _LessonResult extends StatelessWidget {
         const SizedBox(height: 8),
         Text(l.wordsAddedToReview(added)),
         const SizedBox(height: 24),
+        FilledButton(
+          onPressed: () => context.pop(),
+          child: Text(l.backToCourse),
+        ),
+      ],
+    );
+  }
+}
+
+class _ExamResult extends StatelessWidget {
+  const _ExamResult({
+    required this.score,
+    required this.level,
+    required this.next,
+    required this.onRetry,
+  });
+  final double score;
+  final String level;
+  final String? next;
+  final VoidCallback onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final passed = score >= examPassMark;
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(
+          passed ? Icons.workspace_premium : Icons.replay,
+          size: 72,
+          color: passed ? Colors.amber : Colors.blueGrey,
+        ),
+        const SizedBox(height: 16),
+        Text(
+          passed ? l.examPassed(level) : l.examFailed(level),
+          style: Theme.of(context).textTheme.headlineSmall,
+          textAlign: TextAlign.center,
+        ),
+        Text(l.scoreLabel((score * 100).round())),
+        if (passed && next != null) ...[
+          const SizedBox(height: 8),
+          Text(l.nowAtLevel(next!), textAlign: TextAlign.center),
+        ],
+        const SizedBox(height: 24),
+        if (!passed)
+          OutlinedButton(onPressed: onRetry, child: Text(l.tryAgain)),
+        const SizedBox(height: 8),
         FilledButton(
           onPressed: () => context.pop(),
           child: Text(l.backToCourse),

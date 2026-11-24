@@ -90,6 +90,12 @@ class SettingsScreen extends ConsumerWidget {
             ),
             trailing: Text('${settings.newCardsPerDay}'),
           ),
+          ListTile(
+            leading: const Icon(Icons.translate),
+            title: Text(l.languagesAndPlan),
+            subtitle: Text(l.languagesAndPlanHint),
+            onTap: () => context.push('/welcome'),
+          ),
           const Divider(),
           _AccountSection(sync: sync),
           const Divider(),

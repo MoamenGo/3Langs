@@ -7,8 +7,12 @@ import '../features/course/course_screen.dart';
 import '../features/course/lesson_screen.dart';
 import '../features/course/unit_screen.dart';
 import '../features/flashcards/review_screen.dart';
-import '../features/home/home_screen.dart';
+import '../features/contrast/contrast_drill_screen.dart';
 import '../features/listening/listening_screen.dart';
+import '../features/onboarding/placement_screen.dart';
+import '../features/onboarding/welcome_screen.dart';
+import '../features/today/today_screen.dart';
+import 'lang/lang.dart';
 import '../features/practice/practice_screen.dart';
 import '../features/progress/progress_screen.dart';
 import '../features/reading/reading_screen.dart';
@@ -25,7 +29,7 @@ final appRouter = GoRouter(
       builder: (context, state, shell) => AppShell(shell: shell),
       branches: [
         StatefulShellBranch(
-          routes: [GoRoute(path: '/', builder: (_, _) => const HomeScreen())],
+          routes: [GoRoute(path: '/', builder: (_, _) => const TodayScreen())],
         ),
         StatefulShellBranch(
           routes: [
@@ -65,7 +69,24 @@ final appRouter = GoRouter(
       path: '/lesson/:lessonId',
       builder: (_, s) => LessonScreen(lessonId: s.pathParameters['lessonId']!),
     ),
-    GoRoute(path: '/review', builder: (_, _) => const ReviewScreen()),
+    GoRoute(
+      path: '/review',
+      builder: (_, s) =>
+          ReviewScreen(lang: Lang.tryParse(s.uri.queryParameters['lang'])),
+      routes: [
+        GoRoute(
+          path: 'contrast',
+          builder: (_, _) => const ContrastDrillScreen(),
+        ),
+      ],
+    ),
+    GoRoute(path: '/welcome', builder: (_, _) => const WelcomeScreen()),
+    GoRoute(
+      path: '/placement/:lang',
+      builder: (_, s) => PlacementScreen(
+        lang: Lang.tryParse(s.pathParameters['lang']) ?? Lang.de,
+      ),
+    ),
     GoRoute(
       path: '/practice/listening',
       builder: (_, _) => const ListeningScreen(),

@@ -17,7 +17,9 @@ import 'package:three_lang/data/repositories/settings_repository.dart';
 import 'package:three_lang/features/contrast/contrast_screen.dart';
 import 'package:three_lang/features/course/course_screen.dart';
 import 'package:three_lang/features/course/exercises.dart';
-import 'package:three_lang/features/home/home_screen.dart';
+import 'package:three_lang/data/models/learner.dart' as learner;
+import 'package:three_lang/data/repositories/track_repository.dart';
+import 'package:three_lang/features/today/today_screen.dart';
 import 'package:three_lang/features/progress/progress_screen.dart';
 import 'package:three_lang/l10n/app_localizations.dart';
 
@@ -103,13 +105,14 @@ void main() {
     expect(find.textContaining('Sounds and letters'), findsOneWidget);
   });
 
-  testWidgets('home screen starts German at A0', (tester) async {
+  testWidgets('today screen plans German at A0', (tester) async {
     await tester.binding.setSurfaceSize(const Size(800, 1400));
     addTearDown(() => tester.binding.setSurfaceSize(null));
-    await pumpScreen(tester, const HomeScreen(), locale: const Locale('ar'));
-    await pumpUntilFound(tester, find.text('أصوات اللغة'));
+    await pumpScreen(tester, const TodayScreen(), locale: const Locale('ar'));
+    await pumpUntilFound(tester, find.textContaining('أصوات اللغة'));
     expect(tester.takeException(), isNull);
-    expect(find.text('أصوات اللغة'), findsOneWidget);
+    expect(find.textContaining('أصوات اللغة'), findsWidgets);
+    expect(find.text('خطة النهاردة'), findsOneWidget);
     expect(find.byKey(const ValueKey('lang-de')), findsOneWidget);
   });
 
@@ -119,13 +122,22 @@ void main() {
       addTearDown(() => tester.binding.setSurfaceSize(null));
       await pumpScreen(
         tester,
-        const HomeScreen(),
+        const TodayScreen(),
         locale: const Locale('ar'),
-        setup: (db) => useLanguage(db, lang),
+        setup: (db) async {
+          await useLanguage(db, lang);
+          final tracks = await TrackRepository(db).all();
+          await TrackRepository(db).save(
+            tracks[lang]!.copyWith(
+              status: learner.TrackStatus.active,
+              startDate: DateTime.now().toUtc(),
+            ),
+          );
+        },
       );
-      await pumpUntilFound(tester, find.text('أصوات اللغة'));
+      await pumpUntilFound(tester, find.textContaining('أصوات اللغة'));
       expect(tester.takeException(), isNull);
-      expect(find.text('أصوات اللغة'), findsOneWidget, reason: '$lang');
+      expect(find.textContaining('أصوات اللغة'), findsWidgets, reason: '$lang');
     }
   });
 
@@ -139,7 +151,7 @@ void main() {
     ) as Map<String, dynamic>;
     await pumpScreen(
       tester,
-      const HomeScreen(),
+      const TodayScreen(),
       locale: const Locale('ar'),
       setup: (db) async {
         final progress = ProgressRepository(db);
@@ -148,12 +160,12 @@ void main() {
         }
       },
     );
-    final next = find.byKey(const ValueKey('next-level'));
+    final next = find.byKey(const ValueKey('next-level-de'));
     await pumpUntilFound(tester, next);
     expect(find.text('خلصت مستوى A0!'), findsOneWidget);
     await tester.tap(next);
-    await pumpUntilFound(tester, find.text('أهلًا ومع السلامة'));
-    expect(find.text('أهلًا ومع السلامة'), findsOneWidget);
+    await pumpUntilFound(tester, find.textContaining('أهلًا ومع السلامة'));
+    expect(find.textContaining('أهلًا ومع السلامة'), findsWidgets);
   });
 
   testWidgets('a word card shows the word in the other two languages', (

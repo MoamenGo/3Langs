@@ -12,7 +12,7 @@ class AppShell extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = context.l10n;
     final items = [
-      (Icons.home_outlined, Icons.home, l.navHome),
+      (Icons.today_outlined, Icons.today, l.navToday),
       (Icons.school_outlined, Icons.school, l.navCourse),
       (Icons.fitness_center_outlined, Icons.fitness_center, l.navPractice),
       (Icons.insights_outlined, Icons.insights, l.navProgress),

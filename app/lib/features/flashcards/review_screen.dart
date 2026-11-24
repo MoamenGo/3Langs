@@ -5,12 +5,17 @@ import '../../core/providers.dart';
 import '../../core/widgets.dart';
 import '../../data/models/learner.dart';
 import '../course/exercises.dart';
+import '../today/today_plan.dart';
+import '../../core/lang/lang.dart';
 
 /// Spaced-repetition review. Front: the meaning in the explanation language.
 /// Back: the German word, audio and example. The learner grades recall and
 /// FSRS schedules the next showing.
 class ReviewScreen extends ConsumerStatefulWidget {
-  const ReviewScreen({super.key});
+  const ReviewScreen({super.key, this.lang});
+
+  /// Only this language's cards (from the daily plan), or all when null.
+  final Lang? lang;
 
   @override
   ConsumerState<ReviewScreen> createState() => _ReviewScreenState();
@@ -29,10 +34,15 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
   }
 
   Future<void> _load() async {
-    final limit = ref.read(settingsProvider).value?.newCardsPerDay ?? 20;
+    var limit = ref.read(settingsProvider).value?.newCardsPerDay ?? 20;
+    final lang = widget.lang;
+    if (lang != null) {
+      final plan = ref.read(todayPlanProvider).value;
+      limit = plan?.newCardLimit[lang] ?? limit;
+    }
     final cards = await ref
         .read(srsRepositoryProvider)
-        .dueCards(newLimit: limit);
+        .dueCards(newLimit: limit, lang: lang);
     setState(() {
       _queue = cards;
       _shownAt = DateTime.now();
@@ -75,7 +85,13 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     return StudyTimer(
       activity: Activity.review,
       child: Scaffold(
-        appBar: AppBar(title: Text(l.flashcards)),
+        appBar: AppBar(
+          title: Text(
+            widget.lang == null
+                ? l.flashcards
+                : '${l.flashcards} · ${widget.lang!.displayName(ref.watch(uiLanguageProvider))}',
+          ),
+        ),
         body: AsyncView(
           value: all,
           builder: (levels) {

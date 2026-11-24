@@ -709,6 +709,294 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Start level {level}'**
   String startLevel(String level);
+
+  /// No description provided for @navToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get navToday;
+
+  /// No description provided for @welcomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up your three languages'**
+  String get welcomeTitle;
+
+  /// No description provided for @welcomeSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your languages, daily time and starting level.'**
+  String get welcomeSubtitle;
+
+  /// No description provided for @setUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up'**
+  String get setUp;
+
+  /// No description provided for @todaysPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s plan'**
+  String get todaysPlan;
+
+  /// No description provided for @planMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'{total} min planned · {left} min left'**
+  String planMinutes(int total, int left);
+
+  /// No description provided for @rebuildPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Rebuild today\'s plan'**
+  String get rebuildPlan;
+
+  /// No description provided for @planEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing to study today. Enjoy your day off!'**
+  String get planEmpty;
+
+  /// No description provided for @planDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s plan is done. Great work!'**
+  String get planDone;
+
+  /// No description provided for @startPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Start today\'s session'**
+  String get startPlan;
+
+  /// No description provided for @continuePlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get continuePlan;
+
+  /// No description provided for @blockReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Review · {lang}'**
+  String blockReview(String lang);
+
+  /// No description provided for @blockLesson.
+  ///
+  /// In en, this message translates to:
+  /// **'New lesson · {lang}'**
+  String blockLesson(String lang);
+
+  /// No description provided for @blockContrast.
+  ///
+  /// In en, this message translates to:
+  /// **'Contrast drill'**
+  String get blockContrast;
+
+  /// No description provided for @blockContrastHint.
+  ///
+  /// In en, this message translates to:
+  /// **'The words you mix up between languages'**
+  String get blockContrastHint;
+
+  /// No description provided for @yourLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'Your languages'**
+  String get yourLanguages;
+
+  /// No description provided for @drillEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No words to compare yet. Finish a few lessons in two languages first.'**
+  String get drillEmpty;
+
+  /// No description provided for @myMixups.
+  ///
+  /// In en, this message translates to:
+  /// **'Your mix-ups'**
+  String get myMixups;
+
+  /// No description provided for @noMixups.
+  ///
+  /// In en, this message translates to:
+  /// **'No mix-ups yet.'**
+  String get noMixups;
+
+  /// No description provided for @mixupGiven.
+  ///
+  /// In en, this message translates to:
+  /// **'You chose {given} ({lang})'**
+  String mixupGiven(String given, String lang);
+
+  /// No description provided for @done.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get done;
+
+  /// No description provided for @examIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'{level} exam: {count} questions from the whole level. Score {pass}% or more to move up.'**
+  String examIntro(String level, int count, int pass);
+
+  /// No description provided for @startExam.
+  ///
+  /// In en, this message translates to:
+  /// **'Start'**
+  String get startExam;
+
+  /// No description provided for @examPassed.
+  ///
+  /// In en, this message translates to:
+  /// **'You passed {level}!'**
+  String examPassed(String level);
+
+  /// No description provided for @examFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Not yet. Review {level} and try again.'**
+  String examFailed(String level);
+
+  /// No description provided for @nowAtLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'You are now at {level}.'**
+  String nowAtLevel(String level);
+
+  /// No description provided for @tryAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get tryAgain;
+
+  /// No description provided for @mixupHint.
+  ///
+  /// In en, this message translates to:
+  /// **'That one is {lang}: a mix-up between languages.'**
+  String mixupHint(String lang);
+
+  /// No description provided for @placementTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Placement test · {lang}'**
+  String placementTitle(String lang);
+
+  /// No description provided for @placementResult.
+  ///
+  /// In en, this message translates to:
+  /// **'You start {lang} at {level}.'**
+  String placementResult(String lang, String level);
+
+  /// No description provided for @placementIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'A few words from each level, from A1 up. It stops when it gets hard, about 5 minutes. Not sure? Start as a beginner.'**
+  String placementIntro(String lang);
+
+  /// No description provided for @placementBeginner.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m a complete beginner (A0)'**
+  String get placementBeginner;
+
+  /// No description provided for @placementLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Level {level}'**
+  String placementLevel(String level);
+
+  /// No description provided for @welcomeIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'3Lang teaches German, Dutch and Spanish side by side, from A0 to C1. Every day it plans a session across your languages: reviews first, new lessons in two languages, a skill in the third, and a contrast drill when you mix them up.'**
+  String get welcomeIntro;
+
+  /// No description provided for @stepInterface.
+  ///
+  /// In en, this message translates to:
+  /// **'1. App language'**
+  String get stepInterface;
+
+  /// No description provided for @stepMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Minutes a day'**
+  String get stepMinutes;
+
+  /// No description provided for @minutesPerLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'{total} min a day, about {each} min per language'**
+  String minutesPerLanguage(int total, int each);
+
+  /// No description provided for @stepLanguages.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Languages and start'**
+  String get stepLanguages;
+
+  /// No description provided for @stepLanguagesHint.
+  ///
+  /// In en, this message translates to:
+  /// **'German and Dutch are close, so Dutch starts later by default. Take a placement test if you already know some.'**
+  String get stepLanguagesHint;
+
+  /// No description provided for @startIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Start:'**
+  String get startIn;
+
+  /// No description provided for @startNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Now'**
+  String get startNow;
+
+  /// No description provided for @weekN.
+  ///
+  /// In en, this message translates to:
+  /// **'Week {n}'**
+  String weekN(int n);
+
+  /// No description provided for @placementButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Placement test'**
+  String get placementButton;
+
+  /// No description provided for @finishSetup.
+  ///
+  /// In en, this message translates to:
+  /// **'Save and go to today'**
+  String get finishSetup;
+
+  /// No description provided for @c1By.
+  ///
+  /// In en, this message translates to:
+  /// **'C1 by about {date}'**
+  String c1By(String date);
+
+  /// No description provided for @mixupMap.
+  ///
+  /// In en, this message translates to:
+  /// **'Mix-ups between languages'**
+  String get mixupMap;
+
+  /// No description provided for @languagesAndPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Languages and plan'**
+  String get languagesAndPlan;
+
+  /// No description provided for @languagesAndPlanHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause a language, change start dates, placement tests'**
+  String get languagesAndPlanHint;
 }
 
 class _AppLocalizationsDelegate

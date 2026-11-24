@@ -9,13 +9,16 @@ import '../data/local/local_db.dart';
 import '../data/models/content.dart';
 import '../data/models/contrast.dart';
 import '../data/models/learner.dart';
+import '../data/repositories/assessment_repository.dart';
 import '../data/repositories/content_repository.dart';
+import '../data/repositories/interference_repository.dart';
 import '../data/repositories/progress_repository.dart';
 import '../data/repositories/settings_repository.dart';
 import '../data/repositories/srs_repository.dart';
 import '../data/repositories/track_repository.dart';
 import '../data/repositories/writing_repository.dart';
 import '../data/sync/sync_service.dart';
+import '../domain/interference/interference_detector.dart';
 import '../services/language_tool_service.dart';
 import '../services/tts_service.dart';
 import '../srs/fsrs.dart';
@@ -213,3 +216,99 @@ extension _StartWith<T> on Stream<T> {
     yield* this;
   }
 }
+
+// ---- Phase 3: daily plan, interference, assessments ----------------------
+
+final dueByLangProvider = StreamProvider<Map<Lang, int>>(
+  (ref) => ref.watch(srsRepositoryProvider).watchDueByLang(),
+);
+
+final interferenceRepositoryProvider = Provider(
+  (ref) => InterferenceRepository(ref.watch(localDbProvider)),
+);
+
+final interferenceEventsProvider = StreamProvider<List<InterferenceEvent>>(
+  (ref) => ref.watch(interferenceRepositoryProvider).watch(),
+);
+
+final assessmentRepositoryProvider = Provider(
+  (ref) => AssessmentRepository(ref.watch(localDbProvider)),
+);
+
+final assessmentsProvider = StreamProvider<List<LevelAssessment>>(
+  (ref) => ref.watch(assessmentRepositoryProvider).watch(),
+);
+
+/// Spots answers that came from another language.
+final interferenceDetectorProvider = FutureProvider<InterferenceDetector>((
+  ref,
+) async {
+  final concepts = await ref.watch(conceptIndexProvider.future);
+  final contrast = await ref.watch(contrastProvider.future);
+  return InterferenceDetector(concepts: concepts, contrast: contrast);
+});
+
+/// Checks a wrong answer and saves a mix-up if it came from another language.
+/// Returns the language it came from, for a hint on screen.
+Future<Lang?> reportWrongAnswer(
+  WidgetRef ref,
+  VocabItem target,
+  String given,
+) async {
+  final lang = target.lang;
+  if (lang == null) return null;
+  final detector = await ref.read(interferenceDetectorProvider.future);
+  final match = detector.check(target, given);
+  if (match == null) return null;
+  await ref
+      .read(interferenceRepositoryProvider)
+      .record(
+        lang: lang,
+        match: match,
+        expected: target.display,
+        given: given,
+      );
+  ref.read(syncServiceProvider).schedule();
+  return match.otherLang;
+}
+
+/// The first lesson not completed yet in a pack, in course order.
+Lesson? nextLessonIn(LevelContent c, Map<String, LessonProgress> progress) {
+  for (final unit in c.units) {
+    for (final lesson in c.lessonsOf(unit)) {
+      if (progress[lesson.id]?.status != LessonStatus.completed) {
+        return lesson;
+      }
+    }
+  }
+  return null;
+}
+
+/// Sets a language's level (after an exam or the placement test) and saves
+/// the track.
+Future<void> setTrackLevel(WidgetRef ref, Lang lang, String level) async {
+  final tracks = await ref.read(trackRepositoryProvider).all();
+  final track = tracks[lang]!;
+  await ref
+      .read(trackRepositoryProvider)
+      .save(
+        track.copyWith(
+          currentLevel: level,
+          status: track.status == TrackStatus.scheduled
+              ? TrackStatus.active
+              : null,
+          startDate: track.status == TrackStatus.scheduled
+              ? DateTime.now().toUtc()
+              : null,
+        ),
+      );
+  ref.read(syncServiceProvider).schedule();
+}
+
+/// False until the first-run setup (languages, minutes, placement) is done.
+final onboardedProvider = StreamProvider<bool>(
+  (ref) => ref
+      .watch(localDbProvider)
+      .watchMeta('onboarded')
+      .map((v) => v == true),
+);
