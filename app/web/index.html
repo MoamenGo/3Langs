@@ -43,7 +43,25 @@
 
   <title>3Lang</title>
   <link rel="manifest" href="manifest.json">
+  <!-- Start the big downloads right away instead of after the loader script. -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preload" href="assets/assets/fonts/NotoSansArabic-Regular.ttf" as="fetch" crossorigin>
+  <link rel="preload" href="assets/assets/fonts/NotoSansArabic-Bold.ttf" as="fetch" crossorigin>
   <meta name="theme-color" content="#6D5DF6">
+  <style>
+    html, body { margin: 0; height: 100%; }
+    body { background: var(--base, #f3f1ff); }
+    @media (prefers-color-scheme: dark) { body { background: var(--base, #14121c); } }
+    #splash {
+      position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+      background:
+        radial-gradient(circle at 10% 5%, var(--a, #7c4dff66) 0, transparent 45%),
+        radial-gradient(circle at 95% 100%, var(--b, #00bfa666) 0, transparent 50%);
+      transition: opacity .25s ease;
+    }
+    #splash img { width: 96px; height: 96px; border-radius: 22px; animation: pulse 1.2s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(.92); opacity: .75; } }
+  </style>
 </head>
 <body>
   <!--
@@ -54,6 +72,24 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <div id="splash"><img src="icons/Icon-192.png" alt="3Lang"></div>
+  <script>
+    // Paint the last theme the learner used before the app has loaded.
+    try {
+      const saved = localStorage.getItem('3lang-splash');
+      if (saved) {
+        const [base, a, b] = saved.split(',');
+        const root = document.documentElement.style;
+        root.setProperty('--base', base);
+        root.setProperty('--a', a + '88');
+        root.setProperty('--b', b + '88');
+      }
+    } catch (_) {}
+    window.addEventListener('flutter-first-frame', () => {
+      const s = document.getElementById('splash');
+      if (s) { s.style.opacity = '0'; setTimeout(() => s.remove(), 300); }
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
   <script>
     if ('serviceWorker' in navigator) {

@@ -48,10 +48,35 @@ final settingsProvider = StreamProvider<UserSettings>(
   (ref) => ref.watch(settingsRepositoryProvider).watch(),
 );
 
+/// Settings and look read once before the first frame (see `main.dart`), so
+/// the app opens in the learner's theme and language instead of switching a
+/// moment later when the database streams answer.
+class StartupState {
+  const StartupState({
+    this.settings,
+    this.appTheme = AppTheme.aurora,
+    this.themeMode = ThemeMode.system,
+  });
+  final UserSettings? settings;
+  final AppTheme appTheme;
+  final ThemeMode themeMode;
+}
+
+final startupStateProvider = Provider<StartupState>(
+  (ref) => const StartupState(),
+);
+
+/// Current settings, falling back to the ones read at startup.
+final currentSettingsProvider = Provider<UserSettings?>(
+  (ref) =>
+      ref.watch(settingsProvider).value ??
+      ref.watch(startupStateProvider).settings,
+);
+
 /// Explanation language, defaulting to Arabic while settings load.
 final explainLangProvider = Provider<ExplainLang>(
   (ref) =>
-      ref.watch(settingsProvider).value?.explanationLanguage ?? ExplainLang.ar,
+      ref.watch(currentSettingsProvider)?.explanationLanguage ?? ExplainLang.ar,
 );
 
 /// Interface language code (ar or en).
@@ -61,7 +86,7 @@ final uiLanguageProvider = Provider<String>(
 
 /// The language on screen now (switched from the bar at the top).
 final activeLangProvider = Provider<Lang>(
-  (ref) => ref.watch(settingsProvider).value?.activeLanguage ?? Lang.de,
+  (ref) => ref.watch(currentSettingsProvider)?.activeLanguage ?? Lang.de,
 );
 
 final trackRepositoryProvider = Provider(

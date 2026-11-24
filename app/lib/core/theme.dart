@@ -2,6 +2,7 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:material_ui/material_ui.dart';
 
+import '../services/splash/splash_memory.dart';
 import 'lang/lang.dart';
 
 /// The colour themes a learner can pick. [language] keeps the original
@@ -178,6 +179,7 @@ class GlassBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final g = Theme.of(context).extension<GlassColors>()!;
+    rememberSplash(g.base, g.blobA, g.blobB);
     return ColoredBox(
       color: g.base,
       child: Stack(

@@ -24,11 +24,12 @@ class _ThreeLangAppState extends ConsumerState<ThreeLangApp> {
 
   @override
   Widget build(BuildContext context) {
-    final settings = ref.watch(settingsProvider).value;
+    final startup = ref.watch(startupStateProvider);
+    final settings = ref.watch(currentSettingsProvider);
     final uiLanguage = settings?.uiLanguage ?? 'ar';
     final lang = ref.watch(activeLangProvider);
-    final appTheme = ref.watch(appThemeProvider).value ?? AppTheme.aurora;
-    final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
+    final appTheme = ref.watch(appThemeProvider).value ?? startup.appTheme;
+    final mode = ref.watch(themeModeProvider).value ?? startup.themeMode;
     return MaterialApp.router(
       onGenerateTitle: (c) => AppLocalizations.of(c).appTitle,
       debugShowCheckedModeBanner: false,
