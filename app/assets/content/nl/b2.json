@@ -1,0 +1,4652 @@
+{
+ "schemaVersion": 2,
+ "lang": "nl",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "B2",
+  "title": {
+   "ar": "B2 فوق المتوسط",
+   "en": "B2 Upper intermediate"
+  },
+  "targetHours": 320,
+  "canDo": [
+   {
+    "en": "Understand the main ideas of complex texts, including technical discussions",
+    "ar": "تفهم الأفكار الأساسية في نصوص معقدة، حتى النقاشات المتخصصة"
+   },
+   {
+    "en": "Talk fluently and spontaneously with native speakers",
+    "ar": "تتكلم بطلاقة وتلقائية مع أهل اللغة"
+   },
+   {
+    "en": "Write clear, detailed texts and argue for and against a view",
+    "ar": "تكتب نصوص واضحة ومفصلة وتناقش الرأي بالمع والضد"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "nl.b2.u01",
+   "level": "B2",
+   "order": 1,
+   "theme": {
+    "ar": "الشغل والمسار المهني",
+    "en": "Work and careers"
+   },
+   "goals": [
+    {
+     "en": "Talk about work and careers in Dutch",
+     "ar": "تتكلم عن الشغل والمسار المهني بالهولندي"
+    },
+    {
+     "en": "Nominalisation",
+     "ar": "تحويل الفعل لاسم"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u01"
+   ],
+   "lessonIds": [
+    "nl.b2.u01.l01",
+    "nl.b2.u01.l02",
+    "nl.b2.u01.l03",
+    "nl.b2.u01.l04",
+    "nl.b2.u01.l05"
+   ],
+   "sharedUnitId": "u.b2.01"
+  },
+  {
+   "id": "nl.b2.u02",
+   "level": "B2",
+   "order": 2,
+   "theme": {
+    "ar": "الاقتصاد والعولمة",
+    "en": "Economy and globalisation"
+   },
+   "goals": [
+    {
+     "en": "Talk about economy and globalisation in Dutch",
+     "ar": "تتكلم عن الاقتصاد والعولمة بالهولندي"
+    },
+    {
+     "en": "Participles as adjectives",
+     "ar": "اسم الفاعل والمفعول كصفة"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u02"
+   ],
+   "lessonIds": [
+    "nl.b2.u02.l01",
+    "nl.b2.u02.l02",
+    "nl.b2.u02.l03",
+    "nl.b2.u02.l04",
+    "nl.b2.u02.l05"
+   ],
+   "sharedUnitId": "u.b2.02"
+  },
+  {
+   "id": "nl.b2.u03",
+   "level": "B2",
+   "order": 3,
+   "theme": {
+    "ar": "العلوم والبحث",
+    "en": "Science and research"
+   },
+   "goals": [
+    {
+     "en": "Talk about science and research in Dutch",
+     "ar": "تتكلم عن العلوم والبحث بالهولندي"
+    },
+    {
+     "en": "Alternatives to the passive",
+     "ar": "بدائل المبني للمجهول"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u03"
+   ],
+   "lessonIds": [
+    "nl.b2.u03.l01",
+    "nl.b2.u03.l02",
+    "nl.b2.u03.l03",
+    "nl.b2.u03.l04",
+    "nl.b2.u03.l05"
+   ],
+   "sharedUnitId": "u.b2.03"
+  },
+  {
+   "id": "nl.b2.u04",
+   "level": "B2",
+   "order": 4,
+   "theme": {
+    "ar": "التعامل مع الإعلام",
+    "en": "Media literacy"
+   },
+   "goals": [
+    {
+     "en": "Talk about media literacy in Dutch",
+     "ar": "تتكلم عن التعامل مع الإعلام بالهولندي"
+    },
+    {
+     "en": "Indirect speech",
+     "ar": "الكلام المنقول"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u04"
+   ],
+   "lessonIds": [
+    "nl.b2.u04.l01",
+    "nl.b2.u04.l02",
+    "nl.b2.u04.l03",
+    "nl.b2.u04.l04",
+    "nl.b2.u04.l05"
+   ],
+   "sharedUnitId": "u.b2.04"
+  },
+  {
+   "id": "nl.b2.u05",
+   "level": "B2",
+   "order": 5,
+   "theme": {
+    "ar": "المجتمع والقيم",
+    "en": "Society and values"
+   },
+   "goals": [
+    {
+     "en": "Talk about society and values in Dutch",
+     "ar": "تتكلم عن المجتمع والقيم بالهولندي"
+    },
+    {
+     "en": "Modal particles: maar, even, toch, wel",
+     "ar": "كلمات النبرة: maar، even، toch، wel"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u05"
+   ],
+   "lessonIds": [
+    "nl.b2.u05.l01",
+    "nl.b2.u05.l02",
+    "nl.b2.u05.l03",
+    "nl.b2.u05.l04",
+    "nl.b2.u05.l05"
+   ],
+   "sharedUnitId": "u.b2.05"
+  },
+  {
+   "id": "nl.b2.u06",
+   "level": "B2",
+   "order": 6,
+   "theme": {
+    "ar": "البيئة والمستقبل",
+    "en": "Environment and the future"
+   },
+   "goals": [
+    {
+     "en": "Talk about environment and the future in Dutch",
+     "ar": "تتكلم عن البيئة والمستقبل بالهولندي"
+    },
+    {
+     "en": "Future perfect and assumptions",
+     "ar": "المستقبل التام والتخمين"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u06"
+   ],
+   "lessonIds": [
+    "nl.b2.u06.l01",
+    "nl.b2.u06.l02",
+    "nl.b2.u06.l03",
+    "nl.b2.u06.l04",
+    "nl.b2.u06.l05"
+   ],
+   "sharedUnitId": "u.b2.06"
+  },
+  {
+   "id": "nl.b2.u07",
+   "level": "B2",
+   "order": 7,
+   "theme": {
+    "ar": "الصحة وعلم النفس",
+    "en": "Health and psychology"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and psychology in Dutch",
+     "ar": "تتكلم عن الصحة وعلم النفس بالهولندي"
+    },
+    {
+     "en": "Modal verbs for probability",
+     "ar": "أفعال الوجه للاحتمال"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u07"
+   ],
+   "lessonIds": [
+    "nl.b2.u07.l01",
+    "nl.b2.u07.l02",
+    "nl.b2.u07.l03",
+    "nl.b2.u07.l04",
+    "nl.b2.u07.l05"
+   ],
+   "sharedUnitId": "u.b2.07"
+  },
+  {
+   "id": "nl.b2.u08",
+   "level": "B2",
+   "order": 8,
+   "theme": {
+    "ar": "التاريخ",
+    "en": "History"
+   },
+   "goals": [
+    {
+     "en": "Talk about history in Dutch",
+     "ar": "تتكلم عن التاريخ بالهولندي"
+    },
+    {
+     "en": "Past tenses in narrative texts",
+     "ar": "أزمنة الماضي في الحكي"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u08"
+   ],
+   "lessonIds": [
+    "nl.b2.u08.l01",
+    "nl.b2.u08.l02",
+    "nl.b2.u08.l03",
+    "nl.b2.u08.l04",
+    "nl.b2.u08.l05"
+   ],
+   "sharedUnitId": "u.b2.08"
+  },
+  {
+   "id": "nl.b2.u09",
+   "level": "B2",
+   "order": 9,
+   "theme": {
+    "ar": "الفن والأدب",
+    "en": "Art and literature"
+   },
+   "goals": [
+    {
+     "en": "Talk about art and literature in Dutch",
+     "ar": "تتكلم عن الفن والأدب بالهولندي"
+    },
+    {
+     "en": "Word formation: prefixes and suffixes",
+     "ar": "تكوين الكلمات: سوابق ولواحق"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u09"
+   ],
+   "lessonIds": [
+    "nl.b2.u09.l01",
+    "nl.b2.u09.l02",
+    "nl.b2.u09.l03",
+    "nl.b2.u09.l04",
+    "nl.b2.u09.l05"
+   ],
+   "sharedUnitId": "u.b2.09"
+  },
+  {
+   "id": "nl.b2.u10",
+   "level": "B2",
+   "order": 10,
+   "theme": {
+    "ar": "القانون والحياة اليومية",
+    "en": "Law and everyday life"
+   },
+   "goals": [
+    {
+     "en": "Talk about law and everyday life in Dutch",
+     "ar": "تتكلم عن القانون والحياة اليومية بالهولندي"
+    },
+    {
+     "en": "Formal prepositions",
+     "ar": "حروف الجر الرسمية"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u10"
+   ],
+   "lessonIds": [
+    "nl.b2.u10.l01",
+    "nl.b2.u10.l02",
+    "nl.b2.u10.l03",
+    "nl.b2.u10.l04",
+    "nl.b2.u10.l05"
+   ],
+   "sharedUnitId": "u.b2.10"
+  },
+  {
+   "id": "nl.b2.u11",
+   "level": "B2",
+   "order": 11,
+   "theme": {
+    "ar": "العالم الرقمي",
+    "en": "Digital world"
+   },
+   "goals": [
+    {
+     "en": "Talk about digital world in Dutch",
+     "ar": "تتكلم عن العالم الرقمي بالهولندي"
+    },
+    {
+     "en": "Connectors: dus, daardoor, toch, aangezien",
+     "ar": "أدوات الربط: dus، daardoor، toch، aangezien"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u11"
+   ],
+   "lessonIds": [
+    "nl.b2.u11.l01",
+    "nl.b2.u11.l02",
+    "nl.b2.u11.l03",
+    "nl.b2.u11.l04",
+    "nl.b2.u11.l05"
+   ],
+   "sharedUnitId": "u.b2.11"
+  },
+  {
+   "id": "nl.b2.u12",
+   "level": "B2",
+   "order": 12,
+   "theme": {
+    "ar": "اللغة والتواصل",
+    "en": "Language and communication"
+   },
+   "goals": [
+    {
+     "en": "Talk about language and communication in Dutch",
+     "ar": "تتكلم عن اللغة والتواصل بالهولندي"
+    },
+    {
+     "en": "Register and politeness",
+     "ar": "مستوى الكلام والأدب"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u12"
+   ],
+   "lessonIds": [
+    "nl.b2.u12.l01",
+    "nl.b2.u12.l02",
+    "nl.b2.u12.l03",
+    "nl.b2.u12.l04",
+    "nl.b2.u12.l05"
+   ],
+   "sharedUnitId": "u.b2.12"
+  },
+  {
+   "id": "nl.b2.u13",
+   "level": "B2",
+   "order": 13,
+   "theme": {
+    "ar": "الجدال والنقاش",
+    "en": "Arguing and discussing"
+   },
+   "goals": [
+    {
+     "en": "Talk about arguing and discussing in Dutch",
+     "ar": "تتكلم عن الجدال والنقاش بالهولندي"
+    },
+    {
+     "en": "Structuring an argument",
+     "ar": "ترتيب الحجة"
+    }
+   ],
+   "grammarIds": [
+    "nl.b2.gram.u13"
+   ],
+   "lessonIds": [
+    "nl.b2.u13.l01",
+    "nl.b2.u13.l02",
+    "nl.b2.u13.l03",
+    "nl.b2.u13.l04",
+    "nl.b2.u13.l05"
+   ],
+   "sharedUnitId": "u.b2.13"
+  },
+  {
+   "id": "nl.b2.u14",
+   "level": "B2",
+   "order": 14,
+   "theme": {
+    "ar": "مراجعة B2 واختبار تجريبي",
+    "en": "B2 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached B2",
+     "ar": "توري إنك وصلت لمستوى B2"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "nl.b2.u14.l01",
+    "nl.b2.u14.l02"
+   ],
+   "sharedUnitId": "u.b2.14"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "nl.b2.u01.l01",
+   "unitId": "nl.b2.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work and careers: words 1",
+    "ar": "الشغل والمسار المهني: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.loopbaan",
+    "nl.b2.vocab.promotie",
+    "nl.b2.vocab.verantwoordelijkheid",
+    "nl.b2.vocab.onderhandelen",
+    "nl.b2.vocab.beslissing"
+   ]
+  },
+  {
+   "id": "nl.b2.u01.l02",
+   "unitId": "nl.b2.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work and careers: words 2",
+    "ar": "الشغل والمسار المهني: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.ontwikkeling",
+    "nl.b2.vocab.bereiken",
+    "nl.b2.vocab.personeel",
+    "nl.b2.vocab.zelfstandig"
+   ]
+  },
+  {
+   "id": "nl.b2.u01.l03",
+   "unitId": "nl.b2.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Nominalisation",
+    "ar": "تحويل الفعل لاسم"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u01"
+  },
+  {
+   "id": "nl.b2.u01.l04",
+   "unitId": "nl.b2.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work and careers",
+    "ar": "استماع: الشغل والمسار المهني"
+   },
+   "items": [
+    "nl.b2.sent.u01_01",
+    "nl.b2.sent.u01_02",
+    "nl.b2.sent.u01_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u01.l05",
+   "unitId": "nl.b2.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "nl.b2.vocab.loopbaan",
+    "nl.b2.vocab.promotie",
+    "nl.b2.vocab.verantwoordelijkheid",
+    "nl.b2.vocab.onderhandelen",
+    "nl.b2.vocab.beslissing",
+    "nl.b2.vocab.ontwikkeling",
+    "nl.b2.vocab.bereiken",
+    "nl.b2.vocab.personeel",
+    "nl.b2.vocab.zelfstandig"
+   ]
+  },
+  {
+   "id": "nl.b2.u02.l01",
+   "unitId": "nl.b2.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Economy and globalisation: words 1",
+    "ar": "الاقتصاد والعولمة: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.economie",
+    "nl.b2.vocab.markt",
+    "nl.b2.vocab.handel",
+    "nl.b2.vocab.groei",
+    "nl.b2.vocab.exporteren"
+   ]
+  },
+  {
+   "id": "nl.b2.u02.l02",
+   "unitId": "nl.b2.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Economy and globalisation: words 2",
+    "ar": "الاقتصاد والعولمة: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.importeren",
+    "nl.b2.vocab.concurrentie",
+    "nl.b2.vocab.stijgen",
+    "nl.b2.vocab.crisis"
+   ]
+  },
+  {
+   "id": "nl.b2.u02.l03",
+   "unitId": "nl.b2.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Participles as adjectives",
+    "ar": "اسم الفاعل والمفعول كصفة"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u02"
+  },
+  {
+   "id": "nl.b2.u02.l04",
+   "unitId": "nl.b2.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: economy and globalisation",
+    "ar": "استماع: الاقتصاد والعولمة"
+   },
+   "items": [
+    "nl.b2.sent.u02_01",
+    "nl.b2.sent.u02_02",
+    "nl.b2.sent.u02_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u02.l05",
+   "unitId": "nl.b2.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "nl.b2.vocab.economie",
+    "nl.b2.vocab.markt",
+    "nl.b2.vocab.handel",
+    "nl.b2.vocab.groei",
+    "nl.b2.vocab.exporteren",
+    "nl.b2.vocab.importeren",
+    "nl.b2.vocab.concurrentie",
+    "nl.b2.vocab.stijgen",
+    "nl.b2.vocab.crisis"
+   ]
+  },
+  {
+   "id": "nl.b2.u03.l01",
+   "unitId": "nl.b2.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Science and research: words 1",
+    "ar": "العلوم والبحث: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.experiment",
+    "nl.b2.vocab.theorie",
+    "nl.b2.vocab.resultaat",
+    "nl.b2.vocab.onderzoeker",
+    "nl.b2.vocab.bewijzen"
+   ]
+  },
+  {
+   "id": "nl.b2.u03.l02",
+   "unitId": "nl.b2.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Science and research: words 2",
+    "ar": "العلوم والبحث: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.meten",
+    "nl.b2.vocab.ontdekking",
+    "nl.b2.vocab.verklaarbaar",
+    "nl.b2.vocab.laboratorium"
+   ]
+  },
+  {
+   "id": "nl.b2.u03.l03",
+   "unitId": "nl.b2.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Alternatives to the passive",
+    "ar": "بدائل المبني للمجهول"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u03"
+  },
+  {
+   "id": "nl.b2.u03.l04",
+   "unitId": "nl.b2.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: science and research",
+    "ar": "استماع: العلوم والبحث"
+   },
+   "items": [
+    "nl.b2.sent.u03_01",
+    "nl.b2.sent.u03_02",
+    "nl.b2.sent.u03_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u03.l05",
+   "unitId": "nl.b2.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "nl.b2.vocab.experiment",
+    "nl.b2.vocab.theorie",
+    "nl.b2.vocab.resultaat",
+    "nl.b2.vocab.onderzoeker",
+    "nl.b2.vocab.bewijzen",
+    "nl.b2.vocab.meten",
+    "nl.b2.vocab.ontdekking",
+    "nl.b2.vocab.verklaarbaar",
+    "nl.b2.vocab.laboratorium"
+   ]
+  },
+  {
+   "id": "nl.b2.u04.l01",
+   "unitId": "nl.b2.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Media literacy: words 1",
+    "ar": "التعامل مع الإعلام: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.nep",
+    "nl.b2.vocab.kop",
+    "nl.b2.vocab.betrouwbaar"
+   ]
+  },
+  {
+   "id": "nl.b2.u04.l02",
+   "unitId": "nl.b2.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Media literacy: words 2",
+    "ar": "التعامل مع الإعلام: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.invloed",
+    "nl.b2.vocab.verspreiden",
+    "nl.b2.vocab.uitspraak"
+   ]
+  },
+  {
+   "id": "nl.b2.u04.l03",
+   "unitId": "nl.b2.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Indirect speech",
+    "ar": "الكلام المنقول"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u04"
+  },
+  {
+   "id": "nl.b2.u04.l04",
+   "unitId": "nl.b2.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: media literacy",
+    "ar": "استماع: التعامل مع الإعلام"
+   },
+   "items": [
+    "nl.b2.sent.u04_01",
+    "nl.b2.sent.u04_02",
+    "nl.b2.sent.u04_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u04.l05",
+   "unitId": "nl.b2.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "nl.b2.vocab.nep",
+    "nl.b2.vocab.kop",
+    "nl.b2.vocab.betrouwbaar",
+    "nl.b2.vocab.invloed",
+    "nl.b2.vocab.verspreiden",
+    "nl.b2.vocab.uitspraak"
+   ]
+  },
+  {
+   "id": "nl.b2.u05.l01",
+   "unitId": "nl.b2.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Society and values: words 1",
+    "ar": "المجتمع والقيم: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.waarde",
+    "nl.b2.vocab.gelijkheid",
+    "nl.b2.vocab.respect",
+    "nl.b2.vocab.vooroordeel"
+   ]
+  },
+  {
+   "id": "nl.b2.u05.l02",
+   "unitId": "nl.b2.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Society and values: words 2",
+    "ar": "المجتمع والقيم: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.tolerant",
+    "nl.b2.vocab.religie",
+    "nl.b2.vocab.rechtvaardigheid",
+    "nl.b2.vocab.generatie"
+   ]
+  },
+  {
+   "id": "nl.b2.u05.l03",
+   "unitId": "nl.b2.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Modal particles: maar, even, toch, wel",
+    "ar": "كلمات النبرة: maar، even، toch، wel"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u05"
+  },
+  {
+   "id": "nl.b2.u05.l04",
+   "unitId": "nl.b2.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: society and values",
+    "ar": "استماع: المجتمع والقيم"
+   },
+   "items": [
+    "nl.b2.sent.u05_01",
+    "nl.b2.sent.u05_02",
+    "nl.b2.sent.u05_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u05.l05",
+   "unitId": "nl.b2.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "nl.b2.vocab.waarde",
+    "nl.b2.vocab.gelijkheid",
+    "nl.b2.vocab.respect",
+    "nl.b2.vocab.vooroordeel",
+    "nl.b2.vocab.tolerant",
+    "nl.b2.vocab.religie",
+    "nl.b2.vocab.rechtvaardigheid",
+    "nl.b2.vocab.generatie"
+   ]
+  },
+  {
+   "id": "nl.b2.u06.l01",
+   "unitId": "nl.b2.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and the future: words 1",
+    "ar": "البيئة والمستقبل: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.duurzaam",
+    "nl.b2.vocab.klimaverandering",
+    "nl.b2.vocab.zonne_energie",
+    "nl.b2.vocab.uitstoot",
+    "nl.b2.vocab.verminderen"
+   ]
+  },
+  {
+   "id": "nl.b2.u06.l02",
+   "unitId": "nl.b2.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and the future: words 2",
+    "ar": "البيئة والمستقبل: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.verbruik",
+    "nl.b2.vocab.grondstof",
+    "nl.b2.vocab.voorspellen",
+    "nl.b2.vocab.tegen_die_tijd"
+   ]
+  },
+  {
+   "id": "nl.b2.u06.l03",
+   "unitId": "nl.b2.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Future perfect and assumptions",
+    "ar": "المستقبل التام والتخمين"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u06"
+  },
+  {
+   "id": "nl.b2.u06.l04",
+   "unitId": "nl.b2.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: environment and the future",
+    "ar": "استماع: البيئة والمستقبل"
+   },
+   "items": [
+    "nl.b2.sent.u06_01",
+    "nl.b2.sent.u06_02",
+    "nl.b2.sent.u06_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u06.l05",
+   "unitId": "nl.b2.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "nl.b2.vocab.duurzaam",
+    "nl.b2.vocab.klimaverandering",
+    "nl.b2.vocab.zonne_energie",
+    "nl.b2.vocab.uitstoot",
+    "nl.b2.vocab.verminderen",
+    "nl.b2.vocab.verbruik",
+    "nl.b2.vocab.grondstof",
+    "nl.b2.vocab.voorspellen",
+    "nl.b2.vocab.tegen_die_tijd"
+   ]
+  },
+  {
+   "id": "nl.b2.u07.l01",
+   "unitId": "nl.b2.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and psychology: words 1",
+    "ar": "الصحة وعلم النفس: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.verstand",
+    "nl.b2.vocab.gedrag",
+    "nl.b2.vocab.angst",
+    "nl.b2.vocab.zelfvertrouwen",
+    "nl.b2.vocab.depressief"
+   ]
+  },
+  {
+   "id": "nl.b2.u07.l02",
+   "unitId": "nl.b2.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and psychology: words 2",
+    "ar": "الصحة وعلم النفس: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.omgaan_met",
+    "nl.b2.vocab.ontspannen",
+    "nl.b2.vocab.therapie",
+    "nl.b2.vocab.burn_out"
+   ]
+  },
+  {
+   "id": "nl.b2.u07.l03",
+   "unitId": "nl.b2.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Modal verbs for probability",
+    "ar": "أفعال الوجه للاحتمال"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u07"
+  },
+  {
+   "id": "nl.b2.u07.l04",
+   "unitId": "nl.b2.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and psychology",
+    "ar": "استماع: الصحة وعلم النفس"
+   },
+   "items": [
+    "nl.b2.sent.u07_01",
+    "nl.b2.sent.u07_02",
+    "nl.b2.sent.u07_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u07.l05",
+   "unitId": "nl.b2.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "nl.b2.vocab.verstand",
+    "nl.b2.vocab.gedrag",
+    "nl.b2.vocab.angst",
+    "nl.b2.vocab.zelfvertrouwen",
+    "nl.b2.vocab.depressief",
+    "nl.b2.vocab.omgaan_met",
+    "nl.b2.vocab.ontspannen",
+    "nl.b2.vocab.therapie",
+    "nl.b2.vocab.burn_out"
+   ]
+  },
+  {
+   "id": "nl.b2.u08.l01",
+   "unitId": "nl.b2.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "History: words 1",
+    "ar": "التاريخ: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.geschiedenis",
+    "nl.b2.vocab.eeuw",
+    "nl.b2.vocab.oorlog",
+    "nl.b2.vocab.vrede",
+    "nl.b2.vocab.rijk"
+   ]
+  },
+  {
+   "id": "nl.b2.u08.l02",
+   "unitId": "nl.b2.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "History: words 2",
+    "ar": "التاريخ: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.koning",
+    "nl.b2.vocab.revolutie",
+    "nl.b2.vocab.veroveren",
+    "nl.b2.vocab.vluchten",
+    "nl.b2.vocab.grens"
+   ]
+  },
+  {
+   "id": "nl.b2.u08.l03",
+   "unitId": "nl.b2.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Past tenses in narrative texts",
+    "ar": "أزمنة الماضي في الحكي"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u08"
+  },
+  {
+   "id": "nl.b2.u08.l04",
+   "unitId": "nl.b2.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: history",
+    "ar": "استماع: التاريخ"
+   },
+   "items": [
+    "nl.b2.sent.u08_01",
+    "nl.b2.sent.u08_02",
+    "nl.b2.sent.u08_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u08.l05",
+   "unitId": "nl.b2.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "nl.b2.vocab.geschiedenis",
+    "nl.b2.vocab.eeuw",
+    "nl.b2.vocab.oorlog",
+    "nl.b2.vocab.vrede",
+    "nl.b2.vocab.rijk",
+    "nl.b2.vocab.koning",
+    "nl.b2.vocab.revolutie",
+    "nl.b2.vocab.veroveren",
+    "nl.b2.vocab.vluchten",
+    "nl.b2.vocab.grens"
+   ]
+  },
+  {
+   "id": "nl.b2.u09.l01",
+   "unitId": "nl.b2.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Art and literature: words 1",
+    "ar": "الفن والأدب: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.roman",
+    "nl.b2.vocab.gedicht",
+    "nl.b2.vocab.auteur",
+    "nl.b2.vocab.personage",
+    "nl.b2.vocab.publiceren"
+   ]
+  },
+  {
+   "id": "nl.b2.u09.l02",
+   "unitId": "nl.b2.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Art and literature: words 2",
+    "ar": "الفن والأدب: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.beschrijven",
+    "nl.b2.vocab.fantasierijk",
+    "nl.b2.vocab.onleesbaar",
+    "nl.b2.vocab.meesterwerk"
+   ]
+  },
+  {
+   "id": "nl.b2.u09.l03",
+   "unitId": "nl.b2.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Word formation: prefixes and suffixes",
+    "ar": "تكوين الكلمات: سوابق ولواحق"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u09"
+  },
+  {
+   "id": "nl.b2.u09.l04",
+   "unitId": "nl.b2.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: art and literature",
+    "ar": "استماع: الفن والأدب"
+   },
+   "items": [
+    "nl.b2.sent.u09_01",
+    "nl.b2.sent.u09_02",
+    "nl.b2.sent.u09_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u09.l05",
+   "unitId": "nl.b2.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "nl.b2.vocab.roman",
+    "nl.b2.vocab.gedicht",
+    "nl.b2.vocab.auteur",
+    "nl.b2.vocab.personage",
+    "nl.b2.vocab.publiceren",
+    "nl.b2.vocab.beschrijven",
+    "nl.b2.vocab.fantasierijk",
+    "nl.b2.vocab.onleesbaar",
+    "nl.b2.vocab.meesterwerk"
+   ]
+  },
+  {
+   "id": "nl.b2.u10.l01",
+   "unitId": "nl.b2.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Law and everyday life: words 1",
+    "ar": "القانون والحياة اليومية: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.rechtbank",
+    "nl.b2.vocab.advocaat",
+    "nl.b2.vocab.klacht",
+    "nl.b2.vocab.boete"
+   ]
+  },
+  {
+   "id": "nl.b2.u10.l02",
+   "unitId": "nl.b2.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Law and everyday life: words 2",
+    "ar": "القانون والحياة اليومية: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.schuldig",
+    "nl.b2.vocab.plicht",
+    "nl.b2.vocab.ondanks"
+   ]
+  },
+  {
+   "id": "nl.b2.u10.l03",
+   "unitId": "nl.b2.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Formal prepositions",
+    "ar": "حروف الجر الرسمية"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u10"
+  },
+  {
+   "id": "nl.b2.u10.l04",
+   "unitId": "nl.b2.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: law and everyday life",
+    "ar": "استماع: القانون والحياة اليومية"
+   },
+   "items": [
+    "nl.b2.sent.u10_01",
+    "nl.b2.sent.u10_02",
+    "nl.b2.sent.u10_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u10.l05",
+   "unitId": "nl.b2.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "nl.b2.vocab.rechtbank",
+    "nl.b2.vocab.advocaat",
+    "nl.b2.vocab.klacht",
+    "nl.b2.vocab.boete",
+    "nl.b2.vocab.schuldig",
+    "nl.b2.vocab.plicht",
+    "nl.b2.vocab.ondanks"
+   ]
+  },
+  {
+   "id": "nl.b2.u11.l01",
+   "unitId": "nl.b2.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Digital world: words 1",
+    "ar": "العالم الرقمي: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.privacy",
+    "nl.b2.vocab.gebruiker",
+    "nl.b2.vocab.netwerk"
+   ]
+  },
+  {
+   "id": "nl.b2.u11.l02",
+   "unitId": "nl.b2.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Digital world: words 2",
+    "ar": "العالم الرقمي: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.verslaafd",
+    "nl.b2.vocab.bijgevolg",
+    "nl.b2.vocab.desondanks"
+   ]
+  },
+  {
+   "id": "nl.b2.u11.l03",
+   "unitId": "nl.b2.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Connectors: dus, daardoor, toch, aangezien",
+    "ar": "أدوات الربط: dus، daardoor، toch، aangezien"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u11"
+  },
+  {
+   "id": "nl.b2.u11.l04",
+   "unitId": "nl.b2.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: digital world",
+    "ar": "استماع: العالم الرقمي"
+   },
+   "items": [
+    "nl.b2.sent.u11_01",
+    "nl.b2.sent.u11_02",
+    "nl.b2.sent.u11_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u11.l05",
+   "unitId": "nl.b2.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "nl.b2.vocab.privacy",
+    "nl.b2.vocab.gebruiker",
+    "nl.b2.vocab.netwerk",
+    "nl.b2.vocab.verslaafd",
+    "nl.b2.vocab.bijgevolg",
+    "nl.b2.vocab.desondanks"
+   ]
+  },
+  {
+   "id": "nl.b2.u12.l01",
+   "unitId": "nl.b2.u12",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Language and communication: words 1",
+    "ar": "اللغة والتواصل: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.dialect",
+    "nl.b2.vocab.gesprek",
+    "nl.b2.vocab.beleefd",
+    "nl.b2.vocab.onbeleefd",
+    "nl.b2.vocab.misverstand"
+   ]
+  },
+  {
+   "id": "nl.b2.u12.l02",
+   "unitId": "nl.b2.u12",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Language and communication: words 2",
+    "ar": "اللغة والتواصل: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.moedertaal",
+    "nl.b2.vocab.uitdrukken",
+    "nl.b2.vocab.onderbreken",
+    "nl.b2.vocab.lichaamstaal",
+    "nl.b2.vocab.vloeiend"
+   ]
+  },
+  {
+   "id": "nl.b2.u12.l03",
+   "unitId": "nl.b2.u12",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Register and politeness",
+    "ar": "مستوى الكلام والأدب"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u12"
+  },
+  {
+   "id": "nl.b2.u12.l04",
+   "unitId": "nl.b2.u12",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: language and communication",
+    "ar": "استماع: اللغة والتواصل"
+   },
+   "items": [
+    "nl.b2.sent.u12_01",
+    "nl.b2.sent.u12_02",
+    "nl.b2.sent.u12_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u12.l05",
+   "unitId": "nl.b2.u12",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 12 review",
+    "ar": "مراجعة الوحدة 12"
+   },
+   "items": [
+    "nl.b2.vocab.dialect",
+    "nl.b2.vocab.gesprek",
+    "nl.b2.vocab.beleefd",
+    "nl.b2.vocab.onbeleefd",
+    "nl.b2.vocab.misverstand",
+    "nl.b2.vocab.moedertaal",
+    "nl.b2.vocab.uitdrukken",
+    "nl.b2.vocab.onderbreken",
+    "nl.b2.vocab.lichaamstaal",
+    "nl.b2.vocab.vloeiend"
+   ]
+  },
+  {
+   "id": "nl.b2.u13.l01",
+   "unitId": "nl.b2.u13",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Arguing and discussing: words 1",
+    "ar": "الجدال والنقاش: كلمات 1"
+   },
+   "items": [
+    "nl.b2.vocab.argument",
+    "nl.b2.vocab.debat",
+    "nl.b2.vocab.eens_zijn",
+    "nl.b2.vocab.tegenspreken",
+    "nl.b2.vocab.voordeel"
+   ]
+  },
+  {
+   "id": "nl.b2.u13.l02",
+   "unitId": "nl.b2.u13",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Arguing and discussing: words 2",
+    "ar": "الجدال والنقاش: كلمات 2"
+   },
+   "items": [
+    "nl.b2.vocab.nadeel",
+    "nl.b2.vocab.overtuigen",
+    "nl.b2.vocab.tot_slot",
+    "nl.b2.vocab.enerzijds",
+    "nl.b2.vocab.anderzijds"
+   ]
+  },
+  {
+   "id": "nl.b2.u13.l03",
+   "unitId": "nl.b2.u13",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Structuring an argument",
+    "ar": "ترتيب الحجة"
+   },
+   "items": [],
+   "grammarId": "nl.b2.gram.u13"
+  },
+  {
+   "id": "nl.b2.u13.l04",
+   "unitId": "nl.b2.u13",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: arguing and discussing",
+    "ar": "استماع: الجدال والنقاش"
+   },
+   "items": [
+    "nl.b2.sent.u13_01",
+    "nl.b2.sent.u13_02",
+    "nl.b2.sent.u13_03"
+   ]
+  },
+  {
+   "id": "nl.b2.u13.l05",
+   "unitId": "nl.b2.u13",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 13 review",
+    "ar": "مراجعة الوحدة 13"
+   },
+   "items": [
+    "nl.b2.vocab.argument",
+    "nl.b2.vocab.debat",
+    "nl.b2.vocab.eens_zijn",
+    "nl.b2.vocab.tegenspreken",
+    "nl.b2.vocab.voordeel",
+    "nl.b2.vocab.nadeel",
+    "nl.b2.vocab.overtuigen",
+    "nl.b2.vocab.tot_slot",
+    "nl.b2.vocab.enerzijds",
+    "nl.b2.vocab.anderzijds"
+   ]
+  },
+  {
+   "id": "nl.b2.u14.l01",
+   "unitId": "nl.b2.u14",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "B2 words review",
+    "ar": "مراجعة كلمات B2"
+   },
+   "items": [
+    "nl.b2.vocab.loopbaan",
+    "nl.b2.vocab.onderhandelen",
+    "nl.b2.vocab.bereiken",
+    "nl.b2.vocab.economie",
+    "nl.b2.vocab.groei",
+    "nl.b2.vocab.concurrentie",
+    "nl.b2.vocab.experiment",
+    "nl.b2.vocab.onderzoeker",
+    "nl.b2.vocab.ontdekking",
+    "nl.b2.vocab.nep",
+    "nl.b2.vocab.invloed",
+    "nl.b2.vocab.waarde",
+    "nl.b2.vocab.vooroordeel",
+    "nl.b2.vocab.rechtvaardigheid",
+    "nl.b2.vocab.klimaverandering",
+    "nl.b2.vocab.verminderen",
+    "nl.b2.vocab.voorspellen",
+    "nl.b2.vocab.gedrag",
+    "nl.b2.vocab.depressief",
+    "nl.b2.vocab.therapie",
+    "nl.b2.vocab.eeuw",
+    "nl.b2.vocab.rijk",
+    "nl.b2.vocab.veroveren",
+    "nl.b2.vocab.roman",
+    "nl.b2.vocab.personage",
+    "nl.b2.vocab.fantasierijk",
+    "nl.b2.vocab.rechtbank",
+    "nl.b2.vocab.boete",
+    "nl.b2.vocab.ondanks",
+    "nl.b2.vocab.netwerk"
+   ]
+  },
+  {
+   "id": "nl.b2.u14.l02",
+   "unitId": "nl.b2.u14",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "B2 exam",
+    "ar": "امتحان B2"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "nl.b2.vocab.loopbaan",
+   "lemma": "loopbaan",
+   "article": "de",
+   "plural": "loopbanen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسار مهني",
+    "en": "career"
+   },
+   "conceptId": "c.b2.career",
+   "sentenceIds": [
+    "nl.b2.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.promotie",
+   "lemma": "promotie",
+   "article": "de",
+   "plural": "promoties",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ترقية",
+    "en": "promotion (at work)"
+   },
+   "conceptId": "c.b2.promotion",
+   "sentenceIds": [
+    "nl.b2.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verantwoordelijkheid",
+   "lemma": "verantwoordelijkheid",
+   "article": "de",
+   "plural": "verantwoordelijkheden",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسؤولية",
+    "en": "area of responsibility"
+   },
+   "conceptId": "c.b2.responsibility_job",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.onderhandelen",
+   "lemma": "onderhandelen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتفاوض",
+    "en": "to negotiate"
+   },
+   "conceptId": "c.b2.negotiate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.beslissing",
+   "lemma": "beslissing",
+   "article": "de",
+   "plural": "beslissingen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قرار",
+    "en": "decision"
+   },
+   "conceptId": "c.b2.decision",
+   "sentenceIds": [
+    "nl.b2.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.ontwikkeling",
+   "lemma": "ontwikkeling",
+   "article": "de",
+   "plural": "ontwikkelingen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تطوير",
+    "en": "development"
+   },
+   "conceptId": "c.b2.development",
+   "sentenceIds": [
+    "nl.b2.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.bereiken",
+   "lemma": "bereiken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحقق",
+    "en": "to achieve"
+   },
+   "conceptId": "c.b2.achieve",
+   "sentenceIds": [
+    "nl.b2.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.personeel",
+   "lemma": "personeel",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الموظفين",
+    "en": "staff, workforce"
+   },
+   "conceptId": "c.b2.staff",
+   "sentenceIds": [
+    "nl.b2.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.zelfstandig",
+   "lemma": "zelfstandig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شغال لحسابه",
+    "en": "self-employed"
+   },
+   "conceptId": "c.b2.self_employed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.economie",
+   "lemma": "economie",
+   "article": "de",
+   "plural": "economieën",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "اقتصاد",
+    "en": "economy"
+   },
+   "conceptId": "c.b2.economy",
+   "sentenceIds": [
+    "nl.b2.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.markt",
+   "lemma": "markt",
+   "article": "de",
+   "plural": "markten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوق",
+    "en": "market (economy)"
+   },
+   "conceptId": "c.b2.market",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.handel",
+   "lemma": "handel",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجارة",
+    "en": "trade"
+   },
+   "conceptId": "c.b2.trade",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.groei",
+   "lemma": "groei",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نمو",
+    "en": "growth"
+   },
+   "conceptId": "c.b2.growth",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.exporteren",
+   "lemma": "exporteren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصدّر",
+    "en": "to export"
+   },
+   "conceptId": "c.b2.export",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.importeren",
+   "lemma": "importeren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستورد",
+    "en": "to import"
+   },
+   "conceptId": "c.b2.import_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.concurrentie",
+   "lemma": "concurrentie",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "منافسة",
+    "en": "competition"
+   },
+   "conceptId": "c.b2.competition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.stijgen",
+   "lemma": "stijgen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يزيد",
+    "en": "to rise"
+   },
+   "conceptId": "c.b2.rise",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.crisis",
+   "lemma": "crisis",
+   "article": "de",
+   "plural": "crises",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أزمة",
+    "en": "crisis"
+   },
+   "conceptId": "c.b2.crisis",
+   "sentenceIds": [
+    "nl.b2.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.experiment",
+   "lemma": "experiment",
+   "article": "het",
+   "plural": "experimenten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجربة علمية",
+    "en": "experiment"
+   },
+   "conceptId": "c.b2.experiment",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.theorie",
+   "lemma": "theorie",
+   "article": "de",
+   "plural": "theorieën",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نظرية",
+    "en": "theory"
+   },
+   "conceptId": "c.b2.theory",
+   "sentenceIds": [
+    "nl.b2.sent.u03_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.resultaat",
+   "lemma": "resultaat",
+   "article": "het",
+   "plural": "resultaten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نتيجة",
+    "en": "result"
+   },
+   "conceptId": "c.b2.result",
+   "sentenceIds": [
+    "nl.b2.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.onderzoeker",
+   "lemma": "onderzoeker",
+   "article": "de",
+   "plural": "onderzoekers",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "باحث",
+    "en": "researcher"
+   },
+   "conceptId": "c.b2.researcher",
+   "sentenceIds": [
+    "nl.b2.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.bewijzen",
+   "lemma": "bewijzen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يثبت",
+    "en": "to prove"
+   },
+   "conceptId": "c.b2.prove",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.meten",
+   "lemma": "meten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقيس",
+    "en": "to measure"
+   },
+   "conceptId": "c.b2.measure",
+   "sentenceIds": [
+    "nl.b2.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.ontdekking",
+   "lemma": "ontdekking",
+   "article": "de",
+   "plural": "ontdekkingen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "اكتشاف",
+    "en": "discovery"
+   },
+   "conceptId": "c.b2.discovery",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verklaarbaar",
+   "lemma": "verklaarbaar",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ممكن يتشرح",
+    "en": "explainable"
+   },
+   "conceptId": "c.b2.explainable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.laboratorium",
+   "lemma": "laboratorium",
+   "article": "het",
+   "plural": "laboratoria",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "معمل",
+    "en": "laboratory"
+   },
+   "conceptId": "c.b2.laboratory",
+   "sentenceIds": [
+    "nl.b2.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.nep",
+   "lemma": "nep",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مزيف",
+    "en": "fake"
+   },
+   "conceptId": "c.b2.fake",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.kop",
+   "lemma": "kop",
+   "article": "de",
+   "plural": "koppen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عنوان رئيسي",
+    "en": "headline"
+   },
+   "conceptId": "c.b2.headline",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.betrouwbaar",
+   "lemma": "betrouwbaar",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "موثوق",
+    "en": "reliable"
+   },
+   "conceptId": "c.b2.reliable",
+   "sentenceIds": [
+    "nl.b2.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.invloed",
+   "lemma": "invloed",
+   "article": "de",
+   "plural": "invloeden",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تأثير",
+    "en": "influence"
+   },
+   "conceptId": "c.b2.influence",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verspreiden",
+   "lemma": "verspreiden",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينتشر / ينشر",
+    "en": "to spread"
+   },
+   "conceptId": "c.b2.spread",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.uitspraak",
+   "lemma": "uitspraak",
+   "article": "de",
+   "plural": "uitspraken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تصريح",
+    "en": "statement"
+   },
+   "conceptId": "c.b2.statement",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.waarde",
+   "lemma": "waarde",
+   "article": "de",
+   "plural": "waarden",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيمة",
+    "en": "value (moral)"
+   },
+   "conceptId": "c.b2.value",
+   "sentenceIds": [
+    "nl.b2.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.gelijkheid",
+   "lemma": "gelijkheid",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساواة",
+    "en": "equality"
+   },
+   "conceptId": "c.b2.equality",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.respect",
+   "lemma": "respect",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "احترام",
+    "en": "respect"
+   },
+   "conceptId": "c.b2.respect_n",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.vooroordeel",
+   "lemma": "vooroordeel",
+   "article": "het",
+   "plural": "vooroordelen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حكم مسبق",
+    "en": "prejudice"
+   },
+   "conceptId": "c.b2.prejudice",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.tolerant",
+   "lemma": "tolerant",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "متسامح",
+    "en": "tolerant"
+   },
+   "conceptId": "c.b2.tolerant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.religie",
+   "lemma": "religie",
+   "article": "de",
+   "plural": "religies",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "دين",
+    "en": "religion"
+   },
+   "conceptId": "c.b2.religion",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.rechtvaardigheid",
+   "lemma": "rechtvaardigheid",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عدالة",
+    "en": "justice"
+   },
+   "conceptId": "c.b2.justice",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.generatie",
+   "lemma": "generatie",
+   "article": "de",
+   "plural": "generaties",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جيل",
+    "en": "generation"
+   },
+   "conceptId": "c.b2.generation",
+   "sentenceIds": [
+    "nl.b2.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.duurzaam",
+   "lemma": "duurzaam",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستدام",
+    "en": "sustainable"
+   },
+   "conceptId": "c.b2.sustainable",
+   "sentenceIds": [
+    "nl.b2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.klimaverandering",
+   "lemma": "klimaverandering",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تغير المناخ",
+    "en": "climate change"
+   },
+   "conceptId": "c.b2.climate_change",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.zonne_energie",
+   "lemma": "zonne-energie",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "طاقة شمسية",
+    "en": "solar energy"
+   },
+   "conceptId": "c.b2.solar_energy",
+   "sentenceIds": [
+    "nl.b2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.uitstoot",
+   "lemma": "uitstoot",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "انبعاثات",
+    "en": "emissions"
+   },
+   "conceptId": "c.b2.emissions",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verminderen",
+   "lemma": "verminderen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقلل",
+    "en": "to reduce"
+   },
+   "conceptId": "c.b2.reduce",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verbruik",
+   "lemma": "verbruik",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "استهلاك",
+    "en": "consumption"
+   },
+   "conceptId": "c.b2.consumption",
+   "sentenceIds": [
+    "nl.b2.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.grondstof",
+   "lemma": "grondstof",
+   "article": "de",
+   "plural": "grondstoffen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "موارد",
+    "en": "resources"
+   },
+   "conceptId": "c.b2.resources",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.voorspellen",
+   "lemma": "voorspellen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتوقع",
+    "en": "to predict"
+   },
+   "conceptId": "c.b2.predict",
+   "sentenceIds": [
+    "nl.b2.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.tegen_die_tijd",
+   "lemma": "tegen die tijd",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ساعتها",
+    "en": "by then"
+   },
+   "conceptId": "c.b2.by_then",
+   "sentenceIds": [
+    "nl.b2.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verstand",
+   "lemma": "verstand",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عقل",
+    "en": "mind"
+   },
+   "conceptId": "c.b2.mind",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.gedrag",
+   "lemma": "gedrag",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سلوك",
+    "en": "behaviour"
+   },
+   "conceptId": "c.b2.behaviour",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.angst",
+   "lemma": "angst",
+   "article": "de",
+   "plural": "angsten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قلق",
+    "en": "anxiety"
+   },
+   "conceptId": "c.b2.anxiety",
+   "sentenceIds": [
+    "nl.b2.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.zelfvertrouwen",
+   "lemma": "zelfvertrouwen",
+   "article": "het",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثقة بالنفس",
+    "en": "self-confidence"
+   },
+   "conceptId": "c.b2.self_confidence",
+   "sentenceIds": [
+    "nl.b2.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.depressief",
+   "lemma": "depressief",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مكتئب",
+    "en": "depressed"
+   },
+   "conceptId": "c.b2.depressed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.omgaan_met",
+   "lemma": "omgaan met",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعامل مع",
+    "en": "to cope (with)"
+   },
+   "conceptId": "c.b2.cope",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.ontspannen",
+   "lemma": "ontspannen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسترخي",
+    "en": "to relax"
+   },
+   "conceptId": "c.b2.relax",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.therapie",
+   "lemma": "therapie",
+   "article": "de",
+   "plural": "therapieën",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاج نفسي",
+    "en": "therapy"
+   },
+   "conceptId": "c.b2.therapy",
+   "sentenceIds": [
+    "nl.b2.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.burn_out",
+   "lemma": "burn-out",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "احتراق نفسي",
+    "en": "burnout"
+   },
+   "conceptId": "c.b2.burnout",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.geschiedenis",
+   "lemma": "geschiedenis",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاريخ",
+    "en": "history"
+   },
+   "conceptId": "c.b2.history",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.eeuw",
+   "lemma": "eeuw",
+   "article": "de",
+   "plural": "eeuwen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قرن",
+    "en": "century"
+   },
+   "conceptId": "c.b2.century",
+   "sentenceIds": [
+    "nl.b2.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.oorlog",
+   "lemma": "oorlog",
+   "article": "de",
+   "plural": "oorlogen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حرب",
+    "en": "war"
+   },
+   "conceptId": "c.b2.war",
+   "sentenceIds": [
+    "nl.b2.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.vrede",
+   "lemma": "vrede",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سلام",
+    "en": "peace"
+   },
+   "conceptId": "c.b2.peace",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.rijk",
+   "lemma": "rijk",
+   "article": "het",
+   "plural": "rijken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إمبراطورية",
+    "en": "empire"
+   },
+   "conceptId": "c.b2.empire",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.koning",
+   "lemma": "koning",
+   "article": "de",
+   "plural": "koningen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملك",
+    "en": "king"
+   },
+   "conceptId": "c.b2.king",
+   "sentenceIds": [
+    "nl.b2.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.revolutie",
+   "lemma": "revolutie",
+   "article": "de",
+   "plural": "revoluties",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثورة",
+    "en": "revolution"
+   },
+   "conceptId": "c.b2.revolution",
+   "sentenceIds": [
+    "nl.b2.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.veroveren",
+   "lemma": "veroveren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحتل / يفتح",
+    "en": "to conquer"
+   },
+   "conceptId": "c.b2.conquer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.vluchten",
+   "lemma": "vluchten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يهرب",
+    "en": "to flee"
+   },
+   "conceptId": "c.b2.flee",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.grens",
+   "lemma": "grens",
+   "article": "de",
+   "plural": "grenzen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حدود",
+    "en": "border"
+   },
+   "conceptId": "c.b2.border",
+   "sentenceIds": [
+    "nl.b2.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.roman",
+   "lemma": "roman",
+   "article": "de",
+   "plural": "romans",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رواية",
+    "en": "novel"
+   },
+   "conceptId": "c.b2.novel",
+   "sentenceIds": [
+    "nl.b2.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.gedicht",
+   "lemma": "gedicht",
+   "article": "het",
+   "plural": "gedichten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قصيدة",
+    "en": "poem"
+   },
+   "conceptId": "c.b2.poem",
+   "sentenceIds": [
+    "nl.b2.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.auteur",
+   "lemma": "auteur",
+   "article": "de",
+   "plural": "auteurs",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤلف",
+    "en": "author"
+   },
+   "conceptId": "c.b2.author",
+   "sentenceIds": [
+    "nl.b2.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.personage",
+   "lemma": "personage",
+   "article": "het",
+   "plural": "personages",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شخصية",
+    "en": "character (in a story)"
+   },
+   "conceptId": "c.b2.character",
+   "sentenceIds": [
+    "nl.b2.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.publiceren",
+   "lemma": "publiceren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينشر",
+    "en": "to publish"
+   },
+   "conceptId": "c.b2.publish",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.beschrijven",
+   "lemma": "beschrijven",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوصف",
+    "en": "to describe"
+   },
+   "conceptId": "c.b2.describe",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.fantasierijk",
+   "lemma": "fantasierijk",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "خيالي",
+    "en": "imaginative"
+   },
+   "conceptId": "c.b2.imaginative",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.onleesbaar",
+   "lemma": "onleesbaar",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ما ينفعش يتقري",
+    "en": "unreadable"
+   },
+   "conceptId": "c.b2.unreadable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.meesterwerk",
+   "lemma": "meesterwerk",
+   "article": "het",
+   "plural": "meesterwerken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحفة فنية",
+    "en": "masterpiece"
+   },
+   "conceptId": "c.b2.masterpiece",
+   "sentenceIds": [
+    "nl.b2.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.rechtbank",
+   "lemma": "rechtbank",
+   "article": "de",
+   "plural": "rechtbanken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محكمة",
+    "en": "court"
+   },
+   "conceptId": "c.b2.court",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.advocaat",
+   "lemma": "advocaat",
+   "article": "de",
+   "plural": "advocaten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محامي",
+    "en": "lawyer"
+   },
+   "conceptId": "c.b2.lawyer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.klacht",
+   "lemma": "klacht",
+   "article": "de",
+   "plural": "klachten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شكوى",
+    "en": "complaint"
+   },
+   "conceptId": "c.b2.complaint",
+   "sentenceIds": [
+    "nl.b2.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.boete",
+   "lemma": "boete",
+   "article": "de",
+   "plural": "boetes",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرامة",
+    "en": "fine (penalty)"
+   },
+   "conceptId": "c.b2.fine",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.schuldig",
+   "lemma": "schuldig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مذنب",
+    "en": "guilty"
+   },
+   "conceptId": "c.b2.guilty",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.plicht",
+   "lemma": "plicht",
+   "article": "de",
+   "plural": "plichten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "واجب",
+    "en": "obligation, duty"
+   },
+   "conceptId": "c.b2.obligation",
+   "sentenceIds": [
+    "nl.b2.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.ondanks",
+   "lemma": "ondanks",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رغم",
+    "en": "despite"
+   },
+   "conceptId": "c.b2.despite",
+   "sentenceIds": [
+    "nl.b2.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.privacy",
+   "lemma": "privacy",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "خصوصية",
+    "en": "privacy"
+   },
+   "conceptId": "c.b2.privacy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.gebruiker",
+   "lemma": "gebruiker",
+   "article": "de",
+   "plural": "gebruikers",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستخدم",
+    "en": "user"
+   },
+   "conceptId": "c.b2.user",
+   "sentenceIds": [
+    "nl.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.netwerk",
+   "lemma": "netwerk",
+   "article": "het",
+   "plural": "netwerken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شبكة",
+    "en": "network"
+   },
+   "conceptId": "c.b2.network",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.verslaafd",
+   "lemma": "verslaafd",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدمن",
+    "en": "addicted"
+   },
+   "conceptId": "c.b2.addicted",
+   "sentenceIds": [
+    "nl.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.bijgevolg",
+   "lemma": "bijgevolg",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "وبالتالي",
+    "en": "consequently"
+   },
+   "conceptId": "c.b2.consequently",
+   "sentenceIds": [
+    "nl.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.desondanks",
+   "lemma": "desondanks",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ومع ذلك",
+    "en": "nevertheless"
+   },
+   "conceptId": "c.b2.nevertheless",
+   "sentenceIds": [
+    "nl.b2.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.dialect",
+   "lemma": "dialect",
+   "article": "het",
+   "plural": "dialecten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لهجة",
+    "en": "dialect"
+   },
+   "conceptId": "c.b2.dialect",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.gesprek",
+   "lemma": "gesprek",
+   "article": "het",
+   "plural": "gesprekken",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محادثة",
+    "en": "conversation"
+   },
+   "conceptId": "c.b2.conversation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.beleefd",
+   "lemma": "beleefd",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤدب",
+    "en": "polite"
+   },
+   "conceptId": "c.b2.polite",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.onbeleefd",
+   "lemma": "onbeleefd",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قليل الأدب",
+    "en": "rude"
+   },
+   "conceptId": "c.b2.rude",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.misverstand",
+   "lemma": "misverstand",
+   "article": "het",
+   "plural": "misverstanden",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوء فهم",
+    "en": "misunderstanding"
+   },
+   "conceptId": "c.b2.misunderstanding",
+   "sentenceIds": [
+    "nl.b2.sent.u12_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.moedertaal",
+   "lemma": "moedertaal",
+   "article": "de",
+   "plural": "moedertalen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة أم",
+    "en": "mother tongue"
+   },
+   "conceptId": "c.b2.mother_tongue",
+   "sentenceIds": [
+    "nl.b2.sent.u12_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.uitdrukken",
+   "lemma": "uitdrukken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعبّر",
+    "en": "to express"
+   },
+   "conceptId": "c.b2.express",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.onderbreken",
+   "lemma": "onderbreken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقاطع",
+    "en": "to interrupt"
+   },
+   "conceptId": "c.b2.interrupt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.lichaamstaal",
+   "lemma": "lichaamstaal",
+   "article": "de",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة الجسد",
+    "en": "body language"
+   },
+   "conceptId": "c.b2.body_language",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.vloeiend",
+   "lemma": "vloeiend",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطلاقة",
+    "en": "fluent"
+   },
+   "conceptId": "c.b2.fluent",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.argument",
+   "lemma": "argument",
+   "article": "het",
+   "plural": "argumenten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حجة",
+    "en": "argument (reason)"
+   },
+   "conceptId": "c.b2.argument",
+   "sentenceIds": [
+    "nl.b2.sent.u13_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.debat",
+   "lemma": "debat",
+   "article": "het",
+   "plural": "debatten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مناظرة",
+    "en": "debate"
+   },
+   "conceptId": "c.b2.debate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.eens_zijn",
+   "lemma": "eens zijn",
+   "article": "het",
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوافق",
+    "en": "to agree"
+   },
+   "conceptId": "c.b2.agree",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.tegenspreken",
+   "lemma": "tegenspreken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعارض",
+    "en": "to contradict"
+   },
+   "conceptId": "c.b2.contradict",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.voordeel",
+   "lemma": "voordeel",
+   "article": "het",
+   "plural": "voordelen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ميزة",
+    "en": "advantage"
+   },
+   "conceptId": "c.b2.advantage",
+   "sentenceIds": [
+    "nl.b2.sent.u13_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.nadeel",
+   "lemma": "nadeel",
+   "article": "het",
+   "plural": "nadelen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيب",
+    "en": "disadvantage"
+   },
+   "conceptId": "c.b2.disadvantage",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.overtuigen",
+   "lemma": "overtuigen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقنع",
+    "en": "to convince"
+   },
+   "conceptId": "c.b2.convince",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.tot_slot",
+   "lemma": "tot slot",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "في الختام",
+    "en": "in conclusion"
+   },
+   "conceptId": "c.b2.in_conclusion",
+   "sentenceIds": [
+    "nl.b2.sent.u13_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.enerzijds",
+   "lemma": "enerzijds",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "من ناحية",
+    "en": "on the one hand"
+   },
+   "conceptId": "c.b2.on_the_one_hand",
+   "sentenceIds": [
+    "nl.b2.sent.u13_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.vocab.anderzijds",
+   "lemma": "anderzijds",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "من ناحية تانية",
+    "en": "on the other hand"
+   },
+   "conceptId": "c.b2.on_the_other_hand",
+   "sentenceIds": [
+    "nl.b2.sent.u13_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "nl.b2.sent.u01_01",
+   "text": "De beslissing over mijn promotie komt volgende week.",
+   "translations": {
+    "ar": "القرار بتاع ترقيتي هيطلع الأسبوع الجاي.",
+    "en": "The decision about my promotion comes next week."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u01_02",
+   "text": "De ontwikkeling van het personeel is belangrijk voor ons.",
+   "translations": {
+    "ar": "تطوير الموظفين مهم بالنسبة لنا.",
+    "en": "The development of the staff is important to us."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u01_03",
+   "text": "Ze wil veel bereiken in haar loopbaan.",
+   "translations": {
+    "ar": "هي عايزة تحقق حاجات كتير في مسارها المهني.",
+    "en": "She wants to achieve a lot in her career."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u02_01",
+   "text": "De stijgende prijzen maken de consumenten ongerust.",
+   "translations": {
+    "ar": "الأسعار اللي بتزيد مقلقة المستهلكين.",
+    "en": "The rising prices worry the consumers."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u02_02",
+   "text": "De economie is na de crisis gegroeid.",
+   "translations": {
+    "ar": "الاقتصاد نما بعد الأزمة.",
+    "en": "The economy grew after the crisis."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u02_03",
+   "text": "Duitsland exporteert veel auto's.",
+   "translations": {
+    "ar": "ألمانيا بتصدّر عربيات كتير.",
+    "en": "Germany exports many cars."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u03_01",
+   "text": "Het resultaat is makkelijk te meten.",
+   "translations": {
+    "ar": "النتيجة ممكن تتقاس بسهولة.",
+    "en": "The result can easily be measured."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u03_02",
+   "text": "De theorie is nog niet bewezen.",
+   "translations": {
+    "ar": "النظرية لسه ما اتثبتتش.",
+    "en": "The theory has not been proven yet."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u03_03",
+   "text": "De onderzoeker werkt in een laboratorium.",
+   "translations": {
+    "ar": "الباحث بيشتغل في معمل.",
+    "en": "The researcher works in a laboratory."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u04_01",
+   "text": "De minister beweert dat de bron betrouwbaar is.",
+   "translations": {
+    "ar": "الوزير بيدّعي إن المصدر موثوق.",
+    "en": "The minister claims that the source is reliable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u04_02",
+   "text": "De journalist zei dat hij geen tijd had gehad.",
+   "translations": {
+    "ar": "الصحفي قال إنه ماكانش عنده وقت.",
+    "en": "The journalist said he had no time."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u04_03",
+   "text": "Nepnieuws verspreidt zich snel.",
+   "translations": {
+    "ar": "الأخبار المزيفة بتنتشر بسرعة.",
+    "en": "Fake news spreads quickly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u05_01",
+   "text": "Elke samenleving heeft haar eigen waarden.",
+   "translations": {
+    "ar": "كل مجتمع ليه قيمه الخاصة.",
+    "en": "Every society has its own values."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u05_02",
+   "text": "Kijk maar, dat is toch een oude traditie!",
+   "translations": {
+    "ar": "بص بقى، دي عادة قديمة!",
+    "en": "Just look, that is an old tradition!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u05_03",
+   "text": "De jonge generatie is toleranter.",
+   "translations": {
+    "ar": "الجيل الصغير أكتر تسامح.",
+    "en": "The young generation is more tolerant."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u06_01",
+   "text": "Tegen die tijd zullen we ons verbruik verminderd hebben.",
+   "translations": {
+    "ar": "ساعتها هنكون قللنا استهلاكنا.",
+    "en": "By then we will have reduced our consumption."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u06_02",
+   "text": "Zonne-energie is duurzaam.",
+   "translations": {
+    "ar": "الطاقة الشمسية مستدامة.",
+    "en": "Solar energy is sustainable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u06_03",
+   "text": "Niemand kan de toekomst precies voorspellen.",
+   "translations": {
+    "ar": "محدش يقدر يتوقع المستقبل بالظبط.",
+    "en": "Nobody can predict the future exactly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u07_01",
+   "text": "Hij moet erg gestrest zijn.",
+   "translations": {
+    "ar": "أكيد عنده ضغط جامد.",
+    "en": "He must be very stressed."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u07_02",
+   "text": "Therapie kan helpen bij angst.",
+   "translations": {
+    "ar": "العلاج النفسي ممكن يساعد في القلق.",
+    "en": "Therapy can help with anxiety."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u07_03",
+   "text": "Ze schijnt veel zelfvertrouwen te hebben.",
+   "translations": {
+    "ar": "بيقولوا عندها ثقة بالنفس كبيرة.",
+    "en": "She is said to have a lot of self-confidence."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u08_01",
+   "text": "In de vorige eeuw was er een lange oorlog.",
+   "translations": {
+    "ar": "في القرن اللي فات كان فيه حرب طويلة.",
+    "en": "In the last century there was a long war."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u08_02",
+   "text": "Veel mensen vluchtten over de grens.",
+   "translations": {
+    "ar": "ناس كتير هربوا عبر الحدود.",
+    "en": "Many people fled across the border."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u08_03",
+   "text": "Na de revolutie was de koning weg.",
+   "translations": {
+    "ar": "بعد الثورة الملك كان مشي.",
+    "en": "After the revolution the king was gone."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u09_01",
+   "text": "De auteur publiceerde vorig jaar haar eerste roman.",
+   "translations": {
+    "ar": "المؤلفة نشرت أول رواية ليها السنة اللي فاتت.",
+    "en": "The author published her first novel last year."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u09_02",
+   "text": "Het gedicht beschrijft een droevig personage.",
+   "translations": {
+    "ar": "القصيدة بتوصف شخصية حزينة.",
+    "en": "The poem describes a sad character."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u09_03",
+   "text": "Dit schilderij is een meesterwerk.",
+   "translations": {
+    "ar": "اللوحة دي تحفة فنية.",
+    "en": "This painting is a masterpiece."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u10_01",
+   "text": "Ondanks de regen vond de rechtszaak plaats.",
+   "translations": {
+    "ar": "رغم المطر القضية اتعملت.",
+    "en": "Despite the rain the court case took place."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u10_02",
+   "text": "Wegens het lawaai heb ik een klacht ingediend.",
+   "translations": {
+    "ar": "بسبب الدوشة قدمت شكوى.",
+    "en": "Due to the noise I made a complaint."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u10_03",
+   "text": "Elke huurder heeft rechten en plichten.",
+   "translations": {
+    "ar": "كل ساكن ليه حقوق وعليه واجبات.",
+    "en": "Every tenant has rights and obligations."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u11_01",
+   "text": "Veel gebruikers zijn verslaafd; bijgevolg slapen ze slecht.",
+   "translations": {
+    "ar": "مستخدمين كتير مدمنين، وبالتالي بيناموا وحش.",
+    "en": "Many users are addicted; consequently they sleep badly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u11_02",
+   "text": "De app is handig; desondanks bescherm ik mijn gegevens.",
+   "translations": {
+    "ar": "الأبلكيشن مفيد، ومع ذلك بحمي بياناتي.",
+    "en": "The app is useful; nevertheless I protect my data."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u11_03",
+   "text": "Deel nooit je wachtwoord.",
+   "translations": {
+    "ar": "ما تشاركش الباسورد بتاعك أبدًا.",
+    "en": "Never share your password."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u12_01",
+   "text": "Zou u het erg vinden als ik u even onderbreek?",
+   "translations": {
+    "ar": "تسمح لي أقاطعك ثانية؟",
+    "en": "Would you mind if I interrupted you briefly?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u12_02",
+   "text": "Dat was een misverstand.",
+   "translations": {
+    "ar": "ده كان سوء فهم.",
+    "en": "That was a misunderstanding."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u12_03",
+   "text": "Mijn moedertaal is Arabisch.",
+   "translations": {
+    "ar": "لغتي الأم هي العربي.",
+    "en": "My mother tongue is Arabic."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u13_01",
+   "text": "Enerzijds is het goedkoper, anderzijds duurt het langer.",
+   "translations": {
+    "ar": "من ناحية أرخص، ومن ناحية تانية بياخد وقت أطول.",
+    "en": "On the one hand it is cheaper, on the other hand it takes longer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u13_02",
+   "text": "Jouw argument overtuigt me niet.",
+   "translations": {
+    "ar": "حجتك مش مقنعاني.",
+    "en": "Your argument does not convince me."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "nl.b2.sent.u13_03",
+   "text": "Tot slot zijn de voordelen groter.",
+   "translations": {
+    "ar": "في الختام، المميزات أكبر.",
+    "en": "In conclusion, the advantages are bigger."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "nl.b2.gram.u01",
+   "level": "B2",
+   "title": {
+    "en": "Nominalisation",
+    "ar": "تحويل الفعل لاسم"
+   },
+   "explanation": {
+    "en": "Dutch makes nouns from verbs and adjectives like this:\n- verb stem + -ing (de-word): beslissen → de beslissing, ontwikkelen → de ontwikkeling\n- infinitive as a het-word: het onderhandelen, het lezen\n- adjective + -heid (de-word): vrij → de vrijheid, verantwoordelijk → de verantwoordelijkheid\n\nThe object follows with van: de ontwikkeling van het personeel.",
+    "ar": "الهولندي بيعمل أسماء من الأفعال والصفات كده:\n- جذر الفعل + ‎-ing (كلمة de): beslissen ← de beslissing، ontwikkelen ← de ontwikkeling\n- المصدر ككلمة het: het onderhandelen، het lezen\n- الصفة + ‎-heid (كلمة de): vrij ← de vrijheid، verantwoordelijk ← de verantwoordelijkheid\n\nوالمفعول بييجي بعدها بـ van: de ontwikkeling van het personeel."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u01_01",
+    "nl.b2.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "beslissen → de ___",
+     "answer": "beslissing",
+     "base": "beslissen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "ontwikkelen → de ___",
+     "answer": "ontwikkeling",
+     "base": "ontwikkelen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "vrij → de ___",
+     "answer": "vrijheid",
+     "base": "vrij"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ onderhandelen kost tijd. (article)",
+     "answer": "Het",
+     "base": "het"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u02",
+   "level": "B2",
+   "title": {
+    "en": "Participles as adjectives",
+    "ar": "اسم الفاعل والمفعول كصفة"
+   },
+   "explanation": {
+    "en": "Dutch also uses participles before a noun, with the normal -e ending:\n- present participle (infinitive + -d): stijgen → de stijgende prijzen\n- past participle: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nThese structures are common in newspapers. In speech a relative clause is more usual: de prijzen die stijgen.",
+    "ar": "الهولندي برضه بيستخدم الـ participle قبل الاسم بالنهاية العادية ‎-e:\n- اسم الفاعل (المصدر + ‎-d): stijgen ← de stijgende prijzen\n- اسم المفعول: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nالتركيب ده منتشر في الجرايد. وفي الكلام الجملة الموصولة أشهر: de prijzen die stijgen."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u02_01",
+    "nl.b2.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "de ___ prijzen (stijgen)",
+     "answer": "stijgende",
+     "base": "stijgen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "de in China ___ telefoon (produceren)",
+     "answer": "geproduceerde",
+     "base": "produceren"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "de ___ economie (groeien, present)",
+     "answer": "groeiende",
+     "base": "groeien"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "het ___ product (importeren, past)",
+     "answer": "geïmporteerde",
+     "base": "importeren"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u03",
+   "level": "B2",
+   "title": {
+    "en": "Alternatives to the passive",
+    "ar": "بدائل المبني للمجهول"
+   },
+   "explanation": {
+    "en": "Dutch alternatives to kan ... worden:\n- adjective in -baar: meetbaar, verklaarbaar, bereikbaar\n- zijn + te + infinitive: Het resultaat is makkelijk te meten. Dat is niet te geloven.\n- men or je: Men meet het resultaat. Je kunt het meten.\n- laten + infinitive with zich is rare in Dutch: use te + infinitive instead.",
+    "ar": "بدائل الهولندي لـ kan ... worden:\n- صفة بـ ‎-baar: meetbaar، verklaarbaar، bereikbaar\n- zijn + te + مصدر: Het resultaat is makkelijk te meten. Dat is niet te geloven.\n- men أو je: Men meet het resultaat. Je kunt het meten.\n- laten + مصدر مع zich نادر في الهولندي: استخدم te + مصدر بداله."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u03_01",
+    "nl.b2.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Het resultaat is makkelijk ___ meten.",
+     "answer": "te",
+     "base": "te"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "verklaren → ___ (-baar)",
+     "answer": "verklaarbaar",
+     "base": "verklaren"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dat is niet te ___. (geloven)",
+     "answer": "geloven",
+     "base": "geloven"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ meet het resultaat. (formal 'one')",
+     "answer": "Men",
+     "base": "men"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u04",
+   "level": "B2",
+   "title": {
+    "en": "Indirect speech",
+    "ar": "الكلام المنقول"
+   },
+   "explanation": {
+    "en": "Dutch has no special verb form for indirect speech. Use dat + subordinate clause and shift the tense back after a past verb:\n- 'Ik heb geen tijd.' → Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' → Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' → Hij zei dat hij de volgende dag zou komen.\n\nQuestions use of or a question word: Ze vroeg of ik kwam. Ze vroeg waar ik woonde.",
+    "ar": "الهولندي مالوش صيغة فعل خاصة بالكلام المنقول. استخدم dat + جملة فرعية وارجع بالزمن لورا بعد فعل ماضي:\n- 'Ik heb geen tijd.' ← Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' ← Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' ← Hij zei dat hij de volgende dag zou komen.\n\nالأسئلة بتستخدم of أو أداة سؤال: Ze vroeg of ik kwam. Ze vroeg waar ik woonde."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u04_01",
+    "nl.b2.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "'Ik heb geen tijd.' → Hij zei dat hij geen tijd ___.",
+     "answer": "had",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "'Ik kom morgen.' → Hij zei dat hij de volgende dag ___ komen.",
+     "answer": "zou",
+     "base": "zullen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ze vroeg ___ ik kwam. (whether)",
+     "answer": "of",
+     "base": "of"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De minister beweert ___ de bron betrouwbaar is.",
+     "answer": "dat",
+     "base": "dat"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u05",
+   "level": "B2",
+   "title": {
+    "en": "Modal particles: maar, even, toch, wel",
+    "ar": "كلمات النبرة: maar، even، toch، wel"
+   },
+   "explanation": {
+    "en": "Dutch modal particles soften or colour a sentence:\n- even: makes a request short and polite: Kun je even helpen?\n- maar: encourages: Kom maar binnen. Kijk maar.\n- toch: you agree, don't you? / contradiction: Dat is toch duidelijk?\n- wel: yes, actually (against doubt): Hij komt wel. Dat is wel mooi.\nThey are often combined: Kom maar even zitten.",
+    "ar": "كلمات النبرة في الهولندي بتلطّف الجملة أو تلوّنها:\n- even: بتخلي الطلب قصير ومؤدب: Kun je even helpen?\n- maar: تشجيع: Kom maar binnen. Kijk maar.\n- toch: مش كده؟ / اعتراض: Dat is toch duidelijk?\n- wel: لأ، ده فعلًا (ضد الشك): Hij komt wel. Dat is wel mooi.\nوكتير بتتجمع: Kom maar even zitten."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u05_01",
+    "nl.b2.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Kun je ___ helpen? (short, polite)",
+     "answer": "even",
+     "base": "even"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Kom ___ binnen! (encouraging)",
+     "answer": "maar",
+     "base": "maar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dat is ___ duidelijk? (isn't it)",
+     "answer": "toch",
+     "base": "toch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij komt ___. (yes, he will)",
+     "answer": "wel",
+     "base": "wel"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u06",
+   "level": "B2",
+   "title": {
+    "en": "Future perfect and assumptions",
+    "ar": "المستقبل التام والتخمين"
+   },
+   "explanation": {
+    "en": "Future perfect = zullen + past participle + hebben/zijn: Tegen 2050 zullen we ons verbruik verminderd hebben.\n\nzullen also expresses a guess: Hij zal de trein wel gemist hebben. (= He probably missed the train.) Ze zal wel thuis zijn. The particle wel makes the guess clearer.",
+    "ar": "المستقبل التام = zullen + اسم مفعول + hebben/zijn: Tegen 2050 zullen we ons verbruik verminderd hebben.\n\nوzullen بيعبّر برضه عن تخمين: Hij zal de trein wel gemist hebben. (= غالبًا فاته القطر.) Ze zal wel thuis zijn. وكلمة wel بتوضّح إنه تخمين."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u06_01",
+    "nl.b2.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Tegen 2050 ___ we ons verbruik verminderd hebben.",
+     "answer": "zullen",
+     "base": "zullen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij zal de trein wel gemist ___.",
+     "answer": "hebben",
+     "base": "hebben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ze zal ___ thuis zijn. (probably)",
+     "answer": "wel",
+     "base": "wel"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ze zullen al vertrokken ___.",
+     "answer": "zijn",
+     "base": "zijn"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u07",
+   "level": "B2",
+   "title": {
+    "en": "Modal verbs for probability",
+    "ar": "أفعال الوجه للاحتمال"
+   },
+   "explanation": {
+    "en": "Dutch modals can also show how sure you are:\n- moet: almost certain: Hij moet erg gestrest zijn.\n- zal wel: probable: Dat zal wel kloppen.\n- kan/zou kunnen: possible: Ze zou ziek kunnen zijn.\n- zou: reportedly: Ze zou erg rijk zijn.\n- schijnen te: it seems: Ze schijnt veel zelfvertrouwen te hebben.",
+    "ar": "أفعال الوجه في الهولندي برضه بتوضّح إنت متأكد قد إيه:\n- moet: متأكد تقريبًا: Hij moet erg gestrest zijn.\n- zal wel: غالبًا: Dat zal wel kloppen.\n- kan/zou kunnen: ممكن: Ze zou ziek kunnen zijn.\n- zou: بيقولوا: Ze zou erg rijk zijn.\n- schijnen te: باين إن: Ze schijnt veel zelfvertrouwen te hebben."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u07_01",
+    "nl.b2.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Hij ___ erg gestrest zijn. (almost certain)",
+     "answer": "moet",
+     "base": "moeten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ze ___ veel zelfvertrouwen te hebben. (it seems)",
+     "answer": "schijnt",
+     "base": "schijnen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ze ___ erg rijk zijn. (reportedly)",
+     "answer": "zou",
+     "base": "zullen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dat zal ___ kloppen. (probably)",
+     "answer": "wel",
+     "base": "wel"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u08",
+   "level": "B2",
+   "title": {
+    "en": "Past tenses in narrative texts",
+    "ar": "أزمنة الماضي في الحكي"
+   },
+   "explanation": {
+    "en": "Dutch stories mostly use the imperfectum for the sequence of events, and the perfectum for a summary or a link to now. Irregular verbs: geven → gaf, vluchten → vluchtte (regular), sterven → stierf, beginnen → begon, vinden → vond.\n\nEarlier events: plusquamperfectum: had/was + participle: Nadat de oorlog was begonnen, vluchtten velen.",
+    "ar": "الحكايات الهولندية غالبًا بتستخدم الـ imperfectum لتسلسل الأحداث، والـ perfectum للملخص أو للربط بالحاضر. أفعال شاذة: geven ← gaf، vluchten ← vluchtte (منتظم)، sterven ← stierf، beginnen ← begon، vinden ← vond.\n\nالأحداث اللي قبلها: plusquamperfectum: had/was + اسم مفعول: Nadat de oorlog was begonnen, vluchtten velen."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u08_01",
+    "nl.b2.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Veel mensen ___ over de grens. (vluchten)",
+     "answer": "vluchtten",
+     "base": "vluchten"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De koning ___ in 1890. (sterven)",
+     "answer": "stierf",
+     "base": "sterven"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De oorlog ___ in 1939. (beginnen)",
+     "answer": "begon",
+     "base": "beginnen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nadat de oorlog ___ begonnen, vluchtten velen.",
+     "answer": "was",
+     "base": "zijn"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u09",
+   "level": "B2",
+   "title": {
+    "en": "Word formation: prefixes and suffixes",
+    "ar": "تكوين الكلمات: سوابق ولواحق"
+   },
+   "explanation": {
+    "en": "Common Dutch affixes:\n- on-: opposite: leesbaar → onleesbaar, duidelijk → onduidelijk\n- -loos: without: werkloos, fantasieloos\n- -rijk/-vol: full of: fantasierijk, waardevol\n- -lijk/-ig: adjectives: vriend → vriendelijk, lust → lustig\n- -er/-ster: person: lezen → de lezer, de lezeres\n- -schap, -heid: abstract nouns: vriendschap, vrijheid",
+    "ar": "سوابق ولواحق هولندية مشهورة:\n- on-: العكس: leesbaar ← onleesbaar، duidelijk ← onduidelijk\n- ‎-loos: من غير: werkloos، fantasieloos\n- ‎-rijk/-vol: مليان: fantasierijk، waardevol\n- ‎-lijk/-ig: صفات: vriend ← vriendelijk، lust ← lustig\n- ‎-er/-ster: شخص: lezen ← de lezer، de lezeres\n- ‎-schap، ‎-heid: أسماء مجردة: vriendschap، vrijheid"
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u09_01",
+    "nl.b2.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "leesbaar → ___ (opposite)",
+     "answer": "onleesbaar",
+     "base": "leesbaar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "without work: werk___",
+     "answer": "loos",
+     "base": "-loos"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "full of fantasy: fantasie___",
+     "answer": "rijk",
+     "base": "-rijk"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "vriend → vriend___ (abstract noun)",
+     "answer": "schap",
+     "base": "-schap"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u10",
+   "level": "B2",
+   "title": {
+    "en": "Formal prepositions",
+    "ar": "حروف الجر الرسمية"
+   },
+   "explanation": {
+    "en": "Dutch has no genitive case, but formal texts use special prepositions:\n- wegens / vanwege: because of: wegens het lawaai\n- ondanks: despite: ondanks de regen\n- tijdens: during: tijdens de week\n- volgens: according to: volgens de wet\n- in plaats van: instead of\n- binnen: within: binnen een maand\n\nWith a clause use omdat (because) and hoewel (although): Hoewel het regende, ...",
+    "ar": "الهولندي مالوش حالة إضافة، بس النصوص الرسمية بتستخدم حروف جر خاصة:\n- wegens / vanwege: بسبب: wegens het lawaai\n- ondanks: رغم: ondanks de regen\n- tijdens: خلال: tijdens de week\n- volgens: حسب: volgens de wet\n- in plaats van: بدل\n- binnen: في خلال: binnen een maand\n\nومع جملة استخدم omdat (عشان) وhoewel (رغم إن): Hoewel het regende, ..."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u10_01",
+    "nl.b2.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ de regen vond het plaats. (despite)",
+     "answer": "Ondanks",
+     "base": "ondanks"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ het lawaai heb ik geklaagd. (because of)",
+     "answer": "Wegens",
+     "base": "wegens"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ de wet is dat verboden. (according to)",
+     "answer": "Volgens",
+     "base": "volgens"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ het regende, gingen we weg. (although)",
+     "answer": "Hoewel",
+     "base": "hoewel"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u11",
+   "level": "B2",
+   "title": {
+    "en": "Connectors: dus, daardoor, toch, aangezien",
+    "ar": "أدوات الربط: dus، daardoor، toch، aangezien"
+   },
+   "explanation": {
+    "en": "Adverb connectors at the start take inversion: Daardoor slapen ze slecht. Desondanks bescherm ik mijn gegevens.\n- consequence: dus, daardoor, bijgevolg, daarom\n- contrast: toch, desondanks, echter\n\ndus can also stay in normal order: Hij is ziek, dus hij komt niet.\naangezien (since) is a subordinating conjunction: verb to the end: Aangezien de app gegevens verzamelt, ...",
+    "ar": "أدوات الربط اللي هي ظروف في أول الجملة بتقلب الترتيب: Daardoor slapen ze slecht. Desondanks bescherm ik mijn gegevens.\n- نتيجة: dus، daardoor، bijgevolg، daarom\n- عكس: toch، desondanks، echter\n\nوdus ممكن تفضل بالترتيب العادي: Hij is ziek, dus hij komt niet.\nوaangezien (بما إن) أداة ربط فرعية: الفعل في الآخر: Aangezien de app gegevens verzamelt, ..."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u11_01",
+    "nl.b2.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ze zijn verslaafd; daardoor ___ ze slecht. (slapen)",
+     "answer": "slapen",
+     "base": "slapen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "De app is handig; ___ ben ik voorzichtig. (nevertheless)",
+     "answer": "toch",
+     "base": "toch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Aangezien de app veel gegevens ___, ... (verzamelen)",
+     "answer": "verzamelt",
+     "base": "verzamelen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hij is ziek, ___ hij komt niet. (so)",
+     "answer": "dus",
+     "base": "dus"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u12",
+   "level": "B2",
+   "title": {
+    "en": "Register and politeness",
+    "ar": "مستوى الكلام والأدب"
+   },
+   "explanation": {
+    "en": "Dutch moves to je/jij quickly, even at work, but u is used with older people, officials and in formal writing.\n- softening with zou: Zou u ... kunnen? Zou je het erg vinden als ...?\n- even and misschien soften requests: Heb je even tijd? Kun je misschien helpen?\n- directness is normal and not rude in Dutch: Dat klopt niet. is fine in a meeting.",
+    "ar": "الهولندي بينقل لـ je/jij بسرعة حتى في الشغل، بس u بتستخدم مع الكبار والموظفين وفي الكتابة الرسمية.\n- التلطيف بـ zou: Zou u ... kunnen? Zou je het erg vinden als ...?\n- even وmisschien بيلطّفوا الطلب: Heb je even tijd? Kun je misschien helpen?\n- الصراحة عادية ومش قلة أدب في الهولندي: Dat klopt niet. عادي في اجتماع."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u12_01",
+    "nl.b2.sent.u12_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ u mij kunnen helpen? (polite)",
+     "answer": "Zou",
+     "base": "zullen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Zou je het erg vinden ___ ik even onderbreek?",
+     "answer": "als",
+     "base": "als"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Heb je ___ tijd? (softener)",
+     "answer": "even",
+     "base": "even"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Kun je ___ helpen? (maybe)",
+     "answer": "misschien",
+     "base": "misschien"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nl.b2.gram.u13",
+   "level": "B2",
+   "title": {
+    "en": "Structuring an argument",
+    "ar": "ترتيب الحجة"
+   },
+   "explanation": {
+    "en": "Signposts for a Dutch argument:\n- introducing: Ten eerste ... / Een belangrijk argument is ...\n- adding: bovendien, daarnaast, verder\n- weighing: enerzijds ... anderzijds; aan de ene kant ... aan de andere kant\n- conceding: Het is waar dat ..., maar ...\n- concluding: tot slot, kortom, al met al\n\nAdverbs at the start take inversion: Bovendien bespaar je tijd.",
+    "ar": "علامات الحجة في الهولندي:\n- البداية: Ten eerste ... / Een belangrijk argument is ...\n- الإضافة: bovendien، daarnaast، verder\n- الموازنة: enerzijds ... anderzijds؛ aan de ene kant ... aan de andere kant\n- الاعتراف: Het is waar dat ..., maar ...\n- الختام: tot slot، kortom، al met al\n\nوالظروف في الأول بتقلب الترتيب: Bovendien bespaar je tijd."
+   },
+   "exampleSentenceIds": [
+    "nl.b2.sent.u13_01",
+    "nl.b2.sent.u13_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Enerzijds is het goedkoper, ___ duurt het langer.",
+     "answer": "anderzijds",
+     "base": "anderzijds"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ bespaar je tijd. (moreover)",
+     "answer": "Bovendien",
+     "base": "bovendien"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Het is ___ dat het duur is, maar ...",
+     "answer": "waar",
+     "base": "waar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Al met ___ ben ik voor.",
+     "answer": "al",
+     "base": "al"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "nl.b2.write.u01",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about work and careers in Dutch: the career you want in ten years and how you will get there.",
+    "ar": "اكتب بالهولندي عن الشغل والمسار المهني: الشغل اللي نفسك فيه بعد عشر سنين وإزاي هتوصله."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u02",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about economy and globalisation in Dutch: how globalisation changes the products you buy.",
+    "ar": "اكتب بالهولندي عن الاقتصاد والعولمة: إزاي العولمة بتغيّر المنتجات اللي بتشتريها."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u03",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about science and research in Dutch: a scientific discovery that changed everyday life.",
+    "ar": "اكتب بالهولندي عن العلوم والبحث: اكتشاف علمي غيّر الحياة اليومية."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u04",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about media literacy in Dutch: how you check if a news story is true.",
+    "ar": "اكتب بالهولندي عن التعامل مع الإعلام: إزاي بتتأكد إن الخبر صح."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u05",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about society and values in Dutch: a tradition from your country that you would keep or change.",
+    "ar": "اكتب بالهولندي عن المجتمع والقيم: عادة من بلدك تحب تحافظ عليها أو تغيّرها."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u06",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about environment and the future in Dutch: what our cities will look like in 2050.",
+    "ar": "اكتب بالهولندي عن البيئة والمستقبل: مدننا هتبقى شكلها إيه سنة ٢٠٥٠."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u07",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about health and psychology in Dutch: how you deal with stress.",
+    "ar": "اكتب بالهولندي عن الصحة وعلم النفس: إزاي بتتعامل مع الضغط."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u08",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about history in Dutch: a historical event from the point of view of someone who lived it.",
+    "ar": "اكتب بالهولندي عن التاريخ: حدث تاريخي من وجهة نظر حد عاشه."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u09",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about art and literature in Dutch: a book, film or poem that moved you.",
+    "ar": "اكتب بالهولندي عن الفن والأدب: كتاب أو فيلم أو قصيدة أثرت فيك."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u10",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about law and everyday life in Dutch: a problem with a landlord or a company and how you solved it.",
+    "ar": "اكتب بالهولندي عن القانون والحياة اليومية: مشكلة مع صاحب سكن أو شركة وحليتها إزاي."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u11",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about digital world in Dutch: the advantages and dangers of social media.",
+    "ar": "اكتب بالهولندي عن العالم الرقمي: مميزات ومخاطر السوشيال ميديا."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u12",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about language and communication in Dutch: how people talk differently to friends and to a boss.",
+    "ar": "اكتب بالهولندي عن اللغة والتواصل: الناس بتتكلم إزاي مختلف مع صحابها ومع المدير."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "nl.b2.write.u13",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about arguing and discussing in Dutch: an essay for or against a four-day working week.",
+    "ar": "اكتب بالهولندي عن الجدال والنقاش: مقال مع أو ضد أسبوع شغل أربع أيام."
+   },
+   "minWords": 120
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

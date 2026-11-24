@@ -1,0 +1,4680 @@
+{
+ "schemaVersion": 2,
+ "lang": "de",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "B2",
+  "title": {
+   "ar": "B2 فوق المتوسط",
+   "en": "B2 Upper intermediate"
+  },
+  "targetHours": 320,
+  "canDo": [
+   {
+    "en": "Understand the main ideas of complex texts, including technical discussions",
+    "ar": "تفهم الأفكار الأساسية في نصوص معقدة، حتى النقاشات المتخصصة"
+   },
+   {
+    "en": "Talk fluently and spontaneously with native speakers",
+    "ar": "تتكلم بطلاقة وتلقائية مع أهل اللغة"
+   },
+   {
+    "en": "Write clear, detailed texts and argue for and against a view",
+    "ar": "تكتب نصوص واضحة ومفصلة وتناقش الرأي بالمع والضد"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "de.b2.u01",
+   "level": "B2",
+   "order": 1,
+   "theme": {
+    "ar": "الشغل والمسار المهني",
+    "en": "Work and careers"
+   },
+   "goals": [
+    {
+     "en": "Talk about work and careers in German",
+     "ar": "تتكلم عن الشغل والمسار المهني بالألماني"
+    },
+    {
+     "en": "Nominalisation",
+     "ar": "تحويل الفعل لاسم"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u01"
+   ],
+   "lessonIds": [
+    "de.b2.u01.l01",
+    "de.b2.u01.l02",
+    "de.b2.u01.l03",
+    "de.b2.u01.l04",
+    "de.b2.u01.l05"
+   ],
+   "sharedUnitId": "u.b2.01"
+  },
+  {
+   "id": "de.b2.u02",
+   "level": "B2",
+   "order": 2,
+   "theme": {
+    "ar": "الاقتصاد والعولمة",
+    "en": "Economy and globalisation"
+   },
+   "goals": [
+    {
+     "en": "Talk about economy and globalisation in German",
+     "ar": "تتكلم عن الاقتصاد والعولمة بالألماني"
+    },
+    {
+     "en": "Extended participle attributes",
+     "ar": "الصفة الممتدة بالـ Partizip"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u02"
+   ],
+   "lessonIds": [
+    "de.b2.u02.l01",
+    "de.b2.u02.l02",
+    "de.b2.u02.l03",
+    "de.b2.u02.l04",
+    "de.b2.u02.l05"
+   ],
+   "sharedUnitId": "u.b2.02"
+  },
+  {
+   "id": "de.b2.u03",
+   "level": "B2",
+   "order": 3,
+   "theme": {
+    "ar": "العلوم والبحث",
+    "en": "Science and research"
+   },
+   "goals": [
+    {
+     "en": "Talk about science and research in German",
+     "ar": "تتكلم عن العلوم والبحث بالألماني"
+    },
+    {
+     "en": "Alternatives to the passive",
+     "ar": "بدائل المبني للمجهول"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u03"
+   ],
+   "lessonIds": [
+    "de.b2.u03.l01",
+    "de.b2.u03.l02",
+    "de.b2.u03.l03",
+    "de.b2.u03.l04",
+    "de.b2.u03.l05"
+   ],
+   "sharedUnitId": "u.b2.03"
+  },
+  {
+   "id": "de.b2.u04",
+   "level": "B2",
+   "order": 4,
+   "theme": {
+    "ar": "التعامل مع الإعلام",
+    "en": "Media literacy"
+   },
+   "goals": [
+    {
+     "en": "Talk about media literacy in German",
+     "ar": "تتكلم عن التعامل مع الإعلام بالألماني"
+    },
+    {
+     "en": "Indirect speech: Konjunktiv I",
+     "ar": "الكلام المنقول: Konjunktiv I"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u04"
+   ],
+   "lessonIds": [
+    "de.b2.u04.l01",
+    "de.b2.u04.l02",
+    "de.b2.u04.l03",
+    "de.b2.u04.l04",
+    "de.b2.u04.l05"
+   ],
+   "sharedUnitId": "u.b2.04"
+  },
+  {
+   "id": "de.b2.u05",
+   "level": "B2",
+   "order": 5,
+   "theme": {
+    "ar": "المجتمع والقيم",
+    "en": "Society and values"
+   },
+   "goals": [
+    {
+     "en": "Talk about society and values in German",
+     "ar": "تتكلم عن المجتمع والقيم بالألماني"
+    },
+    {
+     "en": "Modal particles: doch, mal, ja, eben",
+     "ar": "كلمات النبرة: doch، mal، ja، eben"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u05"
+   ],
+   "lessonIds": [
+    "de.b2.u05.l01",
+    "de.b2.u05.l02",
+    "de.b2.u05.l03",
+    "de.b2.u05.l04",
+    "de.b2.u05.l05"
+   ],
+   "sharedUnitId": "u.b2.05"
+  },
+  {
+   "id": "de.b2.u06",
+   "level": "B2",
+   "order": 6,
+   "theme": {
+    "ar": "البيئة والمستقبل",
+    "en": "Environment and the future"
+   },
+   "goals": [
+    {
+     "en": "Talk about environment and the future in German",
+     "ar": "تتكلم عن البيئة والمستقبل بالألماني"
+    },
+    {
+     "en": "Future II and assumptions",
+     "ar": "المستقبل التام والتخمين"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u06"
+   ],
+   "lessonIds": [
+    "de.b2.u06.l01",
+    "de.b2.u06.l02",
+    "de.b2.u06.l03",
+    "de.b2.u06.l04",
+    "de.b2.u06.l05"
+   ],
+   "sharedUnitId": "u.b2.06"
+  },
+  {
+   "id": "de.b2.u07",
+   "level": "B2",
+   "order": 7,
+   "theme": {
+    "ar": "الصحة وعلم النفس",
+    "en": "Health and psychology"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and psychology in German",
+     "ar": "تتكلم عن الصحة وعلم النفس بالألماني"
+    },
+    {
+     "en": "Subjective use of modal verbs",
+     "ar": "الاستخدام التقديري لأفعال الوجه"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u07"
+   ],
+   "lessonIds": [
+    "de.b2.u07.l01",
+    "de.b2.u07.l02",
+    "de.b2.u07.l03",
+    "de.b2.u07.l04",
+    "de.b2.u07.l05"
+   ],
+   "sharedUnitId": "u.b2.07"
+  },
+  {
+   "id": "de.b2.u08",
+   "level": "B2",
+   "order": 8,
+   "theme": {
+    "ar": "التاريخ",
+    "en": "History"
+   },
+   "goals": [
+    {
+     "en": "Talk about history in German",
+     "ar": "تتكلم عن التاريخ بالألماني"
+    },
+    {
+     "en": "Präteritum in narrative texts",
+     "ar": "الـ Präteritum في الحكي"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u08"
+   ],
+   "lessonIds": [
+    "de.b2.u08.l01",
+    "de.b2.u08.l02",
+    "de.b2.u08.l03",
+    "de.b2.u08.l04",
+    "de.b2.u08.l05"
+   ],
+   "sharedUnitId": "u.b2.08"
+  },
+  {
+   "id": "de.b2.u09",
+   "level": "B2",
+   "order": 9,
+   "theme": {
+    "ar": "الفن والأدب",
+    "en": "Art and literature"
+   },
+   "goals": [
+    {
+     "en": "Talk about art and literature in German",
+     "ar": "تتكلم عن الفن والأدب بالألماني"
+    },
+    {
+     "en": "Word formation: prefixes and suffixes",
+     "ar": "تكوين الكلمات: سوابق ولواحق"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u09"
+   ],
+   "lessonIds": [
+    "de.b2.u09.l01",
+    "de.b2.u09.l02",
+    "de.b2.u09.l03",
+    "de.b2.u09.l04",
+    "de.b2.u09.l05"
+   ],
+   "sharedUnitId": "u.b2.09"
+  },
+  {
+   "id": "de.b2.u10",
+   "level": "B2",
+   "order": 10,
+   "theme": {
+    "ar": "القانون والحياة اليومية",
+    "en": "Law and everyday life"
+   },
+   "goals": [
+    {
+     "en": "Talk about law and everyday life in German",
+     "ar": "تتكلم عن القانون والحياة اليومية بالألماني"
+    },
+    {
+     "en": "Prepositions with the genitive",
+     "ar": "حروف الجر مع حالة الإضافة"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u10"
+   ],
+   "lessonIds": [
+    "de.b2.u10.l01",
+    "de.b2.u10.l02",
+    "de.b2.u10.l03",
+    "de.b2.u10.l04",
+    "de.b2.u10.l05"
+   ],
+   "sharedUnitId": "u.b2.10"
+  },
+  {
+   "id": "de.b2.u11",
+   "level": "B2",
+   "order": 11,
+   "theme": {
+    "ar": "العالم الرقمي",
+    "en": "Digital world"
+   },
+   "goals": [
+    {
+     "en": "Talk about digital world in German",
+     "ar": "تتكلم عن العالم الرقمي بالألماني"
+    },
+    {
+     "en": "Connectors: folglich, dennoch, zumal",
+     "ar": "أدوات الربط: folglich، dennoch، zumal"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u11"
+   ],
+   "lessonIds": [
+    "de.b2.u11.l01",
+    "de.b2.u11.l02",
+    "de.b2.u11.l03",
+    "de.b2.u11.l04",
+    "de.b2.u11.l05"
+   ],
+   "sharedUnitId": "u.b2.11"
+  },
+  {
+   "id": "de.b2.u12",
+   "level": "B2",
+   "order": 12,
+   "theme": {
+    "ar": "اللغة والتواصل",
+    "en": "Language and communication"
+   },
+   "goals": [
+    {
+     "en": "Talk about language and communication in German",
+     "ar": "تتكلم عن اللغة والتواصل بالألماني"
+    },
+    {
+     "en": "Register and politeness",
+     "ar": "مستوى الكلام والأدب"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u12"
+   ],
+   "lessonIds": [
+    "de.b2.u12.l01",
+    "de.b2.u12.l02",
+    "de.b2.u12.l03",
+    "de.b2.u12.l04",
+    "de.b2.u12.l05"
+   ],
+   "sharedUnitId": "u.b2.12"
+  },
+  {
+   "id": "de.b2.u13",
+   "level": "B2",
+   "order": 13,
+   "theme": {
+    "ar": "الجدال والنقاش",
+    "en": "Arguing and discussing"
+   },
+   "goals": [
+    {
+     "en": "Talk about arguing and discussing in German",
+     "ar": "تتكلم عن الجدال والنقاش بالألماني"
+    },
+    {
+     "en": "Structuring an argument",
+     "ar": "ترتيب الحجة"
+    }
+   ],
+   "grammarIds": [
+    "de.b2.gram.u13"
+   ],
+   "lessonIds": [
+    "de.b2.u13.l01",
+    "de.b2.u13.l02",
+    "de.b2.u13.l03",
+    "de.b2.u13.l04",
+    "de.b2.u13.l05"
+   ],
+   "sharedUnitId": "u.b2.13"
+  },
+  {
+   "id": "de.b2.u14",
+   "level": "B2",
+   "order": 14,
+   "theme": {
+    "ar": "مراجعة B2 واختبار تجريبي",
+    "en": "B2 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached B2",
+     "ar": "توري إنك وصلت لمستوى B2"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.b2.u14.l01",
+    "de.b2.u14.l02"
+   ],
+   "sharedUnitId": "u.b2.14"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "de.b2.u01.l01",
+   "unitId": "de.b2.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work and careers: words 1",
+    "ar": "الشغل والمسار المهني: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.karriere",
+    "de.b2.vocab.befoerderung",
+    "de.b2.vocab.verantwortung",
+    "de.b2.vocab.verhandeln",
+    "de.b2.vocab.entscheidung"
+   ]
+  },
+  {
+   "id": "de.b2.u01.l02",
+   "unitId": "de.b2.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work and careers: words 2",
+    "ar": "الشغل والمسار المهني: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.entwicklung",
+    "de.b2.vocab.erreichen",
+    "de.b2.vocab.belegschaft",
+    "de.b2.vocab.selbststaendig"
+   ]
+  },
+  {
+   "id": "de.b2.u01.l03",
+   "unitId": "de.b2.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Nominalisation",
+    "ar": "تحويل الفعل لاسم"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u01"
+  },
+  {
+   "id": "de.b2.u01.l04",
+   "unitId": "de.b2.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work and careers",
+    "ar": "استماع: الشغل والمسار المهني"
+   },
+   "items": [
+    "de.b2.sent.u01_01",
+    "de.b2.sent.u01_02",
+    "de.b2.sent.u01_03"
+   ]
+  },
+  {
+   "id": "de.b2.u01.l05",
+   "unitId": "de.b2.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "de.b2.vocab.karriere",
+    "de.b2.vocab.befoerderung",
+    "de.b2.vocab.verantwortung",
+    "de.b2.vocab.verhandeln",
+    "de.b2.vocab.entscheidung",
+    "de.b2.vocab.entwicklung",
+    "de.b2.vocab.erreichen",
+    "de.b2.vocab.belegschaft",
+    "de.b2.vocab.selbststaendig"
+   ]
+  },
+  {
+   "id": "de.b2.u02.l01",
+   "unitId": "de.b2.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Economy and globalisation: words 1",
+    "ar": "الاقتصاد والعولمة: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.wirtschaft",
+    "de.b2.vocab.markt",
+    "de.b2.vocab.handel",
+    "de.b2.vocab.wachstum",
+    "de.b2.vocab.exportieren"
+   ]
+  },
+  {
+   "id": "de.b2.u02.l02",
+   "unitId": "de.b2.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Economy and globalisation: words 2",
+    "ar": "الاقتصاد والعولمة: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.importieren",
+    "de.b2.vocab.konkurrenz",
+    "de.b2.vocab.steigen",
+    "de.b2.vocab.krise"
+   ]
+  },
+  {
+   "id": "de.b2.u02.l03",
+   "unitId": "de.b2.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Extended participle attributes",
+    "ar": "الصفة الممتدة بالـ Partizip"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u02"
+  },
+  {
+   "id": "de.b2.u02.l04",
+   "unitId": "de.b2.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: economy and globalisation",
+    "ar": "استماع: الاقتصاد والعولمة"
+   },
+   "items": [
+    "de.b2.sent.u02_01",
+    "de.b2.sent.u02_02",
+    "de.b2.sent.u02_03"
+   ]
+  },
+  {
+   "id": "de.b2.u02.l05",
+   "unitId": "de.b2.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "de.b2.vocab.wirtschaft",
+    "de.b2.vocab.markt",
+    "de.b2.vocab.handel",
+    "de.b2.vocab.wachstum",
+    "de.b2.vocab.exportieren",
+    "de.b2.vocab.importieren",
+    "de.b2.vocab.konkurrenz",
+    "de.b2.vocab.steigen",
+    "de.b2.vocab.krise"
+   ]
+  },
+  {
+   "id": "de.b2.u03.l01",
+   "unitId": "de.b2.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Science and research: words 1",
+    "ar": "العلوم والبحث: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.experiment",
+    "de.b2.vocab.theorie",
+    "de.b2.vocab.ergebnis",
+    "de.b2.vocab.forscher",
+    "de.b2.vocab.beweisen"
+   ]
+  },
+  {
+   "id": "de.b2.u03.l02",
+   "unitId": "de.b2.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Science and research: words 2",
+    "ar": "العلوم والبحث: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.messen",
+    "de.b2.vocab.entdeckung",
+    "de.b2.vocab.erklaerbar",
+    "de.b2.vocab.labor"
+   ]
+  },
+  {
+   "id": "de.b2.u03.l03",
+   "unitId": "de.b2.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Alternatives to the passive",
+    "ar": "بدائل المبني للمجهول"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u03"
+  },
+  {
+   "id": "de.b2.u03.l04",
+   "unitId": "de.b2.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: science and research",
+    "ar": "استماع: العلوم والبحث"
+   },
+   "items": [
+    "de.b2.sent.u03_01",
+    "de.b2.sent.u03_02",
+    "de.b2.sent.u03_03"
+   ]
+  },
+  {
+   "id": "de.b2.u03.l05",
+   "unitId": "de.b2.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "de.b2.vocab.experiment",
+    "de.b2.vocab.theorie",
+    "de.b2.vocab.ergebnis",
+    "de.b2.vocab.forscher",
+    "de.b2.vocab.beweisen",
+    "de.b2.vocab.messen",
+    "de.b2.vocab.entdeckung",
+    "de.b2.vocab.erklaerbar",
+    "de.b2.vocab.labor"
+   ]
+  },
+  {
+   "id": "de.b2.u04.l01",
+   "unitId": "de.b2.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Media literacy: words 1",
+    "ar": "التعامل مع الإعلام: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.gefaelscht",
+    "de.b2.vocab.schlagzeile",
+    "de.b2.vocab.zuverlaessig"
+   ]
+  },
+  {
+   "id": "de.b2.u04.l02",
+   "unitId": "de.b2.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Media literacy: words 2",
+    "ar": "التعامل مع الإعلام: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.einfluss",
+    "de.b2.vocab.verbreiten",
+    "de.b2.vocab.aussage"
+   ]
+  },
+  {
+   "id": "de.b2.u04.l03",
+   "unitId": "de.b2.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Indirect speech: Konjunktiv I",
+    "ar": "الكلام المنقول: Konjunktiv I"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u04"
+  },
+  {
+   "id": "de.b2.u04.l04",
+   "unitId": "de.b2.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: media literacy",
+    "ar": "استماع: التعامل مع الإعلام"
+   },
+   "items": [
+    "de.b2.sent.u04_01",
+    "de.b2.sent.u04_02",
+    "de.b2.sent.u04_03"
+   ]
+  },
+  {
+   "id": "de.b2.u04.l05",
+   "unitId": "de.b2.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "de.b2.vocab.gefaelscht",
+    "de.b2.vocab.schlagzeile",
+    "de.b2.vocab.zuverlaessig",
+    "de.b2.vocab.einfluss",
+    "de.b2.vocab.verbreiten",
+    "de.b2.vocab.aussage"
+   ]
+  },
+  {
+   "id": "de.b2.u05.l01",
+   "unitId": "de.b2.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Society and values: words 1",
+    "ar": "المجتمع والقيم: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.wert",
+    "de.b2.vocab.gleichberechtigung",
+    "de.b2.vocab.respekt",
+    "de.b2.vocab.vorurteil"
+   ]
+  },
+  {
+   "id": "de.b2.u05.l02",
+   "unitId": "de.b2.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Society and values: words 2",
+    "ar": "المجتمع والقيم: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.tolerant",
+    "de.b2.vocab.religion",
+    "de.b2.vocab.gerechtigkeit",
+    "de.b2.vocab.generation"
+   ]
+  },
+  {
+   "id": "de.b2.u05.l03",
+   "unitId": "de.b2.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Modal particles: doch, mal, ja, eben",
+    "ar": "كلمات النبرة: doch، mal، ja، eben"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u05"
+  },
+  {
+   "id": "de.b2.u05.l04",
+   "unitId": "de.b2.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: society and values",
+    "ar": "استماع: المجتمع والقيم"
+   },
+   "items": [
+    "de.b2.sent.u05_01",
+    "de.b2.sent.u05_02",
+    "de.b2.sent.u05_03"
+   ]
+  },
+  {
+   "id": "de.b2.u05.l05",
+   "unitId": "de.b2.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "de.b2.vocab.wert",
+    "de.b2.vocab.gleichberechtigung",
+    "de.b2.vocab.respekt",
+    "de.b2.vocab.vorurteil",
+    "de.b2.vocab.tolerant",
+    "de.b2.vocab.religion",
+    "de.b2.vocab.gerechtigkeit",
+    "de.b2.vocab.generation"
+   ]
+  },
+  {
+   "id": "de.b2.u06.l01",
+   "unitId": "de.b2.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and the future: words 1",
+    "ar": "البيئة والمستقبل: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.nachhaltig",
+    "de.b2.vocab.klimawandel",
+    "de.b2.vocab.solarenergie",
+    "de.b2.vocab.emission",
+    "de.b2.vocab.verringern"
+   ]
+  },
+  {
+   "id": "de.b2.u06.l02",
+   "unitId": "de.b2.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Environment and the future: words 2",
+    "ar": "البيئة والمستقبل: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.verbrauch",
+    "de.b2.vocab.ressource",
+    "de.b2.vocab.vorhersagen",
+    "de.b2.vocab.bis_dahin"
+   ]
+  },
+  {
+   "id": "de.b2.u06.l03",
+   "unitId": "de.b2.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Future II and assumptions",
+    "ar": "المستقبل التام والتخمين"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u06"
+  },
+  {
+   "id": "de.b2.u06.l04",
+   "unitId": "de.b2.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: environment and the future",
+    "ar": "استماع: البيئة والمستقبل"
+   },
+   "items": [
+    "de.b2.sent.u06_01",
+    "de.b2.sent.u06_02",
+    "de.b2.sent.u06_03"
+   ]
+  },
+  {
+   "id": "de.b2.u06.l05",
+   "unitId": "de.b2.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "de.b2.vocab.nachhaltig",
+    "de.b2.vocab.klimawandel",
+    "de.b2.vocab.solarenergie",
+    "de.b2.vocab.emission",
+    "de.b2.vocab.verringern",
+    "de.b2.vocab.verbrauch",
+    "de.b2.vocab.ressource",
+    "de.b2.vocab.vorhersagen",
+    "de.b2.vocab.bis_dahin"
+   ]
+  },
+  {
+   "id": "de.b2.u07.l01",
+   "unitId": "de.b2.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and psychology: words 1",
+    "ar": "الصحة وعلم النفس: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.verstand",
+    "de.b2.vocab.verhalten",
+    "de.b2.vocab.angst",
+    "de.b2.vocab.selbstvertrauen",
+    "de.b2.vocab.deprimiert"
+   ]
+  },
+  {
+   "id": "de.b2.u07.l02",
+   "unitId": "de.b2.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and psychology: words 2",
+    "ar": "الصحة وعلم النفس: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.bewaeltigen",
+    "de.b2.vocab.sich_entspannen",
+    "de.b2.vocab.therapie",
+    "de.b2.vocab.burn_out"
+   ]
+  },
+  {
+   "id": "de.b2.u07.l03",
+   "unitId": "de.b2.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Subjective use of modal verbs",
+    "ar": "الاستخدام التقديري لأفعال الوجه"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u07"
+  },
+  {
+   "id": "de.b2.u07.l04",
+   "unitId": "de.b2.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and psychology",
+    "ar": "استماع: الصحة وعلم النفس"
+   },
+   "items": [
+    "de.b2.sent.u07_01",
+    "de.b2.sent.u07_02",
+    "de.b2.sent.u07_03"
+   ]
+  },
+  {
+   "id": "de.b2.u07.l05",
+   "unitId": "de.b2.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "de.b2.vocab.verstand",
+    "de.b2.vocab.verhalten",
+    "de.b2.vocab.angst",
+    "de.b2.vocab.selbstvertrauen",
+    "de.b2.vocab.deprimiert",
+    "de.b2.vocab.bewaeltigen",
+    "de.b2.vocab.sich_entspannen",
+    "de.b2.vocab.therapie",
+    "de.b2.vocab.burn_out"
+   ]
+  },
+  {
+   "id": "de.b2.u08.l01",
+   "unitId": "de.b2.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "History: words 1",
+    "ar": "التاريخ: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.geschichte",
+    "de.b2.vocab.jahrhundert",
+    "de.b2.vocab.krieg",
+    "de.b2.vocab.frieden",
+    "de.b2.vocab.reich"
+   ]
+  },
+  {
+   "id": "de.b2.u08.l02",
+   "unitId": "de.b2.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "History: words 2",
+    "ar": "التاريخ: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.koenig",
+    "de.b2.vocab.revolution",
+    "de.b2.vocab.erobern",
+    "de.b2.vocab.fliehen",
+    "de.b2.vocab.grenze"
+   ]
+  },
+  {
+   "id": "de.b2.u08.l03",
+   "unitId": "de.b2.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Präteritum in narrative texts",
+    "ar": "الـ Präteritum في الحكي"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u08"
+  },
+  {
+   "id": "de.b2.u08.l04",
+   "unitId": "de.b2.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: history",
+    "ar": "استماع: التاريخ"
+   },
+   "items": [
+    "de.b2.sent.u08_01",
+    "de.b2.sent.u08_02",
+    "de.b2.sent.u08_03"
+   ]
+  },
+  {
+   "id": "de.b2.u08.l05",
+   "unitId": "de.b2.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "de.b2.vocab.geschichte",
+    "de.b2.vocab.jahrhundert",
+    "de.b2.vocab.krieg",
+    "de.b2.vocab.frieden",
+    "de.b2.vocab.reich",
+    "de.b2.vocab.koenig",
+    "de.b2.vocab.revolution",
+    "de.b2.vocab.erobern",
+    "de.b2.vocab.fliehen",
+    "de.b2.vocab.grenze"
+   ]
+  },
+  {
+   "id": "de.b2.u09.l01",
+   "unitId": "de.b2.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Art and literature: words 1",
+    "ar": "الفن والأدب: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.roman",
+    "de.b2.vocab.gedicht",
+    "de.b2.vocab.autor",
+    "de.b2.vocab.figur",
+    "de.b2.vocab.veroeffentlichen"
+   ]
+  },
+  {
+   "id": "de.b2.u09.l02",
+   "unitId": "de.b2.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Art and literature: words 2",
+    "ar": "الفن والأدب: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.beschreiben",
+    "de.b2.vocab.fantasievoll",
+    "de.b2.vocab.unlesbar",
+    "de.b2.vocab.meisterwerk"
+   ]
+  },
+  {
+   "id": "de.b2.u09.l03",
+   "unitId": "de.b2.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Word formation: prefixes and suffixes",
+    "ar": "تكوين الكلمات: سوابق ولواحق"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u09"
+  },
+  {
+   "id": "de.b2.u09.l04",
+   "unitId": "de.b2.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: art and literature",
+    "ar": "استماع: الفن والأدب"
+   },
+   "items": [
+    "de.b2.sent.u09_01",
+    "de.b2.sent.u09_02",
+    "de.b2.sent.u09_03"
+   ]
+  },
+  {
+   "id": "de.b2.u09.l05",
+   "unitId": "de.b2.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "de.b2.vocab.roman",
+    "de.b2.vocab.gedicht",
+    "de.b2.vocab.autor",
+    "de.b2.vocab.figur",
+    "de.b2.vocab.veroeffentlichen",
+    "de.b2.vocab.beschreiben",
+    "de.b2.vocab.fantasievoll",
+    "de.b2.vocab.unlesbar",
+    "de.b2.vocab.meisterwerk"
+   ]
+  },
+  {
+   "id": "de.b2.u10.l01",
+   "unitId": "de.b2.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Law and everyday life: words 1",
+    "ar": "القانون والحياة اليومية: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.gericht",
+    "de.b2.vocab.anwalt",
+    "de.b2.vocab.beschwerde",
+    "de.b2.vocab.strafe"
+   ]
+  },
+  {
+   "id": "de.b2.u10.l02",
+   "unitId": "de.b2.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Law and everyday life: words 2",
+    "ar": "القانون والحياة اليومية: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.schuldig",
+    "de.b2.vocab.pflicht",
+    "de.b2.vocab.trotz"
+   ]
+  },
+  {
+   "id": "de.b2.u10.l03",
+   "unitId": "de.b2.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Prepositions with the genitive",
+    "ar": "حروف الجر مع حالة الإضافة"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u10"
+  },
+  {
+   "id": "de.b2.u10.l04",
+   "unitId": "de.b2.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: law and everyday life",
+    "ar": "استماع: القانون والحياة اليومية"
+   },
+   "items": [
+    "de.b2.sent.u10_01",
+    "de.b2.sent.u10_02",
+    "de.b2.sent.u10_03"
+   ]
+  },
+  {
+   "id": "de.b2.u10.l05",
+   "unitId": "de.b2.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "de.b2.vocab.gericht",
+    "de.b2.vocab.anwalt",
+    "de.b2.vocab.beschwerde",
+    "de.b2.vocab.strafe",
+    "de.b2.vocab.schuldig",
+    "de.b2.vocab.pflicht",
+    "de.b2.vocab.trotz"
+   ]
+  },
+  {
+   "id": "de.b2.u11.l01",
+   "unitId": "de.b2.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Digital world: words 1",
+    "ar": "العالم الرقمي: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.privatsphaere",
+    "de.b2.vocab.nutzer",
+    "de.b2.vocab.netzwerk"
+   ]
+  },
+  {
+   "id": "de.b2.u11.l02",
+   "unitId": "de.b2.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Digital world: words 2",
+    "ar": "العالم الرقمي: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.suechtig",
+    "de.b2.vocab.folglich",
+    "de.b2.vocab.dennoch"
+   ]
+  },
+  {
+   "id": "de.b2.u11.l03",
+   "unitId": "de.b2.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Connectors: folglich, dennoch, zumal",
+    "ar": "أدوات الربط: folglich، dennoch، zumal"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u11"
+  },
+  {
+   "id": "de.b2.u11.l04",
+   "unitId": "de.b2.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: digital world",
+    "ar": "استماع: العالم الرقمي"
+   },
+   "items": [
+    "de.b2.sent.u11_01",
+    "de.b2.sent.u11_02",
+    "de.b2.sent.u11_03"
+   ]
+  },
+  {
+   "id": "de.b2.u11.l05",
+   "unitId": "de.b2.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "de.b2.vocab.privatsphaere",
+    "de.b2.vocab.nutzer",
+    "de.b2.vocab.netzwerk",
+    "de.b2.vocab.suechtig",
+    "de.b2.vocab.folglich",
+    "de.b2.vocab.dennoch"
+   ]
+  },
+  {
+   "id": "de.b2.u12.l01",
+   "unitId": "de.b2.u12",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Language and communication: words 1",
+    "ar": "اللغة والتواصل: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.dialekt",
+    "de.b2.vocab.gespraech",
+    "de.b2.vocab.hoeflich",
+    "de.b2.vocab.unhoeflich",
+    "de.b2.vocab.missverstaendnis"
+   ]
+  },
+  {
+   "id": "de.b2.u12.l02",
+   "unitId": "de.b2.u12",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Language and communication: words 2",
+    "ar": "اللغة والتواصل: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.muttersprache",
+    "de.b2.vocab.ausdruecken",
+    "de.b2.vocab.unterbrechen",
+    "de.b2.vocab.koerpersprache",
+    "de.b2.vocab.fliessend"
+   ]
+  },
+  {
+   "id": "de.b2.u12.l03",
+   "unitId": "de.b2.u12",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Register and politeness",
+    "ar": "مستوى الكلام والأدب"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u12"
+  },
+  {
+   "id": "de.b2.u12.l04",
+   "unitId": "de.b2.u12",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: language and communication",
+    "ar": "استماع: اللغة والتواصل"
+   },
+   "items": [
+    "de.b2.sent.u12_01",
+    "de.b2.sent.u12_02",
+    "de.b2.sent.u12_03"
+   ]
+  },
+  {
+   "id": "de.b2.u12.l05",
+   "unitId": "de.b2.u12",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 12 review",
+    "ar": "مراجعة الوحدة 12"
+   },
+   "items": [
+    "de.b2.vocab.dialekt",
+    "de.b2.vocab.gespraech",
+    "de.b2.vocab.hoeflich",
+    "de.b2.vocab.unhoeflich",
+    "de.b2.vocab.missverstaendnis",
+    "de.b2.vocab.muttersprache",
+    "de.b2.vocab.ausdruecken",
+    "de.b2.vocab.unterbrechen",
+    "de.b2.vocab.koerpersprache",
+    "de.b2.vocab.fliessend"
+   ]
+  },
+  {
+   "id": "de.b2.u13.l01",
+   "unitId": "de.b2.u13",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Arguing and discussing: words 1",
+    "ar": "الجدال والنقاش: كلمات 1"
+   },
+   "items": [
+    "de.b2.vocab.argument",
+    "de.b2.vocab.debatte",
+    "de.b2.vocab.zustimmen",
+    "de.b2.vocab.widersprechen",
+    "de.b2.vocab.vorteil"
+   ]
+  },
+  {
+   "id": "de.b2.u13.l02",
+   "unitId": "de.b2.u13",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Arguing and discussing: words 2",
+    "ar": "الجدال والنقاش: كلمات 2"
+   },
+   "items": [
+    "de.b2.vocab.nachteil",
+    "de.b2.vocab.ueberzeugen",
+    "de.b2.vocab.abschliessend",
+    "de.b2.vocab.einerseits",
+    "de.b2.vocab.andererseits"
+   ]
+  },
+  {
+   "id": "de.b2.u13.l03",
+   "unitId": "de.b2.u13",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Structuring an argument",
+    "ar": "ترتيب الحجة"
+   },
+   "items": [],
+   "grammarId": "de.b2.gram.u13"
+  },
+  {
+   "id": "de.b2.u13.l04",
+   "unitId": "de.b2.u13",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: arguing and discussing",
+    "ar": "استماع: الجدال والنقاش"
+   },
+   "items": [
+    "de.b2.sent.u13_01",
+    "de.b2.sent.u13_02",
+    "de.b2.sent.u13_03"
+   ]
+  },
+  {
+   "id": "de.b2.u13.l05",
+   "unitId": "de.b2.u13",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 13 review",
+    "ar": "مراجعة الوحدة 13"
+   },
+   "items": [
+    "de.b2.vocab.argument",
+    "de.b2.vocab.debatte",
+    "de.b2.vocab.zustimmen",
+    "de.b2.vocab.widersprechen",
+    "de.b2.vocab.vorteil",
+    "de.b2.vocab.nachteil",
+    "de.b2.vocab.ueberzeugen",
+    "de.b2.vocab.abschliessend",
+    "de.b2.vocab.einerseits",
+    "de.b2.vocab.andererseits"
+   ]
+  },
+  {
+   "id": "de.b2.u14.l01",
+   "unitId": "de.b2.u14",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "B2 words review",
+    "ar": "مراجعة كلمات B2"
+   },
+   "items": [
+    "de.b2.vocab.karriere",
+    "de.b2.vocab.verhandeln",
+    "de.b2.vocab.erreichen",
+    "de.b2.vocab.wirtschaft",
+    "de.b2.vocab.wachstum",
+    "de.b2.vocab.konkurrenz",
+    "de.b2.vocab.experiment",
+    "de.b2.vocab.forscher",
+    "de.b2.vocab.entdeckung",
+    "de.b2.vocab.gefaelscht",
+    "de.b2.vocab.einfluss",
+    "de.b2.vocab.wert",
+    "de.b2.vocab.vorurteil",
+    "de.b2.vocab.gerechtigkeit",
+    "de.b2.vocab.klimawandel",
+    "de.b2.vocab.verringern",
+    "de.b2.vocab.vorhersagen",
+    "de.b2.vocab.verhalten",
+    "de.b2.vocab.deprimiert",
+    "de.b2.vocab.therapie",
+    "de.b2.vocab.jahrhundert",
+    "de.b2.vocab.reich",
+    "de.b2.vocab.erobern",
+    "de.b2.vocab.roman",
+    "de.b2.vocab.figur",
+    "de.b2.vocab.fantasievoll",
+    "de.b2.vocab.gericht",
+    "de.b2.vocab.strafe",
+    "de.b2.vocab.trotz",
+    "de.b2.vocab.netzwerk"
+   ]
+  },
+  {
+   "id": "de.b2.u14.l02",
+   "unitId": "de.b2.u14",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "B2 exam",
+    "ar": "امتحان B2"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "de.b2.vocab.karriere",
+   "lemma": "Karriere",
+   "article": "die",
+   "plural": "Karrieren",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسار مهني",
+    "en": "career"
+   },
+   "conceptId": "c.b2.career",
+   "sentenceIds": [
+    "de.b2.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.befoerderung",
+   "lemma": "Beförderung",
+   "article": "die",
+   "plural": "Beförderungen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ترقية",
+    "en": "promotion (at work)"
+   },
+   "conceptId": "c.b2.promotion",
+   "sentenceIds": [
+    "de.b2.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verantwortung",
+   "lemma": "Verantwortung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسؤولية",
+    "en": "area of responsibility"
+   },
+   "conceptId": "c.b2.responsibility_job",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verhandeln",
+   "lemma": "verhandeln",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتفاوض",
+    "en": "to negotiate"
+   },
+   "conceptId": "c.b2.negotiate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.entscheidung",
+   "lemma": "Entscheidung",
+   "article": "die",
+   "plural": "Entscheidungen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قرار",
+    "en": "decision"
+   },
+   "conceptId": "c.b2.decision",
+   "sentenceIds": [
+    "de.b2.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.entwicklung",
+   "lemma": "Entwicklung",
+   "article": "die",
+   "plural": "Entwicklungen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تطوير",
+    "en": "development"
+   },
+   "conceptId": "c.b2.development",
+   "sentenceIds": [
+    "de.b2.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.erreichen",
+   "lemma": "erreichen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحقق",
+    "en": "to achieve"
+   },
+   "conceptId": "c.b2.achieve",
+   "sentenceIds": [
+    "de.b2.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.belegschaft",
+   "lemma": "Belegschaft",
+   "article": "die",
+   "plural": "Belegschaften",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الموظفين",
+    "en": "staff, workforce"
+   },
+   "conceptId": "c.b2.staff",
+   "sentenceIds": [
+    "de.b2.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.selbststaendig",
+   "lemma": "selbstständig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شغال لحسابه",
+    "en": "self-employed"
+   },
+   "conceptId": "c.b2.self_employed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.wirtschaft",
+   "lemma": "Wirtschaft",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "اقتصاد",
+    "en": "economy"
+   },
+   "conceptId": "c.b2.economy",
+   "sentenceIds": [
+    "de.b2.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.markt",
+   "lemma": "Markt",
+   "article": "der",
+   "plural": "Märkte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوق",
+    "en": "market (economy)"
+   },
+   "conceptId": "c.b2.market",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.handel",
+   "lemma": "Handel",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجارة",
+    "en": "trade"
+   },
+   "conceptId": "c.b2.trade",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.wachstum",
+   "lemma": "Wachstum",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نمو",
+    "en": "growth"
+   },
+   "conceptId": "c.b2.growth",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.exportieren",
+   "lemma": "exportieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصدّر",
+    "en": "to export"
+   },
+   "conceptId": "c.b2.export",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.importieren",
+   "lemma": "importieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستورد",
+    "en": "to import"
+   },
+   "conceptId": "c.b2.import_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.konkurrenz",
+   "lemma": "Konkurrenz",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "منافسة",
+    "en": "competition"
+   },
+   "conceptId": "c.b2.competition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.steigen",
+   "lemma": "steigen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يزيد",
+    "en": "to rise"
+   },
+   "conceptId": "c.b2.rise",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.krise",
+   "lemma": "Krise",
+   "article": "die",
+   "plural": "Krisen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أزمة",
+    "en": "crisis"
+   },
+   "conceptId": "c.b2.crisis",
+   "sentenceIds": [
+    "de.b2.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.experiment",
+   "lemma": "Experiment",
+   "article": "das",
+   "plural": "Experimente",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجربة علمية",
+    "en": "experiment"
+   },
+   "conceptId": "c.b2.experiment",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.theorie",
+   "lemma": "Theorie",
+   "article": "die",
+   "plural": "Theorien",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نظرية",
+    "en": "theory"
+   },
+   "conceptId": "c.b2.theory",
+   "sentenceIds": [
+    "de.b2.sent.u03_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.ergebnis",
+   "lemma": "Ergebnis",
+   "article": "das",
+   "plural": "Ergebnisse",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نتيجة",
+    "en": "result"
+   },
+   "conceptId": "c.b2.result",
+   "sentenceIds": [
+    "de.b2.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.forscher",
+   "lemma": "Forscher",
+   "article": "der",
+   "plural": "Forscher",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "باحث",
+    "en": "researcher"
+   },
+   "conceptId": "c.b2.researcher",
+   "sentenceIds": [
+    "de.b2.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.beweisen",
+   "lemma": "beweisen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يثبت",
+    "en": "to prove"
+   },
+   "conceptId": "c.b2.prove",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.messen",
+   "lemma": "messen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقيس",
+    "en": "to measure"
+   },
+   "conceptId": "c.b2.measure",
+   "sentenceIds": [
+    "de.b2.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.entdeckung",
+   "lemma": "Entdeckung",
+   "article": "die",
+   "plural": "Entdeckungen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "اكتشاف",
+    "en": "discovery"
+   },
+   "conceptId": "c.b2.discovery",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.erklaerbar",
+   "lemma": "erklärbar",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ممكن يتشرح",
+    "en": "explainable"
+   },
+   "conceptId": "c.b2.explainable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.labor",
+   "lemma": "Labor",
+   "article": "das",
+   "plural": "Labore",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "معمل",
+    "en": "laboratory"
+   },
+   "conceptId": "c.b2.laboratory",
+   "sentenceIds": [
+    "de.b2.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gefaelscht",
+   "lemma": "gefälscht",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مزيف",
+    "en": "fake"
+   },
+   "conceptId": "c.b2.fake",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.schlagzeile",
+   "lemma": "Schlagzeile",
+   "article": "die",
+   "plural": "Schlagzeilen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عنوان رئيسي",
+    "en": "headline"
+   },
+   "conceptId": "c.b2.headline",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.zuverlaessig",
+   "lemma": "zuverlässig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "موثوق",
+    "en": "reliable"
+   },
+   "conceptId": "c.b2.reliable",
+   "sentenceIds": [
+    "de.b2.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.einfluss",
+   "lemma": "Einfluss",
+   "article": "der",
+   "plural": "Einflüsse",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تأثير",
+    "en": "influence"
+   },
+   "conceptId": "c.b2.influence",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verbreiten",
+   "lemma": "verbreiten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينتشر / ينشر",
+    "en": "to spread"
+   },
+   "conceptId": "c.b2.spread",
+   "sentenceIds": [
+    "de.b2.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.aussage",
+   "lemma": "Aussage",
+   "article": "die",
+   "plural": "Aussagen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تصريح",
+    "en": "statement"
+   },
+   "conceptId": "c.b2.statement",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.wert",
+   "lemma": "Wert",
+   "article": "der",
+   "plural": "Werte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قيمة",
+    "en": "value (moral)"
+   },
+   "conceptId": "c.b2.value",
+   "sentenceIds": [
+    "de.b2.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gleichberechtigung",
+   "lemma": "Gleichberechtigung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساواة",
+    "en": "equality"
+   },
+   "conceptId": "c.b2.equality",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.respekt",
+   "lemma": "Respekt",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "احترام",
+    "en": "respect"
+   },
+   "conceptId": "c.b2.respect_n",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.vorurteil",
+   "lemma": "Vorurteil",
+   "article": "das",
+   "plural": "Vorurteile",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حكم مسبق",
+    "en": "prejudice"
+   },
+   "conceptId": "c.b2.prejudice",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.tolerant",
+   "lemma": "tolerant",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "متسامح",
+    "en": "tolerant"
+   },
+   "conceptId": "c.b2.tolerant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.religion",
+   "lemma": "Religion",
+   "article": "die",
+   "plural": "Religionen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "دين",
+    "en": "religion"
+   },
+   "conceptId": "c.b2.religion",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gerechtigkeit",
+   "lemma": "Gerechtigkeit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عدالة",
+    "en": "justice"
+   },
+   "conceptId": "c.b2.justice",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.generation",
+   "lemma": "Generation",
+   "article": "die",
+   "plural": "Generationen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جيل",
+    "en": "generation"
+   },
+   "conceptId": "c.b2.generation",
+   "sentenceIds": [
+    "de.b2.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.nachhaltig",
+   "lemma": "nachhaltig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستدام",
+    "en": "sustainable"
+   },
+   "conceptId": "c.b2.sustainable",
+   "sentenceIds": [
+    "de.b2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.klimawandel",
+   "lemma": "Klimawandel",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تغير المناخ",
+    "en": "climate change"
+   },
+   "conceptId": "c.b2.climate_change",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.solarenergie",
+   "lemma": "Solarenergie",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "طاقة شمسية",
+    "en": "solar energy"
+   },
+   "conceptId": "c.b2.solar_energy",
+   "sentenceIds": [
+    "de.b2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.emission",
+   "lemma": "Emission",
+   "article": "die",
+   "plural": "Emissionen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "انبعاثات",
+    "en": "emissions"
+   },
+   "conceptId": "c.b2.emissions",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verringern",
+   "lemma": "verringern",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقلل",
+    "en": "to reduce"
+   },
+   "conceptId": "c.b2.reduce",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verbrauch",
+   "lemma": "Verbrauch",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "استهلاك",
+    "en": "consumption"
+   },
+   "conceptId": "c.b2.consumption",
+   "sentenceIds": [
+    "de.b2.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.ressource",
+   "lemma": "Ressource",
+   "article": "die",
+   "plural": "Ressourcen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "موارد",
+    "en": "resources"
+   },
+   "conceptId": "c.b2.resources",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.vorhersagen",
+   "lemma": "vorhersagen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتوقع",
+    "en": "to predict"
+   },
+   "conceptId": "c.b2.predict",
+   "sentenceIds": [
+    "de.b2.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.bis_dahin",
+   "lemma": "bis dahin",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ساعتها",
+    "en": "by then"
+   },
+   "conceptId": "c.b2.by_then",
+   "sentenceIds": [
+    "de.b2.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verstand",
+   "lemma": "Verstand",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عقل",
+    "en": "mind"
+   },
+   "conceptId": "c.b2.mind",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.verhalten",
+   "lemma": "Verhalten",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سلوك",
+    "en": "behaviour"
+   },
+   "conceptId": "c.b2.behaviour",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.angst",
+   "lemma": "Angst",
+   "article": "die",
+   "plural": "Ängste",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قلق",
+    "en": "anxiety"
+   },
+   "conceptId": "c.b2.anxiety",
+   "sentenceIds": [
+    "de.b2.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.selbstvertrauen",
+   "lemma": "Selbstvertrauen",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثقة بالنفس",
+    "en": "self-confidence"
+   },
+   "conceptId": "c.b2.self_confidence",
+   "sentenceIds": [
+    "de.b2.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.deprimiert",
+   "lemma": "deprimiert",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مكتئب",
+    "en": "depressed"
+   },
+   "conceptId": "c.b2.depressed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.bewaeltigen",
+   "lemma": "bewältigen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعامل مع",
+    "en": "to cope (with)"
+   },
+   "conceptId": "c.b2.cope",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.sich_entspannen",
+   "lemma": "sich entspannen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسترخي",
+    "en": "to relax"
+   },
+   "conceptId": "c.b2.relax",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.therapie",
+   "lemma": "Therapie",
+   "article": "die",
+   "plural": "Therapien",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاج نفسي",
+    "en": "therapy"
+   },
+   "conceptId": "c.b2.therapy",
+   "sentenceIds": [
+    "de.b2.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.burn_out",
+   "lemma": "Burn-out",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "احتراق نفسي",
+    "en": "burnout"
+   },
+   "conceptId": "c.b2.burnout",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.geschichte",
+   "lemma": "Geschichte",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاريخ",
+    "en": "history"
+   },
+   "conceptId": "c.b2.history",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.jahrhundert",
+   "lemma": "Jahrhundert",
+   "article": "das",
+   "plural": "Jahrhunderte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قرن",
+    "en": "century"
+   },
+   "conceptId": "c.b2.century",
+   "sentenceIds": [
+    "de.b2.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.krieg",
+   "lemma": "Krieg",
+   "article": "der",
+   "plural": "Kriege",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حرب",
+    "en": "war"
+   },
+   "conceptId": "c.b2.war",
+   "sentenceIds": [
+    "de.b2.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.frieden",
+   "lemma": "Frieden",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سلام",
+    "en": "peace"
+   },
+   "conceptId": "c.b2.peace",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.reich",
+   "lemma": "Reich",
+   "article": "das",
+   "plural": "Reiche",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إمبراطورية",
+    "en": "empire"
+   },
+   "conceptId": "c.b2.empire",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.koenig",
+   "lemma": "König",
+   "article": "der",
+   "plural": "Könige",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملك",
+    "en": "king"
+   },
+   "conceptId": "c.b2.king",
+   "sentenceIds": [
+    "de.b2.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.revolution",
+   "lemma": "Revolution",
+   "article": "die",
+   "plural": "Revolutionen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ثورة",
+    "en": "revolution"
+   },
+   "conceptId": "c.b2.revolution",
+   "sentenceIds": [
+    "de.b2.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.erobern",
+   "lemma": "erobern",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحتل / يفتح",
+    "en": "to conquer"
+   },
+   "conceptId": "c.b2.conquer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.fliehen",
+   "lemma": "fliehen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يهرب",
+    "en": "to flee"
+   },
+   "conceptId": "c.b2.flee",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.grenze",
+   "lemma": "Grenze",
+   "article": "die",
+   "plural": "Grenzen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حدود",
+    "en": "border"
+   },
+   "conceptId": "c.b2.border",
+   "sentenceIds": [
+    "de.b2.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.roman",
+   "lemma": "Roman",
+   "article": "der",
+   "plural": "Romane",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رواية",
+    "en": "novel"
+   },
+   "conceptId": "c.b2.novel",
+   "sentenceIds": [
+    "de.b2.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gedicht",
+   "lemma": "Gedicht",
+   "article": "das",
+   "plural": "Gedichte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قصيدة",
+    "en": "poem"
+   },
+   "conceptId": "c.b2.poem",
+   "sentenceIds": [
+    "de.b2.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.autor",
+   "lemma": "Autor",
+   "article": "der",
+   "plural": "Autoren",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤلف",
+    "en": "author"
+   },
+   "conceptId": "c.b2.author",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.figur",
+   "lemma": "Figur",
+   "article": "die",
+   "plural": "Figuren",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شخصية",
+    "en": "character (in a story)"
+   },
+   "conceptId": "c.b2.character",
+   "sentenceIds": [
+    "de.b2.sent.u09_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.veroeffentlichen",
+   "lemma": "veröffentlichen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينشر",
+    "en": "to publish"
+   },
+   "conceptId": "c.b2.publish",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.beschreiben",
+   "lemma": "beschreiben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوصف",
+    "en": "to describe"
+   },
+   "conceptId": "c.b2.describe",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.fantasievoll",
+   "lemma": "fantasievoll",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "خيالي",
+    "en": "imaginative"
+   },
+   "conceptId": "c.b2.imaginative",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.unlesbar",
+   "lemma": "unlesbar",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ما ينفعش يتقري",
+    "en": "unreadable"
+   },
+   "conceptId": "c.b2.unreadable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.meisterwerk",
+   "lemma": "Meisterwerk",
+   "article": "das",
+   "plural": "Meisterwerke",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحفة فنية",
+    "en": "masterpiece"
+   },
+   "conceptId": "c.b2.masterpiece",
+   "sentenceIds": [
+    "de.b2.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gericht",
+   "lemma": "Gericht",
+   "article": "das",
+   "plural": "Gerichte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محكمة",
+    "en": "court"
+   },
+   "conceptId": "c.b2.court",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.anwalt",
+   "lemma": "Anwalt",
+   "article": "der",
+   "plural": "Anwälte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محامي",
+    "en": "lawyer"
+   },
+   "conceptId": "c.b2.lawyer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.beschwerde",
+   "lemma": "Beschwerde",
+   "article": "die",
+   "plural": "Beschwerden",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شكوى",
+    "en": "complaint"
+   },
+   "conceptId": "c.b2.complaint",
+   "sentenceIds": [
+    "de.b2.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.strafe",
+   "lemma": "Strafe",
+   "article": "die",
+   "plural": "Strafen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "غرامة",
+    "en": "fine (penalty)"
+   },
+   "conceptId": "c.b2.fine",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.schuldig",
+   "lemma": "schuldig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مذنب",
+    "en": "guilty"
+   },
+   "conceptId": "c.b2.guilty",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.pflicht",
+   "lemma": "Pflicht",
+   "article": "die",
+   "plural": "Pflichten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "واجب",
+    "en": "obligation, duty"
+   },
+   "conceptId": "c.b2.obligation",
+   "sentenceIds": [
+    "de.b2.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.trotz",
+   "lemma": "trotz",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رغم",
+    "en": "despite"
+   },
+   "conceptId": "c.b2.despite",
+   "sentenceIds": [
+    "de.b2.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.privatsphaere",
+   "lemma": "Privatsphäre",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "خصوصية",
+    "en": "privacy"
+   },
+   "conceptId": "c.b2.privacy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.nutzer",
+   "lemma": "Nutzer",
+   "article": "der",
+   "plural": "Nutzer",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مستخدم",
+    "en": "user"
+   },
+   "conceptId": "c.b2.user",
+   "sentenceIds": [
+    "de.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.netzwerk",
+   "lemma": "Netzwerk",
+   "article": "das",
+   "plural": "Netzwerke",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شبكة",
+    "en": "network"
+   },
+   "conceptId": "c.b2.network",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.suechtig",
+   "lemma": "süchtig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدمن",
+    "en": "addicted"
+   },
+   "conceptId": "c.b2.addicted",
+   "sentenceIds": [
+    "de.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.folglich",
+   "lemma": "folglich",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "وبالتالي",
+    "en": "consequently"
+   },
+   "conceptId": "c.b2.consequently",
+   "sentenceIds": [
+    "de.b2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.dennoch",
+   "lemma": "dennoch",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ومع ذلك",
+    "en": "nevertheless"
+   },
+   "conceptId": "c.b2.nevertheless",
+   "sentenceIds": [
+    "de.b2.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.dialekt",
+   "lemma": "Dialekt",
+   "article": "der",
+   "plural": "Dialekte",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لهجة",
+    "en": "dialect"
+   },
+   "conceptId": "c.b2.dialect",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.gespraech",
+   "lemma": "Gespräch",
+   "article": "das",
+   "plural": "Gespräche",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "محادثة",
+    "en": "conversation"
+   },
+   "conceptId": "c.b2.conversation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.hoeflich",
+   "lemma": "höflich",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤدب",
+    "en": "polite"
+   },
+   "conceptId": "c.b2.polite",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.unhoeflich",
+   "lemma": "unhöflich",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "قليل الأدب",
+    "en": "rude"
+   },
+   "conceptId": "c.b2.rude",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.missverstaendnis",
+   "lemma": "Missverständnis",
+   "article": "das",
+   "plural": "Missverständnisse",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سوء فهم",
+    "en": "misunderstanding"
+   },
+   "conceptId": "c.b2.misunderstanding",
+   "sentenceIds": [
+    "de.b2.sent.u12_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.muttersprache",
+   "lemma": "Muttersprache",
+   "article": "die",
+   "plural": "Muttersprachen",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة أم",
+    "en": "mother tongue"
+   },
+   "conceptId": "c.b2.mother_tongue",
+   "sentenceIds": [
+    "de.b2.sent.u12_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.ausdruecken",
+   "lemma": "ausdrücken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعبّر",
+    "en": "to express"
+   },
+   "conceptId": "c.b2.express",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.unterbrechen",
+   "lemma": "unterbrechen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقاطع",
+    "en": "to interrupt"
+   },
+   "conceptId": "c.b2.interrupt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.koerpersprache",
+   "lemma": "Körpersprache",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة الجسد",
+    "en": "body language"
+   },
+   "conceptId": "c.b2.body_language",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.fliessend",
+   "lemma": "fließend",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطلاقة",
+    "en": "fluent"
+   },
+   "conceptId": "c.b2.fluent",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.argument",
+   "lemma": "Argument",
+   "article": "das",
+   "plural": "Argumente",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حجة",
+    "en": "argument (reason)"
+   },
+   "conceptId": "c.b2.argument",
+   "sentenceIds": [
+    "de.b2.sent.u13_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.debatte",
+   "lemma": "Debatte",
+   "article": "die",
+   "plural": "Debatten",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مناظرة",
+    "en": "debate"
+   },
+   "conceptId": "c.b2.debate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.zustimmen",
+   "lemma": "zustimmen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوافق",
+    "en": "to agree"
+   },
+   "conceptId": "c.b2.agree",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.widersprechen",
+   "lemma": "widersprechen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعارض",
+    "en": "to contradict"
+   },
+   "conceptId": "c.b2.contradict",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.vorteil",
+   "lemma": "Vorteil",
+   "article": "der",
+   "plural": "Vorteile",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ميزة",
+    "en": "advantage"
+   },
+   "conceptId": "c.b2.advantage",
+   "sentenceIds": [
+    "de.b2.sent.u13_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.nachteil",
+   "lemma": "Nachteil",
+   "article": "der",
+   "plural": "Nachteile",
+   "pos": "noun",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيب",
+    "en": "disadvantage"
+   },
+   "conceptId": "c.b2.disadvantage",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.ueberzeugen",
+   "lemma": "überzeugen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقنع",
+    "en": "to convince"
+   },
+   "conceptId": "c.b2.convince",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.abschliessend",
+   "lemma": "abschließend",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "في الختام",
+    "en": "in conclusion"
+   },
+   "conceptId": "c.b2.in_conclusion",
+   "sentenceIds": [
+    "de.b2.sent.u13_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.einerseits",
+   "lemma": "einerseits",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "من ناحية",
+    "en": "on the one hand"
+   },
+   "conceptId": "c.b2.on_the_one_hand",
+   "sentenceIds": [
+    "de.b2.sent.u13_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.vocab.andererseits",
+   "lemma": "andererseits",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "B2",
+   "freqRank": null,
+   "translations": {
+    "ar": "من ناحية تانية",
+    "en": "on the other hand"
+   },
+   "conceptId": "c.b2.on_the_other_hand",
+   "sentenceIds": [
+    "de.b2.sent.u13_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "de.b2.sent.u01_01",
+   "text": "Die Entscheidung über meine Beförderung kommt nächste Woche.",
+   "translations": {
+    "ar": "القرار بتاع ترقيتي هيطلع الأسبوع الجاي.",
+    "en": "The decision about my promotion comes next week."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u01_02",
+   "text": "Die Entwicklung der Belegschaft ist uns wichtig.",
+   "translations": {
+    "ar": "تطوير الموظفين مهم بالنسبة لنا.",
+    "en": "The development of the staff is important to us."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u01_03",
+   "text": "Sie möchte in ihrer Karriere viel erreichen.",
+   "translations": {
+    "ar": "هي عايزة تحقق حاجات كتير في مسارها المهني.",
+    "en": "She wants to achieve a lot in her career."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u02_01",
+   "text": "Die steigenden Preise beunruhigen die Verbraucher.",
+   "translations": {
+    "ar": "الأسعار اللي بتزيد مقلقة المستهلكين.",
+    "en": "The rising prices worry the consumers."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u02_02",
+   "text": "Die Wirtschaft ist nach der Krise gewachsen.",
+   "translations": {
+    "ar": "الاقتصاد نما بعد الأزمة.",
+    "en": "The economy grew after the crisis."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u02_03",
+   "text": "Deutschland exportiert viele Autos.",
+   "translations": {
+    "ar": "ألمانيا بتصدّر عربيات كتير.",
+    "en": "Germany exports many cars."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u03_01",
+   "text": "Das Ergebnis lässt sich leicht messen.",
+   "translations": {
+    "ar": "النتيجة ممكن تتقاس بسهولة.",
+    "en": "The result can easily be measured."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u03_02",
+   "text": "Die Theorie ist noch nicht bewiesen.",
+   "translations": {
+    "ar": "النظرية لسه ما اتثبتتش.",
+    "en": "The theory has not been proven yet."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u03_03",
+   "text": "Der Forscher arbeitet in einem Labor.",
+   "translations": {
+    "ar": "الباحث بيشتغل في معمل.",
+    "en": "The researcher works in a laboratory."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u04_01",
+   "text": "Der Minister behauptet, die Quelle sei zuverlässig.",
+   "translations": {
+    "ar": "الوزير بيدّعي إن المصدر موثوق.",
+    "en": "The minister claims that the source is reliable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u04_02",
+   "text": "Der Journalist sagte, er habe keine Zeit gehabt.",
+   "translations": {
+    "ar": "الصحفي قال إنه ماكانش عنده وقت.",
+    "en": "The journalist said he had no time."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u04_03",
+   "text": "Gefälschte Nachrichten verbreiten sich schnell.",
+   "translations": {
+    "ar": "الأخبار المزيفة بتنتشر بسرعة.",
+    "en": "Fake news spreads quickly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u05_01",
+   "text": "Jede Gesellschaft hat ihre eigenen Werte.",
+   "translations": {
+    "ar": "كل مجتمع ليه قيمه الخاصة.",
+    "en": "Every society has its own values."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u05_02",
+   "text": "Schau mal, das ist doch eine alte Tradition!",
+   "translations": {
+    "ar": "بص بقى، دي عادة قديمة!",
+    "en": "Just look, that is an old tradition!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u05_03",
+   "text": "Die junge Generation ist toleranter.",
+   "translations": {
+    "ar": "الجيل الصغير أكتر تسامح.",
+    "en": "The young generation is more tolerant."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u06_01",
+   "text": "Bis dahin werden wir unseren Verbrauch verringert haben.",
+   "translations": {
+    "ar": "ساعتها هنكون قللنا استهلاكنا.",
+    "en": "By then we will have reduced our consumption."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u06_02",
+   "text": "Solarenergie ist nachhaltig.",
+   "translations": {
+    "ar": "الطاقة الشمسية مستدامة.",
+    "en": "Solar energy is sustainable."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u06_03",
+   "text": "Niemand kann die Zukunft genau vorhersagen.",
+   "translations": {
+    "ar": "محدش يقدر يتوقع المستقبل بالظبط.",
+    "en": "Nobody can predict the future exactly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u07_01",
+   "text": "Er muss sehr gestresst sein.",
+   "translations": {
+    "ar": "أكيد عنده ضغط جامد.",
+    "en": "He must be very stressed."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u07_02",
+   "text": "Eine Therapie kann bei Angst helfen.",
+   "translations": {
+    "ar": "العلاج النفسي ممكن يساعد في القلق.",
+    "en": "Therapy can help with anxiety."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u07_03",
+   "text": "Sie soll viel Selbstvertrauen haben.",
+   "translations": {
+    "ar": "بيقولوا عندها ثقة بالنفس كبيرة.",
+    "en": "She is said to have a lot of self-confidence."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u08_01",
+   "text": "Im letzten Jahrhundert gab es einen langen Krieg.",
+   "translations": {
+    "ar": "في القرن اللي فات كان فيه حرب طويلة.",
+    "en": "In the last century there was a long war."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u08_02",
+   "text": "Viele Menschen flohen über die Grenze.",
+   "translations": {
+    "ar": "ناس كتير هربوا عبر الحدود.",
+    "en": "Many people fled across the border."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u08_03",
+   "text": "Nach der Revolution war der König weg.",
+   "translations": {
+    "ar": "بعد الثورة الملك كان مشي.",
+    "en": "After the revolution the king was gone."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u09_01",
+   "text": "Die Autorin veröffentlichte letztes Jahr ihren ersten Roman.",
+   "translations": {
+    "ar": "المؤلفة نشرت أول رواية ليها السنة اللي فاتت.",
+    "en": "The author published her first novel last year."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u09_02",
+   "text": "Das Gedicht beschreibt eine traurige Figur.",
+   "translations": {
+    "ar": "القصيدة بتوصف شخصية حزينة.",
+    "en": "The poem describes a sad character."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u09_03",
+   "text": "Dieses Bild ist ein Meisterwerk.",
+   "translations": {
+    "ar": "اللوحة دي تحفة فنية.",
+    "en": "This painting is a masterpiece."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u10_01",
+   "text": "Trotz des Regens fand die Verhandlung statt.",
+   "translations": {
+    "ar": "رغم المطر القضية اتعملت.",
+    "en": "Despite the rain the court case took place."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u10_02",
+   "text": "Aufgrund des Lärms habe ich eine Beschwerde eingereicht.",
+   "translations": {
+    "ar": "بسبب الدوشة قدمت شكوى.",
+    "en": "Due to the noise I made a complaint."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u10_03",
+   "text": "Jeder Mieter hat Rechte und Pflichten.",
+   "translations": {
+    "ar": "كل ساكن ليه حقوق وعليه واجبات.",
+    "en": "Every tenant has rights and obligations."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u11_01",
+   "text": "Viele Nutzer sind süchtig, folglich schlafen sie schlecht.",
+   "translations": {
+    "ar": "مستخدمين كتير مدمنين، وبالتالي بيناموا وحش.",
+    "en": "Many users are addicted; consequently they sleep badly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u11_02",
+   "text": "Die App ist nützlich, dennoch schütze ich meine Daten.",
+   "translations": {
+    "ar": "الأبلكيشن مفيد، ومع ذلك بحمي بياناتي.",
+    "en": "The app is useful; nevertheless I protect my data."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u11_03",
+   "text": "Teile nie dein Passwort.",
+   "translations": {
+    "ar": "ما تشاركش الباسورد بتاعك أبدًا.",
+    "en": "Never share your password."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u12_01",
+   "text": "Würde es Sie stören, wenn ich Sie kurz unterbreche?",
+   "translations": {
+    "ar": "تسمح لي أقاطعك ثانية؟",
+    "en": "Would you mind if I interrupted you briefly?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u12_02",
+   "text": "Das war ein Missverständnis.",
+   "translations": {
+    "ar": "ده كان سوء فهم.",
+    "en": "That was a misunderstanding."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u12_03",
+   "text": "Meine Muttersprache ist Arabisch.",
+   "translations": {
+    "ar": "لغتي الأم هي العربي.",
+    "en": "My mother tongue is Arabic."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u13_01",
+   "text": "Einerseits ist es billiger, andererseits dauert es länger.",
+   "translations": {
+    "ar": "من ناحية أرخص، ومن ناحية تانية بياخد وقت أطول.",
+    "en": "On the one hand it is cheaper, on the other hand it takes longer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u13_02",
+   "text": "Dein Argument überzeugt mich nicht.",
+   "translations": {
+    "ar": "حجتك مش مقنعاني.",
+    "en": "Your argument does not convince me."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.b2.sent.u13_03",
+   "text": "Abschließend sind die Vorteile größer.",
+   "translations": {
+    "ar": "في الختام، المميزات أكبر.",
+    "en": "In conclusion, the advantages are bigger."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "de.b2.gram.u01",
+   "level": "B2",
+   "title": {
+    "en": "Nominalisation",
+    "ar": "تحويل الفعل لاسم"
+   },
+   "explanation": {
+    "en": "Formal German often turns verbs and adjectives into nouns. Common patterns:\n- verb stem + -ung (feminine): entscheiden → die Entscheidung, entwickeln → die Entwicklung\n- infinitive as a neuter noun: verhandeln → das Verhandeln\n- adjective + -heit/-keit (feminine): frei → die Freiheit, möglich → die Möglichkeit\n\nThe object of the verb becomes a genitive: Man entwickelt die Firma → die Entwicklung der Firma.",
+    "ar": "الألماني الرسمي بيحوّل أفعال وصفات كتير لأسماء. أشهر الطرق:\n- جذر الفعل + ‎-ung (مؤنث): entscheiden ← die Entscheidung، entwickeln ← die Entwicklung\n- المصدر كاسم محايد: verhandeln ← das Verhandeln\n- الصفة + ‎-heit/-keit (مؤنث): frei ← die Freiheit، möglich ← die Möglichkeit\n\nمفعول الفعل بيبقى في حالة الإضافة: Man entwickelt die Firma ← die Entwicklung der Firma."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u01_01",
+    "de.b2.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "entscheiden → die ___",
+     "answer": "Entscheidung",
+     "base": "entscheiden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "befördern → die ___",
+     "answer": "Beförderung",
+     "base": "befördern"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "möglich → die ___",
+     "answer": "Möglichkeit",
+     "base": "möglich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die Entwicklung ___ Firma (genitive)",
+     "answer": "der",
+     "base": "die"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u02",
+   "level": "B2",
+   "title": {
+    "en": "Extended participle attributes",
+    "ar": "الصفة الممتدة بالـ Partizip"
+   },
+   "explanation": {
+    "en": "Written German packs a whole relative clause before the noun, using a participle as an adjective:\n- Partizip I (active, ongoing): die steigenden Preise = die Preise, die steigen\n- Partizip II (passive or completed): das im Ausland produzierte Auto = das Auto, das im Ausland produziert wurde\n\nEverything between the article and the noun belongs to the attribute: die seit Jahren stark wachsende Wirtschaft. The participle takes normal adjective endings.",
+    "ar": "الألماني المكتوب بيحط جملة موصولة كاملة قبل الاسم، وبيستخدم الـ Partizip كصفة:\n- Partizip I (فاعل، مستمر): die steigenden Preise = die Preise, die steigen\n- Partizip II (مبني للمجهول أو خلص): das im Ausland produzierte Auto = das Auto, das im Ausland produziert wurde\n\nكل اللي بين أداة التعريف والاسم تبع الصفة: die seit Jahren stark wachsende Wirtschaft. والـ Partizip بياخد نهايات الصفة العادية."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u02_01",
+    "de.b2.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "die ___ Preise (steigen, Partizip I)",
+     "answer": "steigenden",
+     "base": "steigen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "das im Ausland ___ Auto (produzieren, Partizip II)",
+     "answer": "produzierte",
+     "base": "produzieren"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die stark ___ Wirtschaft (wachsen, Partizip I)",
+     "answer": "wachsende",
+     "base": "wachsen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die ___ Waren (importieren, Partizip II)",
+     "answer": "importierten",
+     "base": "importieren"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u03",
+   "level": "B2",
+   "title": {
+    "en": "Alternatives to the passive",
+    "ar": "بدائل المبني للمجهول"
+   },
+   "explanation": {
+    "en": "Instead of kann ... werden, German often says:\n- sich lassen + infinitive: Das Ergebnis lässt sich messen. (= kann gemessen werden)\n- adjective in -bar: Das ist messbar / erklärbar.\n- sein + zu + infinitive (can or must): Das Problem ist leicht zu lösen. Die Regeln sind zu beachten.\n- man: Man misst das Ergebnis.",
+    "ar": "بدل kann ... werden، الألماني كتير بيقول:\n- sich lassen + مصدر: Das Ergebnis lässt sich messen. (= kann gemessen werden)\n- صفة بـ ‎-bar: Das ist messbar / erklärbar.\n- sein + zu + مصدر (ممكن أو لازم): Das Problem ist leicht zu lösen. Die Regeln sind zu beachten.\n- man: Man misst das Ergebnis."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u03_01",
+    "de.b2.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Das Ergebnis ___ sich leicht messen.",
+     "answer": "lässt",
+     "base": "lassen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ist leicht ___. (erklären → -bar)",
+     "answer": "erklärbar",
+     "base": "erklären"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Problem ist leicht ___ lösen.",
+     "answer": "zu",
+     "base": "zu"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Ergebnis ist mess___. (-bar)",
+     "answer": "bar",
+     "base": "-bar"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u04",
+   "level": "B2",
+   "title": {
+    "en": "Indirect speech: Konjunktiv I",
+    "ar": "الكلام المنقول: Konjunktiv I"
+   },
+   "explanation": {
+    "en": "News reports use Konjunktiv I to show that a statement is someone else's. Form: infinitive stem + -e, -est, -e, -en, -et, -en. In practice the 3rd person singular matters most: er habe, sie komme, er wisse, er könne. sein is irregular: ich sei, er sei, sie seien.\n\nPast: habe/sei + participle: Er sagte, er habe keine Zeit gehabt.\n\nWhen Konjunktiv I looks like the indicative (wir haben), use Konjunktiv II: Sie sagten, sie hätten keine Zeit.",
+    "ar": "الأخبار بتستخدم Konjunktiv I عشان توضّح إن الكلام ده كلام حد تاني. التكوين: جذر المصدر + ‎-e, -est, -e, -en, -et, -en. وعمليًا الغايب المفرد هو الأهم: er habe، sie komme، er wisse، er könne. وsein شاذ: ich sei، er sei، sie seien.\n\nالماضي: habe/sei + Partizip: Er sagte, er habe keine Zeit gehabt.\n\nولو الـ Konjunktiv I شبه الـ Indikativ (wir haben)، استخدم Konjunktiv II: Sie sagten, sie hätten keine Zeit."
+   },
+   "table": {
+    "headers": [
+     "",
+     "sein",
+     "haben",
+     "können"
+    ],
+    "rows": [
+     [
+      "ich",
+      "sei",
+      "habe",
+      "könne"
+     ],
+     [
+      "er/sie",
+      "sei",
+      "habe",
+      "könne"
+     ],
+     [
+      "sie/Sie",
+      "seien",
+      "hätten",
+      "könnten"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u04_01",
+    "de.b2.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Er behauptet, die Quelle ___ zuverlässig. (sein)",
+     "answer": "sei",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sie sagt, sie ___ keine Zeit. (haben)",
+     "answer": "habe",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er meint, er ___ morgen. (kommen)",
+     "answer": "komme",
+     "base": "kommen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sie sagten, sie ___ keine Zeit. (haben, KII)",
+     "answer": "hätten",
+     "base": "haben"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u05",
+   "level": "B2",
+   "title": {
+    "en": "Modal particles: doch, mal, ja, eben",
+    "ar": "كلمات النبرة: doch، mal، ja، eben"
+   },
+   "explanation": {
+    "en": "Modal particles add tone, not content. They are unstressed and come after the verb and pronouns:\n- ja: something we both know: Das ist ja interessant.\n- doch: contradiction or a gentle push: Komm doch mit! Das ist doch klar.\n- mal: makes a request casual: Schau mal! Kannst du mal helfen?\n- eben/halt: that's just how it is: Das ist eben so.",
+    "ar": "كلمات النبرة بتضيف إحساس مش معنى. بتيجي من غير ضغط بعد الفعل والضماير:\n- ja: حاجة إحنا الاتنين عارفينها: Das ist ja interessant.\n- doch: اعتراض أو دفعة لطيفة: Komm doch mit! Das ist doch klar.\n- mal: بتخلي الطلب خفيف: Schau mal! Kannst du mal helfen?\n- eben/halt: هو كده بقى: Das ist eben so."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u05_01",
+    "de.b2.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Komm ___ mit! (gentle push)",
+     "answer": "doch",
+     "base": "doch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Kannst du ___ helfen? (casual request)",
+     "answer": "mal",
+     "base": "mal"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ist ___ so. (that's how it is)",
+     "answer": "eben",
+     "base": "eben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Du weißt ___, dass ich keine Zeit habe. (shared knowledge)",
+     "answer": "ja",
+     "base": "ja"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u06",
+   "level": "B2",
+   "title": {
+    "en": "Future II and assumptions",
+    "ar": "المستقبل التام والتخمين"
+   },
+   "explanation": {
+    "en": "Future II = werden + past participle + haben/sein. It says something will be finished by a point in the future: Bis 2050 werden wir den Verbrauch verringert haben.\n\nIt also expresses an assumption about the past: Er wird den Zug verpasst haben. (= He has probably missed the train.) Future I does the same for the present: Sie wird zu Hause sein. (= She is probably at home.)",
+    "ar": "المستقبل التام = werden + Partizip II + haben/sein. بيقول إن حاجة هتكون خلصت قبل وقت في المستقبل: Bis 2050 werden wir den Verbrauch verringert haben.\n\nوبيعبّر كمان عن تخمين عن الماضي: Er wird den Zug verpasst haben. (= غالبًا فاته القطر.) والمستقبل العادي بيعمل نفس الحاجة للحاضر: Sie wird zu Hause sein. (= غالبًا هي في البيت.)"
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u06_01",
+    "de.b2.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Bis 2050 ___ wir den Verbrauch verringert haben.",
+     "answer": "werden",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er wird den Zug verpasst ___.",
+     "answer": "haben",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sie wird schon nach Hause gegangen ___.",
+     "answer": "sein",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ krank sein. (probably, present)",
+     "answer": "wird",
+     "base": "werden"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u07",
+   "level": "B2",
+   "title": {
+    "en": "Subjective use of modal verbs",
+    "ar": "الاستخدام التقديري لأفعال الوجه"
+   },
+   "explanation": {
+    "en": "Modal verbs can show how sure the speaker is:\n- muss: almost certain: Er muss gestresst sein.\n- dürfte: probable: Das dürfte stimmen.\n- kann/könnte: possible: Sie könnte krank sein.\n- soll: people say: Sie soll sehr reich sein.\n- will: he claims: Er will alles allein geschafft haben.\n\nFor the past: modal + participle + haben/sein: Er muss den Bus verpasst haben.",
+    "ar": "أفعال الوجه ممكن توضّح المتكلم متأكد قد إيه:\n- muss: متأكد تقريبًا: Er muss gestresst sein.\n- dürfte: غالبًا: Das dürfte stimmen.\n- kann/könnte: ممكن: Sie könnte krank sein.\n- soll: الناس بتقول: Sie soll sehr reich sein.\n- will: هو بيدّعي: Er will alles allein geschafft haben.\n\nللماضي: فعل الوجه + Partizip + haben/sein: Er muss den Bus verpasst haben."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u07_01",
+    "de.b2.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ sehr gestresst sein. (almost certain)",
+     "answer": "muss",
+     "base": "müssen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sie ___ viel Selbstvertrauen haben. (people say)",
+     "answer": "soll",
+     "base": "sollen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ___ stimmen. (probable)",
+     "answer": "dürfte",
+     "base": "dürfen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er muss den Bus verpasst ___.",
+     "answer": "haben",
+     "base": "haben"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u08",
+   "level": "B2",
+   "title": {
+    "en": "Präteritum in narrative texts",
+    "ar": "الـ Präteritum في الحكي"
+   },
+   "explanation": {
+    "en": "Written stories and history texts use the Präteritum throughout, not the Perfekt. Many irregular verbs: geben → gab, fliehen → floh, ziehen → zog, sterben → starb, beginnen → begann, finden → fand.\n\nEvents before the story time use the Plusquamperfekt: hatte/war + participle: Nachdem der Krieg begonnen hatte, flohen viele.",
+    "ar": "الحكايات المكتوبة ونصوص التاريخ بتستخدم الـ Präteritum طول الوقت مش الـ Perfekt. أفعال شاذة كتير: geben ← gab، fliehen ← floh، ziehen ← zog، sterben ← starb، beginnen ← begann، finden ← fand.\n\nوالأحداث اللي قبل وقت الحكاية بتاخد Plusquamperfekt: hatte/war + Partizip: Nachdem der Krieg begonnen hatte, flohen viele."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u08_01",
+    "de.b2.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Viele Menschen ___ über die Grenze. (fliehen)",
+     "answer": "flohen",
+     "base": "fliehen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Im letzten Jahrhundert ___ es einen Krieg. (geben)",
+     "answer": "gab",
+     "base": "geben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Der König ___ im Jahr 1888. (sterben)",
+     "answer": "starb",
+     "base": "sterben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nachdem der Krieg begonnen ___, flohen viele.",
+     "answer": "hatte",
+     "base": "haben"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u09",
+   "level": "B2",
+   "title": {
+    "en": "Word formation: prefixes and suffixes",
+    "ar": "تكوين الكلمات: سوابق ولواحق"
+   },
+   "explanation": {
+    "en": "Knowing affixes helps you guess new words:\n- un-: opposite: lesbar → unlesbar, klar → unklar\n- -los: without: arbeitslos, fantasielos\n- -voll: full of: fantasievoll, wertvoll\n- -lich/-ig: adjectives: Freund → freundlich, Lust → lustig\n- -er/-in: person: lesen → der Leser, die Leserin\n- -schaft, -tum: abstract nouns: Freundschaft, Eigentum",
+    "ar": "لو عارف السوابق واللواحق هتقدر تخمّن كلمات جديدة:\n- un-: العكس: lesbar ← unlesbar، klar ← unklar\n- ‎-los: من غير: arbeitslos، fantasielos\n- ‎-voll: مليان: fantasievoll، wertvoll\n- ‎-lich/-ig: صفات: Freund ← freundlich، Lust ← lustig\n- ‎-er/-in: شخص: lesen ← der Leser، die Leserin\n- ‎-schaft، ‎-tum: أسماء مجردة: Freundschaft، Eigentum"
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u09_01",
+    "de.b2.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "lesbar → ___ (opposite)",
+     "answer": "unlesbar",
+     "base": "lesbar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "full of fantasy: fantasie___",
+     "answer": "voll",
+     "base": "-voll"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "without work: arbeits___",
+     "answer": "los",
+     "base": "-los"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Freund → ___schaft",
+     "answer": "Freund",
+     "base": "Freund"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u10",
+   "level": "B2",
+   "title": {
+    "en": "Prepositions with the genitive",
+    "ar": "حروف الجر مع حالة الإضافة"
+   },
+   "explanation": {
+    "en": "Formal German uses prepositions with the genitive:\n- wegen / aufgrund: because of: aufgrund des Lärms\n- trotz: despite: trotz des Regens\n- während: during: während der Woche\n- statt: instead of: statt eines Briefes\n- innerhalb / außerhalb: inside / outside: innerhalb eines Monats\n\nGenitive endings: des/eines + -s/-es (masc./neut.), der/einer (fem./pl.). In speech many people use the dative with wegen and trotz.",
+    "ar": "الألماني الرسمي بيستخدم حروف جر مع الـ Genitiv:\n- wegen / aufgrund: بسبب: aufgrund des Lärms\n- trotz: رغم: trotz des Regens\n- während: خلال: während der Woche\n- statt: بدل: statt eines Briefes\n- innerhalb / außerhalb: جوه / بره: innerhalb eines Monats\n\nنهايات الـ Genitiv: des/eines + ‎-s/-es (مذكر/محايد)، der/einer (مؤنث/جمع). وفي الكلام ناس كتير بتستخدم الـ Dativ مع wegen وtrotz."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u10_01",
+    "de.b2.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Trotz ___ Regens fand es statt. (der Regen)",
+     "answer": "des",
+     "base": "der"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Aufgrund ___ Lärms (der Lärm)",
+     "answer": "des",
+     "base": "der"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "während ___ Woche (die Woche)",
+     "answer": "der",
+     "base": "die"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "innerhalb eines ___ (der Monat)",
+     "answer": "Monats",
+     "base": "Monat"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u11",
+   "level": "B2",
+   "title": {
+    "en": "Connectors: folglich, dennoch, zumal",
+    "ar": "أدوات الربط: folglich، dennoch، zumal"
+   },
+   "explanation": {
+    "en": "Adverb connectors take position 1, so the verb comes straight after:\n- folglich / deshalb / daher: consequence: Er ist süchtig, folglich schläft er schlecht.\n- dennoch / trotzdem: contrast: Die App ist nützlich, dennoch bin ich vorsichtig.\n\nzumal is a conjunction (verb to the end), meaning especially since: Ich lösche die App, zumal sie viele Daten sammelt.",
+    "ar": "أدوات الربط اللي هي ظروف بتاخد المكان الأول، فالفعل بييجي بعدها على طول:\n- folglich / deshalb / daher: نتيجة: Er ist süchtig, folglich schläft er schlecht.\n- dennoch / trotzdem: عكس: Die App ist nützlich, dennoch bin ich vorsichtig.\n\nوzumal أداة ربط (الفعل في الآخر) معناها خصوصًا إن: Ich lösche die App, zumal sie viele Daten sammelt."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u11_01",
+    "de.b2.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Er ist süchtig, folglich ___ er schlecht. (schlafen)",
+     "answer": "schläft",
+     "base": "schlafen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sie ist nützlich, ___ bin ich vorsichtig. (nevertheless)",
+     "answer": "dennoch",
+     "base": "dennoch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich lösche sie, zumal sie viele Daten ___. (sammeln)",
+     "answer": "sammelt",
+     "base": "sammeln"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ schütze ich meine Daten. (therefore)",
+     "answer": "Deshalb",
+     "base": "deshalb"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u12",
+   "level": "B2",
+   "title": {
+    "en": "Register and politeness",
+    "ar": "مستوى الكلام والأدب"
+   },
+   "explanation": {
+    "en": "German has strong register differences:\n- du (friends, family, many workplaces) vs Sie (strangers, bosses, officials)\n- softening with Konjunktiv II: Könnten Sie ...? Würden Sie ...? Hätten Sie kurz Zeit?\n- indirect requests: Würde es Sie stören, wenn ...? Ich wollte fragen, ob ...\n- spoken shortcuts with friends: Haste mal Zeit? Geht's?\n\nUsually the older or senior person offers du.",
+    "ar": "الألماني فيه فروق كبيرة في مستوى الكلام:\n- du (صحاب، عيلة، شغلانات كتير) وSie (ناس غريبة، مدرا، موظفين حكومة)\n- التلطيف بـ Konjunktiv II: Könnten Sie ...? Würden Sie ...? Hätten Sie kurz Zeit?\n- طلبات غير مباشرة: Würde es Sie stören, wenn ...? Ich wollte fragen, ob ...\n- اختصارات الكلام مع الصحاب: Haste mal Zeit? Geht's?\n\nوعادةً الأكبر أو الأعلى في المنصب هو اللي بيعرض du."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u12_01",
+    "de.b2.sent.u12_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ Sie mir helfen? (polite, können)",
+     "answer": "Könnten",
+     "base": "können"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Würde es Sie ___, wenn ich kurz unterbreche?",
+     "answer": "stören",
+     "base": "stören"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ Sie kurz Zeit? (polite, haben)",
+     "answer": "Hätten",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich wollte fragen, ___ Sie Zeit haben.",
+     "answer": "ob",
+     "base": "ob"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.b2.gram.u13",
+   "level": "B2",
+   "title": {
+    "en": "Structuring an argument",
+    "ar": "ترتيب الحجة"
+   },
+   "explanation": {
+    "en": "A clear argument has signposts:\n- introducing: Zunächst möchte ich ... / Ein wichtiges Argument ist ...\n- adding: außerdem, darüber hinaus, hinzu kommt, dass ...\n- weighing: einerseits ... andererseits; zwar ... aber\n- conceding: Es stimmt zwar, dass ..., aber ...\n- concluding: abschließend, zusammenfassend, alles in allem\n\nAdverbs in position 1 take inversion: Andererseits dauert es länger.",
+    "ar": "الحجة الواضحة ليها علامات:\n- البداية: Zunächst möchte ich ... / Ein wichtiges Argument ist ...\n- الإضافة: außerdem، darüber hinaus، hinzu kommt, dass ...\n- الموازنة: einerseits ... andererseits؛ zwar ... aber\n- الاعتراف: Es stimmt zwar, dass ..., aber ...\n- الختام: abschließend، zusammenfassend، alles in allem\n\nوالظروف في المكان الأول بتقلب الترتيب: Andererseits dauert es länger."
+   },
+   "exampleSentenceIds": [
+    "de.b2.sent.u13_01",
+    "de.b2.sent.u13_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Einerseits ist es billiger, ___ dauert es länger.",
+     "answer": "andererseits",
+     "base": "andererseits"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es stimmt ___, dass es teuer ist, aber ...",
+     "answer": "zwar",
+     "base": "zwar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Darüber ___ spart man Zeit.",
+     "answer": "hinaus",
+     "base": "hinaus"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Alles in ___ bin ich dafür.",
+     "answer": "allem",
+     "base": "alle"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "de.b2.write.u01",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about work and careers in German: the career you want in ten years and how you will get there.",
+    "ar": "اكتب بالألماني عن الشغل والمسار المهني: الشغل اللي نفسك فيه بعد عشر سنين وإزاي هتوصله."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u02",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about economy and globalisation in German: how globalisation changes the products you buy.",
+    "ar": "اكتب بالألماني عن الاقتصاد والعولمة: إزاي العولمة بتغيّر المنتجات اللي بتشتريها."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u03",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about science and research in German: a scientific discovery that changed everyday life.",
+    "ar": "اكتب بالألماني عن العلوم والبحث: اكتشاف علمي غيّر الحياة اليومية."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u04",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about media literacy in German: how you check if a news story is true.",
+    "ar": "اكتب بالألماني عن التعامل مع الإعلام: إزاي بتتأكد إن الخبر صح."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u05",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about society and values in German: a tradition from your country that you would keep or change.",
+    "ar": "اكتب بالألماني عن المجتمع والقيم: عادة من بلدك تحب تحافظ عليها أو تغيّرها."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u06",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about environment and the future in German: what our cities will look like in 2050.",
+    "ar": "اكتب بالألماني عن البيئة والمستقبل: مدننا هتبقى شكلها إيه سنة ٢٠٥٠."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u07",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about health and psychology in German: how you deal with stress.",
+    "ar": "اكتب بالألماني عن الصحة وعلم النفس: إزاي بتتعامل مع الضغط."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u08",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about history in German: a historical event from the point of view of someone who lived it.",
+    "ar": "اكتب بالألماني عن التاريخ: حدث تاريخي من وجهة نظر حد عاشه."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u09",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about art and literature in German: a book, film or poem that moved you.",
+    "ar": "اكتب بالألماني عن الفن والأدب: كتاب أو فيلم أو قصيدة أثرت فيك."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u10",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about law and everyday life in German: a problem with a landlord or a company and how you solved it.",
+    "ar": "اكتب بالألماني عن القانون والحياة اليومية: مشكلة مع صاحب سكن أو شركة وحليتها إزاي."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u11",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about digital world in German: the advantages and dangers of social media.",
+    "ar": "اكتب بالألماني عن العالم الرقمي: مميزات ومخاطر السوشيال ميديا."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u12",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about language and communication in German: how people talk differently to friends and to a boss.",
+    "ar": "اكتب بالألماني عن اللغة والتواصل: الناس بتتكلم إزاي مختلف مع صحابها ومع المدير."
+   },
+   "minWords": 120
+  },
+  {
+   "id": "de.b2.write.u13",
+   "level": "B2",
+   "prompt": {
+    "en": "Write about arguing and discussing in German: an essay for or against a four-day working week.",
+    "ar": "اكتب بالألماني عن الجدال والنقاش: مقال مع أو ضد أسبوع شغل أربع أيام."
+   },
+   "minWords": 120
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

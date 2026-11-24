@@ -1,0 +1,4233 @@
+{
+ "schemaVersion": 2,
+ "lang": "de",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "C1",
+  "title": {
+   "ar": "C1 متقدم",
+   "en": "C1 Advanced"
+  },
+  "targetHours": 250,
+  "canDo": [
+   {
+    "en": "Understand long, demanding texts and recognise implicit meaning",
+    "ar": "تفهم نصوص طويلة وصعبة وتلقط المعنى اللي بين السطور"
+   },
+   {
+    "en": "Express yourself fluently without obviously searching for words",
+    "ar": "تعبّر عن نفسك بطلاقة من غير ما تبان بتدوّر على الكلام"
+   },
+   {
+    "en": "Use language flexibly for social, academic and professional purposes",
+    "ar": "تستخدم اللغة بمرونة في الحياة الاجتماعية والدراسة والشغل"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "de.c1.u01",
+   "level": "C1",
+   "order": 1,
+   "theme": {
+    "ar": "اللغة الأكاديمية",
+    "en": "Academic language"
+   },
+   "goals": [
+    {
+     "en": "Talk about academic language in German",
+     "ar": "تتكلم عن اللغة الأكاديمية بالألماني"
+    },
+    {
+     "en": "Academic nominal style",
+     "ar": "الأسلوب الاسمي الأكاديمي"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u01"
+   ],
+   "lessonIds": [
+    "de.c1.u01.l01",
+    "de.c1.u01.l02",
+    "de.c1.u01.l03",
+    "de.c1.u01.l04",
+    "de.c1.u01.l05"
+   ],
+   "sharedUnitId": "u.c1.01"
+  },
+  {
+   "id": "de.c1.u02",
+   "level": "C1",
+   "order": 2,
+   "theme": {
+    "ar": "الفلسفة والأخلاق",
+    "en": "Philosophy and ethics"
+   },
+   "goals": [
+    {
+     "en": "Talk about philosophy and ethics in German",
+     "ar": "تتكلم عن الفلسفة والأخلاق بالألماني"
+    },
+    {
+     "en": "Complex subordinate clauses",
+     "ar": "الجمل الفرعية المركبة"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u02"
+   ],
+   "lessonIds": [
+    "de.c1.u02.l01",
+    "de.c1.u02.l02",
+    "de.c1.u02.l03",
+    "de.c1.u02.l04",
+    "de.c1.u02.l05"
+   ],
+   "sharedUnitId": "u.c1.02"
+  },
+  {
+   "id": "de.c1.u03",
+   "level": "C1",
+   "order": 3,
+   "theme": {
+    "ar": "لغة البيزنس",
+    "en": "Business language"
+   },
+   "goals": [
+    {
+     "en": "Talk about business language in German",
+     "ar": "تتكلم عن لغة البيزنس بالألماني"
+    },
+    {
+     "en": "Functional verb structures (Funktionsverbgefüge)",
+     "ar": "التراكيب الفعلية الاسمية"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u03"
+   ],
+   "lessonIds": [
+    "de.c1.u03.l01",
+    "de.c1.u03.l02",
+    "de.c1.u03.l03",
+    "de.c1.u03.l04",
+    "de.c1.u03.l05"
+   ],
+   "sharedUnitId": "u.c1.03"
+  },
+  {
+   "id": "de.c1.u04",
+   "level": "C1",
+   "order": 4,
+   "theme": {
+    "ar": "السياسة والاتحاد الأوروبي",
+    "en": "Politics and the EU"
+   },
+   "goals": [
+    {
+     "en": "Talk about politics and the eu in German",
+     "ar": "تتكلم عن السياسة والاتحاد الأوروبي بالألماني"
+    },
+    {
+     "en": "Konjunktiv I in reporting",
+     "ar": "Konjunktiv I في نقل الأخبار"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u04"
+   ],
+   "lessonIds": [
+    "de.c1.u04.l01",
+    "de.c1.u04.l02",
+    "de.c1.u04.l03",
+    "de.c1.u04.l04",
+    "de.c1.u04.l05"
+   ],
+   "sharedUnitId": "u.c1.04"
+  },
+  {
+   "id": "de.c1.u05",
+   "level": "C1",
+   "order": 5,
+   "theme": {
+    "ar": "تبسيط العلوم",
+    "en": "Science communication"
+   },
+   "goals": [
+    {
+     "en": "Talk about science communication in German",
+     "ar": "تتكلم عن تبسيط العلوم بالألماني"
+    },
+    {
+     "en": "Hedging and stance",
+     "ar": "التحفظ والموقف"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u05"
+   ],
+   "lessonIds": [
+    "de.c1.u05.l01",
+    "de.c1.u05.l02",
+    "de.c1.u05.l03",
+    "de.c1.u05.l04",
+    "de.c1.u05.l05"
+   ],
+   "sharedUnitId": "u.c1.05"
+  },
+  {
+   "id": "de.c1.u06",
+   "level": "C1",
+   "order": 6,
+   "theme": {
+    "ar": "الأدب والسينما",
+    "en": "Literature and film"
+   },
+   "goals": [
+    {
+     "en": "Talk about literature and film in German",
+     "ar": "تتكلم عن الأدب والسينما بالألماني"
+    },
+    {
+     "en": "Stylistic devices",
+     "ar": "الأدوات البلاغية"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u06"
+   ],
+   "lessonIds": [
+    "de.c1.u06.l01",
+    "de.c1.u06.l02",
+    "de.c1.u06.l03",
+    "de.c1.u06.l04",
+    "de.c1.u06.l05"
+   ],
+   "sharedUnitId": "u.c1.06"
+  },
+  {
+   "id": "de.c1.u07",
+   "level": "C1",
+   "order": 7,
+   "theme": {
+    "ar": "الهجرة والهوية",
+    "en": "Migration and identity"
+   },
+   "goals": [
+    {
+     "en": "Talk about migration and identity in German",
+     "ar": "تتكلم عن الهجرة والهوية بالألماني"
+    },
+    {
+     "en": "Advanced connectors",
+     "ar": "أدوات ربط متقدمة"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u07"
+   ],
+   "lessonIds": [
+    "de.c1.u07.l01",
+    "de.c1.u07.l02",
+    "de.c1.u07.l03",
+    "de.c1.u07.l04",
+    "de.c1.u07.l05"
+   ],
+   "sharedUnitId": "u.c1.07"
+  },
+  {
+   "id": "de.c1.u08",
+   "level": "C1",
+   "order": 8,
+   "theme": {
+    "ar": "الفكاهة والتعبيرات",
+    "en": "Humour and idioms"
+   },
+   "goals": [
+    {
+     "en": "Talk about humour and idioms in German",
+     "ar": "تتكلم عن الفكاهة والتعبيرات بالألماني"
+    },
+    {
+     "en": "Idiomatic expressions",
+     "ar": "التعبيرات الاصطلاحية"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u08"
+   ],
+   "lessonIds": [
+    "de.c1.u08.l01",
+    "de.c1.u08.l02",
+    "de.c1.u08.l03",
+    "de.c1.u08.l04",
+    "de.c1.u08.l05"
+   ],
+   "sharedUnitId": "u.c1.08"
+  },
+  {
+   "id": "de.c1.u09",
+   "level": "C1",
+   "order": 9,
+   "theme": {
+    "ar": "التكنولوجيا والأخلاق",
+    "en": "Technology and ethics"
+   },
+   "goals": [
+    {
+     "en": "Talk about technology and ethics in German",
+     "ar": "تتكلم عن التكنولوجيا والأخلاق بالألماني"
+    },
+    {
+     "en": "Advanced passive and participle constructions",
+     "ar": "المبني للمجهول والـ Partizip المتقدم"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u09"
+   ],
+   "lessonIds": [
+    "de.c1.u09.l01",
+    "de.c1.u09.l02",
+    "de.c1.u09.l03",
+    "de.c1.u09.l04",
+    "de.c1.u09.l05"
+   ],
+   "sharedUnitId": "u.c1.09"
+  },
+  {
+   "id": "de.c1.u10",
+   "level": "C1",
+   "order": 10,
+   "theme": {
+    "ar": "اللهجات المحلية",
+    "en": "Regional varieties"
+   },
+   "goals": [
+    {
+     "en": "Talk about regional varieties in German",
+     "ar": "تتكلم عن اللهجات المحلية بالألماني"
+    },
+    {
+     "en": "Regional variation",
+     "ar": "الاختلاف الإقليمي"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u10"
+   ],
+   "lessonIds": [
+    "de.c1.u10.l01",
+    "de.c1.u10.l02",
+    "de.c1.u10.l03",
+    "de.c1.u10.l04",
+    "de.c1.u10.l05"
+   ],
+   "sharedUnitId": "u.c1.10"
+  },
+  {
+   "id": "de.c1.u11",
+   "level": "C1",
+   "order": 11,
+   "theme": {
+    "ar": "العرض والمناظرة",
+    "en": "Presenting and debating"
+   },
+   "goals": [
+    {
+     "en": "Talk about presenting and debating in German",
+     "ar": "تتكلم عن العرض والمناظرة بالألماني"
+    },
+    {
+     "en": "Discourse markers",
+     "ar": "علامات الخطاب"
+    }
+   ],
+   "grammarIds": [
+    "de.c1.gram.u11"
+   ],
+   "lessonIds": [
+    "de.c1.u11.l01",
+    "de.c1.u11.l02",
+    "de.c1.u11.l03",
+    "de.c1.u11.l04",
+    "de.c1.u11.l05"
+   ],
+   "sharedUnitId": "u.c1.11"
+  },
+  {
+   "id": "de.c1.u12",
+   "level": "C1",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة C1 واختبار تجريبي",
+    "en": "C1 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached C1",
+     "ar": "توري إنك وصلت لمستوى C1"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.c1.u12.l01",
+    "de.c1.u12.l02"
+   ],
+   "sharedUnitId": "u.c1.12"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "de.c1.u01.l01",
+   "unitId": "de.c1.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Academic language: words 1",
+    "ar": "اللغة الأكاديمية: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.abschlussarbeit",
+    "de.c1.vocab.analyse",
+    "de.c1.vocab.vorlesung",
+    "de.c1.vocab.hypothese",
+    "de.c1.vocab.untersuchen",
+    "de.c1.vocab.zitieren"
+   ]
+  },
+  {
+   "id": "de.c1.u01.l02",
+   "unitId": "de.c1.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Academic language: words 2",
+    "ar": "اللغة الأكاديمية: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.zusammenfassung",
+    "de.c1.vocab.fussnote",
+    "de.c1.vocab.relevant",
+    "de.c1.vocab.empirisch",
+    "de.c1.vocab.befund"
+   ]
+  },
+  {
+   "id": "de.c1.u01.l03",
+   "unitId": "de.c1.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Academic nominal style",
+    "ar": "الأسلوب الاسمي الأكاديمي"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u01"
+  },
+  {
+   "id": "de.c1.u01.l04",
+   "unitId": "de.c1.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: academic language",
+    "ar": "استماع: اللغة الأكاديمية"
+   },
+   "items": [
+    "de.c1.sent.u01_01",
+    "de.c1.sent.u01_02",
+    "de.c1.sent.u01_03"
+   ]
+  },
+  {
+   "id": "de.c1.u01.l05",
+   "unitId": "de.c1.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "de.c1.vocab.abschlussarbeit",
+    "de.c1.vocab.analyse",
+    "de.c1.vocab.vorlesung",
+    "de.c1.vocab.hypothese",
+    "de.c1.vocab.untersuchen",
+    "de.c1.vocab.zitieren",
+    "de.c1.vocab.zusammenfassung",
+    "de.c1.vocab.fussnote",
+    "de.c1.vocab.relevant",
+    "de.c1.vocab.empirisch",
+    "de.c1.vocab.befund"
+   ]
+  },
+  {
+   "id": "de.c1.u02.l01",
+   "unitId": "de.c1.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Philosophy and ethics: words 1",
+    "ar": "الفلسفة والأخلاق: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.moralisch",
+    "de.c1.vocab.freiheit",
+    "de.c1.vocab.gewissen",
+    "de.c1.vocab.wuerde",
+    "de.c1.vocab.dilemma",
+    "de.c1.vocab.rechtfertigen"
+   ]
+  },
+  {
+   "id": "de.c1.u02.l02",
+   "unitId": "de.c1.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Philosophy and ethics: words 2",
+    "ar": "الفلسفة والأخلاق: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.tugend",
+    "de.c1.vocab.folge",
+    "de.c1.vocab.philosoph",
+    "de.c1.vocab.sollte",
+    "de.c1.vocab.egoistisch"
+   ]
+  },
+  {
+   "id": "de.c1.u02.l03",
+   "unitId": "de.c1.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Complex subordinate clauses",
+    "ar": "الجمل الفرعية المركبة"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u02"
+  },
+  {
+   "id": "de.c1.u02.l04",
+   "unitId": "de.c1.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: philosophy and ethics",
+    "ar": "استماع: الفلسفة والأخلاق"
+   },
+   "items": [
+    "de.c1.sent.u02_01",
+    "de.c1.sent.u02_02",
+    "de.c1.sent.u02_03"
+   ]
+  },
+  {
+   "id": "de.c1.u02.l05",
+   "unitId": "de.c1.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "de.c1.vocab.moralisch",
+    "de.c1.vocab.freiheit",
+    "de.c1.vocab.gewissen",
+    "de.c1.vocab.wuerde",
+    "de.c1.vocab.dilemma",
+    "de.c1.vocab.rechtfertigen",
+    "de.c1.vocab.tugend",
+    "de.c1.vocab.folge",
+    "de.c1.vocab.philosoph",
+    "de.c1.vocab.sollte",
+    "de.c1.vocab.egoistisch"
+   ]
+  },
+  {
+   "id": "de.c1.u03.l01",
+   "unitId": "de.c1.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Business language: words 1",
+    "ar": "لغة البيزنس: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.verhandlung",
+    "de.c1.vocab.frist",
+    "de.c1.vocab.lieferung",
+    "de.c1.vocab.kompromiss"
+   ]
+  },
+  {
+   "id": "de.c1.u03.l02",
+   "unitId": "de.c1.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Business language: words 2",
+    "ar": "لغة البيزنس: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.bedingung",
+    "de.c1.vocab.beruecksichtigen",
+    "de.c1.vocab.eine_entscheidung_treffen",
+    "de.c1.vocab.massnahmen_ergreifen"
+   ]
+  },
+  {
+   "id": "de.c1.u03.l03",
+   "unitId": "de.c1.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Functional verb structures (Funktionsverbgefüge)",
+    "ar": "التراكيب الفعلية الاسمية"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u03"
+  },
+  {
+   "id": "de.c1.u03.l04",
+   "unitId": "de.c1.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: business language",
+    "ar": "استماع: لغة البيزنس"
+   },
+   "items": [
+    "de.c1.sent.u03_01",
+    "de.c1.sent.u03_02",
+    "de.c1.sent.u03_03"
+   ]
+  },
+  {
+   "id": "de.c1.u03.l05",
+   "unitId": "de.c1.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "de.c1.vocab.verhandlung",
+    "de.c1.vocab.frist",
+    "de.c1.vocab.lieferung",
+    "de.c1.vocab.kompromiss",
+    "de.c1.vocab.bedingung",
+    "de.c1.vocab.beruecksichtigen",
+    "de.c1.vocab.eine_entscheidung_treffen",
+    "de.c1.vocab.massnahmen_ergreifen"
+   ]
+  },
+  {
+   "id": "de.c1.u04.l01",
+   "unitId": "de.c1.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and the EU: words 1",
+    "ar": "السياسة والاتحاد الأوروبي: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.parlament",
+    "de.c1.vocab.union",
+    "de.c1.vocab.mitgliedstaat",
+    "de.c1.vocab.gesetzgebung",
+    "de.c1.vocab.sprecher"
+   ]
+  },
+  {
+   "id": "de.c1.u04.l02",
+   "unitId": "de.c1.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Politics and the EU: words 2",
+    "ar": "السياسة والاتحاد الأوروبي: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.opposition",
+    "de.c1.vocab.mehrheit",
+    "de.c1.vocab.koalition",
+    "de.c1.vocab.ablehnen"
+   ]
+  },
+  {
+   "id": "de.c1.u04.l03",
+   "unitId": "de.c1.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Konjunktiv I in reporting",
+    "ar": "Konjunktiv I في نقل الأخبار"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u04"
+  },
+  {
+   "id": "de.c1.u04.l04",
+   "unitId": "de.c1.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: politics and the eu",
+    "ar": "استماع: السياسة والاتحاد الأوروبي"
+   },
+   "items": [
+    "de.c1.sent.u04_01",
+    "de.c1.sent.u04_02",
+    "de.c1.sent.u04_03"
+   ]
+  },
+  {
+   "id": "de.c1.u04.l05",
+   "unitId": "de.c1.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "de.c1.vocab.parlament",
+    "de.c1.vocab.union",
+    "de.c1.vocab.mitgliedstaat",
+    "de.c1.vocab.gesetzgebung",
+    "de.c1.vocab.sprecher",
+    "de.c1.vocab.opposition",
+    "de.c1.vocab.mehrheit",
+    "de.c1.vocab.koalition",
+    "de.c1.vocab.ablehnen"
+   ]
+  },
+  {
+   "id": "de.c1.u05.l01",
+   "unitId": "de.c1.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Science communication: words 1",
+    "ar": "تبسيط العلوم: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.nachweis",
+    "de.c1.vocab.methode",
+    "de.c1.vocab.stichprobe",
+    "de.c1.vocab.zusammenhang",
+    "de.c1.vocab.erheblich",
+    "de.c1.vocab.vermutlich"
+   ]
+  },
+  {
+   "id": "de.c1.u05.l02",
+   "unitId": "de.c1.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Science communication: words 2",
+    "ar": "تبسيط العلوم: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.anscheinend",
+    "de.c1.vocab.dazu_neigen",
+    "de.c1.vocab.darauf_hindeuten",
+    "de.c1.vocab.annahme",
+    "de.c1.vocab.einschraenkung"
+   ]
+  },
+  {
+   "id": "de.c1.u05.l03",
+   "unitId": "de.c1.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Hedging and stance",
+    "ar": "التحفظ والموقف"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u05"
+  },
+  {
+   "id": "de.c1.u05.l04",
+   "unitId": "de.c1.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: science communication",
+    "ar": "استماع: تبسيط العلوم"
+   },
+   "items": [
+    "de.c1.sent.u05_01",
+    "de.c1.sent.u05_02",
+    "de.c1.sent.u05_03"
+   ]
+  },
+  {
+   "id": "de.c1.u05.l05",
+   "unitId": "de.c1.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "de.c1.vocab.nachweis",
+    "de.c1.vocab.methode",
+    "de.c1.vocab.stichprobe",
+    "de.c1.vocab.zusammenhang",
+    "de.c1.vocab.erheblich",
+    "de.c1.vocab.vermutlich",
+    "de.c1.vocab.anscheinend",
+    "de.c1.vocab.dazu_neigen",
+    "de.c1.vocab.darauf_hindeuten",
+    "de.c1.vocab.annahme",
+    "de.c1.vocab.einschraenkung"
+   ]
+  },
+  {
+   "id": "de.c1.u06.l01",
+   "unitId": "de.c1.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Literature and film: words 1",
+    "ar": "الأدب والسينما: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.szene",
+    "de.c1.vocab.handlung",
+    "de.c1.vocab.erzaehler",
+    "de.c1.vocab.protagonist",
+    "de.c1.vocab.metapher",
+    "de.c1.vocab.ironie"
+   ]
+  },
+  {
+   "id": "de.c1.u06.l02",
+   "unitId": "de.c1.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Literature and film: words 2",
+    "ar": "الأدب والسينما: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.spannung",
+    "de.c1.vocab.subtil",
+    "de.c1.vocab.darstellen",
+    "de.c1.vocab.regisseur",
+    "de.c1.vocab.ergreifend"
+   ]
+  },
+  {
+   "id": "de.c1.u06.l03",
+   "unitId": "de.c1.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Stylistic devices",
+    "ar": "الأدوات البلاغية"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u06"
+  },
+  {
+   "id": "de.c1.u06.l04",
+   "unitId": "de.c1.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: literature and film",
+    "ar": "استماع: الأدب والسينما"
+   },
+   "items": [
+    "de.c1.sent.u06_01",
+    "de.c1.sent.u06_02",
+    "de.c1.sent.u06_03"
+   ]
+  },
+  {
+   "id": "de.c1.u06.l05",
+   "unitId": "de.c1.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "de.c1.vocab.szene",
+    "de.c1.vocab.handlung",
+    "de.c1.vocab.erzaehler",
+    "de.c1.vocab.protagonist",
+    "de.c1.vocab.metapher",
+    "de.c1.vocab.ironie",
+    "de.c1.vocab.spannung",
+    "de.c1.vocab.subtil",
+    "de.c1.vocab.darstellen",
+    "de.c1.vocab.regisseur",
+    "de.c1.vocab.ergreifend"
+   ]
+  },
+  {
+   "id": "de.c1.u07.l01",
+   "unitId": "de.c1.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Migration and identity: words 1",
+    "ar": "الهجرة والهوية: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.identitaet",
+    "de.c1.vocab.zugehoerigkeit",
+    "de.c1.vocab.heimat"
+   ]
+  },
+  {
+   "id": "de.c1.u07.l02",
+   "unitId": "de.c1.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Migration and identity: words 2",
+    "ar": "الهجرة والهوية: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.vielfalt",
+    "de.c1.vocab.wurzel",
+    "de.c1.vocab.insofern"
+   ]
+  },
+  {
+   "id": "de.c1.u07.l03",
+   "unitId": "de.c1.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Advanced connectors",
+    "ar": "أدوات ربط متقدمة"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u07"
+  },
+  {
+   "id": "de.c1.u07.l04",
+   "unitId": "de.c1.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: migration and identity",
+    "ar": "استماع: الهجرة والهوية"
+   },
+   "items": [
+    "de.c1.sent.u07_01",
+    "de.c1.sent.u07_02",
+    "de.c1.sent.u07_03"
+   ]
+  },
+  {
+   "id": "de.c1.u07.l05",
+   "unitId": "de.c1.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "de.c1.vocab.identitaet",
+    "de.c1.vocab.zugehoerigkeit",
+    "de.c1.vocab.heimat",
+    "de.c1.vocab.vielfalt",
+    "de.c1.vocab.wurzel",
+    "de.c1.vocab.insofern"
+   ]
+  },
+  {
+   "id": "de.c1.u08.l01",
+   "unitId": "de.c1.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Humour and idioms: words 1",
+    "ar": "الفكاهة والتعبيرات: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.witz",
+    "de.c1.vocab.redewendung",
+    "de.c1.vocab.wortspiel",
+    "de.c1.vocab.sarkastisch",
+    "de.c1.vocab.uebertreiben",
+    "de.c1.vocab.necken"
+   ]
+  },
+  {
+   "id": "de.c1.u08.l02",
+   "unitId": "de.c1.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Humour and idioms: words 2",
+    "ar": "الفكاهة والتعبيرات: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.auslachen",
+    "de.c1.vocab.pointe",
+    "de.c1.vocab.nicht_mein_ding",
+    "de.c1.vocab.ein_kinderspiel",
+    "de.c1.vocab.jemanden_auf_den_arm_nehmen"
+   ]
+  },
+  {
+   "id": "de.c1.u08.l03",
+   "unitId": "de.c1.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Idiomatic expressions",
+    "ar": "التعبيرات الاصطلاحية"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u08"
+  },
+  {
+   "id": "de.c1.u08.l04",
+   "unitId": "de.c1.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: humour and idioms",
+    "ar": "استماع: الفكاهة والتعبيرات"
+   },
+   "items": [
+    "de.c1.sent.u08_01",
+    "de.c1.sent.u08_02",
+    "de.c1.sent.u08_03"
+   ]
+  },
+  {
+   "id": "de.c1.u08.l05",
+   "unitId": "de.c1.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "de.c1.vocab.witz",
+    "de.c1.vocab.redewendung",
+    "de.c1.vocab.wortspiel",
+    "de.c1.vocab.sarkastisch",
+    "de.c1.vocab.uebertreiben",
+    "de.c1.vocab.necken",
+    "de.c1.vocab.auslachen",
+    "de.c1.vocab.pointe",
+    "de.c1.vocab.nicht_mein_ding",
+    "de.c1.vocab.ein_kinderspiel",
+    "de.c1.vocab.jemanden_auf_den_arm_nehmen"
+   ]
+  },
+  {
+   "id": "de.c1.u09.l01",
+   "unitId": "de.c1.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Technology and ethics: words 1",
+    "ar": "التكنولوجيا والأخلاق: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.kuenstliche_intelligenz",
+    "de.c1.vocab.algorithmus",
+    "de.c1.vocab.risiko",
+    "de.c1.vocab.ueberwachung",
+    "de.c1.vocab.automatisieren"
+   ]
+  },
+  {
+   "id": "de.c1.u09.l02",
+   "unitId": "de.c1.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Technology and ethics: words 2",
+    "ar": "التكنولوجيا والأخلاق: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.ersetzen",
+    "de.c1.vocab.transparent",
+    "de.c1.vocab.voreingenommenheit",
+    "de.c1.vocab.regulieren",
+    "de.c1.vocab.rechenschaftspflichtig"
+   ]
+  },
+  {
+   "id": "de.c1.u09.l03",
+   "unitId": "de.c1.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Advanced passive and participle constructions",
+    "ar": "المبني للمجهول والـ Partizip المتقدم"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u09"
+  },
+  {
+   "id": "de.c1.u09.l04",
+   "unitId": "de.c1.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: technology and ethics",
+    "ar": "استماع: التكنولوجيا والأخلاق"
+   },
+   "items": [
+    "de.c1.sent.u09_01",
+    "de.c1.sent.u09_02",
+    "de.c1.sent.u09_03"
+   ]
+  },
+  {
+   "id": "de.c1.u09.l05",
+   "unitId": "de.c1.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "de.c1.vocab.kuenstliche_intelligenz",
+    "de.c1.vocab.algorithmus",
+    "de.c1.vocab.risiko",
+    "de.c1.vocab.ueberwachung",
+    "de.c1.vocab.automatisieren",
+    "de.c1.vocab.ersetzen",
+    "de.c1.vocab.transparent",
+    "de.c1.vocab.voreingenommenheit",
+    "de.c1.vocab.regulieren",
+    "de.c1.vocab.rechenschaftspflichtig"
+   ]
+  },
+  {
+   "id": "de.c1.u10.l01",
+   "unitId": "de.c1.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Regional varieties: words 1",
+    "ar": "اللهجات المحلية: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.oesterreich",
+    "de.c1.vocab.schweiz",
+    "de.c1.vocab.flandern",
+    "de.c1.vocab.lateinamerika",
+    "de.c1.vocab.akzent"
+   ]
+  },
+  {
+   "id": "de.c1.u10.l02",
+   "unitId": "de.c1.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Regional varieties: words 2",
+    "ar": "اللهجات المحلية: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.varietaet",
+    "de.c1.vocab.standardsprache",
+    "de.c1.vocab.region",
+    "de.c1.vocab.regional",
+    "de.c1.vocab.einheimisch"
+   ]
+  },
+  {
+   "id": "de.c1.u10.l03",
+   "unitId": "de.c1.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Regional variation",
+    "ar": "الاختلاف الإقليمي"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u10"
+  },
+  {
+   "id": "de.c1.u10.l04",
+   "unitId": "de.c1.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: regional varieties",
+    "ar": "استماع: اللهجات المحلية"
+   },
+   "items": [
+    "de.c1.sent.u10_01",
+    "de.c1.sent.u10_02",
+    "de.c1.sent.u10_03"
+   ]
+  },
+  {
+   "id": "de.c1.u10.l05",
+   "unitId": "de.c1.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "de.c1.vocab.oesterreich",
+    "de.c1.vocab.schweiz",
+    "de.c1.vocab.flandern",
+    "de.c1.vocab.lateinamerika",
+    "de.c1.vocab.akzent",
+    "de.c1.vocab.varietaet",
+    "de.c1.vocab.standardsprache",
+    "de.c1.vocab.region",
+    "de.c1.vocab.regional",
+    "de.c1.vocab.einheimisch"
+   ]
+  },
+  {
+   "id": "de.c1.u11.l01",
+   "unitId": "de.c1.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Presenting and debating: words 1",
+    "ar": "العرض والمناظرة: كلمات 1"
+   },
+   "items": [
+    "de.c1.vocab.praesentation",
+    "de.c1.vocab.fazit",
+    "de.c1.vocab.folie",
+    "de.c1.vocab.hervorheben",
+    "de.c1.vocab.veranschaulichen"
+   ]
+  },
+  {
+   "id": "de.c1.u11.l02",
+   "unitId": "de.c1.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Presenting and debating: words 2",
+    "ar": "العرض والمناظرة: كلمات 2"
+   },
+   "items": [
+    "de.c1.vocab.widerlegen",
+    "de.c1.vocab.darueber_hinaus",
+    "de.c1.vocab.zunaechst",
+    "de.c1.vocab.zusammenfassend",
+    "de.c1.vocab.wie_bereits_erwaehnt"
+   ]
+  },
+  {
+   "id": "de.c1.u11.l03",
+   "unitId": "de.c1.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Discourse markers",
+    "ar": "علامات الخطاب"
+   },
+   "items": [],
+   "grammarId": "de.c1.gram.u11"
+  },
+  {
+   "id": "de.c1.u11.l04",
+   "unitId": "de.c1.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: presenting and debating",
+    "ar": "استماع: العرض والمناظرة"
+   },
+   "items": [
+    "de.c1.sent.u11_01",
+    "de.c1.sent.u11_02",
+    "de.c1.sent.u11_03"
+   ]
+  },
+  {
+   "id": "de.c1.u11.l05",
+   "unitId": "de.c1.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "de.c1.vocab.praesentation",
+    "de.c1.vocab.fazit",
+    "de.c1.vocab.folie",
+    "de.c1.vocab.hervorheben",
+    "de.c1.vocab.veranschaulichen",
+    "de.c1.vocab.widerlegen",
+    "de.c1.vocab.darueber_hinaus",
+    "de.c1.vocab.zunaechst",
+    "de.c1.vocab.zusammenfassend",
+    "de.c1.vocab.wie_bereits_erwaehnt"
+   ]
+  },
+  {
+   "id": "de.c1.u12.l01",
+   "unitId": "de.c1.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "C1 words review",
+    "ar": "مراجعة كلمات C1"
+   },
+   "items": [
+    "de.c1.vocab.abschlussarbeit",
+    "de.c1.vocab.hypothese",
+    "de.c1.vocab.zusammenfassung",
+    "de.c1.vocab.empirisch",
+    "de.c1.vocab.freiheit",
+    "de.c1.vocab.dilemma",
+    "de.c1.vocab.folge",
+    "de.c1.vocab.egoistisch",
+    "de.c1.vocab.lieferung",
+    "de.c1.vocab.beruecksichtigen",
+    "de.c1.vocab.parlament",
+    "de.c1.vocab.gesetzgebung",
+    "de.c1.vocab.mehrheit",
+    "de.c1.vocab.nachweis",
+    "de.c1.vocab.zusammenhang",
+    "de.c1.vocab.anscheinend",
+    "de.c1.vocab.annahme",
+    "de.c1.vocab.handlung",
+    "de.c1.vocab.metapher",
+    "de.c1.vocab.subtil",
+    "de.c1.vocab.ergreifend",
+    "de.c1.vocab.heimat",
+    "de.c1.vocab.insofern",
+    "de.c1.vocab.wortspiel",
+    "de.c1.vocab.necken",
+    "de.c1.vocab.nicht_mein_ding",
+    "de.c1.vocab.kuenstliche_intelligenz",
+    "de.c1.vocab.ueberwachung",
+    "de.c1.vocab.transparent",
+    "de.c1.vocab.rechenschaftspflichtig"
+   ]
+  },
+  {
+   "id": "de.c1.u12.l02",
+   "unitId": "de.c1.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "C1 exam",
+    "ar": "امتحان C1"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "de.c1.vocab.abschlussarbeit",
+   "lemma": "Abschlussarbeit",
+   "article": "die",
+   "plural": "Abschlussarbeiten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "رسالة علمية",
+    "en": "thesis"
+   },
+   "conceptId": "c.c1.thesis",
+   "sentenceIds": [
+    "de.c1.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.analyse",
+   "lemma": "Analyse",
+   "article": "die",
+   "plural": "Analysen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحليل",
+    "en": "analysis"
+   },
+   "conceptId": "c.c1.analysis",
+   "sentenceIds": [
+    "de.c1.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.vorlesung",
+   "lemma": "Vorlesung",
+   "article": "die",
+   "plural": "Vorlesungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محاضرة",
+    "en": "lecture"
+   },
+   "conceptId": "c.c1.lecture",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.hypothese",
+   "lemma": "Hypothese",
+   "article": "die",
+   "plural": "Hypothesen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فرضية",
+    "en": "hypothesis"
+   },
+   "conceptId": "c.c1.hypothesis",
+   "sentenceIds": [
+    "de.c1.sent.u01_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.untersuchen",
+   "lemma": "untersuchen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبحث في",
+    "en": "to investigate"
+   },
+   "conceptId": "c.c1.investigate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zitieren",
+   "lemma": "zitieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقتبس",
+    "en": "to quote"
+   },
+   "conceptId": "c.c1.quote_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zusammenfassung",
+   "lemma": "Zusammenfassung",
+   "article": "die",
+   "plural": "Zusammenfassungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملخص",
+    "en": "summary"
+   },
+   "conceptId": "c.c1.summary",
+   "sentenceIds": [
+    "de.c1.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.fussnote",
+   "lemma": "Fußnote",
+   "article": "die",
+   "plural": "Fußnoten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "هامش",
+    "en": "footnote"
+   },
+   "conceptId": "c.c1.footnote",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.relevant",
+   "lemma": "relevant",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرتبط بالموضوع",
+    "en": "relevant"
+   },
+   "conceptId": "c.c1.relevant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.empirisch",
+   "lemma": "empirisch",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تجريبي",
+    "en": "empirical"
+   },
+   "conceptId": "c.c1.empirical",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.befund",
+   "lemma": "Befund",
+   "article": "der",
+   "plural": "Befunde",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نتايج البحث",
+    "en": "findings"
+   },
+   "conceptId": "c.c1.findings",
+   "sentenceIds": [
+    "de.c1.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.moralisch",
+   "lemma": "moralisch",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أخلاقي",
+    "en": "moral"
+   },
+   "conceptId": "c.c1.moral",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.freiheit",
+   "lemma": "Freiheit",
+   "article": "die",
+   "plural": "Freiheiten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حرية",
+    "en": "freedom"
+   },
+   "conceptId": "c.c1.freedom",
+   "sentenceIds": [
+    "de.c1.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.gewissen",
+   "lemma": "Gewissen",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ضمير",
+    "en": "conscience"
+   },
+   "conceptId": "c.c1.conscience",
+   "sentenceIds": [
+    "de.c1.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.wuerde",
+   "lemma": "Würde",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "كرامة",
+    "en": "dignity"
+   },
+   "conceptId": "c.c1.dignity",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.dilemma",
+   "lemma": "Dilemma",
+   "article": "das",
+   "plural": "Dilemmas",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معضلة",
+    "en": "dilemma"
+   },
+   "conceptId": "c.c1.dilemma",
+   "sentenceIds": [
+    "de.c1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.rechtfertigen",
+   "lemma": "rechtfertigen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبرر",
+    "en": "to justify"
+   },
+   "conceptId": "c.c1.justify",
+   "sentenceIds": [
+    "de.c1.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.tugend",
+   "lemma": "Tugend",
+   "article": "die",
+   "plural": "Tugenden",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فضيلة",
+    "en": "virtue"
+   },
+   "conceptId": "c.c1.virtue",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.folge",
+   "lemma": "Folge",
+   "article": "die",
+   "plural": "Folgen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عاقبة",
+    "en": "consequence"
+   },
+   "conceptId": "c.c1.consequence",
+   "sentenceIds": [
+    "de.c1.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.philosoph",
+   "lemma": "Philosoph",
+   "article": "der",
+   "plural": "Philosophen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فيلسوف",
+    "en": "philosopher"
+   },
+   "conceptId": "c.c1.philosopher",
+   "sentenceIds": [
+    "de.c1.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.sollte",
+   "lemma": "sollte",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "المفروض",
+    "en": "to ought to"
+   },
+   "conceptId": "c.c1.ought_to",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.egoistisch",
+   "lemma": "egoistisch",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أناني",
+    "en": "selfish"
+   },
+   "conceptId": "c.c1.selfish",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.verhandlung",
+   "lemma": "Verhandlung",
+   "article": "die",
+   "plural": "Verhandlungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مفاوضة",
+    "en": "negotiation"
+   },
+   "conceptId": "c.c1.negotiation",
+   "sentenceIds": [
+    "de.c1.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.frist",
+   "lemma": "Frist",
+   "article": "die",
+   "plural": "Fristen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ميعاد التسليم",
+    "en": "deadline"
+   },
+   "conceptId": "c.c1.deadline",
+   "sentenceIds": [
+    "de.c1.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.lieferung",
+   "lemma": "Lieferung",
+   "article": "die",
+   "plural": "Lieferungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "توصيل",
+    "en": "delivery"
+   },
+   "conceptId": "c.c1.delivery",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.kompromiss",
+   "lemma": "Kompromiss",
+   "article": "der",
+   "plural": "Kompromisse",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حل وسط",
+    "en": "compromise"
+   },
+   "conceptId": "c.c1.compromise",
+   "sentenceIds": [
+    "de.c1.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.bedingung",
+   "lemma": "Bedingung",
+   "article": "die",
+   "plural": "Bedingungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شرط",
+    "en": "condition (of contract)"
+   },
+   "conceptId": "c.c1.condition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.beruecksichtigen",
+   "lemma": "berücksichtigen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد في الاعتبار",
+    "en": "to take into account"
+   },
+   "conceptId": "c.c1.take_into_account",
+   "sentenceIds": [
+    "de.c1.sent.u03_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.eine_entscheidung_treffen",
+   "lemma": "eine Entscheidung treffen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد قرار",
+    "en": "to make a decision"
+   },
+   "conceptId": "c.c1.make_decision",
+   "sentenceIds": [
+    "de.c1.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.massnahmen_ergreifen",
+   "lemma": "Maßnahmen ergreifen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ياخد إجراءات",
+    "en": "to take measures"
+   },
+   "conceptId": "c.c1.take_measures",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.parlament",
+   "lemma": "Parlament",
+   "article": "das",
+   "plural": "Parlamente",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "برلمان",
+    "en": "parliament"
+   },
+   "conceptId": "c.c1.parliament",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.union",
+   "lemma": "Union",
+   "article": "die",
+   "plural": "Unionen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اتحاد",
+    "en": "union"
+   },
+   "conceptId": "c.c1.union",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.mitgliedstaat",
+   "lemma": "Mitgliedstaat",
+   "article": "der",
+   "plural": "Mitgliedstaaten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دولة عضو",
+    "en": "member state"
+   },
+   "conceptId": "c.c1.member_state",
+   "sentenceIds": [
+    "de.c1.sent.u04_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.gesetzgebung",
+   "lemma": "Gesetzgebung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تشريع",
+    "en": "legislation"
+   },
+   "conceptId": "c.c1.legislation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.sprecher",
+   "lemma": "Sprecher",
+   "article": "der",
+   "plural": "Sprecher",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "متحدث رسمي",
+    "en": "spokesperson"
+   },
+   "conceptId": "c.c1.spokesperson",
+   "sentenceIds": [
+    "de.c1.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.opposition",
+   "lemma": "Opposition",
+   "article": "die",
+   "plural": "Oppositionen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "معارضة",
+    "en": "opposition"
+   },
+   "conceptId": "c.c1.opposition",
+   "sentenceIds": [
+    "de.c1.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.mehrheit",
+   "lemma": "Mehrheit",
+   "article": "die",
+   "plural": "Mehrheiten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أغلبية",
+    "en": "majority"
+   },
+   "conceptId": "c.c1.majority",
+   "sentenceIds": [
+    "de.c1.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.koalition",
+   "lemma": "Koalition",
+   "article": "die",
+   "plural": "Koalitionen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ائتلاف",
+    "en": "coalition"
+   },
+   "conceptId": "c.c1.coalition",
+   "sentenceIds": [
+    "de.c1.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ablehnen",
+   "lemma": "ablehnen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يرفض",
+    "en": "to reject"
+   },
+   "conceptId": "c.c1.reject",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.nachweis",
+   "lemma": "Nachweis",
+   "article": "der",
+   "plural": "Nachweise",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "دليل",
+    "en": "evidence"
+   },
+   "conceptId": "c.c1.evidence",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.methode",
+   "lemma": "Methode",
+   "article": "die",
+   "plural": "Methoden",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منهج",
+    "en": "method"
+   },
+   "conceptId": "c.c1.method",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.stichprobe",
+   "lemma": "Stichprobe",
+   "article": "die",
+   "plural": "Stichproben",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عينة",
+    "en": "sample (study)"
+   },
+   "conceptId": "c.c1.sample",
+   "sentenceIds": [
+    "de.c1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zusammenhang",
+   "lemma": "Zusammenhang",
+   "article": "der",
+   "plural": "Zusammenhänge",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ارتباط",
+    "en": "correlation"
+   },
+   "conceptId": "c.c1.correlation",
+   "sentenceIds": [
+    "de.c1.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.erheblich",
+   "lemma": "erheblich",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملحوظ",
+    "en": "significant"
+   },
+   "conceptId": "c.c1.significant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.vermutlich",
+   "lemma": "vermutlich",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على الأرجح",
+    "en": "presumably"
+   },
+   "conceptId": "c.c1.presumably",
+   "sentenceIds": [
+    "de.c1.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.anscheinend",
+   "lemma": "anscheinend",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "على ما يبدو",
+    "en": "apparently"
+   },
+   "conceptId": "c.c1.apparently",
+   "sentenceIds": [
+    "de.c1.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.dazu_neigen",
+   "lemma": "dazu neigen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يميل إلى",
+    "en": "to tend to"
+   },
+   "conceptId": "c.c1.tend_to",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.darauf_hindeuten",
+   "lemma": "darauf hindeuten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشير إلى",
+    "en": "to suggest, indicate"
+   },
+   "conceptId": "c.c1.suggest_indicate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.annahme",
+   "lemma": "Annahme",
+   "article": "die",
+   "plural": "Annahmen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "افتراض",
+    "en": "assumption"
+   },
+   "conceptId": "c.c1.assumption",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.einschraenkung",
+   "lemma": "Einschränkung",
+   "article": "die",
+   "plural": "Einschränkungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قصور",
+    "en": "limitation"
+   },
+   "conceptId": "c.c1.limitation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.szene",
+   "lemma": "Szene",
+   "article": "die",
+   "plural": "Szenen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشهد",
+    "en": "scene"
+   },
+   "conceptId": "c.c1.scene",
+   "sentenceIds": [
+    "de.c1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.handlung",
+   "lemma": "Handlung",
+   "article": "die",
+   "plural": "Handlungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "حبكة",
+    "en": "plot"
+   },
+   "conceptId": "c.c1.plot",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.erzaehler",
+   "lemma": "Erzähler",
+   "article": "der",
+   "plural": "Erzähler",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "راوي",
+    "en": "narrator"
+   },
+   "conceptId": "c.c1.narrator",
+   "sentenceIds": [
+    "de.c1.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.protagonist",
+   "lemma": "Protagonist",
+   "article": "der",
+   "plural": "Protagonisten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بطل القصة",
+    "en": "protagonist"
+   },
+   "conceptId": "c.c1.protagonist",
+   "sentenceIds": [
+    "de.c1.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.metapher",
+   "lemma": "Metapher",
+   "article": "die",
+   "plural": "Metaphern",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "استعارة",
+    "en": "metaphor"
+   },
+   "conceptId": "c.c1.metaphor",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ironie",
+   "lemma": "Ironie",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سخرية",
+    "en": "irony"
+   },
+   "conceptId": "c.c1.irony",
+   "sentenceIds": [
+    "de.c1.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.spannung",
+   "lemma": "Spannung",
+   "article": "die",
+   "plural": "Spannungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "توتر / تشويق",
+    "en": "tension, suspense"
+   },
+   "conceptId": "c.c1.tension",
+   "sentenceIds": [
+    "de.c1.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.subtil",
+   "lemma": "subtil",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خفي",
+    "en": "subtle"
+   },
+   "conceptId": "c.c1.subtle",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.darstellen",
+   "lemma": "darstellen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يصوّر",
+    "en": "to depict"
+   },
+   "conceptId": "c.c1.depict",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.regisseur",
+   "lemma": "Regisseur",
+   "article": "der",
+   "plural": "Regisseure",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مخرج",
+    "en": "film director"
+   },
+   "conceptId": "c.c1.director",
+   "sentenceIds": [
+    "de.c1.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ergreifend",
+   "lemma": "ergreifend",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مؤثر",
+    "en": "moving"
+   },
+   "conceptId": "c.c1.moving",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.identitaet",
+   "lemma": "Identität",
+   "article": "die",
+   "plural": "Identitäten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "هوية",
+    "en": "identity"
+   },
+   "conceptId": "c.c1.identity",
+   "sentenceIds": [
+    "de.c1.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zugehoerigkeit",
+   "lemma": "Zugehörigkeit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "انتماء",
+    "en": "belonging"
+   },
+   "conceptId": "c.c1.belonging",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.heimat",
+   "lemma": "Heimat",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "وطن",
+    "en": "homeland"
+   },
+   "conceptId": "c.c1.homeland",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.vielfalt",
+   "lemma": "Vielfalt",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تنوع",
+    "en": "diversity"
+   },
+   "conceptId": "c.c1.diversity",
+   "sentenceIds": [
+    "de.c1.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.wurzel",
+   "lemma": "Wurzel",
+   "article": "die",
+   "plural": "Wurzeln",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "جذور",
+    "en": "roots"
+   },
+   "conceptId": "c.c1.roots",
+   "sentenceIds": [
+    "de.c1.sent.u07_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.insofern",
+   "lemma": "insofern",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "بقدر ما",
+    "en": "insofar as"
+   },
+   "conceptId": "c.c1.insofar_as",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.witz",
+   "lemma": "Witz",
+   "article": "der",
+   "plural": "Witze",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نكتة",
+    "en": "joke"
+   },
+   "conceptId": "c.c1.joke",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.redewendung",
+   "lemma": "Redewendung",
+   "article": "die",
+   "plural": "Redewendungen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تعبير اصطلاحي",
+    "en": "idiom"
+   },
+   "conceptId": "c.c1.idiom",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.wortspiel",
+   "lemma": "Wortspiel",
+   "article": "das",
+   "plural": "Wortspiele",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تلاعب بالألفاظ",
+    "en": "pun"
+   },
+   "conceptId": "c.c1.pun",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.sarkastisch",
+   "lemma": "sarkastisch",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ساخر",
+    "en": "sarcastic"
+   },
+   "conceptId": "c.c1.sarcastic",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.uebertreiben",
+   "lemma": "übertreiben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبالغ",
+    "en": "to exaggerate"
+   },
+   "conceptId": "c.c1.exaggerate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.necken",
+   "lemma": "necken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يغلّس على / يهزر مع",
+    "en": "to tease"
+   },
+   "conceptId": "c.c1.tease",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.auslachen",
+   "lemma": "auslachen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يضحك على",
+    "en": "to laugh at"
+   },
+   "conceptId": "c.c1.laugh_at",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.pointe",
+   "lemma": "Pointe",
+   "article": "die",
+   "plural": "Pointen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "قفلة النكتة",
+    "en": "punchline"
+   },
+   "conceptId": "c.c1.punchline",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.nicht_mein_ding",
+   "lemma": "nicht mein Ding",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش بتاعي",
+    "en": "not my cup of tea"
+   },
+   "conceptId": "c.c1.not_my_cup_of_tea",
+   "sentenceIds": [
+    "de.c1.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ein_kinderspiel",
+   "lemma": "ein Kinderspiel",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سهلة جدًا",
+    "en": "a piece of cake"
+   },
+   "conceptId": "c.c1.piece_of_cake",
+   "sentenceIds": [
+    "de.c1.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.jemanden_auf_den_arm_nehmen",
+   "lemma": "jemanden auf den Arm nehmen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يشتغل حد",
+    "en": "to pull someone's leg"
+   },
+   "conceptId": "c.c1.pull_someones_leg",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.kuenstliche_intelligenz",
+   "lemma": "künstliche Intelligenz",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ذكاء اصطناعي",
+    "en": "artificial intelligence"
+   },
+   "conceptId": "c.c1.artificial_intelligence",
+   "sentenceIds": [
+    "de.c1.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.algorithmus",
+   "lemma": "Algorithmus",
+   "article": "der",
+   "plural": "Algorithmen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خوارزمية",
+    "en": "algorithm"
+   },
+   "conceptId": "c.c1.algorithm",
+   "sentenceIds": [
+    "de.c1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.risiko",
+   "lemma": "Risiko",
+   "article": "das",
+   "plural": "Risiken",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خطر",
+    "en": "risk"
+   },
+   "conceptId": "c.c1.risk",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ueberwachung",
+   "lemma": "Überwachung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مراقبة",
+    "en": "surveillance"
+   },
+   "conceptId": "c.c1.surveillance",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.automatisieren",
+   "lemma": "automatisieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يميكن",
+    "en": "to automate"
+   },
+   "conceptId": "c.c1.automate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.ersetzen",
+   "lemma": "ersetzen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستبدل",
+    "en": "to replace"
+   },
+   "conceptId": "c.c1.replace",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.transparent",
+   "lemma": "transparent",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شفاف",
+    "en": "transparent"
+   },
+   "conceptId": "c.c1.transparent",
+   "sentenceIds": [
+    "de.c1.sent.u09_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.voreingenommenheit",
+   "lemma": "Voreingenommenheit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "تحيز",
+    "en": "bias"
+   },
+   "conceptId": "c.c1.bias",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.regulieren",
+   "lemma": "regulieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينظّم بقانون",
+    "en": "to regulate"
+   },
+   "conceptId": "c.c1.regulate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.rechenschaftspflichtig",
+   "lemma": "rechenschaftspflichtig",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسؤول (يتحاسب)",
+    "en": "accountable"
+   },
+   "conceptId": "c.c1.accountable",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.oesterreich",
+   "lemma": "Österreich",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "النمسا",
+    "en": "Austria"
+   },
+   "conceptId": "c.c1.austria",
+   "sentenceIds": [
+    "de.c1.sent.u10_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.schweiz",
+   "lemma": "Schweiz",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "سويسرا",
+    "en": "Switzerland"
+   },
+   "conceptId": "c.c1.switzerland",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.flandern",
+   "lemma": "Flandern",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "فلاندرز",
+    "en": "Flanders"
+   },
+   "conceptId": "c.c1.flanders",
+   "sentenceIds": [
+    "de.c1.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.lateinamerika",
+   "lemma": "Lateinamerika",
+   "article": null,
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أمريكا اللاتينية",
+    "en": "Latin America"
+   },
+   "conceptId": "c.c1.latin_america",
+   "sentenceIds": [
+    "de.c1.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.akzent",
+   "lemma": "Akzent",
+   "article": "der",
+   "plural": "Akzente",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "لكنة",
+    "en": "accent"
+   },
+   "conceptId": "c.c1.accent",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.varietaet",
+   "lemma": "Varietät",
+   "article": "die",
+   "plural": "Varietäten",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "نوع / صيغة",
+    "en": "variety (of a language)"
+   },
+   "conceptId": "c.c1.variety",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.standardsprache",
+   "lemma": "Standardsprache",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "اللغة الفصحى",
+    "en": "standard language"
+   },
+   "conceptId": "c.c1.standard_language",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.region",
+   "lemma": "Region",
+   "article": "die",
+   "plural": "Regionen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "منطقة",
+    "en": "region"
+   },
+   "conceptId": "c.c1.region",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.regional",
+   "lemma": "regional",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "إقليمي",
+    "en": "regional"
+   },
+   "conceptId": "c.c1.regional",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.einheimisch",
+   "lemma": "einheimisch",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "محلي",
+    "en": "local"
+   },
+   "conceptId": "c.c1.local",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.praesentation",
+   "lemma": "Präsentation",
+   "article": "die",
+   "plural": "Präsentationen",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "عرض تقديمي",
+    "en": "presentation"
+   },
+   "conceptId": "c.c1.presentation",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.fazit",
+   "lemma": "Fazit",
+   "article": "das",
+   "plural": "Fazits",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "خاتمة",
+    "en": "conclusion"
+   },
+   "conceptId": "c.c1.conclusion",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.folie",
+   "lemma": "Folie",
+   "article": "die",
+   "plural": "Folien",
+   "pos": "noun",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "شريحة",
+    "en": "slide (presentation)"
+   },
+   "conceptId": "c.c1.slide",
+   "sentenceIds": [
+    "de.c1.sent.u11_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.hervorheben",
+   "lemma": "hervorheben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأكّد على",
+    "en": "to emphasise"
+   },
+   "conceptId": "c.c1.emphasise",
+   "sentenceIds": [
+    "de.c1.sent.u11_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.veranschaulichen",
+   "lemma": "veranschaulichen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوضّح",
+    "en": "to illustrate"
+   },
+   "conceptId": "c.c1.illustrate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.widerlegen",
+   "lemma": "widerlegen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفنّد",
+    "en": "to refute"
+   },
+   "conceptId": "c.c1.refute",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.darueber_hinaus",
+   "lemma": "darüber hinaus",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاوة على ذلك",
+    "en": "moreover"
+   },
+   "conceptId": "c.c1.moreover",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zunaechst",
+   "lemma": "zunächst",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "أولًا",
+    "en": "first of all"
+   },
+   "conceptId": "c.c1.first_of_all",
+   "sentenceIds": [
+    "de.c1.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.zusammenfassend",
+   "lemma": "zusammenfassend",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "باختصار",
+    "en": "to sum up"
+   },
+   "conceptId": "c.c1.to_sum_up",
+   "sentenceIds": [
+    "de.c1.sent.u11_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.vocab.wie_bereits_erwaehnt",
+   "lemma": "wie bereits erwähnt",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "C1",
+   "freqRank": null,
+   "translations": {
+    "ar": "زي ما قلت",
+    "en": "as mentioned"
+   },
+   "conceptId": "c.c1.as_mentioned",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "de.c1.sent.u01_01",
+   "text": "Die Analyse der Daten bestätigt die Hypothese.",
+   "translations": {
+    "ar": "تحليل البيانات بيأكد الفرضية.",
+    "en": "The analysis of the data confirms the hypothesis."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u01_02",
+   "text": "In meiner Abschlussarbeit untersuche ich den Gebrauch von Dialekten.",
+   "translations": {
+    "ar": "في رسالتي ببحث في استخدام اللهجات.",
+    "en": "In my thesis I investigate the use of dialects."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u01_03",
+   "text": "Die Zusammenfassung stellt die wichtigsten Befunde dar.",
+   "translations": {
+    "ar": "الملخص بيعرض أهم نتايج البحث.",
+    "en": "The summary presents the main findings."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u02_01",
+   "text": "Wer ein Gewissen hat, kann das nicht rechtfertigen.",
+   "translations": {
+    "ar": "اللي عنده ضمير ما يقدرش يبرر ده.",
+    "en": "Whoever has a conscience cannot justify that."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u02_02",
+   "text": "Freiheit ohne Verantwortung hat Folgen.",
+   "translations": {
+    "ar": "الحرية من غير مسؤولية ليها عواقب.",
+    "en": "Freedom without responsibility has consequences."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u02_03",
+   "text": "Der Philosoph beschreibt ein moralisches Dilemma.",
+   "translations": {
+    "ar": "الفيلسوف بيوصف معضلة أخلاقية.",
+    "en": "The philosopher describes a moral dilemma."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u03_01",
+   "text": "Wir müssen vor Ablauf der Frist eine Entscheidung treffen.",
+   "translations": {
+    "ar": "لازم ناخد قرار قبل ميعاد التسليم.",
+    "en": "We have to make a decision before the deadline."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u03_02",
+   "text": "Wir werden Ihre Wünsche berücksichtigen.",
+   "translations": {
+    "ar": "هناخد طلباتك في الاعتبار.",
+    "en": "We will take your wishes into account."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u03_03",
+   "text": "Nach langen Verhandlungen haben wir einen Kompromiss gefunden.",
+   "translations": {
+    "ar": "بعد مفاوضات طويلة لقينا حل وسط.",
+    "en": "After long negotiations we found a compromise."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u04_01",
+   "text": "Der Sprecher sagte, die Mehrheit habe das Gesetz abgelehnt.",
+   "translations": {
+    "ar": "المتحدث الرسمي قال إن الأغلبية رفضت القانون.",
+    "en": "The spokesperson said the majority had rejected the law."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u04_02",
+   "text": "Jeder Mitgliedstaat muss den Vertrag unterzeichnen.",
+   "translations": {
+    "ar": "كل دولة عضو لازم تمضي على المعاهدة.",
+    "en": "Every member state must sign the treaty."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u04_03",
+   "text": "Die Koalition braucht die Opposition.",
+   "translations": {
+    "ar": "الائتلاف محتاج المعارضة.",
+    "en": "The coalition needs the opposition."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u05_01",
+   "text": "Die Ergebnisse deuten auf einen Zusammenhang hin.",
+   "translations": {
+    "ar": "النتايج بتشير إلى ارتباط.",
+    "en": "The results suggest a correlation."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u05_02",
+   "text": "Die Stichprobe war anscheinend zu klein.",
+   "translations": {
+    "ar": "العينة على ما يبدو كانت صغيرة أوي.",
+    "en": "The sample was apparently too small."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u05_03",
+   "text": "Das ist vermutlich nicht die einzige Ursache.",
+   "translations": {
+    "ar": "ده على الأرجح مش السبب الوحيد.",
+    "en": "This is presumably not the only cause."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u06_01",
+   "text": "Der Regisseur stellt den Krieg mit subtiler Ironie dar.",
+   "translations": {
+    "ar": "المخرج بيصوّر الحرب بسخرية خفية.",
+    "en": "The director depicts the war with subtle irony."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u06_02",
+   "text": "Die Spannung steigt von Szene zu Szene.",
+   "translations": {
+    "ar": "التشويق بيزيد من مشهد لمشهد.",
+    "en": "The tension rises from scene to scene."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u06_03",
+   "text": "Der Erzähler ist nicht der Protagonist.",
+   "translations": {
+    "ar": "الراوي مش بطل القصة.",
+    "en": "The narrator is not the protagonist."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u07_01",
+   "text": "Meine Wurzeln liegen in Ägypten, während meine Kinder sich als Niederländer fühlen.",
+   "translations": {
+    "ar": "جذوري في مصر، في حين إن ولادي حاسين إنهم هولنديين.",
+    "en": "My roots are in Egypt, whereas my children feel Dutch."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u07_02",
+   "text": "Heimweh ist Teil meiner Identität.",
+   "translations": {
+    "ar": "الحنين للوطن جزء من هويتي.",
+    "en": "Homesickness is part of my identity."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u07_03",
+   "text": "Vielfalt bereichert eine Gesellschaft.",
+   "translations": {
+    "ar": "التنوع بيغني المجتمع.",
+    "en": "Diversity enriches a society."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u08_01",
+   "text": "Willst du mich auf den Arm nehmen?",
+   "translations": {
+    "ar": "إنت بتشتغلني؟",
+    "en": "Are you pulling my leg?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u08_02",
+   "text": "Die Prüfung war ein Kinderspiel.",
+   "translations": {
+    "ar": "الامتحان كان سهل جدًا.",
+    "en": "The exam was a piece of cake."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u08_03",
+   "text": "Oper ist nicht mein Ding.",
+   "translations": {
+    "ar": "الأوبرا مش بتاعتي.",
+    "en": "Opera is not my cup of tea."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u09_01",
+   "text": "Die vom Algorithmus getroffenen Entscheidungen müssen transparent sein.",
+   "translations": {
+    "ar": "القرارات اللي بتاخدها الخوارزمية لازم تبقى شفافة.",
+    "en": "The decisions made by the algorithm must be transparent."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u09_02",
+   "text": "Viele Arbeitsplätze werden durch Roboter ersetzt.",
+   "translations": {
+    "ar": "شغلانات كتير بتتبدل بروبوتات.",
+    "en": "Many jobs are being replaced by robots."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u09_03",
+   "text": "Künstliche Intelligenz muss reguliert werden.",
+   "translations": {
+    "ar": "الذكاء الاصطناعي لازم يتنظّم بقانون.",
+    "en": "Artificial intelligence has to be regulated."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u10_01",
+   "text": "In Österreich sagt man Jänner statt Januar.",
+   "translations": {
+    "ar": "في النمسا بيقولوا Jänner بدل Januar.",
+    "en": "In Austria people say Jänner instead of Januar."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u10_02",
+   "text": "In Flandern ist die Aussprache weicher.",
+   "translations": {
+    "ar": "في فلاندرز النطق أنعم.",
+    "en": "In Flanders the pronunciation is softer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u10_03",
+   "text": "In Lateinamerika sagt man ustedes statt vosotros.",
+   "translations": {
+    "ar": "في أمريكا اللاتينية بيقولوا ustedes بدل vosotros.",
+    "en": "In Latin America people say ustedes instead of vosotros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u11_01",
+   "text": "Zunächst möchte ich dem Publikum danken.",
+   "translations": {
+    "ar": "أولًا حابب أشكر الجمهور.",
+    "en": "First of all I would like to thank the audience."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u11_02",
+   "text": "Diese Folie veranschaulicht das Problem.",
+   "translations": {
+    "ar": "الشريحة دي بتوضّح المشكلة.",
+    "en": "This slide illustrates the problem."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.c1.sent.u11_03",
+   "text": "Zusammenfassend möchte ich drei Punkte hervorheben.",
+   "translations": {
+    "ar": "باختصار، حابب أأكّد على تلات نقط.",
+    "en": "To sum up, I would like to emphasise three points."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "de.c1.gram.u01",
+   "level": "C1",
+   "title": {
+    "en": "Academic nominal style",
+    "ar": "الأسلوب الاسمي الأكاديمي"
+   },
+   "explanation": {
+    "en": "Academic German packs meaning into noun phrases. A verb clause becomes a noun with genitive and prepositional attributes:\n- Man analysiert die Daten. → die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... → Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... → Aufgrund der steigenden Preise ...\n\nTo read such texts, unpack the noun back into a clause.",
+    "ar": "الألماني الأكاديمي بيحط المعنى في عبارات اسمية. جملة فعلية بتبقى اسم مع إضافة وحروف جر:\n- Man analysiert die Daten. ← die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... ← Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... ← Aufgrund der steigenden Preise ...\n\nعشان تقرا النصوص دي، فكّ الاسم وارجعه جملة."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u01_01",
+    "de.c1.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Nach der ___ der Studie (veröffentlichen)",
+     "answer": "Veröffentlichung",
+     "base": "veröffentlichen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die Analyse ___ Daten",
+     "answer": "der",
+     "base": "die"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Weil die Preise steigen → Aufgrund der ___ Preise",
+     "answer": "steigenden",
+     "base": "steigen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "untersuchen → die ___",
+     "answer": "Untersuchung",
+     "base": "untersuchen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u02",
+   "level": "C1",
+   "title": {
+    "en": "Complex subordinate clauses",
+    "ar": "الجمل الفرعية المركبة"
+   },
+   "explanation": {
+    "en": "C1 texts nest clauses inside clauses. Useful patterns:\n- wer ..., (der) ...: Wer ein Gewissen hat, (der) kann das nicht rechtfertigen.\n- was after alles, nichts, etwas, das: Alles, was er sagt, ...\n- je ... desto/umso: Je länger ich nachdenke, desto unsicherer werde ich.\n- ohne dass / anstatt dass / als ob + subjunctive: Er tut, als ob er nichts wüsste.\n\nIn every subordinate clause the verb goes to the end; with two infinitives the finite verb comes first: ..., dass er es hätte wissen müssen.",
+    "ar": "نصوص C1 بتحط جمل جوه جمل. تراكيب مفيدة:\n- wer ..., (der) ...: Wer ein Gewissen hat, (der) kann das nicht rechtfertigen.\n- was بعد alles وnichts وetwas وdas: Alles, was er sagt, ...\n- je ... desto/umso: Je länger ich nachdenke, desto unsicherer werde ich.\n- ohne dass / anstatt dass / als ob + Konjunktiv: Er tut, als ob er nichts wüsste.\n\nفي كل جملة فرعية الفعل بيروح الآخر؛ ومع مصدرين الفعل المصرّف بييجي الأول: ..., dass er es hätte wissen müssen."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u02_01",
+    "de.c1.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ ein Gewissen hat, kann das nicht rechtfertigen.",
+     "answer": "Wer",
+     "base": "wer"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Alles, ___ er sagt, stimmt.",
+     "answer": "was",
+     "base": "was"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Je länger ich nachdenke, ___ unsicherer werde ich.",
+     "answer": "desto",
+     "base": "desto"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er tut, als ob er nichts ___. (wissen, KII)",
+     "answer": "wüsste",
+     "base": "wissen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u03",
+   "level": "C1",
+   "title": {
+    "en": "Functional verb structures (Funktionsverbgefüge)",
+    "ar": "التراكيب الفعلية الاسمية"
+   },
+   "explanation": {
+    "en": "Formal German often replaces a simple verb with noun + 'light' verb. The noun carries the meaning:\n- entscheiden → eine Entscheidung treffen\n- berücksichtigen → in Betracht ziehen\n- anwenden → zur Anwendung kommen\n- fragen → eine Frage stellen\n- handeln → Maßnahmen ergreifen\n- beeinflussen → Einfluss nehmen auf\n\nLearn them as fixed pairs: you cannot swap the verb.",
+    "ar": "الألماني الرسمي كتير بيبدّل فعل بسيط بـ اسم + فعل 'خفيف'. الاسم هو اللي شايل المعنى:\n- entscheiden ← eine Entscheidung treffen\n- berücksichtigen ← in Betracht ziehen\n- anwenden ← zur Anwendung kommen\n- fragen ← eine Frage stellen\n- handeln ← Maßnahmen ergreifen\n- beeinflussen ← Einfluss nehmen auf\n\nاحفظهم كأزواج ثابتة: ما ينفعش تغيّر الفعل."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u03_01",
+    "de.c1.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "eine Entscheidung ___",
+     "answer": "treffen",
+     "base": "treffen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "eine Frage ___",
+     "answer": "stellen",
+     "base": "stellen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Maßnahmen ___",
+     "answer": "ergreifen",
+     "base": "ergreifen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "in Betracht ___",
+     "answer": "ziehen",
+     "base": "ziehen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u04",
+   "level": "C1",
+   "title": {
+    "en": "Konjunktiv I in reporting",
+    "ar": "Konjunktiv I في نقل الأخبار"
+   },
+   "explanation": {
+    "en": "Journalists keep a distance from what they report by using Konjunktiv I throughout, often without dass:\n- Der Sprecher sagte, die Mehrheit habe das Gesetz abgelehnt. Man werde weiter verhandeln.\n- Future: werde + infinitive: Die Union werde handeln.\n- Questions: ob / question word: Er fragte, ob das stimme.\n- Commands: sollen/mögen: Er forderte, man solle schneller handeln.\n\nReporting verbs: betonen, erklären, kritisieren, einräumen (admit), bestreiten (deny).",
+    "ar": "الصحفيين بيبعدوا نفسهم عن الكلام اللي بينقلوه باستخدام Konjunktiv I طول الوقت، وكتير من غير dass:\n- Der Sprecher sagte, die Mehrheit habe das Gesetz abgelehnt. Man werde weiter verhandeln.\n- المستقبل: werde + مصدر: Die Union werde handeln.\n- الأسئلة: ob / أداة سؤال: Er fragte, ob das stimme.\n- الأوامر: sollen/mögen: Er forderte, man solle schneller handeln.\n\nأفعال النقل: betonen، erklären، kritisieren، einräumen (يعترف)، bestreiten (ينكر)."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u04_01",
+    "de.c1.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Er sagte, die Mehrheit ___ das Gesetz abgelehnt. (haben)",
+     "answer": "habe",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Man ___ weiter verhandeln. (werden, KI)",
+     "answer": "werde",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er fragte, ob das ___. (stimmen, KI)",
+     "answer": "stimme",
+     "base": "stimmen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er forderte, man ___ schneller handeln. (sollen, KI)",
+     "answer": "solle",
+     "base": "sollen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u05",
+   "level": "C1",
+   "title": {
+    "en": "Hedging and stance",
+    "ar": "التحفظ والموقف"
+   },
+   "explanation": {
+    "en": "Careful writers avoid absolute claims. German tools:\n- adverbs: vermutlich, wahrscheinlich, anscheinend, offenbar, möglicherweise\n- verbs: scheinen zu, darauf hindeuten, sich zeigen, lassen vermuten\n- Konjunktiv II: Das könnte bedeuten, dass ... Man müsste prüfen, ob ...\n- impersonal phrases: Es ist anzunehmen, dass ... Es lässt sich nicht ausschließen, dass ...",
+    "ar": "الكتّاب الحريصين بيبعدوا عن الأحكام المطلقة. أدوات الألماني:\n- ظروف: vermutlich، wahrscheinlich، anscheinend، offenbar، möglicherweise\n- أفعال: scheinen zu، darauf hindeuten، sich zeigen، lassen vermuten\n- Konjunktiv II: Das könnte bedeuten, dass ... Man müsste prüfen, ob ...\n- عبارات غير شخصية: Es ist anzunehmen, dass ... Es lässt sich nicht ausschließen, dass ..."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u05_01",
+    "de.c1.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Das ___ bedeuten, dass ... (KII, können)",
+     "answer": "könnte",
+     "base": "können"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Die Ergebnisse deuten ___ einen Zusammenhang hin.",
+     "answer": "auf",
+     "base": "auf"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es ist ___, dass ... (anzunehmen)",
+     "answer": "anzunehmen",
+     "base": "annehmen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ müde zu sein. (scheinen)",
+     "answer": "scheint",
+     "base": "scheinen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u06",
+   "level": "C1",
+   "title": {
+    "en": "Stylistic devices",
+    "ar": "الأدوات البلاغية"
+   },
+   "explanation": {
+    "en": "To discuss style, name the device and its effect:\n- die Metapher: Das Leben ist eine Reise.\n- der Vergleich (simile): stark wie ein Bär\n- die Wiederholung / Anapher: Ich kam, ich sah, ich siegte.\n- die Ironie: saying the opposite of what is meant\n- die rhetorische Frage\n- word order for emphasis: Den Film habe ich nicht verstanden. (object first = focus)\n\nUseful verbs: Der Autor verwendet ..., um ... zu ...; Dadurch wird ... betont.",
+    "ar": "عشان تتكلم عن الأسلوب، سمّي الأداة وأثرها:\n- die Metapher: Das Leben ist eine Reise.\n- der Vergleich (تشبيه): stark wie ein Bär\n- die Wiederholung / Anapher: Ich kam, ich sah, ich siegte.\n- die Ironie: إنك تقول عكس اللي تقصده\n- die rhetorische Frage (سؤال بلاغي)\n- ترتيب الكلمات للتأكيد: Den Film habe ich nicht verstanden. (المفعول الأول = تركيز)\n\nأفعال مفيدة: Der Autor verwendet ..., um ... zu ...؛ Dadurch wird ... betont."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u06_01",
+    "de.c1.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "stark ___ ein Bär (simile)",
+     "answer": "wie",
+     "base": "wie"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Der Autor verwendet Ironie, ___ Kritik zu üben.",
+     "answer": "um",
+     "base": "um"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Dadurch ___ die Spannung betont. (passive)",
+     "answer": "wird",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Leben ist eine Reise: eine ___",
+     "answer": "Metapher",
+     "base": "Metapher"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u07",
+   "level": "C1",
+   "title": {
+    "en": "Advanced connectors",
+    "ar": "أدوات ربط متقدمة"
+   },
+   "explanation": {
+    "en": "Precise connectors show exact logical relations:\n- während / wohingegen: contrast: Ich bleibe, wohingegen er auswandert.\n- insofern (als): to the extent that: Das stimmt insofern, als ...\n- sofern / vorausgesetzt, dass: provided that\n- indem: by (doing): Man lernt, indem man spricht.\n- geschweige denn: let alone\n- zumal / zumindest / allerdings / immerhin\n\nwährend, wohingegen, sofern and indem send the verb to the end.",
+    "ar": "أدوات الربط الدقيقة بتوضّح العلاقة المنطقية بالظبط:\n- während / wohingegen: مقارنة: Ich bleibe, wohingegen er auswandert.\n- insofern (als): بقدر ما: Das stimmt insofern, als ...\n- sofern / vorausgesetzt, dass: بشرط إن\n- indem: عن طريق: Man lernt, indem man spricht.\n- geschweige denn: ناهيك عن\n- zumal / zumindest / allerdings / immerhin\n\nwährend وwohingegen وsofern وindem بيبعتوا الفعل للآخر."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u07_01",
+    "de.c1.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Man lernt, ___ man spricht. (by)",
+     "answer": "indem",
+     "base": "indem"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich bleibe, ___ er auswandert. (whereas)",
+     "answer": "wohingegen",
+     "base": "wohingegen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das stimmt insofern, ___ ...",
+     "answer": "als",
+     "base": "als"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er spricht kein Englisch, geschweige ___ Deutsch.",
+     "answer": "denn",
+     "base": "denn"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u08",
+   "level": "C1",
+   "title": {
+    "en": "Idiomatic expressions",
+    "ar": "التعبيرات الاصطلاحية"
+   },
+   "explanation": {
+    "en": "Idioms cannot be translated word for word. Learn them as whole chunks with their register:\n- Ich verstehe nur Bahnhof. (I don't understand a thing)\n- Das ist nicht mein Bier. (not my business)\n- Tomaten auf den Augen haben (to miss the obvious)\n- jemanden auf den Arm nehmen (pull someone's leg)\n- Daumen drücken (keep your fingers crossed)\n\nThe verb inside an idiom still conjugates and moves: Ich drücke dir die Daumen.",
+    "ar": "التعبيرات الاصطلاحية ما بتتترجمش كلمة كلمة. احفظها كقطعة واحدة مع مستواها:\n- Ich verstehe nur Bahnhof. (مش فاهم حاجة)\n- Das ist nicht mein Bier. (مش شغلي)\n- Tomaten auf den Augen haben (مش شايف الحاجة الواضحة)\n- jemanden auf den Arm nehmen (يشتغل حد)\n- Daumen drücken (يتمنى له الحظ)\n\nوالفعل جوه التعبير بيتصرّف ويتحرك عادي: Ich drücke dir die Daumen."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u08_01",
+    "de.c1.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich verstehe nur ___. (nothing)",
+     "answer": "Bahnhof",
+     "base": "Bahnhof"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich drücke dir die ___.",
+     "answer": "Daumen",
+     "base": "Daumen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Willst du mich auf den ___ nehmen?",
+     "answer": "Arm",
+     "base": "Arm"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ist nicht mein ___. (not my business)",
+     "answer": "Bier",
+     "base": "Bier"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u09",
+   "level": "C1",
+   "title": {
+    "en": "Advanced passive and participle constructions",
+    "ar": "المبني للمجهول والـ Partizip المتقدم"
+   },
+   "explanation": {
+    "en": "Advanced passive forms:\n- with modals: muss reguliert werden; hätte geprüft werden müssen\n- state passive (sein): Die Daten sind gespeichert.\n- agents: von (person/agent) vs durch (means): durch Roboter ersetzt\n- participle attributes with agent: die vom Algorithmus getroffenen Entscheidungen\n- zu + Partizip I (must be done): die zu prüfenden Daten (= die Daten, die geprüft werden müssen)",
+    "ar": "صيغ مبني للمجهول متقدمة:\n- مع أفعال الوجه: muss reguliert werden؛ hätte geprüft werden müssen\n- مبني للمجهول للحالة (sein): Die Daten sind gespeichert.\n- الفاعل: von (شخص/فاعل) وdurch (وسيلة): durch Roboter ersetzt\n- صفات Partizip مع فاعل: die vom Algorithmus getroffenen Entscheidungen\n- zu + Partizip I (لازم يتعمل): die zu prüfenden Daten (= die Daten, die geprüft werden müssen)"
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u09_01",
+    "de.c1.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "KI muss reguliert ___.",
+     "answer": "werden",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die vom Algorithmus ___ Entscheidungen (treffen)",
+     "answer": "getroffenen",
+     "base": "treffen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Viele Jobs werden ___ Roboter ersetzt. (means)",
+     "answer": "durch",
+     "base": "durch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "die zu ___ Daten (prüfen, must be checked)",
+     "answer": "prüfenden",
+     "base": "prüfen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u10",
+   "level": "C1",
+   "title": {
+    "en": "Regional variation",
+    "ar": "الاختلاف الإقليمي"
+   },
+   "explanation": {
+    "en": "German is a pluricentric language: Germany, Austria and Switzerland each have a standard.\n- Austria: Jänner (Januar), Paradeiser (Tomate), heuer (dieses Jahr), Sackerl (Tüte); perfect of sitzen/stehen/liegen with sein: Ich bin gesessen.\n- Switzerland: no ß (Strasse), Velo (Fahrrad), parkieren (parken), grüezi.\n- South Germany: Grüß Gott, Servus; north: Moin.",
+    "ar": "الألماني لغة ليها أكتر من مركز: ألمانيا والنمسا وسويسرا كل واحدة ليها فصحى.\n- النمسا: Jänner (Januar)، Paradeiser (Tomate)، heuer (dieses Jahr)، Sackerl (Tüte)؛ والماضي التام لـ sitzen/stehen/liegen بـ sein: Ich bin gesessen.\n- سويسرا: مفيش ß (Strasse)، Velo (Fahrrad)، parkieren (parken)، grüezi.\n- جنوب ألمانيا: Grüß Gott، Servus؛ والشمال: Moin."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u10_01",
+    "de.c1.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Austria: Januar → ___",
+     "answer": "Jänner",
+     "base": "Januar"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Switzerland: Fahrrad → ___",
+     "answer": "Velo",
+     "base": "Fahrrad"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Austria: Ich ___ gesessen. (auxiliary)",
+     "answer": "bin",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Switzerland: Straße → ___",
+     "answer": "Strasse",
+     "base": "Straße"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.c1.gram.u11",
+   "level": "C1",
+   "title": {
+    "en": "Discourse markers",
+    "ar": "علامات الخطاب"
+   },
+   "explanation": {
+    "en": "Discourse markers guide listeners through a talk:\n- opening: Zunächst möchte ich ... / Im Folgenden werde ich ...\n- moving on: Damit komme ich zum nächsten Punkt. / Kommen wir nun zu ...\n- referring back: Wie bereits erwähnt, ...\n- emphasising: Hervorzuheben ist, dass ... / Entscheidend ist ...\n- example: Nehmen wir zum Beispiel ...\n- closing: Zusammenfassend lässt sich sagen, dass ... / Vielen Dank für Ihre Aufmerksamkeit.",
+    "ar": "علامات الخطاب بتوجّه المستمعين خلال العرض:\n- البداية: Zunächst möchte ich ... / Im Folgenden werde ich ...\n- الانتقال: Damit komme ich zum nächsten Punkt. / Kommen wir nun zu ...\n- الرجوع لحاجة: Wie bereits erwähnt, ...\n- التأكيد: Hervorzuheben ist, dass ... / Entscheidend ist ...\n- مثال: Nehmen wir zum Beispiel ...\n- الختام: Zusammenfassend lässt sich sagen, dass ... / Vielen Dank für Ihre Aufmerksamkeit."
+   },
+   "exampleSentenceIds": [
+    "de.c1.sent.u11_01",
+    "de.c1.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Damit ___ ich zum nächsten Punkt.",
+     "answer": "komme",
+     "base": "kommen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wie bereits ___, ...",
+     "answer": "erwähnt",
+     "base": "erwähnen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Zusammenfassend ___ sich sagen, dass ...",
+     "answer": "lässt",
+     "base": "lassen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Vielen Dank für Ihre ___.",
+     "answer": "Aufmerksamkeit",
+     "base": "Aufmerksamkeit"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "de.c1.write.u01",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about academic language in German: a short abstract of a study you find interesting.",
+    "ar": "اكتب بالألماني عن اللغة الأكاديمية: ملخص قصير لدراسة شايفها مهمة."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u02",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about philosophy and ethics in German: whether freedom or security matters more.",
+    "ar": "اكتب بالألماني عن الفلسفة والأخلاق: الحرية ولا الأمان أهم."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u03",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about business language in German: a reply to a client who complains about a late delivery.",
+    "ar": "اكتب بالألماني عن لغة البيزنس: رد على عميل بيشتكي من تأخير الطلب."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u04",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about politics and the eu in German: a news report about a decision of the European Parliament.",
+    "ar": "اكتب بالألماني عن السياسة والاتحاد الأوروبي: خبر عن قرار للبرلمان الأوروبي."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u05",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about science communication in German: a popular science article on a health study.",
+    "ar": "اكتب بالألماني عن تبسيط العلوم: مقال علمي مبسّط عن دراسة صحية."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u06",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about literature and film in German: a review of a film that uses an unusual style.",
+    "ar": "اكتب بالألماني عن الأدب والسينما: نقد لفيلم بأسلوب غير معتاد."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u07",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about migration and identity in German: what home means to someone who lives between two countries.",
+    "ar": "اكتب بالألماني عن الهجرة والهوية: يعني إيه وطن لحد عايش بين بلدين."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u08",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about humour and idioms in German: a funny misunderstanding you had in a foreign language.",
+    "ar": "اكتب بالألماني عن الفكاهة والتعبيرات: سوء فهم مضحك حصل لك في لغة أجنبية."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u09",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about technology and ethics in German: should AI decide who gets a loan or a job.",
+    "ar": "اكتب بالألماني عن التكنولوجيا والأخلاق: هل الذكاء الاصطناعي المفروض يقرر مين ياخد قرض أو شغلانة."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u10",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about regional varieties in German: differences you noticed between regions of one country.",
+    "ar": "اكتب بالألماني عن اللهجات المحلية: فروق لاحظتها بين مناطق في نفس البلد."
+   },
+   "minWords": 180
+  },
+  {
+   "id": "de.c1.write.u11",
+   "level": "C1",
+   "prompt": {
+    "en": "Write about presenting and debating in German: the conclusion of a presentation on your favourite topic.",
+    "ar": "اكتب بالألماني عن العرض والمناظرة: ختام عرض تقديمي عن موضوعك المفضل."
+   },
+   "minWords": 180
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

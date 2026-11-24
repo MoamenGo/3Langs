@@ -22,7 +22,7 @@ class ContentRepository {
   };
 
   /// Levels that have a pack. Shrink this list to ship a smaller build.
-  static const packLevels = ['A0', 'A1', 'A2'];
+  static const packLevels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1'];
 
   /// The next bundled level above [level] for [lang], if any.
   static String? nextPackLevel(Lang lang, String level) {

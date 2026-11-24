@@ -52,7 +52,7 @@ final todayPlanProvider = FutureProvider<SessionPlan>((ref) async {
       ],
       newCardLimit: {
         for (final e in (j['newCardLimit'] as Map).entries)
-          if (Lang.tryParse(e.key as String) case final l?) l: e.value as int,
+          ?Lang.tryParse(e.key as String): e.value as int,
       },
     );
   }
