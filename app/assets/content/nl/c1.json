@@ -3649,8 +3649,8 @@
     "ar": "الأسلوب الاسمي الأكاديمي"
    },
    "explanation": {
-    "en": "Academic Dutch also prefers nouns, linked with van and other prepositions:\n- Men analyseert de gegevens. → de analyse van de gegevens\n- Nadat de studie was gepubliceerd → Na de publicatie van de studie\n- Omdat de prijzen stijgen → Door de stijging van de prijzen\n\nDutch style guides warn against too many nouns: in plain writing, prefer a verb.",
-    "ar": "الهولندي الأكاديمي برضه بيفضّل الأسماء، مربوطة بـ van وحروف جر تانية:\n- Men analyseert de gegevens. ← de analyse van de gegevens\n- Nadat de studie was gepubliceerd ← Na de publicatie van de studie\n- Omdat de prijzen stijgen ← Door de stijging van de prijzen\n\nوأدلة الكتابة الهولندية بتحذّر من الأسماء الكتير: في الكتابة البسيطة، الفعل أحسن."
+    "en": "Academic Dutch also prefers nouns, linked with van and other prepositions:\n- Men analyseert de gegevens. -> de analyse van de gegevens\n- Nadat de studie was gepubliceerd -> Na de publicatie van de studie\n- Omdat de prijzen stijgen -> Door de stijging van de prijzen\n\nDutch style guides warn against too many nouns: in plain writing, prefer a verb.",
+    "ar": "الهولندي الأكاديمي برضه بيفضّل الأسماء، مربوطة بـ van وحروف جر تانية:\n- Men analyseert de gegevens. -> de analyse van de gegevens\n- Nadat de studie was gepubliceerd -> Na de publicatie van de studie\n- Omdat de prijzen stijgen -> Door de stijging van de prijzen\n\nوأدلة الكتابة الهولندية بتحذّر من الأسماء الكتير: في الكتابة البسيطة، الفعل أحسن."
    },
    "exampleSentenceIds": [
     "nl.c1.sent.u01_01",
@@ -3677,7 +3677,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "onderzoeken → het ___",
+     "prompt": "onderzoeken -> het ___",
      "answer": "onderzoek",
      "base": "onderzoeken"
     }
@@ -3737,8 +3737,8 @@
     "ar": "تراكيب فعل واسم ثابتة"
    },
    "explanation": {
-    "en": "Formal Dutch has many fixed noun + verb combinations:\n- beslissen → een beslissing nemen\n- vragen → een vraag stellen\n- rekening houden met (take into account)\n- maatregelen nemen / treffen\n- invloed uitoefenen op\n- in aanmerking komen voor (be eligible for)\n\nNote that Dutch uses nemen where German uses treffen: een beslissing nemen.",
-    "ar": "الهولندي الرسمي فيه تراكيب كتير ثابتة من اسم + فعل:\n- beslissen ← een beslissing nemen\n- vragen ← een vraag stellen\n- rekening houden met (ياخد في الاعتبار)\n- maatregelen nemen / treffen\n- invloed uitoefenen op\n- in aanmerking komen voor (يستحق / مؤهل لـ)\n\nلاحظ إن الهولندي بيستخدم nemen والألماني treffen: een beslissing nemen."
+    "en": "Formal Dutch has many fixed noun + verb combinations:\n- beslissen -> een beslissing nemen\n- vragen -> een vraag stellen\n- rekening houden met (take into account)\n- maatregelen nemen / treffen\n- invloed uitoefenen op\n- in aanmerking komen voor (be eligible for)\n\nNote that Dutch uses nemen where German uses treffen: een beslissing nemen.",
+    "ar": "الهولندي الرسمي فيه تراكيب كتير ثابتة من اسم + فعل:\n- beslissen -> een beslissing nemen\n- vragen -> een vraag stellen\n- rekening houden met (ياخد في الاعتبار)\n- maatregelen nemen / treffen\n- invloed uitoefenen op\n- in aanmerking komen voor (يستحق / مؤهل لـ)\n\nلاحظ إن الهولندي بيستخدم nemen والألماني treffen: een beslissing nemen."
    },
    "exampleSentenceIds": [
     "nl.c1.sent.u03_01",
@@ -4061,19 +4061,19 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Flemish: leuk → ___",
+     "prompt": "Flemish: leuk -> ___",
      "answer": "plezant",
      "base": "leuk"
     },
     {
      "type": "fill_blank",
-     "prompt": "Flemish diminutive: man → mann___",
+     "prompt": "Flemish diminutive: man -> mann___",
      "answer": "eke",
      "base": "-tje"
     },
     {
      "type": "fill_blank",
-     "prompt": "Flemish: zin → ___",
+     "prompt": "Flemish: zin -> ___",
      "answer": "goesting",
      "base": "zin"
     }

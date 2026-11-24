@@ -3958,8 +3958,8 @@
     "ar": "تحويل الفعل لاسم"
    },
    "explanation": {
-    "en": "Dutch makes nouns from verbs and adjectives like this:\n- verb stem + -ing (de-word): beslissen → de beslissing, ontwikkelen → de ontwikkeling\n- infinitive as a het-word: het onderhandelen, het lezen\n- adjective + -heid (de-word): vrij → de vrijheid, verantwoordelijk → de verantwoordelijkheid\n\nThe object follows with van: de ontwikkeling van het personeel.",
-    "ar": "الهولندي بيعمل أسماء من الأفعال والصفات كده:\n- جذر الفعل + ‎-ing (كلمة de): beslissen ← de beslissing، ontwikkelen ← de ontwikkeling\n- المصدر ككلمة het: het onderhandelen، het lezen\n- الصفة + ‎-heid (كلمة de): vrij ← de vrijheid، verantwoordelijk ← de verantwoordelijkheid\n\nوالمفعول بييجي بعدها بـ van: de ontwikkeling van het personeel."
+    "en": "Dutch makes nouns from verbs and adjectives like this:\n- verb stem + -ing (de-word): beslissen -> de beslissing, ontwikkelen -> de ontwikkeling\n- infinitive as a het-word: het onderhandelen, het lezen\n- adjective + -heid (de-word): vrij -> de vrijheid, verantwoordelijk -> de verantwoordelijkheid\n\nThe object follows with van: de ontwikkeling van het personeel.",
+    "ar": "الهولندي بيعمل أسماء من الأفعال والصفات كده:\n- جذر الفعل + ‎-ing (كلمة de): beslissen -> de beslissing، ontwikkelen -> de ontwikkeling\n- المصدر ككلمة het: het onderhandelen، het lezen\n- الصفة + ‎-heid (كلمة de): vrij -> de vrijheid، verantwoordelijk -> de verantwoordelijkheid\n\nوالمفعول بييجي بعدها بـ van: de ontwikkeling van het personeel."
    },
    "exampleSentenceIds": [
     "nl.b2.sent.u01_01",
@@ -3968,19 +3968,19 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "beslissen → de ___",
+     "prompt": "beslissen -> de ___",
      "answer": "beslissing",
      "base": "beslissen"
     },
     {
      "type": "fill_blank",
-     "prompt": "ontwikkelen → de ___",
+     "prompt": "ontwikkelen -> de ___",
      "answer": "ontwikkeling",
      "base": "ontwikkelen"
     },
     {
      "type": "fill_blank",
-     "prompt": "vrij → de ___",
+     "prompt": "vrij -> de ___",
      "answer": "vrijheid",
      "base": "vrij"
     },
@@ -4002,8 +4002,8 @@
     "ar": "اسم الفاعل والمفعول كصفة"
    },
    "explanation": {
-    "en": "Dutch also uses participles before a noun, with the normal -e ending:\n- present participle (infinitive + -d): stijgen → de stijgende prijzen\n- past participle: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nThese structures are common in newspapers. In speech a relative clause is more usual: de prijzen die stijgen.",
-    "ar": "الهولندي برضه بيستخدم الـ participle قبل الاسم بالنهاية العادية ‎-e:\n- اسم الفاعل (المصدر + ‎-d): stijgen ← de stijgende prijzen\n- اسم المفعول: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nالتركيب ده منتشر في الجرايد. وفي الكلام الجملة الموصولة أشهر: de prijzen die stijgen."
+    "en": "Dutch also uses participles before a noun, with the normal -e ending:\n- present participle (infinitive + -d): stijgen -> de stijgende prijzen\n- past participle: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nThese structures are common in newspapers. In speech a relative clause is more usual: de prijzen die stijgen.",
+    "ar": "الهولندي برضه بيستخدم الـ participle قبل الاسم بالنهاية العادية ‎-e:\n- اسم الفاعل (المصدر + ‎-d): stijgen -> de stijgende prijzen\n- اسم المفعول: de in China geproduceerde telefoon (= die in China is geproduceerd)\n\nالتركيب ده منتشر في الجرايد. وفي الكلام الجملة الموصولة أشهر: de prijzen die stijgen."
    },
    "exampleSentenceIds": [
     "nl.b2.sent.u02_01",
@@ -4062,7 +4062,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "verklaren → ___ (-baar)",
+     "prompt": "verklaren -> ___ (-baar)",
      "answer": "verklaarbaar",
      "base": "verklaren"
     },
@@ -4090,8 +4090,8 @@
     "ar": "الكلام المنقول"
    },
    "explanation": {
-    "en": "Dutch has no special verb form for indirect speech. Use dat + subordinate clause and shift the tense back after a past verb:\n- 'Ik heb geen tijd.' → Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' → Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' → Hij zei dat hij de volgende dag zou komen.\n\nQuestions use of or a question word: Ze vroeg of ik kwam. Ze vroeg waar ik woonde.",
-    "ar": "الهولندي مالوش صيغة فعل خاصة بالكلام المنقول. استخدم dat + جملة فرعية وارجع بالزمن لورا بعد فعل ماضي:\n- 'Ik heb geen tijd.' ← Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' ← Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' ← Hij zei dat hij de volgende dag zou komen.\n\nالأسئلة بتستخدم of أو أداة سؤال: Ze vroeg of ik kwam. Ze vroeg waar ik woonde."
+    "en": "Dutch has no special verb form for indirect speech. Use dat + subordinate clause and shift the tense back after a past verb:\n- 'Ik heb geen tijd.' -> Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' -> Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' -> Hij zei dat hij de volgende dag zou komen.\n\nQuestions use of or a question word: Ze vroeg of ik kwam. Ze vroeg waar ik woonde.",
+    "ar": "الهولندي مالوش صيغة فعل خاصة بالكلام المنقول. استخدم dat + جملة فرعية وارجع بالزمن لورا بعد فعل ماضي:\n- 'Ik heb geen tijd.' -> Hij zei dat hij geen tijd had.\n- 'Ik heb het gedaan.' -> Ze zei dat ze het had gedaan.\n- 'Ik kom morgen.' -> Hij zei dat hij de volgende dag zou komen.\n\nالأسئلة بتستخدم of أو أداة سؤال: Ze vroeg of ik kwam. Ze vroeg waar ik woonde."
    },
    "exampleSentenceIds": [
     "nl.b2.sent.u04_01",
@@ -4100,13 +4100,13 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "'Ik heb geen tijd.' → Hij zei dat hij geen tijd ___.",
+     "prompt": "'Ik heb geen tijd.' -> Hij zei dat hij geen tijd ___.",
      "answer": "had",
      "base": "hebben"
     },
     {
      "type": "fill_blank",
-     "prompt": "'Ik kom morgen.' → Hij zei dat hij de volgende dag ___ komen.",
+     "prompt": "'Ik kom morgen.' -> Hij zei dat hij de volgende dag ___ komen.",
      "answer": "zou",
      "base": "zullen"
     },
@@ -4266,8 +4266,8 @@
     "ar": "أزمنة الماضي في الحكي"
    },
    "explanation": {
-    "en": "Dutch stories mostly use the imperfectum for the sequence of events, and the perfectum for a summary or a link to now. Irregular verbs: geven → gaf, vluchten → vluchtte (regular), sterven → stierf, beginnen → begon, vinden → vond.\n\nEarlier events: plusquamperfectum: had/was + participle: Nadat de oorlog was begonnen, vluchtten velen.",
-    "ar": "الحكايات الهولندية غالبًا بتستخدم الـ imperfectum لتسلسل الأحداث، والـ perfectum للملخص أو للربط بالحاضر. أفعال شاذة: geven ← gaf، vluchten ← vluchtte (منتظم)، sterven ← stierf، beginnen ← begon، vinden ← vond.\n\nالأحداث اللي قبلها: plusquamperfectum: had/was + اسم مفعول: Nadat de oorlog was begonnen, vluchtten velen."
+    "en": "Dutch stories mostly use the imperfectum for the sequence of events, and the perfectum for a summary or a link to now. Irregular verbs: geven -> gaf, vluchten -> vluchtte (regular), sterven -> stierf, beginnen -> begon, vinden -> vond.\n\nEarlier events: plusquamperfectum: had/was + participle: Nadat de oorlog was begonnen, vluchtten velen.",
+    "ar": "الحكايات الهولندية غالبًا بتستخدم الـ imperfectum لتسلسل الأحداث، والـ perfectum للملخص أو للربط بالحاضر. أفعال شاذة: geven -> gaf، vluchten -> vluchtte (منتظم)، sterven -> stierf، beginnen -> begon، vinden -> vond.\n\nالأحداث اللي قبلها: plusquamperfectum: had/was + اسم مفعول: Nadat de oorlog was begonnen, vluchtten velen."
    },
    "exampleSentenceIds": [
     "nl.b2.sent.u08_01",
@@ -4310,8 +4310,8 @@
     "ar": "تكوين الكلمات: سوابق ولواحق"
    },
    "explanation": {
-    "en": "Common Dutch affixes:\n- on-: opposite: leesbaar → onleesbaar, duidelijk → onduidelijk\n- -loos: without: werkloos, fantasieloos\n- -rijk/-vol: full of: fantasierijk, waardevol\n- -lijk/-ig: adjectives: vriend → vriendelijk, lust → lustig\n- -er/-ster: person: lezen → de lezer, de lezeres\n- -schap, -heid: abstract nouns: vriendschap, vrijheid",
-    "ar": "سوابق ولواحق هولندية مشهورة:\n- on-: العكس: leesbaar ← onleesbaar، duidelijk ← onduidelijk\n- ‎-loos: من غير: werkloos، fantasieloos\n- ‎-rijk/-vol: مليان: fantasierijk، waardevol\n- ‎-lijk/-ig: صفات: vriend ← vriendelijk، lust ← lustig\n- ‎-er/-ster: شخص: lezen ← de lezer، de lezeres\n- ‎-schap، ‎-heid: أسماء مجردة: vriendschap، vrijheid"
+    "en": "Common Dutch affixes:\n- on-: opposite: leesbaar -> onleesbaar, duidelijk -> onduidelijk\n- -loos: without: werkloos, fantasieloos\n- -rijk/-vol: full of: fantasierijk, waardevol\n- -lijk/-ig: adjectives: vriend -> vriendelijk, lust -> lustig\n- -er/-ster: person: lezen -> de lezer, de lezeres\n- -schap, -heid: abstract nouns: vriendschap, vrijheid",
+    "ar": "سوابق ولواحق هولندية مشهورة:\n- on-: العكس: leesbaar -> onleesbaar، duidelijk -> onduidelijk\n- ‎-loos: من غير: werkloos، fantasieloos\n- ‎-rijk/-vol: مليان: fantasierijk، waardevol\n- ‎-lijk/-ig: صفات: vriend -> vriendelijk، lust -> lustig\n- ‎-er/-ster: شخص: lezen -> de lezer، de lezeres\n- ‎-schap، ‎-heid: أسماء مجردة: vriendschap، vrijheid"
    },
    "exampleSentenceIds": [
     "nl.b2.sent.u09_01",
@@ -4320,7 +4320,7 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "leesbaar → ___ (opposite)",
+     "prompt": "leesbaar -> ___ (opposite)",
      "answer": "onleesbaar",
      "base": "leesbaar"
     },
@@ -4338,7 +4338,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "vriend → vriend___ (abstract noun)",
+     "prompt": "vriend -> vriend___ (abstract noun)",
      "answer": "schap",
      "base": "-schap"
     }

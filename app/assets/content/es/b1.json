@@ -4790,8 +4790,8 @@
     "ar": "الـ indefinido الشاذ"
    },
    "explanation": {
-    "en": "Many common verbs have an irregular indefinido stem with endings -e, -iste, -o, -imos, -isteis, -ieron: tener → tuve, estar → estuve, poder → pude, hacer → hice (hizo), venir → vine, querer → quise.\n\ndecir and traer take -eron: dijeron, trajeron. Regular: aprobé, explicó (c → qu in yo: expliqué).",
-    "ar": "أفعال كتير منتشرة ليها جذر شاذ في الـ indefinido بالنهايات ‎-e, -iste, -o, -imos, -isteis, -ieron: tener ← tuve، estar ← estuve، poder ← pude، hacer ← hice (hizo)، venir ← vine، querer ← quise.\n\ndecir وtraer بياخدوا ‎-eron: dijeron، trajeron. والمنتظم: aprobé، explicó (وفي yo الـ c بتبقى qu: expliqué)."
+    "en": "Many common verbs have an irregular indefinido stem with endings -e, -iste, -o, -imos, -isteis, -ieron: tener -> tuve, estar -> estuve, poder -> pude, hacer -> hice (hizo), venir -> vine, querer -> quise.\n\ndecir and traer take -eron: dijeron, trajeron. Regular: aprobé, explicó (c -> qu in yo: expliqué).",
+    "ar": "أفعال كتير منتشرة ليها جذر شاذ في الـ indefinido بالنهايات ‎-e, -iste, -o, -imos, -isteis, -ieron: tener -> tuve، estar -> estuve، poder -> pude، hacer -> hice (hizo)، venir -> vine، querer -> quise.\n\ndecir وtraer بياخدوا ‎-eron: dijeron، trajeron. والمنتظم: aprobé، explicó (وفي yo الـ c بتبقى qu: expliqué)."
    },
    "exampleSentenceIds": [
     "es.b1.sent.u01_01",
@@ -5010,8 +5010,8 @@
     "ar": "aunque وsin embargo؛ الكلام المنقول"
    },
    "explanation": {
-    "en": "aunque + indicative = although (a fact): Aunque era tarde, leí el artículo. sin embargo = nevertheless, between sentences.\n\nReported speech shifts tenses after a past verb: Dice que es verdad → Dijo que era verdad. Dijo que vendría.",
-    "ar": "aunque + indicativo = رغم إن (حقيقة): Aunque era tarde, leí el artículo. وsin embargo = ومع ذلك، بين الجمل.\n\nالكلام المنقول بيغير الزمن بعد فعل ماضي: Dice que es verdad ← Dijo que era verdad. Dijo que vendría."
+    "en": "aunque + indicative = although (a fact): Aunque era tarde, leí el artículo. sin embargo = nevertheless, between sentences.\n\nReported speech shifts tenses after a past verb: Dice que es verdad -> Dijo que era verdad. Dijo que vendría.",
+    "ar": "aunque + indicativo = رغم إن (حقيقة): Aunque era tarde, leí el artículo. وsin embargo = ومع ذلك، بين الجمل.\n\nالكلام المنقول بيغير الزمن بعد فعل ماضي: Dice que es verdad -> Dijo que era verdad. Dijo que vendría."
    },
    "exampleSentenceIds": [
     "es.b1.sent.u06_01",
@@ -5362,8 +5362,8 @@
     "ar": "المستقبل وir a"
    },
    "explanation": {
-    "en": "ir a + infinitive for plans: Voy a mudarme. Simple future = infinitive + -é, -ás, -á, -emos, -éis, -án: me mudaré, tendrás. Irregular stems: tener → tendr-, hacer → har-, poder → podr-, salir → saldr-, venir → vendr-, decir → dir-.\n\nThe future also expresses guesses: Serán las diez = it's probably ten.",
-    "ar": "ir a + مصدر للخطط: Voy a mudarme. والمستقبل البسيط = المصدر + ‎-é, -ás, -á, -emos, -éis, -án: me mudaré، tendrás. والجذور الشاذة: tener ← tendr-، hacer ← har-، poder ← podr-، salir ← saldr-، venir ← vendr-، decir ← dir-.\n\nالمستقبل بيعبر كمان عن التخمين: Serán las diez = غالبًا الساعة عشرة."
+    "en": "ir a + infinitive for plans: Voy a mudarme. Simple future = infinitive + -é, -ás, -á, -emos, -éis, -án: me mudaré, tendrás. Irregular stems: tener -> tendr-, hacer -> har-, poder -> podr-, salir -> saldr-, venir -> vendr-, decir -> dir-.\n\nThe future also expresses guesses: Serán las diez = it's probably ten.",
+    "ar": "ir a + مصدر للخطط: Voy a mudarme. والمستقبل البسيط = المصدر + ‎-é, -ás, -á, -emos, -éis, -án: me mudaré، tendrás. والجذور الشاذة: tener -> tendr-، hacer -> har-، poder -> podr-، salir -> saldr-، venir -> vendr-، decir -> dir-.\n\nالمستقبل بيعبر كمان عن التخمين: Serán las diez = غالبًا الساعة عشرة."
    },
    "exampleSentenceIds": [
     "es.b1.sent.u14_01",

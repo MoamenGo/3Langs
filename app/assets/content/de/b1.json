@@ -4795,8 +4795,8 @@
     "ar": "الماضي البسيط (Präteritum)"
    },
    "explanation": {
-    "en": "In writing and stories German uses the Präteritum. Regular verbs: stem + -te: ich erklärte, du erklärtest, er erklärte, wir erklärten. Irregular verbs change their vowel and have no ending for ich/er: gehen → ging, kommen → kam, bestehen → bestand, verstehen → verstand.\n\nModal verbs: konnte, musste, wollte, durfte, sollte.",
-    "ar": "في الكتابة والحكايات الألماني بيستخدم الـ Präteritum. الأفعال المنتظمة: الجذر + ‎-te: ich erklärte, du erklärtest, er erklärte, wir erklärten. والشاذة بيتغير حرفها المتحرك ومن غير نهاية مع ich/er: gehen ← ging، kommen ← kam، bestehen ← bestand، verstehen ← verstand.\n\nأفعال الوجه: konnte، musste، wollte، durfte، sollte."
+    "en": "In writing and stories German uses the Präteritum. Regular verbs: stem + -te: ich erklärte, du erklärtest, er erklärte, wir erklärten. Irregular verbs change their vowel and have no ending for ich/er: gehen -> ging, kommen -> kam, bestehen -> bestand, verstehen -> verstand.\n\nModal verbs: konnte, musste, wollte, durfte, sollte.",
+    "ar": "في الكتابة والحكايات الألماني بيستخدم الـ Präteritum. الأفعال المنتظمة: الجذر + ‎-te: ich erklärte, du erklärtest, er erklärte, wir erklärten. والشاذة بيتغير حرفها المتحرك ومن غير نهاية مع ich/er: gehen -> ging، kommen -> kam، bestehen -> bestand، verstehen -> verstand.\n\nأفعال الوجه: konnte، musste، wollte، durfte، sollte."
    },
    "exampleSentenceIds": [
     "de.b1.sent.u01_01",
@@ -4952,8 +4952,8 @@
     "ar": "المجهول مع أفعال الوجه؛ تصريف n"
    },
    "explanation": {
-    "en": "Modal verb + participle + werden (at the end): Das Produkt kann umgetauscht werden. Die Rechnung muss bezahlt werden.\n\nSome masculine nouns add -(e)n in every case except the nominative singular: der Kunde → den Kunden, dem Kunden, des Kunden. Others: der Kollege, der Student, der Mensch, der Nachbar, der Herr (Herrn).",
-    "ar": "فعل وجه + اسم المفعول + werden (في الآخر): Das Produkt kann umgetauscht werden. Die Rechnung muss bezahlt werden.\n\nفيه أسماء مذكرة بتزود ‎-(e)n في كل الحالات إلا الفاعل المفرد: der Kunde ← den Kunden، dem Kunden، des Kunden. وغيرها: der Kollege، der Student، der Mensch، der Nachbar، der Herr (Herrn)."
+    "en": "Modal verb + participle + werden (at the end): Das Produkt kann umgetauscht werden. Die Rechnung muss bezahlt werden.\n\nSome masculine nouns add -(e)n in every case except the nominative singular: der Kunde -> den Kunden, dem Kunden, des Kunden. Others: der Kollege, der Student, der Mensch, der Nachbar, der Herr (Herrn).",
+    "ar": "فعل وجه + اسم المفعول + werden (في الآخر): Das Produkt kann umgetauscht werden. Die Rechnung muss bezahlt werden.\n\nفيه أسماء مذكرة بتزود ‎-(e)n في كل الحالات إلا الفاعل المفرد: der Kunde -> den Kunden، dem Kunden، des Kunden. وغيرها: der Kollege، der Student، der Mensch، der Nachbar، der Herr (Herrn)."
    },
    "exampleSentenceIds": [
     "de.b1.sent.u04_01",
@@ -5304,8 +5304,8 @@
     "ar": "اسم الفاعل واسم المفعول كصفات"
    },
    "explanation": {
-    "en": "Present participle = infinitive + d, describes something happening: wachsen → wachsend: die wachsende Menge. Past participle describes something done: entwickeln → entwickelt: das entwickelte Gerät.\n\nBefore a noun both take normal adjective endings: ein schnell wachsender Markt, die neu entwickelten Geräte.",
-    "ar": "اسم الفاعل = المصدر + d، بيوصف حاجة بتحصل: wachsen ← wachsend: die wachsende Menge. واسم المفعول بيوصف حاجة اتعملت: entwickeln ← entwickelt: das entwickelte Gerät.\n\nقبل الاسم الاتنين بياخدوا نهايات الصفات العادية: ein schnell wachsender Markt، die neu entwickelten Geräte."
+    "en": "Present participle = infinitive + d, describes something happening: wachsen -> wachsend: die wachsende Menge. Past participle describes something done: entwickeln -> entwickelt: das entwickelte Gerät.\n\nBefore a noun both take normal adjective endings: ein schnell wachsender Markt, die neu entwickelten Geräte.",
+    "ar": "اسم الفاعل = المصدر + d، بيوصف حاجة بتحصل: wachsen -> wachsend: die wachsende Menge. واسم المفعول بيوصف حاجة اتعملت: entwickeln -> entwickelt: das entwickelte Gerät.\n\nقبل الاسم الاتنين بياخدوا نهايات الصفات العادية: ein schnell wachsender Markt، die neu entwickelten Geräte."
    },
    "exampleSentenceIds": [
     "de.b1.sent.u12_01",
@@ -5436,8 +5436,8 @@
     "ar": "الأسلوب الرسمي والأسلوب الاسمي"
    },
    "explanation": {
-    "en": "Formal letters use Sie, Ihnen, Ihr with capitals, and open with Sehr geehrte Damen und Herren, / Sehr geehrter Herr Weber, / Sehr geehrte Frau Klein, and close with Mit freundlichen Grüßen.\n\nWritten German likes nouns instead of verbs: anmelden → die Anmeldung, antworten → die Antwort: Für eine schnelle Antwort wäre ich dankbar (instead of: wenn Sie schnell antworten). Polite forms: Ich möchte ..., Könnten Sie ...?, Ich wäre Ihnen dankbar, wenn ...",
-    "ar": "الجوابات الرسمية بتستخدم Sie وIhnen وIhr بحرف كبير، وبتبدأ بـ Sehr geehrte Damen und Herren, / Sehr geehrter Herr Weber, / Sehr geehrte Frau Klein، وتخلص بـ Mit freundlichen Grüßen.\n\nالألماني المكتوب بيحب الأسماء بدل الأفعال: anmelden ← die Anmeldung، antworten ← die Antwort: Für eine schnelle Antwort wäre ich dankbar (بدل: wenn Sie schnell antworten). والصيغ المؤدبة: Ich möchte ...، Könnten Sie ...?، Ich wäre Ihnen dankbar, wenn ..."
+    "en": "Formal letters use Sie, Ihnen, Ihr with capitals, and open with Sehr geehrte Damen und Herren, / Sehr geehrter Herr Weber, / Sehr geehrte Frau Klein, and close with Mit freundlichen Grüßen.\n\nWritten German likes nouns instead of verbs: anmelden -> die Anmeldung, antworten -> die Antwort: Für eine schnelle Antwort wäre ich dankbar (instead of: wenn Sie schnell antworten). Polite forms: Ich möchte ..., Könnten Sie ...?, Ich wäre Ihnen dankbar, wenn ...",
+    "ar": "الجوابات الرسمية بتستخدم Sie وIhnen وIhr بحرف كبير، وبتبدأ بـ Sehr geehrte Damen und Herren, / Sehr geehrter Herr Weber, / Sehr geehrte Frau Klein، وتخلص بـ Mit freundlichen Grüßen.\n\nالألماني المكتوب بيحب الأسماء بدل الأفعال: anmelden -> die Anmeldung، antworten -> die Antwort: Für eine schnelle Antwort wäre ich dankbar (بدل: wenn Sie schnell antworten). والصيغ المؤدبة: Ich möchte ...، Könnten Sie ...?، Ich wäre Ihnen dankbar, wenn ..."
    },
    "exampleSentenceIds": [
     "de.b1.sent.u15_01",
@@ -5464,7 +5464,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Ich möchte meine ___ bestätigen. (anmelden → noun)",
+     "prompt": "Ich möchte meine ___ bestätigen. (anmelden -> noun)",
      "answer": "Anmeldung",
      "base": "anmelden"
     }

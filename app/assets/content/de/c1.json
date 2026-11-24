@@ -3645,8 +3645,8 @@
     "ar": "الأسلوب الاسمي الأكاديمي"
    },
    "explanation": {
-    "en": "Academic German packs meaning into noun phrases. A verb clause becomes a noun with genitive and prepositional attributes:\n- Man analysiert die Daten. → die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... → Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... → Aufgrund der steigenden Preise ...\n\nTo read such texts, unpack the noun back into a clause.",
-    "ar": "الألماني الأكاديمي بيحط المعنى في عبارات اسمية. جملة فعلية بتبقى اسم مع إضافة وحروف جر:\n- Man analysiert die Daten. ← die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... ← Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... ← Aufgrund der steigenden Preise ...\n\nعشان تقرا النصوص دي، فكّ الاسم وارجعه جملة."
+    "en": "Academic German packs meaning into noun phrases. A verb clause becomes a noun with genitive and prepositional attributes:\n- Man analysiert die Daten. -> die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... -> Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... -> Aufgrund der steigenden Preise ...\n\nTo read such texts, unpack the noun back into a clause.",
+    "ar": "الألماني الأكاديمي بيحط المعنى في عبارات اسمية. جملة فعلية بتبقى اسم مع إضافة وحروف جر:\n- Man analysiert die Daten. -> die Analyse der Daten\n- Nachdem die Studie veröffentlicht wurde, ... -> Nach der Veröffentlichung der Studie ...\n- Weil die Preise steigen, ... -> Aufgrund der steigenden Preise ...\n\nعشان تقرا النصوص دي، فكّ الاسم وارجعه جملة."
    },
    "exampleSentenceIds": [
     "de.c1.sent.u01_01",
@@ -3667,13 +3667,13 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Weil die Preise steigen → Aufgrund der ___ Preise",
+     "prompt": "Weil die Preise steigen -> Aufgrund der ___ Preise",
      "answer": "steigenden",
      "base": "steigen"
     },
     {
      "type": "fill_blank",
-     "prompt": "untersuchen → die ___",
+     "prompt": "untersuchen -> die ___",
      "answer": "Untersuchung",
      "base": "untersuchen"
     }
@@ -3733,8 +3733,8 @@
     "ar": "التراكيب الفعلية الاسمية"
    },
    "explanation": {
-    "en": "Formal German often replaces a simple verb with noun + 'light' verb. The noun carries the meaning:\n- entscheiden → eine Entscheidung treffen\n- berücksichtigen → in Betracht ziehen\n- anwenden → zur Anwendung kommen\n- fragen → eine Frage stellen\n- handeln → Maßnahmen ergreifen\n- beeinflussen → Einfluss nehmen auf\n\nLearn them as fixed pairs: you cannot swap the verb.",
-    "ar": "الألماني الرسمي كتير بيبدّل فعل بسيط بـ اسم + فعل 'خفيف'. الاسم هو اللي شايل المعنى:\n- entscheiden ← eine Entscheidung treffen\n- berücksichtigen ← in Betracht ziehen\n- anwenden ← zur Anwendung kommen\n- fragen ← eine Frage stellen\n- handeln ← Maßnahmen ergreifen\n- beeinflussen ← Einfluss nehmen auf\n\nاحفظهم كأزواج ثابتة: ما ينفعش تغيّر الفعل."
+    "en": "Formal German often replaces a simple verb with noun + 'light' verb. The noun carries the meaning:\n- entscheiden -> eine Entscheidung treffen\n- berücksichtigen -> in Betracht ziehen\n- anwenden -> zur Anwendung kommen\n- fragen -> eine Frage stellen\n- handeln -> Maßnahmen ergreifen\n- beeinflussen -> Einfluss nehmen auf\n\nLearn them as fixed pairs: you cannot swap the verb.",
+    "ar": "الألماني الرسمي كتير بيبدّل فعل بسيط بـ اسم + فعل 'خفيف'. الاسم هو اللي شايل المعنى:\n- entscheiden -> eine Entscheidung treffen\n- berücksichtigen -> in Betracht ziehen\n- anwenden -> zur Anwendung kommen\n- fragen -> eine Frage stellen\n- handeln -> Maßnahmen ergreifen\n- beeinflussen -> Einfluss nehmen auf\n\nاحفظهم كأزواج ثابتة: ما ينفعش تغيّر الفعل."
    },
    "exampleSentenceIds": [
     "de.c1.sent.u03_01",
@@ -4051,13 +4051,13 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "Austria: Januar → ___",
+     "prompt": "Austria: Januar -> ___",
      "answer": "Jänner",
      "base": "Januar"
     },
     {
      "type": "fill_blank",
-     "prompt": "Switzerland: Fahrrad → ___",
+     "prompt": "Switzerland: Fahrrad -> ___",
      "answer": "Velo",
      "base": "Fahrrad"
     },
@@ -4069,7 +4069,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Switzerland: Straße → ___",
+     "prompt": "Switzerland: Straße -> ___",
      "answer": "Strasse",
      "base": "Straße"
     }

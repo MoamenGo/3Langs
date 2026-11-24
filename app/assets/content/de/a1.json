@@ -6092,8 +6092,8 @@
     "ar": "der و die و das: الأدوات والجنس"
    },
    "explanation": {
-    "en": "Every German noun is masculine (der), feminine (die) or neuter (das). The gender often doesn't follow logic, so always learn a noun together with its article: der Tisch, die Lampe, das Bett.\n\nThe indefinite article is ein for masculine and neuter, eine for feminine. In the plural the definite article is always die, and there is no indefinite article: die Betten, Betten.\n\nWhen you replace a thing with a pronoun, use its grammatical gender: der Tisch → er, die Lampe → sie, das Bett → es. So: Der Schrank ist neu. Er ist groß. (\"It is big\" in English.)",
-    "ar": "كل اسم ألماني يا مذكر (der) يا مؤنث (die) يا محايد (das). الجنس غالبًا مالوش منطق، فاحفظ الاسم دايمًا مع أداته: der Tisch، die Lampe، das Bett.\n\nأداة النكرة ein للمذكر والمحايد، وeine للمؤنث. في الجمع أداة التعريف دايمًا die، ومفيش أداة نكرة: die Betten، Betten.\n\nلما تشاور على حاجة بضمير، استخدم جنسها في القواعد: der Tisch ← er، die Lampe ← sie، das Bett ← es. يعني: Der Schrank ist neu. Er ist groß (هو كبير)."
+    "en": "Every German noun is masculine (der), feminine (die) or neuter (das). The gender often doesn't follow logic, so always learn a noun together with its article: der Tisch, die Lampe, das Bett.\n\nThe indefinite article is ein for masculine and neuter, eine for feminine. In the plural the definite article is always die, and there is no indefinite article: die Betten, Betten.\n\nWhen you replace a thing with a pronoun, use its grammatical gender: der Tisch -> er, die Lampe -> sie, das Bett -> es. So: Der Schrank ist neu. Er ist groß. (\"It is big\" in English.)",
+    "ar": "كل اسم ألماني يا مذكر (der) يا مؤنث (die) يا محايد (das). الجنس غالبًا مالوش منطق، فاحفظ الاسم دايمًا مع أداته: der Tisch، die Lampe، das Bett.\n\nأداة النكرة ein للمذكر والمحايد، وeine للمؤنث. في الجمع أداة التعريف دايمًا die، ومفيش أداة نكرة: die Betten، Betten.\n\nلما تشاور على حاجة بضمير، استخدم جنسها في القواعد: der Tisch -> er، die Lampe -> sie، das Bett -> es. يعني: Der Schrank ist neu. Er ist groß (هو كبير)."
    },
    "table": {
     "headers": [
@@ -6193,8 +6193,8 @@
     "ar": "حالة المفعول: einen Kaffee و keinen Hunger، و möchten"
    },
    "explanation": {
-    "en": "The thing you eat, drink, have or want is the object of the sentence, and German marks it with the accusative case. Good news: only masculine words change. der → den, ein → einen, kein → keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. Feminine, neuter and plural stay the same.\n\nkein means \"no / not a\": Ich esse kein Fleisch (I don't eat meat).\n\nmöchten (would like) is the polite way to order: ich möchte, du möchtest, er/sie möchte, wir möchten, ihr möchtet, sie/Sie möchten. Note: no -t in the er/sie form.",
-    "ar": "الحاجة اللي بتاكلها أو تشربها أو عندك أو عايزها هي المفعول، والألماني بيعلّمها بحالة المفعول (Akkusativ). الخبر الحلو: المذكر بس هو اللي بيتغير. der ← den، ein ← einen، kein ← keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. المؤنث والمحايد والجمع زي ما هم.\n\nkein معناها «مفيش/ولا»: Ich esse kein Fleisch (مش باكل لحمة).\n\nmöchten (أحب/عايز) هي الطريقة المؤدبة للطلب: ich möchte، du möchtest، er/sie möchte، wir möchten، ihr möchtet، sie/Sie möchten. خد بالك: مفيش ‎-t مع er/sie."
+    "en": "The thing you eat, drink, have or want is the object of the sentence, and German marks it with the accusative case. Good news: only masculine words change. der -> den, ein -> einen, kein -> keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. Feminine, neuter and plural stay the same.\n\nkein means \"no / not a\": Ich esse kein Fleisch (I don't eat meat).\n\nmöchten (would like) is the polite way to order: ich möchte, du möchtest, er/sie möchte, wir möchten, ihr möchtet, sie/Sie möchten. Note: no -t in the er/sie form.",
+    "ar": "الحاجة اللي بتاكلها أو تشربها أو عندك أو عايزها هي المفعول، والألماني بيعلّمها بحالة المفعول (Akkusativ). الخبر الحلو: المذكر بس هو اللي بيتغير. der -> den، ein -> einen، kein -> keinen: Ich möchte einen Kaffee. Ich habe keinen Hunger. المؤنث والمحايد والجمع زي ما هم.\n\nkein معناها «مفيش/ولا»: Ich esse kein Fleisch (مش باكل لحمة).\n\nmöchten (أحب/عايز) هي الطريقة المؤدبة للطلب: ich möchte، du möchtest، er/sie möchte، wir möchten، ihr möchtet، sie/Sie möchten. خد بالك: مفيش ‎-t مع er/sie."
    },
    "table": {
     "headers": [
@@ -6361,8 +6361,8 @@
     "ar": "الأفعال اللي بتنفصل والفعل في المكان التاني"
    },
    "explanation": {
-    "en": "Some verbs have a prefix that splits off: aufstehen → Ich stehe um sieben Uhr auf. The verb goes in position 2, the prefix goes to the very end.\n\nThe verb is always the second element in a statement, even when the sentence starts with a time: Heute arbeite ich bis fünf. (not: Heute ich arbeite).\n\nTime: um sieben Uhr = at seven o'clock; Wie spät ist es? = What time is it?",
-    "ar": "فيه أفعال ليها بادئة بتنفصل: aufstehen ← Ich stehe um sieben Uhr auf. الفعل في المكان التاني والبادئة في آخر الجملة خالص.\n\nالفعل دايمًا العنصر التاني في الجملة الخبرية، حتى لو الجملة بدأت بوقت: Heute arbeite ich bis fünf (مش Heute ich arbeite).\n\nالوقت: um sieben Uhr = الساعة سبعة؛ Wie spät ist es? = الساعة كام؟"
+    "en": "Some verbs have a prefix that splits off: aufstehen -> Ich stehe um sieben Uhr auf. The verb goes in position 2, the prefix goes to the very end.\n\nThe verb is always the second element in a statement, even when the sentence starts with a time: Heute arbeite ich bis fünf. (not: Heute ich arbeite).\n\nTime: um sieben Uhr = at seven o'clock; Wie spät ist es? = What time is it?",
+    "ar": "فيه أفعال ليها بادئة بتنفصل: aufstehen -> Ich stehe um sieben Uhr auf. الفعل في المكان التاني والبادئة في آخر الجملة خالص.\n\nالفعل دايمًا العنصر التاني في الجملة الخبرية، حتى لو الجملة بدأت بوقت: Heute arbeite ich bis fünf (مش Heute ich arbeite).\n\nالوقت: um sieben Uhr = الساعة سبعة؛ Wie spät ist es? = الساعة كام؟"
    },
    "exampleSentenceIds": [
     "de.a1.sent.u06_01",
@@ -6488,8 +6488,8 @@
     "ar": "الأمر وin وan وbei مع الداتيف"
    },
    "explanation": {
-    "en": "Imperative: polite form = verb + Sie: Gehen Sie geradeaus! Informal (du) = verb stem: Geh! Nimm den Bus!\n\nAfter in, an, bei, neben (answering wo?) the noun is in the dative: der/das → dem, die → der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder.",
-    "ar": "الأمر: الصيغة الرسمية = الفعل + Sie: Gehen Sie geradeaus! والعادية (du) = جذر الفعل: Geh! Nimm den Bus!\n\nبعد in وan وbei وneben (لما بتجاوب على wo؟ فين) الاسم بيبقى داتيف: der/das ← dem، وdie ← der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder."
+    "en": "Imperative: polite form = verb + Sie: Gehen Sie geradeaus! Informal (du) = verb stem: Geh! Nimm den Bus!\n\nAfter in, an, bei, neben (answering wo?) the noun is in the dative: der/das -> dem, die -> der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder.",
+    "ar": "الأمر: الصيغة الرسمية = الفعل + Sie: Gehen Sie geradeaus! والعادية (du) = جذر الفعل: Geh! Nimm den Bus!\n\nبعد in وan وbei وneben (لما بتجاوب على wo؟ فين) الاسم بيبقى داتيف: der/das -> dem، وdie -> der. Ich bin im Park (in + dem). Die Apotheke ist neben der Bank. Ich wohne bei meinem Bruder."
    },
    "table": {
     "headers": [
@@ -6664,8 +6664,8 @@
     "ar": "الماضي التام (Perfekt) مع haben"
    },
    "explanation": {
-    "en": "Spoken German talks about the past with haben + past participle at the end: Ich habe viel gearbeitet.\n\nRegular verbs: ge- + stem + -t: machen → gemacht, lernen → gelernt, arbeiten → gearbeitet. Irregular verbs: ge- + stem + -en, often with a vowel change: schreiben → geschrieben, lesen → gelesen.\n\nQuestion words: wer, was, wo, wann, warum, wie.",
-    "ar": "الألماني في الكلام بيحكي عن الماضي بـ haben + اسم المفعول في آخر الجملة: Ich habe viel gearbeitet.\n\nالأفعال المنتظمة: ge- + الجذر + ‎-t: machen ← gemacht، lernen ← gelernt، arbeiten ← gearbeitet. والشاذة: ge- + الجذر + ‎-en وغالبًا الحرف المتحرك بيتغير: schreiben ← geschrieben، lesen ← gelesen.\n\nأدوات السؤال: wer (مين)، was (إيه)، wo (فين)، wann (إمتى)، warum (ليه)، wie (إزاي)."
+    "en": "Spoken German talks about the past with haben + past participle at the end: Ich habe viel gearbeitet.\n\nRegular verbs: ge- + stem + -t: machen -> gemacht, lernen -> gelernt, arbeiten -> gearbeitet. Irregular verbs: ge- + stem + -en, often with a vowel change: schreiben -> geschrieben, lesen -> gelesen.\n\nQuestion words: wer, was, wo, wann, warum, wie.",
+    "ar": "الألماني في الكلام بيحكي عن الماضي بـ haben + اسم المفعول في آخر الجملة: Ich habe viel gearbeitet.\n\nالأفعال المنتظمة: ge- + الجذر + ‎-t: machen -> gemacht، lernen -> gelernt، arbeiten -> gearbeitet. والشاذة: ge- + الجذر + ‎-en وغالبًا الحرف المتحرك بيتغير: schreiben -> geschrieben، lesen -> gelesen.\n\nأدوات السؤال: wer (مين)، was (إيه)، wo (فين)، wann (إمتى)، warum (ليه)، wie (إزاي)."
    },
    "exampleSentenceIds": [
     "de.a1.sent.u11_01",

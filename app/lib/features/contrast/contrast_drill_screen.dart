@@ -143,7 +143,7 @@ class _ContrastDrillScreenState extends ConsumerState<ContrastDrillScreen> {
                                 ),
                                 if (_picked != null)
                                   Text(
-                                    o.lang?.code ?? '✗',
+                                    o.lang?.code ?? 'x',
                                     style: TextStyle(
                                       color: o.lang?.color,
                                       fontWeight: FontWeight.bold,
@@ -227,7 +227,7 @@ class MixupTile extends ConsumerWidget {
     return ListTile(
       dense: true,
       leading: Text(
-        '${event.lang.code}→${event.otherLang.code}',
+        '${event.lang.code}->${event.otherLang.code}',
         style: TextStyle(
           color: event.otherLang.color,
           fontWeight: FontWeight.bold,

@@ -3645,8 +3645,8 @@
     "ar": "الأسلوب الاسمي الأكاديمي"
    },
    "explanation": {
-    "en": "Academic Spanish turns clauses into noun phrases with de:\n- Se analizan los datos. → el análisis de los datos\n- Después de que se publicara el estudio → Tras la publicación del estudio\n- Porque suben los precios → Debido a la subida de los precios\n\nAlso typical: impersonal se (se observa que ...), the passive with ser, and long noun chains with de.",
-    "ar": "الإسباني الأكاديمي بيحوّل الجمل لعبارات اسمية بـ de:\n- Se analizan los datos. ← el análisis de los datos\n- Después de que se publicara el estudio ← Tras la publicación del estudio\n- Porque suben los precios ← Debido a la subida de los precios\n\nومن المعتاد كمان: se غير الشخصية (se observa que ...)، والمبني للمجهول بـ ser، وسلاسل أسماء طويلة بـ de."
+    "en": "Academic Spanish turns clauses into noun phrases with de:\n- Se analizan los datos. -> el análisis de los datos\n- Después de que se publicara el estudio -> Tras la publicación del estudio\n- Porque suben los precios -> Debido a la subida de los precios\n\nAlso typical: impersonal se (se observa que ...), the passive with ser, and long noun chains with de.",
+    "ar": "الإسباني الأكاديمي بيحوّل الجمل لعبارات اسمية بـ de:\n- Se analizan los datos. -> el análisis de los datos\n- Después de que se publicara el estudio -> Tras la publicación del estudio\n- Porque suben los precios -> Debido a la subida de los precios\n\nومن المعتاد كمان: se غير الشخصية (se observa que ...)، والمبني للمجهول بـ ser، وسلاسل أسماء طويلة بـ de."
    },
    "exampleSentenceIds": [
     "es.c1.sent.u01_01",
@@ -3733,8 +3733,8 @@
     "ar": "تراكيب فعل واسم"
    },
    "explanation": {
-    "en": "Formal Spanish likes verb + noun collocations:\n- decidir → tomar una decisión\n- preguntar → hacer una pregunta\n- considerar → tener en cuenta\n- actuar → tomar medidas\n- influir → ejercer influencia sobre\n- aplicar → poner en práctica\n\nSpanish uses tomar where German uses treffen and Dutch nemen.",
-    "ar": "الإسباني الرسمي بيحب تراكيب الفعل + الاسم:\n- decidir ← tomar una decisión\n- preguntar ← hacer una pregunta\n- considerar ← tener en cuenta\n- actuar ← tomar medidas\n- influir ← ejercer influencia sobre\n- aplicar ← poner en práctica\n\nالإسباني بيستخدم tomar مكان treffen في الألماني وnemen في الهولندي."
+    "en": "Formal Spanish likes verb + noun collocations:\n- decidir -> tomar una decisión\n- preguntar -> hacer una pregunta\n- considerar -> tener en cuenta\n- actuar -> tomar medidas\n- influir -> ejercer influencia sobre\n- aplicar -> poner en práctica\n\nSpanish uses tomar where German uses treffen and Dutch nemen.",
+    "ar": "الإسباني الرسمي بيحب تراكيب الفعل + الاسم:\n- decidir -> tomar una decisión\n- preguntar -> hacer una pregunta\n- considerar -> tener en cuenta\n- actuar -> tomar medidas\n- influir -> ejercer influencia sobre\n- aplicar -> poner en práctica\n\nالإسباني بيستخدم tomar مكان treffen في الألماني وnemen في الهولندي."
    },
    "exampleSentenceIds": [
     "es.c1.sent.u03_01",
@@ -4051,25 +4051,25 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "Latin America: vosotros → ___",
+     "prompt": "Latin America: vosotros -> ___",
      "answer": "ustedes",
      "base": "vosotros"
     },
     {
      "type": "fill_blank",
-     "prompt": "Argentina: tú eres → vos ___",
+     "prompt": "Argentina: tú eres -> vos ___",
      "answer": "sos",
      "base": "ser"
     },
     {
      "type": "fill_blank",
-     "prompt": "Latin America: ordenador → ___",
+     "prompt": "Latin America: ordenador -> ___",
      "answer": "computadora",
      "base": "ordenador"
     },
     {
      "type": "fill_blank",
-     "prompt": "Latin America: móvil → ___",
+     "prompt": "Latin America: móvil -> ___",
      "answer": "celular",
      "base": "móvil"
     }

@@ -4043,8 +4043,8 @@
     "ar": "الماضي التام مع zijn؛ was وhad"
    },
    "explanation": {
-    "en": "Like German, verbs of movement and change use zijn: gaan → ik ben gegaan, verhuizen → we zijn verhuisd, komen → hij is gekomen, trouwen → ze zijn getrouwd.\n\nSimple past of zijn and hebben: ik was, wij waren; ik had, wij hadden.\n\nAgo = ... geleden after the time: twee jaar geleden. When (once, in the past) = toen: Toen ik een kind was ...",
-    "ar": "زي الألماني، أفعال الحركة والتغيّر بتاخد zijn: gaan ← ik ben gegaan، verhuizen ← we zijn verhuisd، komen ← hij is gekomen، trouwen ← ze zijn getrouwd.\n\nالماضي البسيط لـ zijn وhebben: ik was, wij waren؛ ik had, wij hadden.\n\nمن (مدة) = ... geleden بعد المدة: twee jaar geleden. ولما (في الماضي) = toen: Toen ik een kind was ..."
+    "en": "Like German, verbs of movement and change use zijn: gaan -> ik ben gegaan, verhuizen -> we zijn verhuisd, komen -> hij is gekomen, trouwen -> ze zijn getrouwd.\n\nSimple past of zijn and hebben: ik was, wij waren; ik had, wij hadden.\n\nAgo = ... geleden after the time: twee jaar geleden. When (once, in the past) = toen: Toen ik een kind was ...",
+    "ar": "زي الألماني، أفعال الحركة والتغيّر بتاخد zijn: gaan -> ik ben gegaan، verhuizen -> we zijn verhuisd، komen -> hij is gekomen، trouwen -> ze zijn getrouwd.\n\nالماضي البسيط لـ zijn وhebben: ik was, wij waren؛ ik had, wij hadden.\n\nمن (مدة) = ... geleden بعد المدة: twee jaar geleden. ولما (في الماضي) = toen: Toen ik een kind was ..."
    },
    "exampleSentenceIds": [
     "nl.a2.sent.u01_01",
@@ -4131,8 +4131,8 @@
     "ar": "الـ ‎-e في الصفات وdeze وdie وwelke"
    },
    "explanation": {
-    "en": "Dutch adjective rule is short: add -e before a noun, except with a singular het-word after een, geen or no article: een blauwe jas, de zwarte broek, but een rood kostuum, een mooi huis.\n\nSpelling: rood → rode, blauw → blauwe, zwart → zwarte.\n\nthis/these: deze (de-words and plurals), dit (het-words). that: die / dat. which: welke (welk with a het-word).",
-    "ar": "قاعدة الصفة في الهولندي قصيرة: زوّد ‎-e قبل الاسم، إلا مع كلمة het مفرد بعد een أو geen أو من غير أداة: een blauwe jas، de zwarte broek، بس een rood kostuum، een mooi huis.\n\nالإملا: rood ← rode، blauw ← blauwe، zwart ← zwarte.\n\nده/دول: deze (لكلمات de والجمع)، dit (لكلمات het). داك: die / dat. أنهي: welke (welk مع كلمة het)."
+    "en": "Dutch adjective rule is short: add -e before a noun, except with a singular het-word after een, geen or no article: een blauwe jas, de zwarte broek, but een rood kostuum, een mooi huis.\n\nSpelling: rood -> rode, blauw -> blauwe, zwart -> zwarte.\n\nthis/these: deze (de-words and plurals), dit (het-words). that: die / dat. which: welke (welk with a het-word).",
+    "ar": "قاعدة الصفة في الهولندي قصيرة: زوّد ‎-e قبل الاسم، إلا مع كلمة het مفرد بعد een أو geen أو من غير أداة: een blauwe jas، de zwarte broek، بس een rood kostuum، een mooi huis.\n\nالإملا: rood -> rode، blauw -> blauwe، zwart -> zwarte.\n\nده/دول: deze (لكلمات de والجمع)، dit (لكلمات het). داك: die / dat. أنهي: welke (welk مع كلمة het)."
    },
    "exampleSentenceIds": [
     "nl.a2.sent.u03_01",
@@ -4175,8 +4175,8 @@
     "ar": "zetten وleggen وhangen وstaan وliggen"
    },
    "explanation": {
-    "en": "Dutch also pairs action and position: zetten (put upright) → staan, leggen (lay) → liggen, hangen → hangen.\n\nIk zet de plank tegen de muur. De plank staat tegen de muur. Ik leg het boek op de tafel. Het boek ligt op de tafel.\n\nNo case changes: op de tafel stays op de tafel. Dutch even uses staan for things in print: Het staat in de krant.",
-    "ar": "الهولندي برضه بيقابل الحركة بالمكان: zetten (يحط واقف) ← staan، leggen (يحط نايم) ← liggen، hangen ← hangen.\n\nIk zet de plank tegen de muur. De plank staat tegen de muur. Ik leg het boek op de tafel. Het boek ligt op de tafel.\n\nمفيش تغيير في الأداة: op de tafel زي ما هي. والهولندي بيستخدم staan للمكتوب كمان: Het staat in de krant (مكتوب في الجرنال)."
+    "en": "Dutch also pairs action and position: zetten (put upright) -> staan, leggen (lay) -> liggen, hangen -> hangen.\n\nIk zet de plank tegen de muur. De plank staat tegen de muur. Ik leg het boek op de tafel. Het boek ligt op de tafel.\n\nNo case changes: op de tafel stays op de tafel. Dutch even uses staan for things in print: Het staat in de krant.",
+    "ar": "الهولندي برضه بيقابل الحركة بالمكان: zetten (يحط واقف) -> staan، leggen (يحط نايم) -> liggen، hangen -> hangen.\n\nIk zet de plank tegen de muur. De plank staat tegen de muur. Ik leg het boek op de tafel. Het boek ligt op de tafel.\n\nمفيش تغيير في الأداة: op de tafel زي ما هي. والهولندي بيستخدم staan للمكتوب كمان: Het staat in de krant (مكتوب في الجرنال)."
    },
    "exampleSentenceIds": [
     "nl.a2.sent.u04_01",
@@ -4263,8 +4263,8 @@
     "ar": "المقارنة بـ dan، وals (لو)"
    },
    "explanation": {
-    "en": "Comparative: adjective + -er + dan: sneller dan. Superlative: -st: het snelst, de snelste. After r add -der: duur → duurder. Irregular: goed → beter → best, veel → meer → meest.\n\nCareful: German als (than) = Dutch dan; Dutch als = if/when: Als ik tijd heb, stuur ik je een bericht. The main clause after it starts with the verb.",
-    "ar": "المقارنة: الصفة + ‎-er + dan: sneller dan. والتفضيل: ‎-st: het snelst، de snelste. بعد r زوّد ‎-der: duur ← duurder. والشاذ: goed ← beter ← best، veel ← meer ← meest.\n\nخلي بالك: als الألمانية (من، للمقارنة) = dan بالهولندي؛ وals الهولندية = لو/لما: Als ik tijd heb, stuur ik je een bericht. والجملة الأساسية بعدها تبدأ بالفعل."
+    "en": "Comparative: adjective + -er + dan: sneller dan. Superlative: -st: het snelst, de snelste. After r add -der: duur -> duurder. Irregular: goed -> beter -> best, veel -> meer -> meest.\n\nCareful: German als (than) = Dutch dan; Dutch als = if/when: Als ik tijd heb, stuur ik je een bericht. The main clause after it starts with the verb.",
+    "ar": "المقارنة: الصفة + ‎-er + dan: sneller dan. والتفضيل: ‎-st: het snelst، de snelste. بعد r زوّد ‎-der: duur -> duurder. والشاذ: goed -> beter -> best، veel -> meer -> meest.\n\nخلي بالك: als الألمانية (من، للمقارنة) = dan بالهولندي؛ وals الهولندية = لو/لما: Als ik tijd heb, stuur ik je een bericht. والجملة الأساسية بعدها تبدأ بالفعل."
    },
    "exampleSentenceIds": [
     "nl.a2.sent.u06_01",

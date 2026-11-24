@@ -6049,8 +6049,8 @@
     "en": "el, la: articles and gender"
    },
    "explanation": {
-    "en": "Every Spanish noun is masculine or feminine. Most words in -o are masculine (el armario) and most in -a are feminine (la mesa). Learn the exceptions with their article: el sofá, el día, el problema, la mano.\n\nArticles: el / la (the), los / las (the, plural), un / una (a).\n\nPlural: add -s after a vowel (mesa → mesas) and -es after a consonant (balcón → balcones; the accent disappears).\n\nAdjectives agree with the noun: el piso pequeño, la cocina pequeña, los pisos pequeños. Adjectives in -e only change for plural: grande, grandes.\n\nhay means there is / there are: En el dormitorio hay una cama.",
-    "ar": "كل اسم في الإسباني يا مذكر يا مؤنث. أغلب الكلمات اللي بتخلص بـ ‎-o مذكر (el armario) وأغلب اللي بتخلص بـ ‎-a مؤنث (la mesa). احفظ الاستثناءات مع أداتها: el sofá، el día، el problema، la mano.\n\nالأدوات: el / la (الـ)، los / las (الـ للجمع)، un / una (واحد/واحدة، زي a).\n\nالجمع: زوّد ‎-s بعد حرف متحرك (mesa ← mesas) و‎-es بعد حرف ساكن (balcón ← balcones، والشرطة بتختفي).\n\nالصفة بتمشي مع الاسم: el piso pequeño، la cocina pequeña، los pisos pequeños. الصفات اللي بتخلص بـ ‎-e بتتغير في الجمع بس: grande، grandes.\n\nhay معناها «فيه»: En el dormitorio hay una cama = في أوضة النوم فيه سرير."
+    "en": "Every Spanish noun is masculine or feminine. Most words in -o are masculine (el armario) and most in -a are feminine (la mesa). Learn the exceptions with their article: el sofá, el día, el problema, la mano.\n\nArticles: el / la (the), los / las (the, plural), un / una (a).\n\nPlural: add -s after a vowel (mesa -> mesas) and -es after a consonant (balcón -> balcones; the accent disappears).\n\nAdjectives agree with the noun: el piso pequeño, la cocina pequeña, los pisos pequeños. Adjectives in -e only change for plural: grande, grandes.\n\nhay means there is / there are: En el dormitorio hay una cama.",
+    "ar": "كل اسم في الإسباني يا مذكر يا مؤنث. أغلب الكلمات اللي بتخلص بـ ‎-o مذكر (el armario) وأغلب اللي بتخلص بـ ‎-a مؤنث (la mesa). احفظ الاستثناءات مع أداتها: el sofá، el día، el problema، la mano.\n\nالأدوات: el / la (الـ)، los / las (الـ للجمع)، un / una (واحد/واحدة، زي a).\n\nالجمع: زوّد ‎-s بعد حرف متحرك (mesa -> mesas) و‎-es بعد حرف ساكن (balcón -> balcones، والشرطة بتختفي).\n\nالصفة بتمشي مع الاسم: el piso pequeño، la cocina pequeña، los pisos pequeños. الصفات اللي بتخلص بـ ‎-e بتتغير في الجمع بس: grande، grandes.\n\nhay معناها «فيه»: En el dormitorio hay una cama = في أوضة النوم فيه سرير."
    },
    "table": {
     "headers": [
@@ -6353,8 +6353,8 @@
     "ar": "gustar وpoder وsaber"
    },
    "explanation": {
-    "en": "gustar works backwards: the thing you like is the subject. Me gusta leer. Me gusta la música. Me gustan los libros (plural → gustan).\n\npoder (o → ue) = can, be allowed: puedo, puedes, puede, podemos, podéis, pueden. For a learned skill Spanish uses saber: ¿Sabes nadar? = Can you swim?\n\njugar (u → ue) takes a: juego al fútbol.",
-    "ar": "gustar بتشتغل بالعكس: الحاجة اللي بتحبها هي الفاعل. Me gusta leer. Me gusta la música. Me gustan los libros (جمع ← gustan).\n\npoder (o ← ue) = يقدر أو مسموح له: puedo, puedes, puede, podemos, podéis, pueden. وللمهارة اللي اتعلمتها الإسباني بيستخدم saber: ¿Sabes nadar? = تعرف تعوم؟\n\njugar (u ← ue) بتاخد a: juego al fútbol."
+    "en": "gustar works backwards: the thing you like is the subject. Me gusta leer. Me gusta la música. Me gustan los libros (plural -> gustan).\n\npoder (o -> ue) = can, be allowed: puedo, puedes, puede, podemos, podéis, pueden. For a learned skill Spanish uses saber: ¿Sabes nadar? = Can you swim?\n\njugar (u -> ue) takes a: juego al fútbol.",
+    "ar": "gustar بتشتغل بالعكس: الحاجة اللي بتحبها هي الفاعل. Me gusta leer. Me gusta la música. Me gustan los libros (جمع -> gustan).\n\npoder (o -> ue) = يقدر أو مسموح له: puedo, puedes, puede, podemos, podéis, pueden. وللمهارة اللي اتعلمتها الإسباني بيستخدم saber: ¿Sabes nadar? = تعرف تعوم؟\n\njugar (u -> ue) بتاخد a: juego al fútbol."
    },
    "exampleSentenceIds": [
     "es.a1.sent.u07_01",
@@ -6397,8 +6397,8 @@
     "ar": "estar للمكان والأمر المؤدب"
    },
    "explanation": {
-    "en": "For where something is, Spanish uses estar, not ser: ¿Dónde está la estación? El museo está cerca.\n\nPolite (usted) imperative: -ar verbs take -e, -er/-ir verbs take -a: tomar → tome, seguir → siga, girar → gire. Informal (tú): toma, sigue, gira.\n\nde + el = del, a + el = al: al lado del banco.",
-    "ar": "عشان تقول الحاجة فين، الإسباني بيستخدم estar مش ser: ¿Dónde está la estación? El museo está cerca.\n\nالأمر المؤدب (usted): أفعال ‎-ar بتاخد ‎-e، وأفعال ‎-er/-ir بتاخد ‎-a: tomar ← tome، seguir ← siga، girar ← gire. والعادي (tú): toma، sigue، gira.\n\nde + el = del، وa + el = al: al lado del banco."
+    "en": "For where something is, Spanish uses estar, not ser: ¿Dónde está la estación? El museo está cerca.\n\nPolite (usted) imperative: -ar verbs take -e, -er/-ir verbs take -a: tomar -> tome, seguir -> siga, girar -> gire. Informal (tú): toma, sigue, gira.\n\nde + el = del, a + el = al: al lado del banco.",
+    "ar": "عشان تقول الحاجة فين، الإسباني بيستخدم estar مش ser: ¿Dónde está la estación? El museo está cerca.\n\nالأمر المؤدب (usted): أفعال ‎-ar بتاخد ‎-e، وأفعال ‎-er/-ir بتاخد ‎-a: tomar -> tome، seguir -> siga، girar -> gire. والعادي (tú): toma، sigue، gira.\n\nde + el = del، وa + el = al: al lado del banco."
    },
    "exampleSentenceIds": [
     "es.a1.sent.u08_01",
@@ -6441,7 +6441,7 @@
     "ar": "tener que وsalir والمواصلات بـ en"
    },
    "explanation": {
-    "en": "Must = tener que + infinitive: Tengo que trabajar. Tenemos que comprar un billete.\n\nTransport uses en: en tren, en autobús, en coche, en avión (but a pie = on foot).\n\nsalir (to leave) has yo salgo; ¿Cuándo sale el tren? volar changes o → ue: vuelo, vuelas, vuela, volamos.",
+    "en": "Must = tener que + infinitive: Tengo que trabajar. Tenemos que comprar un billete.\n\nTransport uses en: en tren, en autobús, en coche, en avión (but a pie = on foot).\n\nsalir (to leave) has yo salgo; ¿Cuándo sale el tren? volar changes o -> ue: vuelo, vuelas, vuela, volamos.",
     "ar": "لازم = tener que + مصدر: Tengo que trabajar. Tenemos que comprar un billete.\n\nالمواصلات بـ en: en tren، en autobús، en coche، en avión (بس a pie = ماشي على رجلك).\n\nsalir (يقوم/يخرج) ليها yo salgo؛ ¿Cuándo sale el tren? وvolar الـ o بتبقى ue: vuelo, vuelas, vuela, volamos."
    },
    "exampleSentenceIds": [
@@ -6529,8 +6529,8 @@
     "ar": "ماضيين: pretérito perfecto وindefinido"
    },
    "explanation": {
-    "en": "pretérito perfecto = haber + participle, for today, this week, life so far: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). Participles: -ar → -ado, -er/-ir → -ido; irregular: hecho (hacer), escrito (escribir).\n\nindefinido for finished times like ayer: trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (why, two words) vs porque (because).",
-    "ar": "pretérito perfecto = haber + اسم المفعول، للنهاردة والأسبوع ده والحياة لحد دلوقتي: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). اسم المفعول: ‎-ar ← ‎-ado، و‎-er/-ir ← ‎-ido؛ والشاذ: hecho (hacer)، escrito (escribir).\n\nindefinido للوقت اللي خلص زي ayer (امبارح): trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (ليه، كلمتين) غير porque (عشان)."
+    "en": "pretérito perfecto = haber + participle, for today, this week, life so far: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). Participles: -ar -> -ado, -er/-ir -> -ido; irregular: hecho (hacer), escrito (escribir).\n\nindefinido for finished times like ayer: trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (why, two words) vs porque (because).",
+    "ar": "pretérito perfecto = haber + اسم المفعول، للنهاردة والأسبوع ده والحياة لحد دلوقتي: He trabajado. Ha escrito un correo. (he, has, ha, hemos, habéis, han). اسم المفعول: ‎-ar -> ‎-ado، و‎-er/-ir -> ‎-ido؛ والشاذ: hecho (hacer)، escrito (escribir).\n\nindefinido للوقت اللي خلص زي ayer (امبارح): trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\npor qué (ليه، كلمتين) غير porque (عشان)."
    },
    "exampleSentenceIds": [
     "es.a1.sent.u11_01",

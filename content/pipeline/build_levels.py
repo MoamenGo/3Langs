@@ -274,6 +274,27 @@ def main() -> None:
     for e in c["entries"]:
         kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
     print(f"wrote app/assets/content/contrast.json: {kinds}")
+    plain_arrows()
+
+
+# The app's bundled fonts (Noto Sans Arabic plus the web default) have no
+# arrow glyphs, so arrows would show as empty boxes. In Arabic text the
+# examples on both sides are German, Dutch or Spanish, so the arrow sits in a
+# left-to-right run: "->" reads the right way in both UI languages.
+ARROWS = {"\u2192": "->", "\u2190": "->"}
+
+
+def plain_arrows() -> None:
+    files = [APP_CONTENT_DIR / "contrast.json"]
+    for lang in LANGS:
+        files += sorted((APP_CONTENT_DIR / lang).glob("*.json"))
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        new = text
+        for a, b in ARROWS.items():
+            new = new.replace(a, b)
+        if new != text:
+            f.write_text(new, encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -157,7 +157,7 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
                         trailing: issue.replacements.isEmpty
                             ? null
                             : Text(
-                                '→ ${issue.replacements.first}',
+                                '-> ${issue.replacements.first}',
                                 style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                 ),

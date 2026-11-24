@@ -299,7 +299,7 @@ class _MixupMap extends ConsumerWidget {
                     SizedBox(
                       width: 72,
                       child: Text(
-                        '\u2066${e.key.$1.code} ← ${e.key.$2.code}\u2069',
+                        '\u2066${e.key.$1.code} <- ${e.key.$2.code}\u2069',
                         style: TextStyle(
                           color: e.key.$2.color,
                           fontWeight: FontWeight.bold,

@@ -4799,8 +4799,8 @@
     "ar": "الماضي البسيط (imperfectum)"
    },
    "explanation": {
-    "en": "Regular verbs: stem + -te(n) or -de(n), by the same 't kofschip rule as the participle: werken → werkte, werkten; leren → leerde, leerden; uitleggen → legde uit.\n\nIrregular verbs change the vowel: gaan → ging, komen → kwam, begrijpen → begreep, slagen is regular (slaagde).\n\nDutch uses the perfect more in speech, the imperfectum in stories.",
-    "ar": "الأفعال المنتظمة: الجذر + ‎-te(n) أو ‎-de(n)، بنفس قاعدة 't kofschip: werken ← werkte، werkten؛ leren ← leerde، leerden؛ uitleggen ← legde uit.\n\nالشاذة بيتغير حرفها المتحرك: gaan ← ging، komen ← kwam، begrijpen ← begreep، وslagen منتظم (slaagde).\n\nالهولندي في الكلام بيستخدم الـ perfect أكتر، والـ imperfectum في الحكايات."
+    "en": "Regular verbs: stem + -te(n) or -de(n), by the same 't kofschip rule as the participle: werken -> werkte, werkten; leren -> leerde, leerden; uitleggen -> legde uit.\n\nIrregular verbs change the vowel: gaan -> ging, komen -> kwam, begrijpen -> begreep, slagen is regular (slaagde).\n\nDutch uses the perfect more in speech, the imperfectum in stories.",
+    "ar": "الأفعال المنتظمة: الجذر + ‎-te(n) أو ‎-de(n)، بنفس قاعدة 't kofschip: werken -> werkte، werkten؛ leren -> leerde، leerden؛ uitleggen -> legde uit.\n\nالشاذة بيتغير حرفها المتحرك: gaan -> ging، komen -> kwam، begrijpen -> begreep، وslagen منتظم (slaagde).\n\nالهولندي في الكلام بيستخدم الـ perfect أكتر، والـ imperfectum في الحكايات."
    },
    "exampleSentenceIds": [
     "nl.b1.sent.u01_01",
@@ -5283,8 +5283,8 @@
     "ar": "اسم الفاعل واسم المفعول كصفات"
    },
    "explanation": {
-    "en": "Present participle = infinitive + d(e): groeien → groeiend, de groeiende hoeveelheid. Past participle: ontwikkelen → ontwikkeld, het ontwikkelde apparaat. They follow the normal adjective -e rule: een groeiende markt, een ontwikkeld land.\n\nboeken here means to achieve: vooruitgang boeken = to make progress.",
-    "ar": "اسم الفاعل = المصدر + d(e): groeien ← groeiend، de groeiende hoeveelheid. واسم المفعول: ontwikkelen ← ontwikkeld، het ontwikkelde apparaat. وبيمشوا على قاعدة ‎-e العادية: een groeiende markt، een ontwikkeld land.\n\nboeken هنا معناها يحقق: vooruitgang boeken = يتقدم."
+    "en": "Present participle = infinitive + d(e): groeien -> groeiend, de groeiende hoeveelheid. Past participle: ontwikkelen -> ontwikkeld, het ontwikkelde apparaat. They follow the normal adjective -e rule: een groeiende markt, een ontwikkeld land.\n\nboeken here means to achieve: vooruitgang boeken = to make progress.",
+    "ar": "اسم الفاعل = المصدر + d(e): groeien -> groeiend، de groeiende hoeveelheid. واسم المفعول: ontwikkelen -> ontwikkeld، het ontwikkelde apparaat. وبيمشوا على قاعدة ‎-e العادية: een groeiende markt، een ontwikkeld land.\n\nboeken هنا معناها يحقق: vooruitgang boeken = يتقدم."
    },
    "exampleSentenceIds": [
     "nl.b1.sent.u12_01",

@@ -4041,8 +4041,8 @@
     "ar": "الـ Perfekt مع sein؛ war وhatte"
    },
    "explanation": {
-    "en": "Verbs of movement or change of state form the perfect with sein: gehen → ich bin gegangen, umziehen → wir sind umgezogen, kommen → er ist gekommen, werden → ich bin geworden.\n\nFor sein and haben, Germans prefer the simple past: ich war, du warst, er war, wir waren; ich hatte, du hattest, er hatte, wir hatten.\n\nvor + dative = ago: vor zwei Jahren.",
-    "ar": "الأفعال اللي فيها حركة أو تغيّر حالة بتعمل الـ Perfekt بـ sein: gehen ← ich bin gegangen، umziehen ← wir sind umgezogen، kommen ← er ist gekommen، werden ← ich bin geworden.\n\nمع sein وhaben الألمان بيفضلوا الماضي البسيط: ich war, du warst, er war, wir waren؛ ich hatte, du hattest, er hatte, wir hatten.\n\nvor + داتيف = من (مدة): vor zwei Jahren = من سنتين."
+    "en": "Verbs of movement or change of state form the perfect with sein: gehen -> ich bin gegangen, umziehen -> wir sind umgezogen, kommen -> er ist gekommen, werden -> ich bin geworden.\n\nFor sein and haben, Germans prefer the simple past: ich war, du warst, er war, wir waren; ich hatte, du hattest, er hatte, wir hatten.\n\nvor + dative = ago: vor zwei Jahren.",
+    "ar": "الأفعال اللي فيها حركة أو تغيّر حالة بتعمل الـ Perfekt بـ sein: gehen -> ich bin gegangen، umziehen -> wir sind umgezogen، kommen -> er ist gekommen، werden -> ich bin geworden.\n\nمع sein وhaben الألمان بيفضلوا الماضي البسيط: ich war, du warst, er war, wir waren؛ ich hatte, du hattest, er hatte, wir hatten.\n\nvor + داتيف = من (مدة): vor zwei Jahren = من سنتين."
    },
    "exampleSentenceIds": [
     "de.a2.sent.u01_01",
@@ -4235,8 +4235,8 @@
     "ar": "حروف الجر ذات الوجهين: wohin؟ وwo؟"
    },
    "explanation": {
-    "en": "in, an, auf, über, unter, vor, hinter, neben, zwischen take the accusative for movement (wohin?) and the dative for position (wo?).\n\nIch stelle das Regal an die Wand (wohin? → acc.). Das Regal steht an der Wand (wo? → dat.).\n\nVerb pairs: stellen → stehen, legen → liegen, hängen → hängen. The first of each pair is an action, the second a position.",
-    "ar": "in وan وauf وüber وunter وvor وhinter وneben وzwischen بتاخد أكوزاتيف مع الحركة (wohin؟ على فين) وداتيف مع المكان (wo؟ فين).\n\nIch stelle das Regal an die Wand (على فين ← أكوزاتيف). Das Regal steht an der Wand (فين ← داتيف).\n\nأزواج الأفعال: stellen ← stehen، legen ← liegen، hängen ← hängen. الأول فعل حركة والتاني مكان."
+    "en": "in, an, auf, über, unter, vor, hinter, neben, zwischen take the accusative for movement (wohin?) and the dative for position (wo?).\n\nIch stelle das Regal an die Wand (wohin? -> acc.). Das Regal steht an der Wand (wo? -> dat.).\n\nVerb pairs: stellen -> stehen, legen -> liegen, hängen -> hängen. The first of each pair is an action, the second a position.",
+    "ar": "in وan وauf وüber وunter وvor وhinter وneben وzwischen بتاخد أكوزاتيف مع الحركة (wohin؟ على فين) وداتيف مع المكان (wo؟ فين).\n\nIch stelle das Regal an die Wand (على فين -> أكوزاتيف). Das Regal steht an der Wand (فين -> داتيف).\n\nأزواج الأفعال: stellen -> stehen، legen -> liegen، hängen -> hängen. الأول فعل حركة والتاني مكان."
    },
    "exampleSentenceIds": [
     "de.a2.sent.u04_01",
@@ -4323,8 +4323,8 @@
     "ar": "المقارنة والتفضيل وwenn"
    },
    "explanation": {
-    "en": "Comparative: adjective + -er + als: schneller als. Superlative: am + -sten (am schnellsten) or der/die/das + -ste (der schnellste). Short words often add an umlaut: alt → älter, groß → größer. Irregular: gut → besser → am besten, viel → mehr → am meisten.\n\nwenn (if, whenever) sends the verb to the end; the main clause then starts with its verb: Wenn ich Zeit habe, schicke ich dir eine Nachricht.",
-    "ar": "المقارنة: الصفة + ‎-er + als: schneller als. والتفضيل: am + ‎-sten (am schnellsten) أو der/die/das + ‎-ste (der schnellste). الكلمات القصيرة غالبًا بتاخد أوملاوت: alt ← älter، groß ← größer. والشاذ: gut ← besser ← am besten، viel ← mehr ← am meisten.\n\nwenn (لو/لما) بتبعت الفعل للآخر، والجملة الأساسية تبدأ بفعلها: Wenn ich Zeit habe, schicke ich dir eine Nachricht."
+    "en": "Comparative: adjective + -er + als: schneller als. Superlative: am + -sten (am schnellsten) or der/die/das + -ste (der schnellste). Short words often add an umlaut: alt -> älter, groß -> größer. Irregular: gut -> besser -> am besten, viel -> mehr -> am meisten.\n\nwenn (if, whenever) sends the verb to the end; the main clause then starts with its verb: Wenn ich Zeit habe, schicke ich dir eine Nachricht.",
+    "ar": "المقارنة: الصفة + ‎-er + als: schneller als. والتفضيل: am + ‎-sten (am schnellsten) أو der/die/das + ‎-ste (der schnellste). الكلمات القصيرة غالبًا بتاخد أوملاوت: alt -> älter، groß -> größer. والشاذ: gut -> besser -> am besten، viel -> mehr -> am meisten.\n\nwenn (لو/لما) بتبعت الفعل للآخر، والجملة الأساسية تبدأ بفعلها: Wenn ich Zeit habe, schicke ich dir eine Nachricht."
    },
    "exampleSentenceIds": [
     "de.a2.sent.u06_01",

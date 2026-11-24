@@ -3960,8 +3960,8 @@
     "ar": "تحويل الفعل لاسم"
    },
    "explanation": {
-    "en": "Spanish forms nouns from verbs with suffixes such as -ción/-sión (feminine), -miento (masculine) and -dad (feminine, from adjectives): decidir → la decisión, desarrollar → el desarrollo, crecer → el crecimiento, responsable → la responsabilidad.\n\nThe infinitive can also act as a noun with el: El negociar no es fácil. The object follows with de: el desarrollo de la plantilla.",
-    "ar": "الإسباني بيعمل أسماء من الأفعال بلواحق زي ‎-ción/-sión (مؤنث)، ‎-miento (مذكر)، و‎-dad (مؤنث، من الصفات): decidir ← la decisión، desarrollar ← el desarrollo، crecer ← el crecimiento، responsable ← la responsabilidad.\n\nوالمصدر ممكن يبقى اسم مع el: El negociar no es fácil. والمفعول بييجي بعده بـ de: el desarrollo de la plantilla."
+    "en": "Spanish forms nouns from verbs with suffixes such as -ción/-sión (feminine), -miento (masculine) and -dad (feminine, from adjectives): decidir -> la decisión, desarrollar -> el desarrollo, crecer -> el crecimiento, responsable -> la responsabilidad.\n\nThe infinitive can also act as a noun with el: El negociar no es fácil. The object follows with de: el desarrollo de la plantilla.",
+    "ar": "الإسباني بيعمل أسماء من الأفعال بلواحق زي ‎-ción/-sión (مؤنث)، ‎-miento (مذكر)، و‎-dad (مؤنث، من الصفات): decidir -> la decisión، desarrollar -> el desarrollo، crecer -> el crecimiento، responsable -> la responsabilidad.\n\nوالمصدر ممكن يبقى اسم مع el: El negociar no es fácil. والمفعول بييجي بعده بـ de: el desarrollo de la plantilla."
    },
    "exampleSentenceIds": [
     "es.b2.sent.u01_01",
@@ -3970,19 +3970,19 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "decidir → la ___",
+     "prompt": "decidir -> la ___",
      "answer": "decisión",
      "base": "decidir"
     },
     {
      "type": "fill_blank",
-     "prompt": "crecer → el ___",
+     "prompt": "crecer -> el ___",
      "answer": "crecimiento",
      "base": "crecer"
     },
     {
      "type": "fill_blank",
-     "prompt": "responsable → la ___",
+     "prompt": "responsable -> la ___",
      "answer": "responsabilidad",
      "base": "responsable"
     },
@@ -4076,7 +4076,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "explicar → ___ (-ble)",
+     "prompt": "explicar -> ___ (-ble)",
      "answer": "explicable",
      "base": "explicar"
     }
@@ -4092,8 +4092,8 @@
     "ar": "الكلام المنقول"
    },
    "explanation": {
-    "en": "After a past reporting verb (dijo, afirmó, explicó) the tenses shift back:\n- presente → imperfecto: 'No tengo tiempo.' → Dijo que no tenía tiempo.\n- indefinido/perfecto → pluscuamperfecto: 'No he tenido tiempo.' → Dijo que no había tenido tiempo.\n- futuro → condicional: 'Vendré.' → Dijo que vendría.\n\nCommands become subjunctive: 'Ven.' → Me dijo que viniera.",
-    "ar": "بعد فعل نقل في الماضي (dijo، afirmó، explicó) الأزمنة بترجع لورا:\n- presente ← imperfecto: 'No tengo tiempo.' ← Dijo que no tenía tiempo.\n- indefinido/perfecto ← pluscuamperfecto: 'No he tenido tiempo.' ← Dijo que no había tenido tiempo.\n- futuro ← condicional: 'Vendré.' ← Dijo que vendría.\n\nوالأوامر بتبقى subjuntivo: 'Ven.' ← Me dijo que viniera."
+    "en": "After a past reporting verb (dijo, afirmó, explicó) the tenses shift back:\n- presente -> imperfecto: 'No tengo tiempo.' -> Dijo que no tenía tiempo.\n- indefinido/perfecto -> pluscuamperfecto: 'No he tenido tiempo.' -> Dijo que no había tenido tiempo.\n- futuro -> condicional: 'Vendré.' -> Dijo que vendría.\n\nCommands become subjunctive: 'Ven.' -> Me dijo que viniera.",
+    "ar": "بعد فعل نقل في الماضي (dijo، afirmó، explicó) الأزمنة بترجع لورا:\n- presente -> imperfecto: 'No tengo tiempo.' -> Dijo que no tenía tiempo.\n- indefinido/perfecto -> pluscuamperfecto: 'No he tenido tiempo.' -> Dijo que no había tenido tiempo.\n- futuro -> condicional: 'Vendré.' -> Dijo que vendría.\n\nوالأوامر بتبقى subjuntivo: 'Ven.' -> Me dijo que viniera."
    },
    "exampleSentenceIds": [
     "es.b2.sent.u04_01",
@@ -4102,25 +4102,25 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "'No tengo tiempo.' → Dijo que no ___ tiempo.",
+     "prompt": "'No tengo tiempo.' -> Dijo que no ___ tiempo.",
      "answer": "tenía",
      "base": "tener"
     },
     {
      "type": "fill_blank",
-     "prompt": "'Vendré.' → Dijo que ___.",
+     "prompt": "'Vendré.' -> Dijo que ___.",
      "answer": "vendría",
      "base": "venir"
     },
     {
      "type": "fill_blank",
-     "prompt": "'He terminado.' → Dijo que ___ terminado.",
+     "prompt": "'He terminado.' -> Dijo que ___ terminado.",
      "answer": "había",
      "base": "haber"
     },
     {
      "type": "fill_blank",
-     "prompt": "'Ven.' → Me dijo que ___.",
+     "prompt": "'Ven.' -> Me dijo que ___.",
      "answer": "viniera",
      "base": "venir"
     }
@@ -4268,8 +4268,8 @@
     "ar": "الـ indefinido والـ imperfecto في الحكي"
    },
    "explanation": {
-    "en": "In a story the indefinido moves the action forward (what happened), and the imperfecto paints the background (what it was like, what was going on):\n- Hacía frío y la gente tenía miedo (background). Entonces empezó la guerra y muchos huyeron (events).\n\nhuir → huyó, huyeron; hubo (there was, event) vs. había (there was, description). Earlier events: pluscuamperfecto: había empezado.",
-    "ar": "في الحكاية الـ indefinido بيمشّي الأحداث (اللي حصل)، والـ imperfecto بيرسم الخلفية (كان شكله إيه، إيه اللي كان بيحصل):\n- Hacía frío y la gente tenía miedo (خلفية). Entonces empezó la guerra y muchos huyeron (أحداث).\n\nhuir ← huyó، huyeron؛ hubo (كان فيه، حدث) و había (كان فيه، وصف). والأحداث اللي قبلها: pluscuamperfecto: había empezado."
+    "en": "In a story the indefinido moves the action forward (what happened), and the imperfecto paints the background (what it was like, what was going on):\n- Hacía frío y la gente tenía miedo (background). Entonces empezó la guerra y muchos huyeron (events).\n\nhuir -> huyó, huyeron; hubo (there was, event) vs. había (there was, description). Earlier events: pluscuamperfecto: había empezado.",
+    "ar": "في الحكاية الـ indefinido بيمشّي الأحداث (اللي حصل)، والـ imperfecto بيرسم الخلفية (كان شكله إيه، إيه اللي كان بيحصل):\n- Hacía frío y la gente tenía miedo (خلفية). Entonces empezó la guerra y muchos huyeron (أحداث).\n\nhuir -> huyó، huyeron؛ hubo (كان فيه، حدث) و había (كان فيه، وصف). والأحداث اللي قبلها: pluscuamperfecto: había empezado."
    },
    "exampleSentenceIds": [
     "es.b2.sent.u08_01",
@@ -4312,8 +4312,8 @@
     "ar": "تكوين الكلمات: سوابق ولواحق"
    },
    "explanation": {
-    "en": "Common Spanish affixes:\n- in-/i-/des-: opposite: legible → ilegible, posible → imposible, conocido → desconocido\n- -mente: adverbs from the feminine adjective: rápida → rápidamente\n- -dad/-eza: abstract nouns: libre → la libertad, triste → la tristeza\n- -dor/-dora: person: investigar → el investigador\n- -oso: full of: peligro → peligroso",
-    "ar": "سوابق ولواحق إسبانية مشهورة:\n- in-/i-/des-: العكس: legible ← ilegible، posible ← imposible، conocido ← desconocido\n- ‎-mente: ظرف من الصفة المؤنثة: rápida ← rápidamente\n- ‎-dad/-eza: أسماء مجردة: libre ← la libertad، triste ← la tristeza\n- ‎-dor/-dora: شخص: investigar ← el investigador\n- ‎-oso: مليان: peligro ← peligroso"
+    "en": "Common Spanish affixes:\n- in-/i-/des-: opposite: legible -> ilegible, posible -> imposible, conocido -> desconocido\n- -mente: adverbs from the feminine adjective: rápida -> rápidamente\n- -dad/-eza: abstract nouns: libre -> la libertad, triste -> la tristeza\n- -dor/-dora: person: investigar -> el investigador\n- -oso: full of: peligro -> peligroso",
+    "ar": "سوابق ولواحق إسبانية مشهورة:\n- in-/i-/des-: العكس: legible -> ilegible، posible -> imposible، conocido -> desconocido\n- ‎-mente: ظرف من الصفة المؤنثة: rápida -> rápidamente\n- ‎-dad/-eza: أسماء مجردة: libre -> la libertad، triste -> la tristeza\n- ‎-dor/-dora: شخص: investigar -> el investigador\n- ‎-oso: مليان: peligro -> peligroso"
    },
    "exampleSentenceIds": [
     "es.b2.sent.u09_01",
@@ -4322,25 +4322,25 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "legible → ___ (opposite)",
+     "prompt": "legible -> ___ (opposite)",
      "answer": "ilegible",
      "base": "legible"
     },
     {
      "type": "fill_blank",
-     "prompt": "conocido → ___ (opposite)",
+     "prompt": "conocido -> ___ (opposite)",
      "answer": "desconocido",
      "base": "conocido"
     },
     {
      "type": "fill_blank",
-     "prompt": "rápida → ___ (adverb)",
+     "prompt": "rápida -> ___ (adverb)",
      "answer": "rápidamente",
      "base": "rápida"
     },
     {
      "type": "fill_blank",
-     "prompt": "triste → la ___",
+     "prompt": "triste -> la ___",
      "answer": "tristeza",
      "base": "triste"
     }
@@ -4472,7 +4472,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "un momento → un ___ (diminutive)",
+     "prompt": "un momento -> un ___ (diminutive)",
      "answer": "momentito",
      "base": "momento"
     }

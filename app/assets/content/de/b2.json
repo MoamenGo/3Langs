@@ -3958,8 +3958,8 @@
     "ar": "تحويل الفعل لاسم"
    },
    "explanation": {
-    "en": "Formal German often turns verbs and adjectives into nouns. Common patterns:\n- verb stem + -ung (feminine): entscheiden → die Entscheidung, entwickeln → die Entwicklung\n- infinitive as a neuter noun: verhandeln → das Verhandeln\n- adjective + -heit/-keit (feminine): frei → die Freiheit, möglich → die Möglichkeit\n\nThe object of the verb becomes a genitive: Man entwickelt die Firma → die Entwicklung der Firma.",
-    "ar": "الألماني الرسمي بيحوّل أفعال وصفات كتير لأسماء. أشهر الطرق:\n- جذر الفعل + ‎-ung (مؤنث): entscheiden ← die Entscheidung، entwickeln ← die Entwicklung\n- المصدر كاسم محايد: verhandeln ← das Verhandeln\n- الصفة + ‎-heit/-keit (مؤنث): frei ← die Freiheit، möglich ← die Möglichkeit\n\nمفعول الفعل بيبقى في حالة الإضافة: Man entwickelt die Firma ← die Entwicklung der Firma."
+    "en": "Formal German often turns verbs and adjectives into nouns. Common patterns:\n- verb stem + -ung (feminine): entscheiden -> die Entscheidung, entwickeln -> die Entwicklung\n- infinitive as a neuter noun: verhandeln -> das Verhandeln\n- adjective + -heit/-keit (feminine): frei -> die Freiheit, möglich -> die Möglichkeit\n\nThe object of the verb becomes a genitive: Man entwickelt die Firma -> die Entwicklung der Firma.",
+    "ar": "الألماني الرسمي بيحوّل أفعال وصفات كتير لأسماء. أشهر الطرق:\n- جذر الفعل + ‎-ung (مؤنث): entscheiden -> die Entscheidung، entwickeln -> die Entwicklung\n- المصدر كاسم محايد: verhandeln -> das Verhandeln\n- الصفة + ‎-heit/-keit (مؤنث): frei -> die Freiheit، möglich -> die Möglichkeit\n\nمفعول الفعل بيبقى في حالة الإضافة: Man entwickelt die Firma -> die Entwicklung der Firma."
    },
    "exampleSentenceIds": [
     "de.b2.sent.u01_01",
@@ -3968,19 +3968,19 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "entscheiden → die ___",
+     "prompt": "entscheiden -> die ___",
      "answer": "Entscheidung",
      "base": "entscheiden"
     },
     {
      "type": "fill_blank",
-     "prompt": "befördern → die ___",
+     "prompt": "befördern -> die ___",
      "answer": "Beförderung",
      "base": "befördern"
     },
     {
      "type": "fill_blank",
-     "prompt": "möglich → die ___",
+     "prompt": "möglich -> die ___",
      "answer": "Möglichkeit",
      "base": "möglich"
     },
@@ -4062,7 +4062,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Das ist leicht ___. (erklären → -bar)",
+     "prompt": "Das ist leicht ___. (erklären -> -bar)",
      "answer": "erklärbar",
      "base": "erklären"
     },
@@ -4294,8 +4294,8 @@
     "ar": "الـ Präteritum في الحكي"
    },
    "explanation": {
-    "en": "Written stories and history texts use the Präteritum throughout, not the Perfekt. Many irregular verbs: geben → gab, fliehen → floh, ziehen → zog, sterben → starb, beginnen → begann, finden → fand.\n\nEvents before the story time use the Plusquamperfekt: hatte/war + participle: Nachdem der Krieg begonnen hatte, flohen viele.",
-    "ar": "الحكايات المكتوبة ونصوص التاريخ بتستخدم الـ Präteritum طول الوقت مش الـ Perfekt. أفعال شاذة كتير: geben ← gab، fliehen ← floh، ziehen ← zog، sterben ← starb، beginnen ← begann، finden ← fand.\n\nوالأحداث اللي قبل وقت الحكاية بتاخد Plusquamperfekt: hatte/war + Partizip: Nachdem der Krieg begonnen hatte, flohen viele."
+    "en": "Written stories and history texts use the Präteritum throughout, not the Perfekt. Many irregular verbs: geben -> gab, fliehen -> floh, ziehen -> zog, sterben -> starb, beginnen -> begann, finden -> fand.\n\nEvents before the story time use the Plusquamperfekt: hatte/war + participle: Nachdem der Krieg begonnen hatte, flohen viele.",
+    "ar": "الحكايات المكتوبة ونصوص التاريخ بتستخدم الـ Präteritum طول الوقت مش الـ Perfekt. أفعال شاذة كتير: geben -> gab، fliehen -> floh، ziehen -> zog، sterben -> starb، beginnen -> begann، finden -> fand.\n\nوالأحداث اللي قبل وقت الحكاية بتاخد Plusquamperfekt: hatte/war + Partizip: Nachdem der Krieg begonnen hatte, flohen viele."
    },
    "exampleSentenceIds": [
     "de.b2.sent.u08_01",
@@ -4338,8 +4338,8 @@
     "ar": "تكوين الكلمات: سوابق ولواحق"
    },
    "explanation": {
-    "en": "Knowing affixes helps you guess new words:\n- un-: opposite: lesbar → unlesbar, klar → unklar\n- -los: without: arbeitslos, fantasielos\n- -voll: full of: fantasievoll, wertvoll\n- -lich/-ig: adjectives: Freund → freundlich, Lust → lustig\n- -er/-in: person: lesen → der Leser, die Leserin\n- -schaft, -tum: abstract nouns: Freundschaft, Eigentum",
-    "ar": "لو عارف السوابق واللواحق هتقدر تخمّن كلمات جديدة:\n- un-: العكس: lesbar ← unlesbar، klar ← unklar\n- ‎-los: من غير: arbeitslos، fantasielos\n- ‎-voll: مليان: fantasievoll، wertvoll\n- ‎-lich/-ig: صفات: Freund ← freundlich، Lust ← lustig\n- ‎-er/-in: شخص: lesen ← der Leser، die Leserin\n- ‎-schaft، ‎-tum: أسماء مجردة: Freundschaft، Eigentum"
+    "en": "Knowing affixes helps you guess new words:\n- un-: opposite: lesbar -> unlesbar, klar -> unklar\n- -los: without: arbeitslos, fantasielos\n- -voll: full of: fantasievoll, wertvoll\n- -lich/-ig: adjectives: Freund -> freundlich, Lust -> lustig\n- -er/-in: person: lesen -> der Leser, die Leserin\n- -schaft, -tum: abstract nouns: Freundschaft, Eigentum",
+    "ar": "لو عارف السوابق واللواحق هتقدر تخمّن كلمات جديدة:\n- un-: العكس: lesbar -> unlesbar، klar -> unklar\n- ‎-los: من غير: arbeitslos، fantasielos\n- ‎-voll: مليان: fantasievoll، wertvoll\n- ‎-lich/-ig: صفات: Freund -> freundlich، Lust -> lustig\n- ‎-er/-in: شخص: lesen -> der Leser، die Leserin\n- ‎-schaft، ‎-tum: أسماء مجردة: Freundschaft، Eigentum"
    },
    "exampleSentenceIds": [
     "de.b2.sent.u09_01",
@@ -4348,7 +4348,7 @@
    "exercises": [
     {
      "type": "fill_blank",
-     "prompt": "lesbar → ___ (opposite)",
+     "prompt": "lesbar -> ___ (opposite)",
      "answer": "unlesbar",
      "base": "lesbar"
     },
@@ -4366,7 +4366,7 @@
     },
     {
      "type": "fill_blank",
-     "prompt": "Freund → ___schaft",
+     "prompt": "Freund -> ___schaft",
      "answer": "Freund",
      "base": "Freund"
     }

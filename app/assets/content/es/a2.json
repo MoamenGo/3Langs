@@ -4093,8 +4093,8 @@
     "ar": "ضماير المفعول وa للأشخاص"
    },
    "explanation": {
-    "en": "A person as direct object gets a: Conocí a mi amigo. Invitamos a los vecinos.\n\nIndirect object pronouns: me, te, le, nos, os, les. ¿Puedes ayudarme? (pronoun attached to the infinitive) Me cae bien = I like him/her.\n\nReflexive: me acuerdo, te acuerdas, se acuerda, nos acordamos (o → ue).",
-    "ar": "الشخص لما يبقى مفعول بيه بياخد a: Conocí a mi amigo. Invitamos a los vecinos.\n\nضماير المفعول غير المباشر: me, te, le, nos, os, les. ¿Puedes ayudarme? (الضمير بيتلزق في المصدر) وMe cae bien = بستلطفه.\n\nالانعكاسي: me acuerdo, te acuerdas, se acuerda, nos acordamos (o ← ue)."
+    "en": "A person as direct object gets a: Conocí a mi amigo. Invitamos a los vecinos.\n\nIndirect object pronouns: me, te, le, nos, os, les. ¿Puedes ayudarme? (pronoun attached to the infinitive) Me cae bien = I like him/her.\n\nReflexive: me acuerdo, te acuerdas, se acuerda, nos acordamos (o -> ue).",
+    "ar": "الشخص لما يبقى مفعول بيه بياخد a: Conocí a mi amigo. Invitamos a los vecinos.\n\nضماير المفعول غير المباشر: me, te, le, nos, os, les. ¿Puedes ayudarme? (الضمير بيتلزق في المصدر) وMe cae bien = بستلطفه.\n\nالانعكاسي: me acuerdo, te acuerdas, se acuerda, nos acordamos (o -> ue)."
    },
    "exampleSentenceIds": [
     "es.a2.sent.u02_01",
@@ -4137,8 +4137,8 @@
     "ar": "مطابقة الصفة وeste وese"
    },
    "explanation": {
-    "en": "Adjectives come after the noun and agree in gender and number: el vestido rojo, la chaqueta roja, los zapatos negros. Adjectives in -e or a consonant change only for number: azul → azules.\n\nthis: este, esta, estos, estas. that: ese, esa, esos, esas.\n\nllevar = to wear: Llevo una chaqueta azul. probarse (o → ue) = to try on.",
-    "ar": "الصفة بتيجي بعد الاسم وبتطابقه في الجنس والعدد: el vestido rojo، la chaqueta roja، los zapatos negros. والصفات اللي بتخلص بـ ‎-e أو حرف ساكن بتتغير في العدد بس: azul ← azules.\n\nده: este, esta, estos, estas. داك: ese, esa, esos, esas.\n\nllevar = يلبس: Llevo una chaqueta azul. وprobarse (o ← ue) = يقيس."
+    "en": "Adjectives come after the noun and agree in gender and number: el vestido rojo, la chaqueta roja, los zapatos negros. Adjectives in -e or a consonant change only for number: azul -> azules.\n\nthis: este, esta, estos, estas. that: ese, esa, esos, esas.\n\nllevar = to wear: Llevo una chaqueta azul. probarse (o -> ue) = to try on.",
+    "ar": "الصفة بتيجي بعد الاسم وبتطابقه في الجنس والعدد: el vestido rojo، la chaqueta roja، los zapatos negros. والصفات اللي بتخلص بـ ‎-e أو حرف ساكن بتتغير في العدد بس: azul -> azules.\n\nده: este, esta, estos, estas. داك: ese, esa, esos, esas.\n\nllevar = يلبس: Llevo una chaqueta azul. وprobarse (o -> ue) = يقيس."
    },
    "exampleSentenceIds": [
     "es.a2.sent.u03_01",
@@ -4313,8 +4313,8 @@
     "ar": "الانعكاسي مع أعضاء الجسم وdeberías"
    },
    "explanation": {
-    "en": "With body parts Spanish uses a reflexive verb and the article: Me lavo los dientes. Me duele la espalda.\n\nsentirse (e → ie): me siento, te sientes, se siente.\n\nAdvice in the conditional is softer: deberías + infinitive: Deberías dormir lo suficiente.",
-    "ar": "مع أعضاء الجسم الإسباني بيستخدم فعل انعكاسي والأداة: Me lavo los dientes. Me duele la espalda.\n\nsentirse (e ← ie): me siento, te sientes, se siente.\n\nالنصيحة بالشرطي أخف: deberías + مصدر: Deberías dormir lo suficiente."
+    "en": "With body parts Spanish uses a reflexive verb and the article: Me lavo los dientes. Me duele la espalda.\n\nsentirse (e -> ie): me siento, te sientes, se siente.\n\nAdvice in the conditional is softer: deberías + infinitive: Deberías dormir lo suficiente.",
+    "ar": "مع أعضاء الجسم الإسباني بيستخدم فعل انعكاسي والأداة: Me lavo los dientes. Me duele la espalda.\n\nsentirse (e -> ie): me siento, te sientes, se siente.\n\nالنصيحة بالشرطي أخف: deberías + مصدر: Deberías dormir lo suficiente."
    },
    "exampleSentenceIds": [
     "es.a2.sent.u07_01",
