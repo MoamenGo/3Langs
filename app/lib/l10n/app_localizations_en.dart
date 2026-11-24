@@ -659,4 +659,11 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get pieceOfGermanHint =>
       'Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).';
+
+  @override
+  String get androidApp => 'Android app';
+
+  @override
+  String get androidAppHint =>
+      'Download 3Lang for your Android phone, or use Chrome\'s menu > Install app.';
 }

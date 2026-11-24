@@ -176,5 +176,7 @@
   "remember": "افتكر",
   "listenAll": "اسمع الكل",
   "pieceOfGermanTitle": "خطة الأسبوع ده من Piece of German",
-  "pieceOfGermanHint": "خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com)."
+  "pieceOfGermanHint": "خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com).",
+  "androidApp": "تطبيق أندرويد",
+  "androidAppHint": "نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق."
 }

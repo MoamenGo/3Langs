@@ -668,4 +668,11 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get pieceOfGermanHint =>
       'خطة ألماني مجانية يوم بيوم فيها فيديوهات وملاحظات بالعربي (pieceofgerman.com).';
+
+  @override
+  String get androidApp => 'تطبيق أندرويد';
+
+  @override
+  String get androidAppHint =>
+      'نزّل 3Lang على موبايلك الأندرويد، أو من قائمة Chrome اختار تثبيت التطبيق.';
 }

@@ -1,11 +1,11 @@
 {
-    "name": "3Lang",
+    "name": "3Lang - German, Dutch, Spanish",
     "short_name": "3Lang",
-    "start_url": ".",
+    "start_url": "./",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Learn German A1 to C1, explained in English, Dutch and Spanish.",
+    "background_color": "#6D5DF6",
+    "theme_color": "#6D5DF6",
+    "description": "Learn German, Dutch and Spanish together from A0 to C1, explained in Arabic and English.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
@@ -31,5 +31,12 @@
             "type": "image/png",
             "purpose": "maskable"
         }
+    ],
+    "id": "./",
+    "scope": "./",
+    "lang": "ar",
+    "dir": "auto",
+    "categories": [
+        "education"
     ]
 }

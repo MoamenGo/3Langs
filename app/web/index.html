@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Learn German A1 to C1, explained in English, Dutch and Spanish.">
+  <meta name="description" content="Learn German, Dutch and Spanish together from A0 to C1, explained in Arabic and English.">
 
   <!--
     Uncomment the tag below to lay the app out underneath the parts of the
@@ -43,6 +43,7 @@
 
   <title>3Lang</title>
   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#6D5DF6">
 </head>
 <body>
   <!--
@@ -54,5 +55,10 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+    }
+  </script>
 </body>
 </html>

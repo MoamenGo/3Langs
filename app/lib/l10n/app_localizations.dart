@@ -1159,6 +1159,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Free day-by-day German plan with videos and notes in Arabic (pieceofgerman.com).'**
   String get pieceOfGermanHint;
+
+  /// No description provided for @androidApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Android app'**
+  String get androidApp;
+
+  /// No description provided for @androidAppHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Download 3Lang for your Android phone, or use Chrome\'s menu > Install app.'**
+  String get androidAppHint;
 }
 
 class _AppLocalizationsDelegate

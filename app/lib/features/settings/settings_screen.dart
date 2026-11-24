@@ -1,7 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:intl/intl.dart';
 import 'package:material_ui/material_ui.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/providers.dart';
 import '../../core/lang/lang.dart';
@@ -11,6 +13,11 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/sync/sync_service.dart';
 import '../../core/bidi.dart';
+
+/// Page with the latest Android build, published by the "Android APK"
+/// GitHub workflow.
+const androidApkUrl =
+    'https://github.com/MoamenGo/3Langs/releases/tag/android-latest';
 
 /// Interface and explanation languages, each named in itself.
 const _languageNames = {'ar': 'العربية', 'en': 'English'};
@@ -109,6 +116,17 @@ class SettingsScreen extends ConsumerWidget {
             subtitle: BidiText(l.languagesAndPlanHint),
             onTap: () => context.push('/welcome'),
           ),
+          if (kIsWeb) ...[
+            const Divider(),
+            ListTile(
+              key: const Key('get-android-app'),
+              leading: const Icon(Icons.android),
+              title: BidiText(l.androidApp),
+              subtitle: BidiText(l.androidAppHint),
+              trailing: const Icon(Icons.download_outlined),
+              onTap: () => launchUrl(Uri.parse(androidApkUrl)),
+            ),
+          ],
           const Divider(),
           _AccountSection(sync: sync),
           const Divider(),
