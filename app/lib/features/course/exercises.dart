@@ -11,6 +11,8 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../contrast/contrast_widgets.dart';
 import '../../core/bidi.dart';
+import '../../core/theme.dart';
+import '../polyglot/ui.dart' show TrX;
 
 /// Shows one word with its translation, plural, an example, and the same
 /// word in the learner's other languages.
@@ -290,6 +292,10 @@ class _ChoiceQuizState extends ConsumerState<ChoiceQuiz> {
 }
 
 /// Fill-in-the-gap grammar exercises: "Ich ___ Anna. (heißen)".
+///
+/// The answer field stays editable at all times. Checking opens a popup
+/// with a tick or a cross; editing the answer afterwards lets the learner
+/// check again. Only a right answer on the first try counts toward the score.
 class FillBlankRunner extends ConsumerStatefulWidget {
   const FillBlankRunner({
     super.key,
@@ -307,35 +313,76 @@ class FillBlankRunner extends ConsumerStatefulWidget {
   ConsumerState<FillBlankRunner> createState() => _FillBlankRunnerState();
 }
 
+/// What the learner chose in the answer popup.
+enum _Feedback { next, retry, reveal, edit }
+
 class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
   final _controller = TextEditingController();
-  int _index = 0, _correct = 0;
-  bool? _wasRight;
-  bool _revealed = false, _firstTry = true;
   final _focus = FocusNode();
+  int _index = 0, _correct = 0;
 
-  bool get _done => _wasRight == true || _revealed;
-  bool get _waitingRetry => _wasRight == false && !_revealed;
+  /// Result for the text as it is now; null once the learner edits it.
+  bool? _wasRight;
+  bool _revealed = false, _solved = false, _firstTry = true;
 
-  void _retry() {
-    setState(() => _wasRight = null);
+  bool get _canAdvance => _solved || _revealed;
+  bool get _hasText => _controller.text.trim().isNotEmpty;
+
+  void _focusField() {
     _controller.selection = TextSelection(
       baseOffset: 0,
       extentOffset: _controller.text.length,
     );
-    WidgetsBinding.instance.addPostFrameCallback((_) => _focus.requestFocus());
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _focus.requestFocus();
+    });
+  }
+
+  void _onEdited(String _) {
+    // Any edit makes the old verdict stale: the learner can check again.
+    setState(() => _wasRight = null);
   }
 
   void _reveal() => setState(() => _revealed = true);
 
-  void _check() {
+  Future<void> _check() async {
+    if (!_hasText) {
+      _focusField();
+      return;
+    }
     final ex = widget.exercises[_index];
     final right =
         normalizeAnswer(_controller.text) == normalizeAnswer(ex.answer);
-    setState(() => _wasRight = right);
-    if (right && _firstTry) _correct++;
-    if (!right) _firstTry = false;
-    if (!right && !widget.allowRetry) _revealed = true;
+    setState(() {
+      _wasRight = right;
+      if (right) {
+        if (_firstTry && !_solved) _correct++;
+        _solved = true;
+      } else {
+        _firstTry = false;
+        if (!widget.allowRetry) _revealed = true;
+      }
+    });
+    final choice = await showDialog<_Feedback>(
+      context: context,
+      builder: (_) => _AnswerFeedbackDialog(
+        right: right,
+        given: _controller.text.trim(),
+        answer: ex.answer,
+        revealed: _revealed,
+        allowRetry: widget.allowRetry,
+      ),
+    );
+    if (!mounted) return;
+    switch (choice) {
+      case _Feedback.next:
+        _next();
+      case _Feedback.reveal:
+        _reveal();
+        _focusField();
+      case _Feedback.retry || _Feedback.edit || null:
+        _focusField();
+    }
   }
 
   void _next() {
@@ -347,9 +394,11 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
       _index++;
       _wasRight = null;
       _revealed = false;
+      _solved = false;
       _firstTry = true;
       _controller.clear();
     });
+    _focusField();
   }
 
   @override
@@ -362,65 +411,388 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
+    final mx = context.mx;
+    final theme = Theme.of(context);
+    final text = theme.textTheme;
     final ex = widget.exercises[_index];
+    final total = widget.exercises.length;
+    final wrong = theme.colorScheme.error;
+    final stateColor = switch (_wasRight) {
+      true => mx.primary,
+      false => wrong,
+      null => mx.rule,
+    };
+    OutlineInputBorder border(Color c, [double w = 1.5]) => OutlineInputBorder(
+      borderRadius: BorderRadius.circular(12),
+      borderSide: BorderSide(color: c, width: w),
+    );
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        LinearProgressIndicator(value: _index / widget.exercises.length),
-        const SizedBox(height: 24),
-        BidiText(
-          ex.prompt,
-          style: Theme.of(context).textTheme.headlineSmall,
-          textAlign: TextAlign.center,
+        Row(
+          children: [
+            Expanded(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(99),
+                child: LinearProgressIndicator(
+                  value: (_index + (_canAdvance ? 1 : 0)) / total,
+                  minHeight: 8,
+                  backgroundColor: mx.surface2,
+                  color: mx.primary,
+                ),
+              ),
+            ),
+            const SizedBox(width: 12),
+            BidiText(
+              '${_index + 1} / $total',
+              style: text.labelLarge?.copyWith(color: mx.muted),
+            ),
+          ],
         ),
-        if (ex.base != null)
-          BidiText(
-            '(${ex.base})',
-            textAlign: TextAlign.center,
-            style: TextStyle(color: Theme.of(context).hintColor),
-          ),
-        const SizedBox(height: 16),
-        TextField(
-          controller: _controller,
-          focusNode: _focus,
-          textDirection: TextDirection.ltr,
-          autofocus: true,
-          autocorrect: false,
-          enabled: _wasRight == null,
-          decoration: InputDecoration(
-            hintText: l.typeHere(ref.watch(activeLangNameProvider)),
-            hintTextDirection: Directionality.of(context),
-          ),
-          onSubmitted: (_) => _wasRight == null
-              ? _check()
-              : _done
-              ? _next()
-              : null,
-        ),
-        const SizedBox(height: 12),
-        if (_wasRight != null)
-          BidiText(
-            _wasRight!
-                ? l.correct
-                : _revealed
-                ? l.wrongAnswer(ex.answer)
-                : l.notQuiteTryAgain,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: _wasRight!
-                  ? Colors.green
-                  : Theme.of(context).colorScheme.error,
+        const SizedBox(height: 20),
+        Expanded(
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                // The sentence with its gap.
+                Container(
+                  padding: const EdgeInsets.fromLTRB(20, 16, 20, 24),
+                  decoration: BoxDecoration(
+                    color: mx.surface,
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: mx.rule),
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.edit_note_rounded,
+                            size: 20,
+                            color: mx.primary,
+                          ),
+                          const SizedBox(width: 6),
+                          Flexible(
+                            child: BidiText(
+                              context.tr('Fill in the blank', 'أكمل الفراغ'),
+                              style: text.labelLarge?.copyWith(
+                                color: mx.primary,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 20),
+                      BidiText(
+                        ex.prompt,
+                        textDirection: TextDirection.ltr,
+                        style: text.headlineSmall?.copyWith(
+                          color: mx.ink,
+                          height: 1.4,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      if (ex.base != null) ...[
+                        const SizedBox(height: 14),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            color: mx.amber.withValues(alpha: 0.14),
+                            borderRadius: BorderRadius.circular(99),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                Icons.lightbulb_outline_rounded,
+                                size: 16,
+                                color: mx.ink,
+                              ),
+                              const SizedBox(width: 6),
+                              Flexible(
+                                child: BidiText(
+                                  ex.base!,
+                                  textDirection: TextDirection.ltr,
+                                  style: text.bodyMedium?.copyWith(
+                                    color: mx.ink,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 20),
+                TextField(
+                  key: const Key('answer-field'),
+                  controller: _controller,
+                  focusNode: _focus,
+                  textDirection: TextDirection.ltr,
+                  textAlign: TextAlign.center,
+                  autofocus: true,
+                  autocorrect: false,
+                  enableSuggestions: false,
+                  style: text.titleLarge?.copyWith(color: mx.ink),
+                  textInputAction: TextInputAction.done,
+                  onChanged: _onEdited,
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: mx.surface,
+                    hintText: l.typeHere(ref.watch(activeLangNameProvider)),
+                    hintTextDirection: Directionality.of(context),
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 18,
+                    ),
+                    enabledBorder: border(stateColor),
+                    focusedBorder: border(
+                      _wasRight == null ? mx.primary : stateColor,
+                      2,
+                    ),
+                    suffixIcon: _wasRight == null
+                        ? null
+                        : Icon(
+                            _wasRight!
+                                ? Icons.check_circle_rounded
+                                : Icons.cancel_rounded,
+                            color: stateColor,
+                          ),
+                  ),
+                  onSubmitted: (_) => _wasRight == null
+                      ? _check()
+                      : _canAdvance
+                      ? _next()
+                      : _focusField(),
+                ),
+                const SizedBox(height: 8),
+                BidiText(
+                  context.tr(
+                    'You can edit your answer and check again at any time.',
+                    'يمكنك تعديل إجابتك والتحقق منها مرة أخرى في أي وقت.',
+                  ),
+                  textAlign: TextAlign.center,
+                  style: text.bodySmall?.copyWith(color: mx.muted),
+                ),
+                if (_revealed) ...[
+                  const SizedBox(height: 16),
+                  Container(
+                    key: const Key('revealed-answer'),
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: mx.primary.withValues(alpha: 0.08),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: BidiText(
+                      l.wrongAnswer(ex.answer),
+                      textAlign: TextAlign.center,
+                      style: text.titleMedium?.copyWith(color: mx.ink),
+                    ),
+                  ),
+                ],
+              ],
             ),
           ),
-        const Spacer(),
-        if (_waitingRetry)
-          RetryOrReveal(onRetry: _retry, onReveal: _reveal)
-        else
-          FilledButton(
-            onPressed: _wasRight == null ? _check : _next,
-            child: BidiText(_wasRight == null ? l.check : l.next),
-          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          children: [
+            if (_wasRight == null && _canAdvance) ...[
+              Expanded(
+                child: OutlinedButton(
+                  onPressed: _next,
+                  style: OutlinedButton.styleFrom(
+                    minimumSize: const Size.fromHeight(52),
+                  ),
+                  child: BidiText(l.next),
+                ),
+              ),
+              const SizedBox(width: 12),
+            ],
+            Expanded(
+              child: FilledButton.icon(
+                key: const Key('check-or-next'),
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size.fromHeight(52),
+                ),
+                onPressed: _wasRight == null
+                    ? _check
+                    : _canAdvance
+                    ? _next
+                    : _focusField,
+                icon: Icon(
+                  _wasRight == null
+                      ? Icons.check_rounded
+                      : _canAdvance
+                      ? Icons.arrow_forward_rounded
+                      : Icons.edit_rounded,
+                ),
+                label: BidiText(
+                  _wasRight == null
+                      ? l.check
+                      : _canAdvance
+                      ? l.next
+                      : l.tryAgain,
+                ),
+              ),
+            ),
+          ],
+        ),
       ],
+    );
+  }
+}
+
+/// Popup after a check: a big tick for a right answer, a cross otherwise.
+class _AnswerFeedbackDialog extends StatelessWidget {
+  const _AnswerFeedbackDialog({
+    required this.right,
+    required this.given,
+    required this.answer,
+    required this.revealed,
+    required this.allowRetry,
+  });
+  final bool right, revealed, allowRetry;
+  final String given, answer;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final mx = context.mx;
+    final text = Theme.of(context).textTheme;
+    final color = right ? mx.primary : Theme.of(context).colorScheme.error;
+    void close(_Feedback f) => Navigator.of(context).pop(f);
+
+    final actions = <Widget>[
+      if (right || revealed) ...[
+        TextButton.icon(
+          key: const Key('fb-edit'),
+          onPressed: () => close(_Feedback.edit),
+          icon: const Icon(Icons.edit_rounded, size: 18),
+          label: BidiText(context.tr('Edit answer', 'تعديل الإجابة')),
+        ),
+        FilledButton.icon(
+          key: const Key('fb-next'),
+          onPressed: () => close(_Feedback.next),
+          icon: const Icon(Icons.arrow_forward_rounded, size: 18),
+          label: BidiText(l.next),
+        ),
+      ] else ...[
+        OutlinedButton.icon(
+          key: const Key('fb-reveal'),
+          onPressed: () => close(_Feedback.reveal),
+          icon: const Icon(Icons.visibility_outlined, size: 18),
+          label: BidiText(l.showAnswer),
+        ),
+        FilledButton.icon(
+          key: const Key('fb-retry'),
+          onPressed: () => close(_Feedback.retry),
+          icon: const Icon(Icons.edit_rounded, size: 18),
+          label: BidiText(l.tryAgain),
+        ),
+      ],
+    ];
+
+    return Dialog(
+      backgroundColor: mx.surface,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 380),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(24, 28, 24, 20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TweenAnimationBuilder<double>(
+                tween: Tween(begin: 0.5, end: 1),
+                duration: const Duration(milliseconds: 260),
+                curve: Curves.easeOutBack,
+                builder: (_, s, child) =>
+                    Transform.scale(scale: s, child: child),
+                child: Container(
+                  key: Key(right ? 'fb-tick' : 'fb-cross'),
+                  width: 88,
+                  height: 88,
+                  decoration: BoxDecoration(
+                    color: color.withValues(alpha: 0.12),
+                    shape: BoxShape.circle,
+                  ),
+                  child: Center(
+                    child: Container(
+                      width: 60,
+                      height: 60,
+                      decoration: BoxDecoration(
+                        color: color,
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(
+                        right ? Icons.check_rounded : Icons.close_rounded,
+                        color: Colors.white,
+                        size: 40,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              BidiText(
+                right ? l.correct : context.tr('Not quite', 'إجابة خاطئة'),
+                style: text.headlineSmall?.copyWith(
+                  color: color,
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 12),
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 10,
+                ),
+                decoration: BoxDecoration(
+                  color: mx.surface2,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: BidiText(
+                  given,
+                  textDirection: TextDirection.ltr,
+                  textAlign: TextAlign.center,
+                  style: text.titleMedium?.copyWith(
+                    color: mx.ink,
+                    decoration: right ? null : TextDecoration.lineThrough,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 10),
+              BidiText(
+                right
+                    ? context.tr('Well done!', 'أحسنت!')
+                    : revealed
+                    ? l.wrongAnswer(answer)
+                    : l.notQuiteTryAgain,
+                textAlign: TextAlign.center,
+                style: text.bodyLarge?.copyWith(
+                  color: right || !revealed ? mx.muted : mx.ink,
+                ),
+              ),
+              const SizedBox(height: 20),
+              Wrap(
+                alignment: WrapAlignment.center,
+                spacing: 8,
+                runSpacing: 8,
+                children: actions,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
