@@ -5,7 +5,7 @@ import '../core/lang/lang.dart';
 import 'audio/audio_player.dart' as audio;
 import 'human_voice.dart';
 
-/// Speech in German, Dutch or Spanish.
+/// Speech in German, Dutch, Spanish and any other language on the deck.
 ///
 /// Words play a real recording by a native speaker when one exists (see
 /// [HumanVoice]); everything else uses the most natural text-to-speech voice
@@ -21,8 +21,6 @@ class TtsService {
 
   /// Learner's choice: try native-speaker recordings first.
   bool humanVoice = true;
-
-  Lang? _voice;
 
   Future<void> _init() async {
     await _tts.awaitSpeakCompletion(true);
@@ -45,11 +43,39 @@ class TtsService {
     await _ready;
     await stop();
     if (!slow && await playHuman(text, lang)) return;
-    if (_voice != lang) {
-      await _tts.setLanguage(lang.tts);
+    await _speakWith(text, lang.tts, slow);
+  }
+
+  /// Speaks [text] with any locale (`fr-FR`, `en-GB`, a custom language).
+  /// Returns false when the device has no speech engine for it, so the
+  /// screen can say so instead of staying silent.
+  Future<bool> speakLocale(
+    String text,
+    String locale, {
+    bool slow = false,
+  }) async {
+    try {
+      await _ready;
+      await stop();
+      final known = Lang.values.where((l) => l.tts == locale);
+      if (!slow && known.isNotEmpty && await playHuman(text, known.first)) {
+        return true;
+      }
+      await _speakWith(text, locale, slow);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  String? _voiceLocale;
+
+  Future<void> _speakWith(String text, String locale, bool slow) async {
+    if (_voiceLocale != locale) {
+      await _tts.setLanguage(locale);
       // Browsers load their voice list late: retry on the next call until
       // a voice is found.
-      if (await _pickNaturalVoice(lang)) _voice = lang;
+      if (await _pickNaturalVoice(locale)) _voiceLocale = locale;
     }
     // The web engine's normal rate is 1.0; mobile engines use 0.5.
     await _tts.setSpeechRate(
@@ -58,10 +84,10 @@ class TtsService {
     await _tts.speak(text);
   }
 
-  Future<bool> _pickNaturalVoice(Lang lang) async {
+  Future<bool> _pickNaturalVoice(String locale) async {
     try {
       final voices = (await _tts.getVoices as List?) ?? const [];
-      final code = lang.tts.toLowerCase();
+      final code = locale.toLowerCase();
       final base = code.split('-').first;
       Map? best;
       var bestScore = -100;

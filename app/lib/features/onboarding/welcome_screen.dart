@@ -173,7 +173,7 @@ class WelcomeScreen extends ConsumerWidget {
                   await ref.read(localDbProvider).setMeta('onboarded', true);
                   await rebuildTodayPlan(ref);
                   ref.read(syncServiceProvider).schedule();
-                  if (context.mounted) context.go('/');
+                  if (context.mounted) context.go('/today');
                 },
                 child: BidiText(l.finishSetup),
               ),

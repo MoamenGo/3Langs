@@ -23,7 +23,7 @@ class ResponsiveFrame extends StatelessWidget {
   final Widget child;
 
   /// Widest the app gets; the background still fills the window.
-  static const maxWidth = 1280.0;
+  static const maxWidth = 1440.0;
 
   @override
   Widget build(BuildContext context) {

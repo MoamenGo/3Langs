@@ -272,10 +272,11 @@ class _AppearanceSection extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
-    final current = ref.watch(appThemeProvider).value ?? AppTheme.aurora;
+    final current = ref.watch(appThemeProvider).value ?? AppTheme.matrix;
     final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
     final db = ref.read(localDbProvider);
     final names = {
+      AppTheme.matrix: l.themeMatrix,
       AppTheme.language: l.themeLanguage,
       AppTheme.aurora: l.themeAurora,
       AppTheme.ocean: l.themeOcean,

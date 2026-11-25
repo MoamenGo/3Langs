@@ -1,5 +1,5 @@
 name: three_lang
-description: "3Lang: learn German from A1 to C1, explained in English, Dutch and Spanish."
+description: "3Lang Polyglot Matrix: learn German, Dutch, Spanish, English, French and more side by side."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -84,3 +84,32 @@ flutter:
         - asset: assets/fonts/NotoSansArabic-Regular.ttf
         - asset: assets/fonts/NotoSansArabic-Bold.ttf
           weight: 700
+    # Polyglot Matrix look (SIL Open Font License, see assets/fonts/OFL-*.txt).
+    # Static weights cut from the Google Fonts variable fonts.
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-400.ttf
+        - asset: assets/fonts/Manrope-500.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-600.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-700.ttf
+          weight: 700
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-500.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-600.ttf
+          weight: 600
+        - asset: assets/fonts/SpaceGrotesk-700.ttf
+          weight: 700
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-500.ttf
+          weight: 500
+        - asset: assets/fonts/JetBrainsMono-700.ttf
+          weight: 700
+    # IPA symbols (ʃ ɪ ʁ ː ˈ ...) that the fonts above lack. Noto Sans subset.
+    - family: NotoSansIPA
+      fonts:
+        - asset: assets/fonts/NotoSansIPA-Medium.ttf

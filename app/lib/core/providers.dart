@@ -54,7 +54,7 @@ final settingsProvider = StreamProvider<UserSettings>(
 class StartupState {
   const StartupState({
     this.settings,
-    this.appTheme = AppTheme.aurora,
+    this.appTheme = AppTheme.matrix,
     this.themeMode = ThemeMode.system,
   });
   final UserSettings? settings;
