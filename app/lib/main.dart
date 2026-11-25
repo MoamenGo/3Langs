@@ -36,6 +36,7 @@ Future<void> main() async {
     settings: await SettingsRepository(db).get(),
     appTheme: AppTheme.parse(await db.getMeta<String>('theme')),
     themeMode: AppTheme.parseMode(await db.getMeta<String>('theme_mode')),
+    glass: await db.getMeta<bool>('glass') == true,
   );
 
   final polyglot = await PolyglotStore.open(db);

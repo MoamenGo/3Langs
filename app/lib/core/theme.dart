@@ -4,6 +4,10 @@
 //
 // Every colour theme shares this flat paper style; the theme only changes
 // the accent colour. Polyglot Matrix (sage teal + amber) is the default.
+// Any theme can also be switched to the glass style (frosted translucent
+// panels over soft glows in the theme's colours).
+
+import 'dart:ui' show ImageFilter, lerpDouble;
 
 import 'package:material_ui/material_ui.dart';
 
@@ -157,6 +161,7 @@ class GlassColors extends ThemeExtension<GlassColors> {
     required this.blobA,
     required this.blobB,
     required this.base,
+    this.blur = 0,
   });
 
   final Color tint;
@@ -165,6 +170,11 @@ class GlassColors extends ThemeExtension<GlassColors> {
   final Color blobB;
   final Color base;
 
+  /// Frosted-glass blur behind panels; 0 is the flat paper look.
+  final double blur;
+
+  bool get frosted => blur > 0;
+
   @override
   GlassColors copyWith({
     Color? tint,
@@ -172,12 +182,14 @@ class GlassColors extends ThemeExtension<GlassColors> {
     Color? blobA,
     Color? blobB,
     Color? base,
+    double? blur,
   }) => GlassColors(
     tint: tint ?? this.tint,
     border: border ?? this.border,
     blobA: blobA ?? this.blobA,
     blobB: blobB ?? this.blobB,
     base: base ?? this.base,
+    blur: blur ?? this.blur,
   );
 
   @override
@@ -189,6 +201,7 @@ class GlassColors extends ThemeExtension<GlassColors> {
           blobA: Color.lerp(blobA, other.blobA, t)!,
           blobB: Color.lerp(blobB, other.blobB, t)!,
           base: Color.lerp(base, other.base, t)!,
+          blur: lerpDouble(blur, other.blur, t)!,
         );
 }
 
@@ -243,12 +256,13 @@ ThemeData buildTheme(
   Brightness brightness, {
   Lang lang = Lang.de,
   AppTheme appTheme = AppTheme.matrix,
+  bool glass = false,
 }) {
   final dark = brightness == Brightness.dark;
   final base = dark ? MatrixColors.dark : MatrixColors.light;
   // Other themes keep the paper look and only swap the accent colour.
   final seed = appTheme.seed ?? lang.color;
-  final c = appTheme == AppTheme.matrix
+  final accent = appTheme == AppTheme.matrix
       ? base
       : base.copyWith(
           primary: ColorScheme.fromSeed(
@@ -256,6 +270,23 @@ ThemeData buildTheme(
             brightness: brightness,
           ).primary,
         );
+  // Glass: every theme can be frosted. Panels turn translucent over two
+  // soft colour glows taken from the theme, with a blur behind them.
+  final blobs = appTheme.seed == null
+      ? [lang.color, base.amber]
+      : appTheme.gradient;
+  final c = glass
+      ? accent.copyWith(
+          canvas: accent.canvas.withValues(alpha: dark ? 0.55 : 0.6),
+          surface: accent.surface.withValues(alpha: dark ? 0.38 : 0.55),
+          surface2: dark
+              ? Colors.white.withValues(alpha: 0.07)
+              : Colors.white.withValues(alpha: 0.5),
+          rule: dark
+              ? Colors.white.withValues(alpha: 0.14)
+              : Colors.white.withValues(alpha: 0.75),
+        )
+      : accent;
   final scheme =
       ColorScheme.fromSeed(
         seedColor: c.primary,
@@ -288,13 +319,29 @@ ThemeData buildTheme(
         outlineVariant: c.rule,
         surfaceTint: Colors.transparent,
       );
-  final glass = GlassColors(
-    tint: c.surface,
-    border: c.rule,
-    blobA: c.canvas,
-    blobB: c.canvas,
-    base: c.canvas,
-  );
+  final glassColors = glass
+      ? GlassColors(
+          tint: c.surface,
+          border: c.rule,
+          base: Color.alphaBlend(
+            blobs[0].withValues(alpha: dark ? 0.16 : 0.08),
+            base.canvas,
+          ),
+          blobA: blobs[0].withValues(alpha: dark ? 0.45 : 0.42),
+          blobB: blobs[1].withValues(alpha: dark ? 0.40 : 0.38),
+          blur: 18,
+        )
+      : GlassColors(
+          tint: c.surface,
+          border: c.rule,
+          blobA: c.canvas,
+          blobB: c.canvas,
+          base: c.canvas,
+        );
+  // Menus and dialogs float above the page: keep them nearly opaque.
+  final floating = glass
+      ? base.surface.withValues(alpha: dark ? 0.9 : 0.94)
+      : c.surface;
   final text = _textTheme(c);
   final rule = BorderSide(color: c.rule);
   RoundedRectangleBorder r(double v, [BorderSide side = BorderSide.none]) =>
@@ -311,8 +358,8 @@ ThemeData buildTheme(
     textTheme: text,
     useMaterial3: true,
     scaffoldBackgroundColor: Colors.transparent,
-    canvasColor: c.surface,
-    extensions: [glass, c],
+    canvasColor: floating,
+    extensions: [glassColors, c],
     splashFactory: InkSparkle.constantTurbulenceSeedSplashFactory,
     visualDensity: VisualDensity.standard,
     appBarTheme: AppBarTheme(
@@ -452,12 +499,12 @@ ThemeData buildTheme(
       ),
     ),
     dialogTheme: DialogThemeData(
-      backgroundColor: c.surface,
+      backgroundColor: floating,
       surfaceTintColor: Colors.transparent,
       shape: r(12, rule),
     ),
     bottomSheetTheme: BottomSheetThemeData(
-      backgroundColor: c.surface,
+      backgroundColor: floating,
       surfaceTintColor: Colors.transparent,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
@@ -477,14 +524,15 @@ ThemeData buildTheme(
       textStyle: text.labelMedium!.copyWith(color: c.canvas),
     ),
     popupMenuTheme: PopupMenuThemeData(
-      color: c.surface,
+      color: floating,
       surfaceTintColor: Colors.transparent,
       shape: r(8, rule),
     ),
   );
 }
 
-/// The background of the whole app: flat warm paper.
+/// The background of the whole app: flat warm paper, or soft colour glows
+/// under the glass style.
 class GlassBackground extends StatelessWidget {
   const GlassBackground({super.key, required this.child});
   final Widget child;
@@ -493,7 +541,27 @@ class GlassBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     final g = Theme.of(context).extension<GlassColors>()!;
     rememberSplash(g.base, g.blobA, g.blobB);
-    return ColoredBox(color: g.base, child: child);
+    if (!g.frosted) return ColoredBox(color: g.base, child: child);
+    Widget glow(Alignment at, Color color, double radius) => DecoratedBox(
+      decoration: BoxDecoration(
+        gradient: RadialGradient(
+          center: at,
+          radius: radius,
+          colors: [color, color.withValues(alpha: 0)],
+        ),
+      ),
+    );
+    return ColoredBox(
+      color: g.base,
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          glow(const Alignment(-0.9, -0.85), g.blobA, 1.1),
+          glow(const Alignment(0.95, 0.9), g.blobB, 1.2),
+          child,
+        ],
+      ),
+    );
   }
 }
 
@@ -528,9 +596,33 @@ class Glass extends StatelessWidget {
             ? Border(top: BorderSide(color: g.border))
             : Border.all(color: g.border),
       ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(rr),
+      child: Frosted(
+        radius: rr,
         child: Padding(padding: padding, child: child),
+      ),
+    );
+  }
+}
+
+/// Blurs what is behind [child] when the glass style is on; otherwise it
+/// only clips to the rounded corners.
+class Frosted extends StatelessWidget {
+  const Frosted({super.key, required this.child, this.radius = 8});
+  final Widget child;
+  final double radius;
+
+  @override
+  Widget build(BuildContext context) {
+    final g = Theme.of(context).extension<GlassColors>();
+    final clip = BorderRadius.circular(radius);
+    if (g == null || !g.frosted) {
+      return ClipRRect(borderRadius: clip, child: child);
+    }
+    return ClipRRect(
+      borderRadius: clip,
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: g.blur, sigmaY: g.blur),
+        child: child,
       ),
     );
   }

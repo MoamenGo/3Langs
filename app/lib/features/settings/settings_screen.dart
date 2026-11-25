@@ -13,6 +13,7 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/sync/sync_service.dart';
 import '../../core/bidi.dart';
+import '../polyglot/ui.dart' show TrX;
 
 /// Page with the latest Android build, published by the "Android APK"
 /// GitHub workflow.
@@ -274,6 +275,7 @@ class _AppearanceSection extends ConsumerWidget {
     final l = context.l10n;
     final current = ref.watch(appThemeProvider).value ?? AppTheme.matrix;
     final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
+    final glass = ref.watch(glassProvider).value ?? false;
     final db = ref.read(localDbProvider);
     final names = {
       AppTheme.matrix: l.themeMatrix,
@@ -315,7 +317,22 @@ class _AppearanceSection extends ConsumerWidget {
                 ),
             ],
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
+          SwitchListTile(
+            key: const Key('glass-toggle'),
+            contentPadding: EdgeInsets.zero,
+            secondary: const Icon(Icons.blur_on_rounded),
+            title: BidiText(context.tr('Glass style', 'النمط الزجاجي')),
+            subtitle: BidiText(
+              context.tr(
+                'Frosted, see-through panels. Works with every theme.',
+                'لوحات شفافة بتأثير الزجاج المصنفر. تعمل مع كل الثيمات.',
+              ),
+            ),
+            value: glass,
+            onChanged: (v) => db.setMeta('glass', v),
+          ),
+          const SizedBox(height: 8),
           SegmentedButton<ThemeMode>(
             segments: [
               ButtonSegment(

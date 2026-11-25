@@ -74,37 +74,40 @@ class AppShell extends StatelessWidget {
       return Scaffold(
         body: Row(
           children: [
-            DecoratedBox(
-              decoration: BoxDecoration(
-                color: mx.surface,
-                border: BorderDirectional(end: BorderSide(color: mx.rule)),
-              ),
-              child: LayoutBuilder(
-                builder: (context, c) => SingleChildScrollView(
-                  child: ConstrainedBox(
-                    constraints: BoxConstraints(minHeight: c.maxHeight),
-                    child: IntrinsicHeight(
-                      child: NavigationRail(
-                        selectedIndex: shell.currentIndex,
-                        onDestinationSelected: go,
-                        labelType: NavigationRailLabelType.all,
-                        minWidth: 84,
-                        leading: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                          child: BidiText(
-                            l.appTitle,
-                            style: Theme.of(context).textTheme.titleLarge!
-                                .copyWith(color: mx.primary),
-                          ),
-                        ),
-                        destinations: [
-                          for (final (_, icon, selected, label) in items)
-                            NavigationRailDestination(
-                              icon: Icon(icon),
-                              selectedIcon: Icon(selected),
-                              label: BidiText(label),
+            Frosted(
+              radius: 0,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  color: mx.surface,
+                  border: BorderDirectional(end: BorderSide(color: mx.rule)),
+                ),
+                child: LayoutBuilder(
+                  builder: (context, c) => SingleChildScrollView(
+                    child: ConstrainedBox(
+                      constraints: BoxConstraints(minHeight: c.maxHeight),
+                      child: IntrinsicHeight(
+                        child: NavigationRail(
+                          selectedIndex: shell.currentIndex,
+                          onDestinationSelected: go,
+                          labelType: NavigationRailLabelType.all,
+                          minWidth: 84,
+                          leading: Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            child: BidiText(
+                              l.appTitle,
+                              style: Theme.of(context).textTheme.titleLarge!
+                                  .copyWith(color: mx.primary),
                             ),
-                        ],
+                          ),
+                          destinations: [
+                            for (final (_, icon, selected, label) in items)
+                              NavigationRailDestination(
+                                icon: Icon(icon),
+                                selectedIcon: Icon(selected),
+                                label: BidiText(label),
+                              ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -131,29 +134,32 @@ class AppShell extends StatelessWidget {
         : bar.indexWhere((b) => b.$1 == current).clamp(0, bar.length - 1);
     return Scaffold(
       body: shell,
-      bottomNavigationBar: DecoratedBox(
-        decoration: BoxDecoration(
-          border: Border(top: BorderSide(color: mx.rule)),
-        ),
-        child: NavigationBar(
-          selectedIndex: selected,
-          labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
-          onDestinationSelected: (i) {
-            final target = bar[i].$1;
-            if (target >= 0) {
-              go(target);
-              return;
-            }
-            _showStudySheet(context, items, go, current);
-          },
-          destinations: [
-            for (final (_, icon, sel, label) in bar)
-              NavigationDestination(
-                icon: Icon(icon),
-                selectedIcon: Icon(sel),
-                label: label,
-              ),
-          ],
+      bottomNavigationBar: Frosted(
+        radius: 0,
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            border: Border(top: BorderSide(color: mx.rule)),
+          ),
+          child: NavigationBar(
+            selectedIndex: selected,
+            labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+            onDestinationSelected: (i) {
+              final target = bar[i].$1;
+              if (target >= 0) {
+                go(target);
+                return;
+              }
+              _showStudySheet(context, items, go, current);
+            },
+            destinations: [
+              for (final (_, icon, sel, label) in bar)
+                NavigationDestination(
+                  icon: Icon(icon),
+                  selectedIcon: Icon(sel),
+                  label: label,
+                ),
+            ],
+          ),
         ),
       ),
     );
