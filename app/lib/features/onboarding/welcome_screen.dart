@@ -8,6 +8,7 @@ import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../today/today_plan.dart';
+import 'first_run_screen.dart';
 import '../../core/bidi.dart';
 
 /// First run: interface language, daily minutes, which languages and when
@@ -171,6 +172,7 @@ class WelcomeScreen extends ConsumerWidget {
                 key: const ValueKey('finish-setup'),
                 onPressed: () async {
                   await ref.read(localDbProvider).setMeta('onboarded', true);
+                  FirstRun.done = true;
                   await rebuildTodayPlan(ref);
                   ref.read(syncServiceProvider).schedule();
                   if (context.mounted) context.go('/today');

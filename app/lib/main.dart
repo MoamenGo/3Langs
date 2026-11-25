@@ -9,6 +9,7 @@ import 'core/theme.dart';
 import 'data/local/local_db.dart';
 import 'data/local/migrations.dart';
 import 'data/repositories/settings_repository.dart';
+import 'features/onboarding/first_run_screen.dart';
 import 'features/polyglot/controller.dart';
 import 'features/polyglot/storage.dart';
 
@@ -40,6 +41,7 @@ Future<void> main() async {
   );
 
   final polyglot = await PolyglotStore.open(db);
+  FirstRun.done = await db.getMeta<bool>(FirstRun.metaKey) == true;
 
   runApp(
     ProviderScope(

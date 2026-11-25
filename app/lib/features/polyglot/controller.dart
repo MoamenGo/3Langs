@@ -470,6 +470,33 @@ class PolyglotController extends Notifier<PolyglotState> {
   /// Rebuilds the generated part of the week (after changing languages).
   void regenerate() => setPlan(state.plan);
 
+  /// First-run setup: the languages to learn (in this order), the level of
+  /// each, and how the daily time is shared. Rebuilds the week's roadmap.
+  void setupLanguages({
+    required List<String> active,
+    required Map<String, String> levels,
+    required PlanConfig plan,
+  }) {
+    if (active.isEmpty) return;
+    final next = state.copyWith(
+      languages: [
+        for (final l in state.languages)
+          levels[l.code] == null ? l : l.copyWith(level: levels[l.code]),
+      ],
+      active: active,
+      plan: plan,
+    );
+    _set(
+      next.copyWith(
+        tasks: [
+          ...generateWeek(plan, active),
+          for (final t in next.tasks)
+            if (t.custom) t,
+        ],
+      ),
+    );
+  }
+
   void toggleTask(String id) {
     final t = state.tasks.firstWhere((x) => x.id == id);
     if (!t.done) _studied();

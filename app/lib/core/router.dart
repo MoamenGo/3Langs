@@ -9,6 +9,7 @@ import '../features/course/unit_screen.dart';
 import '../features/flashcards/review_screen.dart';
 import '../features/contrast/contrast_drill_screen.dart';
 import '../features/listening/listening_screen.dart';
+import '../features/onboarding/first_run_screen.dart';
 import '../features/onboarding/placement_screen.dart';
 import '../features/onboarding/welcome_screen.dart';
 import '../features/polyglot/dictionary_screen.dart';
@@ -28,6 +29,14 @@ import '../features/writing/writing_screen.dart';
 
 final appRouter = GoRouter(
   initialLocation: '/',
+  // A new install starts by choosing its languages.
+  redirect: (_, s) =>
+      FirstRun.done ||
+          s.matchedLocation == '/start' ||
+          s.matchedLocation == '/welcome' ||
+          s.matchedLocation.startsWith('/placement')
+      ? null
+      : '/start',
   routes: [
     StatefulShellRoute.indexedStack(
       builder: (context, state, shell) => AppShell(shell: shell),
@@ -119,6 +128,7 @@ final appRouter = GoRouter(
         ),
       ],
     ),
+    GoRoute(path: '/start', builder: (_, _) => const FirstRunScreen()),
     GoRoute(path: '/welcome', builder: (_, _) => const WelcomeScreen()),
     GoRoute(
       path: '/placement/:lang',

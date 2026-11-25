@@ -112,6 +112,18 @@ class SettingsScreen extends ConsumerWidget {
             trailing: BidiText('${settings.newCardsPerDay}'),
           ),
           ListTile(
+            key: const Key('choose-languages'),
+            leading: const Icon(Icons.flag_outlined),
+            title: BidiText(context.tr('Choose your languages', 'اختر لغاتك')),
+            subtitle: BidiText(
+              context.tr(
+                'Languages, levels and daily time for the roadmap and course',
+                'اللغات والمستويات والوقت اليومي للخطة والمنهج',
+              ),
+            ),
+            onTap: () => context.push('/start'),
+          ),
+          ListTile(
             leading: const Icon(Icons.translate),
             title: BidiText(l.languagesAndPlan),
             subtitle: BidiText(l.languagesAndPlanHint),
