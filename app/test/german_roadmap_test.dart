@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:three_lang/core/responsive.dart';
+import 'package:three_lang/features/german_roadmap/german_channels.dart';
 import 'package:three_lang/features/german_roadmap/german_roadmap.dart';
 
 import 'screens_test.dart' show pumpScreen;
@@ -13,6 +14,37 @@ void main() {
     expect(all.firstWhere((w) => w.number == 0).url.path, '/a1/exam-week');
     expect(all.last.url.path, '/c1/lesson-2');
     expect({for (final w in all) w.id}.length, all.length);
+  });
+
+  test('Easy German and CyberGerman links', () {
+    expect(
+      easyGermanLevelUrl('A0').queryParameters['list'],
+      easyGermanLevelUrl('A1').queryParameters['list'],
+    );
+    expect(
+      easyGermanLevelUrl('B2').toString(),
+      'https://www.youtube.com/playlist?list=PLk1fjOl39-51lvdiuQYsLW-0aGIdNNknA',
+    );
+    expect(
+      channelSearchUrl('@CyberGerman', 'Perfekt (past)').toString(),
+      'https://www.youtube.com/@CyberGerman/search?query=Perfekt+past',
+    );
+  });
+
+  testWidgets('the card offers topic searches on grammar pages', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        home: Scaffold(
+          body: GermanChannelsCard(level: 'B1', topic: 'Modal verbs'),
+        ),
+      ),
+    );
+    expect(find.byKey(const Key('eg-topic')), findsOneWidget);
+    expect(find.byKey(const Key('cg-topic')), findsOneWidget);
+    expect(find.byKey(const Key('eg-street')), findsOneWidget);
+    expect(find.byKey(const Key('cg-channel')), findsNothing);
   });
 
   test('up next starts at the learner level and skips ticked weeks', () {

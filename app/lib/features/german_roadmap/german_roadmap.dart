@@ -14,6 +14,7 @@ import '../../core/providers.dart';
 import '../../core/theme.dart';
 import '../../data/models/learner.dart';
 import '../polyglot/ui.dart' show TrX;
+import 'german_channels.dart';
 
 const _host = 'www.pieceofgerman.com';
 
@@ -200,6 +201,8 @@ class GermanRoadmapScreen extends ConsumerWidget {
               const SizedBox(height: 16),
               if (next != null)
                 _ThisWeek(week: next, done: done.length, total: total),
+              const SizedBox(height: 12),
+              GermanChannelsCard(level: track.currentLevel),
               const SizedBox(height: 8),
               for (final level in pogLevels)
                 _LevelSection(

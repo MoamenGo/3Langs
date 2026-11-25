@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../german_roadmap/german_channels.dart';
 import '../german_roadmap/german_roadmap.dart' show openPog;
 
 import '../../core/lang/lang.dart';
@@ -217,6 +218,14 @@ class GrammarView extends ConsumerWidget {
               padding: const EdgeInsets.only(bottom: 12),
               child: PieceOfGermanCard(url: url),
             ),
+        if (lang == Lang.de)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: GermanChannelsCard(
+              level: content.level.id,
+              topic: point.title.values['en'] ?? point.title.get(explain),
+            ),
+          ),
         YouTubeCard(
           topic: point.title.values['en'] ?? point.title.get(explain),
           lang: lang,
