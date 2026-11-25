@@ -446,6 +446,7 @@ class _FillBlankRunnerState extends ConsumerState<FillBlankRunner> {
             const SizedBox(width: 12),
             BidiText(
               '${_index + 1} / $total',
+              textDirection: TextDirection.ltr,
               style: text.labelLarge?.copyWith(color: mx.muted),
             ),
           ],
@@ -669,14 +670,15 @@ class _AnswerFeedbackDialog extends StatelessWidget {
     final text = Theme.of(context).textTheme;
     final color = right ? mx.primary : Theme.of(context).colorScheme.error;
     void close(_Feedback f) => Navigator.of(context).pop(f);
+    const pad = EdgeInsets.symmetric(horizontal: 8, vertical: 14);
 
     final actions = <Widget>[
       if (right || revealed) ...[
-        TextButton.icon(
+        OutlinedButton.icon(
           key: const Key('fb-edit'),
           onPressed: () => close(_Feedback.edit),
           icon: const Icon(Icons.edit_rounded, size: 18),
-          label: BidiText(context.tr('Edit answer', 'تعديل الإجابة')),
+          label: BidiText(context.tr('Edit', 'تعديل')),
         ),
         FilledButton.icon(
           key: const Key('fb-next'),
@@ -701,7 +703,8 @@ class _AnswerFeedbackDialog extends StatelessWidget {
     ];
 
     return Dialog(
-      backgroundColor: mx.surface,
+      insetPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
+      // The theme's dialog colour stays nearly opaque under the glass style.
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: ConstrainedBox(
         constraints: const BoxConstraints(maxWidth: 380),
@@ -757,7 +760,7 @@ class _AnswerFeedbackDialog extends StatelessWidget {
                   vertical: 10,
                 ),
                 decoration: BoxDecoration(
-                  color: mx.surface2,
+                  color: mx.ink.withValues(alpha: 0.06),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: BidiText(
@@ -783,11 +786,33 @@ class _AnswerFeedbackDialog extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-              Wrap(
-                alignment: WrapAlignment.center,
-                spacing: 8,
-                runSpacing: 8,
-                children: actions,
+              Theme(
+                // Compact buttons so both labels fit on one line.
+                data: Theme.of(context).copyWith(
+                  outlinedButtonTheme: OutlinedButtonThemeData(
+                    style: Theme.of(context).outlinedButtonTheme.style
+                        ?.copyWith(
+                          padding: const WidgetStatePropertyAll(pad),
+                          backgroundColor: const WidgetStatePropertyAll(
+                            Colors.transparent,
+                          ),
+                          side: WidgetStatePropertyAll(
+                            BorderSide(color: mx.muted.withValues(alpha: 0.45)),
+                          ),
+                        ),
+                  ),
+                  filledButtonTheme: FilledButtonThemeData(
+                    style: Theme.of(context).filledButtonTheme.style
+                        ?.copyWith(padding: const WidgetStatePropertyAll(pad)),
+                  ),
+                ),
+                child: Row(
+                  children: [
+                    Expanded(child: actions[0]),
+                    const SizedBox(width: 10),
+                    Expanded(child: actions[1]),
+                  ],
+                ),
               ),
             ],
           ),

@@ -338,10 +338,8 @@ ThemeData buildTheme(
           blobB: c.canvas,
           base: c.canvas,
         );
-  // Menus and dialogs float above the page: keep them nearly opaque.
-  final floating = glass
-      ? base.surface.withValues(alpha: dark ? 0.9 : 0.94)
-      : c.surface;
+  // Menus and dialogs float above the page: keep them opaque.
+  final floating = glass ? base.surface : c.surface;
   final text = _textTheme(c);
   final rule = BorderSide(color: c.rule);
   RoundedRectangleBorder r(double v, [BorderSide side = BorderSide.none]) =>
