@@ -2,6 +2,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../german_roadmap/german_roadmap.dart' show openPog;
+
 import '../../core/lang/lang.dart';
 import '../../core/providers.dart';
 import '../../core/theme.dart';
@@ -679,7 +681,7 @@ class PieceOfGermanCard extends StatelessWidget {
         ),
         subtitle: BidiText(l.pieceOfGermanHint),
         trailing: const Icon(Icons.open_in_new),
-        onTap: () => launchUrl(url, mode: LaunchMode.externalApplication),
+        onTap: () => openPog(url),
       ),
     );
   }

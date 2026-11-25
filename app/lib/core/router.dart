@@ -9,6 +9,7 @@ import '../features/course/unit_screen.dart';
 import '../features/flashcards/review_screen.dart';
 import '../features/contrast/contrast_drill_screen.dart';
 import '../features/listening/listening_screen.dart';
+import '../features/german_roadmap/german_roadmap.dart';
 import '../features/onboarding/first_run_screen.dart';
 import '../features/onboarding/placement_screen.dart';
 import '../features/onboarding/welcome_screen.dart';
@@ -129,6 +130,7 @@ final appRouter = GoRouter(
       ],
     ),
     GoRoute(path: '/start', builder: (_, _) => const FirstRunScreen()),
+    GoRoute(path: '/german', builder: (_, _) => const GermanRoadmapScreen()),
     GoRoute(path: '/welcome', builder: (_, _) => const WelcomeScreen()),
     GoRoute(
       path: '/placement/:lang',

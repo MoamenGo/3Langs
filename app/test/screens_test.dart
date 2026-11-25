@@ -88,8 +88,10 @@ void main() {
     await pumpUntilFound(tester, find.textContaining('الأصوات والحروف'));
     expect(tester.takeException(), isNull);
     expect(find.text('طريقك من A0 لـ C1'), findsOneWidget);
-    expect(find.text('A1 مبتدئ'), findsOneWidget);
+    // Further down the list, below the German roadmap card.
+    expect(find.text('A1 مبتدئ', skipOffstage: false), findsOneWidget);
     expect(find.textContaining('الأصوات والحروف'), findsOneWidget);
+    expect(find.byKey(const Key('german-roadmap-card')), findsOneWidget);
   });
 
   testWidgets('explanations can be in English', (tester) async {
