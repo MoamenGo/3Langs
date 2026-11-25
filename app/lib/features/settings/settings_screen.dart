@@ -14,6 +14,7 @@ import '../../data/models/learner.dart';
 import '../../data/sync/sync_service.dart';
 import '../../core/bidi.dart';
 import '../polyglot/ui.dart' show TrX;
+import 'update_tile.dart';
 
 /// Page with the latest Android build, published by the "Android APK"
 /// GitHub workflow.
@@ -44,6 +45,8 @@ class SettingsScreen extends ConsumerWidget {
       appBar: AppBar(title: BidiText(l.settings)),
       body: ListView(
         children: [
+          const UpdateTile(),
+          const Divider(),
           ListTile(
             leading: const Icon(Icons.language),
             title: BidiText(l.appLanguage),
