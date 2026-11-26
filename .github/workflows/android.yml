@@ -31,23 +31,40 @@ jobs:
           cache: true
       - run: flutter pub get
 
-      - name: Use the release key if one is set up
+      # The 3Lang key lives in app/android/signing so every build is signed
+      # the same way and updates install over the app. Repository secrets, if
+      # added later, take priority.
+      - name: Pick the signing key
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           if [ -n "$KEYSTORE_BASE64" ]; then
             echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.jks"
-            echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+            {
+              echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/release.jks"
+              echo "ANDROID_KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD"
+              echo "ANDROID_KEY_ALIAS=$KEY_ALIAS"
+              echo "ANDROID_KEY_PASSWORD=$KEY_PASSWORD"
+            } >> "$GITHUB_ENV"
+          else
+            {
+              echo "ANDROID_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/android/signing/3lang-release.jks"
+              echo "ANDROID_KEYSTORE_PASSWORD=wrjip7Uthr6h9YDWRo3hqa4L"
+              echo "ANDROID_KEY_ALIAS=3lang"
+              echo "ANDROID_KEY_PASSWORD=wrjip7Uthr6h9YDWRo3hqa4L"
+            } >> "$GITHUB_ENV"
           fi
+          echo "Signing with alias: $(grep ANDROID_KEY_ALIAS "$GITHUB_ENV" | cut -d= -f2)"
 
       - name: Build APK
-        env:
-          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
-          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
-          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           flutter build apk --release --build-number=${{ github.run_number }} --dart-define=BUILD_NUMBER=${{ github.run_number }}
           cp build/app/outputs/flutter-apk/app-release.apk "$RUNNER_TEMP/3Lang.apk"
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$BT/apksigner" verify --print-certs "$RUNNER_TEMP/3Lang.apk" | grep -m2 "Signer #1 certificate \(DN\|SHA-256\)"
 
       - uses: actions/upload-artifact@v4
         with:
