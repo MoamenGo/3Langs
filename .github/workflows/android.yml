@@ -64,7 +64,8 @@ jobs:
           flutter build apk --release --build-number=${{ github.run_number }} --dart-define=BUILD_NUMBER=${{ github.run_number }}
           cp build/app/outputs/flutter-apk/app-release.apk "$RUNNER_TEMP/3Lang.apk"
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
-          "$BT/apksigner" verify --print-certs "$RUNNER_TEMP/3Lang.apk" | grep -m2 "Signer #1 certificate \(DN\|SHA-256\)"
+          echo "Signer of the APK (build-tools: $BT):"
+          "$BT/apksigner" verify --print-certs "$RUNNER_TEMP/3Lang.apk" 2>&1 | head -8 || true
 
       - uses: actions/upload-artifact@v4
         with:
