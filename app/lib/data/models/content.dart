@@ -241,6 +241,52 @@ class GrammarExercise {
   );
 }
 
+/// One sound on a sounds page: the letters, what it sounds like, how to say
+/// it, an optional tip and example words.
+class SoundGuideItem {
+  const SoundGuideItem({
+    required this.letters,
+    required this.like,
+    required this.explain,
+    this.tip,
+    this.examples = const [],
+  });
+  final String letters;
+  final L10nText like;
+  final L10nText explain;
+  final L10nText? tip;
+  final List<SoundExample> examples;
+
+  factory SoundGuideItem.fromJson(Map<String, dynamic> j) => SoundGuideItem(
+    letters: j['letters'] as String,
+    like: L10nText.fromJson(j['like']),
+    explain: L10nText.fromJson(j['explain']),
+    tip: j['tip'] == null ? null : L10nText.fromJson(j['tip']),
+    examples: _list(j['examples'])
+        .map((e) => SoundExample.fromJson(e as Map<String, dynamic>))
+        .toList(),
+  );
+}
+
+class SoundExample {
+  const SoundExample({
+    required this.text,
+    required this.say,
+    required this.meaning,
+  });
+  final String text;
+
+  /// How it sounds, written in Arabic letters.
+  final String say;
+  final L10nText meaning;
+
+  factory SoundExample.fromJson(Map<String, dynamic> j) => SoundExample(
+    text: j['text'] as String,
+    say: (j['say'] as String?) ?? '',
+    meaning: L10nText.fromJson(j['meaning']),
+  );
+}
+
 class GrammarPoint {
   const GrammarPoint({
     required this.id,
@@ -251,10 +297,14 @@ class GrammarPoint {
     required this.exercises,
     this.tableHeaders = const [],
     this.tableRows = const [],
+    this.guide = const [],
   });
   final String id;
   final String level;
   final L10nText title;
+
+  /// Sound-by-sound guide (sounds pages only).
+  final List<SoundGuideItem> guide;
   final L10nText explanation;
   final List<String> tableHeaders;
   final List<List<String>> tableRows;
@@ -270,6 +320,9 @@ class GrammarPoint {
       explanation: L10nText.fromJson(j['explanation']),
       tableHeaders: _strings(table?['headers']),
       tableRows: _list(table?['rows']).map(_strings).toList(),
+      guide: _list(j['guide'])
+          .map((e) => SoundGuideItem.fromJson(e as Map<String, dynamic>))
+          .toList(),
       exampleSentenceIds: _strings(j['exampleSentenceIds']),
       exercises: _list(j['exercises'])
           .map((e) => GrammarExercise.fromJson(e as Map<String, dynamic>))

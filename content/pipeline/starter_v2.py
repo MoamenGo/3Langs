@@ -108,7 +108,7 @@ def vocab_entry(lang: str, level: str, lemma, article, plural, pos, en, ar, conc
 
 
 def grammar_entry(lang: str, level: str, key: str, g: dict, sent_prefix: str) -> dict:
-    return {
+    entry = {
         "id": f"{lang}.{level.lower()}.gram.{key}", "level": level,
         "title": g["title"], "explanation": g["explanation"], "table": g["table"],
         "exampleSentenceIds": [f"{sent_prefix}{k}" for k in g["examples"]],
@@ -116,6 +116,9 @@ def grammar_entry(lang: str, level: str, key: str, g: dict, sent_prefix: str) ->
                       for p, a, b in g["exercises"]],
         "source": SRC, "license": LIC,
     }
+    if g.get("guide"):
+        entry["guide"] = g["guide"]
+    return entry
 
 
 def lang_names(lang: str) -> dict:

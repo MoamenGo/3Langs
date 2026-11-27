@@ -11,6 +11,8 @@ import '../../core/theme.dart';
 import '../../core/widgets.dart';
 import '../../data/models/content.dart';
 import '../../core/bidi.dart';
+import '../polyglot/ui.dart' show TrX;
+import 'sound_guide.dart';
 
 /// One piece of a grammar explanation, parsed from its plain text.
 sealed class ExplainBlock {
@@ -138,7 +140,31 @@ class GrammarView extends ConsumerWidget {
       children: [
         _Hero(title: point.title.get(explain), level: point.level, lang: lang),
         const SizedBox(height: 16),
-        _SectionTitle(icon: Icons.lightbulb_outline, label: l.keyPoints),
+        if (point.guide.isNotEmpty) ...[
+          _SectionTitle(
+            icon: Icons.record_voice_over_outlined,
+            label: context.tr('Sound by sound', 'صوت بصوت'),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: BidiText(
+              context.tr(
+                'Tap a word to hear it, or the slow button to hear it slowly.',
+                'دوس على أي كلمة عشان تسمعها، أو زرار البطيء عشان تسمعها بالراحة.',
+              ),
+              style: text.bodyMedium?.copyWith(color: scheme.outline),
+            ),
+          ),
+          for (final (i, item) in point.guide.indexed)
+            SoundCard(number: i + 1, item: item, lang: lang, explain: explain),
+          const SizedBox(height: 16),
+        ],
+        _SectionTitle(
+          icon: Icons.lightbulb_outline,
+          label: point.guide.isEmpty
+              ? l.keyPoints
+              : context.tr('Summary', 'الملخص'),
+        ),
         for (final b in blocks)
           switch (b) {
             ParagraphBlock(:final text) => _PointCard(number: ++n, text: text),

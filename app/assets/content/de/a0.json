@@ -2122,7 +2122,741 @@
     }
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "guide": [
+    {
+     "letters": "a · e · i · o · u",
+     "like": {
+      "ar": "طويلة أو قصيرة",
+      "en": "long or short"
+     },
+     "explain": {
+      "ar": "كل حرف متحرك ليه نسخة طويلة ونسخة قصيرة. غالبًا بيبقى طويل لو بعده حرف ساكن واحد أو h، وقصير لو بعده حرفين ساكنين.",
+      "en": "Each vowel has a long and a short version. It is usually long before one consonant or h, and short before two consonants."
+     },
+     "examples": [
+      {
+       "text": "Tag",
+       "say": "تاااك",
+       "meaning": {
+        "ar": "يوم",
+        "en": "day"
+       }
+      },
+      {
+       "text": "Mann",
+       "say": "مان",
+       "meaning": {
+        "ar": "راجل",
+        "en": "man"
+       }
+      },
+      {
+       "text": "Sohn",
+       "say": "زوون",
+       "meaning": {
+        "ar": "ابن",
+        "en": "son"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "الطول بيغير المعنى: Staat (دولة) غير Stadt (مدينة).",
+      "en": "Length changes meaning: Staat (state) vs Stadt (city)."
+     }
+    },
+    {
+     "letters": "ä",
+     "like": {
+      "ar": "إ مفتوحة",
+      "en": "e as in 'bed'"
+     },
+     "explain": {
+      "ar": "ä صوتها قريب من e: زي «إ» في «إيه». الطويلة زي «إييه».",
+      "en": "ä sounds like e in 'bed'; long ä is like the 'ai' in 'fair'."
+     },
+     "examples": [
+      {
+       "text": "Käse",
+       "say": "كيزه",
+       "meaning": {
+        "ar": "جبنة",
+        "en": "cheese"
+       }
+      },
+      {
+       "text": "Männer",
+       "say": "مينر",
+       "meaning": {
+        "ar": "رجالة",
+        "en": "men"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ö",
+     "like": {
+      "ar": "إ بشفايف مدورة",
+      "en": "e with rounded lips"
+     },
+     "explain": {
+      "ar": "قول «إي» وانت مدور شفايفك كأنك هتقول «أو». صوت مش موجود في العربي ولا الإنجليزي.",
+      "en": "Say 'e' while rounding your lips as for 'o'. There is no English or Arabic match."
+     },
+     "examples": [
+      {
+       "text": "schön",
+       "say": "شون (بشفايف مدورة)",
+       "meaning": {
+        "ar": "جميل",
+        "en": "beautiful"
+       }
+      },
+      {
+       "text": "hören",
+       "say": "هورن",
+       "meaning": {
+        "ar": "يسمع",
+        "en": "to hear"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "بص في المراية: لسانك مكان «إ» وشفايفك مكان «أو».",
+      "en": "Use a mirror: tongue in the e position, lips in the o position."
+     }
+    },
+    {
+     "letters": "ü",
+     "like": {
+      "ar": "ي بشفايف مدورة",
+      "en": "ee with rounded lips"
+     },
+     "explain": {
+      "ar": "قول «إي» طويلة وانت مدور شفايفك كأنك هتصفر. ده الصوت اللي بيفرق über عن ober.",
+      "en": "Say 'ee' while rounding your lips as if to whistle."
+     },
+     "examples": [
+      {
+       "text": "über",
+       "say": "إوبر (مدورة)",
+       "meaning": {
+        "ar": "فوق / عن",
+        "en": "over / about"
+       }
+      },
+      {
+       "text": "müde",
+       "say": "موده (مدورة)",
+       "meaning": {
+        "ar": "تعبان",
+        "en": "tired"
+       }
+      },
+      {
+       "text": "Tür",
+       "say": "تور (مدورة)",
+       "meaning": {
+        "ar": "باب",
+        "en": "door"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش «يو» ولا «أو».",
+      "en": "Don't turn it into 'you' or 'oo'."
+     }
+    },
+    {
+     "letters": "ei · ai",
+     "like": {
+      "ar": "آي",
+      "en": "eye"
+     },
+     "explain": {
+      "ar": "ei وai بيتنطقوا «آي» زي كلمة eye في الإنجليزي.",
+      "en": "ei and ai sound like English 'eye'."
+     },
+     "examples": [
+      {
+       "text": "drei",
+       "say": "دراي",
+       "meaning": {
+        "ar": "تلاتة",
+        "en": "three"
+       }
+      },
+      {
+       "text": "mein",
+       "say": "ماين",
+       "meaning": {
+        "ar": "بتاعي",
+        "en": "my"
+       }
+      },
+      {
+       "text": "Mai",
+       "say": "ماي",
+       "meaning": {
+        "ar": "مايو",
+        "en": "May"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "ei = آي، ie = إي. افتكرها كده: بتنطق الحرف التاني.",
+      "en": "Remember: in ei and ie you say the name of the second letter in English."
+     }
+    },
+    {
+     "letters": "ie",
+     "like": {
+      "ar": "إي طويلة",
+      "en": "long ee"
+     },
+     "explain": {
+      "ar": "ie ياء طويلة: «إيي».",
+      "en": "ie is a long 'ee'."
+     },
+     "examples": [
+      {
+       "text": "vier",
+       "say": "فيير",
+       "meaning": {
+        "ar": "أربعة",
+        "en": "four"
+       }
+      },
+      {
+       "text": "Liebe",
+       "say": "ليبه",
+       "meaning": {
+        "ar": "حب",
+        "en": "love"
+       }
+      },
+      {
+       "text": "sie",
+       "say": "زي",
+       "meaning": {
+        "ar": "هي / هم",
+        "en": "she / they"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "eu · äu",
+     "like": {
+      "ar": "أوي",
+      "en": "oy"
+     },
+     "explain": {
+      "ar": "eu وäu بيتنطقوا «أوي» زي boy.",
+      "en": "eu and äu sound like 'oy' in 'boy'."
+     },
+     "examples": [
+      {
+       "text": "neu",
+       "say": "نوي",
+       "meaning": {
+        "ar": "جديد",
+        "en": "new"
+       }
+      },
+      {
+       "text": "Häuser",
+       "say": "هويزر",
+       "meaning": {
+        "ar": "بيوت",
+        "en": "houses"
+       }
+      },
+      {
+       "text": "heute",
+       "say": "هويته",
+       "meaning": {
+        "ar": "النهارده",
+        "en": "today"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ch بعد a · o · u",
+     "like": {
+      "ar": "خ",
+      "en": "Arabic خ"
+     },
+     "explain": {
+      "ar": "بعد a وo وu وau، ch صوت حلقي زي الخاء بالظبط.",
+      "en": "After a, o, u, au, ch is a throat sound exactly like Arabic خ."
+     },
+     "examples": [
+      {
+       "text": "acht",
+       "say": "أخت",
+       "meaning": {
+        "ar": "تمانية",
+        "en": "eight"
+       }
+      },
+      {
+       "text": "Buch",
+       "say": "بوخ",
+       "meaning": {
+        "ar": "كتاب",
+        "en": "book"
+       }
+      },
+      {
+       "text": "auch",
+       "say": "آوخ",
+       "meaning": {
+        "ar": "كمان",
+        "en": "also"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ch بعد e · i",
+     "like": {
+      "ar": "بين ش وخ",
+      "en": "soft hiss (ich-sound)"
+     },
+     "explain": {
+      "ar": "بعد e وi والحروف التانية، ch أخف: حط لسانك مكان الياء وانفخ هوا. صوت بين الشين والخاء.",
+      "en": "After e, i and other letters, ch is softer: put your tongue as for 'y' and blow air. It sits between 'sh' and خ."
+     },
+     "examples": [
+      {
+       "text": "ich",
+       "say": "إش (خفيفة)",
+       "meaning": {
+        "ar": "أنا",
+        "en": "I"
+       }
+      },
+      {
+       "text": "nicht",
+       "say": "نيشت",
+       "meaning": {
+        "ar": "مش",
+        "en": "not"
+       }
+      },
+      {
+       "text": "Milch",
+       "say": "ميلش",
+       "meaning": {
+        "ar": "لبن",
+        "en": "milk"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش «خ» تقيلة ولا «ك»: ich مش «إك».",
+      "en": "Don't make it a hard خ or a k: ich is not 'ick'."
+     }
+    },
+    {
+     "letters": "sch",
+     "like": {
+      "ar": "ش",
+      "en": "sh"
+     },
+     "explain": {
+      "ar": "sch = شين عادية.",
+      "en": "sch is a plain 'sh'."
+     },
+     "examples": [
+      {
+       "text": "Schule",
+       "say": "شوله",
+       "meaning": {
+        "ar": "مدرسة",
+        "en": "school"
+       }
+      },
+      {
+       "text": "Tisch",
+       "say": "تيش",
+       "meaning": {
+        "ar": "ترابيزة",
+        "en": "table"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "sp · st (في الأول)",
+     "like": {
+      "ar": "شب · شت",
+      "en": "shp · sht"
+     },
+     "explain": {
+      "ar": "في أول الكلمة أو أول جزء منها، s قبل p أو t بتتنطق ش.",
+      "en": "At the start of a word (or word part), s before p or t sounds like 'sh'."
+     },
+     "examples": [
+      {
+       "text": "Sport",
+       "say": "شبورت",
+       "meaning": {
+        "ar": "رياضة",
+        "en": "sport"
+       }
+      },
+      {
+       "text": "Stadt",
+       "say": "شتات",
+       "meaning": {
+        "ar": "مدينة",
+        "en": "city"
+       }
+      },
+      {
+       "text": "verstehen",
+       "say": "فيرشتيين",
+       "meaning": {
+        "ar": "يفهم",
+        "en": "to understand"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "في نص الكلمة بترجع س: Fenster = «فينستر».",
+      "en": "Inside a word it stays s: Fenster."
+     }
+    },
+    {
+     "letters": "w",
+     "like": {
+      "ar": "ف (v)",
+      "en": "v"
+     },
+     "explain": {
+      "ar": "w بتتنطق زي v الإنجليزي: سنانك العليا على شفتك التحتانية.",
+      "en": "w sounds like English v: upper teeth on the lower lip."
+     },
+     "examples": [
+      {
+       "text": "Wasser",
+       "say": "فاسر",
+       "meaning": {
+        "ar": "مية",
+        "en": "water"
+       }
+      },
+      {
+       "text": "wo",
+       "say": "فو",
+       "meaning": {
+        "ar": "فين",
+        "en": "where"
+       }
+      },
+      {
+       "text": "Wein",
+       "say": "فاين",
+       "meaning": {
+        "ar": "نبيت",
+        "en": "wine"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "ده أكتر غلط بيتعمل: Wasser = «فاسر» مش «واسر».",
+      "en": "Most common mistake: Wasser is 'vasser'."
+     }
+    },
+    {
+     "letters": "v",
+     "like": {
+      "ar": "ف",
+      "en": "f"
+     },
+     "explain": {
+      "ar": "v في الكلمات الألمانية بتتنطق ف. في كلمات أجنبية زي Vase بتتنطق v.",
+      "en": "v in German words sounds like f. In borrowed words such as Vase it is a v."
+     },
+     "examples": [
+      {
+       "text": "Vater",
+       "say": "فاتر",
+       "meaning": {
+        "ar": "أب",
+        "en": "father"
+       }
+      },
+      {
+       "text": "viel",
+       "say": "فيل",
+       "meaning": {
+        "ar": "كتير",
+        "en": "much"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "z · tz",
+     "like": {
+      "ar": "تس",
+      "en": "ts"
+     },
+     "explain": {
+      "ar": "z دايمًا «تس» مع بعض، حتى في أول الكلمة.",
+      "en": "z is always 'ts', even at the start of a word."
+     },
+     "examples": [
+      {
+       "text": "zehn",
+       "say": "تسيين",
+       "meaning": {
+        "ar": "عشرة",
+        "en": "ten"
+       }
+      },
+      {
+       "text": "Zeit",
+       "say": "تسايت",
+       "meaning": {
+        "ar": "وقت",
+        "en": "time"
+       }
+      },
+      {
+       "text": "Katze",
+       "say": "كاتسه",
+       "meaning": {
+        "ar": "قطة",
+        "en": "cat"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش زاي: zehn = «تسيين».",
+      "en": "Never a plain z: zehn is 'tsayn'."
+     }
+    },
+    {
+     "letters": "s قبل حرف متحرك",
+     "like": {
+      "ar": "ز",
+      "en": "z"
+     },
+     "explain": {
+      "ar": "s في أول الكلمة أو بين حرفين متحركين بتتنطق ز.",
+      "en": "s before a vowel (start of a word or between vowels) sounds like z."
+     },
+     "examples": [
+      {
+       "text": "sagen",
+       "say": "زاجن",
+       "meaning": {
+        "ar": "يقول",
+        "en": "to say"
+       }
+      },
+      {
+       "text": "Sonne",
+       "say": "زونه",
+       "meaning": {
+        "ar": "شمس",
+        "en": "sun"
+       }
+      },
+      {
+       "text": "Rose",
+       "say": "روزه",
+       "meaning": {
+        "ar": "وردة",
+        "en": "rose"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ß · ss",
+     "like": {
+      "ar": "س",
+      "en": "sharp s"
+     },
+     "explain": {
+      "ar": "ß وss = سين حادة. ß بتيجي بعد حرف متحرك طويل، وss بعد القصير.",
+      "en": "ß and ss are a sharp s. ß follows a long vowel, ss a short one."
+     },
+     "examples": [
+      {
+       "text": "groß",
+       "say": "جروس",
+       "meaning": {
+        "ar": "كبير",
+        "en": "big"
+       }
+      },
+      {
+       "text": "Straße",
+       "say": "شتراسه",
+       "meaning": {
+        "ar": "شارع",
+        "en": "street"
+       }
+      },
+      {
+       "text": "Wasser",
+       "say": "فاسر",
+       "meaning": {
+        "ar": "مية",
+        "en": "water"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "j",
+     "like": {
+      "ar": "ي",
+      "en": "y"
+     },
+     "explain": {
+      "ar": "j بتتنطق ياء.",
+      "en": "j sounds like English y."
+     },
+     "examples": [
+      {
+       "text": "ja",
+       "say": "يا",
+       "meaning": {
+        "ar": "أيوه",
+        "en": "yes"
+       }
+      },
+      {
+       "text": "Jahr",
+       "say": "يار",
+       "meaning": {
+        "ar": "سنة",
+        "en": "year"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "r · -er",
+     "like": {
+      "ar": "غ خفيفة / آ",
+      "en": "throaty r / 'uh'"
+     },
+     "explain": {
+      "ar": "r في أول الكلمة صوت حلقي خفيف قريب من الغين. وفي آخر الكلمة -er بتتنطق زي «آ» خفيفة.",
+      "en": "r at the start is a soft throaty sound close to Arabic غ. Final -er sounds like a short 'uh'."
+     },
+     "examples": [
+      {
+       "text": "rot",
+       "say": "غوت (خفيفة)",
+       "meaning": {
+        "ar": "أحمر",
+        "en": "red"
+       }
+      },
+      {
+       "text": "Mutter",
+       "say": "موتا",
+       "meaning": {
+        "ar": "أم",
+        "en": "mother"
+       }
+      },
+      {
+       "text": "aber",
+       "say": "آبا",
+       "meaning": {
+        "ar": "بس / لكن",
+        "en": "but"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "b · d · g في الآخر",
+     "like": {
+      "ar": "پ · ت · ك",
+      "en": "become p, t, k"
+     },
+     "explain": {
+      "ar": "في آخر الكلمة b بتتنطق p، وd بتتنطق t، وg بتتنطق k.",
+      "en": "At the end of a word, b sounds like p, d like t, and g like k."
+     },
+     "examples": [
+      {
+       "text": "Tag",
+       "say": "تاك",
+       "meaning": {
+        "ar": "يوم",
+        "en": "day"
+       }
+      },
+      {
+       "text": "Hund",
+       "say": "هونت",
+       "meaning": {
+        "ar": "كلب",
+        "en": "dog"
+       }
+      },
+      {
+       "text": "gelb",
+       "say": "جيلپ",
+       "meaning": {
+        "ar": "أصفر",
+        "en": "yellow"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "h بعد حرف متحرك",
+     "like": {
+      "ar": "صامتة",
+      "en": "silent"
+     },
+     "explain": {
+      "ar": "h بعد حرف متحرك مش بتتنطق، بس بتطول الحرف اللي قبلها. في أول الكلمة بتتنطق هاء.",
+      "en": "h after a vowel is silent and makes the vowel long. At the start of a word it is a normal h."
+     },
+     "examples": [
+      {
+       "text": "Sohn",
+       "say": "زوون",
+       "meaning": {
+        "ar": "ابن",
+        "en": "son"
+       }
+      },
+      {
+       "text": "gehen",
+       "say": "جيين",
+       "meaning": {
+        "ar": "يمشي",
+        "en": "to go"
+       }
+      },
+      {
+       "text": "Haus",
+       "say": "هاوس",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "de.a0.gram.questions",

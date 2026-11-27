@@ -8,6 +8,7 @@ import 'package:material_ui/material_ui.dart';
 import 'package:three_lang/core/lang/lang.dart';
 import 'package:three_lang/core/localization.dart';
 import 'package:three_lang/core/providers.dart';
+import 'package:three_lang/core/theme.dart';
 import 'package:three_lang/data/local/local_db.dart';
 import 'package:three_lang/data/models/content.dart';
 import 'package:three_lang/data/models/learner.dart';
@@ -17,6 +18,7 @@ import 'package:three_lang/data/repositories/settings_repository.dart';
 import 'package:three_lang/features/contrast/contrast_screen.dart';
 import 'package:three_lang/features/course/course_screen.dart';
 import 'package:three_lang/features/course/exercises.dart';
+import 'package:three_lang/features/course/grammar_view.dart';
 import 'package:three_lang/data/models/learner.dart' as learner;
 import 'package:three_lang/data/repositories/track_repository.dart';
 import 'package:three_lang/features/today/today_screen.dart';
@@ -28,6 +30,7 @@ Future<void> pumpScreen(
   Widget screen, {
   Locale? locale,
   Future<void> Function(LocalDb db)? setup,
+  ThemeData? theme,
 }) async {
   final db = await tester.runAsync(LocalDb.memory);
   if (setup != null) await tester.runAsync(() => setup(db!));
@@ -44,6 +47,7 @@ Future<void> pumpScreen(
         localizationsDelegates: appLocalizationsDelegates,
         supportedLocales: AppLocalizations.supportedLocales,
         locale: locale,
+        theme: theme,
         home: screen,
       ),
     ),
@@ -217,5 +221,39 @@ void main() {
   testWidgets('progress screen renders with no data', (tester) async {
     await pumpScreen(tester, const ProgressScreen());
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('the sounds page explains every sound on its own card', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(420, 900));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    final es = jsonDecode(
+      File('assets/content/es/a0.json').readAsStringSync(),
+    ) as Map<String, dynamic>;
+    final content = LevelContent.fromJson(es);
+    await pumpScreen(
+      tester,
+      Scaffold(
+        body: GrammarView(
+          point: content.grammar['es.a0.gram.sounds']!,
+          content: content,
+        ),
+      ),
+      locale: const Locale('ar'),
+      setup: (db) => useLanguage(db, Lang.es),
+      theme: buildTheme(Brightness.light),
+    );
+    expect(tester.takeException(), isNull);
+    expect(find.text('صوت بصوت'), findsOneWidget);
+    expect(find.byKey(const Key('sound-1')), findsOneWidget);
+    expect(find.byKey(const Key('ex-casa'), skipOffstage: false), findsWidgets);
+    // Scroll through every card: none may overflow on a phone.
+    for (var i = 0; i < 30; i++) {
+      await tester.drag(find.byType(ListView), const Offset(0, -500));
+      await tester.pump();
+      expect(tester.takeException(), isNull);
+    }
+    expect(find.text('الملخص'), findsNothing); // scrolled past it
   });
 }
