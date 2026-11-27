@@ -9,6 +9,8 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../video/video_screen.dart' show openVideo;
+
 import '../../core/providers.dart';
 import '../../core/theme.dart';
 import 'controller.dart';
@@ -32,11 +34,16 @@ TextDirection dirOf(LanguageDef? lang) =>
 
 Color langColor(LanguageDef l) => Color(l.colorValue);
 
-/// Opens a link outside the app.
+/// Opens a link: YouTube videos and playlists play inside the app, other
+/// YouTube pages open in the in-app browser, the rest outside the app.
 Future<void> openLink(BuildContext context, String url) async {
   final uri = Uri.tryParse(url);
+  if (uri != null && await openVideo(context, uri)) return;
+  final youtube = uri?.host.contains('youtube.') ?? false;
   final ok =
-      uri != null && await launchUrl(uri, mode: LaunchMode.externalApplication);
+      uri != null &&
+      ((youtube && await launchUrl(uri, mode: LaunchMode.inAppBrowserView)) ||
+          await launchUrl(uri, mode: LaunchMode.externalApplication));
   if (!ok && context.mounted) {
     showSnack(context, context.tr('Could not open $url', 'تعذر فتح $url'));
   }

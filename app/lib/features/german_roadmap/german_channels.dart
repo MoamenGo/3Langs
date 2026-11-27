@@ -1,13 +1,15 @@
 // Easy German and CyberGerman on YouTube, placed where they help: a
 // playlist for the learner's level on the course and roadmap pages, and
 // channel searches for the topic on each German grammar page. We only link;
-// the videos play in the YouTube player (in-app browser or YouTube app).
+// playlists play inside the app in an embedded player; searches open in
+// the in-app browser.
 
 import 'package:material_ui/material_ui.dart';
 
 import '../../core/bidi.dart';
 import '../../core/theme.dart';
 import '../polyglot/ui.dart' show TrX;
+import '../video/video_screen.dart' show openVideo;
 import 'german_roadmap.dart' show openPog;
 
 /// Easy German's own "Where to begin" playlists (easygerman.org, 2026-11-25).
@@ -158,7 +160,11 @@ class GermanChannelsCard extends StatelessWidget {
                   key: key,
                   avatar: Icon(icon, size: 18),
                   label: BidiText(label),
-                  onPressed: () => openPog(url),
+                  onPressed: () async {
+                    if (!await openVideo(context, url, title: label)) {
+                      await openPog(url);
+                    }
+                  },
                 ),
             ],
           ),
