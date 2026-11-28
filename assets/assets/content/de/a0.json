@@ -1,0 +1,3038 @@
+{
+ "schemaVersion": 2,
+ "lang": "de",
+ "contentVersion": "2026.11.23-phase2",
+ "level": {
+  "id": "A0",
+  "title": {
+   "ar": "A0 البداية",
+   "en": "A0 First steps"
+  },
+  "targetHours": 30,
+  "canDo": [
+   {
+    "ar": "تقرا وتنطق حروف اللغة وأصواتها",
+    "en": "Read and pronounce the letters and sounds"
+   },
+   {
+    "ar": "تستخدم عبارات النجاة لما متفهمش",
+    "en": "Use survival phrases when you don't understand"
+   },
+   {
+    "ar": "تقول الأيام والأرقام والساعة",
+    "en": "Say days, numbers and the time"
+   },
+   {
+    "ar": "تسأل أسئلة بسيطة: مين، فين، إمتى، ليه",
+    "en": "Ask simple questions: who, where, when, why"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "de.a0.u01",
+   "level": "A0",
+   "order": 1,
+   "theme": {
+    "ar": "الأصوات والحروف",
+    "en": "Sounds and letters"
+   },
+   "goals": [
+    {
+     "ar": "تعرف الأصوات اللي مش موجودة في العربي",
+     "en": "Know the sounds that differ from Arabic and English"
+    },
+    {
+     "ar": "تقرا كلمات دولية بالنطق الصح",
+     "en": "Read international words with the right sounds"
+    }
+   ],
+   "grammarIds": [
+    "de.a0.gram.sounds"
+   ],
+   "lessonIds": [
+    "de.a0.u01.l01",
+    "de.a0.u01.l02",
+    "de.a0.u01.l03",
+    "de.a0.u01.l04"
+   ],
+   "sharedUnitId": "u.a0.01"
+  },
+  {
+   "id": "de.a0.u02",
+   "level": "A0",
+   "order": 2,
+   "theme": {
+    "ar": "عبارات النجاة",
+    "en": "Survival phrases"
+   },
+   "goals": [
+    {
+     "ar": "تقول إنك مش فاهم وتطلب حد يعيد",
+     "en": "Say you don't understand and ask for a repeat"
+    },
+    {
+     "ar": "تسأل عن الحمّام والسعر",
+     "en": "Ask for the toilet and the price"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.a0.u02.l01",
+    "de.a0.u02.l02",
+    "de.a0.u02.l03"
+   ],
+   "sharedUnitId": "u.a0.02"
+  },
+  {
+   "id": "de.a0.u03",
+   "level": "A0",
+   "order": 3,
+   "theme": {
+    "ar": "الأرقام والأيام والوقت",
+    "en": "Numbers, days and time"
+   },
+   "goals": [
+    {
+     "ar": "تقول أيام الأسبوع",
+     "en": "Say the days of the week"
+    },
+    {
+     "ar": "تقول النهارده وبكرة وامبارح والساعة",
+     "en": "Say today, tomorrow, yesterday and the time"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.a0.u03.l01",
+    "de.a0.u03.l02",
+    "de.a0.u03.l03",
+    "de.a0.u03.l04"
+   ],
+   "sharedUnitId": "u.a0.03"
+  },
+  {
+   "id": "de.a0.u04",
+   "level": "A0",
+   "order": 4,
+   "theme": {
+    "ar": "أول أسئلة",
+    "en": "First questions"
+   },
+   "goals": [
+    {
+     "ar": "تسأل بكلمات السؤال",
+     "en": "Ask with question words"
+    },
+    {
+     "ar": "تقول بتتكلم وبتتعلم لغات إيه",
+     "en": "Say which languages you speak and learn"
+    }
+   ],
+   "grammarIds": [
+    "de.a0.gram.questions"
+   ],
+   "lessonIds": [
+    "de.a0.u04.l01",
+    "de.a0.u04.l02",
+    "de.a0.u04.l03",
+    "de.a0.u04.l04",
+    "de.a0.u04.l05"
+   ],
+   "sharedUnitId": "u.a0.04"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "de.a0.u01.l01",
+   "unitId": "de.a0.u01",
+   "order": 1,
+   "type": "grammar",
+   "title": {
+    "ar": "أصوات اللغة",
+    "en": "The sounds"
+   },
+   "items": [],
+   "grammarId": "de.a0.gram.sounds"
+  },
+  {
+   "id": "de.a0.u01.l02",
+   "unitId": "de.a0.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "كلمات دولية",
+    "en": "International words"
+   },
+   "items": [
+    "de.a0.vocab.taxi",
+    "de.a0.vocab.hotel",
+    "de.a0.vocab.bus",
+    "de.a0.vocab.telefon",
+    "de.a0.vocab.musik",
+    "de.a0.vocab.problem",
+    "de.a0.vocab.banane",
+    "de.a0.vocab.tomate",
+    "de.a0.vocab.schule",
+    "de.a0.vocab.auto",
+    "de.a0.vocab.schokolade",
+    "de.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "de.a0.u01.l03",
+   "unitId": "de.a0.u01",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: كلمات وأصوات",
+    "en": "Listen: words and sounds"
+   },
+   "items": [
+    "de.a0.sent.a01",
+    "de.a0.sent.a02",
+    "de.a0.sent.a03",
+    "de.a0.sent.a04",
+    "de.a0.sent.a05",
+    "de.a0.sent.a06",
+    "de.a0.sent.a07",
+    "de.a0.sent.a08"
+   ]
+  },
+  {
+   "id": "de.a0.u01.l04",
+   "unitId": "de.a0.u01",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 1",
+    "en": "Unit 1 review"
+   },
+   "items": [
+    "de.a0.vocab.taxi",
+    "de.a0.vocab.hotel",
+    "de.a0.vocab.bus",
+    "de.a0.vocab.telefon",
+    "de.a0.vocab.musik",
+    "de.a0.vocab.problem",
+    "de.a0.vocab.banane",
+    "de.a0.vocab.tomate",
+    "de.a0.vocab.schule",
+    "de.a0.vocab.auto",
+    "de.a0.vocab.schokolade",
+    "de.a0.vocab.pizza"
+   ]
+  },
+  {
+   "id": "de.a0.u02.l01",
+   "unitId": "de.a0.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مش فاهم! عبارات النجاة",
+    "en": "I don't understand! Survival phrases"
+   },
+   "items": [
+    "de.a0.vocab.ich_verstehe_nicht",
+    "de.a0.vocab.sprechen_sie_englisch",
+    "de.a0.vocab.ein_bisschen",
+    "de.a0.vocab.langsam",
+    "de.a0.vocab.noch_einmal",
+    "de.a0.vocab.wie_bitte",
+    "de.a0.vocab.toilette",
+    "de.a0.vocab.hilfe",
+    "de.a0.vocab.was_kostet_das",
+    "de.a0.vocab.ich_weiss_nicht",
+    "de.a0.vocab.hier",
+    "de.a0.vocab.dort"
+   ]
+  },
+  {
+   "id": "de.a0.u02.l02",
+   "unitId": "de.a0.u02",
+   "order": 2,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: لما تتوه",
+    "en": "Listen: when you're lost"
+   },
+   "items": [
+    "de.a0.sent.a10",
+    "de.a0.sent.a11",
+    "de.a0.sent.a12",
+    "de.a0.sent.a13",
+    "de.a0.sent.a14",
+    "de.a0.sent.a15",
+    "de.a0.sent.a17",
+    "de.a0.sent.a18"
+   ]
+  },
+  {
+   "id": "de.a0.u02.l03",
+   "unitId": "de.a0.u02",
+   "order": 3,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 2",
+    "en": "Unit 2 review"
+   },
+   "items": [
+    "de.a0.vocab.ich_verstehe_nicht",
+    "de.a0.vocab.sprechen_sie_englisch",
+    "de.a0.vocab.ein_bisschen",
+    "de.a0.vocab.langsam",
+    "de.a0.vocab.noch_einmal",
+    "de.a0.vocab.wie_bitte",
+    "de.a0.vocab.toilette",
+    "de.a0.vocab.hilfe",
+    "de.a0.vocab.was_kostet_das",
+    "de.a0.vocab.ich_weiss_nicht",
+    "de.a0.vocab.hier",
+    "de.a0.vocab.dort"
+   ]
+  },
+  {
+   "id": "de.a0.u03.l01",
+   "unitId": "de.a0.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "أرقام ووقت",
+    "en": "Numbers and time"
+   },
+   "items": [
+    "de.a0.vocab.null",
+    "de.a0.vocab.elf",
+    "de.a0.vocab.zwoelf",
+    "de.a0.vocab.hundert",
+    "de.a0.vocab.heute",
+    "de.a0.vocab.morgen",
+    "de.a0.vocab.gestern",
+    "de.a0.vocab.tag",
+    "de.a0.vocab.woche",
+    "de.a0.vocab.uhr"
+   ]
+  },
+  {
+   "id": "de.a0.u03.l02",
+   "unitId": "de.a0.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "ar": "أيام الأسبوع",
+    "en": "Days of the week"
+   },
+   "items": [
+    "de.a0.vocab.montag",
+    "de.a0.vocab.dienstag",
+    "de.a0.vocab.mittwoch",
+    "de.a0.vocab.donnerstag",
+    "de.a0.vocab.freitag",
+    "de.a0.vocab.samstag",
+    "de.a0.vocab.sonntag"
+   ]
+  },
+  {
+   "id": "de.a0.u03.l03",
+   "unitId": "de.a0.u03",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: النهارده إيه؟",
+    "en": "Listen: what day is it?"
+   },
+   "items": [
+    "de.a0.sent.a21",
+    "de.a0.sent.a22",
+    "de.a0.sent.a23",
+    "de.a0.sent.a24",
+    "de.a0.sent.a25",
+    "de.a0.sent.a27",
+    "de.a0.sent.a28",
+    "de.a0.sent.a29"
+   ]
+  },
+  {
+   "id": "de.a0.u03.l04",
+   "unitId": "de.a0.u03",
+   "order": 4,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 3",
+    "en": "Unit 3 review"
+   },
+   "items": [
+    "de.a0.vocab.null",
+    "de.a0.vocab.elf",
+    "de.a0.vocab.zwoelf",
+    "de.a0.vocab.hundert",
+    "de.a0.vocab.heute",
+    "de.a0.vocab.morgen",
+    "de.a0.vocab.gestern",
+    "de.a0.vocab.tag",
+    "de.a0.vocab.woche",
+    "de.a0.vocab.uhr",
+    "de.a0.vocab.montag",
+    "de.a0.vocab.dienstag",
+    "de.a0.vocab.mittwoch",
+    "de.a0.vocab.donnerstag",
+    "de.a0.vocab.freitag",
+    "de.a0.vocab.samstag",
+    "de.a0.vocab.sonntag"
+   ]
+  },
+  {
+   "id": "de.a0.u04.l01",
+   "unitId": "de.a0.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "ar": "مين؟ فين؟ إمتى؟",
+    "en": "Who? Where? When?"
+   },
+   "items": [
+    "de.a0.vocab.was",
+    "de.a0.vocab.wer",
+    "de.a0.vocab.wo",
+    "de.a0.vocab.wann",
+    "de.a0.vocab.warum",
+    "de.a0.vocab.und",
+    "de.a0.vocab.oder",
+    "de.a0.vocab.aber",
+    "de.a0.vocab.auch",
+    "de.a0.vocab.sprechen",
+    "de.a0.vocab.lernen",
+    "de.a0.vocab.sprache"
+   ]
+  },
+  {
+   "id": "de.a0.u04.l02",
+   "unitId": "de.a0.u04",
+   "order": 2,
+   "type": "grammar",
+   "title": {
+    "ar": "إزاي تسأل سؤال",
+    "en": "How to ask a question"
+   },
+   "items": [],
+   "grammarId": "de.a0.gram.questions"
+  },
+  {
+   "id": "de.a0.u04.l03",
+   "unitId": "de.a0.u04",
+   "order": 3,
+   "type": "listening",
+   "title": {
+    "ar": "استماع: أول أسئلة",
+    "en": "Listen: first questions"
+   },
+   "items": [
+    "de.a0.sent.a31",
+    "de.a0.sent.a32",
+    "de.a0.sent.a33",
+    "de.a0.sent.a34",
+    "de.a0.sent.a35",
+    "de.a0.sent.a36",
+    "de.a0.sent.a37",
+    "de.a0.sent.a39"
+   ]
+  },
+  {
+   "id": "de.a0.u04.l04",
+   "unitId": "de.a0.u04",
+   "order": 4,
+   "type": "reading",
+   "title": {
+    "ar": "قراءة: في الفندق",
+    "en": "Read: at the hotel"
+   },
+   "items": [],
+   "textId": "de.a0.text.hotel"
+  },
+  {
+   "id": "de.a0.u04.l05",
+   "unitId": "de.a0.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "ar": "مراجعة الوحدة 4",
+    "en": "Unit 4 review"
+   },
+   "items": [
+    "de.a0.vocab.was",
+    "de.a0.vocab.wer",
+    "de.a0.vocab.wo",
+    "de.a0.vocab.wann",
+    "de.a0.vocab.warum",
+    "de.a0.vocab.und",
+    "de.a0.vocab.oder",
+    "de.a0.vocab.aber",
+    "de.a0.vocab.auch",
+    "de.a0.vocab.sprechen",
+    "de.a0.vocab.lernen",
+    "de.a0.vocab.sprache"
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "de.a0.vocab.taxi",
+   "lemma": "Taxi",
+   "article": "das",
+   "plural": "Taxis",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاكسي",
+    "en": "taxi"
+   },
+   "conceptId": "c.a0.taxi",
+   "sentenceIds": [
+    "de.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.hotel",
+   "lemma": "Hotel",
+   "article": "das",
+   "plural": "Hotels",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فندق",
+    "en": "hotel"
+   },
+   "conceptId": "c.a0.hotel",
+   "sentenceIds": [
+    "de.a0.sent.a02",
+    "de.a0.sent.a33"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.bus",
+   "lemma": "Bus",
+   "article": "der",
+   "plural": "Busse",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أتوبيس",
+    "en": "bus"
+   },
+   "conceptId": "c.a0.bus",
+   "sentenceIds": [
+    "de.a0.sent.a04",
+    "de.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.telefon",
+   "lemma": "Telefon",
+   "article": "das",
+   "plural": "Telefone",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "تليفون",
+    "en": "telephone"
+   },
+   "conceptId": "c.a0.telephone",
+   "sentenceIds": [
+    "de.a0.sent.a41"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.musik",
+   "lemma": "Musik",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موسيقى",
+    "en": "music"
+   },
+   "conceptId": "c.a0.music",
+   "sentenceIds": [
+    "de.a0.sent.a03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.problem",
+   "lemma": "Problem",
+   "article": "das",
+   "plural": "Probleme",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشكلة",
+    "en": "problem"
+   },
+   "conceptId": "c.a0.problem",
+   "sentenceIds": [
+    "de.a0.sent.a05",
+    "de.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.banane",
+   "lemma": "Banane",
+   "article": "die",
+   "plural": "Bananen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "موزة",
+    "en": "banana"
+   },
+   "conceptId": "c.a0.banana",
+   "sentenceIds": [
+    "de.a0.sent.a06"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.tomate",
+   "lemma": "Tomate",
+   "article": "die",
+   "plural": "Tomaten",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "طماطم",
+    "en": "tomato"
+   },
+   "conceptId": "c.a0.tomato",
+   "sentenceIds": [
+    "de.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.schule",
+   "lemma": "Schule",
+   "article": "die",
+   "plural": "Schulen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مدرسة",
+    "en": "school"
+   },
+   "conceptId": "c.a0.school",
+   "sentenceIds": [
+    "de.a0.sent.a07"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.auto",
+   "lemma": "Auto",
+   "article": "das",
+   "plural": "Autos",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "عربية",
+    "en": "car"
+   },
+   "conceptId": "c.a0.car",
+   "sentenceIds": [
+    "de.a0.sent.a08"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.schokolade",
+   "lemma": "Schokolade",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوكولاتة",
+    "en": "chocolate"
+   },
+   "conceptId": "c.a0.chocolate",
+   "sentenceIds": [
+    "de.a0.sent.a09"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.pizza",
+   "lemma": "Pizza",
+   "article": "die",
+   "plural": "Pizzas",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بيتزا",
+    "en": "pizza"
+   },
+   "conceptId": "c.a0.pizza",
+   "sentenceIds": [
+    "de.a0.sent.a06",
+    "de.a0.sent.a42"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.ich_verstehe_nicht",
+   "lemma": "ich verstehe nicht",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش فاهم",
+    "en": "I don't understand"
+   },
+   "conceptId": "c.a0.dont_understand",
+   "sentenceIds": [
+    "de.a0.sent.a10",
+    "de.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.sprechen_sie_englisch",
+   "lemma": "sprechen Sie Englisch?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بتتكلم إنجليزي؟",
+    "en": "do you speak English?"
+   },
+   "conceptId": "c.a0.speak_english",
+   "sentenceIds": [
+    "de.a0.sent.a11"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.ein_bisschen",
+   "lemma": "ein bisschen",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "شوية",
+    "en": "a little"
+   },
+   "conceptId": "c.a0.a_little",
+   "sentenceIds": [
+    "de.a0.sent.a12"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.langsam",
+   "lemma": "langsam",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بالراحة، ببطء",
+    "en": "slowly"
+   },
+   "conceptId": "c.a0.slowly",
+   "sentenceIds": [
+    "de.a0.sent.a13",
+    "de.a0.sent.a37",
+    "de.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.noch_einmal",
+   "lemma": "noch einmal",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرة كمان",
+    "en": "once more, again"
+   },
+   "conceptId": "c.a0.once_more",
+   "sentenceIds": [
+    "de.a0.sent.a14"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.wie_bitte",
+   "lemma": "wie bitte?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "نعم؟ (قلت إيه؟)",
+    "en": "pardon? (what did you say?)"
+   },
+   "conceptId": "c.a0.pardon",
+   "sentenceIds": [
+    "de.a0.sent.a20"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.toilette",
+   "lemma": "Toilette",
+   "article": "die",
+   "plural": "Toiletten",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حمّام، تواليت",
+    "en": "toilet"
+   },
+   "conceptId": "c.a0.toilet",
+   "sentenceIds": [
+    "de.a0.sent.a15",
+    "de.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.hilfe",
+   "lemma": "Hilfe",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مساعدة",
+    "en": "help"
+   },
+   "conceptId": "c.a0.help",
+   "sentenceIds": [
+    "de.a0.sent.a19"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.was_kostet_das",
+   "lemma": "was kostet das?",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكام؟",
+    "en": "how much is it?"
+   },
+   "conceptId": "c.a0.how_much_cost",
+   "sentenceIds": [
+    "de.a0.sent.a17"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.ich_weiss_nicht",
+   "lemma": "ich weiß nicht",
+   "article": null,
+   "plural": null,
+   "pos": "phrase",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مش عارف",
+    "en": "I don't know"
+   },
+   "conceptId": "c.a0.dont_know",
+   "sentenceIds": [
+    "de.a0.sent.a18"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.hier",
+   "lemma": "hier",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هنا",
+    "en": "here"
+   },
+   "conceptId": "c.a0.here",
+   "sentenceIds": [
+    "de.a0.sent.a01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.dort",
+   "lemma": "dort",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "هناك",
+    "en": "there"
+   },
+   "conceptId": "c.a0.there",
+   "sentenceIds": [
+    "de.a0.sent.a16"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.null",
+   "lemma": "null",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "صفر",
+    "en": "zero"
+   },
+   "conceptId": "c.a0.zero",
+   "sentenceIds": [
+    "de.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.elf",
+   "lemma": "elf",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "حداشر",
+    "en": "eleven"
+   },
+   "conceptId": "c.a0.eleven",
+   "sentenceIds": [
+    "de.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.zwoelf",
+   "lemma": "zwölf",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "اتناشر",
+    "en": "twelve"
+   },
+   "conceptId": "c.a0.twelve",
+   "sentenceIds": [
+    "de.a0.sent.a25",
+    "de.a0.sent.a29",
+    "de.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.hundert",
+   "lemma": "hundert",
+   "article": null,
+   "plural": null,
+   "pos": "numeral",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مية",
+    "en": "a hundred"
+   },
+   "conceptId": "c.a0.hundred",
+   "sentenceIds": [
+    "de.a0.sent.a29"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.heute",
+   "lemma": "heute",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "النهارده",
+    "en": "today"
+   },
+   "conceptId": "c.a0.today",
+   "sentenceIds": [
+    "de.a0.sent.a21",
+    "de.a0.sent.a30"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.morgen",
+   "lemma": "morgen",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بكرة",
+    "en": "tomorrow"
+   },
+   "conceptId": "c.a0.tomorrow",
+   "sentenceIds": [
+    "de.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.gestern",
+   "lemma": "gestern",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "امبارح",
+    "en": "yesterday"
+   },
+   "conceptId": "c.a0.yesterday",
+   "sentenceIds": [
+    "de.a0.sent.a23"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.tag",
+   "lemma": "Tag",
+   "article": "der",
+   "plural": "Tage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يوم",
+    "en": "day"
+   },
+   "conceptId": "c.a0.day",
+   "sentenceIds": [
+    "de.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.woche",
+   "lemma": "Woche",
+   "article": "die",
+   "plural": "Wochen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أسبوع",
+    "en": "week"
+   },
+   "conceptId": "c.a0.week",
+   "sentenceIds": [
+    "de.a0.sent.a24"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.uhr",
+   "lemma": "Uhr",
+   "article": "die",
+   "plural": "Uhren",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الساعة (في الوقت)",
+    "en": "o'clock; hour"
+   },
+   "conceptId": "c.a0.oclock",
+   "sentenceIds": [
+    "de.a0.sent.a25",
+    "de.a0.sent.a43"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.montag",
+   "lemma": "Montag",
+   "article": "der",
+   "plural": "Montage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الاتنين",
+    "en": "Monday"
+   },
+   "conceptId": "c.a0.monday",
+   "sentenceIds": [
+    "de.a0.sent.a21"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.dienstag",
+   "lemma": "Dienstag",
+   "article": "der",
+   "plural": "Dienstage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "التلات",
+    "en": "Tuesday"
+   },
+   "conceptId": "c.a0.tuesday",
+   "sentenceIds": [
+    "de.a0.sent.a22"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.mittwoch",
+   "lemma": "Mittwoch",
+   "article": "der",
+   "plural": "Mittwoche",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الأربع",
+    "en": "Wednesday"
+   },
+   "conceptId": "c.a0.wednesday",
+   "sentenceIds": [
+    "de.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.donnerstag",
+   "lemma": "Donnerstag",
+   "article": "der",
+   "plural": "Donnerstage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الخميس",
+    "en": "Thursday"
+   },
+   "conceptId": "c.a0.thursday",
+   "sentenceIds": [
+    "de.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.freitag",
+   "lemma": "Freitag",
+   "article": "der",
+   "plural": "Freitage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الجمعة",
+    "en": "Friday"
+   },
+   "conceptId": "c.a0.friday",
+   "sentenceIds": [
+    "de.a0.sent.a27"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.samstag",
+   "lemma": "Samstag",
+   "article": "der",
+   "plural": "Samstage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "السبت",
+    "en": "Saturday"
+   },
+   "conceptId": "c.a0.saturday",
+   "sentenceIds": [
+    "de.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.sonntag",
+   "lemma": "Sonntag",
+   "article": "der",
+   "plural": "Sonntage",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "الحد",
+    "en": "Sunday"
+   },
+   "conceptId": "c.a0.sunday",
+   "sentenceIds": [
+    "de.a0.sent.a23",
+    "de.a0.sent.a26"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.was",
+   "lemma": "was",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيه",
+    "en": "what"
+   },
+   "conceptId": "c.a0.what",
+   "sentenceIds": [
+    "de.a0.sent.a17",
+    "de.a0.sent.a31"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.wer",
+   "lemma": "wer",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "مين",
+    "en": "who"
+   },
+   "conceptId": "c.a0.who",
+   "sentenceIds": [
+    "de.a0.sent.a32"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.wo",
+   "lemma": "wo",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "فين",
+    "en": "where"
+   },
+   "conceptId": "c.a0.where",
+   "sentenceIds": [
+    "de.a0.sent.a08",
+    "de.a0.sent.a41",
+    "de.a0.sent.a15"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.wann",
+   "lemma": "wann",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "إمتى",
+    "en": "when"
+   },
+   "conceptId": "c.a0.when",
+   "sentenceIds": [
+    "de.a0.sent.a34"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.warum",
+   "lemma": "warum",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "ليه",
+    "en": "why"
+   },
+   "conceptId": "c.a0.why",
+   "sentenceIds": [
+    "de.a0.sent.a35"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.und",
+   "lemma": "und",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "و",
+    "en": "and"
+   },
+   "conceptId": "c.a0.and",
+   "sentenceIds": [
+    "de.a0.sent.a06",
+    "de.a0.sent.a26",
+    "de.a0.sent.a28"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.oder",
+   "lemma": "oder",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "أو، ولا",
+    "en": "or"
+   },
+   "conceptId": "c.a0.or",
+   "sentenceIds": [
+    "de.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.aber",
+   "lemma": "aber",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "بس، لكن",
+    "en": "but"
+   },
+   "conceptId": "c.a0.but",
+   "sentenceIds": [
+    "de.a0.sent.a37",
+    "de.a0.sent.a40"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.auch",
+   "lemma": "auch",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "كمان، برضه",
+    "en": "also, too"
+   },
+   "conceptId": "c.a0.also",
+   "sentenceIds": [
+    "de.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.sprechen",
+   "lemma": "sprechen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتكلم",
+    "en": "to speak"
+   },
+   "conceptId": "c.a0.speak",
+   "sentenceIds": [
+    "de.a0.sent.a11",
+    "de.a0.sent.a36",
+    "de.a0.sent.a39"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.lernen",
+   "lemma": "lernen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتعلم",
+    "en": "to learn"
+   },
+   "conceptId": "c.a0.learn",
+   "sentenceIds": [
+    "de.a0.sent.a35",
+    "de.a0.sent.a37"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a0.vocab.sprache",
+   "lemma": "Sprache",
+   "article": "die",
+   "plural": "Sprachen",
+   "pos": "noun",
+   "level": "A0",
+   "freqRank": null,
+   "translations": {
+    "ar": "لغة",
+    "en": "language"
+   },
+   "conceptId": "c.a0.language",
+   "sentenceIds": [
+    "de.a0.sent.a38"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "de.a0.sent.a01",
+   "text": "Das Taxi ist hier.",
+   "translations": {
+    "ar": "التاكسي هنا.",
+    "en": "The taxi is here."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a02",
+   "text": "Das Hotel ist groß.",
+   "translations": {
+    "ar": "الفندق كبير.",
+    "en": "The hotel is big."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a03",
+   "text": "Ich mag Musik.",
+   "translations": {
+    "ar": "أنا بحب الموسيقى.",
+    "en": "I like music."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a04",
+   "text": "Der Bus kommt.",
+   "translations": {
+    "ar": "الأتوبيس جاي.",
+    "en": "The bus is coming."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a05",
+   "text": "Kein Problem!",
+   "translations": {
+    "ar": "مفيش مشكلة!",
+    "en": "No problem!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a06",
+   "text": "Eine Pizza und eine Banane, bitte.",
+   "translations": {
+    "ar": "بيتزا وموزة، من فضلك.",
+    "en": "A pizza and a banana, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a07",
+   "text": "Die Schule ist neu.",
+   "translations": {
+    "ar": "المدرسة جديدة.",
+    "en": "The school is new."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a08",
+   "text": "Wo ist das Auto?",
+   "translations": {
+    "ar": "العربية فين؟",
+    "en": "Where is the car?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a09",
+   "text": "Ich mag Schokolade.",
+   "translations": {
+    "ar": "أنا بحب الشوكولاتة.",
+    "en": "I like chocolate."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a41",
+   "text": "Wo ist das Telefon?",
+   "translations": {
+    "ar": "التليفون فين؟",
+    "en": "Where is the telephone?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a42",
+   "text": "Eine Pizza mit Tomate.",
+   "translations": {
+    "ar": "بيتزا بالطماطم.",
+    "en": "A pizza with tomato."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a10",
+   "text": "Entschuldigung, ich verstehe nicht.",
+   "translations": {
+    "ar": "آسف، مش فاهم.",
+    "en": "Sorry, I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a11",
+   "text": "Sprechen Sie Englisch?",
+   "translations": {
+    "ar": "حضرتك بتتكلم إنجليزي؟",
+    "en": "Do you speak English?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a12",
+   "text": "Ein bisschen.",
+   "translations": {
+    "ar": "شوية.",
+    "en": "A little."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a13",
+   "text": "Langsam, bitte!",
+   "translations": {
+    "ar": "بالراحة، من فضلك!",
+    "en": "Slowly, please!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a14",
+   "text": "Noch einmal, bitte.",
+   "translations": {
+    "ar": "مرة كمان، من فضلك.",
+    "en": "Once more, please."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a15",
+   "text": "Wo ist die Toilette?",
+   "translations": {
+    "ar": "الحمّام فين؟",
+    "en": "Where is the toilet?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a16",
+   "text": "Die Toilette ist dort.",
+   "translations": {
+    "ar": "الحمّام هناك.",
+    "en": "The toilet is there."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a17",
+   "text": "Was kostet das? – Fünf Euro.",
+   "translations": {
+    "ar": "بكام ده؟ – خمسة يورو.",
+    "en": "How much is it? – Five euros."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a18",
+   "text": "Ich weiß nicht.",
+   "translations": {
+    "ar": "مش عارف.",
+    "en": "I don't know."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a19",
+   "text": "Ich brauche Hilfe.",
+   "translations": {
+    "ar": "محتاج مساعدة.",
+    "en": "I need help."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a20",
+   "text": "Wie bitte? Ich verstehe nicht.",
+   "translations": {
+    "ar": "نعم؟ مش فاهم.",
+    "en": "Pardon? I don't understand."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a21",
+   "text": "Heute ist Montag.",
+   "translations": {
+    "ar": "النهارده الاتنين.",
+    "en": "Today is Monday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a22",
+   "text": "Morgen ist Dienstag.",
+   "translations": {
+    "ar": "بكرة التلات.",
+    "en": "Tomorrow is Tuesday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a23",
+   "text": "Gestern war Sonntag.",
+   "translations": {
+    "ar": "امبارح كان الحد.",
+    "en": "Yesterday was Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a24",
+   "text": "Die Woche hat sieben Tage.",
+   "translations": {
+    "ar": "الأسبوع فيه سبع أيام.",
+    "en": "The week has seven days."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a25",
+   "text": "Es ist zwölf Uhr.",
+   "translations": {
+    "ar": "الساعة اتناشر.",
+    "en": "It's twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a26",
+   "text": "Am Samstag und am Sonntag arbeite ich nicht.",
+   "translations": {
+    "ar": "مش بشتغل يوم السبت والحد.",
+    "en": "I don't work on Saturday and Sunday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a27",
+   "text": "Bis Freitag!",
+   "translations": {
+    "ar": "أشوفك يوم الجمعة!",
+    "en": "See you on Friday!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a28",
+   "text": "Der Kurs ist am Mittwoch und am Donnerstag.",
+   "translations": {
+    "ar": "الدرس يوم الأربع والخميس.",
+    "en": "The class is on Wednesday and Thursday."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a29",
+   "text": "Elf, zwölf … hundert!",
+   "translations": {
+    "ar": "حداشر، اتناشر … مية!",
+    "en": "Eleven, twelve … a hundred!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a30",
+   "text": "Heute null Probleme!",
+   "translations": {
+    "ar": "مفيش ولا مشكلة النهارده!",
+    "en": "Zero problems today!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a43",
+   "text": "Wie viel Uhr ist es? – Zwölf Uhr.",
+   "translations": {
+    "ar": "الساعة كام؟ – اتناشر.",
+    "en": "What time is it? – Twelve o'clock."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a31",
+   "text": "Was ist das?",
+   "translations": {
+    "ar": "إيه ده؟",
+    "en": "What is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a32",
+   "text": "Wer ist das?",
+   "translations": {
+    "ar": "مين ده؟",
+    "en": "Who is that?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a33",
+   "text": "Wo ist das Hotel?",
+   "translations": {
+    "ar": "الفندق فين؟",
+    "en": "Where is the hotel?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a34",
+   "text": "Wann kommt der Bus?",
+   "translations": {
+    "ar": "الأتوبيس جاي إمتى؟",
+    "en": "When is the bus coming?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a35",
+   "text": "Warum lernst du Deutsch?",
+   "translations": {
+    "ar": "ليه بتتعلم ألماني؟",
+    "en": "Why are you learning German?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a36",
+   "text": "Ich spreche Arabisch und Englisch.",
+   "translations": {
+    "ar": "أنا بتكلم عربي وإنجليزي.",
+    "en": "I speak Arabic and English."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a37",
+   "text": "Ich lerne Deutsch, aber langsam.",
+   "translations": {
+    "ar": "أنا بتعلم ألماني، بس بالراحة.",
+    "en": "I'm learning German, but slowly."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a38",
+   "text": "Deutsch ist eine schöne Sprache.",
+   "translations": {
+    "ar": "الألماني لغة جميلة.",
+    "en": "German is a beautiful language."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a39",
+   "text": "Sprichst du auch Deutsch?",
+   "translations": {
+    "ar": "إنت كمان بتتكلم ألماني؟",
+    "en": "Do you speak German too?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a0.sent.a40",
+   "text": "Tee oder Kaffee? – Kaffee, aber langsam!",
+   "translations": {
+    "ar": "شاي ولا قهوة؟ – قهوة، بس بالراحة!",
+    "en": "Tea or coffee? – Coffee, but slowly!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "de.a0.gram.sounds",
+   "level": "A0",
+   "title": {
+    "ar": "أصوات الألماني",
+    "en": "German sounds"
+   },
+   "explanation": {
+    "en": "German is mostly read as it is written. A few letters and pairs work differently from English:\n\nei sounds like English 'eye' (drei), ie like 'ee' (vier). eu and äu sound like 'oy' (neu).\n\nch after a, o, u is a throat sound like Arabic خ (acht, Buch); after e and i it is softer, between ش and خ (ich, nicht).\n\nsch = ش (Schule). At the start of a word, sp and st sound like شب and شت (Sport, Stadt).\n\nw sounds like English v (Wasser), v usually like f (Vater), z like تس (zehn), j like y (ja). ß is a sharp s (groß).\n\nä is like e, ö and ü are rounded vowels with no English or Arabic match: say e or i with rounded lips. Nouns always start with a capital letter.",
+    "ar": "الألماني غالبًا بيتقري زي ما بيتكتب. شوية حروف بتتنطق غير الإنجليزي:\n\nei بتتنطق «اي» (drei = دراي)، وie بتتنطق «ii» طويلة (vier = فير). eu وäu بتتنطق «وي» (neu = نوي).\n\nch بعد a وo وu بتتنطق زي الخاء (acht = أخت، Buch)، وبعد e وi بتبقى أخف، بين الشين والخاء (ich، nicht).\n\nsch = ش (Schule = شوله). وفي أول الكلمة sp وst بيتنطقوا «شب» و«شت» (Sport، Stadt = شتات).\n\nw بتتنطق ف/v (Wasser = فاسر)، وv غالبًا ف (Vater = فاتر)، وz بتتنطق «تس» (zehn = تسين)، وj بتتنطق ي (ja = يا). وß سين قوية (groß).\n\nä زي e، أما ö وü فحروف متحركة بشفايف مدوّرة مالهاش مقابل في العربي: قول e أو i وإنت مدوّر شفايفك. والأسماء دايمًا أول حرف فيها كابيتال."
+   },
+   "table": {
+    "headers": [
+     "letters",
+     "sounds like",
+     "example"
+    ],
+    "rows": [
+     [
+      "ei",
+      "ai (eye) / اي",
+      "drei, mein"
+     ],
+     [
+      "ie",
+      "ee / ii",
+      "vier, Liebe"
+     ],
+     [
+      "eu, äu",
+      "oy / وي",
+      "neu, Häuser"
+     ],
+     [
+      "ch (a, o, u)",
+      "خ",
+      "acht, Buch"
+     ],
+     [
+      "ch (e, i)",
+      "soft ش/خ",
+      "ich, nicht"
+     ],
+     [
+      "sch",
+      "ش",
+      "Schule"
+     ],
+     [
+      "sp-, st-",
+      "شب، شت",
+      "Sport, Stadt"
+     ],
+     [
+      "w",
+      "v",
+      "Wasser"
+     ],
+     [
+      "v",
+      "f",
+      "Vater"
+     ],
+     [
+      "z",
+      "ts / تس",
+      "zehn"
+     ],
+     [
+      "j",
+      "y / ي",
+      "ja"
+     ],
+     [
+      "ß",
+      "s",
+      "groß"
+     ],
+     [
+      "ä / ö / ü",
+      "e / rounded e / rounded i",
+      "Käse, schön, fünf"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a0.sent.a02",
+    "de.a0.sent.a07",
+    "de.a0.sent.a09"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ule (school, sounds 'shoo-leh')",
+     "answer": "Sch",
+     "base": "sch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "dr___ (three, sounds 'dry')",
+     "answer": "ei",
+     "base": "ei / ie"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "v___r (four, sounds 'feer')",
+     "answer": "ie",
+     "base": "ei / ie"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "n___ (new, sounds 'noy')",
+     "answer": "eu",
+     "base": "eu"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___asser (water, sounds 'vasser')",
+     "answer": "W",
+     "base": "w / v"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ehn (ten, sounds 'tsayn')",
+     "answer": "z",
+     "base": "z"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "gro___ (big, a sharp s)",
+     "answer": "ß",
+     "base": "ß"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "K___se (cheese, sounds 'kayzeh')",
+     "answer": "ä",
+     "base": "ä"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "guide": [
+    {
+     "letters": "a · e · i · o · u",
+     "like": {
+      "ar": "طويلة أو قصيرة",
+      "en": "long or short"
+     },
+     "explain": {
+      "ar": "كل حرف متحرك ليه نسخة طويلة ونسخة قصيرة. غالبًا بيبقى طويل لو بعده حرف ساكن واحد أو h، وقصير لو بعده حرفين ساكنين.",
+      "en": "Each vowel has a long and a short version. It is usually long before one consonant or h, and short before two consonants."
+     },
+     "examples": [
+      {
+       "text": "Tag",
+       "say": "تاااك",
+       "meaning": {
+        "ar": "يوم",
+        "en": "day"
+       }
+      },
+      {
+       "text": "Mann",
+       "say": "مان",
+       "meaning": {
+        "ar": "راجل",
+        "en": "man"
+       }
+      },
+      {
+       "text": "Sohn",
+       "say": "زوون",
+       "meaning": {
+        "ar": "ابن",
+        "en": "son"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "الطول بيغير المعنى: Staat (دولة) غير Stadt (مدينة).",
+      "en": "Length changes meaning: Staat (state) vs Stadt (city)."
+     }
+    },
+    {
+     "letters": "ä",
+     "like": {
+      "ar": "إ مفتوحة",
+      "en": "e as in 'bed'"
+     },
+     "explain": {
+      "ar": "ä صوتها قريب من e: زي «إ» في «إيه». الطويلة زي «إييه».",
+      "en": "ä sounds like e in 'bed'; long ä is like the 'ai' in 'fair'."
+     },
+     "examples": [
+      {
+       "text": "Käse",
+       "say": "كيزه",
+       "meaning": {
+        "ar": "جبنة",
+        "en": "cheese"
+       }
+      },
+      {
+       "text": "Männer",
+       "say": "مينر",
+       "meaning": {
+        "ar": "رجالة",
+        "en": "men"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ö",
+     "like": {
+      "ar": "إ بشفايف مدورة",
+      "en": "e with rounded lips"
+     },
+     "explain": {
+      "ar": "قول «إي» وانت مدور شفايفك كأنك هتقول «أو». صوت مش موجود في العربي ولا الإنجليزي.",
+      "en": "Say 'e' while rounding your lips as for 'o'. There is no English or Arabic match."
+     },
+     "examples": [
+      {
+       "text": "schön",
+       "say": "شون (بشفايف مدورة)",
+       "meaning": {
+        "ar": "جميل",
+        "en": "beautiful"
+       }
+      },
+      {
+       "text": "hören",
+       "say": "هورن",
+       "meaning": {
+        "ar": "يسمع",
+        "en": "to hear"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "بص في المراية: لسانك مكان «إ» وشفايفك مكان «أو».",
+      "en": "Use a mirror: tongue in the e position, lips in the o position."
+     }
+    },
+    {
+     "letters": "ü",
+     "like": {
+      "ar": "ي بشفايف مدورة",
+      "en": "ee with rounded lips"
+     },
+     "explain": {
+      "ar": "قول «إي» طويلة وانت مدور شفايفك كأنك هتصفر. ده الصوت اللي بيفرق über عن ober.",
+      "en": "Say 'ee' while rounding your lips as if to whistle."
+     },
+     "examples": [
+      {
+       "text": "über",
+       "say": "إوبر (مدورة)",
+       "meaning": {
+        "ar": "فوق / عن",
+        "en": "over / about"
+       }
+      },
+      {
+       "text": "müde",
+       "say": "موده (مدورة)",
+       "meaning": {
+        "ar": "تعبان",
+        "en": "tired"
+       }
+      },
+      {
+       "text": "Tür",
+       "say": "تور (مدورة)",
+       "meaning": {
+        "ar": "باب",
+        "en": "door"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش «يو» ولا «أو».",
+      "en": "Don't turn it into 'you' or 'oo'."
+     }
+    },
+    {
+     "letters": "ei · ai",
+     "like": {
+      "ar": "آي",
+      "en": "eye"
+     },
+     "explain": {
+      "ar": "ei وai بيتنطقوا «آي» زي كلمة eye في الإنجليزي.",
+      "en": "ei and ai sound like English 'eye'."
+     },
+     "examples": [
+      {
+       "text": "drei",
+       "say": "دراي",
+       "meaning": {
+        "ar": "تلاتة",
+        "en": "three"
+       }
+      },
+      {
+       "text": "mein",
+       "say": "ماين",
+       "meaning": {
+        "ar": "بتاعي",
+        "en": "my"
+       }
+      },
+      {
+       "text": "Mai",
+       "say": "ماي",
+       "meaning": {
+        "ar": "مايو",
+        "en": "May"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "ei = آي، ie = إي. افتكرها كده: بتنطق الحرف التاني.",
+      "en": "Remember: in ei and ie you say the name of the second letter in English."
+     }
+    },
+    {
+     "letters": "ie",
+     "like": {
+      "ar": "إي طويلة",
+      "en": "long ee"
+     },
+     "explain": {
+      "ar": "ie ياء طويلة: «إيي».",
+      "en": "ie is a long 'ee'."
+     },
+     "examples": [
+      {
+       "text": "vier",
+       "say": "فيير",
+       "meaning": {
+        "ar": "أربعة",
+        "en": "four"
+       }
+      },
+      {
+       "text": "Liebe",
+       "say": "ليبه",
+       "meaning": {
+        "ar": "حب",
+        "en": "love"
+       }
+      },
+      {
+       "text": "sie",
+       "say": "زي",
+       "meaning": {
+        "ar": "هي / هم",
+        "en": "she / they"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "eu · äu",
+     "like": {
+      "ar": "أوي",
+      "en": "oy"
+     },
+     "explain": {
+      "ar": "eu وäu بيتنطقوا «أوي» زي boy.",
+      "en": "eu and äu sound like 'oy' in 'boy'."
+     },
+     "examples": [
+      {
+       "text": "neu",
+       "say": "نوي",
+       "meaning": {
+        "ar": "جديد",
+        "en": "new"
+       }
+      },
+      {
+       "text": "Häuser",
+       "say": "هويزر",
+       "meaning": {
+        "ar": "بيوت",
+        "en": "houses"
+       }
+      },
+      {
+       "text": "heute",
+       "say": "هويته",
+       "meaning": {
+        "ar": "النهارده",
+        "en": "today"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ch بعد a · o · u",
+     "like": {
+      "ar": "خ",
+      "en": "Arabic خ"
+     },
+     "explain": {
+      "ar": "بعد a وo وu وau، ch صوت حلقي زي الخاء بالظبط.",
+      "en": "After a, o, u, au, ch is a throat sound exactly like Arabic خ."
+     },
+     "examples": [
+      {
+       "text": "acht",
+       "say": "أخت",
+       "meaning": {
+        "ar": "تمانية",
+        "en": "eight"
+       }
+      },
+      {
+       "text": "Buch",
+       "say": "بوخ",
+       "meaning": {
+        "ar": "كتاب",
+        "en": "book"
+       }
+      },
+      {
+       "text": "auch",
+       "say": "آوخ",
+       "meaning": {
+        "ar": "كمان",
+        "en": "also"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ch بعد e · i",
+     "like": {
+      "ar": "بين ش وخ",
+      "en": "soft hiss (ich-sound)"
+     },
+     "explain": {
+      "ar": "بعد e وi والحروف التانية، ch أخف: حط لسانك مكان الياء وانفخ هوا. صوت بين الشين والخاء.",
+      "en": "After e, i and other letters, ch is softer: put your tongue as for 'y' and blow air. It sits between 'sh' and خ."
+     },
+     "examples": [
+      {
+       "text": "ich",
+       "say": "إش (خفيفة)",
+       "meaning": {
+        "ar": "أنا",
+        "en": "I"
+       }
+      },
+      {
+       "text": "nicht",
+       "say": "نيشت",
+       "meaning": {
+        "ar": "مش",
+        "en": "not"
+       }
+      },
+      {
+       "text": "Milch",
+       "say": "ميلش",
+       "meaning": {
+        "ar": "لبن",
+        "en": "milk"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش «خ» تقيلة ولا «ك»: ich مش «إك».",
+      "en": "Don't make it a hard خ or a k: ich is not 'ick'."
+     }
+    },
+    {
+     "letters": "sch",
+     "like": {
+      "ar": "ش",
+      "en": "sh"
+     },
+     "explain": {
+      "ar": "sch = شين عادية.",
+      "en": "sch is a plain 'sh'."
+     },
+     "examples": [
+      {
+       "text": "Schule",
+       "say": "شوله",
+       "meaning": {
+        "ar": "مدرسة",
+        "en": "school"
+       }
+      },
+      {
+       "text": "Tisch",
+       "say": "تيش",
+       "meaning": {
+        "ar": "ترابيزة",
+        "en": "table"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "sp · st (في الأول)",
+     "like": {
+      "ar": "شب · شت",
+      "en": "shp · sht"
+     },
+     "explain": {
+      "ar": "في أول الكلمة أو أول جزء منها، s قبل p أو t بتتنطق ش.",
+      "en": "At the start of a word (or word part), s before p or t sounds like 'sh'."
+     },
+     "examples": [
+      {
+       "text": "Sport",
+       "say": "شبورت",
+       "meaning": {
+        "ar": "رياضة",
+        "en": "sport"
+       }
+      },
+      {
+       "text": "Stadt",
+       "say": "شتات",
+       "meaning": {
+        "ar": "مدينة",
+        "en": "city"
+       }
+      },
+      {
+       "text": "verstehen",
+       "say": "فيرشتيين",
+       "meaning": {
+        "ar": "يفهم",
+        "en": "to understand"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "في نص الكلمة بترجع س: Fenster = «فينستر».",
+      "en": "Inside a word it stays s: Fenster."
+     }
+    },
+    {
+     "letters": "w",
+     "like": {
+      "ar": "ف (v)",
+      "en": "v"
+     },
+     "explain": {
+      "ar": "w بتتنطق زي v الإنجليزي: سنانك العليا على شفتك التحتانية.",
+      "en": "w sounds like English v: upper teeth on the lower lip."
+     },
+     "examples": [
+      {
+       "text": "Wasser",
+       "say": "فاسر",
+       "meaning": {
+        "ar": "مية",
+        "en": "water"
+       }
+      },
+      {
+       "text": "wo",
+       "say": "فو",
+       "meaning": {
+        "ar": "فين",
+        "en": "where"
+       }
+      },
+      {
+       "text": "Wein",
+       "say": "فاين",
+       "meaning": {
+        "ar": "نبيت",
+        "en": "wine"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "ده أكتر غلط بيتعمل: Wasser = «فاسر» مش «واسر».",
+      "en": "Most common mistake: Wasser is 'vasser'."
+     }
+    },
+    {
+     "letters": "v",
+     "like": {
+      "ar": "ف",
+      "en": "f"
+     },
+     "explain": {
+      "ar": "v في الكلمات الألمانية بتتنطق ف. في كلمات أجنبية زي Vase بتتنطق v.",
+      "en": "v in German words sounds like f. In borrowed words such as Vase it is a v."
+     },
+     "examples": [
+      {
+       "text": "Vater",
+       "say": "فاتر",
+       "meaning": {
+        "ar": "أب",
+        "en": "father"
+       }
+      },
+      {
+       "text": "viel",
+       "say": "فيل",
+       "meaning": {
+        "ar": "كتير",
+        "en": "much"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "z · tz",
+     "like": {
+      "ar": "تس",
+      "en": "ts"
+     },
+     "explain": {
+      "ar": "z دايمًا «تس» مع بعض، حتى في أول الكلمة.",
+      "en": "z is always 'ts', even at the start of a word."
+     },
+     "examples": [
+      {
+       "text": "zehn",
+       "say": "تسيين",
+       "meaning": {
+        "ar": "عشرة",
+        "en": "ten"
+       }
+      },
+      {
+       "text": "Zeit",
+       "say": "تسايت",
+       "meaning": {
+        "ar": "وقت",
+        "en": "time"
+       }
+      },
+      {
+       "text": "Katze",
+       "say": "كاتسه",
+       "meaning": {
+        "ar": "قطة",
+        "en": "cat"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولهاش زاي: zehn = «تسيين».",
+      "en": "Never a plain z: zehn is 'tsayn'."
+     }
+    },
+    {
+     "letters": "s قبل حرف متحرك",
+     "like": {
+      "ar": "ز",
+      "en": "z"
+     },
+     "explain": {
+      "ar": "s في أول الكلمة أو بين حرفين متحركين بتتنطق ز.",
+      "en": "s before a vowel (start of a word or between vowels) sounds like z."
+     },
+     "examples": [
+      {
+       "text": "sagen",
+       "say": "زاجن",
+       "meaning": {
+        "ar": "يقول",
+        "en": "to say"
+       }
+      },
+      {
+       "text": "Sonne",
+       "say": "زونه",
+       "meaning": {
+        "ar": "شمس",
+        "en": "sun"
+       }
+      },
+      {
+       "text": "Rose",
+       "say": "روزه",
+       "meaning": {
+        "ar": "وردة",
+        "en": "rose"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ß · ss",
+     "like": {
+      "ar": "س",
+      "en": "sharp s"
+     },
+     "explain": {
+      "ar": "ß وss = سين حادة. ß بتيجي بعد حرف متحرك طويل، وss بعد القصير.",
+      "en": "ß and ss are a sharp s. ß follows a long vowel, ss a short one."
+     },
+     "examples": [
+      {
+       "text": "groß",
+       "say": "جروس",
+       "meaning": {
+        "ar": "كبير",
+        "en": "big"
+       }
+      },
+      {
+       "text": "Straße",
+       "say": "شتراسه",
+       "meaning": {
+        "ar": "شارع",
+        "en": "street"
+       }
+      },
+      {
+       "text": "Wasser",
+       "say": "فاسر",
+       "meaning": {
+        "ar": "مية",
+        "en": "water"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "j",
+     "like": {
+      "ar": "ي",
+      "en": "y"
+     },
+     "explain": {
+      "ar": "j بتتنطق ياء.",
+      "en": "j sounds like English y."
+     },
+     "examples": [
+      {
+       "text": "ja",
+       "say": "يا",
+       "meaning": {
+        "ar": "أيوه",
+        "en": "yes"
+       }
+      },
+      {
+       "text": "Jahr",
+       "say": "يار",
+       "meaning": {
+        "ar": "سنة",
+        "en": "year"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "r · -er",
+     "like": {
+      "ar": "غ خفيفة / آ",
+      "en": "throaty r / 'uh'"
+     },
+     "explain": {
+      "ar": "r في أول الكلمة صوت حلقي خفيف قريب من الغين. وفي آخر الكلمة -er بتتنطق زي «آ» خفيفة.",
+      "en": "r at the start is a soft throaty sound close to Arabic غ. Final -er sounds like a short 'uh'."
+     },
+     "examples": [
+      {
+       "text": "rot",
+       "say": "غوت (خفيفة)",
+       "meaning": {
+        "ar": "أحمر",
+        "en": "red"
+       }
+      },
+      {
+       "text": "Mutter",
+       "say": "موتا",
+       "meaning": {
+        "ar": "أم",
+        "en": "mother"
+       }
+      },
+      {
+       "text": "aber",
+       "say": "آبا",
+       "meaning": {
+        "ar": "بس / لكن",
+        "en": "but"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "b · d · g في الآخر",
+     "like": {
+      "ar": "پ · ت · ك",
+      "en": "become p, t, k"
+     },
+     "explain": {
+      "ar": "في آخر الكلمة b بتتنطق p، وd بتتنطق t، وg بتتنطق k.",
+      "en": "At the end of a word, b sounds like p, d like t, and g like k."
+     },
+     "examples": [
+      {
+       "text": "Tag",
+       "say": "تاك",
+       "meaning": {
+        "ar": "يوم",
+        "en": "day"
+       }
+      },
+      {
+       "text": "Hund",
+       "say": "هونت",
+       "meaning": {
+        "ar": "كلب",
+        "en": "dog"
+       }
+      },
+      {
+       "text": "gelb",
+       "say": "جيلپ",
+       "meaning": {
+        "ar": "أصفر",
+        "en": "yellow"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "h بعد حرف متحرك",
+     "like": {
+      "ar": "صامتة",
+      "en": "silent"
+     },
+     "explain": {
+      "ar": "h بعد حرف متحرك مش بتتنطق، بس بتطول الحرف اللي قبلها. في أول الكلمة بتتنطق هاء.",
+      "en": "h after a vowel is silent and makes the vowel long. At the start of a word it is a normal h."
+     },
+     "examples": [
+      {
+       "text": "Sohn",
+       "say": "زوون",
+       "meaning": {
+        "ar": "ابن",
+        "en": "son"
+       }
+      },
+      {
+       "text": "gehen",
+       "say": "جيين",
+       "meaning": {
+        "ar": "يمشي",
+        "en": "to go"
+       }
+      },
+      {
+       "text": "Haus",
+       "say": "هاوس",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de.a0.gram.questions",
+   "level": "A0",
+   "title": {
+    "ar": "الأسئلة: الفعل في الأول أو التاني",
+    "en": "Questions: the verb comes first or second"
+   },
+   "explanation": {
+    "en": "In a German statement the verb is always the second element: Du lernst Deutsch.\n\nFor a yes/no question, put the verb first: Lernst du Deutsch?\n\nFor a question with a question word (W-Fragen), the question word comes first and the verb second: Was lernst du? Wo ist das Hotel? Wann kommt der Bus?\n\nQuestion words: was (what), wer (who), wo (where), wann (when), warum (why), wie (how), woher (where from).\n\nCareful: wer means who, not where. wo means where.",
+    "ar": "في الجملة الخبرية الألماني الفعل دايمًا العنصر التاني: Du lernst Deutsch (إنت بتتعلم ألماني).\n\nفي سؤال إجابته أيوه أو لأ، الفعل بييجي الأول: Lernst du Deutsch? (بتتعلم ألماني؟)\n\nفي سؤال بكلمة سؤال، كلمة السؤال الأول والفعل التاني: Was lernst du? Wo ist das Hotel? Wann kommt der Bus?\n\nكلمات السؤال: was (إيه)، wer (مين)، wo (فين)، wann (إمتى)، warum (ليه)، wie (إزاي)، woher (منين).\n\nخد بالك: wer معناها مين، مش فين. وwo معناها فين."
+   },
+   "table": {
+    "headers": [
+     "",
+     "1",
+     "2",
+     "3"
+    ],
+    "rows": [
+     [
+      "statement",
+      "Du",
+      "lernst",
+      "Deutsch."
+     ],
+     [
+      "yes/no question",
+      "Lernst",
+      "du",
+      "Deutsch?"
+     ],
+     [
+      "W-question",
+      "Was",
+      "lernst",
+      "du?"
+     ],
+     [
+      "W-question",
+      "Wo",
+      "ist",
+      "das Hotel?"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a0.sent.a31",
+    "de.a0.sent.a34",
+    "de.a0.sent.a39"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ ist das? (who)",
+     "answer": "Wer",
+     "base": "wer / wo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ ist die Toilette? (where)",
+     "answer": "Wo",
+     "base": "wer / wo"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ kommt der Bus? (when)",
+     "answer": "Wann",
+     "base": "wann"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ lernst du Deutsch? (why)",
+     "answer": "Warum",
+     "base": "warum"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ ist das? (what)",
+     "answer": "Was",
+     "base": "was"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ du Deutsch? (lernen)",
+     "answer": "Lernst",
+     "base": "lernen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich lerne Deutsch ___ Spanisch. (and)",
+     "answer": "und",
+     "base": "und"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich spreche Englisch, ___ langsam. (but)",
+     "answer": "aber",
+     "base": "aber"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [
+  {
+   "id": "de.a0.text.hotel",
+   "level": "A0",
+   "kind": "reading",
+   "title": "Im Hotel",
+   "body": "Omar: Hallo! Sprechen Sie Englisch?\nRezeption: Ein bisschen. Und Deutsch?\nOmar: Ich lerne Deutsch, aber langsam. Wo ist die Toilette?\nRezeption: Dort.\nOmar: Danke! Und wann kommt das Taxi?\nRezeption: Heute, um zwölf Uhr.",
+   "translation": {
+    "ar": "عمر: أهلًا! حضرتك بتتكلم إنجليزي؟ / موظفة الاستقبال: شوية. وألماني؟ / عمر: بتعلّم ألماني، بس بالراحة. الحمّام فين؟ / الموظفة: هناك. / عمر: شكرًا! والتاكسي جاي إمتى؟ / الموظفة: النهارده، الساعة اتناشر.",
+    "en": "Omar: Hello! Do you speak English? / Receptionist: A little. And German? / Omar: I'm learning German, but slowly. Where is the toilet? / Receptionist: There. / Omar: Thanks! And when is the taxi coming? / Receptionist: Today, at twelve o'clock."
+   },
+   "glossary": [
+    "de.a0.vocab.sprechen_sie_englisch",
+    "de.a0.vocab.ein_bisschen",
+    "de.a0.vocab.lernen",
+    "de.a0.vocab.langsam",
+    "de.a0.vocab.toilette",
+    "de.a0.vocab.dort",
+    "de.a0.vocab.wann",
+    "de.a0.vocab.taxi",
+    "de.a0.vocab.heute",
+    "de.a0.vocab.uhr"
+   ],
+   "questions": [
+    {
+     "question": "Wer lernt Deutsch?",
+     "options": [
+      "Omar",
+      "Die Rezeption",
+      "Das Taxi"
+     ],
+     "answer": 0
+    },
+    {
+     "question": "Wo ist die Toilette?",
+     "options": [
+      "Hier",
+      "Dort",
+      "Im Taxi"
+     ],
+     "answer": 1
+    },
+    {
+     "question": "Wann kommt das Taxi?",
+     "options": [
+      "Morgen",
+      "Heute um zwölf Uhr",
+      "Am Montag"
+     ],
+     "answer": 1
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "writingPrompts": [
+  {
+   "id": "de.a0.write.languages",
+   "level": "A0",
+   "prompt": {
+    "ar": "اكتب جملتين أو تلاتة قصيرين بالألماني: بتتكلم لغات إيه، وبتتعلم إيه؟",
+    "en": "Write 2 or 3 short sentences in German: which languages do you speak, and which are you learning?"
+   },
+   "minWords": 8
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}

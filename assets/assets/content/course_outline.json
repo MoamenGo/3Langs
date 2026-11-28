@@ -1,0 +1,1381 @@
+{
+ "schemaVersion": 2,
+ "description": "Shared A0-C1 syllabus for German, Dutch and Spanish. Each unit is realised once per language; targetHours are per language.",
+ "languages": [
+  "de",
+  "es",
+  "nl"
+ ],
+ "hoursPerLanguage": 1280,
+ "levels": [
+  {
+   "id": "A0",
+   "title": {
+    "ar": "A0 البداية",
+    "en": "A0 First steps"
+   },
+   "targetHours": 30,
+   "units": [
+    {
+     "id": "u.a0.01",
+     "order": 1,
+     "theme": {
+      "ar": "الأصوات والحروف",
+      "en": "Sounds and letters"
+     },
+     "grammarTopics": {},
+     "newWords": 40
+    },
+    {
+     "id": "u.a0.02",
+     "order": 2,
+     "theme": {
+      "ar": "عبارات النجاة",
+      "en": "Survival phrases"
+     },
+     "grammarTopics": {},
+     "newWords": 40
+    },
+    {
+     "id": "u.a0.03",
+     "order": 3,
+     "theme": {
+      "ar": "الأرقام والأيام والوقت",
+      "en": "Numbers, days and time"
+     },
+     "grammarTopics": {},
+     "newWords": 40
+    },
+    {
+     "id": "u.a0.04",
+     "order": 4,
+     "theme": {
+      "ar": "أول أسئلة",
+      "en": "First questions"
+     },
+     "grammarTopics": {},
+     "newWords": 30
+    }
+   ]
+  },
+  {
+   "id": "A1",
+   "title": {
+    "ar": "A1 مبتدئ",
+    "en": "A1 Beginner"
+   },
+   "targetHours": 150,
+   "units": [
+    {
+     "id": "u.a1.01",
+     "order": 1,
+     "theme": {
+      "ar": "التحية والتعارف",
+      "en": "Greetings and introductions"
+     },
+     "keywords": [
+      "hello",
+      "name",
+      "come",
+      "live"
+     ],
+     "grammarTopics": {
+      "de": [
+       "present tense: sein, heißen, regular verbs",
+       "du vs. Sie"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.02",
+     "order": 2,
+     "theme": {
+      "ar": "العائلة والأرقام",
+      "en": "Family and numbers"
+     },
+     "keywords": [
+      "family",
+      "mother",
+      "father",
+      "number"
+     ],
+     "grammarTopics": {
+      "de": [
+       "haben",
+       "possessive articles mein/dein",
+       "numbers 1-100"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.03",
+     "order": 3,
+     "theme": {
+      "ar": "البيت والسكن",
+      "en": "Home and living"
+     },
+     "keywords": [
+      "house",
+      "room",
+      "flat",
+      "kitchen"
+     ],
+     "grammarTopics": {
+      "de": [
+       "definite and indefinite articles",
+       "noun gender and plural"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.04",
+     "order": 4,
+     "theme": {
+      "ar": "الأكل والشرب",
+      "en": "Food and drink"
+     },
+     "keywords": [
+      "eat",
+      "drink",
+      "bread",
+      "water"
+     ],
+     "grammarTopics": {
+      "de": [
+       "accusative case",
+       "möchten"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.05",
+     "order": 5,
+     "theme": {
+      "ar": "التسوق والأسعار",
+      "en": "Shopping and prices"
+     },
+     "keywords": [
+      "buy",
+      "shop",
+      "price",
+      "money"
+     ],
+     "grammarTopics": {
+      "de": [
+       "kein vs. nicht",
+       "numbers and prices"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.06",
+     "order": 6,
+     "theme": {
+      "ar": "الروتين اليومي والوقت",
+      "en": "Daily routine and time"
+     },
+     "keywords": [
+      "time",
+      "day",
+      "morning",
+      "clock"
+     ],
+     "grammarTopics": {
+      "de": [
+       "separable verbs",
+       "telling the time",
+       "word order: verb second"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.07",
+     "order": 7,
+     "theme": {
+      "ar": "وقت الفراغ والهوايات",
+      "en": "Free time and hobbies"
+     },
+     "keywords": [
+      "play",
+      "music",
+      "sport",
+      "like"
+     ],
+     "grammarTopics": {
+      "de": [
+       "gern",
+       "modal verbs können, wollen"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.08",
+     "order": 8,
+     "theme": {
+      "ar": "في المدينة",
+      "en": "In the city"
+     },
+     "keywords": [
+      "street",
+      "station",
+      "bank",
+      "way"
+     ],
+     "grammarTopics": {
+      "de": [
+       "imperative",
+       "prepositions with dative: in, an, bei"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.09",
+     "order": 9,
+     "theme": {
+      "ar": "السفر والمواصلات",
+      "en": "Travel and transport"
+     },
+     "keywords": [
+      "train",
+      "bus",
+      "ticket",
+      "travel"
+     ],
+     "grammarTopics": {
+      "de": [
+       "modal verbs müssen, dürfen",
+       "dative case basics"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.10",
+     "order": 10,
+     "theme": {
+      "ar": "الصحة والجسم",
+      "en": "Health and body"
+     },
+     "keywords": [
+      "body",
+      "doctor",
+      "head",
+      "sick"
+     ],
+     "grammarTopics": {
+      "de": [
+       "sollen",
+       "personal pronouns in accusative"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.11",
+     "order": 11,
+     "theme": {
+      "ar": "الشغل والمدرسة",
+      "en": "Work and school"
+     },
+     "keywords": [
+      "work",
+      "job",
+      "school",
+      "learn"
+     ],
+     "grammarTopics": {
+      "de": [
+       "perfect tense with haben",
+       "question words"
+      ]
+     },
+     "newWords": 60
+    },
+    {
+     "id": "u.a1.12",
+     "order": 12,
+     "theme": {
+      "ar": "مراجعة A1 واختبار تجريبي",
+      "en": "A1 review and mock exam"
+     },
+     "keywords": [],
+     "grammarTopics": {
+      "de": []
+     },
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "title": {
+    "ar": "A2 أساسي",
+    "en": "A2 Elementary"
+   },
+   "targetHours": 200,
+   "units": [
+    {
+     "id": "u.a2.01",
+     "order": 1,
+     "theme": {
+      "ar": "قصة حياتي",
+      "en": "My life story"
+     },
+     "keywords": [
+      "born",
+      "childhood",
+      "year"
+     ],
+     "grammarTopics": {
+      "de": [
+       "perfect tense with sein",
+       "Präteritum of sein and haben"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.02",
+     "order": 2,
+     "theme": {
+      "ar": "الأصدقاء والعلاقات",
+      "en": "Friends and relationships"
+     },
+     "keywords": [
+      "friend",
+      "love",
+      "party"
+     ],
+     "grammarTopics": {
+      "de": [
+       "dative verbs",
+       "reflexive verbs"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.03",
+     "order": 3,
+     "theme": {
+      "ar": "اللبس والمظهر",
+      "en": "Clothes and appearance"
+     },
+     "keywords": [
+      "clothes",
+      "wear",
+      "colour"
+     ],
+     "grammarTopics": {
+      "de": [
+       "adjective endings (nominative, accusative)",
+       "welch-/dies-"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.04",
+     "order": 4,
+     "theme": {
+      "ar": "السكن والنقل لبيت جديد",
+      "en": "Living and moving house"
+     },
+     "keywords": [
+      "move",
+      "rent",
+      "furniture"
+     ],
+     "grammarTopics": {
+      "de": [
+       "two-way prepositions",
+       "stellen/stehen, legen/liegen"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.05",
+     "order": 5,
+     "theme": {
+      "ar": "حياة الشغل",
+      "en": "Work life"
+     },
+     "keywords": [
+      "office",
+      "colleague",
+      "meeting"
+     ],
+     "grammarTopics": {
+      "de": [
+       "subordinate clauses with weil, dass",
+       "Konjunktiv II: würde, hätte, wäre"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.06",
+     "order": 6,
+     "theme": {
+      "ar": "الإعلام والتكنولوجيا",
+      "en": "Media and technology"
+     },
+     "keywords": [
+      "phone",
+      "computer",
+      "internet"
+     ],
+     "grammarTopics": {
+      "de": [
+       "comparative and superlative",
+       "wenn clauses"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.07",
+     "order": 7,
+     "theme": {
+      "ar": "الصحة واللياقة",
+      "en": "Health and fitness"
+     },
+     "keywords": [
+      "healthy",
+      "exercise",
+      "pain"
+     ],
+     "grammarTopics": {
+      "de": [
+       "reflexive verbs with dative",
+       "sollte"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.08",
+     "order": 8,
+     "theme": {
+      "ar": "السفر والإجازات",
+      "en": "Travel and holidays"
+     },
+     "keywords": [
+      "holiday",
+      "hotel",
+      "weather"
+     ],
+     "grammarTopics": {
+      "de": [
+       "genitive basics",
+       "prepositions of place"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.09",
+     "order": 9,
+     "theme": {
+      "ar": "ثقافة الأكل",
+      "en": "Food culture"
+     },
+     "keywords": [
+      "restaurant",
+      "recipe",
+      "cook"
+     ],
+     "grammarTopics": {
+      "de": [
+       "adjective endings (dative)",
+       "indefinite pronouns"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.10",
+     "order": 10,
+     "theme": {
+      "ar": "الخدمات والجهات الرسمية",
+      "en": "Services and authorities"
+     },
+     "keywords": [
+      "office",
+      "form",
+      "appointment"
+     ],
+     "grammarTopics": {
+      "de": [
+       "indirect questions with ob, wo",
+       "passive present (intro)"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.11",
+     "order": 11,
+     "theme": {
+      "ar": "الاحتفالات والعادات",
+      "en": "Celebrations and traditions"
+     },
+     "keywords": [
+      "festival",
+      "birthday",
+      "gift"
+     ],
+     "grammarTopics": {
+      "de": [
+       "dates and ordinal numbers",
+       "als vs. wenn"
+      ]
+     },
+     "newWords": 80
+    },
+    {
+     "id": "u.a2.12",
+     "order": 12,
+     "theme": {
+      "ar": "مراجعة A2 واختبار تجريبي",
+      "en": "A2 review and mock exam"
+     },
+     "keywords": [],
+     "grammarTopics": {
+      "de": []
+     },
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "title": {
+    "ar": "B1 متوسط",
+    "en": "B1 Intermediate"
+   },
+   "targetHours": 330,
+   "units": [
+    {
+     "id": "u.b1.01",
+     "order": 1,
+     "theme": {
+      "ar": "التعليم والتعلم",
+      "en": "Education and learning"
+     },
+     "keywords": [
+      "study",
+      "university",
+      "course"
+     ],
+     "grammarTopics": {
+      "de": [
+       "Präteritum of regular and irregular verbs"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.02",
+     "order": 2,
+     "theme": {
+      "ar": "البحث عن شغل والتقديم",
+      "en": "Job search and applications"
+     },
+     "keywords": [
+      "application",
+      "interview",
+      "career"
+     ],
+     "grammarTopics": {
+      "de": [
+       "relative clauses (nominative, accusative)"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.03",
+     "order": 3,
+     "theme": {
+      "ar": "العيش مع الآخرين",
+      "en": "Living together"
+     },
+     "keywords": [
+      "neighbour",
+      "rule",
+      "share"
+     ],
+     "grammarTopics": {
+      "de": [
+       "relative clauses with prepositions",
+       "lassen"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.04",
+     "order": 4,
+     "theme": {
+      "ar": "الاستهلاك والفلوس",
+      "en": "Consumption and money"
+     },
+     "keywords": [
+      "bank",
+      "save",
+      "pay"
+     ],
+     "grammarTopics": {
+      "de": [
+       "passive with modal verbs",
+       "n-declension"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.05",
+     "order": 5,
+     "theme": {
+      "ar": "البيئة والطبيعة",
+      "en": "Environment and nature"
+     },
+     "keywords": [
+      "environment",
+      "climate",
+      "nature"
+     ],
+     "grammarTopics": {
+      "de": [
+       "passive (all tenses)",
+       "werden as main verb"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.06",
+     "order": 6,
+     "theme": {
+      "ar": "الإعلام والأخبار",
+      "en": "Media and news"
+     },
+     "keywords": [
+      "news",
+      "newspaper",
+      "report"
+     ],
+     "grammarTopics": {
+      "de": [
+       "indirect speech (intro)",
+       "obwohl, trotzdem"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.07",
+     "order": 7,
+     "theme": {
+      "ar": "النظام الصحي",
+      "en": "Health system"
+     },
+     "keywords": [
+      "hospital",
+      "insurance",
+      "therapy"
+     ],
+     "grammarTopics": {
+      "de": [
+       "infinitive with zu",
+       "um ... zu, damit"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.08",
+     "order": 8,
+     "theme": {
+      "ar": "الثقافة والفن",
+      "en": "Culture and art"
+     },
+     "keywords": [
+      "museum",
+      "film",
+      "book"
+     ],
+     "grammarTopics": {
+      "de": [
+       "Plusquamperfekt",
+       "nachdem, bevor"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.09",
+     "order": 9,
+     "theme": {
+      "ar": "السفر والتنقل",
+      "en": "Travel and mobility"
+     },
+     "keywords": [
+      "traffic",
+      "car",
+      "delay"
+     ],
+     "grammarTopics": {
+      "de": [
+       "genitive and genitive prepositions",
+       "während, wegen"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.10",
+     "order": 10,
+     "theme": {
+      "ar": "السياسة والمجتمع",
+      "en": "Politics and society"
+     },
+     "keywords": [
+      "government",
+      "vote",
+      "law"
+     ],
+     "grammarTopics": {
+      "de": [
+       "Konjunktiv II past",
+       "je ... desto"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.11",
+     "order": 11,
+     "theme": {
+      "ar": "العلاقات والمشاعر",
+      "en": "Relationships and feelings"
+     },
+     "keywords": [
+      "feel",
+      "angry",
+      "happy"
+     ],
+     "grammarTopics": {
+      "de": [
+       "verbs with prepositions",
+       "da-/wo- compounds"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.12",
+     "order": 12,
+     "theme": {
+      "ar": "العلوم والتكنولوجيا",
+      "en": "Science and technology"
+     },
+     "keywords": [
+      "research",
+      "invent",
+      "machine"
+     ],
+     "grammarTopics": {
+      "de": [
+       "participles as adjectives"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.13",
+     "order": 13,
+     "theme": {
+      "ar": "الرياضة والترفيه",
+      "en": "Sport and leisure"
+     },
+     "keywords": [
+      "team",
+      "match",
+      "competition"
+     ],
+     "grammarTopics": {
+      "de": [
+       "two-part conjunctions: sowohl ... als auch, weder ... noch"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.14",
+     "order": 14,
+     "theme": {
+      "ar": "العيش في الخارج",
+      "en": "Living abroad"
+     },
+     "keywords": [
+      "foreign",
+      "culture",
+      "integration"
+     ],
+     "grammarTopics": {
+      "de": [
+       "future tense with werden"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.15",
+     "order": 15,
+     "theme": {
+      "ar": "الرسائل والإيميلات الرسمية",
+      "en": "Formal letters and emails"
+     },
+     "keywords": [
+      "letter",
+      "request",
+      "complaint"
+     ],
+     "grammarTopics": {
+      "de": [
+       "nominal style basics",
+       "formal register"
+      ]
+     },
+     "newWords": 90
+    },
+    {
+     "id": "u.b1.16",
+     "order": 16,
+     "theme": {
+      "ar": "مراجعة B1 واختبار تجريبي",
+      "en": "B1 review and mock exam"
+     },
+     "keywords": [],
+     "grammarTopics": {
+      "de": []
+     },
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "title": {
+    "ar": "B2 فوق المتوسط",
+    "en": "B2 Upper intermediate"
+   },
+   "targetHours": 320,
+   "units": [
+    {
+     "id": "u.b2.01",
+     "order": 1,
+     "theme": {
+      "ar": "الشغل والمسار المهني",
+      "en": "Work and careers"
+     },
+     "keywords": [
+      "career",
+      "company",
+      "management"
+     ],
+     "grammarTopics": {
+      "de": [
+       "nominalisation"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.02",
+     "order": 2,
+     "theme": {
+      "ar": "الاقتصاد والعولمة",
+      "en": "Economy and globalisation"
+     },
+     "keywords": [
+      "market",
+      "trade",
+      "economy"
+     ],
+     "grammarTopics": {
+      "de": [
+       "extended participle attributes"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.03",
+     "order": 3,
+     "theme": {
+      "ar": "العلوم والبحث",
+      "en": "Science and research"
+     },
+     "keywords": [
+      "experiment",
+      "theory",
+      "result"
+     ],
+     "grammarTopics": {
+      "de": [
+       "passive alternatives: sich lassen, -bar, sein + zu"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.04",
+     "order": 4,
+     "theme": {
+      "ar": "التعامل مع الإعلام",
+      "en": "Media literacy"
+     },
+     "keywords": [
+      "opinion",
+      "source",
+      "fake"
+     ],
+     "grammarTopics": {
+      "de": [
+       "indirect speech: Konjunktiv I"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.05",
+     "order": 5,
+     "theme": {
+      "ar": "المجتمع والقيم",
+      "en": "Society and values"
+     },
+     "keywords": [
+      "value",
+      "equality",
+      "tradition"
+     ],
+     "grammarTopics": {
+      "de": [
+       "modal particles: doch, mal, ja, eben"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.06",
+     "order": 6,
+     "theme": {
+      "ar": "البيئة والمستقبل",
+      "en": "Environment and the future"
+     },
+     "keywords": [
+      "energy",
+      "sustainable",
+      "future"
+     ],
+     "grammarTopics": {
+      "de": [
+       "future II and assumptions"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.07",
+     "order": 7,
+     "theme": {
+      "ar": "الصحة وعلم النفس",
+      "en": "Health and psychology"
+     },
+     "keywords": [
+      "stress",
+      "mind",
+      "behaviour"
+     ],
+     "grammarTopics": {
+      "de": [
+       "subjective use of modal verbs"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.08",
+     "order": 8,
+     "theme": {
+      "ar": "التاريخ",
+      "en": "History"
+     },
+     "keywords": [
+      "war",
+      "century",
+      "history"
+     ],
+     "grammarTopics": {
+      "de": [
+       "Präteritum in narrative texts"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.09",
+     "order": 9,
+     "theme": {
+      "ar": "الفن والأدب",
+      "en": "Art and literature"
+     },
+     "keywords": [
+      "novel",
+      "poem",
+      "author"
+     ],
+     "grammarTopics": {
+      "de": [
+       "word formation: prefixes and suffixes"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.10",
+     "order": 10,
+     "theme": {
+      "ar": "القانون والحياة اليومية",
+      "en": "Law and everyday life"
+     },
+     "keywords": [
+      "contract",
+      "right",
+      "court"
+     ],
+     "grammarTopics": {
+      "de": [
+       "prepositions with genitive"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.11",
+     "order": 11,
+     "theme": {
+      "ar": "العالم الرقمي",
+      "en": "Digital world"
+     },
+     "keywords": [
+      "data",
+      "privacy",
+      "app"
+     ],
+     "grammarTopics": {
+      "de": [
+       "connectors: folglich, dennoch, zumal"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.12",
+     "order": 12,
+     "theme": {
+      "ar": "اللغة والتواصل",
+      "en": "Language and communication"
+     },
+     "keywords": [
+      "dialect",
+      "language",
+      "conversation"
+     ],
+     "grammarTopics": {
+      "de": [
+       "register and politeness"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.13",
+     "order": 13,
+     "theme": {
+      "ar": "الجدال والنقاش",
+      "en": "Arguing and discussing"
+     },
+     "keywords": [
+      "argument",
+      "agree",
+      "debate"
+     ],
+     "grammarTopics": {
+      "de": [
+       "structuring an argument"
+      ]
+     },
+     "newWords": 110
+    },
+    {
+     "id": "u.b2.14",
+     "order": 14,
+     "theme": {
+      "ar": "مراجعة B2 واختبار تجريبي",
+      "en": "B2 review and mock exam"
+     },
+     "keywords": [],
+     "grammarTopics": {
+      "de": []
+     },
+     "newWords": 0
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "title": {
+    "ar": "C1 متقدم",
+    "en": "C1 Advanced"
+   },
+   "targetHours": 250,
+   "units": [
+    {
+     "id": "u.c1.01",
+     "order": 1,
+     "theme": {
+      "ar": "اللغة الأكاديمية",
+      "en": "Academic language"
+     },
+     "keywords": [
+      "thesis",
+      "analysis",
+      "lecture"
+     ],
+     "grammarTopics": {
+      "de": [
+       "academic nominal style"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.02",
+     "order": 2,
+     "theme": {
+      "ar": "الفلسفة والأخلاق",
+      "en": "Philosophy and ethics"
+     },
+     "keywords": [
+      "moral",
+      "freedom",
+      "responsibility"
+     ],
+     "grammarTopics": {
+      "de": [
+       "complex subordinate clauses"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.03",
+     "order": 3,
+     "theme": {
+      "ar": "لغة البيزنس",
+      "en": "Business language"
+     },
+     "keywords": [
+      "negotiation",
+      "contract",
+      "client"
+     ],
+     "grammarTopics": {
+      "de": [
+       "functional verb structures (Funktionsverbgefüge)"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.04",
+     "order": 4,
+     "theme": {
+      "ar": "السياسة والاتحاد الأوروبي",
+      "en": "Politics and the EU"
+     },
+     "keywords": [
+      "parliament",
+      "policy",
+      "union"
+     ],
+     "grammarTopics": {
+      "de": [
+       "Konjunktiv I in reporting"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.05",
+     "order": 5,
+     "theme": {
+      "ar": "تبسيط العلوم",
+      "en": "Science communication"
+     },
+     "keywords": [
+      "study",
+      "evidence",
+      "method"
+     ],
+     "grammarTopics": {
+      "de": [
+       "hedging and stance"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.06",
+     "order": 6,
+     "theme": {
+      "ar": "الأدب والسينما",
+      "en": "Literature and film"
+     },
+     "keywords": [
+      "scene",
+      "character",
+      "plot"
+     ],
+     "grammarTopics": {
+      "de": [
+       "stylistic devices"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.07",
+     "order": 7,
+     "theme": {
+      "ar": "الهجرة والهوية",
+      "en": "Migration and identity"
+     },
+     "keywords": [
+      "identity",
+      "home",
+      "belonging"
+     ],
+     "grammarTopics": {
+      "de": [
+       "advanced connectors"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.08",
+     "order": 8,
+     "theme": {
+      "ar": "الفكاهة والتعبيرات",
+      "en": "Humour and idioms"
+     },
+     "keywords": [
+      "joke",
+      "idiom",
+      "irony"
+     ],
+     "grammarTopics": {
+      "de": [
+       "idiomatic expressions"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.09",
+     "order": 9,
+     "theme": {
+      "ar": "التكنولوجيا والأخلاق",
+      "en": "Technology and ethics"
+     },
+     "keywords": [
+      "artificial",
+      "robot",
+      "risk"
+     ],
+     "grammarTopics": {
+      "de": [
+       "advanced passive and participle constructions"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.10",
+     "order": 10,
+     "theme": {
+      "ar": "اللهجات المحلية",
+      "en": "Regional varieties"
+     },
+     "keywords": [
+      "Austria",
+      "Switzerland",
+      "dialect"
+     ],
+     "grammarTopics": {
+      "de": [
+       "regional variation"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.11",
+     "order": 11,
+     "theme": {
+      "ar": "العرض والمناظرة",
+      "en": "Presenting and debating"
+     },
+     "keywords": [
+      "presentation",
+      "audience",
+      "conclusion"
+     ],
+     "grammarTopics": {
+      "de": [
+       "discourse markers"
+      ]
+     },
+     "newWords": 120
+    },
+    {
+     "id": "u.c1.12",
+     "order": 12,
+     "theme": {
+      "ar": "مراجعة C1 واختبار تجريبي",
+      "en": "C1 review and mock exam"
+     },
+     "keywords": [],
+     "grammarTopics": {
+      "de": []
+     },
+     "newWords": 0
+    }
+   ]
+  }
+ ]
+}

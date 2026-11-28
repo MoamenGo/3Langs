@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/3Langs/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="3Lang Polyglot Matrix: study German, English, Dutch, Spanish, French and more side by side, in Arabic or English.">
+
+  <!--
+    Uncomment the tag below to lay the app out underneath the parts of the
+    screen that the device obstructs, such as a display cutout, the rounded
+    corners of the screen, or a home indicator.
+
+    Without it, the browser keeps the app clear of them, and `SafeArea` and
+    `MediaQuery.paddingOf` report no padding. With it, the app covers the whole
+    screen, and it is up to the app to keep its own content out of the way,
+    which is what `SafeArea` is for.
+  -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> -->
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="3Lang">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>3Lang</title>
+  <link rel="manifest" href="manifest.json">
+  <!-- Start the big downloads right away instead of after the loader script. -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preload" href="assets/assets/fonts/NotoSansArabic-Regular.ttf" as="fetch" crossorigin>
+  <link rel="preload" href="assets/assets/fonts/NotoSansArabic-Bold.ttf" as="fetch" crossorigin>
+  <meta name="theme-color" content="#2A7B76">
+  <style>
+    html, body { margin: 0; height: 100%; }
+    body { background: var(--base, #f8f7f4); }
+    @media (prefers-color-scheme: dark) { body { background: var(--base, #14181d); } }
+    #splash {
+      position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+      background:
+        radial-gradient(circle at 10% 5%, var(--a, #f8f7f400) 0, transparent 45%),
+        radial-gradient(circle at 95% 100%, var(--b, #f8f7f400) 0, transparent 50%);
+      transition: opacity .25s ease;
+    }
+    #splash img { width: 96px; height: 96px; border-radius: 22px; animation: pulse 1.2s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(.92); opacity: .75; } }
+  </style>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <div id="splash"><img src="icons/Icon-192.png" alt="3Lang"></div>
+  <script>
+    // Paint the last theme the learner used before the app has loaded.
+    try {
+      const saved = localStorage.getItem('3lang-splash');
+      if (saved) {
+        const [base, a, b] = saved.split(',');
+        const root = document.documentElement.style;
+        root.setProperty('--base', base);
+        root.setProperty('--a', a + '88');
+        root.setProperty('--b', b + '88');
+      }
+    } catch (_) {}
+    window.addEventListener('flutter-first-frame', () => {
+      const s = document.getElementById('splash');
+      if (s) { s.style.opacity = '0'; setTimeout(() => s.remove(), 300); }
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+    }
+  </script>
+</body>
+</html>

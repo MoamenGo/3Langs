@@ -1,0 +1,4691 @@
+{
+ "schemaVersion": 2,
+ "lang": "de",
+ "contentVersion": "2026.11.24-phase5",
+ "level": {
+  "id": "A2",
+  "title": {
+   "ar": "A2 أساسي",
+   "en": "A2 Elementary"
+  },
+  "targetHours": 200,
+  "canDo": [
+   {
+    "en": "Talk about your past, your plans and your daily life",
+    "ar": "تحكي عن ماضيك وخططك وحياتك اليومية"
+   },
+   {
+    "en": "Handle shops, travel, doctors and offices",
+    "ar": "تتعامل في المحلات والسفر والدكتور والمصالح"
+   },
+   {
+    "en": "Write short messages and personal emails",
+    "ar": "تكتب رسايل قصيرة وإيميلات شخصية"
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "de.a2.u01",
+   "level": "A2",
+   "order": 1,
+   "theme": {
+    "ar": "قصة حياتي",
+    "en": "My life story"
+   },
+   "goals": [
+    {
+     "en": "Talk about my life story in German",
+     "ar": "تتكلم عن قصة حياتي بالألماني"
+    },
+    {
+     "en": "Perfect with sein; war and hatte",
+     "ar": "الـ Perfekt مع sein؛ war وhatte"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u01"
+   ],
+   "lessonIds": [
+    "de.a2.u01.l01",
+    "de.a2.u01.l02",
+    "de.a2.u01.l03",
+    "de.a2.u01.l04",
+    "de.a2.u01.l05"
+   ],
+   "sharedUnitId": "u.a2.01"
+  },
+  {
+   "id": "de.a2.u02",
+   "level": "A2",
+   "order": 2,
+   "theme": {
+    "ar": "الأصدقاء والعلاقات",
+    "en": "Friends and relationships"
+   },
+   "goals": [
+    {
+     "en": "Talk about friends and relationships in German",
+     "ar": "تتكلم عن الأصدقاء والعلاقات بالألماني"
+    },
+    {
+     "en": "Dative verbs and reflexive verbs",
+     "ar": "أفعال الداتيف والأفعال الانعكاسية"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u02"
+   ],
+   "lessonIds": [
+    "de.a2.u02.l01",
+    "de.a2.u02.l02",
+    "de.a2.u02.l03",
+    "de.a2.u02.l04",
+    "de.a2.u02.l05"
+   ],
+   "sharedUnitId": "u.a2.02"
+  },
+  {
+   "id": "de.a2.u03",
+   "level": "A2",
+   "order": 3,
+   "theme": {
+    "ar": "اللبس والمظهر",
+    "en": "Clothes and appearance"
+   },
+   "goals": [
+    {
+     "en": "Talk about clothes and appearance in German",
+     "ar": "تتكلم عن اللبس والمظهر بالألماني"
+    },
+    {
+     "en": "Adjective endings and welch-, dies-",
+     "ar": "نهايات الصفات وwelch- وdies-"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u03"
+   ],
+   "lessonIds": [
+    "de.a2.u03.l01",
+    "de.a2.u03.l02",
+    "de.a2.u03.l03",
+    "de.a2.u03.l04",
+    "de.a2.u03.l05"
+   ],
+   "sharedUnitId": "u.a2.03"
+  },
+  {
+   "id": "de.a2.u04",
+   "level": "A2",
+   "order": 4,
+   "theme": {
+    "ar": "السكن والنقل لبيت جديد",
+    "en": "Living and moving house"
+   },
+   "goals": [
+    {
+     "en": "Talk about living and moving house in German",
+     "ar": "تتكلم عن السكن والنقل لبيت جديد بالألماني"
+    },
+    {
+     "en": "Two-way prepositions: wohin? and wo?",
+     "ar": "حروف الجر ذات الوجهين: wohin؟ وwo؟"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u04"
+   ],
+   "lessonIds": [
+    "de.a2.u04.l01",
+    "de.a2.u04.l02",
+    "de.a2.u04.l03",
+    "de.a2.u04.l04",
+    "de.a2.u04.l05"
+   ],
+   "sharedUnitId": "u.a2.04"
+  },
+  {
+   "id": "de.a2.u05",
+   "level": "A2",
+   "order": 5,
+   "theme": {
+    "ar": "حياة الشغل",
+    "en": "Work life"
+   },
+   "goals": [
+    {
+     "en": "Talk about work life in German",
+     "ar": "تتكلم عن حياة الشغل بالألماني"
+    },
+    {
+     "en": "weil, dass and Konjunktiv II (würde, hätte, wäre)",
+     "ar": "weil وdass والـ Konjunktiv II"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u05"
+   ],
+   "lessonIds": [
+    "de.a2.u05.l01",
+    "de.a2.u05.l02",
+    "de.a2.u05.l03",
+    "de.a2.u05.l04",
+    "de.a2.u05.l05"
+   ],
+   "sharedUnitId": "u.a2.05"
+  },
+  {
+   "id": "de.a2.u06",
+   "level": "A2",
+   "order": 6,
+   "theme": {
+    "ar": "الإعلام والتكنولوجيا",
+    "en": "Media and technology"
+   },
+   "goals": [
+    {
+     "en": "Talk about media and technology in German",
+     "ar": "تتكلم عن الإعلام والتكنولوجيا بالألماني"
+    },
+    {
+     "en": "Comparative, superlative and wenn",
+     "ar": "المقارنة والتفضيل وwenn"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u06"
+   ],
+   "lessonIds": [
+    "de.a2.u06.l01",
+    "de.a2.u06.l02",
+    "de.a2.u06.l03",
+    "de.a2.u06.l04",
+    "de.a2.u06.l05"
+   ],
+   "sharedUnitId": "u.a2.06"
+  },
+  {
+   "id": "de.a2.u07",
+   "level": "A2",
+   "order": 7,
+   "theme": {
+    "ar": "الصحة واللياقة",
+    "en": "Health and fitness"
+   },
+   "goals": [
+    {
+     "en": "Talk about health and fitness in German",
+     "ar": "تتكلم عن الصحة واللياقة بالألماني"
+    },
+    {
+     "en": "Reflexive verbs with dative and sollte",
+     "ar": "أفعال انعكاسية مع الداتيف وsollte"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u07"
+   ],
+   "lessonIds": [
+    "de.a2.u07.l01",
+    "de.a2.u07.l02",
+    "de.a2.u07.l03",
+    "de.a2.u07.l04",
+    "de.a2.u07.l05"
+   ],
+   "sharedUnitId": "u.a2.07"
+  },
+  {
+   "id": "de.a2.u08",
+   "level": "A2",
+   "order": 8,
+   "theme": {
+    "ar": "السفر والإجازات",
+    "en": "Travel and holidays"
+   },
+   "goals": [
+    {
+     "en": "Talk about travel and holidays in German",
+     "ar": "تتكلم عن السفر والإجازات بالألماني"
+    },
+    {
+     "en": "Genitive basics and während",
+     "ar": "أساسيات الجينيتيف وwährend"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u08"
+   ],
+   "lessonIds": [
+    "de.a2.u08.l01",
+    "de.a2.u08.l02",
+    "de.a2.u08.l03",
+    "de.a2.u08.l04",
+    "de.a2.u08.l05"
+   ],
+   "sharedUnitId": "u.a2.08"
+  },
+  {
+   "id": "de.a2.u09",
+   "level": "A2",
+   "order": 9,
+   "theme": {
+    "ar": "ثقافة الأكل",
+    "en": "Food culture"
+   },
+   "goals": [
+    {
+     "en": "Talk about food culture in German",
+     "ar": "تتكلم عن ثقافة الأكل بالألماني"
+    },
+    {
+     "en": "Adjective endings in the dative; etwas, nichts",
+     "ar": "نهايات الصفة في الداتيف؛ etwas وnichts"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u09"
+   ],
+   "lessonIds": [
+    "de.a2.u09.l01",
+    "de.a2.u09.l02",
+    "de.a2.u09.l03",
+    "de.a2.u09.l04",
+    "de.a2.u09.l05"
+   ],
+   "sharedUnitId": "u.a2.09"
+  },
+  {
+   "id": "de.a2.u10",
+   "level": "A2",
+   "order": 10,
+   "theme": {
+    "ar": "الخدمات والجهات الرسمية",
+    "en": "Services and authorities"
+   },
+   "goals": [
+    {
+     "en": "Talk about services and authorities in German",
+     "ar": "تتكلم عن الخدمات والجهات الرسمية بالألماني"
+    },
+    {
+     "en": "Indirect questions with ob, wo; passive (intro)",
+     "ar": "الأسئلة غير المباشرة بـ ob وwo؛ المبني للمجهول"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u10"
+   ],
+   "lessonIds": [
+    "de.a2.u10.l01",
+    "de.a2.u10.l02",
+    "de.a2.u10.l03",
+    "de.a2.u10.l04",
+    "de.a2.u10.l05"
+   ],
+   "sharedUnitId": "u.a2.10"
+  },
+  {
+   "id": "de.a2.u11",
+   "level": "A2",
+   "order": 11,
+   "theme": {
+    "ar": "الاحتفالات والعادات",
+    "en": "Celebrations and traditions"
+   },
+   "goals": [
+    {
+     "en": "Talk about celebrations and traditions in German",
+     "ar": "تتكلم عن الاحتفالات والعادات بالألماني"
+    },
+    {
+     "en": "Dates, ordinal numbers, als vs. wenn",
+     "ar": "التواريخ والأعداد الترتيبية، als ولا wenn"
+    }
+   ],
+   "grammarIds": [
+    "de.a2.gram.u11"
+   ],
+   "lessonIds": [
+    "de.a2.u11.l01",
+    "de.a2.u11.l02",
+    "de.a2.u11.l03",
+    "de.a2.u11.l04",
+    "de.a2.u11.l05"
+   ],
+   "sharedUnitId": "u.a2.11"
+  },
+  {
+   "id": "de.a2.u12",
+   "level": "A2",
+   "order": 12,
+   "theme": {
+    "ar": "مراجعة A2 واختبار تجريبي",
+    "en": "A2 review and mock exam"
+   },
+   "goals": [
+    {
+     "en": "Show you have reached A2",
+     "ar": "توري إنك وصلت لمستوى A2"
+    }
+   ],
+   "grammarIds": [],
+   "lessonIds": [
+    "de.a2.u12.l01",
+    "de.a2.u12.l02"
+   ],
+   "sharedUnitId": "u.a2.12"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "de.a2.u01.l01",
+   "unitId": "de.a2.u01",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "My life story: words 1",
+    "ar": "قصة حياتي: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.geboren_werden",
+    "de.a2.vocab.kindheit",
+    "de.a2.vocab.aufwachsen",
+    "de.a2.vocab.vergangenheit",
+    "de.a2.vocab.umziehen",
+    "de.a2.vocab.heiraten"
+   ]
+  },
+  {
+   "id": "de.a2.u01.l02",
+   "unitId": "de.a2.u01",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "My life story: words 2",
+    "ar": "قصة حياتي: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.studieren",
+    "de.a2.vocab.gehen",
+    "de.a2.vocab.zurueckkommen",
+    "de.a2.vocab.vor",
+    "de.a2.vocab.als"
+   ]
+  },
+  {
+   "id": "de.a2.u01.l03",
+   "unitId": "de.a2.u01",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Perfect with sein; war and hatte",
+    "ar": "الـ Perfekt مع sein؛ war وhatte"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u01"
+  },
+  {
+   "id": "de.a2.u01.l04",
+   "unitId": "de.a2.u01",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: my life story",
+    "ar": "استماع: قصة حياتي"
+   },
+   "items": [
+    "de.a2.sent.u01_01",
+    "de.a2.sent.u01_02",
+    "de.a2.sent.u01_03",
+    "de.a2.sent.u01_04"
+   ]
+  },
+  {
+   "id": "de.a2.u01.l05",
+   "unitId": "de.a2.u01",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 1 review",
+    "ar": "مراجعة الوحدة 1"
+   },
+   "items": [
+    "de.a2.vocab.geboren_werden",
+    "de.a2.vocab.kindheit",
+    "de.a2.vocab.aufwachsen",
+    "de.a2.vocab.vergangenheit",
+    "de.a2.vocab.umziehen",
+    "de.a2.vocab.heiraten",
+    "de.a2.vocab.studieren",
+    "de.a2.vocab.gehen",
+    "de.a2.vocab.zurueckkommen",
+    "de.a2.vocab.vor",
+    "de.a2.vocab.als"
+   ]
+  },
+  {
+   "id": "de.a2.u02.l01",
+   "unitId": "de.a2.u02",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Friends and relationships: words 1",
+    "ar": "الأصدقاء والعلاقات: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.treffen",
+    "de.a2.vocab.helfen",
+    "de.a2.vocab.moegen",
+    "de.a2.vocab.party",
+    "de.a2.vocab.beziehung",
+    "de.a2.vocab.nachbar"
+   ]
+  },
+  {
+   "id": "de.a2.u02.l02",
+   "unitId": "de.a2.u02",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Friends and relationships: words 2",
+    "ar": "الأصدقاء والعلاقات: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.freundin",
+    "de.a2.vocab.zusammen",
+    "de.a2.vocab.sich_streiten",
+    "de.a2.vocab.sich_erinnern",
+    "de.a2.vocab.einladen"
+   ]
+  },
+  {
+   "id": "de.a2.u02.l03",
+   "unitId": "de.a2.u02",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Dative verbs and reflexive verbs",
+    "ar": "أفعال الداتيف والأفعال الانعكاسية"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u02"
+  },
+  {
+   "id": "de.a2.u02.l04",
+   "unitId": "de.a2.u02",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: friends and relationships",
+    "ar": "استماع: الأصدقاء والعلاقات"
+   },
+   "items": [
+    "de.a2.sent.u02_01",
+    "de.a2.sent.u02_02",
+    "de.a2.sent.u02_03",
+    "de.a2.sent.u02_04"
+   ]
+  },
+  {
+   "id": "de.a2.u02.l05",
+   "unitId": "de.a2.u02",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 2 review",
+    "ar": "مراجعة الوحدة 2"
+   },
+   "items": [
+    "de.a2.vocab.treffen",
+    "de.a2.vocab.helfen",
+    "de.a2.vocab.moegen",
+    "de.a2.vocab.party",
+    "de.a2.vocab.beziehung",
+    "de.a2.vocab.nachbar",
+    "de.a2.vocab.freundin",
+    "de.a2.vocab.zusammen",
+    "de.a2.vocab.sich_streiten",
+    "de.a2.vocab.sich_erinnern",
+    "de.a2.vocab.einladen"
+   ]
+  },
+  {
+   "id": "de.a2.u03.l01",
+   "unitId": "de.a2.u03",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Clothes and appearance: words 1",
+    "ar": "اللبس والمظهر: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.kleidung",
+    "de.a2.vocab.hose",
+    "de.a2.vocab.kleid",
+    "de.a2.vocab.schuh",
+    "de.a2.vocab.jacke",
+    "de.a2.vocab.tragen"
+   ]
+  },
+  {
+   "id": "de.a2.u03.l02",
+   "unitId": "de.a2.u03",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Clothes and appearance: words 2",
+    "ar": "اللبس والمظهر: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.anprobieren",
+    "de.a2.vocab.farbe",
+    "de.a2.vocab.rot",
+    "de.a2.vocab.blau",
+    "de.a2.vocab.schwarz",
+    "de.a2.vocab.groesse"
+   ]
+  },
+  {
+   "id": "de.a2.u03.l03",
+   "unitId": "de.a2.u03",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Adjective endings and welch-, dies-",
+    "ar": "نهايات الصفات وwelch- وdies-"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u03"
+  },
+  {
+   "id": "de.a2.u03.l04",
+   "unitId": "de.a2.u03",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: clothes and appearance",
+    "ar": "استماع: اللبس والمظهر"
+   },
+   "items": [
+    "de.a2.sent.u03_01",
+    "de.a2.sent.u03_02",
+    "de.a2.sent.u03_03",
+    "de.a2.sent.u03_04"
+   ]
+  },
+  {
+   "id": "de.a2.u03.l05",
+   "unitId": "de.a2.u03",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 3 review",
+    "ar": "مراجعة الوحدة 3"
+   },
+   "items": [
+    "de.a2.vocab.kleidung",
+    "de.a2.vocab.hose",
+    "de.a2.vocab.kleid",
+    "de.a2.vocab.schuh",
+    "de.a2.vocab.jacke",
+    "de.a2.vocab.tragen",
+    "de.a2.vocab.anprobieren",
+    "de.a2.vocab.farbe",
+    "de.a2.vocab.rot",
+    "de.a2.vocab.blau",
+    "de.a2.vocab.schwarz",
+    "de.a2.vocab.groesse"
+   ]
+  },
+  {
+   "id": "de.a2.u04.l01",
+   "unitId": "de.a2.u04",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Living and moving house: words 1",
+    "ar": "السكن والنقل لبيت جديد: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.miete",
+    "de.a2.vocab.mieten",
+    "de.a2.vocab.moebel",
+    "de.a2.vocab.wand",
+    "de.a2.vocab.boden",
+    "de.a2.vocab.regal"
+   ]
+  },
+  {
+   "id": "de.a2.u04.l02",
+   "unitId": "de.a2.u04",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Living and moving house: words 2",
+    "ar": "السكن والنقل لبيت جديد: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.bild",
+    "de.a2.vocab.stellen",
+    "de.a2.vocab.haengen",
+    "de.a2.vocab.vermieter",
+    "de.a2.vocab.gegend"
+   ]
+  },
+  {
+   "id": "de.a2.u04.l03",
+   "unitId": "de.a2.u04",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Two-way prepositions: wohin? and wo?",
+    "ar": "حروف الجر ذات الوجهين: wohin؟ وwo؟"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u04"
+  },
+  {
+   "id": "de.a2.u04.l04",
+   "unitId": "de.a2.u04",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: living and moving house",
+    "ar": "استماع: السكن والنقل لبيت جديد"
+   },
+   "items": [
+    "de.a2.sent.u04_01",
+    "de.a2.sent.u04_02",
+    "de.a2.sent.u04_03",
+    "de.a2.sent.u04_04"
+   ]
+  },
+  {
+   "id": "de.a2.u04.l05",
+   "unitId": "de.a2.u04",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 4 review",
+    "ar": "مراجعة الوحدة 4"
+   },
+   "items": [
+    "de.a2.vocab.miete",
+    "de.a2.vocab.mieten",
+    "de.a2.vocab.moebel",
+    "de.a2.vocab.wand",
+    "de.a2.vocab.boden",
+    "de.a2.vocab.regal",
+    "de.a2.vocab.bild",
+    "de.a2.vocab.stellen",
+    "de.a2.vocab.haengen",
+    "de.a2.vocab.vermieter",
+    "de.a2.vocab.gegend"
+   ]
+  },
+  {
+   "id": "de.a2.u05.l01",
+   "unitId": "de.a2.u05",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Work life: words 1",
+    "ar": "حياة الشغل: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.besprechung",
+    "de.a2.vocab.firma",
+    "de.a2.vocab.gehalt",
+    "de.a2.vocab.termin",
+    "de.a2.vocab.aufgabe",
+    "de.a2.vocab.computer"
+   ]
+  },
+  {
+   "id": "de.a2.u05.l02",
+   "unitId": "de.a2.u05",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Work life: words 2",
+    "ar": "حياة الشغل: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.e_mail",
+    "de.a2.vocab.verdienen",
+    "de.a2.vocab.weil",
+    "de.a2.vocab.dass",
+    "de.a2.vocab.beschaeftigt",
+    "de.a2.vocab.interessant"
+   ]
+  },
+  {
+   "id": "de.a2.u05.l03",
+   "unitId": "de.a2.u05",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "weil, dass and Konjunktiv II (würde, hätte, wäre)",
+    "ar": "weil وdass والـ Konjunktiv II"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u05"
+  },
+  {
+   "id": "de.a2.u05.l04",
+   "unitId": "de.a2.u05",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: work life",
+    "ar": "استماع: حياة الشغل"
+   },
+   "items": [
+    "de.a2.sent.u05_01",
+    "de.a2.sent.u05_02",
+    "de.a2.sent.u05_03",
+    "de.a2.sent.u05_04"
+   ]
+  },
+  {
+   "id": "de.a2.u05.l05",
+   "unitId": "de.a2.u05",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 5 review",
+    "ar": "مراجعة الوحدة 5"
+   },
+   "items": [
+    "de.a2.vocab.besprechung",
+    "de.a2.vocab.firma",
+    "de.a2.vocab.gehalt",
+    "de.a2.vocab.termin",
+    "de.a2.vocab.aufgabe",
+    "de.a2.vocab.computer",
+    "de.a2.vocab.e_mail",
+    "de.a2.vocab.verdienen",
+    "de.a2.vocab.weil",
+    "de.a2.vocab.dass",
+    "de.a2.vocab.beschaeftigt",
+    "de.a2.vocab.interessant"
+   ]
+  },
+  {
+   "id": "de.a2.u06.l01",
+   "unitId": "de.a2.u06",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Media and technology: words 1",
+    "ar": "الإعلام والتكنولوجيا: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.handy",
+    "de.a2.vocab.internet",
+    "de.a2.vocab.nachricht",
+    "de.a2.vocab.schicken",
+    "de.a2.vocab.herunterladen",
+    "de.a2.vocab.bildschirm"
+   ]
+  },
+  {
+   "id": "de.a2.u06.l02",
+   "unitId": "de.a2.u06",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Media and technology: words 2",
+    "ar": "الإعلام والتكنولوجيا: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.passwort",
+    "de.a2.vocab.zeitung",
+    "de.a2.vocab.schnell",
+    "de.a2.vocab.besser",
+    "de.a2.vocab.wenn"
+   ]
+  },
+  {
+   "id": "de.a2.u06.l03",
+   "unitId": "de.a2.u06",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Comparative, superlative and wenn",
+    "ar": "المقارنة والتفضيل وwenn"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u06"
+  },
+  {
+   "id": "de.a2.u06.l04",
+   "unitId": "de.a2.u06",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: media and technology",
+    "ar": "استماع: الإعلام والتكنولوجيا"
+   },
+   "items": [
+    "de.a2.sent.u06_01",
+    "de.a2.sent.u06_02",
+    "de.a2.sent.u06_03",
+    "de.a2.sent.u06_04"
+   ]
+  },
+  {
+   "id": "de.a2.u06.l05",
+   "unitId": "de.a2.u06",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 6 review",
+    "ar": "مراجعة الوحدة 6"
+   },
+   "items": [
+    "de.a2.vocab.handy",
+    "de.a2.vocab.internet",
+    "de.a2.vocab.nachricht",
+    "de.a2.vocab.schicken",
+    "de.a2.vocab.herunterladen",
+    "de.a2.vocab.bildschirm",
+    "de.a2.vocab.passwort",
+    "de.a2.vocab.zeitung",
+    "de.a2.vocab.schnell",
+    "de.a2.vocab.besser",
+    "de.a2.vocab.wenn"
+   ]
+  },
+  {
+   "id": "de.a2.u07.l01",
+   "unitId": "de.a2.u07",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Health and fitness: words 1",
+    "ar": "الصحة واللياقة: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.sport",
+    "de.a2.vocab.laufen",
+    "de.a2.vocab.fitnessstudio",
+    "de.a2.vocab.muede",
+    "de.a2.vocab.sich_fuehlen",
+    "de.a2.vocab.sich_ausruhen"
+   ]
+  },
+  {
+   "id": "de.a2.u07.l02",
+   "unitId": "de.a2.u07",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Health and fitness: words 2",
+    "ar": "الصحة واللياقة: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.waschen",
+    "de.a2.vocab.zahn",
+    "de.a2.vocab.ernaehrung",
+    "de.a2.vocab.gewicht",
+    "de.a2.vocab.stress",
+    "de.a2.vocab.genug"
+   ]
+  },
+  {
+   "id": "de.a2.u07.l03",
+   "unitId": "de.a2.u07",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Reflexive verbs with dative and sollte",
+    "ar": "أفعال انعكاسية مع الداتيف وsollte"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u07"
+  },
+  {
+   "id": "de.a2.u07.l04",
+   "unitId": "de.a2.u07",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: health and fitness",
+    "ar": "استماع: الصحة واللياقة"
+   },
+   "items": [
+    "de.a2.sent.u07_01",
+    "de.a2.sent.u07_02",
+    "de.a2.sent.u07_03",
+    "de.a2.sent.u07_04"
+   ]
+  },
+  {
+   "id": "de.a2.u07.l05",
+   "unitId": "de.a2.u07",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 7 review",
+    "ar": "مراجعة الوحدة 7"
+   },
+   "items": [
+    "de.a2.vocab.sport",
+    "de.a2.vocab.laufen",
+    "de.a2.vocab.fitnessstudio",
+    "de.a2.vocab.muede",
+    "de.a2.vocab.sich_fuehlen",
+    "de.a2.vocab.sich_ausruhen",
+    "de.a2.vocab.waschen",
+    "de.a2.vocab.zahn",
+    "de.a2.vocab.ernaehrung",
+    "de.a2.vocab.gewicht",
+    "de.a2.vocab.stress",
+    "de.a2.vocab.genug"
+   ]
+  },
+  {
+   "id": "de.a2.u08.l01",
+   "unitId": "de.a2.u08",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and holidays: words 1",
+    "ar": "السفر والإجازات: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.buchen",
+    "de.a2.vocab.strand",
+    "de.a2.vocab.meer",
+    "de.a2.vocab.berg",
+    "de.a2.vocab.wetter",
+    "de.a2.vocab.sonne"
+   ]
+  },
+  {
+   "id": "de.a2.u08.l02",
+   "unitId": "de.a2.u08",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Travel and holidays: words 2",
+    "ar": "السفر والإجازات: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.regen",
+    "de.a2.vocab.reisepass",
+    "de.a2.vocab.im_ausland",
+    "de.a2.vocab.waehrend",
+    "de.a2.vocab.sehenswuerdigkeit"
+   ]
+  },
+  {
+   "id": "de.a2.u08.l03",
+   "unitId": "de.a2.u08",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Genitive basics and während",
+    "ar": "أساسيات الجينيتيف وwährend"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u08"
+  },
+  {
+   "id": "de.a2.u08.l04",
+   "unitId": "de.a2.u08",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: travel and holidays",
+    "ar": "استماع: السفر والإجازات"
+   },
+   "items": [
+    "de.a2.sent.u08_01",
+    "de.a2.sent.u08_02",
+    "de.a2.sent.u08_03",
+    "de.a2.sent.u08_04"
+   ]
+  },
+  {
+   "id": "de.a2.u08.l05",
+   "unitId": "de.a2.u08",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 8 review",
+    "ar": "مراجعة الوحدة 8"
+   },
+   "items": [
+    "de.a2.vocab.buchen",
+    "de.a2.vocab.strand",
+    "de.a2.vocab.meer",
+    "de.a2.vocab.berg",
+    "de.a2.vocab.wetter",
+    "de.a2.vocab.sonne",
+    "de.a2.vocab.regen",
+    "de.a2.vocab.reisepass",
+    "de.a2.vocab.im_ausland",
+    "de.a2.vocab.waehrend",
+    "de.a2.vocab.sehenswuerdigkeit"
+   ]
+  },
+  {
+   "id": "de.a2.u09.l01",
+   "unitId": "de.a2.u09",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Food culture: words 1",
+    "ar": "ثقافة الأكل: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.rezept",
+    "de.a2.vocab.haehnchen",
+    "de.a2.vocab.salz",
+    "de.a2.vocab.scharf",
+    "de.a2.vocab.suess"
+   ]
+  },
+  {
+   "id": "de.a2.u09.l02",
+   "unitId": "de.a2.u09",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Food culture: words 2",
+    "ar": "ثقافة الأكل: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.schmecken",
+    "de.a2.vocab.schneiden",
+    "de.a2.vocab.restaurant",
+    "de.a2.vocab.rechnung",
+    "de.a2.vocab.etwas"
+   ]
+  },
+  {
+   "id": "de.a2.u09.l03",
+   "unitId": "de.a2.u09",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Adjective endings in the dative; etwas, nichts",
+    "ar": "نهايات الصفة في الداتيف؛ etwas وnichts"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u09"
+  },
+  {
+   "id": "de.a2.u09.l04",
+   "unitId": "de.a2.u09",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: food culture",
+    "ar": "استماع: ثقافة الأكل"
+   },
+   "items": [
+    "de.a2.sent.u09_01",
+    "de.a2.sent.u09_02",
+    "de.a2.sent.u09_03",
+    "de.a2.sent.u09_04"
+   ]
+  },
+  {
+   "id": "de.a2.u09.l05",
+   "unitId": "de.a2.u09",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 9 review",
+    "ar": "مراجعة الوحدة 9"
+   },
+   "items": [
+    "de.a2.vocab.rezept",
+    "de.a2.vocab.haehnchen",
+    "de.a2.vocab.salz",
+    "de.a2.vocab.scharf",
+    "de.a2.vocab.suess",
+    "de.a2.vocab.schmecken",
+    "de.a2.vocab.schneiden",
+    "de.a2.vocab.restaurant",
+    "de.a2.vocab.rechnung",
+    "de.a2.vocab.etwas"
+   ]
+  },
+  {
+   "id": "de.a2.u10.l01",
+   "unitId": "de.a2.u10",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Services and authorities: words 1",
+    "ar": "الخدمات والجهات الرسمية: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.formular",
+    "de.a2.vocab.ausfuellen",
+    "de.a2.vocab.unterschreiben",
+    "de.a2.vocab.amt",
+    "de.a2.vocab.aufenthaltserlaubnis",
+    "de.a2.vocab.adresse"
+   ]
+  },
+  {
+   "id": "de.a2.u10.l02",
+   "unitId": "de.a2.u10",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Services and authorities: words 2",
+    "ar": "الخدمات والجهات الرسمية: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.dokument",
+    "de.a2.vocab.warten",
+    "de.a2.vocab.fragen",
+    "de.a2.vocab.geoeffnet",
+    "de.a2.vocab.geschlossen"
+   ]
+  },
+  {
+   "id": "de.a2.u10.l03",
+   "unitId": "de.a2.u10",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Indirect questions with ob, wo; passive (intro)",
+    "ar": "الأسئلة غير المباشرة بـ ob وwo؛ المبني للمجهول"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u10"
+  },
+  {
+   "id": "de.a2.u10.l04",
+   "unitId": "de.a2.u10",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: services and authorities",
+    "ar": "استماع: الخدمات والجهات الرسمية"
+   },
+   "items": [
+    "de.a2.sent.u10_01",
+    "de.a2.sent.u10_02",
+    "de.a2.sent.u10_03",
+    "de.a2.sent.u10_04"
+   ]
+  },
+  {
+   "id": "de.a2.u10.l05",
+   "unitId": "de.a2.u10",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 10 review",
+    "ar": "مراجعة الوحدة 10"
+   },
+   "items": [
+    "de.a2.vocab.formular",
+    "de.a2.vocab.ausfuellen",
+    "de.a2.vocab.unterschreiben",
+    "de.a2.vocab.amt",
+    "de.a2.vocab.aufenthaltserlaubnis",
+    "de.a2.vocab.adresse",
+    "de.a2.vocab.dokument",
+    "de.a2.vocab.warten",
+    "de.a2.vocab.fragen",
+    "de.a2.vocab.geoeffnet",
+    "de.a2.vocab.geschlossen"
+   ]
+  },
+  {
+   "id": "de.a2.u11.l01",
+   "unitId": "de.a2.u11",
+   "order": 1,
+   "type": "vocab",
+   "title": {
+    "en": "Celebrations and traditions: words 1",
+    "ar": "الاحتفالات والعادات: كلمات 1"
+   },
+   "items": [
+    "de.a2.vocab.geburtstag",
+    "de.a2.vocab.feiern",
+    "de.a2.vocab.geschenk",
+    "de.a2.vocab.gratulieren",
+    "de.a2.vocab.hochzeit"
+   ]
+  },
+  {
+   "id": "de.a2.u11.l02",
+   "unitId": "de.a2.u11",
+   "order": 2,
+   "type": "vocab",
+   "title": {
+    "en": "Celebrations and traditions: words 2",
+    "ar": "الاحتفالات والعادات: كلمات 2"
+   },
+   "items": [
+    "de.a2.vocab.tradition",
+    "de.a2.vocab.gast",
+    "de.a2.vocab.kuchen",
+    "de.a2.vocab.datum",
+    "de.a2.vocab.erste"
+   ]
+  },
+  {
+   "id": "de.a2.u11.l03",
+   "unitId": "de.a2.u11",
+   "order": 3,
+   "type": "grammar",
+   "title": {
+    "en": "Dates, ordinal numbers, als vs. wenn",
+    "ar": "التواريخ والأعداد الترتيبية، als ولا wenn"
+   },
+   "items": [],
+   "grammarId": "de.a2.gram.u11"
+  },
+  {
+   "id": "de.a2.u11.l04",
+   "unitId": "de.a2.u11",
+   "order": 4,
+   "type": "listening",
+   "title": {
+    "en": "Listen: celebrations and traditions",
+    "ar": "استماع: الاحتفالات والعادات"
+   },
+   "items": [
+    "de.a2.sent.u11_01",
+    "de.a2.sent.u11_02",
+    "de.a2.sent.u11_03",
+    "de.a2.sent.u11_04"
+   ]
+  },
+  {
+   "id": "de.a2.u11.l05",
+   "unitId": "de.a2.u11",
+   "order": 5,
+   "type": "review",
+   "title": {
+    "en": "Unit 11 review",
+    "ar": "مراجعة الوحدة 11"
+   },
+   "items": [
+    "de.a2.vocab.geburtstag",
+    "de.a2.vocab.feiern",
+    "de.a2.vocab.geschenk",
+    "de.a2.vocab.gratulieren",
+    "de.a2.vocab.hochzeit",
+    "de.a2.vocab.tradition",
+    "de.a2.vocab.gast",
+    "de.a2.vocab.kuchen",
+    "de.a2.vocab.datum",
+    "de.a2.vocab.erste"
+   ]
+  },
+  {
+   "id": "de.a2.u12.l01",
+   "unitId": "de.a2.u12",
+   "order": 1,
+   "type": "review",
+   "title": {
+    "en": "A2 words review",
+    "ar": "مراجعة كلمات A2"
+   },
+   "items": [
+    "de.a2.vocab.geboren_werden",
+    "de.a2.vocab.umziehen",
+    "de.a2.vocab.zurueckkommen",
+    "de.a2.vocab.helfen",
+    "de.a2.vocab.nachbar",
+    "de.a2.vocab.sich_erinnern",
+    "de.a2.vocab.kleid",
+    "de.a2.vocab.anprobieren",
+    "de.a2.vocab.schwarz",
+    "de.a2.vocab.moebel",
+    "de.a2.vocab.bild",
+    "de.a2.vocab.gegend",
+    "de.a2.vocab.termin",
+    "de.a2.vocab.verdienen",
+    "de.a2.vocab.interessant",
+    "de.a2.vocab.schicken",
+    "de.a2.vocab.zeitung",
+    "de.a2.vocab.sport",
+    "de.a2.vocab.sich_fuehlen",
+    "de.a2.vocab.ernaehrung",
+    "de.a2.vocab.buchen",
+    "de.a2.vocab.wetter",
+    "de.a2.vocab.im_ausland",
+    "de.a2.vocab.haehnchen",
+    "de.a2.vocab.schmecken",
+    "de.a2.vocab.etwas",
+    "de.a2.vocab.amt",
+    "de.a2.vocab.warten",
+    "de.a2.vocab.geburtstag",
+    "de.a2.vocab.hochzeit"
+   ]
+  },
+  {
+   "id": "de.a2.u12.l02",
+   "unitId": "de.a2.u12",
+   "order": 2,
+   "type": "exam",
+   "title": {
+    "en": "A2 exam",
+    "ar": "امتحان A2"
+   },
+   "items": []
+  }
+ ],
+ "vocab": [
+  {
+   "id": "de.a2.vocab.geboren_werden",
+   "lemma": "geboren werden",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتولد",
+    "en": "to be born"
+   },
+   "conceptId": "c.a2.be_born",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.kindheit",
+   "lemma": "Kindheit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الطفولة",
+    "en": "childhood"
+   },
+   "conceptId": "c.a2.childhood",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.aufwachsen",
+   "lemma": "aufwachsen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكبر، يتربى",
+    "en": "to grow up"
+   },
+   "conceptId": "c.a2.grow_up",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.vergangenheit",
+   "lemma": "Vergangenheit",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الماضي",
+    "en": "past"
+   },
+   "conceptId": "c.a2.past",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.umziehen",
+   "lemma": "umziehen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعزّل",
+    "en": "to move (house)"
+   },
+   "conceptId": "c.a2.move_house",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.heiraten",
+   "lemma": "heiraten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتجوز",
+    "en": "to get married"
+   },
+   "conceptId": "c.a2.marry",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.studieren",
+   "lemma": "studieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يدرس في الجامعة",
+    "en": "to study (at university)"
+   },
+   "conceptId": "c.a2.study",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gehen",
+   "lemma": "gehen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يروح",
+    "en": "to go"
+   },
+   "conceptId": "c.a2.go",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.zurueckkommen",
+   "lemma": "zurückkommen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يرجع",
+    "en": "to come back"
+   },
+   "conceptId": "c.a2.come_back",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.vor",
+   "lemma": "vor",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "من (زمان)",
+    "en": "ago"
+   },
+   "conceptId": "c.a2.ago",
+   "sentenceIds": [
+    "de.a2.sent.u01_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.als",
+   "lemma": "als",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لما (في الماضي)",
+    "en": "when (once, in the past)"
+   },
+   "conceptId": "c.a2.when_past",
+   "sentenceIds": [
+    "de.a2.sent.u01_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.treffen",
+   "lemma": "treffen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقابل",
+    "en": "to meet"
+   },
+   "conceptId": "c.a2.meet",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.helfen",
+   "lemma": "helfen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يساعد",
+    "en": "to help"
+   },
+   "conceptId": "c.a2.help",
+   "sentenceIds": [
+    "de.a2.sent.u02_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.moegen",
+   "lemma": "mögen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستلطف، يحب",
+    "en": "to like (someone)"
+   },
+   "conceptId": "c.a2.like_person",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.party",
+   "lemma": "Party",
+   "article": "die",
+   "plural": "Partys",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حفلة",
+    "en": "party"
+   },
+   "conceptId": "c.a2.party",
+   "sentenceIds": [
+    "de.a2.sent.u02_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.beziehung",
+   "lemma": "Beziehung",
+   "article": "die",
+   "plural": "Beziehungen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "علاقة",
+    "en": "relationship"
+   },
+   "conceptId": "c.a2.relationship",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.nachbar",
+   "lemma": "Nachbar",
+   "article": "der",
+   "plural": "Nachbarn",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جار",
+    "en": "neighbour"
+   },
+   "conceptId": "c.a2.neighbour",
+   "sentenceIds": [
+    "de.a2.sent.u02_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.freundin",
+   "lemma": "Freundin",
+   "article": "die",
+   "plural": "Freundinnen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحبة، حبيبة",
+    "en": "girlfriend; female friend"
+   },
+   "conceptId": "c.a2.girlfriend",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.zusammen",
+   "lemma": "zusammen",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مع بعض",
+    "en": "together"
+   },
+   "conceptId": "c.a2.together",
+   "sentenceIds": [
+    "de.a2.sent.u02_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sich_streiten",
+   "lemma": "sich streiten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يتخانق",
+    "en": "to argue"
+   },
+   "conceptId": "c.a2.argue",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sich_erinnern",
+   "lemma": "sich erinnern",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يفتكر",
+    "en": "to remember"
+   },
+   "conceptId": "c.a2.remember",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.einladen",
+   "lemma": "einladen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعزم",
+    "en": "to invite"
+   },
+   "conceptId": "c.a2.invite",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.kleidung",
+   "lemma": "Kleidung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "هدوم",
+    "en": "clothes"
+   },
+   "conceptId": "c.a2.clothes",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.hose",
+   "lemma": "Hose",
+   "article": "die",
+   "plural": "Hosen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "بنطلون",
+    "en": "trousers"
+   },
+   "conceptId": "c.a2.trousers",
+   "sentenceIds": [
+    "de.a2.sent.u03_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.kleid",
+   "lemma": "Kleid",
+   "article": "das",
+   "plural": "Kleider",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "فستان",
+    "en": "dress"
+   },
+   "conceptId": "c.a2.dress",
+   "sentenceIds": [
+    "de.a2.sent.u03_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schuh",
+   "lemma": "Schuh",
+   "article": "der",
+   "plural": "Schuhe",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جزمة",
+    "en": "shoe"
+   },
+   "conceptId": "c.a2.shoe",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.jacke",
+   "lemma": "Jacke",
+   "article": "die",
+   "plural": "Jacken",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جاكيت",
+    "en": "jacket"
+   },
+   "conceptId": "c.a2.jacket",
+   "sentenceIds": [
+    "de.a2.sent.u03_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.tragen",
+   "lemma": "tragen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يلبس",
+    "en": "to wear"
+   },
+   "conceptId": "c.a2.wear",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.anprobieren",
+   "lemma": "anprobieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقيس",
+    "en": "to try on"
+   },
+   "conceptId": "c.a2.try_on",
+   "sentenceIds": [
+    "de.a2.sent.u03_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.farbe",
+   "lemma": "Farbe",
+   "article": "die",
+   "plural": "Farben",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لون",
+    "en": "colour"
+   },
+   "conceptId": "c.a2.colour",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.rot",
+   "lemma": "rot",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أحمر",
+    "en": "red"
+   },
+   "conceptId": "c.a2.red",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.blau",
+   "lemma": "blau",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أزرق",
+    "en": "blue"
+   },
+   "conceptId": "c.a2.blue",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schwarz",
+   "lemma": "schwarz",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أسود",
+    "en": "black"
+   },
+   "conceptId": "c.a2.black",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.groesse",
+   "lemma": "Größe",
+   "article": "die",
+   "plural": "Größen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مقاس",
+    "en": "size"
+   },
+   "conceptId": "c.a2.size",
+   "sentenceIds": [
+    "de.a2.sent.u03_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.miete",
+   "lemma": "Miete",
+   "article": "die",
+   "plural": "Mieten",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيجار",
+    "en": "rent"
+   },
+   "conceptId": "c.a2.rent",
+   "sentenceIds": [
+    "de.a2.sent.u04_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.mieten",
+   "lemma": "mieten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يأجّر",
+    "en": "to rent"
+   },
+   "conceptId": "c.a2.rent_v",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.moebel",
+   "lemma": "Möbel",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عفش، أثاث",
+    "en": "furniture"
+   },
+   "conceptId": "c.a2.furniture",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.wand",
+   "lemma": "Wand",
+   "article": "die",
+   "plural": "Wände",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حيطة",
+    "en": "wall"
+   },
+   "conceptId": "c.a2.wall",
+   "sentenceIds": [
+    "de.a2.sent.u04_02",
+    "de.a2.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.boden",
+   "lemma": "Boden",
+   "article": "der",
+   "plural": "Böden",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أرضية",
+    "en": "floor"
+   },
+   "conceptId": "c.a2.floor",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.regal",
+   "lemma": "Regal",
+   "article": "das",
+   "plural": "Regale",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رف",
+    "en": "shelf"
+   },
+   "conceptId": "c.a2.shelf",
+   "sentenceIds": [
+    "de.a2.sent.u04_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.bild",
+   "lemma": "Bild",
+   "article": "das",
+   "plural": "Bilder",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "صورة، لوحة",
+    "en": "picture"
+   },
+   "conceptId": "c.a2.picture",
+   "sentenceIds": [
+    "de.a2.sent.u04_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.stellen",
+   "lemma": "stellen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحط (واقف)",
+    "en": "to put (upright)"
+   },
+   "conceptId": "c.a2.put_stand",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.haengen",
+   "lemma": "hängen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يعلّق",
+    "en": "to hang"
+   },
+   "conceptId": "c.a2.hang",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.vermieter",
+   "lemma": "Vermieter",
+   "article": "der",
+   "plural": "Vermieter",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "صاحب البيت",
+    "en": "landlord"
+   },
+   "conceptId": "c.a2.landlord",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gegend",
+   "lemma": "Gegend",
+   "article": "die",
+   "plural": "Gegenden",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حي، منطقة",
+    "en": "neighbourhood"
+   },
+   "conceptId": "c.a2.neighbourhood",
+   "sentenceIds": [
+    "de.a2.sent.u04_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.besprechung",
+   "lemma": "Besprechung",
+   "article": "die",
+   "plural": "Besprechungen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "اجتماع",
+    "en": "meeting"
+   },
+   "conceptId": "c.a2.meeting",
+   "sentenceIds": [
+    "de.a2.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.firma",
+   "lemma": "Firma",
+   "article": "die",
+   "plural": "Firmen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شركة",
+    "en": "company"
+   },
+   "conceptId": "c.a2.company",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gehalt",
+   "lemma": "Gehalt",
+   "article": "das",
+   "plural": "Gehälter",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مرتب",
+    "en": "salary"
+   },
+   "conceptId": "c.a2.salary",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.termin",
+   "lemma": "Termin",
+   "article": "der",
+   "plural": "Termine",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ميعاد",
+    "en": "appointment"
+   },
+   "conceptId": "c.a2.appointment",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.aufgabe",
+   "lemma": "Aufgabe",
+   "article": "die",
+   "plural": "Aufgaben",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مهمة",
+    "en": "task"
+   },
+   "conceptId": "c.a2.task",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.computer",
+   "lemma": "Computer",
+   "article": "der",
+   "plural": "Computer",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "كمبيوتر",
+    "en": "computer"
+   },
+   "conceptId": "c.a2.computer",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.e_mail",
+   "lemma": "E-Mail",
+   "article": "die",
+   "plural": "E-Mails",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إيميل",
+    "en": "email"
+   },
+   "conceptId": "c.a2.email",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.verdienen",
+   "lemma": "verdienen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يكسب",
+    "en": "to earn"
+   },
+   "conceptId": "c.a2.earn",
+   "sentenceIds": [
+    "de.a2.sent.u05_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.weil",
+   "lemma": "weil",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عشان",
+    "en": "because"
+   },
+   "conceptId": "c.a2.because",
+   "sentenceIds": [
+    "de.a2.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.dass",
+   "lemma": "dass",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إن",
+    "en": "that"
+   },
+   "conceptId": "c.a2.that_conj",
+   "sentenceIds": [
+    "de.a2.sent.u05_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.beschaeftigt",
+   "lemma": "beschäftigt",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مشغول",
+    "en": "busy"
+   },
+   "conceptId": "c.a2.busy",
+   "sentenceIds": [
+    "de.a2.sent.u05_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.interessant",
+   "lemma": "interessant",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ممتع، مثير للاهتمام",
+    "en": "interesting"
+   },
+   "conceptId": "c.a2.interesting",
+   "sentenceIds": [
+    "de.a2.sent.u05_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.handy",
+   "lemma": "Handy",
+   "article": "das",
+   "plural": "Handys",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "موبايل",
+    "en": "mobile phone"
+   },
+   "conceptId": "c.a2.phone",
+   "sentenceIds": [
+    "de.a2.sent.u06_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.internet",
+   "lemma": "Internet",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إنترنت",
+    "en": "internet"
+   },
+   "conceptId": "c.a2.internet",
+   "sentenceIds": [
+    "de.a2.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.nachricht",
+   "lemma": "Nachricht",
+   "article": "die",
+   "plural": "Nachrichten",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رسالة",
+    "en": "message"
+   },
+   "conceptId": "c.a2.message",
+   "sentenceIds": [
+    "de.a2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schicken",
+   "lemma": "schicken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يبعت",
+    "en": "to send"
+   },
+   "conceptId": "c.a2.send",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.herunterladen",
+   "lemma": "herunterladen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ينزّل، يحمّل",
+    "en": "to download"
+   },
+   "conceptId": "c.a2.download",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.bildschirm",
+   "lemma": "Bildschirm",
+   "article": "der",
+   "plural": "Bildschirme",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شاشة",
+    "en": "screen"
+   },
+   "conceptId": "c.a2.screen",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.passwort",
+   "lemma": "Passwort",
+   "article": "das",
+   "plural": "Passwörter",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "باسورد",
+    "en": "password"
+   },
+   "conceptId": "c.a2.password",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.zeitung",
+   "lemma": "Zeitung",
+   "article": "die",
+   "plural": "Zeitungen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جرنال",
+    "en": "newspaper"
+   },
+   "conceptId": "c.a2.newspaper",
+   "sentenceIds": [
+    "de.a2.sent.u06_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schnell",
+   "lemma": "schnell",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سريع",
+    "en": "fast"
+   },
+   "conceptId": "c.a2.fast",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.besser",
+   "lemma": "besser",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أحسن",
+    "en": "better"
+   },
+   "conceptId": "c.a2.better",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.wenn",
+   "lemma": "wenn",
+   "article": null,
+   "plural": null,
+   "pos": "conjunction",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "لو، لما",
+    "en": "if, whenever"
+   },
+   "conceptId": "c.a2.if_cond",
+   "sentenceIds": [
+    "de.a2.sent.u06_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sport",
+   "lemma": "Sport",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "رياضة",
+    "en": "sport"
+   },
+   "conceptId": "c.a2.sport",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.laufen",
+   "lemma": "laufen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يجري",
+    "en": "to run"
+   },
+   "conceptId": "c.a2.run",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.fitnessstudio",
+   "lemma": "Fitnessstudio",
+   "article": "das",
+   "plural": "Fitnessstudios",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جيم",
+    "en": "gym"
+   },
+   "conceptId": "c.a2.gym",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.muede",
+   "lemma": "müde",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تعبان",
+    "en": "tired"
+   },
+   "conceptId": "c.a2.tired",
+   "sentenceIds": [
+    "de.a2.sent.u07_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sich_fuehlen",
+   "lemma": "sich fühlen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحس",
+    "en": "to feel"
+   },
+   "conceptId": "c.a2.feel",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sich_ausruhen",
+   "lemma": "sich ausruhen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يرتاح",
+    "en": "to rest"
+   },
+   "conceptId": "c.a2.rest",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.waschen",
+   "lemma": "waschen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يغسل",
+    "en": "to wash"
+   },
+   "conceptId": "c.a2.wash",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.zahn",
+   "lemma": "Zahn",
+   "article": "der",
+   "plural": "Zähne",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "سنة (ضرس)",
+    "en": "tooth"
+   },
+   "conceptId": "c.a2.teeth",
+   "sentenceIds": [
+    "de.a2.sent.u07_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.ernaehrung",
+   "lemma": "Ernährung",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "نظام أكل",
+    "en": "diet (food habits)"
+   },
+   "conceptId": "c.a2.diet",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gewicht",
+   "lemma": "Gewicht",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "وزن",
+    "en": "weight"
+   },
+   "conceptId": "c.a2.weight",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.stress",
+   "lemma": "Stress",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ضغط، توتر",
+    "en": "stress"
+   },
+   "conceptId": "c.a2.stress",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.genug",
+   "lemma": "genug",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "كفاية",
+    "en": "enough"
+   },
+   "conceptId": "c.a2.enough",
+   "sentenceIds": [
+    "de.a2.sent.u07_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.buchen",
+   "lemma": "buchen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحجز",
+    "en": "to book"
+   },
+   "conceptId": "c.a2.room_book",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.strand",
+   "lemma": "Strand",
+   "article": "der",
+   "plural": "Strände",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شط",
+    "en": "beach"
+   },
+   "conceptId": "c.a2.beach",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.meer",
+   "lemma": "Meer",
+   "article": "das",
+   "plural": "Meere",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "بحر",
+    "en": "sea"
+   },
+   "conceptId": "c.a2.sea",
+   "sentenceIds": [
+    "de.a2.sent.u08_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.berg",
+   "lemma": "Berg",
+   "article": "der",
+   "plural": "Berge",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "جبل",
+    "en": "mountain"
+   },
+   "conceptId": "c.a2.mountain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.wetter",
+   "lemma": "Wetter",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الجو",
+    "en": "weather"
+   },
+   "conceptId": "c.a2.weather",
+   "sentenceIds": [
+    "de.a2.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sonne",
+   "lemma": "Sonne",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "شمس",
+    "en": "sun"
+   },
+   "conceptId": "c.a2.sun",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.regen",
+   "lemma": "Regen",
+   "article": "der",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مطر",
+    "en": "rain"
+   },
+   "conceptId": "c.a2.rain",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.reisepass",
+   "lemma": "Reisepass",
+   "article": "der",
+   "plural": "Reisepässe",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "باسبور",
+    "en": "passport"
+   },
+   "conceptId": "c.a2.passport",
+   "sentenceIds": [
+    "de.a2.sent.u08_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.im_ausland",
+   "lemma": "im Ausland",
+   "article": null,
+   "plural": null,
+   "pos": "adverb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "برة البلد",
+    "en": "abroad"
+   },
+   "conceptId": "c.a2.abroad",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.waehrend",
+   "lemma": "während",
+   "article": null,
+   "plural": null,
+   "pos": "preposition",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "خلال",
+    "en": "during"
+   },
+   "conceptId": "c.a2.during",
+   "sentenceIds": [
+    "de.a2.sent.u08_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.sehenswuerdigkeit",
+   "lemma": "Sehenswürdigkeit",
+   "article": "die",
+   "plural": "Sehenswürdigkeiten",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "معلم سياحي",
+    "en": "sight, place of interest"
+   },
+   "conceptId": "c.a2.sightseeing",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.rezept",
+   "lemma": "Rezept",
+   "article": "das",
+   "plural": "Rezepte",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "وصفة",
+    "en": "recipe"
+   },
+   "conceptId": "c.a2.recipe",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.haehnchen",
+   "lemma": "Hähnchen",
+   "article": "das",
+   "plural": "Hähnchen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "فراخ",
+    "en": "chicken"
+   },
+   "conceptId": "c.a2.chicken",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.salz",
+   "lemma": "Salz",
+   "article": "das",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ملح",
+    "en": "salt"
+   },
+   "conceptId": "c.a2.salt",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.scharf",
+   "lemma": "scharf",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حراق",
+    "en": "spicy, hot"
+   },
+   "conceptId": "c.a2.spicy",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.suess",
+   "lemma": "süß",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مسكّر، حلو",
+    "en": "sweet"
+   },
+   "conceptId": "c.a2.sweet",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schmecken",
+   "lemma": "schmecken",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "طعمه",
+    "en": "to taste"
+   },
+   "conceptId": "c.a2.taste",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.schneiden",
+   "lemma": "schneiden",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يقطّع",
+    "en": "to cut"
+   },
+   "conceptId": "c.a2.cut",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.restaurant",
+   "lemma": "Restaurant",
+   "article": "das",
+   "plural": "Restaurants",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مطعم",
+    "en": "restaurant"
+   },
+   "conceptId": "c.a2.restaurant",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.rechnung",
+   "lemma": "Rechnung",
+   "article": "die",
+   "plural": "Rechnungen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "الحساب",
+    "en": "bill"
+   },
+   "conceptId": "c.a2.bill",
+   "sentenceIds": [
+    "de.a2.sent.u09_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.etwas",
+   "lemma": "etwas",
+   "article": null,
+   "plural": null,
+   "pos": "pronoun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "حاجة",
+    "en": "something"
+   },
+   "conceptId": "c.a2.something",
+   "sentenceIds": [
+    "de.a2.sent.u09_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.formular",
+   "lemma": "Formular",
+   "article": "das",
+   "plural": "Formulare",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "استمارة",
+    "en": "form"
+   },
+   "conceptId": "c.a2.form",
+   "sentenceIds": [
+    "de.a2.sent.u10_01",
+    "de.a2.sent.u10_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.ausfuellen",
+   "lemma": "ausfüllen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يملا",
+    "en": "to fill in"
+   },
+   "conceptId": "c.a2.fill_in",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.unterschreiben",
+   "lemma": "unterschreiben",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يمضي",
+    "en": "to sign"
+   },
+   "conceptId": "c.a2.sign",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.amt",
+   "lemma": "Amt",
+   "article": "das",
+   "plural": "Ämter",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مصلحة حكومية",
+    "en": "public office, authority"
+   },
+   "conceptId": "c.a2.office_authority",
+   "sentenceIds": [
+    "de.a2.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.aufenthaltserlaubnis",
+   "lemma": "Aufenthaltserlaubnis",
+   "article": "die",
+   "plural": null,
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "إقامة",
+    "en": "residence permit"
+   },
+   "conceptId": "c.a2.residence_permit",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.adresse",
+   "lemma": "Adresse",
+   "article": "die",
+   "plural": "Adressen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عنوان",
+    "en": "address"
+   },
+   "conceptId": "c.a2.address",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.dokument",
+   "lemma": "Dokument",
+   "article": "das",
+   "plural": "Dokumente",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ورقة رسمية، مستند",
+    "en": "document"
+   },
+   "conceptId": "c.a2.documents",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.warten",
+   "lemma": "warten",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يستنى",
+    "en": "to wait"
+   },
+   "conceptId": "c.a2.wait",
+   "sentenceIds": [
+    "de.a2.sent.u10_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.fragen",
+   "lemma": "fragen",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يسأل",
+    "en": "to ask"
+   },
+   "conceptId": "c.a2.question_ask",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.geoeffnet",
+   "lemma": "geöffnet",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مفتوح",
+    "en": "open"
+   },
+   "conceptId": "c.a2.open_adj",
+   "sentenceIds": [
+    "de.a2.sent.u10_02"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.geschlossen",
+   "lemma": "geschlossen",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "مقفول",
+    "en": "closed"
+   },
+   "conceptId": "c.a2.closed",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.geburtstag",
+   "lemma": "Geburtstag",
+   "article": "der",
+   "plural": "Geburtstage",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عيد ميلاد",
+    "en": "birthday"
+   },
+   "conceptId": "c.a2.birthday",
+   "sentenceIds": [
+    "de.a2.sent.u11_01"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.feiern",
+   "lemma": "feiern",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يحتفل",
+    "en": "to celebrate"
+   },
+   "conceptId": "c.a2.celebrate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.geschenk",
+   "lemma": "Geschenk",
+   "article": "das",
+   "plural": "Geschenke",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "هدية",
+    "en": "present, gift"
+   },
+   "conceptId": "c.a2.present",
+   "sentenceIds": [
+    "de.a2.sent.u11_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gratulieren",
+   "lemma": "gratulieren",
+   "article": null,
+   "plural": null,
+   "pos": "verb",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "يهنّي",
+    "en": "to congratulate"
+   },
+   "conceptId": "c.a2.congratulate",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.hochzeit",
+   "lemma": "Hochzeit",
+   "article": "die",
+   "plural": "Hochzeiten",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "فرح",
+    "en": "wedding"
+   },
+   "conceptId": "c.a2.wedding",
+   "sentenceIds": [
+    "de.a2.sent.u11_03"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.tradition",
+   "lemma": "Tradition",
+   "article": "die",
+   "plural": "Traditionen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "عادة، تقليد",
+    "en": "tradition"
+   },
+   "conceptId": "c.a2.tradition",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.gast",
+   "lemma": "Gast",
+   "article": "der",
+   "plural": "Gäste",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "ضيف",
+    "en": "guest"
+   },
+   "conceptId": "c.a2.guest",
+   "sentenceIds": [
+    "de.a2.sent.u11_04"
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.kuchen",
+   "lemma": "Kuchen",
+   "article": "der",
+   "plural": "Kuchen",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تورتة، كيكة",
+    "en": "cake"
+   },
+   "conceptId": "c.a2.cake",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.datum",
+   "lemma": "Datum",
+   "article": "das",
+   "plural": "Daten",
+   "pos": "noun",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "تاريخ",
+    "en": "date"
+   },
+   "conceptId": "c.a2.date_day",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.vocab.erste",
+   "lemma": "erste",
+   "article": null,
+   "plural": null,
+   "pos": "adjective",
+   "level": "A2",
+   "freqRank": null,
+   "translations": {
+    "ar": "أول",
+    "en": "first"
+   },
+   "conceptId": "c.a2.first",
+   "sentenceIds": [],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "sentences": [
+  {
+   "id": "de.a2.sent.u01_01",
+   "text": "Ich bin 1998 in Kairo geboren.",
+   "translations": {
+    "ar": "اتولدت في القاهرة سنة 1998.",
+    "en": "I was born in Cairo in 1998."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u01_02",
+   "text": "Als ich ein Kind war, sind wir nach Alexandria umgezogen.",
+   "translations": {
+    "ar": "لما كنت صغير، عزّلنا إسكندرية.",
+    "en": "When I was a child, we moved to Alexandria."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u01_03",
+   "text": "Vor zwei Jahren bin ich nach Deutschland gegangen.",
+   "translations": {
+    "ar": "من سنتين رحت ألمانيا.",
+    "en": "Two years ago I went to Germany."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u01_04",
+   "text": "Meine Eltern haben 1990 geheiratet.",
+   "translations": {
+    "ar": "أهلي اتجوزوا سنة 1990.",
+    "en": "My parents got married in 1990."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u02_01",
+   "text": "Ich habe meinen Freund auf einer Party getroffen.",
+   "translations": {
+    "ar": "قابلت صاحبي في حفلة.",
+    "en": "I met my friend at a party."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u02_02",
+   "text": "Kannst du mir helfen?",
+   "translations": {
+    "ar": "ممكن تساعدني؟",
+    "en": "Can you help me?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u02_03",
+   "text": "Ich erinnere mich an unseren ersten Urlaub zusammen.",
+   "translations": {
+    "ar": "فاكر أول إجازة لينا مع بعض.",
+    "en": "I remember our first holiday together."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u02_04",
+   "text": "Wir laden die Nachbarn ein.",
+   "translations": {
+    "ar": "هنعزم الجيران.",
+    "en": "We are inviting the neighbours."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u03_01",
+   "text": "Ich trage eine blaue Jacke.",
+   "translations": {
+    "ar": "لابس جاكيت أزرق.",
+    "en": "I am wearing a blue jacket."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u03_02",
+   "text": "Kann ich die schwarze Hose anprobieren?",
+   "translations": {
+    "ar": "ممكن أقيس البنطلون الأسود؟",
+    "en": "Can I try on the black trousers?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u03_03",
+   "text": "Welche Größe brauchen Sie?",
+   "translations": {
+    "ar": "محتاج مقاس كام؟",
+    "en": "Which size do you need?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u03_04",
+   "text": "Dieses rote Kleid ist sehr schön.",
+   "translations": {
+    "ar": "الفستان الأحمر ده حلو جدًا.",
+    "en": "This red dress is very nice."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u04_01",
+   "text": "Die Miete ist zu teuer.",
+   "translations": {
+    "ar": "الإيجار غالي أوي.",
+    "en": "The rent is too expensive."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u04_02",
+   "text": "Ich stelle das Regal an die Wand.",
+   "translations": {
+    "ar": "حطيت الرف على الحيطة.",
+    "en": "I put the shelf against the wall."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u04_03",
+   "text": "Das Bild hängt an der Wand.",
+   "translations": {
+    "ar": "الصورة متعلقة على الحيطة.",
+    "en": "The picture is hanging on the wall."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u04_04",
+   "text": "Wir wohnen in einer ruhigen Gegend.",
+   "translations": {
+    "ar": "ساكنين في منطقة هادية.",
+    "en": "We live in a quiet neighbourhood."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u05_01",
+   "text": "Ich mag meine Arbeit, weil sie interessant ist.",
+   "translations": {
+    "ar": "بحب شغلي عشان ممتع.",
+    "en": "I like my job because it is interesting."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u05_02",
+   "text": "Ich glaube, dass die Besprechung um zehn ist.",
+   "translations": {
+    "ar": "أعتقد إن الاجتماع الساعة عشرة.",
+    "en": "I think that the meeting is at ten."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u05_03",
+   "text": "Ich würde gern mehr verdienen.",
+   "translations": {
+    "ar": "نفسي أكسب أكتر.",
+    "en": "I would like to earn more."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u05_04",
+   "text": "Heute bin ich sehr beschäftigt.",
+   "translations": {
+    "ar": "النهاردة أنا مشغول جدًا.",
+    "en": "Today I am very busy."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u06_01",
+   "text": "Mein neues Handy ist schneller als das alte.",
+   "translations": {
+    "ar": "موبايلي الجديد أسرع من القديم.",
+    "en": "My new phone is faster than the old one."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u06_02",
+   "text": "Wenn ich Zeit habe, schicke ich dir eine Nachricht.",
+   "translations": {
+    "ar": "لو عندي وقت هبعتلك رسالة.",
+    "en": "If I have time, I'll send you a message."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u06_03",
+   "text": "Ich lese die Zeitung im Internet.",
+   "translations": {
+    "ar": "بقرا الجرنال على النت.",
+    "en": "I read the newspaper on the internet."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u06_04",
+   "text": "Das ist der beste Computer.",
+   "translations": {
+    "ar": "ده أحسن كمبيوتر.",
+    "en": "This is the best computer."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u07_01",
+   "text": "Ich laufe dreimal pro Woche.",
+   "translations": {
+    "ar": "بجري تلات مرات في الأسبوع.",
+    "en": "I run three times a week."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u07_02",
+   "text": "Ich fühle mich heute müde.",
+   "translations": {
+    "ar": "حاسس إني تعبان النهاردة.",
+    "en": "I feel tired today."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u07_03",
+   "text": "Du solltest genug schlafen.",
+   "translations": {
+    "ar": "المفروض تنام كفاية.",
+    "en": "You should sleep enough."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u07_04",
+   "text": "Ich putze mir jeden Morgen die Zähne.",
+   "translations": {
+    "ar": "بغسل سناني كل يوم الصبح.",
+    "en": "I brush my teeth every morning."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u08_01",
+   "text": "Wir haben ein Hotel am Meer gebucht.",
+   "translations": {
+    "ar": "حجزنا فندق على البحر.",
+    "en": "We booked a hotel by the sea."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u08_02",
+   "text": "Während des Urlaubs war das Wetter gut.",
+   "translations": {
+    "ar": "خلال الإجازة الجو كان حلو.",
+    "en": "During the holiday the weather was good."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u08_03",
+   "text": "Der Reisepass meiner Schwester ist in der Tasche.",
+   "translations": {
+    "ar": "باسبور أختي في الشنطة.",
+    "en": "My sister's passport is in the bag."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u08_04",
+   "text": "In den Bergen hat es viel geregnet.",
+   "translations": {
+    "ar": "في الجبال مطرت كتير.",
+    "en": "In the mountains it rained a lot."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u09_01",
+   "text": "Die Suppe schmeckt sehr gut.",
+   "translations": {
+    "ar": "الشوربة طعمها حلو أوي.",
+    "en": "The soup tastes very good."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u09_02",
+   "text": "Ich schneide das frische Gemüse.",
+   "translations": {
+    "ar": "بقطّع الخضار الطازة.",
+    "en": "I cut the fresh vegetables."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u09_03",
+   "text": "Möchtest du etwas Süßes?",
+   "translations": {
+    "ar": "تحب حاجة حلوة؟",
+    "en": "Would you like something sweet?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u09_04",
+   "text": "Die Rechnung, bitte!",
+   "translations": {
+    "ar": "الحساب لو سمحت!",
+    "en": "The bill, please!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u10_01",
+   "text": "Bitte füllen Sie das Formular aus.",
+   "translations": {
+    "ar": "من فضلك املا الاستمارة.",
+    "en": "Please fill in the form."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u10_02",
+   "text": "Können Sie mir sagen, ob das Amt geöffnet ist?",
+   "translations": {
+    "ar": "ممكن تقولي إذا كانت المصلحة فاتحة؟",
+    "en": "Can you tell me whether the office is open?"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u10_03",
+   "text": "Das Formular wird hier unterschrieben.",
+   "translations": {
+    "ar": "الاستمارة بتتمضي هنا.",
+    "en": "The form is signed here."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u10_04",
+   "text": "Ich weiß nicht, wo ich warten muss.",
+   "translations": {
+    "ar": "مش عارف لازم أستنى فين.",
+    "en": "I don't know where I have to wait."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u11_01",
+   "text": "Mein Geburtstag ist am dritten Mai.",
+   "translations": {
+    "ar": "عيد ميلادي يوم تلاتة مايو.",
+    "en": "My birthday is on the third of May."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u11_02",
+   "text": "Als ich zwanzig war, haben wir eine große Party gefeiert.",
+   "translations": {
+    "ar": "لما كان عندي عشرين سنة، عملنا حفلة كبيرة.",
+    "en": "When I was twenty, we celebrated a big party."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u11_03",
+   "text": "Ich gratuliere dir zur Hochzeit!",
+   "translations": {
+    "ar": "مبروك على الفرح!",
+    "en": "Congratulations on your wedding!"
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  },
+  {
+   "id": "de.a2.sent.u11_04",
+   "text": "Die Gäste bringen Geschenke mit.",
+   "translations": {
+    "ar": "الضيوف بيجيبوا هدايا.",
+    "en": "The guests bring presents."
+   },
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0",
+   "needsReview": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "de.a2.gram.u01",
+   "level": "A2",
+   "title": {
+    "en": "Perfect with sein; war and hatte",
+    "ar": "الـ Perfekt مع sein؛ war وhatte"
+   },
+   "explanation": {
+    "en": "Verbs of movement or change of state form the perfect with sein: gehen -> ich bin gegangen, umziehen -> wir sind umgezogen, kommen -> er ist gekommen, werden -> ich bin geworden.\n\nFor sein and haben, Germans prefer the simple past: ich war, du warst, er war, wir waren; ich hatte, du hattest, er hatte, wir hatten.\n\nvor + dative = ago: vor zwei Jahren.",
+    "ar": "الأفعال اللي فيها حركة أو تغيّر حالة بتعمل الـ Perfekt بـ sein: gehen -> ich bin gegangen، umziehen -> wir sind umgezogen، kommen -> er ist gekommen، werden -> ich bin geworden.\n\nمع sein وhaben الألمان بيفضلوا الماضي البسيط: ich war, du warst, er war, wir waren؛ ich hatte, du hattest, er hatte, wir hatten.\n\nvor + داتيف = من (مدة): vor zwei Jahren = من سنتين."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u01_01",
+    "de.a2.sent.u01_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Wir ___ nach Alexandria umgezogen.",
+     "answer": "sind",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ ein Kind. (past)",
+     "answer": "war",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ___ viel Arbeit. (past)",
+     "answer": "hatte",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ zwei Jahren bin ich gekommen.",
+     "answer": "Vor",
+     "base": "vor"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u02",
+   "level": "A2",
+   "title": {
+    "en": "Dative verbs and reflexive verbs",
+    "ar": "أفعال الداتيف والأفعال الانعكاسية"
+   },
+   "explanation": {
+    "en": "Some verbs take a dative object: helfen, danken, gefallen, gehören, antworten. Kannst du mir helfen? Das Buch gehört ihm.\n\nDative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\nReflexive verbs use a pronoun for the same person: ich erinnere mich, du erinnerst dich, er erinnert sich, wir erinnern uns. sich streiten = to argue.",
+    "ar": "فيه أفعال مفعولها بيبقى داتيف: helfen, danken, gefallen, gehören, antworten. Kannst du mir helfen? Das Buch gehört ihm.\n\nضماير الداتيف: mir, dir, ihm, ihr, uns, euch, ihnen/Ihnen.\n\nالأفعال الانعكاسية بتستخدم ضمير لنفس الشخص: ich erinnere mich, du erinnerst dich, er erinnert sich, wir erinnern uns. وsich streiten = يتخانق."
+   },
+   "table": {
+    "headers": [
+     "",
+     "ich",
+     "du",
+     "er",
+     "sie",
+     "wir",
+     "ihr",
+     "sie/Sie"
+    ],
+    "rows": [
+     [
+      "dative",
+      "mir",
+      "dir",
+      "ihm",
+      "ihr",
+      "uns",
+      "euch",
+      "ihnen/Ihnen"
+     ],
+     [
+      "reflexive (acc.)",
+      "mich",
+      "dich",
+      "sich",
+      "sich",
+      "uns",
+      "euch",
+      "sich"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u02_01",
+    "de.a2.sent.u02_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Kannst du ___ helfen? (ich)",
+     "answer": "mir",
+     "base": "ich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich erinnere ___ an den Urlaub.",
+     "answer": "mich",
+     "base": "sich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Buch gehört ___. (er)",
+     "answer": "ihm",
+     "base": "er"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wir streiten ___ nie.",
+     "answer": "uns",
+     "base": "sich"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u03",
+   "level": "A2",
+   "title": {
+    "en": "Adjective endings and welch-, dies-",
+    "ar": "نهايات الصفات وwelch- وdies-"
+   },
+   "explanation": {
+    "en": "Before a noun, an adjective takes an ending. After der/die/das (and dies-, welch-): -e in the nominative singular, -en almost everywhere else: der rote Schuh, die blaue Jacke, das rote Kleid, den roten Schuh.\n\nAfter ein/kein/mein the adjective shows the gender itself: ein roter Schuh, eine blaue Jacke, ein rotes Kleid, einen roten Schuh.\n\ndieser/diese/dieses = this; welcher/welche/welches = which.",
+    "ar": "الصفة قبل الاسم بتاخد نهاية. بعد der/die/das (وdies- وwelch-): ‎-e في الفاعل المفرد، و‎-en تقريبًا في أي حتة تانية: der rote Schuh، die blaue Jacke، das rote Kleid، den roten Schuh.\n\nبعد ein/kein/mein الصفة هي اللي بتوضح الجنس: ein roter Schuh، eine blaue Jacke، ein rotes Kleid، einen roten Schuh.\n\ndieser/diese/dieses = ده/دي؛ welcher/welche/welches = أنهي."
+   },
+   "table": {
+    "headers": [
+     "",
+     "masc.",
+     "fem.",
+     "neut."
+    ],
+    "rows": [
+     [
+      "der + adj (nom.)",
+      "der rote",
+      "die rote",
+      "das rote"
+     ],
+     [
+      "ein + adj (nom.)",
+      "ein roter",
+      "eine rote",
+      "ein rotes"
+     ],
+     [
+      "accusative",
+      "den/einen roten",
+      "die/eine rote",
+      "das rote / ein rotes"
+     ]
+    ]
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u03_01",
+    "de.a2.sent.u03_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich trage eine ___ Jacke. (blau)",
+     "answer": "blaue",
+     "base": "blau"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ist ein ___ Kleid. (rot)",
+     "answer": "rotes",
+     "base": "rot"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich kaufe den ___ Schuh. (schwarz)",
+     "answer": "schwarzen",
+     "base": "schwarz"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ Größe brauchen Sie?",
+     "answer": "Welche",
+     "base": "welch-"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u04",
+   "level": "A2",
+   "title": {
+    "en": "Two-way prepositions: wohin? and wo?",
+    "ar": "حروف الجر ذات الوجهين: wohin؟ وwo؟"
+   },
+   "explanation": {
+    "en": "in, an, auf, über, unter, vor, hinter, neben, zwischen take the accusative for movement (wohin?) and the dative for position (wo?).\n\nIch stelle das Regal an die Wand (wohin? -> acc.). Das Regal steht an der Wand (wo? -> dat.).\n\nVerb pairs: stellen -> stehen, legen -> liegen, hängen -> hängen. The first of each pair is an action, the second a position.",
+    "ar": "in وan وauf وüber وunter وvor وhinter وneben وzwischen بتاخد أكوزاتيف مع الحركة (wohin؟ على فين) وداتيف مع المكان (wo؟ فين).\n\nIch stelle das Regal an die Wand (على فين -> أكوزاتيف). Das Regal steht an der Wand (فين -> داتيف).\n\nأزواج الأفعال: stellen -> stehen، legen -> liegen، hängen -> hängen. الأول فعل حركة والتاني مكان."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u04_01",
+    "de.a2.sent.u04_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich stelle das Regal an ___ Wand.",
+     "answer": "die",
+     "base": "die Wand"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Bild hängt an ___ Wand.",
+     "answer": "der",
+     "base": "die Wand"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Buch ___ auf dem Tisch. (position)",
+     "answer": "liegt",
+     "base": "liegen / legen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ das Buch auf den Tisch. (action)",
+     "answer": "lege",
+     "base": "liegen / legen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u05",
+   "level": "A2",
+   "title": {
+    "en": "weil, dass and Konjunktiv II (würde, hätte, wäre)",
+    "ar": "weil وdass والـ Konjunktiv II"
+   },
+   "explanation": {
+    "en": "weil (because) and dass (that) start a subordinate clause: the verb goes to the end. Ich mag meine Arbeit, weil sie interessant ist. Ich glaube, dass die Besprechung um zehn ist.\n\nPolite wishes: würde + infinitive (Ich würde gern mehr verdienen), hätte (Ich hätte gern einen Kaffee), wäre (Das wäre toll).",
+    "ar": "weil (عشان) وdass (إن) بيبدأوا جملة فرعية: الفعل بيروح للآخر. Ich mag meine Arbeit, weil sie interessant ist. Ich glaube, dass die Besprechung um zehn ist.\n\nالأمنيات المؤدبة: würde + مصدر (Ich würde gern mehr verdienen)، hätte (Ich hätte gern einen Kaffee)، wäre (Das wäre toll)."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u05_01",
+    "de.a2.sent.u05_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich bleibe zu Hause, weil ich krank ___.",
+     "answer": "bin",
+     "base": "sein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich glaube, ___ er kommt.",
+     "answer": "dass",
+     "base": "dass"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ gern mehr verdienen.",
+     "answer": "würde",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ gern einen Kaffee.",
+     "answer": "hätte",
+     "base": "haben"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u06",
+   "level": "A2",
+   "title": {
+    "en": "Comparative, superlative and wenn",
+    "ar": "المقارنة والتفضيل وwenn"
+   },
+   "explanation": {
+    "en": "Comparative: adjective + -er + als: schneller als. Superlative: am + -sten (am schnellsten) or der/die/das + -ste (der schnellste). Short words often add an umlaut: alt -> älter, groß -> größer. Irregular: gut -> besser -> am besten, viel -> mehr -> am meisten.\n\nwenn (if, whenever) sends the verb to the end; the main clause then starts with its verb: Wenn ich Zeit habe, schicke ich dir eine Nachricht.",
+    "ar": "المقارنة: الصفة + ‎-er + als: schneller als. والتفضيل: am + ‎-sten (am schnellsten) أو der/die/das + ‎-ste (der schnellste). الكلمات القصيرة غالبًا بتاخد أوملاوت: alt -> älter، groß -> größer. والشاذ: gut -> besser -> am besten، viel -> mehr -> am meisten.\n\nwenn (لو/لما) بتبعت الفعل للآخر، والجملة الأساسية تبدأ بفعلها: Wenn ich Zeit habe, schicke ich dir eine Nachricht."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u06_01",
+    "de.a2.sent.u06_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Mein Handy ist ___ als das alte. (schnell)",
+     "answer": "schneller",
+     "base": "schnell"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das ist der ___ Computer. (gut)",
+     "answer": "beste",
+     "base": "gut"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wenn ich Zeit ___, schreibe ich dir.",
+     "answer": "habe",
+     "base": "haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Er ist ___ als ich. (alt)",
+     "answer": "älter",
+     "base": "alt"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u07",
+   "level": "A2",
+   "title": {
+    "en": "Reflexive verbs with dative and sollte",
+    "ar": "أفعال انعكاسية مع الداتيف وsollte"
+   },
+   "explanation": {
+    "en": "When a reflexive verb also has a direct object, the reflexive pronoun is dative: Ich wasche mich (acc.), but Ich wasche mir die Hände (dat.). Only ich and du change: mir, dir.\n\nGerman uses the article for body parts: Ich putze mir die Zähne (not meine Zähne).\n\nAdvice: sollte (Konjunktiv II of sollen): Du solltest genug schlafen.",
+    "ar": "لو الفعل الانعكاسي ليه مفعول تاني، ضمير الانعكاس بيبقى داتيف: Ich wasche mich (أكوزاتيف)، بس Ich wasche mir die Hände (داتيف). ich وdu بس اللي بيتغيروا: mir، dir.\n\nالألماني بيستخدم الأداة مع أعضاء الجسم: Ich putze mir die Zähne (مش meine Zähne).\n\nالنصيحة: sollte: Du solltest genug schlafen."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u07_01",
+    "de.a2.sent.u07_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich wasche ___ die Hände.",
+     "answer": "mir",
+     "base": "ich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich fühle ___ müde.",
+     "answer": "mich",
+     "base": "ich"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Du ___ genug schlafen.",
+     "answer": "solltest",
+     "base": "sollen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich putze mir ___ Zähne.",
+     "answer": "die",
+     "base": "die"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u08",
+   "level": "A2",
+   "title": {
+    "en": "Genitive basics and während",
+    "ar": "أساسيات الجينيتيف وwährend"
+   },
+   "explanation": {
+    "en": "The genitive shows belonging: der Pass meiner Schwester, das Auto des Vaters. Articles: des (masc./neut., + -s on the noun), der (fem./plural).\n\nIn speech von + dative is common: der Pass von meiner Schwester. With names: Annas Pass.\n\nwährend (during) takes the genitive: während des Urlaubs.",
+    "ar": "الجينيتيف بيوضح الملكية: der Pass meiner Schwester، das Auto des Vaters. الأدوات: des (مذكر/محايد + ‎-s في الاسم)، der (مؤنث/جمع).\n\nفي الكلام von + داتيف منتشرة: der Pass von meiner Schwester. ومع الأسماء: Annas Pass.\n\nwährend (خلال) بتاخد جينيتيف: während des Urlaubs."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u08_01",
+    "de.a2.sent.u08_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Der Pass ___ Schwester. (my)",
+     "answer": "meiner",
+     "base": "meine"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Auto ___ Vaters.",
+     "answer": "des",
+     "base": "der"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Während ___ Urlaubs war es warm.",
+     "answer": "des",
+     "base": "der Urlaub"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Es hat viel ___. (regnen, perfect)",
+     "answer": "geregnet",
+     "base": "regnen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u09",
+   "level": "A2",
+   "title": {
+    "en": "Adjective endings in the dative; etwas, nichts",
+    "ar": "نهايات الصفة في الداتيف؛ etwas وnichts"
+   },
+   "explanation": {
+    "en": "In the dative, adjectives after der/ein end in -en: mit dem frischen Gemüse, in einem kleinen Restaurant, mit der scharfen Soße.\n\nWithout an article, the adjective takes the article ending: mit frischem Gemüse, mit scharfer Soße.\n\nIndefinite pronouns: etwas (something), nichts (nothing), alles (everything), jemand (someone), niemand (no one). etwas Süßes = something sweet (capital, -es).",
+    "ar": "في الداتيف، الصفة بعد der/ein بتخلص بـ ‎-en: mit dem frischen Gemüse، in einem kleinen Restaurant، mit der scharfen Soße.\n\nمن غير أداة، الصفة بتاخد نهاية الأداة: mit frischem Gemüse، mit scharfer Soße.\n\nضماير غير محددة: etwas (حاجة)، nichts (ولا حاجة)، alles (كل حاجة)، jemand (حد)، niemand (ولا حد). وetwas Süßes = حاجة حلوة (حرف كبير و‎-es)."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u09_01",
+    "de.a2.sent.u09_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "mit dem ___ Gemüse (frisch)",
+     "answer": "frischen",
+     "base": "frisch"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "in einem ___ Restaurant (klein)",
+     "answer": "kleinen",
+     "base": "klein"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Möchtest du etwas ___? (süß)",
+     "answer": "Süßes",
+     "base": "süß"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich habe ___ gegessen. (nothing)",
+     "answer": "nichts",
+     "base": "nichts"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u10",
+   "level": "A2",
+   "title": {
+    "en": "Indirect questions with ob, wo; passive (intro)",
+    "ar": "الأسئلة غير المباشرة بـ ob وwo؛ المبني للمجهول"
+   },
+   "explanation": {
+    "en": "A yes/no question inside a sentence starts with ob, and the verb goes to the end: Können Sie mir sagen, ob das Amt geöffnet ist? With a question word: Ich weiß nicht, wo ich warten muss.\n\nPresent passive = werden + participle: Das Formular wird hier unterschrieben. Die Formulare werden geprüft.",
+    "ar": "سؤال الإجابة عليه أيوه/لأ لما يبقى جوه جملة بيبدأ بـ ob والفعل بيروح للآخر: Können Sie mir sagen, ob das Amt geöffnet ist? ومع أداة سؤال: Ich weiß nicht, wo ich warten muss.\n\nالمبني للمجهول في المضارع = werden + اسم المفعول: Das Formular wird hier unterschrieben. Die Formulare werden geprüft."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u10_01",
+    "de.a2.sent.u10_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Wissen Sie, ___ das Amt offen ist?",
+     "answer": "ob",
+     "base": "ob"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich weiß nicht, wo ich warten ___.",
+     "answer": "muss",
+     "base": "müssen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Das Formular ___ hier unterschrieben.",
+     "answer": "wird",
+     "base": "werden"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Bitte füllen Sie das Formular ___.",
+     "answer": "aus",
+     "base": "ausfüllen"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "de.a2.gram.u11",
+   "level": "A2",
+   "title": {
+    "en": "Dates, ordinal numbers, als vs. wenn",
+    "ar": "التواريخ والأعداد الترتيبية، als ولا wenn"
+   },
+   "explanation": {
+    "en": "Ordinals: 1-19 add -te (der zweite, der vierte; irregular: erste, dritte, siebte), from 20 add -ste (der zwanzigste). Dates: am dritten Mai, Heute ist der dritte Mai.\n\nals = one event or period in the past: Als ich zwanzig war, ... wenn = whenever (repeated) or any present/future condition: Wenn ich Geburtstag habe, backe ich einen Kuchen.",
+    "ar": "الأعداد الترتيبية: من 1 لـ 19 زوّد ‎-te (der zweite، der vierte؛ والشاذ: erste، dritte، siebte)، ومن 20 زوّد ‎-ste (der zwanzigste). التواريخ: am dritten Mai، Heute ist der dritte Mai.\n\nals = حدث واحد أو فترة في الماضي: Als ich zwanzig war, ... وwenn = كل ما (متكرر) أو أي شرط في الحاضر/المستقبل: Wenn ich Geburtstag habe, backe ich einen Kuchen."
+   },
+   "exampleSentenceIds": [
+    "de.a2.sent.u11_01",
+    "de.a2.sent.u11_02"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Mein Geburtstag ist am ___ Mai. (3.)",
+     "answer": "dritten",
+     "base": "drei"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ ich zwanzig war, ...",
+     "answer": "Als",
+     "base": "als / wenn"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ ich Geburtstag habe, feiere ich.",
+     "answer": "Wenn",
+     "base": "als / wenn"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Heute ist der ___ Juni. (1.)",
+     "answer": "erste",
+     "base": "eins"
+    }
+   ],
+   "source": "3lang-original",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "texts": [],
+ "writingPrompts": [
+  {
+   "id": "de.a2.write.u01",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about my life story in German: where you were born, where you grew up and what you did.",
+    "ar": "اكتب بالألماني عن قصة حياتي: اتولدت فين واتربيت فين وعملت إيه."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u02",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about friends and relationships in German: your best friend and how you met.",
+    "ar": "اكتب بالألماني عن الأصدقاء والعلاقات: أقرب صاحب ليك وإزاي اتعرفتوا."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u03",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about clothes and appearance in German: what you are wearing today and your favourite clothes.",
+    "ar": "اكتب بالألماني عن اللبس والمظهر: لابس إيه النهاردة وإيه هدومك المفضلة."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u04",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about living and moving house in German: your dream flat and where you would put the furniture.",
+    "ar": "اكتب بالألماني عن السكن والنقل لبيت جديد: شقة أحلامك وهتحط العفش فين."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u05",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about work life in German: your job or the job you would like, and why.",
+    "ar": "اكتب بالألماني عن حياة الشغل: شغلك أو الشغل اللي نفسك فيه وليه."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u06",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about media and technology in German: how you use your phone and the internet.",
+    "ar": "اكتب بالألماني عن الإعلام والتكنولوجيا: بتستخدم الموبايل والإنترنت إزاي."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u07",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about health and fitness in German: what you do to stay healthy.",
+    "ar": "اكتب بالألماني عن الصحة واللياقة: بتعمل إيه عشان تفضل صحتك كويسة."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u08",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about travel and holidays in German: your last holiday: where you stayed and what you saw.",
+    "ar": "اكتب بالألماني عن السفر والإجازات: آخر إجازة: نزلت فين وشفت إيه."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u09",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about food culture in German: a dish from your country and how to make it.",
+    "ar": "اكتب بالألماني عن ثقافة الأكل: أكلة من بلدك وإزاي تتعمل."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u10",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about services and authorities in German: a visit to an office: what you needed and what happened.",
+    "ar": "اكتب بالألماني عن الخدمات والجهات الرسمية: زيارة لمصلحة: كنت محتاج إيه وإيه اللي حصل."
+   },
+   "minWords": 40
+  },
+  {
+   "id": "de.a2.write.u11",
+   "level": "A2",
+   "prompt": {
+    "en": "Write about celebrations and traditions in German: your favourite celebration and how you celebrate it.",
+    "ar": "اكتب بالألماني عن الاحتفالات والعادات: أحب مناسبة ليك وبتحتفل بيها إزاي."
+   },
+   "minWords": 40
+  }
+ ],
+ "credits": [
+  {
+   "name": "3Lang original content",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}
