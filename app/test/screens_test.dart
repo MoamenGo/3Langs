@@ -21,6 +21,7 @@ import 'package:three_lang/features/course/exercises.dart';
 import 'package:three_lang/features/course/grammar_view.dart';
 import 'package:three_lang/data/models/learner.dart' as learner;
 import 'package:three_lang/data/repositories/track_repository.dart';
+import 'package:three_lang/features/today/today_plan.dart';
 import 'package:three_lang/features/today/today_screen.dart';
 import 'package:three_lang/features/progress/progress_screen.dart';
 import 'package:three_lang/l10n/app_localizations.dart';
@@ -120,6 +121,49 @@ void main() {
     expect(find.textContaining('أصوات اللغة'), findsWidgets);
     expect(find.text('خطة النهاردة'), findsOneWidget);
     expect(find.byKey(const ValueKey('lang-de')), findsOneWidget);
+  });
+
+  testWidgets('today explains the plan and goes back to earlier days', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    await pumpScreen(
+      tester,
+      const TodayScreen(),
+      locale: const Locale('ar'),
+      setup: (db) => db.setMeta(
+        'plan:${todayKey(dayBefore(1))}',
+        jsonEncode({
+          'blocks': [
+            {
+              'kind': 'newLesson',
+              'lang': 'de',
+              'minutes': 20,
+              'lessonId': 'de.a0.u01.l01',
+            },
+          ],
+          'newCardLimit': {'de': 10},
+        }),
+      ),
+    );
+    await pumpUntilFound(tester, find.text('خطة النهاردة'));
+    expect(find.text('إزاي خطتك بتتعمل؟'), findsOneWidget);
+    await tester.tap(find.text('إزاي خطتك بتتعمل؟'));
+    await tester.pumpAndSettle();
+    expect(find.text('المراجعة الأول'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('plan-prev')));
+    await pumpUntilFound(tester, find.text('مهام امبارح'));
+    expect(find.byKey(const ValueKey('block-lesson-de')), findsOneWidget);
+    expect(find.text('كمّل اللي فاتك'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('plan-prev')));
+    await pumpUntilFound(tester, find.byKey(const ValueKey('plan-none')));
+    await tester.tap(find.byKey(const ValueKey('plan-next')));
+    await tester.tap(find.byKey(const ValueKey('plan-next')));
+    await pumpUntilFound(tester, find.text('خطة النهاردة'));
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('Spanish and Dutch have lessons too', (tester) async {

@@ -115,6 +115,50 @@ final todayPlanProvider = FutureProvider<SessionPlan>((ref) async {
   return plan;
 });
 
+SessionPlan _decodePlan(String saved, DateTime day) {
+  final j = jsonDecode(saved) as Map<String, dynamic>;
+  return SessionPlan(
+    day: DateTime(day.year, day.month, day.day),
+    blocks: [
+      for (final b in j['blocks'] as List)
+        blockFromJson(Map<String, Object?>.from(b as Map)),
+    ],
+    newCardLimit: {
+      for (final e in ((j['newCardLimit'] as Map?) ?? const {}).entries)
+        ?Lang.tryParse(e.key as String): e.value as int,
+    },
+  );
+}
+
+/// The day [daysAgo] days before today (0 = today).
+DateTime dayBefore(int daysAgo, [DateTime? now]) {
+  final n = now ?? DateTime.now();
+  return DateTime(n.year, n.month, n.day - daysAgo);
+}
+
+/// The plan saved on an earlier day ([day] as from [todayKey]), or null when
+/// the app was not opened that day.
+final pastPlanProvider = FutureProvider.family<SessionPlan?, String>((
+  ref,
+  day,
+) async {
+  final saved = await ref.watch(localDbProvider).getMeta<String>(_planKey(day));
+  if (saved == null) return null;
+  final parts = day.split('-').map(int.parse).toList();
+  return _decodePlan(saved, DateTime(parts[0], parts[1], parts[2]));
+});
+
+/// Block ids finished on [day] (as from [todayKey]).
+final doneBlocksOnProvider = StreamProvider.family<Set<String>, String>((
+  ref,
+  day,
+) {
+  final db = ref.watch(localDbProvider);
+  return db
+      .watchMeta(_doneKey(day))
+      .map((v) => v == null ? <String>{} : (v as List).cast<String>().toSet());
+});
+
 /// Block ids finished today.
 final doneBlocksProvider = StreamProvider<Set<String>>((ref) {
   final db = ref.watch(localDbProvider);
@@ -123,9 +167,14 @@ final doneBlocksProvider = StreamProvider<Set<String>>((ref) {
       .map((v) => v == null ? <String>{} : (v as List).cast<String>().toSet());
 });
 
-Future<void> markBlockDone(WidgetRef ref, SessionBlock block) async {
+/// Marks [block] done for today, or for an earlier [day] when catching up.
+Future<void> markBlockDone(
+  WidgetRef ref,
+  SessionBlock block, {
+  String? day,
+}) async {
   final db = ref.read(localDbProvider);
-  final key = _doneKey(todayKey());
+  final key = _doneKey(day ?? todayKey());
   final done =
       ((await db.getMeta<List>(key)) ?? const []).cast<String>().toSet()
         ..add(block.id);
