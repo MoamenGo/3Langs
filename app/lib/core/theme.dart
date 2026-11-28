@@ -24,25 +24,62 @@ const kFontFallback = ['NotoSansArabic', 'NotoSansIPA'];
 /// The colour themes a learner can pick. [language] takes the colour of the
 /// language on screen, which helps keep the languages apart.
 enum AppTheme {
-  matrix(Color(0xFF2A7B76), [Color(0xFF2A7B76), Color(0xFFC87D28)]),
-  language(null, [Color(0xFF6D5DF6), Color(0xFF00B4D8)]),
-  aurora(Color(0xFF7C4DFF), [Color(0xFF7C4DFF), Color(0xFF00BFA6)]),
-  ocean(Color(0xFF0077B6), [Color(0xFF0077B6), Color(0xFF48CAE4)]),
-  sunset(Color(0xFFF2545B), [Color(0xFFFF7E5F), Color(0xFFFEB47B)]),
-  forest(Color(0xFF2D6A4F), [Color(0xFF2D6A4F), Color(0xFF95D5B2)]),
-  rose(Color(0xFFD6336C), [Color(0xFFF72585), Color(0xFF7209B7)]),
-  midnight(Color(0xFF4361EE), [Color(0xFF14213D), Color(0xFF4361EE)]);
+  // Every theme is glassy, in a light and a dark style. The three colours
+  // are the soft glows behind the frosted panels.
+  lagoon(Color(0xFF2A7B76), [
+    Color(0xFF2A9D8F),
+    Color(0xFFE9A23B),
+    Color(0xFF5BC0EB),
+  ]),
+  aurora(Color(0xFF7C4DFF), [
+    Color(0xFF7C4DFF),
+    Color(0xFF00C9A7),
+    Color(0xFFFF6FD8),
+  ]),
+  ocean(Color(0xFF1F6FEB), [
+    Color(0xFF1F6FEB),
+    Color(0xFF00C2FF),
+    Color(0xFF7B61FF),
+  ]),
+  sunset(Color(0xFFE8590C), [
+    Color(0xFFFF6B6B),
+    Color(0xFFFFB347),
+    Color(0xFFC86DD7),
+  ]),
+  blossom(Color(0xFFD6336C), [
+    Color(0xFFF72585),
+    Color(0xFF9D4EDD),
+    Color(0xFFFFA9C6),
+  ]),
+  forest(Color(0xFF2D6A4F), [
+    Color(0xFF2D6A4F),
+    Color(0xFF95D5B2),
+    Color(0xFFE9C46A),
+  ]),
+  language(null, [Color(0xFF6D5DF6), Color(0xFF00B4D8), Color(0xFFFFB703)]);
 
   const AppTheme(this.seed, this.gradient);
 
   /// Accent colour; null means "the colour of the language".
   final Color? seed;
 
-  /// Two colours shown on the theme's swatch in Settings.
+  /// The theme's three glow colours, also shown on its swatch in Settings.
   final List<Color> gradient;
 
-  static AppTheme parse(Object? v) =>
-      values.firstWhere((t) => t.name == v, orElse: () => AppTheme.matrix);
+  /// Older theme names map to the closest new theme.
+  static const _renamed = {
+    'matrix': 'lagoon',
+    'rose': 'blossom',
+    'midnight': 'ocean',
+  };
+
+  static AppTheme parse(Object? v) {
+    final name = _renamed[v] ?? v;
+    return values.firstWhere(
+      (t) => t.name == name,
+      orElse: () => AppTheme.lagoon,
+    );
+  }
 
   static ThemeMode parseMode(Object? v) => ThemeMode.values.firstWhere(
     (m) => m.name == v,
@@ -101,12 +138,12 @@ class MatrixColors extends ThemeExtension<MatrixColors> {
   );
 
   static const dark = MatrixColors(
-    canvas: Color(0xFF14181D),
-    surface: Color(0xFF1B2026),
-    surface2: Color(0xFF232930),
-    ink: Color(0xFFE8E5DE),
-    muted: Color(0xFF9BA6B2),
-    rule: Color(0xFF313840),
+    canvas: Color(0xFF0D121C),
+    surface: Color(0xFF161D2A),
+    surface2: Color(0xFF1E2636),
+    ink: Color(0xFFEDEFF5),
+    muted: Color(0xFFA3ADBD),
+    rule: Color(0xFF2B3446),
     primary: Color(0xFF6CC0B9),
     amber: Color(0xFFE2A55E),
   );
@@ -162,12 +199,16 @@ class GlassColors extends ThemeExtension<GlassColors> {
     required this.blobB,
     required this.base,
     this.blur = 0,
-  });
+    Color? blobC,
+  }) : blobC = blobC ?? blobA;
 
   final Color tint;
   final Color border;
   final Color blobA;
   final Color blobB;
+
+  /// A third, smaller glow in the middle of the page.
+  final Color blobC;
   final Color base;
 
   /// Frosted-glass blur behind panels; 0 is the flat paper look.
@@ -183,11 +224,13 @@ class GlassColors extends ThemeExtension<GlassColors> {
     Color? blobB,
     Color? base,
     double? blur,
+    Color? blobC,
   }) => GlassColors(
     tint: tint ?? this.tint,
     border: border ?? this.border,
     blobA: blobA ?? this.blobA,
     blobB: blobB ?? this.blobB,
+    blobC: blobC ?? this.blobC,
     base: base ?? this.base,
     blur: blur ?? this.blur,
   );
@@ -200,6 +243,7 @@ class GlassColors extends ThemeExtension<GlassColors> {
           border: Color.lerp(border, other.border, t)!,
           blobA: Color.lerp(blobA, other.blobA, t)!,
           blobB: Color.lerp(blobB, other.blobB, t)!,
+          blobC: Color.lerp(blobC, other.blobC, t)!,
           base: Color.lerp(base, other.base, t)!,
           blur: lerpDouble(blur, other.blur, t)!,
         );
@@ -255,14 +299,14 @@ TextTheme _textTheme(MatrixColors c) {
 ThemeData buildTheme(
   Brightness brightness, {
   Lang lang = Lang.de,
-  AppTheme appTheme = AppTheme.matrix,
-  bool glass = false,
+  AppTheme appTheme = AppTheme.lagoon,
+  bool glass = true,
 }) {
   final dark = brightness == Brightness.dark;
   final base = dark ? MatrixColors.dark : MatrixColors.light;
   // Other themes keep the paper look and only swap the accent colour.
   final seed = appTheme.seed ?? lang.color;
-  final accent = appTheme == AppTheme.matrix
+  final accent = appTheme == AppTheme.lagoon
       ? base
       : base.copyWith(
           primary: ColorScheme.fromSeed(
@@ -273,18 +317,20 @@ ThemeData buildTheme(
   // Glass: every theme can be frosted. Panels turn translucent over two
   // soft colour glows taken from the theme, with a blur behind them.
   final blobs = appTheme.seed == null
-      ? [lang.color, base.amber]
+      ? [lang.color, base.amber, ...appTheme.gradient.skip(2)]
       : appTheme.gradient;
   final c = glass
       ? accent.copyWith(
-          canvas: accent.canvas.withValues(alpha: dark ? 0.55 : 0.6),
-          surface: accent.surface.withValues(alpha: dark ? 0.38 : 0.55),
+          canvas: accent.canvas.withValues(alpha: dark ? 0.5 : 0.55),
+          surface: dark
+              ? const Color(0xFF1B2333).withValues(alpha: 0.42)
+              : Colors.white.withValues(alpha: 0.52),
           surface2: dark
-              ? Colors.white.withValues(alpha: 0.07)
+              ? Colors.white.withValues(alpha: 0.08)
               : Colors.white.withValues(alpha: 0.5),
           rule: dark
-              ? Colors.white.withValues(alpha: 0.14)
-              : Colors.white.withValues(alpha: 0.75),
+              ? Colors.white.withValues(alpha: 0.16)
+              : Colors.white.withValues(alpha: 0.85),
         )
       : accent;
   final scheme =
@@ -327,9 +373,12 @@ ThemeData buildTheme(
             blobs[0].withValues(alpha: dark ? 0.16 : 0.08),
             base.canvas,
           ),
-          blobA: blobs[0].withValues(alpha: dark ? 0.45 : 0.42),
-          blobB: blobs[1].withValues(alpha: dark ? 0.40 : 0.38),
-          blur: 18,
+          blobA: blobs[0].withValues(alpha: dark ? 0.50 : 0.45),
+          blobB: blobs[1].withValues(alpha: dark ? 0.42 : 0.40),
+          blobC: blobs[blobs.length > 2 ? 2 : 0].withValues(
+            alpha: dark ? 0.30 : 0.28,
+          ),
+          blur: 20,
         )
       : GlassColors(
           tint: c.surface,
@@ -556,6 +605,7 @@ class GlassBackground extends StatelessWidget {
         children: [
           glow(const Alignment(-0.9, -0.85), g.blobA, 1.1),
           glow(const Alignment(0.95, 0.9), g.blobB, 1.2),
+          glow(const Alignment(0.8, -0.2), g.blobC, 0.7),
           child,
         ],
       ),
