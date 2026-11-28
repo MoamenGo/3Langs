@@ -2117,7 +2117,557 @@
     }
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "guide": [
+    {
+     "letters": "g · ch",
+     "like": {
+      "ar": "خ",
+      "en": "Arabic خ"
+     },
+     "explain": {
+      "ar": "g وch في الهولندي بيتنطقوا من الحلق زي الخاء. ده أشهر صوت في الهولندي.",
+      "en": "g and ch are throat sounds like Arabic خ. It is the most typical Dutch sound."
+     },
+     "examples": [
+      {
+       "text": "goed",
+       "say": "خوت",
+       "meaning": {
+        "ar": "كويس",
+        "en": "good"
+       }
+      },
+      {
+       "text": "acht",
+       "say": "أخت",
+       "meaning": {
+        "ar": "تمانية",
+        "en": "eight"
+       }
+      },
+      {
+       "text": "dag",
+       "say": "داخ",
+       "meaning": {
+        "ar": "يوم / باي",
+        "en": "day / bye"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولش جيم: goed = «خوت».",
+      "en": "Never a hard g: goed is 'khoot'."
+     }
+    },
+    {
+     "letters": "sch",
+     "like": {
+      "ar": "سخ",
+      "en": "s + kh"
+     },
+     "explain": {
+      "ar": "sch = سين وبعدها خاء على طول. وفي آخر الكلمة -isch بتتنطق «يس».",
+      "en": "sch is s followed by خ. At the end of words, -isch is just 'ees'."
+     },
+     "examples": [
+      {
+       "text": "school",
+       "say": "سخوول",
+       "meaning": {
+        "ar": "مدرسة",
+        "en": "school"
+       }
+      },
+      {
+       "text": "schrijven",
+       "say": "سخرايفه",
+       "meaning": {
+        "ar": "يكتب",
+        "en": "to write"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ij · ei",
+     "like": {
+      "ar": "آي",
+      "en": "close to 'eye'"
+     },
+     "explain": {
+      "ar": "ij وei نفس الصوت، قريب من «آي» بس بالفم أقل فتحًا شوية.",
+      "en": "ij and ei sound the same, close to 'eye' with the mouth a little less open."
+     },
+     "examples": [
+      {
+       "text": "mijn",
+       "say": "ماين",
+       "meaning": {
+        "ar": "بتاعي",
+        "en": "my"
+       }
+      },
+      {
+       "text": "klein",
+       "say": "كلاين",
+       "meaning": {
+        "ar": "صغير",
+        "en": "small"
+       }
+      },
+      {
+       "text": "wijn",
+       "say": "فاين",
+       "meaning": {
+        "ar": "نبيت",
+        "en": "wine"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "ui",
+     "like": {
+      "ar": "آو بشفايف مدورة",
+      "en": "a + rounded lips"
+     },
+     "explain": {
+      "ar": "ui مالهاش مقابل في العربي ولا الإنجليزي: ابدأ بـ «آ» وبعدين دور شفايفك وانت بتقول «إي».",
+      "en": "ui has no English or Arabic match: start with 'a', then round your lips while moving towards 'ee'."
+     },
+     "examples": [
+      {
+       "text": "huis",
+       "say": "هاوس (مدورة)",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      },
+      {
+       "text": "uit",
+       "say": "آوت (مدورة)",
+       "meaning": {
+        "ar": "برة / من",
+        "en": "out / from"
+       }
+      },
+      {
+       "text": "buiten",
+       "say": "باوته",
+       "meaning": {
+        "ar": "برة",
+        "en": "outside"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "اسمعها كذا مرة وقلدها: huis قريبة من «هاوس» بشفايف مدورة.",
+      "en": "Listen several times and copy: huis is near 'house' with rounded lips."
+     }
+    },
+    {
+     "letters": "oe",
+     "like": {
+      "ar": "أو طويلة",
+      "en": "oo"
+     },
+     "explain": {
+      "ar": "oe = «أوو» زي food.",
+      "en": "oe is 'oo' as in 'food'."
+     },
+     "examples": [
+      {
+       "text": "goed",
+       "say": "خوت",
+       "meaning": {
+        "ar": "كويس",
+        "en": "good"
+       }
+      },
+      {
+       "text": "moeder",
+       "say": "مودر",
+       "meaning": {
+        "ar": "أم",
+        "en": "mother"
+       }
+      },
+      {
+       "text": "boek",
+       "say": "بوك",
+       "meaning": {
+        "ar": "كتاب",
+        "en": "book"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقريهاش «أو-إي».",
+      "en": "Not 'o-e'."
+     }
+    },
+    {
+     "letters": "ou · au",
+     "like": {
+      "ar": "آو",
+      "en": "ow"
+     },
+     "explain": {
+      "ar": "ou وau بيتنطقوا «آو» زي how.",
+      "en": "ou and au sound like 'ow' in 'how'."
+     },
+     "examples": [
+      {
+       "text": "oud",
+       "say": "آوت",
+       "meaning": {
+        "ar": "قديم / عجوز",
+        "en": "old"
+       }
+      },
+      {
+       "text": "blauw",
+       "say": "بلاو",
+       "meaning": {
+        "ar": "أزرق",
+        "en": "blue"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "eu",
+     "like": {
+      "ar": "إ بشفايف مدورة",
+      "en": "rounded e"
+     },
+     "explain": {
+      "ar": "قول «إي» وانت مدور شفايفك. نفس ö في الألماني.",
+      "en": "Say 'e' with rounded lips, like German ö."
+     },
+     "examples": [
+      {
+       "text": "neus",
+       "say": "نوس (مدورة)",
+       "meaning": {
+        "ar": "مناخير",
+        "en": "nose"
+       }
+      },
+      {
+       "text": "deur",
+       "say": "دور (مدورة)",
+       "meaning": {
+        "ar": "باب",
+        "en": "door"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "u · uu",
+     "like": {
+      "ar": "ي بشفايف مدورة",
+      "en": "rounded ee"
+     },
+     "explain": {
+      "ar": "u قريبة من ü الألماني: قول «إي» بشفايف مدورة. uu هي النسخة الطويلة.",
+      "en": "u is like German ü: say 'ee' with rounded lips. uu is the long version."
+     },
+     "examples": [
+      {
+       "text": "u",
+       "say": "إو (مدورة)",
+       "meaning": {
+        "ar": "حضرتك",
+        "en": "you (formal)"
+       }
+      },
+      {
+       "text": "muur",
+       "say": "مور (مدورة)",
+       "meaning": {
+        "ar": "حيطة",
+        "en": "wall"
+       }
+      },
+      {
+       "text": "vuur",
+       "say": "فور (مدورة)",
+       "meaning": {
+        "ar": "نار",
+        "en": "fire"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "u مش زي «أو»: ده صوت oe.",
+      "en": "u is not 'oo'; that sound is written oe."
+     }
+    },
+    {
+     "letters": "aa · ee · oo",
+     "like": {
+      "ar": "حرف طويل",
+      "en": "long vowel"
+     },
+     "explain": {
+      "ar": "الحرف المتحرك المتكرر بيبقى طويل: aa = «آآ»، ee = «إيي»، oo = «أوو».",
+      "en": "A doubled vowel is long: aa 'aah', ee 'ay', oo 'oh'."
+     },
+     "examples": [
+      {
+       "text": "jaar",
+       "say": "يار",
+       "meaning": {
+        "ar": "سنة",
+        "en": "year"
+       }
+      },
+      {
+       "text": "twee",
+       "say": "تفيي",
+       "meaning": {
+        "ar": "اتنين",
+        "en": "two"
+       }
+      },
+      {
+       "text": "rood",
+       "say": "روت",
+       "meaning": {
+        "ar": "أحمر",
+        "en": "red"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "الطول بيغير المعنى: man (راجل) وmaan (قمر).",
+      "en": "Length changes meaning: man (man) vs maan (moon)."
+     }
+    },
+    {
+     "letters": "مقطع مفتوح",
+     "like": {
+      "ar": "حرف واحد = طويل",
+      "en": "one letter = long"
+     },
+     "explain": {
+      "ar": "لو المقطع خلص بحرف متحرك، حرف واحد كفاية عشان يبقى طويل: jaar لكن ja-ren.",
+      "en": "In an open syllable a single vowel is already long: jaar but ja-ren."
+     },
+     "examples": [
+      {
+       "text": "jaren",
+       "say": "يارن",
+       "meaning": {
+        "ar": "سنين",
+        "en": "years"
+       }
+      },
+      {
+       "text": "komen",
+       "say": "كومه",
+       "meaning": {
+        "ar": "ييجي",
+        "en": "to come"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "عشان كده الجمع بيتكتب بحرف واحد.",
+      "en": "That's why plurals drop a letter."
+     }
+    },
+    {
+     "letters": "ie",
+     "like": {
+      "ar": "إي",
+      "en": "ee"
+     },
+     "explain": {
+      "ar": "ie = «إي» واضحة.",
+      "en": "ie is a clear 'ee'."
+     },
+     "examples": [
+      {
+       "text": "drie",
+       "say": "دري",
+       "meaning": {
+        "ar": "تلاتة",
+        "en": "three"
+       }
+      },
+      {
+       "text": "niet",
+       "say": "نيت",
+       "meaning": {
+        "ar": "مش",
+        "en": "not"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "w",
+     "like": {
+      "ar": "ڤ خفيفة",
+      "en": "soft v"
+     },
+     "explain": {
+      "ar": "w أخف من v: سنانك بتلمس شفتك التحتانية بالراحة.",
+      "en": "w is softer than a v: teeth touch the lower lip lightly."
+     },
+     "examples": [
+      {
+       "text": "water",
+       "say": "فاتر (خفيفة)",
+       "meaning": {
+        "ar": "مية",
+        "en": "water"
+       }
+      },
+      {
+       "text": "wij",
+       "say": "فاي",
+       "meaning": {
+        "ar": "إحنا",
+        "en": "we"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "مش «و» إنجليزي ولا «ڤ» قوية.",
+      "en": "Neither an English w nor a strong v."
+     }
+    },
+    {
+     "letters": "v · z",
+     "like": {
+      "ar": "قريبة من ف وس",
+      "en": "close to f and s"
+     },
+     "explain": {
+      "ar": "v في أول الكلمة قريبة من ف، وz قريبة من س خفيفة.",
+      "en": "v at the start sounds close to f, and z close to a soft s."
+     },
+     "examples": [
+      {
+       "text": "vader",
+       "say": "فادر",
+       "meaning": {
+        "ar": "أب",
+        "en": "father"
+       }
+      },
+      {
+       "text": "zon",
+       "say": "زون (خفيفة)",
+       "meaning": {
+        "ar": "شمس",
+        "en": "sun"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "j",
+     "like": {
+      "ar": "ي",
+      "en": "y"
+     },
+     "explain": {
+      "ar": "j بتتنطق ياء.",
+      "en": "j sounds like English y."
+     },
+     "examples": [
+      {
+       "text": "ja",
+       "say": "يا",
+       "meaning": {
+        "ar": "أيوه",
+        "en": "yes"
+       }
+      },
+      {
+       "text": "jij",
+       "say": "ياي",
+       "meaning": {
+        "ar": "إنت",
+        "en": "you"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "-en في الآخر",
+     "like": {
+      "ar": "ـه",
+      "en": "'-uh'"
+     },
+     "explain": {
+      "ar": "-en في آخر الكلمة غالبًا بتتنطق «ـه» خفيفة والنون مش بتتنطق.",
+      "en": "Final -en is usually just a short 'uh'; the n is dropped."
+     },
+     "examples": [
+      {
+       "text": "eten",
+       "say": "إيته",
+       "meaning": {
+        "ar": "ياكل",
+        "en": "to eat"
+       }
+      },
+      {
+       "text": "lopen",
+       "say": "لوپه",
+       "meaning": {
+        "ar": "يمشي",
+        "en": "to walk"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "d · b في الآخر",
+     "like": {
+      "ar": "ت · پ",
+      "en": "t · p"
+     },
+     "explain": {
+      "ar": "في آخر الكلمة d بتتنطق t، وb بتتنطق p.",
+      "en": "At the end of a word, d sounds like t and b like p."
+     },
+     "examples": [
+      {
+       "text": "goed",
+       "say": "خوت",
+       "meaning": {
+        "ar": "كويس",
+        "en": "good"
+       }
+      },
+      {
+       "text": "hond",
+       "say": "هونت",
+       "meaning": {
+        "ar": "كلب",
+        "en": "dog"
+       }
+      },
+      {
+       "text": "heb",
+       "say": "هيپ",
+       "meaning": {
+        "ar": "عندي",
+        "en": "have"
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "nl.a0.gram.questions",

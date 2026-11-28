@@ -8,6 +8,9 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/repositories/content_repository.dart';
 import '../../core/bidi.dart';
+import '../../core/lang/lang.dart';
+import '../german_roadmap/german_channels.dart';
+import '../german_roadmap/german_roadmap.dart';
 
 /// The shared A0 to C1 path in the language on screen. Each level lists the
 /// units of the shared syllabus; where this language has a pack in this
@@ -31,6 +34,13 @@ class CourseScreen extends ConsumerWidget {
           padding: const EdgeInsets.all(12),
           children: [
             _TrackHeader(track: track),
+            if (track.lang == Lang.de) ...[
+              GermanRoadmapCard(onOpen: () => context.push('/german')),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 6),
+                child: GermanChannelsCard(level: track.currentLevel),
+              ),
+            ],
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 8),
               child: BidiText(

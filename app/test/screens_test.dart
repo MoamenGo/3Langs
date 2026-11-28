@@ -8,6 +8,7 @@ import 'package:material_ui/material_ui.dart';
 import 'package:three_lang/core/lang/lang.dart';
 import 'package:three_lang/core/localization.dart';
 import 'package:three_lang/core/providers.dart';
+import 'package:three_lang/core/theme.dart';
 import 'package:three_lang/data/local/local_db.dart';
 import 'package:three_lang/data/models/content.dart';
 import 'package:three_lang/data/models/learner.dart';
@@ -17,8 +18,10 @@ import 'package:three_lang/data/repositories/settings_repository.dart';
 import 'package:three_lang/features/contrast/contrast_screen.dart';
 import 'package:three_lang/features/course/course_screen.dart';
 import 'package:three_lang/features/course/exercises.dart';
+import 'package:three_lang/features/course/grammar_view.dart';
 import 'package:three_lang/data/models/learner.dart' as learner;
 import 'package:three_lang/data/repositories/track_repository.dart';
+import 'package:three_lang/features/today/today_plan.dart';
 import 'package:three_lang/features/today/today_screen.dart';
 import 'package:three_lang/features/progress/progress_screen.dart';
 import 'package:three_lang/l10n/app_localizations.dart';
@@ -28,6 +31,7 @@ Future<void> pumpScreen(
   Widget screen, {
   Locale? locale,
   Future<void> Function(LocalDb db)? setup,
+  ThemeData? theme,
 }) async {
   final db = await tester.runAsync(LocalDb.memory);
   if (setup != null) await tester.runAsync(() => setup(db!));
@@ -44,6 +48,7 @@ Future<void> pumpScreen(
         localizationsDelegates: appLocalizationsDelegates,
         supportedLocales: AppLocalizations.supportedLocales,
         locale: locale,
+        theme: theme,
         home: screen,
       ),
     ),
@@ -88,8 +93,10 @@ void main() {
     await pumpUntilFound(tester, find.textContaining('الأصوات والحروف'));
     expect(tester.takeException(), isNull);
     expect(find.text('طريقك من A0 لـ C1'), findsOneWidget);
-    expect(find.text('A1 مبتدئ'), findsOneWidget);
+    // Further down the list, below the German roadmap card.
+    expect(find.text('A1 مبتدئ', skipOffstage: false), findsOneWidget);
     expect(find.textContaining('الأصوات والحروف'), findsOneWidget);
+    expect(find.byKey(const Key('german-roadmap-card')), findsOneWidget);
   });
 
   testWidgets('explanations can be in English', (tester) async {
@@ -114,6 +121,49 @@ void main() {
     expect(find.textContaining('أصوات اللغة'), findsWidgets);
     expect(find.text('خطة النهاردة'), findsOneWidget);
     expect(find.byKey(const ValueKey('lang-de')), findsOneWidget);
+  });
+
+  testWidgets('today explains the plan and goes back to earlier days', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    await pumpScreen(
+      tester,
+      const TodayScreen(),
+      locale: const Locale('ar'),
+      setup: (db) => db.setMeta(
+        'plan:${todayKey(dayBefore(1))}',
+        jsonEncode({
+          'blocks': [
+            {
+              'kind': 'newLesson',
+              'lang': 'de',
+              'minutes': 20,
+              'lessonId': 'de.a0.u01.l01',
+            },
+          ],
+          'newCardLimit': {'de': 10},
+        }),
+      ),
+    );
+    await pumpUntilFound(tester, find.text('خطة النهاردة'));
+    expect(find.text('إزاي خطتك بتتعمل؟'), findsOneWidget);
+    await tester.tap(find.text('إزاي خطتك بتتعمل؟'));
+    await tester.pumpAndSettle();
+    expect(find.text('المراجعة الأول'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('plan-prev')));
+    await pumpUntilFound(tester, find.text('مهام امبارح'));
+    expect(find.byKey(const ValueKey('block-lesson-de')), findsOneWidget);
+    expect(find.text('كمّل اللي فاتك'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('plan-prev')));
+    await pumpUntilFound(tester, find.byKey(const ValueKey('plan-none')));
+    await tester.tap(find.byKey(const ValueKey('plan-next')));
+    await tester.tap(find.byKey(const ValueKey('plan-next')));
+    await pumpUntilFound(tester, find.text('خطة النهاردة'));
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('Spanish and Dutch have lessons too', (tester) async {
@@ -215,5 +265,39 @@ void main() {
   testWidgets('progress screen renders with no data', (tester) async {
     await pumpScreen(tester, const ProgressScreen());
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('the sounds page explains every sound on its own card', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(420, 900));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    final es = jsonDecode(
+      File('assets/content/es/a0.json').readAsStringSync(),
+    ) as Map<String, dynamic>;
+    final content = LevelContent.fromJson(es);
+    await pumpScreen(
+      tester,
+      Scaffold(
+        body: GrammarView(
+          point: content.grammar['es.a0.gram.sounds']!,
+          content: content,
+        ),
+      ),
+      locale: const Locale('ar'),
+      setup: (db) => useLanguage(db, Lang.es),
+      theme: buildTheme(Brightness.light),
+    );
+    expect(tester.takeException(), isNull);
+    expect(find.text('صوت بصوت'), findsOneWidget);
+    expect(find.byKey(const Key('sound-1')), findsOneWidget);
+    expect(find.byKey(const Key('ex-casa'), skipOffstage: false), findsWidgets);
+    // Scroll through every card: none may overflow on a phone.
+    for (var i = 0; i < 30; i++) {
+      await tester.drag(find.byType(ListView), const Offset(0, -500));
+      await tester.pump();
+      expect(tester.takeException(), isNull);
+    }
+    expect(find.text('الملخص'), findsNothing); // scrolled past it
   });
 }

@@ -293,4 +293,19 @@ void main() {
       );
     });
   });
+
+  test('every A0 sounds page has a sound-by-sound guide', () {
+    for (final lang in Lang.values) {
+      final c = load(lang, 'A0');
+      final sounds = c.grammar['${lang.name}.a0.gram.sounds']!;
+      expect(sounds.guide.length, greaterThanOrEqualTo(12), reason: lang.name);
+      for (final s in sounds.guide) {
+        expect(s.explain.values['ar'], isNotEmpty, reason: s.letters);
+        expect(s.explain.values['en'], isNotEmpty, reason: s.letters);
+        expect(s.examples, isNotEmpty, reason: s.letters);
+        // Bundled fonts have no arrow glyphs.
+        expect(s.like.values.values.join(), isNot(contains('→')));
+      }
+    }
+  });
 }

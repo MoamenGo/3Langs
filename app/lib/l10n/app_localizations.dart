@@ -1046,6 +1046,12 @@ abstract class AppLocalizations {
   /// **'Rose'**
   String get themeRose;
 
+  /// No description provided for @themeMatrix.
+  ///
+  /// In en, this message translates to:
+  /// **'Polyglot Matrix'**
+  String get themeMatrix;
+
   /// No description provided for @themeMidnight.
   ///
   /// In en, this message translates to:

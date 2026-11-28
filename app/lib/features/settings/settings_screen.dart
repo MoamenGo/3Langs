@@ -13,6 +13,8 @@ import '../../data/models/content.dart';
 import '../../data/models/learner.dart';
 import '../../data/sync/sync_service.dart';
 import '../../core/bidi.dart';
+import '../polyglot/ui.dart' show TrX;
+import 'update_tile.dart';
 
 /// Page with the latest Android build, published by the "Android APK"
 /// GitHub workflow.
@@ -43,6 +45,8 @@ class SettingsScreen extends ConsumerWidget {
       appBar: AppBar(title: BidiText(l.settings)),
       body: ListView(
         children: [
+          const UpdateTile(),
+          const Divider(),
           ListTile(
             leading: const Icon(Icons.language),
             title: BidiText(l.appLanguage),
@@ -109,6 +113,18 @@ class SettingsScreen extends ConsumerWidget {
                   save(settings.copyWith(newCardsPerDay: v.round())),
             ),
             trailing: BidiText('${settings.newCardsPerDay}'),
+          ),
+          ListTile(
+            key: const Key('choose-languages'),
+            leading: const Icon(Icons.flag_outlined),
+            title: BidiText(context.tr('Choose your languages', 'اختر لغاتك')),
+            subtitle: BidiText(
+              context.tr(
+                'Languages, levels and daily time for the roadmap and course',
+                'اللغات والمستويات والوقت اليومي للخطة والمنهج',
+              ),
+            ),
+            onTap: () => context.push('/start'),
           ),
           ListTile(
             leading: const Icon(Icons.translate),
@@ -265,25 +281,33 @@ class _TracksSection extends ConsumerWidget {
   }
 }
 
-/// Colour theme and light/dark mode.
+/// The style (light or dark glass) and the colour theme.
 class _AppearanceSection extends ConsumerWidget {
   const _AppearanceSection();
+
+  static String themeName(BuildContext context, AppTheme t) => switch (t) {
+    AppTheme.lagoon => context.tr('Lagoon', 'بحيرة'),
+    AppTheme.aurora => context.tr('Aurora', 'شفق'),
+    AppTheme.ocean => context.tr('Ocean', 'محيط'),
+    AppTheme.sunset => context.tr('Sunset', 'غروب'),
+    AppTheme.blossom => context.tr('Blossom', 'زهر'),
+    AppTheme.forest => context.tr('Forest', 'غابة'),
+    AppTheme.language => context.tr('Language colours', 'ألوان اللغة'),
+  };
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
-    final current = ref.watch(appThemeProvider).value ?? AppTheme.aurora;
+    final current = ref.watch(appThemeProvider).value ?? AppTheme.lagoon;
     final mode = ref.watch(themeModeProvider).value ?? ThemeMode.system;
     final db = ref.read(localDbProvider);
-    final names = {
-      AppTheme.language: l.themeLanguage,
-      AppTheme.aurora: l.themeAurora,
-      AppTheme.ocean: l.themeOcean,
-      AppTheme.sunset: l.themeSunset,
-      AppTheme.forest: l.themeForest,
-      AppTheme.rose: l.themeRose,
-      AppTheme.midnight: l.themeMidnight,
-    };
+    final t = Theme.of(context).textTheme;
+    // "Auto" shows the style the phone is using right now.
+    final shown = mode == ThemeMode.system
+        ? (MediaQuery.platformBrightnessOf(context) == Brightness.dark
+              ? ThemeMode.dark
+              : ThemeMode.light)
+        : mode;
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
       child: Column(
@@ -291,12 +315,52 @@ class _AppearanceSection extends ConsumerWidget {
         children: [
           Row(
             children: [
+              const Icon(Icons.blur_on_rounded),
+              const SizedBox(width: 16),
+              BidiText(context.tr('Style', 'الستايل'), style: t.titleMedium),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              for (final m in [ThemeMode.light, ThemeMode.dark]) ...[
+                if (m == ThemeMode.dark) const SizedBox(width: 12),
+                Expanded(
+                  child: _StyleCard(
+                    key: Key('style-${m.name}'),
+                    dark: m == ThemeMode.dark,
+                    theme: current,
+                    label: m == ThemeMode.dark
+                        ? context.tr('Dark glass', 'زجاجي غامق')
+                        : context.tr('Light glass', 'زجاجي فاتح'),
+                    selected: shown == m,
+                    onTap: () => db.setMeta('theme_mode', m.name),
+                  ),
+                ),
+              ],
+            ],
+          ),
+          CheckboxListTile(
+            key: const Key('style-auto'),
+            contentPadding: EdgeInsets.zero,
+            controlAffinity: ListTileControlAffinity.leading,
+            value: mode == ThemeMode.system,
+            title: BidiText(l.modeSystem),
+            subtitle: BidiText(
+              context.tr(
+                'Follow the phone: light by day, dark at night.',
+                'زي الموبايل: فاتح بالنهار وغامق بالليل.',
+              ),
+            ),
+            onChanged: (v) =>
+                db.setMeta('theme_mode', v == true ? 'system' : shown.name),
+          ),
+          const SizedBox(height: 8),
+          Row(
+            children: [
               const Icon(Icons.palette_outlined),
               const SizedBox(width: 16),
-              BidiText(
-                l.colorTheme,
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
+              BidiText(l.colorTheme, style: t.titleMedium),
             ],
           ),
           const SizedBox(height: 12),
@@ -304,39 +368,145 @@ class _AppearanceSection extends ConsumerWidget {
             spacing: 12,
             runSpacing: 12,
             children: [
-              for (final t in AppTheme.values)
+              for (final th in AppTheme.values)
                 _ThemeSwatch(
-                  key: Key('theme-${t.name}'),
-                  theme: t,
-                  label: names[t]!,
-                  selected: t == current,
-                  onTap: () => db.setMeta('theme', t.name),
+                  key: Key('theme-${th.name}'),
+                  theme: th,
+                  label: themeName(context, th),
+                  selected: th == current,
+                  onTap: () => db.setMeta('theme', th.name),
                 ),
             ],
           ),
-          const SizedBox(height: 16),
-          SegmentedButton<ThemeMode>(
-            segments: [
-              ButtonSegment(
-                value: ThemeMode.system,
-                icon: const Icon(Icons.brightness_auto),
-                label: BidiText(l.modeSystem),
+        ],
+      ),
+    );
+  }
+}
+
+/// A small preview of the light or dark glass style in the chosen theme.
+class _StyleCard extends StatelessWidget {
+  const _StyleCard({
+    super.key,
+    required this.dark,
+    required this.theme,
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+  final bool dark;
+  final AppTheme theme;
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final g = theme.gradient;
+    final base = dark ? const Color(0xFF0D121C) : const Color(0xFFF8F7F4);
+    final panel = dark
+        ? const Color(0xFF1B2333).withValues(alpha: 0.55)
+        : Colors.white.withValues(alpha: 0.6);
+    final line = dark
+        ? Colors.white.withValues(alpha: 0.35)
+        : const Color(0xFF1E242B).withValues(alpha: 0.25);
+    Widget glow(Alignment at, Color c) => Positioned.fill(
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          gradient: RadialGradient(
+            center: at,
+            radius: 0.9,
+            colors: [
+              c.withValues(alpha: dark ? 0.6 : 0.5),
+              c.withValues(alpha: 0),
+            ],
+          ),
+        ),
+      ),
+    );
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: selected ? scheme.primary : scheme.outlineVariant,
+            width: selected ? 2.5 : 1,
+          ),
+        ),
+        clipBehavior: Clip.antiAlias,
+        child: AspectRatio(
+          aspectRatio: 1.25,
+          child: Stack(
+            children: [
+              Positioned.fill(child: ColoredBox(color: base)),
+              glow(const Alignment(-0.9, -0.9), g[0]),
+              glow(const Alignment(0.9, 0.9), g[1]),
+              Positioned(
+                left: 12,
+                right: 12,
+                top: 12,
+                child: Container(
+                  height: 34,
+                  decoration: BoxDecoration(
+                    color: panel,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(
+                      color: Colors.white.withValues(alpha: dark ? 0.18 : 0.9),
+                    ),
+                  ),
+                  padding: const EdgeInsets.all(10),
+                  child: Align(
+                    alignment: AlignmentDirectional.centerStart,
+                    child: Container(width: 40, height: 5, color: line),
+                  ),
+                ),
               ),
-              ButtonSegment(
-                value: ThemeMode.light,
-                icon: const Icon(Icons.light_mode),
-                label: BidiText(l.modeLight),
+              Positioned(
+                left: 12,
+                right: 40,
+                top: 54,
+                child: Container(
+                  height: 24,
+                  decoration: BoxDecoration(
+                    color: panel,
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(
+                      color: Colors.white.withValues(alpha: dark ? 0.18 : 0.9),
+                    ),
+                  ),
+                ),
               ),
-              ButtonSegment(
-                value: ThemeMode.dark,
-                icon: const Icon(Icons.dark_mode),
-                label: BidiText(l.modeDark),
+              Positioned(
+                left: 6,
+                right: 6,
+                bottom: 8,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    if (selected)
+                      Icon(Icons.check_circle, size: 18, color: scheme.primary),
+                    if (selected) const SizedBox(width: 4),
+                    Flexible(
+                      child: Text(
+                        label,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w700,
+                          color: dark ? Colors.white : const Color(0xFF1E242B),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ],
-            selected: {mode},
-            onSelectionChanged: (s) => db.setMeta('theme_mode', s.first.name),
           ),
-        ],
+        ),
       ),
     );
   }

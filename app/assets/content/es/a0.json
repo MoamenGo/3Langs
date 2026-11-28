@@ -2107,7 +2107,571 @@
     }
    ],
    "source": "3lang-original",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "guide": [
+    {
+     "letters": "a · e · i · o · u",
+     "like": {
+      "ar": "قصيرة وواضحة",
+      "en": "short, clear vowels"
+     },
+     "explain": {
+      "ar": "الخمس حروف المتحركة دايمًا ليها نفس الصوت، قصيرة وواضحة، ومفيش حرف بيتبلع. a زي فتحة، e زي «إ» في «إيه»، i زي «ي»، o زي «أو» قصيرة، u زي «و».",
+      "en": "The five vowels always keep the same sound: short, clear and never swallowed. a as in 'father', e as in 'bed', i as in 'see', o as in 'or' (short), u as in 'food'."
+     },
+     "examples": [
+      {
+       "text": "casa",
+       "say": "كاسا",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      },
+      {
+       "text": "mesa",
+       "say": "ميسا",
+       "meaning": {
+        "ar": "ترابيزة",
+        "en": "table"
+       }
+      },
+      {
+       "text": "libro",
+       "say": "ليبرو",
+       "meaning": {
+        "ar": "كتاب",
+        "en": "book"
+       }
+      },
+      {
+       "text": "uno",
+       "say": "أونو",
+       "meaning": {
+        "ar": "واحد",
+        "en": "one"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متطولش الحرف ومتحولوش لصوت تاني: mesa بتتقري «ميسا» مش «ميزا».",
+      "en": "Don't stretch or glide the vowel: mesa is 'meh-sa', never 'may-sa'."
+     }
+    },
+    {
+     "letters": "h",
+     "like": {
+      "ar": "صامتة",
+      "en": "silent"
+     },
+     "explain": {
+      "ar": "h دايمًا صامتة. ابدأ الكلمة على طول بالحرف اللي بعدها.",
+      "en": "h is always silent. Start the word with the letter after it."
+     },
+     "examples": [
+      {
+       "text": "hola",
+       "say": "أولا",
+       "meaning": {
+        "ar": "أهلًا",
+        "en": "hello"
+       }
+      },
+      {
+       "text": "hijo",
+       "say": "إيخو",
+       "meaning": {
+        "ar": "ابن",
+        "en": "son"
+       }
+      },
+      {
+       "text": "hotel",
+       "say": "أوتيل",
+       "meaning": {
+        "ar": "فندق",
+        "en": "hotel"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متقولش «هولا»، قول «أولا».",
+      "en": "Don't say 'hola' with an h: it's 'ola'."
+     }
+    },
+    {
+     "letters": "j · ge · gi",
+     "like": {
+      "ar": "خ",
+      "en": "Arabic خ (kh)"
+     },
+     "explain": {
+      "ar": "j في أي مكان، وg لما ييجي بعدها e أو i، بيتنطقوا من الحلق زي الخاء بالظبط.",
+      "en": "j anywhere, and g before e or i, are a throat sound exactly like Arabic خ."
+     },
+     "examples": [
+      {
+       "text": "jardín",
+       "say": "خاردين",
+       "meaning": {
+        "ar": "جنينة",
+        "en": "garden"
+       }
+      },
+      {
+       "text": "gente",
+       "say": "خينتي",
+       "meaning": {
+        "ar": "ناس",
+        "en": "people"
+       }
+      },
+      {
+       "text": "rojo",
+       "say": "روخو",
+       "meaning": {
+        "ar": "أحمر",
+        "en": "red"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "ده صوت سهل علينا: نفس الخاء العربي، يمكن أخف شوية.",
+      "en": "Easy for Arabic speakers: the same خ, maybe a little lighter."
+     }
+    },
+    {
+     "letters": "ga · go · gu · gue · gui",
+     "like": {
+      "ar": "ج مصرية (g)",
+      "en": "hard g"
+     },
+     "explain": {
+      "ar": "g قبل a وo وu بتتنطق زي الجيم المصري. ولو عايز نفس الصوت قبل e أو i بنكتب gue وgui، والـ u هنا مش بتتنطق.",
+      "en": "g before a, o, u is a hard g as in 'go'. To keep that sound before e or i, Spanish writes gue, gui, and the u is silent."
+     },
+     "examples": [
+      {
+       "text": "gato",
+       "say": "جاتو",
+       "meaning": {
+        "ar": "قطة",
+        "en": "cat"
+       }
+      },
+      {
+       "text": "guerra",
+       "say": "جيرا",
+       "meaning": {
+        "ar": "حرب",
+        "en": "war"
+       }
+      },
+      {
+       "text": "guitarra",
+       "say": "جيتارا",
+       "meaning": {
+        "ar": "جيتار",
+        "en": "guitar"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "guerra = «جيرا» مش «جويرا».",
+      "en": "guerra is 'geh-rra', not 'gweh-rra'."
+     }
+    },
+    {
+     "letters": "ñ",
+     "like": {
+      "ar": "ني",
+      "en": "ny (as in 'canyon')"
+     },
+     "explain": {
+      "ar": "ñ صوت واحد: نون وبعدها ياء على طول، زي «ني» في كلمة «نيابة».",
+      "en": "ñ is one sound: n followed straight away by y, as in 'canyon'."
+     },
+     "examples": [
+      {
+       "text": "España",
+       "say": "إسبانيا",
+       "meaning": {
+        "ar": "إسبانيا",
+        "en": "Spain"
+       }
+      },
+      {
+       "text": "mañana",
+       "say": "مانيانا",
+       "meaning": {
+        "ar": "بكرة / الصبح",
+        "en": "tomorrow / morning"
+       }
+      },
+      {
+       "text": "niño",
+       "say": "نينيو",
+       "meaning": {
+        "ar": "طفل",
+        "en": "child"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "الشرطة اللي فوق مهمة: año (سنة) غير ano تمامًا.",
+      "en": "The tilde matters: año (year) is a different word from ano."
+     }
+    },
+    {
+     "letters": "ll · y",
+     "like": {
+      "ar": "ي",
+      "en": "y (as in 'yes')"
+     },
+     "explain": {
+      "ar": "ll وy قبل حرف متحرك بيتنطقوا ياء. في بلاد كتير زي الأرجنتين بيتنطقوا قريب من «ش» أو «ج» الشامي.",
+      "en": "ll, and y before a vowel, sound like English y. In some countries such as Argentina they sound closer to 'sh' or the s in 'measure'."
+     },
+     "examples": [
+      {
+       "text": "llamar",
+       "say": "يامار",
+       "meaning": {
+        "ar": "يتصل / ينادي",
+        "en": "to call"
+       }
+      },
+      {
+       "text": "calle",
+       "say": "كايي",
+       "meaning": {
+        "ar": "شارع",
+        "en": "street"
+       }
+      },
+      {
+       "text": "yo",
+       "say": "يو",
+       "meaning": {
+        "ar": "أنا",
+        "en": "I"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "y لوحدها (يعني «و») بتتنطق «إي».",
+      "en": "y on its own (meaning 'and') is said 'ee'."
+     }
+    },
+    {
+     "letters": "z · ce · ci",
+     "like": {
+      "ar": "ث (إسبانيا) / س",
+      "en": "th (Spain) / s"
+     },
+     "explain": {
+      "ar": "في إسبانيا z في أي مكان، وc قبل e أو i، بيتنطقوا ث: طرف لسانك بين سنانك. في أمريكا اللاتينية بيتنطقوا س عادية، والاتنين صح.",
+      "en": "In Spain, z anywhere and c before e or i sound like 'th' in 'think': tongue between the teeth. In Latin America they are a plain s. Both are correct."
+     },
+     "examples": [
+      {
+       "text": "zumo",
+       "say": "ثومو",
+       "meaning": {
+        "ar": "عصير",
+        "en": "juice"
+       }
+      },
+      {
+       "text": "cinco",
+       "say": "ثينكو",
+       "meaning": {
+        "ar": "خمسة",
+        "en": "five"
+       }
+      },
+      {
+       "text": "cena",
+       "say": "ثينا",
+       "meaning": {
+        "ar": "عشا",
+        "en": "dinner"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "اختار نطق واحد وامشي عليه.",
+      "en": "Pick one accent and stay with it."
+     }
+    },
+    {
+     "letters": "ca · co · cu · qu",
+     "like": {
+      "ar": "ك",
+      "en": "k"
+     },
+     "explain": {
+      "ar": "c قبل a وo وu بتتنطق كاف. ولو عايز صوت الكاف قبل e أو i بنكتب que وqui، والـ u مش بتتنطق.",
+      "en": "c before a, o, u is a k. Before e or i Spanish writes que, qui for the k sound, and the u is silent."
+     },
+     "examples": [
+      {
+       "text": "casa",
+       "say": "كاسا",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      },
+      {
+       "text": "queso",
+       "say": "كيسو",
+       "meaning": {
+        "ar": "جبنة",
+        "en": "cheese"
+       }
+      },
+      {
+       "text": "aquí",
+       "say": "أكي",
+       "meaning": {
+        "ar": "هنا",
+        "en": "here"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "queso = «كيسو» مش «كويسو».",
+      "en": "queso is 'keh-so', not 'kweh-so'."
+     }
+    },
+    {
+     "letters": "r",
+     "like": {
+      "ar": "ر خفيفة",
+      "en": "a single tap"
+     },
+     "explain": {
+      "ar": "r في نص الكلمة رنة واحدة سريعة بطرف اللسان، زي الراء العربي الخفيفة.",
+      "en": "r inside a word is one quick tap of the tongue tip, like a light Arabic ر."
+     },
+     "examples": [
+      {
+       "text": "pero",
+       "say": "بيرو",
+       "meaning": {
+        "ar": "بس / لكن",
+        "en": "but"
+       }
+      },
+      {
+       "text": "caro",
+       "say": "كارو",
+       "meaning": {
+        "ar": "غالي",
+        "en": "expensive"
+       }
+      },
+      {
+       "text": "hablar",
+       "say": "أبلار",
+       "meaning": {
+        "ar": "يتكلم",
+        "en": "to speak"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "rr · r في الأول",
+     "like": {
+      "ar": "ر مكررة قوية",
+      "en": "rolled r"
+     },
+     "explain": {
+      "ar": "rr، وr في أول الكلمة، راء مكررة قوية: اللسان بيرن كذا مرة، زي الراء العربي المشددة.",
+      "en": "rr, and r at the start of a word, are rolled: the tongue tip trills several times, like a doubled Arabic ر."
+     },
+     "examples": [
+      {
+       "text": "perro",
+       "say": "بيرّو",
+       "meaning": {
+        "ar": "كلب",
+        "en": "dog"
+       }
+      },
+      {
+       "text": "rico",
+       "say": "رّيكو",
+       "meaning": {
+        "ar": "غني / لذيذ",
+        "en": "rich / tasty"
+       }
+      },
+      {
+       "text": "tierra",
+       "say": "تيرّا",
+       "meaning": {
+        "ar": "أرض",
+        "en": "earth"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "pero (بس) وperro (كلب) بيفرق بينهم صوت الراء بس.",
+      "en": "pero (but) and perro (dog) differ only in this sound."
+     }
+    },
+    {
+     "letters": "b · v",
+     "like": {
+      "ar": "ب",
+      "en": "b"
+     },
+     "explain": {
+      "ar": "b وv نفس الصوت بالظبط: باء. وبين حرفين متحركين بتبقى أخف، الشفايف مش بتقفل خالص.",
+      "en": "b and v are the same sound: b. Between vowels it is softer and the lips don't fully close."
+     },
+     "examples": [
+      {
+       "text": "vivir",
+       "say": "بيبير",
+       "meaning": {
+        "ar": "يعيش",
+        "en": "to live"
+       }
+      },
+      {
+       "text": "bien",
+       "say": "بيين",
+       "meaning": {
+        "ar": "كويس",
+        "en": "well"
+       }
+      },
+      {
+       "text": "vaso",
+       "say": "باسو",
+       "meaning": {
+        "ar": "كوباية",
+        "en": "glass"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "متنطقش v زي الإنجليزي: vivir = «بيبير».",
+      "en": "Don't use an English v: vivir is 'bee-beer'."
+     }
+    },
+    {
+     "letters": "d",
+     "like": {
+      "ar": "د / ذ خفيفة",
+      "en": "d / soft th"
+     },
+     "explain": {
+      "ar": "d في أول الكلمة دال عادية. بين حرفين متحركين أو في آخر الكلمة بتبقى خفيفة زي الذال.",
+      "en": "d at the start is a normal d. Between vowels or at the end of a word it softens to the 'th' in 'this' (Arabic ذ)."
+     },
+     "examples": [
+      {
+       "text": "dos",
+       "say": "دوس",
+       "meaning": {
+        "ar": "اتنين",
+        "en": "two"
+       }
+      },
+      {
+       "text": "nada",
+       "say": "ناذا",
+       "meaning": {
+        "ar": "ولا حاجة",
+        "en": "nothing"
+       }
+      },
+      {
+       "text": "Madrid",
+       "say": "مادريذ",
+       "meaning": {
+        "ar": "مدريد",
+        "en": "Madrid"
+       }
+      }
+     ]
+    },
+    {
+     "letters": "á · é · í · ó · ú",
+     "like": {
+      "ar": "مكان الضغط",
+      "en": "stress mark"
+     },
+     "explain": {
+      "ar": "الشرطة فوق الحرف بتقولك تضغط على المقطع ده. من غير شرطة: الكلمة اللي آخرها حرف متحرك أو n أو s بيتضغط فيها قبل الأخير، والباقي على الأخير.",
+      "en": "The accent shows the stressed syllable. Without one: words ending in a vowel, n or s stress the second-to-last syllable; others stress the last."
+     },
+     "examples": [
+      {
+       "text": "café",
+       "say": "كافي",
+       "meaning": {
+        "ar": "قهوة",
+        "en": "coffee"
+       }
+      },
+      {
+       "text": "teléfono",
+       "say": "تيليفونو",
+       "meaning": {
+        "ar": "تليفون",
+        "en": "phone"
+       }
+      },
+      {
+       "text": "casa",
+       "say": "كاسا",
+       "meaning": {
+        "ar": "بيت",
+        "en": "house"
+       }
+      }
+     ],
+     "tip": {
+      "ar": "الشرطة ممكن تغير المعنى: si (لو) وsí (أيوه).",
+      "en": "It can change the meaning: si (if) and sí (yes)."
+     }
+    },
+    {
+     "letters": "¿ ¡",
+     "like": {
+      "ar": "علامة في الأول",
+      "en": "opening marks"
+     },
+     "explain": {
+      "ar": "السؤال بيبتدي بـ ¿ ويخلص بـ ?، والتعجب بيبتدي بـ ¡ ويخلص بـ !. ده بيقولك من الأول تغير نبرة صوتك.",
+      "en": "A question opens with ¿ and closes with ?, an exclamation opens with ¡ and closes with !. It tells you from the start to change your tone."
+     },
+     "examples": [
+      {
+       "text": "¿Qué?",
+       "say": "كي؟",
+       "meaning": {
+        "ar": "إيه؟",
+        "en": "What?"
+       }
+      },
+      {
+       "text": "¡Hola!",
+       "say": "أولا!",
+       "meaning": {
+        "ar": "أهلًا!",
+        "en": "Hello!"
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "es.a0.gram.questions",

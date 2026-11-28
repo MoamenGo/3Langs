@@ -600,6 +600,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get themeRose => 'Rose';
 
   @override
+  String get themeMatrix => 'Polyglot Matrix';
+
+  @override
   String get themeMidnight => 'Midnight';
 
   @override

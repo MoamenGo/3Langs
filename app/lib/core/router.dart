@@ -9,8 +9,14 @@ import '../features/course/unit_screen.dart';
 import '../features/flashcards/review_screen.dart';
 import '../features/contrast/contrast_drill_screen.dart';
 import '../features/listening/listening_screen.dart';
+import '../features/german_roadmap/german_roadmap.dart';
+import '../features/onboarding/first_run_screen.dart';
 import '../features/onboarding/placement_screen.dart';
 import '../features/onboarding/welcome_screen.dart';
+import '../features/polyglot/dictionary_screen.dart';
+import '../features/polyglot/hub_screen.dart';
+import '../features/polyglot/notebook_screen.dart';
+import '../features/polyglot/resources_screen.dart';
 import '../features/today/today_screen.dart';
 import 'lang/lang.dart';
 import '../features/practice/practice_screen.dart';
@@ -24,12 +30,28 @@ import '../features/writing/writing_screen.dart';
 
 final appRouter = GoRouter(
   initialLocation: '/',
+  // A new install starts by choosing its languages.
+  redirect: (_, s) =>
+      FirstRun.done ||
+          s.matchedLocation == '/start' ||
+          s.matchedLocation == '/welcome' ||
+          s.matchedLocation.startsWith('/placement')
+      ? null
+      : '/start',
   routes: [
     StatefulShellRoute.indexedStack(
       builder: (context, state, shell) => AppShell(shell: shell),
       branches: [
+        // Polyglot Matrix hub: the default landing view.
         StatefulShellBranch(
-          routes: [GoRoute(path: '/', builder: (_, _) => const TodayScreen())],
+          routes: [
+            GoRoute(path: '/', builder: (_, _) => const MatrixHubScreen()),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(path: '/today', builder: (_, _) => const TodayScreen()),
+          ],
         ),
         StatefulShellBranch(
           routes: [
@@ -62,6 +84,33 @@ final appRouter = GoRouter(
             ),
           ],
         ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/notebook',
+              builder: (_, _) => const NotebookScreen(),
+            ),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/dictionary',
+              builder: (_, s) => DictionaryScreen(
+                query: s.uri.queryParameters['q'],
+                group: s.uri.queryParameters['group'],
+              ),
+            ),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/resources',
+              builder: (_, _) => const ResourcesScreen(),
+            ),
+          ],
+        ),
       ],
     ),
     // Full-screen study routes (no bottom bar, to keep focus).
@@ -80,6 +129,8 @@ final appRouter = GoRouter(
         ),
       ],
     ),
+    GoRoute(path: '/start', builder: (_, _) => const FirstRunScreen()),
+    GoRoute(path: '/german', builder: (_, _) => const GermanRoadmapScreen()),
     GoRoute(path: '/welcome', builder: (_, _) => const WelcomeScreen()),
     GoRoute(
       path: '/placement/:lang',

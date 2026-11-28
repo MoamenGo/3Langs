@@ -170,3 +170,10 @@ WRITING = (
     "Write 2 or 3 short sentences in {Len}: which languages do you speak, and which are you learning?",
     "اكتب جملتين أو تلاتة قصيرين بال{Lar}: بتتكلم لغات إيه، وبتتعلم إيه؟",
 )
+
+
+# One card per sound on the sounds page (how to say it, a tip, examples).
+from .a0_sounds import SOUNDS as _SOUNDS  # noqa: E402
+
+for _lang, _guide in _SOUNDS.items():
+    GRAMMAR[_lang]["sounds"]["guide"] = _guide

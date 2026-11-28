@@ -609,6 +609,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get themeRose => 'وردي';
 
   @override
+  String get themeMatrix => 'مصفوفة اللغات';
+
+  @override
   String get themeMidnight => 'نص الليل';
 
   @override

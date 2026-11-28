@@ -9,6 +9,8 @@ import '../../data/models/learner.dart';
 import '../../data/repositories/content_repository.dart';
 import '../../domain/scheduling/session_planner.dart';
 import '../course/lesson_type_ui.dart';
+import '../polyglot/ui.dart' show TrX;
+import 'plan_explainer.dart';
 import 'today_plan.dart';
 import '../../core/bidi.dart';
 
@@ -94,10 +96,9 @@ class TodayScreen extends ConsumerWidget {
               ),
             ),
             const SizedBox(height: 8),
-            AsyncView(
-              value: plan,
-              builder: (p) => _PlanCard(plan: p, done: done),
-            ),
+            const PlanExplainer(),
+            const SizedBox(height: 8),
+            _PlanSection(todayPlan: plan, todayDone: done),
           ];
           if (c.maxWidth < 900) {
             return ListView(
@@ -132,10 +133,117 @@ class TodayScreen extends ConsumerWidget {
   }
 }
 
+/// Today's plan, or an earlier day's when you go back with the arrows to
+/// catch up on what you missed.
+class _PlanSection extends ConsumerStatefulWidget {
+  const _PlanSection({required this.todayPlan, required this.todayDone});
+  final AsyncValue<SessionPlan> todayPlan;
+  final Set<String> todayDone;
+
+  @override
+  ConsumerState<_PlanSection> createState() => _PlanSectionState();
+}
+
+class _PlanSectionState extends ConsumerState<_PlanSection> {
+  /// How many days back from today (0 = today).
+  int _back = 0;
+  static const maxBack = 14;
+
+  String _label(BuildContext context, DateTime d) {
+    if (_back == 0) return context.tr('Today', 'النهاردة');
+    if (_back == 1) return context.tr('Yesterday', 'امبارح');
+    return formatDay(d);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final day = dayBefore(_back);
+    final nav = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        // Back in time is "previous": the arrow points to the reading start.
+        Flexible(
+          child: TextButton.icon(
+            key: const ValueKey('plan-prev'),
+            onPressed: _back >= maxBack ? null : () => setState(() => _back++),
+            icon: const Icon(Icons.chevron_left),
+            label: BidiText(context.tr('Previous day', 'اليوم اللي قبله')),
+          ),
+        ),
+        const SizedBox(width: 4),
+        BidiText(
+          _label(context, day),
+          key: const ValueKey('plan-day'),
+          style: Theme.of(context).textTheme.titleSmall
+              ?.copyWith(fontWeight: FontWeight.w700),
+        ),
+        Flexible(
+          child: TextButton.icon(
+            key: const ValueKey('plan-next'),
+            onPressed: _back == 0 ? null : () => setState(() => _back--),
+            icon: const Icon(Icons.chevron_right),
+            label: BidiText(context.tr('Next day', 'اليوم اللي بعده')),
+          ),
+        ),
+      ],
+    );
+    if (_back == 0) {
+      return AsyncView(
+        value: widget.todayPlan,
+        builder: (p) => _PlanCard(plan: p, done: widget.todayDone, nav: nav),
+      );
+    }
+    final key = todayKey(day);
+    final plan = ref.watch(pastPlanProvider(key));
+    final done = ref.watch(doneBlocksOnProvider(key)).value ?? const {};
+    return AsyncView(
+      value: plan,
+      builder: (p) => p == null
+          ? Card(
+              key: const ValueKey('plan-none'),
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    nav,
+                    const SizedBox(height: 8),
+                    BidiText(
+                      context.tr(
+                        'No tasks were saved for this day: the app was not opened.',
+                        'مفيش مهام محفوظة لليوم ده، لأن التطبيق ماتفتحش فيه.',
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            )
+          : _PlanCard(
+              plan: p,
+              done: done,
+              nav: nav,
+              day: key,
+              dayLabel: _label(context, day),
+            ),
+    );
+  }
+}
+
 class _PlanCard extends ConsumerWidget {
-  const _PlanCard({required this.plan, required this.done});
+  const _PlanCard({
+    required this.plan,
+    required this.done,
+    required this.nav,
+    this.day,
+    this.dayLabel,
+  });
   final SessionPlan plan;
   final Set<String> done;
+  final Widget nav;
+
+  /// Set for an earlier day (as from [todayKey]); null for today.
+  final String? day;
+  final String? dayLabel;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -150,17 +258,25 @@ class _PlanCard extends ConsumerWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: nav,
+            ),
             ListTile(
               title: BidiText(
-                l.todaysPlan,
+                day == null
+                    ? l.todaysPlan
+                    : context.tr('Tasks: $dayLabel', 'مهام $dayLabel'),
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               subtitle: BidiText(l.planMinutes(plan.totalMinutes, left)),
-              trailing: IconButton(
-                tooltip: l.rebuildPlan,
-                icon: const Icon(Icons.refresh),
-                onPressed: () => rebuildTodayPlan(ref),
-              ),
+              trailing: day != null
+                  ? null
+                  : IconButton(
+                      tooltip: l.rebuildPlan,
+                      icon: const Icon(Icons.refresh),
+                      onPressed: () => rebuildTodayPlan(ref),
+                    ),
             ),
             if (plan.blocks.isEmpty)
               Padding(
@@ -173,6 +289,7 @@ class _PlanCard extends ConsumerWidget {
                 index: i + 1,
                 block: b,
                 done: done.contains(b.id),
+                day: day,
               ),
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
@@ -181,16 +298,32 @@ class _PlanCard extends ConsumerWidget {
                       children: [
                         const Icon(Icons.check_circle, color: Colors.green),
                         const SizedBox(width: 8),
-                        Expanded(child: BidiText(l.planDone)),
+                        Expanded(
+                          child: BidiText(
+                            day == null
+                                ? l.planDone
+                                : context.tr(
+                                    'You finished this day.',
+                                    'خلّصت مهام اليوم ده.',
+                                  ),
+                          ),
+                        ),
                       ],
                     )
                   : FilledButton.icon(
                       key: const ValueKey('continue-plan'),
                       icon: const Icon(Icons.play_arrow),
                       label: BidiText(
-                        done.isEmpty ? l.startPlan : l.continuePlan,
+                        day != null
+                            ? context.tr(
+                                'Catch up on what you missed',
+                                'كمّل اللي فاتك',
+                              )
+                            : done.isEmpty
+                            ? l.startPlan
+                            : l.continuePlan,
                       ),
-                      onPressed: () => runBlock(context, ref, next),
+                      onPressed: () => runBlock(context, ref, next, day: day),
                     ),
             ),
           ],
@@ -218,10 +351,12 @@ class _BlockTile extends ConsumerWidget {
     required this.index,
     required this.block,
     required this.done,
+    this.day,
   });
   final int index;
   final SessionBlock block;
   final bool done;
+  final String? day;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -270,7 +405,7 @@ class _BlockTile extends ConsumerWidget {
       ),
       subtitle: subtitle == null ? null : BidiText(subtitle),
       trailing: BidiText(l.minutesShort(block.minutes)),
-      onTap: () => runBlock(context, ref, block),
+      onTap: () => runBlock(context, ref, block, day: day),
     );
   }
 }
@@ -290,8 +425,9 @@ String skillName(BuildContext context, SkillKind s) {
 Future<void> runBlock(
   BuildContext context,
   WidgetRef ref,
-  SessionBlock block,
-) async {
+  SessionBlock block, {
+  String? day,
+}) async {
   if (block.lang != null) await switchLanguage(ref, block.lang!);
   if (!context.mounted) return;
   final route = switch (block.kind) {
@@ -308,7 +444,7 @@ Future<void> runBlock(
         .first;
     if (progress[block.lessonId]?.status != LessonStatus.completed) return;
   }
-  await markBlockDone(ref, block);
+  await markBlockDone(ref, block, day: day);
 }
 
 /// One line per language: level, next lesson, and the button to move on to

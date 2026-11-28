@@ -54,12 +54,16 @@ final settingsProvider = StreamProvider<UserSettings>(
 class StartupState {
   const StartupState({
     this.settings,
-    this.appTheme = AppTheme.aurora,
+    this.appTheme = AppTheme.lagoon,
     this.themeMode = ThemeMode.system,
+    this.glass = false,
   });
   final UserSettings? settings;
   final AppTheme appTheme;
   final ThemeMode themeMode;
+
+  /// The frosted glass style, which works with every colour theme.
+  final bool glass;
 }
 
 final startupStateProvider = Provider<StartupState>(
@@ -352,6 +356,9 @@ final onboardedProvider = StreamProvider<bool>(
 /// Colour theme and light/dark mode, kept on this device only.
 final appThemeProvider = StreamProvider<AppTheme>(
   (ref) => ref.watch(localDbProvider).watchMeta('theme').map(AppTheme.parse),
+);
+final glassProvider = StreamProvider<bool>(
+  (ref) => ref.watch(localDbProvider).watchMeta('glass').map((v) => v == true),
 );
 final themeModeProvider = StreamProvider<ThemeMode>(
   (ref) => ref
