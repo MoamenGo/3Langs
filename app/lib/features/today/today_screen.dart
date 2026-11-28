@@ -162,23 +162,28 @@ class _PlanSectionState extends ConsumerState<_PlanSection> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         // Back in time is "previous": the arrow points to the reading start.
-        TextButton.icon(
-          key: const ValueKey('plan-prev'),
-          onPressed: _back >= maxBack ? null : () => setState(() => _back++),
-          icon: const Icon(Icons.chevron_left),
-          label: BidiText(context.tr('Previous day', 'اليوم اللي قبله')),
+        Flexible(
+          child: TextButton.icon(
+            key: const ValueKey('plan-prev'),
+            onPressed: _back >= maxBack ? null : () => setState(() => _back++),
+            icon: const Icon(Icons.chevron_left),
+            label: BidiText(context.tr('Previous day', 'اليوم اللي قبله')),
+          ),
         ),
+        const SizedBox(width: 4),
         BidiText(
           _label(context, day),
           key: const ValueKey('plan-day'),
           style: Theme.of(context).textTheme.titleSmall
               ?.copyWith(fontWeight: FontWeight.w700),
         ),
-        TextButton.icon(
-          key: const ValueKey('plan-next'),
-          onPressed: _back == 0 ? null : () => setState(() => _back--),
-          icon: const Icon(Icons.chevron_right),
-          label: BidiText(context.tr('Next day', 'اليوم اللي بعده')),
+        Flexible(
+          child: TextButton.icon(
+            key: const ValueKey('plan-next'),
+            onPressed: _back == 0 ? null : () => setState(() => _back--),
+            icon: const Icon(Icons.chevron_right),
+            label: BidiText(context.tr('Next day', 'اليوم اللي بعده')),
+          ),
         ),
       ],
     );
